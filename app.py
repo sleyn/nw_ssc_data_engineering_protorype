@@ -9,6 +9,7 @@ pattern").
 Run locally with `uv sync` then `uv run streamlit run app.py`.
 """
 
+import itertools
 import sqlite3
 from typing import Protocol
 
@@ -16,10 +17,18 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 import streamlit as st
+from matplotlib.axes import Axes
 from matplotlib.figure import Figure
 
 from data.access import get_variable, list_subjects, table_coverage
 from data.auth import log_event, verify_credentials
+from data.compare import (
+    CompareVariable,
+    ComparisonFrame,
+    build_comparison,
+    control_overlay_available,
+    list_compare_variables,
+)
 from data.dictionary import describe_all_tables
 from data.store import build_encrypted_store, open_store
 
@@ -200,6 +209,147 @@ def _render_cohort_overview_tab(conn: sqlite3.Connection) -> None:
     _render_table_coverage(conn)
 
 
+_MAX_COMPARISON_PAIRS = 6  # C(4, 2) -- keeps a large selection from rendering dozens of charts
+
+
+def _add_control_overlay_scatter(ax: Axes, x: pd.Series, y: pd.Series) -> None:
+    """The shared marker style for highlighting Control Subject points on
+    top of a scatter or box chart (User Story 25) -- factored out since
+    scatter and box charts otherwise repeat the identical call."""
+    ax.scatter(x, y, color="black", marker="D", s=70, label="Control Subject", zorder=5)
+
+
+def _build_comparison_figure(
+    result: ComparisonFrame, data: pd.DataFrame, show_control_overlay: bool
+) -> Figure:
+    """One matplotlib figure for a `ComparisonFrame` whose chart_type is
+    scatter/box/line/heatmap -- never called for "unsupported" (the caller
+    falls back to a crosstab instead, see `_render_comparison_pair`)."""
+    fig, ax = plt.subplots(figsize=(6, 4.5))
+    if show_control_overlay:
+        base, control_rows = data[data["cohort"] != "control"], data[data["cohort"] == "control"]
+    else:
+        base, control_rows = data, data.iloc[0:0]
+
+    if result.chart_type == "scatter":
+        sns.scatterplot(x="x", y="y", data=base, ax=ax, alpha=0.6)
+        if not control_rows.empty:
+            _add_control_overlay_scatter(ax, control_rows["x"], control_rows["y"])
+        ax.set_xlabel(result.x_label)
+        ax.set_ylabel(result.y_label)
+    elif result.chart_type == "box":
+        # Whichever axis is the categorical one becomes the box grouping --
+        # the ticket's rule is order-independent ("categorical-numeric"),
+        # but a box plot itself needs a fixed x/y assignment.
+        cat_col, cat_label, num_col, num_label = (
+            ("x", result.x_label, "y", result.y_label)
+            if result.x_dtype == "categorical"
+            else ("y", result.y_label, "x", result.x_label)
+        )
+        sns.boxplot(x=cat_col, y=num_col, data=base, ax=ax)
+        if not control_rows.empty:
+            _add_control_overlay_scatter(ax, control_rows[cat_col], control_rows[num_col])
+        ax.set_xlabel(cat_label)
+        ax.set_ylabel(num_label)
+        ax.tick_params(axis="x", rotation=30)
+    elif result.chart_type == "heatmap":
+        # Both axes categorical: a count crosstab is the natural chart. No
+        # Control Subject in this dataset has categorical data on either
+        # axis a heatmap pairing can reach, so the overlay toggle never
+        # actually renders for this chart_type -- `data` here is always
+        # every-Subject-is-not-a-Control-Subject already, not just `base`.
+        counts = pd.crosstab(data["x"], data["y"])
+        sns.heatmap(counts, annot=True, fmt="d", cmap="Blues", ax=ax)
+        ax.set_xlabel(result.y_label)
+        ax.set_ylabel(result.x_label)
+        ax.tick_params(axis="x", rotation=30)
+        return fig
+    else:  # line -- one side of the pair was picked "over time" (User Story 24)
+        hue = "hue" if result.hue_label else None
+        sns.lineplot(x="x", y="y", hue=hue, data=base, ax=ax, errorbar=("ci", 95))
+        for subject_id, group in control_rows.sort_values("x").groupby("subject_id"):
+            ax.plot(
+                group["x"], group["y"], color="black", linewidth=2, linestyle="--",
+                marker="o", label=f"Control Subject ({subject_id})",
+            )
+        ax.set_xlabel(result.x_label)
+        ax.set_ylabel(result.y_label)
+        fig.autofmt_xdate()
+
+    handles, _ = ax.get_legend_handles_labels()
+    if handles:
+        ax.legend(fontsize=8)
+    return fig
+
+
+def _render_comparison_pair(
+    conn: sqlite3.Connection, a: CompareVariable, b: CompareVariable
+) -> None:
+    result = build_comparison(conn, a, b)
+    data = result.data.dropna(subset=["x", "y"])
+    if data.empty:
+        st.warning("No Subjects have data for both of these variables.")
+        return
+
+    show_control_overlay = False
+    if control_overlay_available(data):
+        # Hidden entirely (not just disabled) when it wouldn't be
+        # meaningful (User Story 25) -- most pairings involving a
+        # Registry-only or Lab Result/Antibody field never reach this.
+        show_control_overlay = st.toggle(
+            "Highlight the 4 Control Subjects",
+            key=f"control-overlay-{a.field_name}-{a.level}-{b.field_name}-{b.level}",
+        )
+
+    if result.chart_type == "unsupported":
+        st.info(
+            "A category's trend over time doesn't have an automatic chart rule here -- showing "
+            "the raw values instead."
+        )
+        st.dataframe(data[["subject_id", "x", "y"]])
+        return
+
+    fig = _build_comparison_figure(result, data, show_control_overlay)
+    _show_fig(st, fig)
+
+
+def _render_compare_discover_tab(conn: sqlite3.Connection) -> None:
+    st.header("Compare & Discover")
+    st.write(
+        "Pick 2 or more variables from any table, at any level, and get the chart type that "
+        "fits what you picked automatically -- a scatter for two numeric measures, a box plot "
+        "for a numeric measure grouped by a category, a trend line when one of your picks is a "
+        "longitudinal reading followed over time (spec \"Compare & Discover\", User Story 24)."
+    )
+
+    catalog = list_compare_variables(conn)
+    by_label = {variable.display_label: variable for variable in catalog}
+    selected_labels = st.multiselect(
+        "Variables to compare",
+        options=[variable.display_label for variable in catalog],
+        help=(
+            "A demographic field, a per-patient summary of a longitudinal reading (Lab Result / "
+            "Vital Sign / MRSS / PFT / Antibody), or that same reading's raw over-time series."
+        ),
+    )
+    if len(selected_labels) < 2:
+        st.info("Select at least 2 variables to compare.")
+        return
+
+    selected = [by_label[label] for label in selected_labels]
+    pairs = list(itertools.combinations(selected, 2))
+    if len(pairs) > _MAX_COMPARISON_PAIRS:
+        st.caption(
+            f"{len(selected)} variables selected -- showing the first {_MAX_COMPARISON_PAIRS} "
+            f"of {len(pairs)} possible pairs. Deselect some to see the rest."
+        )
+        pairs = pairs[:_MAX_COMPARISON_PAIRS]
+
+    for a, b in pairs:
+        st.subheader(f"{a.display_label} vs. {b.display_label}")
+        _render_comparison_pair(conn, a, b)
+
+
 def main() -> None:
     if "username" not in st.session_state:
         _render_login_form()
@@ -215,7 +365,7 @@ def main() -> None:
     with tabs[1]:
         _render_cohort_overview_tab(conn)
     with tabs[2]:
-        st.info("Compare & Discover is coming in a later ticket (08).")
+        _render_compare_discover_tab(conn)
     with tabs[3]:
         st.info("Patient Trajectory is coming in a later ticket (09).")
 
