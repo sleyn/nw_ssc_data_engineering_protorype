@@ -9,6 +9,7 @@ dependencies = [
     "matplotlib>=3.11.1",
     "pandas>=3.0.5",
     "seaborn>=0.13.2",
+    "streamlit>=1.63.0",
 ]
 
 [dependency-groups]

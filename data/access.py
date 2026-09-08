@@ -71,6 +71,20 @@ _DEMOGRAPHIC_TABLES: tuple[tuple[str, tuple[str, ...]], ...] = (
 )
 
 
+def non_pii_columns(table: str) -> tuple[str, ...] | None:
+    """The non-PII columns `_DEMOGRAPHIC_TABLES` allow-lists for `table`
+    (``subject_id`` plus whatever that registry names), or `None` if `table`
+    isn't one of the demographic-level tables this module tracks at all.
+    The Data & Dictionary tab (`data/dictionary.py`) derives its own
+    PII-suppression list from this registry rather than keeping an
+    independent one, so the two views of "what's PII here" can't silently
+    drift apart."""
+    for known_table, columns in _DEMOGRAPHIC_TABLES:
+        if known_table == table:
+            return ("subject_id", *columns)
+    return None
+
+
 class _ObservationSource(NamedTuple):
     """One Observation-shaped table: measure/test name + value per Subject
     per date (ADR 0003's shape, extended to every table that shares it — see
