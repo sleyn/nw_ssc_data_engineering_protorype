@@ -217,6 +217,9 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
+# Built runtime store (regenerated from data/data_v3 at build/startup time)
+/data/ssc.db
+
 # Agent data
 .scratch/
 .claude/
