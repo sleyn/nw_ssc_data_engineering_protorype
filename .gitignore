@@ -215,10 +215,12 @@ marimo/_lsp/
 __marimo__/
 
 # Streamlit
-.streamlit/secrets.toml
+# Note: .streamlit/secrets.toml is deliberately committed, not ignored here
+# (ADR 0004) - it holds only intentionally-public demo values.
 
 # Built runtime store (regenerated from data/data_v3 at build/startup time)
 /data/ssc.db
+/data/ssc.db.enc
 
 # Agent data
 .scratch/
