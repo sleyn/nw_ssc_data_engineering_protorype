@@ -92,6 +92,12 @@ def open_store(
         raise
     atexit.register(tmp_path.unlink, missing_ok=True)
 
-    conn = sqlite3.connect(tmp_path, factory=_TempStoreConnection)
+    # check_same_thread=False: the Streamlit app caches this one connection
+    # process-wide across every rerun (app.py's _get_connection, ADR 0002),
+    # and Streamlit does not guarantee reruns execute on the same thread --
+    # reruns are always sequential, never concurrent, so sharing the
+    # connection across them is safe despite sqlite3's default same-thread
+    # restriction.
+    conn = sqlite3.connect(tmp_path, factory=_TempStoreConnection, check_same_thread=False)
     conn._tmp_path = tmp_path
     return conn
