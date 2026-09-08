@@ -12,21 +12,25 @@ import sqlite3
 from pathlib import Path
 
 import pandas as pd
+from pandas.io.sql import get_schema  # type: ignore[attr-defined]  # missing from pandas-stubs
 
-REPO_ROOT = Path(__file__).parent
-DEFAULT_CSV_DIR = REPO_ROOT / "data" / "data_v3"
-DEFAULT_DB_PATH = REPO_ROOT / "data" / "ssc.db"
+DEFAULT_CSV_DIR = Path(__file__).parent / "data_v3"
+DEFAULT_DB_PATH = Path(__file__).parent / "ssc.db"
 
 SUBJECT_ID_COLUMN = "subject_id"
+COHORT_SSC_PATIENT = "ssc_patient"
+COHORT_CONTROL = "control"
 
 # Registry tables: joined 1:1, they define the ssc_patient Cohort (CONTEXT.md).
-DEMOGRAPHICS_ID_COLUMN = "case number"
+REGISTRY_ID_COLUMNS = {
+    "demographics": "case number",
+    "ssc_subtype": "study_code",
+}
 DEMOGRAPHICS_RENAME = {
     "first name": "first_name",
     "last name": "last_name",
     "birth date": "birth_date",
 }
-SSC_SUBTYPE_ID_COLUMN = "study_code"
 
 # Every other clinical/molecular table, keyed on Subject (not Registry-only).
 CLINICAL_ID_COLUMNS = {
@@ -46,10 +50,10 @@ CLINICAL_ID_COLUMNS = {
 HEIGHT_CM_THRESHOLD = 100.0
 CM_PER_INCH = 2.54
 
-SUBJECTS_SCHEMA = """
+SUBJECTS_SCHEMA = f"""
 CREATE TABLE subjects (
     subject_id TEXT PRIMARY KEY,
-    cohort TEXT NOT NULL CHECK (cohort IN ('ssc_patient', 'control'))
+    cohort TEXT NOT NULL CHECK (cohort IN ('{COHORT_SSC_PATIENT}', '{COHORT_CONTROL}'))
 )
 """
 
@@ -97,10 +101,17 @@ def _normalize_height(demographics: pd.DataFrame) -> pd.DataFrame:
 
 
 def _load_registry(csv_dir: Path) -> tuple[pd.DataFrame, pd.DataFrame]:
-    demographics = _read_csv(csv_dir, "demographics", DEMOGRAPHICS_ID_COLUMN)
+    demographics = _read_csv(csv_dir, "demographics", REGISTRY_ID_COLUMNS["demographics"])
     demographics = demographics.rename(columns=DEMOGRAPHICS_RENAME)
     demographics = _normalize_height(demographics)
-    ssc_subtype = _read_csv(csv_dir, "ssc_subtype", SSC_SUBTYPE_ID_COLUMN)
+    ssc_subtype = _read_csv(csv_dir, "ssc_subtype", REGISTRY_ID_COLUMNS["ssc_subtype"])
+
+    mismatched = set(demographics[SUBJECT_ID_COLUMN]) ^ set(ssc_subtype[SUBJECT_ID_COLUMN])
+    if mismatched:
+        raise RuntimeError(
+            "demographics and ssc_subtype disagree on Registry membership "
+            f"(CONTEXT.md expects full overlap): {sorted(mismatched)}"
+        )
     return demographics, ssc_subtype
 
 
@@ -120,10 +131,23 @@ def _build_subjects(
     control_ids: set[str] = set()
     for df in clinical_tables.values():
         control_ids |= set(df[SUBJECT_ID_COLUMN]) - registry_ids
-    rows = [(sid, "ssc_patient") for sid in sorted(registry_ids)] + [
-        (sid, "control") for sid in sorted(control_ids)
+    rows = [(sid, COHORT_SSC_PATIENT) for sid in sorted(registry_ids)] + [
+        (sid, COHORT_CONTROL) for sid in sorted(control_ids)
     ]
     return pd.DataFrame(rows, columns=[SUBJECT_ID_COLUMN, "cohort"])
+
+
+def _create_clinical_table(conn: sqlite3.Connection, table: str, df: pd.DataFrame) -> None:
+    """Create `table` with subject_id foreign-keyed to subjects (ADR 0005), then
+    load it. Column types are the same ones pandas would infer via `to_sql`;
+    the only change from that is adding the REFERENCES clause."""
+    schema = get_schema(df, table, con=conn)
+    fk_column = f'"{SUBJECT_ID_COLUMN}" TEXT'
+    patched = schema.replace(fk_column, f"{fk_column} REFERENCES subjects({SUBJECT_ID_COLUMN})", 1)
+    if patched == schema:
+        raise RuntimeError(f"expected to find {fk_column!r} in generated schema for {table!r}")
+    conn.execute(patched)
+    df.to_sql(table, conn, if_exists="append", index=False)
 
 
 def _assert_no_orphans(conn: sqlite3.Connection, tables: list[str]) -> None:
@@ -146,7 +170,8 @@ def build_store(db_path: Path = DEFAULT_DB_PATH, csv_dir: Path = DEFAULT_CSV_DIR
     from scratch. Never reads back from or writes to csv_dir.
     """
     demographics, ssc_subtype = _load_registry(csv_dir)
-    registry_ids = set(demographics[SUBJECT_ID_COLUMN]) | set(ssc_subtype[SUBJECT_ID_COLUMN])
+    # _load_registry has already asserted demographics/ssc_subtype agree on membership.
+    registry_ids = set(demographics[SUBJECT_ID_COLUMN])
 
     clinical_tables = _load_clinical_tables(csv_dir)
     subjects = _build_subjects(registry_ids, clinical_tables)
@@ -155,6 +180,8 @@ def build_store(db_path: Path = DEFAULT_DB_PATH, csv_dir: Path = DEFAULT_CSV_DIR
     db_path.unlink(missing_ok=True)
 
     with contextlib.closing(sqlite3.connect(db_path)) as conn:
+        conn.execute("PRAGMA foreign_keys = ON")
+
         conn.execute(SUBJECTS_SCHEMA)
         conn.execute(DEMOGRAPHICS_SCHEMA)
         conn.execute(SSC_SUBTYPE_SCHEMA)
@@ -164,7 +191,7 @@ def build_store(db_path: Path = DEFAULT_DB_PATH, csv_dir: Path = DEFAULT_CSV_DIR
         ssc_subtype.to_sql("ssc_subtype", conn, if_exists="append", index=False)
 
         for table, df in clinical_tables.items():
-            df.to_sql(table, conn, if_exists="fail", index=False)
+            _create_clinical_table(conn, table, df)
 
         _assert_no_orphans(conn, ["demographics", "ssc_subtype", *clinical_tables])
 

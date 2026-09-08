@@ -8,7 +8,7 @@ from pathlib import Path
 import pandas as pd
 import pytest
 
-from ingest import DEFAULT_CSV_DIR, build_store
+from data.ingest import DEFAULT_CSV_DIR, build_store
 
 REGISTRY_SIZE = 1500
 CONTROL_SIZE = 4
