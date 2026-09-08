@@ -111,6 +111,7 @@ def test_list_variables_covers_demographic_and_observation_fields(
     assert by_name.loc["WBC", "level"] == "observation"
     assert by_name.loc["WBC", "table"] == "lab_report"
     assert by_name.loc["MRSS", "table"] == "mrss"
+    assert by_name.loc["scl70", "table"] == "antibodies"
     # PII must never surface as a queryable field (spec PII handling).
     assert "first_name" not in by_name.index
     assert "last_name" not in by_name.index
@@ -151,6 +152,16 @@ def test_get_variable_resolves_the_fixed_measure_mrss_table(conn: sqlite3.Connec
     mrss = get_variable(conn, "MRSS", subject_id=A_CONTROL_SUBJECT)
     assert len(mrss) == 1
     assert mrss["subject_id"].iloc[0] == A_CONTROL_SUBJECT
+
+
+def test_get_variable_resolves_an_antibodies_field(conn: sqlite3.Connection) -> None:
+    # antibodies.csv shares the same test-name-plus-value-per-date shape as
+    # vitals/lab_report/mrss/pft (see data/access.py module docstring) and
+    # is reachable through the same generic picker.
+    scl70 = get_variable(conn, "scl70")
+    assert list(scl70.columns) == ["subject_id", "date", "value"]
+    assert not scl70.empty
+    assert set(scl70["value"]).issubset({"negative", "positive", "borderline", "indeterminate"})
 
 
 def test_get_variable_rejects_an_unknown_field_name(conn: sqlite3.Connection) -> None:

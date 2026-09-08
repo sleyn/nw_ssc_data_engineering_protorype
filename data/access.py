@@ -15,19 +15,28 @@ Three read shapes, matching how the app and notebook actually need the data:
 
 - ``list_subjects``: the full Subject roster with cohort/SSc-subtype.
 - ``get_subject_record``: one Subject's full longitudinal record (labs,
-  vitals, MRSS, PFT, medications).
-- ``get_variable`` / ``list_variables``: a generic picker that resolves any
-  canonical field name — a demographic column or an Observation measure
-  (ADR 0003: vitals/lab_report/mrss/pft share one component-name-plus-value
-  shape internally) — to its source table, without the caller needing to
-  know which table a field lives in. Deliberately does not cover
-  ``medications``: a medication event is a (drug, dose) pair, not a single
-  named measure's value, so it does not fit this shape — it stays reachable
-  only through ``get_subject_record``.
+  vitals, MRSS, PFT, medications) — the 5 domains the ticket names by name.
+- ``get_variable`` / ``list_variables``: a generic picker, addressed by
+  canonical field name, resolving to a ``subject_id, date, value`` frame
+  without the caller needing to know which table a field lives in. Covers
+  every demographic column plus every Observation-shaped table: ADR 0003
+  unifies ``lab_report``/``vitals``/``mrss`` under one internal
+  component-name-plus-value shape; ``pft`` and ``antibodies`` are not named
+  by that ADR but share the identical shape (measure/test name + value per
+  Subject per date) and are folded in here for the same reason, since the
+  picker's own job is to be generic over "any table" a field might live in.
+  Deliberately does not cover ``medications``: a medication event is a
+  (drug, dose) pair, not a single named measure's value, so it does not fit
+  this shape — it stays reachable only through ``get_subject_record``.
+
+A field is addressed by "field name" here (matching the ticket's own
+wording) while the public functions read as "variable" (``get_variable``,
+``list_variables``, matching the app-facing "variable-picker" vocabulary
+User Story 24 uses) — the two are intentionally the same concept named for
+two different audiences, not an inconsistency.
 """
 
 import sqlite3
-from dataclasses import dataclass
 from typing import NamedTuple
 
 import pandas as pd
@@ -58,13 +67,14 @@ _DEMOGRAPHIC_TABLES: tuple[tuple[str, tuple[str, ...]], ...] = (
 )
 
 
-@dataclass(frozen=True)
-class _ObservationSource:
-    """One Observation-shaped table (ADR 0003). Either `measure_col` names
-    the column holding each row's measure (vitals/lab_report/pft, which mix
-    many measures in one table) or `fixed_measure` names the single measure
-    every row in the table already is (mrss, which has no measure column of
-    its own — every row is an MRSS score)."""
+class _ObservationSource(NamedTuple):
+    """One Observation-shaped table: measure/test name + value per Subject
+    per date (ADR 0003's shape, extended to every table that shares it — see
+    the module docstring). Either `measure_col` names the column holding
+    each row's measure (vitals/lab_report/pft/antibodies, which mix many
+    measures in one table) or `fixed_measure` names the single measure every
+    row in the table already is (mrss, which has no measure column of its
+    own — every row is an MRSS score)."""
 
     table: str
     value_col: str
@@ -73,11 +83,18 @@ class _ObservationSource:
     fixed_measure: str | None = None
 
 
+# qc.py's generate_report independently re-selects these same tables with
+# the same measure/value columns for its own report-oriented queries (raw,
+# unfiltered, built for narrating findings) rather than importing this
+# registry — deliberate, not an oversight: its needs differ enough (e.g. it
+# also reads medications, which this generic picker does not cover) that
+# coupling the two for four shared column names was not judged worth it.
 _OBSERVATION_SOURCES: tuple[_ObservationSource, ...] = (
     _ObservationSource("vitals", "vital_value", "date", measure_col="vital_type_name_category"),
     _ObservationSource("lab_report", "value", "order_date", measure_col="component_name"),
     _ObservationSource("mrss", "mrss_score", "date", fixed_measure="MRSS"),
     _ObservationSource("pft", "ORD_VALUE", "PFT_dts", measure_col="NAME"),
+    _ObservationSource("antibodies", "value", "dts", measure_col="test"),
 )
 
 
@@ -234,8 +251,9 @@ def get_variable(
     conn: sqlite3.Connection, field_name: str, *, subject_id: str | None = None
 ) -> pd.DataFrame:
     """Resolve `field_name` — a demographic column or an Observation measure
-    (any of vitals/lab_report/mrss/pft) — to a `subject_id, date, value`
-    DataFrame, without the caller needing to know which table it lives in.
+    (any of vitals/lab_report/mrss/pft/antibodies) — to a
+    `subject_id, date, value` DataFrame, without the caller needing to know
+    which table it lives in.
     `date` is `NaT` for demographic-level fields (one value per Subject, not
     per visit). Optionally restrict to one Subject. Raises `ValueError` for
     an unrecognized field_name — call `list_variables` for the known set.
