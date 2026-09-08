@@ -59,12 +59,25 @@ def build_encrypted_store(
     encrypted_db_path.write_bytes(ciphertext)
 
 
+class _TempStoreConnection(sqlite3.Connection):
+    """A connection to a decrypted temp copy of the store that removes that
+    copy on close, so repeated open_store() calls in one process don't each
+    leave a plaintext file on disk until process exit."""
+
+    _tmp_path: Path
+
+    def close(self) -> None:
+        super().close()
+        self._tmp_path.unlink(missing_ok=True)
+
+
 def open_store(
     encrypted_db_path: Path = DEFAULT_ENCRYPTED_DB_PATH,
     secrets_path: Path = DEFAULT_SECRETS_PATH,
 ) -> sqlite3.Connection:
     """Decrypt encrypted_db_path to a temp file and return a live connection
-    to it. The temp file is removed when the process exits.
+    to it. The temp file is removed when the connection is closed, or at
+    process exit if it never is.
     """
     fernet = Fernet(_load_encryption_key(secrets_path))
     plaintext = fernet.decrypt(encrypted_db_path.read_bytes())
@@ -79,4 +92,6 @@ def open_store(
         raise
     atexit.register(tmp_path.unlink, missing_ok=True)
 
-    return sqlite3.connect(tmp_path)
+    conn = sqlite3.connect(tmp_path, factory=_TempStoreConnection)
+    conn._tmp_path = tmp_path
+    return conn

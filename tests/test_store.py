@@ -49,6 +49,18 @@ def test_build_encrypted_store_round_trips_through_open_store(
         conn.close()
 
 
+def test_open_store_removes_its_temp_file_on_close(
+    encrypted_path: Path, secrets_path: Path
+) -> None:
+    conn = open_store(encrypted_db_path=encrypted_path, secrets_path=secrets_path)
+    tmp_path = Path(conn.execute("PRAGMA database_list").fetchone()[2])
+    assert tmp_path.exists()
+
+    conn.close()
+
+    assert not tmp_path.exists()
+
+
 def test_encrypted_artifact_is_not_openable_as_sqlite_directly(encrypted_path: Path) -> None:
     assert encrypted_path.read_bytes()[: len(SQLITE_MAGIC)] != SQLITE_MAGIC
 
