@@ -34,7 +34,11 @@ CONFIRMED_CONTROL_SUBJECT_IDS: frozenset[str] = frozenset(
 # than it would if personal-constant values were spread evenly across the
 # distinct values actually observed. MIN_CONSTANT_VALUE_DOMINANCE_RATIO is
 # that dominance threshold; MIN_CONSTANT_VALUE_SUBJECTS is a floor so a small
-# sample can't hit a high ratio by chance.
+# sample can't hit a high ratio by chance. Because this requires 100% of a
+# patient's visits to match (not just any one occurrence), the reported
+# patient/record counts for the 160.6 case are lower than presentation-notes'
+# 195-patient/870-record figures — those counted any occurrence of 160.6, this
+# counts only patients for whom it's the literal value on every single visit.
 MIN_CONSTANT_VALUE_VISITS = 2
 MIN_CONSTANT_VALUE_SUBJECTS = 10
 MIN_CONSTANT_VALUE_DOMINANCE_RATIO = 25.0
