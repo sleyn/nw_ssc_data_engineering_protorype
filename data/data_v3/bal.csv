@@ -1,0 +1,1171 @@
+bal_id,reg_id,procedure_date,procedure_site,volume_instilled_ml,volume_recovered_ml,bal_comment
+BAL_2005-880,subject_2005,2021-10-10,Lingula,120,58.2,
+BAL_2009-529,subject_2009,2020-01-21,Left lower lobe,100,44.0,All 7 mL of sample were processed - cell count was too low to sort
+BAL_2028-696,subject_2028,2017-02-23,Lingula,100,41.1,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_2028-580,subject_2028,2017-08-29,Right lower lobe,120,59.3,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_2053-324,subject_2053,2021-03-21,Left lower lobe,120,54.8,"Low return volume, procedure tolerated well"
+BAL_2053-970,subject_2053,2021-07-03,Right middle lobe,120,48.5,"Low return volume, procedure tolerated well"
+BAL_2061-174,subject_2061,2021-01-31,Right lower lobe,100,33.1,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_2061-281,subject_2061,2021-08-24,Lingula,120,66.3,
+BAL_2064-117,subject_2064,2018-12-22,Right upper lobe,100,44.4,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_2099-185,subject_2099,2022-05-09,Lingula,80,44.9,All 7 mL of sample were processed - cell count was too low to sort
+BAL_2099-269,subject_2099,2022-05-16,Right upper lobe,100,18.8,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_2124-144,subject_2124,2019-06-12,Right upper lobe,80,13.1,All 7 mL of sample were processed - cell count was too low to sort
+BAL_2148-425,subject_2148,2016-03-28,Right lower lobe,120,45.3,
+BAL_2148-113,subject_2148,2016-10-03,Right upper lobe,100,53.6,
+BAL_2150-423,subject_2150,2020-01-19,Lingula,90,46.3,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_2151-471,subject_2151,2018-04-18,Right lower lobe,90,46.3,"Low return volume, procedure tolerated well"
+BAL_2160-406,subject_2160,2017-06-10,Right middle lobe,90,19.4,
+BAL_2187-494,subject_2187,2021-10-05,Lingula,100,43.8,Cloudy return; moderate mucus burden
+BAL_2190-566,subject_2190,2020-08-29,Left lower lobe,100,40.8,Cloudy return; moderate mucus burden
+BAL_2190-640,subject_2190,2021-08-20,Right upper lobe,80,44.4,
+BAL_2191-939,subject_2191,2021-08-09,Left lower lobe,80,21.6,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_2210-801,subject_2210,2023-06-06,Left lower lobe,120,38.4,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_2210-848,subject_2210,2023-06-11,Left lower lobe,90,31.4,Cloudy return; moderate mucus burden
+BAL_2213-109,subject_2213,2019-11-02,Right lower lobe,120,43.1,All 7 mL of sample were processed - cell count was too low to sort
+BAL_2213-147,subject_2213,2020-06-11,Right middle lobe,90,44.5,
+BAL_2230-374,subject_2230,2018-05-25,Right upper lobe,100,61.8,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_2237-271,subject_2237,2018-03-26,Left lower lobe,80,36.8,
+BAL_2237-855,subject_2237,2018-04-09,Right upper lobe,90,20.9,
+BAL_2237-633,subject_2237,2020-08-23,Right upper lobe,80,28.4,
+BAL_2239-117,subject_2239,2020-12-15,Right lower lobe,100,23.9,
+BAL_2276-208,subject_2276,2018-06-27,Left lower lobe,100,74.2,"Low return volume, procedure tolerated well"
+BAL_2276-302,subject_2276,2018-07-01,Right upper lobe,90,33.9,"Low return volume, procedure tolerated well"
+BAL_2287-907,subject_2287,2017-05-13,Left lower lobe,90,49.4,"Low return volume, procedure tolerated well"
+BAL_2287-265,subject_2287,2017-07-03,Right upper lobe,80,49.8,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_2287-212,subject_2287,2017-11-06,Right middle lobe,80,16.7,
+BAL_2293-760,subject_2293,2020-05-26,Right upper lobe,90,32.9,
+BAL_2295-733,subject_2295,2023-09-03,Right middle lobe,120,63.7,All 7 mL of sample were processed - cell count was too low to sort
+BAL_2295-267,subject_2295,2025-08-18,Right lower lobe,120,54.5,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_2301-741,subject_2301,2020-07-16,Lingula,80,32.4,
+BAL_2302-659,subject_2302,2018-08-22,Lingula,80,43.2,All 7 mL of sample were processed - cell count was too low to sort
+BAL_2302-385,subject_2302,2018-09-24,Right lower lobe,100,40.4,
+BAL_2325-233,subject_2325,2021-07-22,Right middle lobe,80,26.4,All 7 mL of sample were processed - cell count was too low to sort
+BAL_2325-357,subject_2325,2022-06-06,Right middle lobe,90,27.4,Cloudy return; moderate mucus burden
+BAL_2328-143,subject_2328,2017-12-31,Right upper lobe,80,43.8,Cloudy return; moderate mucus burden
+BAL_2332-147,subject_2332,2017-09-19,Right lower lobe,120,53.3,
+BAL_2362-576,subject_2362,2019-11-28,Right middle lobe,80,47.3,Cloudy return; moderate mucus burden
+BAL_2362-293,subject_2362,2022-06-30,Right lower lobe,80,31.2,
+BAL_2371-642,subject_2371,2022-11-22,Right lower lobe,80,43.5,"Low return volume, procedure tolerated well"
+BAL_2374-221,subject_2374,2017-06-09,Right middle lobe,120,61.8,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_2385-446,subject_2385,2021-04-01,Right middle lobe,120,37.6,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_2386-290,subject_2386,2021-07-13,Right middle lobe,90,51.2,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_2386-926,subject_2386,2021-11-03,Right middle lobe,80,29.9,Cloudy return; moderate mucus burden
+BAL_2387-830,subject_2387,2021-03-15,Right lower lobe,120,36.8,
+BAL_2387-405,subject_2387,2022-03-02,Right upper lobe,120,46.7,
+BAL_2407-267,subject_2407,2016-03-28,Left lower lobe,120,34.1,
+BAL_2407-896,subject_2407,2016-06-28,Right lower lobe,90,22.8,Cloudy return; moderate mucus burden
+BAL_2416-642,subject_2416,2019-03-15,Lingula,90,54.6,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_2416-883,subject_2416,2019-09-08,Left lower lobe,120,28.6,
+BAL_2420-806,subject_2420,2017-04-20,Right lower lobe,80,46.4,
+BAL_2420-699,subject_2420,2019-06-22,Right upper lobe,90,36.2,Cloudy return; moderate mucus burden
+BAL_2420-755,subject_2420,2022-07-17,Right middle lobe,80,30.7,Cloudy return; moderate mucus burden
+BAL_2442-156,subject_2442,2020-06-15,Left lower lobe,90,32.1,
+BAL_2444-652,subject_2444,2020-04-22,Right upper lobe,100,56.5,All 7 mL of sample were processed - cell count was too low to sort
+BAL_2444-808,subject_2444,2020-12-22,Lingula,80,57.3,All 7 mL of sample were processed - cell count was too low to sort
+BAL_2455-764,subject_2455,2019-04-17,Lingula,90,38.0,
+BAL_2455-291,subject_2455,2019-08-26,Right middle lobe,120,47.0,
+BAL_2461-817,subject_2461,2018-01-23,Lingula,120,47.8,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_2462-948,subject_2462,2020-07-11,Lingula,80,23.6,
+BAL_2468-956,subject_2468,2021-06-10,Right middle lobe,90,49.0,
+BAL_2485-935,subject_2485,2018-06-05,Left lower lobe,120,63.1,"Low return volume, procedure tolerated well"
+BAL_2505-518,subject_2505,2019-06-27,Right lower lobe,80,32.7,Cloudy return; moderate mucus burden
+BAL_2517-359,subject_2517,2019-10-19,Right lower lobe,120,58.7,
+BAL_2517-741,subject_2517,2019-10-22,Right middle lobe,100,45.2,
+BAL_2517-870,subject_2517,2019-10-24,Left lower lobe,80,8.0,
+BAL_2532-208,subject_2532,2018-07-30,Left lower lobe,90,44.3,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_2532-635,subject_2532,2019-05-18,Right middle lobe,90,40.2,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_2553-999,subject_2553,2020-02-22,Left lower lobe,100,36.7,
+BAL_2553-788,subject_2553,2020-12-31,Lingula,90,53.8,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_2558-950,subject_2558,2018-01-12,Lingula,100,28.7,
+BAL_2562-160,subject_2562,2016-07-19,Left lower lobe,120,44.1,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_2579-294,subject_2579,2017-08-18,Right upper lobe,80,32.3,
+BAL_2590-293,subject_2590,2017-03-02,Left lower lobe,100,49.8,
+BAL_2598-670,subject_2598,2019-12-25,Lingula,100,31.4,Cloudy return; moderate mucus burden
+BAL_2616-402,subject_2616,2021-01-20,Right upper lobe,80,51.3,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_2624-135,subject_2624,2021-09-22,Right middle lobe,80,44.7,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_2630-763,subject_2630,2020-08-02,Right lower lobe,100,56.4,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_2630-575,subject_2630,2021-08-02,Right middle lobe,80,32.6,
+BAL_2636-927,subject_2636,2021-11-14,Lingula,80,43.3,"Low return volume, procedure tolerated well"
+BAL_2638-844,subject_2638,2021-12-09,Left lower lobe,120,44.9,
+BAL_2650-522,subject_2650,2021-11-30,Lingula,90,37.7,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_2650-582,subject_2650,2024-01-07,Right middle lobe,90,23.7,
+BAL_2650-968,subject_2650,2024-01-30,Right upper lobe,90,42.7,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_2651-480,subject_2651,2020-06-10,Right lower lobe,90,39.9,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_2657-900,subject_2657,2018-07-03,Left lower lobe,80,38.7,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_2676-931,subject_2676,2019-09-30,Right upper lobe,100,18.6,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_2677-296,subject_2677,2016-09-22,Right lower lobe,100,43.2,
+BAL_2696-934,subject_2696,2021-06-04,Right middle lobe,120,54.6,All 7 mL of sample were processed - cell count was too low to sort
+BAL_2706-566,subject_2706,2017-03-02,Lingula,100,45.4,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_2724-968,subject_2724,2016-08-19,Right middle lobe,80,13.2,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_2729-549,subject_2729,2019-09-06,Lingula,90,40.9,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_2729-458,subject_2729,2019-12-07,Right lower lobe,100,62.2,All 7 mL of sample were processed - cell count was too low to sort
+BAL_2766-948,subject_2766,2016-11-25,Right lower lobe,80,36.0,
+BAL_2768-305,subject_2768,2023-09-10,Lingula,90,29.1,
+BAL_2768-721,subject_2768,2024-08-27,Left lower lobe,90,43.6,Cloudy return; moderate mucus burden
+BAL_2768-214,subject_2768,2025-07-13,Right lower lobe,120,27.4,"Low return volume, procedure tolerated well"
+BAL_2796-533,subject_2796,2016-01-01,Lingula,100,50.2,
+BAL_2796-730,subject_2796,2016-08-31,Lingula,90,32.8,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_2806-113,subject_2806,2022-07-14,Right lower lobe,120,36.2,
+BAL_2816-226,subject_2816,2020-01-26,Left lower lobe,80,52.6,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_2818-735,subject_2818,2021-08-04,Right middle lobe,80,45.1,
+BAL_2818-307,subject_2818,2021-11-09,Lingula,80,30.0,
+BAL_2832-351,subject_2832,2020-07-17,Left lower lobe,100,46.2,
+BAL_2844-435,subject_2844,2017-08-01,Right middle lobe,80,46.7,
+BAL_2844-555,subject_2844,2017-08-24,Left lower lobe,80,10.2,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_2846-664,subject_2846,2019-10-19,Right lower lobe,120,49.9,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_2855-710,subject_2855,2020-09-12,Lingula,90,38.8,Cloudy return; moderate mucus burden
+BAL_2855-583,subject_2855,2021-05-21,Right middle lobe,80,51.4,Cloudy return; moderate mucus burden
+BAL_2860-230,subject_2860,2020-08-23,Lingula,80,31.1,
+BAL_2860-533,subject_2860,2021-08-02,Left lower lobe,80,20.1,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_2871-992,subject_2871,2020-06-16,Lingula,90,29.5,All 7 mL of sample were processed - cell count was too low to sort
+BAL_2871-562,subject_2871,2020-12-21,Right lower lobe,90,26.1,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_2885-543,subject_2885,2016-05-02,Right upper lobe,90,21.6,
+BAL_2885-459,subject_2885,2016-05-31,Lingula,80,26.5,Cloudy return; moderate mucus burden
+BAL_2886-568,subject_2886,2017-11-23,Lingula,120,37.9,
+BAL_2893-806,subject_2893,2016-01-01,Right upper lobe,100,51.4,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_2908-741,subject_2908,2018-09-05,Lingula,90,30.6,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_2908-631,subject_2908,2021-03-03,Lingula,120,22.6,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_2919-339,subject_2919,2018-07-18,Left lower lobe,80,26.8,"Low return volume, procedure tolerated well"
+BAL_2924-133,subject_2924,2019-12-15,Right upper lobe,90,19.4,
+BAL_2927-731,subject_2927,2016-05-25,Lingula,120,41.7,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_2938-123,subject_2938,2020-05-28,Right lower lobe,90,33.6,
+BAL_2938-741,subject_2938,2021-05-04,Right upper lobe,120,56.5,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_2946-525,subject_2946,2021-07-16,Lingula,100,56.6,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_2949-616,subject_2949,2018-02-18,Left lower lobe,100,50.0,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_2951-816,subject_2951,2016-11-26,Right upper lobe,90,35.1,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_2951-782,subject_2951,2016-12-27,Right middle lobe,100,27.2,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_2952-472,subject_2952,2017-02-18,Right upper lobe,90,38.9,
+BAL_2958-756,subject_2958,2021-06-27,Left lower lobe,90,47.0,
+BAL_2958-679,subject_2958,2021-12-22,Right upper lobe,120,45.1,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_2958-282,subject_2958,2023-06-11,Right upper lobe,120,72.5,
+BAL_2961-543,subject_2961,2021-01-15,Right middle lobe,120,54.8,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_2965-131,subject_2965,2020-05-03,Left lower lobe,100,31.8,
+BAL_2965-480,subject_2965,2020-06-08,Left lower lobe,80,42.2,
+BAL_2965-101,subject_2965,2020-06-17,Right upper lobe,90,58.5,
+BAL_2971-214,subject_2971,2022-10-31,Right lower lobe,80,35.9,
+BAL_2972-682,subject_2972,2018-02-24,Right middle lobe,120,43.0,Cloudy return; moderate mucus burden
+BAL_3005-960,subject_3005,2019-02-13,Left lower lobe,80,25.3,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_3019-570,subject_3019,2017-11-19,Lingula,100,50.2,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_3019-820,subject_3019,2018-10-13,Right lower lobe,100,46.0,
+BAL_3047-989,subject_3047,2021-07-19,Right middle lobe,100,40.8,
+BAL_3047-380,subject_3047,2022-01-22,Right upper lobe,80,35.7,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_3061-593,subject_3061,2016-07-13,Right lower lobe,90,40.6,
+BAL_3063-671,subject_3063,2017-06-13,Lingula,90,49.3,Cloudy return; moderate mucus burden
+BAL_3068-218,subject_3068,2016-09-17,Right lower lobe,80,42.2,
+BAL_3101-278,subject_3101,2021-06-12,Left lower lobe,90,33.1,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_3104-466,subject_3104,2021-01-24,Left lower lobe,120,76.0,"Low return volume, procedure tolerated well"
+BAL_3137-405,subject_3137,2017-01-20,Right upper lobe,120,64.6,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_3137-617,subject_3137,2018-07-04,Right lower lobe,80,44.8,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_3140-238,subject_3140,2021-03-08,Left lower lobe,80,26.3,
+BAL_3140-500,subject_3140,2021-03-12,Lingula,90,49.1,
+BAL_3148-575,subject_3148,2019-04-30,Right lower lobe,120,50.2,Cloudy return; moderate mucus burden
+BAL_3148-381,subject_3148,2020-03-22,Right middle lobe,90,23.0,Cloudy return; moderate mucus burden
+BAL_3149-444,subject_3149,2017-02-26,Right middle lobe,80,30.4,
+BAL_3149-182,subject_3149,2018-03-01,Right lower lobe,90,45.8,
+BAL_3156-881,subject_3156,2019-04-18,Right lower lobe,120,58.8,Cloudy return; moderate mucus burden
+BAL_3162-831,subject_3162,2020-06-22,Right upper lobe,90,47.0,"Low return volume, procedure tolerated well"
+BAL_3162-241,subject_3162,2021-06-17,Right upper lobe,80,37.0,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_3180-771,subject_3180,2019-06-30,Lingula,120,68.7,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_3195-103,subject_3195,2022-06-20,Left lower lobe,120,50.6,
+BAL_3195-769,subject_3195,2023-08-28,Right lower lobe,100,71.6,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_3195-784,subject_3195,2024-02-13,Right middle lobe,90,24.6,
+BAL_3202-254,subject_3202,2017-01-20,Lingula,100,46.9,All 7 mL of sample were processed - cell count was too low to sort
+BAL_3213-455,subject_3213,2017-04-25,Right lower lobe,120,66.1,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_3213-100,subject_3213,2019-05-30,Right lower lobe,100,35.8,All 7 mL of sample were processed - cell count was too low to sort
+BAL_3215-438,subject_3215,2022-06-26,Right middle lobe,90,22.0,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_3219-163,subject_3219,2020-07-16,Lingula,100,19.8,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_3223-734,subject_3223,2020-09-02,Left lower lobe,80,23.5,"Low return volume, procedure tolerated well"
+BAL_3230-457,subject_3230,2019-05-05,Lingula,90,43.9,"Low return volume, procedure tolerated well"
+BAL_3237-774,subject_3237,2016-01-01,Right lower lobe,100,44.1,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_3252-657,subject_3252,2016-08-02,Right lower lobe,120,40.4,Cloudy return; moderate mucus burden
+BAL_3255-809,subject_3255,2017-10-15,Left lower lobe,80,28.3,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_3270-973,subject_3270,2021-02-09,Left lower lobe,80,41.9,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_3272-675,subject_3272,2019-08-05,Right lower lobe,120,73.9,Cloudy return; moderate mucus burden
+BAL_3287-968,subject_3287,2016-12-20,Right upper lobe,120,30.7,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_3287-569,subject_3287,2017-12-06,Right middle lobe,120,66.7,Cloudy return; moderate mucus burden
+BAL_3287-251,subject_3287,2017-12-20,Left lower lobe,100,13.3,Cloudy return; moderate mucus burden
+BAL_3289-252,subject_3289,2016-01-16,Right upper lobe,100,62.6,Cloudy return; moderate mucus burden
+BAL_3301-430,subject_3301,2020-11-10,Right lower lobe,90,40.7,
+BAL_3302-768,subject_3302,2016-11-20,Right lower lobe,120,60.5,
+BAL_3302-568,subject_3302,2016-12-13,Right middle lobe,90,51.6,Cloudy return; moderate mucus burden
+BAL_3324-116,subject_3324,2021-09-30,Lingula,80,29.1,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_3337-512,subject_3337,2017-12-19,Right middle lobe,80,38.8,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_3337-192,subject_3337,2023-01-10,Lingula,100,35.0,"Low return volume, procedure tolerated well"
+BAL_3371-234,subject_3371,2021-10-15,Right lower lobe,100,58.2,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_3371-298,subject_3371,2021-11-04,Right upper lobe,100,32.4,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_3374-882,subject_3374,2019-09-23,Right upper lobe,100,47.6,
+BAL_3374-436,subject_3374,2019-10-14,Right middle lobe,90,27.9,
+BAL_3374-152,subject_3374,2019-10-28,Right lower lobe,80,52.3,"Low return volume, procedure tolerated well"
+BAL_3401-164,subject_3401,2021-01-17,Lingula,90,22.9,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_3407-185,subject_3407,2022-11-14,Right lower lobe,90,47.6,Cloudy return; moderate mucus burden
+BAL_3413-853,subject_3413,2018-04-28,Right upper lobe,100,52.2,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_3413-488,subject_3413,2018-10-17,Right middle lobe,80,22.2,Cloudy return; moderate mucus burden
+BAL_3428-804,subject_3428,2016-09-07,Left lower lobe,120,56.7,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_3456-615,subject_3456,2021-11-14,Right upper lobe,80,25.1,
+BAL_3458-501,subject_3458,2020-04-28,Lingula,90,30.7,All 7 mL of sample were processed - cell count was too low to sort
+BAL_3466-517,subject_3466,2016-03-21,Left lower lobe,80,31.5,All 7 mL of sample were processed - cell count was too low to sort
+BAL_3466-396,subject_3466,2016-03-30,Lingula,100,35.4,All 7 mL of sample were processed - cell count was too low to sort
+BAL_3493-141,subject_3493,2019-10-14,Left lower lobe,100,37.6,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_3494-705,subject_3494,2018-04-04,Right lower lobe,90,31.0,Cloudy return; moderate mucus burden
+BAL_3498-856,subject_3498,2018-06-10,Left lower lobe,100,50.2,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_3498-476,subject_3498,2020-07-05,Right middle lobe,80,21.9,Cloudy return; moderate mucus burden
+BAL_3498-846,subject_3498,2021-11-27,Left lower lobe,120,34.5,"Low return volume, procedure tolerated well"
+BAL_3507-305,subject_3507,2021-09-18,Right lower lobe,90,22.2,
+BAL_3507-167,subject_3507,2022-07-08,Right upper lobe,80,50.1,
+BAL_3512-211,subject_3512,2019-08-16,Lingula,80,21.5,
+BAL_3519-467,subject_3519,2019-03-12,Left lower lobe,90,40.3,
+BAL_3523-445,subject_3523,2020-02-24,Right middle lobe,100,51.6,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_3523-480,subject_3523,2021-03-25,Right lower lobe,100,35.0,
+BAL_3526-486,subject_3526,2018-09-19,Left lower lobe,100,20.6,Cloudy return; moderate mucus burden
+BAL_3530-701,subject_3530,2017-10-05,Right upper lobe,80,38.5,"Low return volume, procedure tolerated well"
+BAL_3552-338,subject_3552,2019-10-12,Right lower lobe,120,60.7,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_3552-425,subject_3552,2019-11-18,Lingula,120,21.6,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_3565-243,subject_3565,2021-10-18,Left lower lobe,80,19.2,
+BAL_3584-356,subject_3584,2018-10-24,Right upper lobe,120,67.4,
+BAL_3594-995,subject_3594,2017-06-20,Right middle lobe,120,64.2,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_3604-563,subject_3604,2016-01-01,Left lower lobe,120,56.2,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_3618-681,subject_3618,2021-05-01,Left lower lobe,80,18.1,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_3621-674,subject_3621,2021-11-01,Right upper lobe,90,8.1,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_3621-461,subject_3621,2023-11-18,Left lower lobe,80,13.9,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_3621-801,subject_3621,2024-04-24,Lingula,100,57.2,
+BAL_3622-287,subject_3622,2017-06-28,Right middle lobe,90,42.4,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_3623-201,subject_3623,2017-12-06,Left lower lobe,90,37.3,
+BAL_3626-649,subject_3626,2017-08-03,Right lower lobe,100,18.2,
+BAL_3630-267,subject_3630,2022-02-23,Right lower lobe,80,36.5,All 7 mL of sample were processed - cell count was too low to sort
+BAL_3635-220,subject_3635,2023-07-04,Right lower lobe,90,40.0,Cloudy return; moderate mucus burden
+BAL_3647-113,subject_3647,2020-08-03,Left lower lobe,80,43.0,Cloudy return; moderate mucus burden
+BAL_3647-784,subject_3647,2020-10-08,Right middle lobe,100,53.8,
+BAL_3657-408,subject_3657,2018-03-02,Right upper lobe,80,34.5,
+BAL_3657-204,subject_3657,2018-03-21,Right lower lobe,100,53.3,
+BAL_3666-398,subject_3666,2021-11-05,Right middle lobe,100,39.6,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_3666-373,subject_3666,2023-11-16,Lingula,120,32.5,All 7 mL of sample were processed - cell count was too low to sort
+BAL_3668-612,subject_3668,2018-02-23,Right middle lobe,120,65.4,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_3684-619,subject_3684,2017-03-20,Right lower lobe,100,51.5,
+BAL_3693-772,subject_3693,2024-05-22,Right lower lobe,80,40.1,All 7 mL of sample were processed - cell count was too low to sort
+BAL_3694-369,subject_3694,2019-07-17,Right middle lobe,100,33.9,
+BAL_3700-379,subject_3700,2019-12-11,Left lower lobe,120,54.7,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_3717-830,subject_3717,2016-09-13,Left lower lobe,100,46.3,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_3724-233,subject_3724,2020-10-21,Left lower lobe,80,50.8,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_3745-873,subject_3745,2020-03-25,Lingula,80,40.1,All 7 mL of sample were processed - cell count was too low to sort
+BAL_3748-642,subject_3748,2016-12-02,Right middle lobe,100,52.7,
+BAL_3748-208,subject_3748,2018-01-31,Right upper lobe,100,36.0,"Low return volume, procedure tolerated well"
+BAL_3749-110,subject_3749,2016-09-13,Right upper lobe,120,63.7,
+BAL_3749-365,subject_3749,2017-10-28,Right upper lobe,90,33.8,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_3758-186,subject_3758,2019-12-16,Right lower lobe,100,41.2,
+BAL_3763-825,subject_3763,2019-12-15,Right upper lobe,80,8.0,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_3763-717,subject_3763,2021-10-13,Right lower lobe,120,63.5,Cloudy return; moderate mucus burden
+BAL_3770-815,subject_3770,2018-06-27,Right middle lobe,120,48.8,Cloudy return; moderate mucus burden
+BAL_3770-275,subject_3770,2020-05-20,Lingula,100,57.4,
+BAL_3776-903,subject_3776,2017-06-17,Right upper lobe,80,23.9,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_3776-120,subject_3776,2019-01-09,Right lower lobe,100,30.7,
+BAL_3780-660,subject_3780,2019-11-23,Left lower lobe,120,57.9,
+BAL_3794-550,subject_3794,2018-10-03,Right upper lobe,120,59.4,Cloudy return; moderate mucus burden
+BAL_3794-759,subject_3794,2019-11-30,Left lower lobe,120,42.4,
+BAL_3801-621,subject_3801,2020-11-14,Right lower lobe,90,21.1,"Low return volume, procedure tolerated well"
+BAL_3810-272,subject_3810,2017-08-17,Left lower lobe,80,28.0,Cloudy return; moderate mucus burden
+BAL_3817-608,subject_3817,2017-04-03,Right middle lobe,90,42.5,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_3830-743,subject_3830,2016-05-04,Right lower lobe,80,14.5,
+BAL_3835-232,subject_3835,2023-03-10,Right upper lobe,90,45.1,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_3836-924,subject_3836,2021-06-09,Right middle lobe,80,23.5,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_3836-732,subject_3836,2021-10-24,Lingula,80,34.8,
+BAL_3847-281,subject_3847,2020-02-17,Right upper lobe,100,41.1,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_3852-606,subject_3852,2016-10-29,Lingula,100,28.0,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_3852-922,subject_3852,2016-11-12,Right middle lobe,80,40.2,
+BAL_3855-844,subject_3855,2021-08-16,Right lower lobe,90,27.1,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_3858-464,subject_3858,2019-06-25,Right middle lobe,100,44.6,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_3867-185,subject_3867,2018-09-20,Right middle lobe,120,65.1,
+BAL_3867-284,subject_3867,2018-10-25,Right upper lobe,80,41.5,All 7 mL of sample were processed - cell count was too low to sort
+BAL_3871-183,subject_3871,2024-10-25,Right lower lobe,80,45.2,
+BAL_3895-137,subject_3895,2019-02-26,Lingula,100,41.8,
+BAL_3895-427,subject_3895,2020-04-18,Lingula,100,36.6,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_3901-436,subject_3901,2021-07-20,Left lower lobe,80,46.0,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_3907-406,subject_3907,2016-04-12,Right upper lobe,80,34.3,
+BAL_3907-270,subject_3907,2016-05-02,Right upper lobe,90,57.5,"Low return volume, procedure tolerated well"
+BAL_3912-386,subject_3912,2018-08-13,Right middle lobe,80,23.8,All 7 mL of sample were processed - cell count was too low to sort
+BAL_3912-163,subject_3912,2019-02-27,Right lower lobe,90,29.1,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_3930-663,subject_3930,2021-11-09,Lingula,100,16.8,"Low return volume, procedure tolerated well"
+BAL_3933-581,subject_3933,2019-02-20,Lingula,120,29.0,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_3948-184,subject_3948,2022-10-21,Right upper lobe,100,55.3,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_3955-277,subject_3955,2017-03-30,Right middle lobe,100,37.6,All 7 mL of sample were processed - cell count was too low to sort
+BAL_3955-739,subject_3955,2017-04-04,Right middle lobe,90,63.2,Cloudy return; moderate mucus burden
+BAL_3962-646,subject_3962,2021-11-11,Right middle lobe,90,29.7,
+BAL_3964-547,subject_3964,2020-11-16,Lingula,100,36.8,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_3975-630,subject_3975,2018-02-07,Left lower lobe,80,34.4,Cloudy return; moderate mucus burden
+BAL_3975-280,subject_3975,2019-04-01,Lingula,100,38.9,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_3975-129,subject_3975,2019-04-13,Left lower lobe,120,50.8,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_3989-580,subject_3989,2021-01-22,Left lower lobe,100,42.7,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_3992-562,subject_3992,2018-09-24,Left lower lobe,90,38.2,All 7 mL of sample were processed - cell count was too low to sort
+BAL_3994-266,subject_3994,2019-02-16,Right middle lobe,100,43.4,All 7 mL of sample were processed - cell count was too low to sort
+BAL_4004-388,subject_4004,2021-11-19,Lingula,120,75.2,
+BAL_4004-120,subject_4004,2022-01-25,Right upper lobe,90,37.0,Cloudy return; moderate mucus burden
+BAL_4031-558,subject_4031,2022-09-26,Lingula,100,43.9,
+BAL_4038-132,subject_4038,2017-08-22,Left lower lobe,80,28.9,"Low return volume, procedure tolerated well"
+BAL_4054-711,subject_4054,2017-04-04,Right lower lobe,120,67.1,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_4055-329,subject_4055,2016-06-08,Right upper lobe,90,49.1,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_4060-902,subject_4060,2018-04-28,Left lower lobe,120,41.2,"Low return volume, procedure tolerated well"
+BAL_4062-278,subject_4062,2018-02-08,Right middle lobe,100,41.1,All 7 mL of sample were processed - cell count was too low to sort
+BAL_4073-378,subject_4073,2021-09-23,Left lower lobe,120,62.1,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_4083-614,subject_4083,2018-08-14,Right middle lobe,120,44.3,
+BAL_4083-583,subject_4083,2020-03-19,Right lower lobe,120,63.7,
+BAL_4087-627,subject_4087,2025-07-16,Lingula,80,33.0,
+BAL_4105-698,subject_4105,2019-07-04,Right middle lobe,80,22.4,"Low return volume, procedure tolerated well"
+BAL_4114-229,subject_4114,2017-12-20,Right upper lobe,120,59.8,"Low return volume, procedure tolerated well"
+BAL_4114-583,subject_4114,2018-12-05,Right upper lobe,100,47.5,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_4132-827,subject_4132,2020-06-13,Right middle lobe,120,53.7,"Low return volume, procedure tolerated well"
+BAL_4133-189,subject_4133,2019-07-09,Left lower lobe,90,55.3,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_4141-787,subject_4141,2020-03-24,Lingula,120,69.4,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_4141-862,subject_4141,2021-11-20,Right upper lobe,90,34.6,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_4145-711,subject_4145,2019-02-24,Right middle lobe,120,52.0,
+BAL_4145-606,subject_4145,2025-01-13,Left lower lobe,80,29.2,"Low return volume, procedure tolerated well"
+BAL_4146-922,subject_4146,2016-01-01,Left lower lobe,80,34.4,"Low return volume, procedure tolerated well"
+BAL_4149-612,subject_4149,2018-04-04,Right lower lobe,80,18.4,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_4150-114,subject_4150,2021-12-22,Left lower lobe,120,50.9,
+BAL_4152-625,subject_4152,2016-05-30,Right upper lobe,80,36.3,Cloudy return; moderate mucus burden
+BAL_4152-597,subject_4152,2017-01-20,Right upper lobe,90,26.8,"Low return volume, procedure tolerated well"
+BAL_4157-589,subject_4157,2017-05-30,Right middle lobe,80,22.6,"Low return volume, procedure tolerated well"
+BAL_4157-550,subject_4157,2017-07-14,Right middle lobe,90,25.6,Cloudy return; moderate mucus burden
+BAL_4160-685,subject_4160,2019-05-03,Lingula,120,69.8,Cloudy return; moderate mucus burden
+BAL_4160-933,subject_4160,2019-05-19,Right middle lobe,80,28.5,
+BAL_4161-465,subject_4161,2021-07-24,Right upper lobe,120,50.1,"Low return volume, procedure tolerated well"
+BAL_4162-837,subject_4162,2020-11-19,Right upper lobe,100,31.5,
+BAL_4162-742,subject_4162,2022-05-01,Lingula,80,24.1,All 7 mL of sample were processed - cell count was too low to sort
+BAL_4174-827,subject_4174,2016-07-18,Right lower lobe,80,24.4,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_4174-609,subject_4174,2016-07-25,Left lower lobe,100,36.1,Cloudy return; moderate mucus burden
+BAL_4174-983,subject_4174,2019-09-04,Right middle lobe,90,19.2,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_4190-434,subject_4190,2016-01-01,Right lower lobe,120,36.5,All 7 mL of sample were processed - cell count was too low to sort
+BAL_4202-955,subject_4202,2022-09-05,Right middle lobe,80,47.9,
+BAL_4206-190,subject_4206,2019-06-10,Right upper lobe,90,44.4,
+BAL_4206-859,subject_4206,2019-06-16,Lingula,90,38.6,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_4214-158,subject_4214,2022-12-25,Right upper lobe,80,56.1,All 7 mL of sample were processed - cell count was too low to sort
+BAL_4214-892,subject_4214,2024-12-09,Right middle lobe,100,34.9,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_4214-708,subject_4214,2025-01-06,Left lower lobe,90,37.5,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_4221-489,subject_4221,2016-11-23,Lingula,120,29.5,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_4235-321,subject_4235,2023-10-13,Right upper lobe,120,49.9,"Low return volume, procedure tolerated well"
+BAL_4235-801,subject_4235,2023-12-04,Right lower lobe,120,42.2,All 7 mL of sample were processed - cell count was too low to sort
+BAL_4236-184,subject_4236,2017-11-26,Right lower lobe,90,18.8,
+BAL_4241-140,subject_4241,2020-05-12,Right upper lobe,90,35.8,
+BAL_4244-728,subject_4244,2021-08-19,Left lower lobe,90,35.4,
+BAL_4244-721,subject_4244,2024-08-07,Left lower lobe,80,32.5,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_4248-158,subject_4248,2017-10-01,Right lower lobe,80,18.2,
+BAL_4248-879,subject_4248,2017-11-29,Lingula,80,8.1,Cloudy return; moderate mucus burden
+BAL_4257-126,subject_4257,2021-07-18,Right middle lobe,120,49.4,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_4259-259,subject_4259,2019-01-26,Right middle lobe,80,34.2,
+BAL_4266-826,subject_4266,2016-01-01,Right upper lobe,90,28.5,
+BAL_4268-620,subject_4268,2019-06-07,Lingula,120,42.0,Cloudy return; moderate mucus burden
+BAL_4270-363,subject_4270,2021-07-09,Right lower lobe,100,32.1,"Low return volume, procedure tolerated well"
+BAL_4275-712,subject_4275,2018-05-20,Lingula,120,54.7,All 7 mL of sample were processed - cell count was too low to sort
+BAL_4278-664,subject_4278,2016-06-16,Right lower lobe,100,41.4,
+BAL_4290-881,subject_4290,2020-08-18,Left lower lobe,90,33.4,Cloudy return; moderate mucus burden
+BAL_4290-650,subject_4290,2021-01-03,Right upper lobe,90,23.7,
+BAL_4290-430,subject_4290,2021-01-18,Right upper lobe,100,11.8,"Low return volume, procedure tolerated well"
+BAL_4292-440,subject_4292,2018-10-06,Right lower lobe,120,52.5,"Low return volume, procedure tolerated well"
+BAL_4294-434,subject_4294,2021-10-02,Lingula,90,33.9,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_4294-906,subject_4294,2022-06-05,Right middle lobe,100,27.6,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_4305-421,subject_4305,2017-10-17,Left lower lobe,80,35.2,
+BAL_4309-897,subject_4309,2019-04-09,Right upper lobe,80,32.2,
+BAL_4313-187,subject_4313,2020-09-19,Right lower lobe,90,23.4,Cloudy return; moderate mucus burden
+BAL_4313-319,subject_4313,2025-03-23,Right lower lobe,120,38.0,All 7 mL of sample were processed - cell count was too low to sort
+BAL_4314-129,subject_4314,2022-06-15,Right upper lobe,100,43.1,Cloudy return; moderate mucus burden
+BAL_4318-304,subject_4318,2018-08-03,Right middle lobe,100,48.7,Cloudy return; moderate mucus burden
+BAL_4318-847,subject_4318,2018-09-30,Right middle lobe,90,31.0,
+BAL_4323-525,subject_4323,2021-10-13,Right middle lobe,100,42.2,
+BAL_4323-857,subject_4323,2024-03-17,Right upper lobe,100,32.3,
+BAL_4325-477,subject_4325,2017-12-13,Lingula,100,41.7,
+BAL_4325-945,subject_4325,2018-06-16,Right lower lobe,120,55.4,
+BAL_4327-534,subject_4327,2021-03-26,Lingula,90,50.9,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_4346-439,subject_4346,2017-12-14,Lingula,80,35.1,
+BAL_4355-463,subject_4355,2022-08-14,Lingula,80,31.5,"Low return volume, procedure tolerated well"
+BAL_4358-876,subject_4358,2016-10-21,Right lower lobe,90,48.9,"Low return volume, procedure tolerated well"
+BAL_4365-499,subject_4365,2017-01-30,Left lower lobe,100,34.6,All 7 mL of sample were processed - cell count was too low to sort
+BAL_4368-347,subject_4368,2020-09-09,Right upper lobe,90,40.2,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_4377-293,subject_4377,2022-04-02,Right lower lobe,80,39.3,Cloudy return; moderate mucus burden
+BAL_4385-158,subject_4385,2021-11-09,Right middle lobe,80,37.6,
+BAL_4385-405,subject_4385,2025-06-25,Right upper lobe,100,34.6,
+BAL_4407-692,subject_4407,2022-11-23,Right middle lobe,100,53.4,
+BAL_4410-496,subject_4410,2018-06-15,Right lower lobe,80,34.6,
+BAL_4414-184,subject_4414,2017-08-27,Right upper lobe,80,42.9,
+BAL_4417-904,subject_4417,2017-07-20,Right upper lobe,100,53.6,
+BAL_4417-177,subject_4417,2020-01-25,Right middle lobe,90,28.6,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_4418-646,subject_4418,2016-09-22,Right lower lobe,120,30.1,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_4418-721,subject_4418,2016-10-08,Right middle lobe,90,24.6,Cloudy return; moderate mucus burden
+BAL_4418-252,subject_4418,2016-11-05,Right lower lobe,100,44.8,All 7 mL of sample were processed - cell count was too low to sort
+BAL_4425-413,subject_4425,2020-07-18,Right middle lobe,100,27.9,
+BAL_4428-398,subject_4428,2020-02-15,Right upper lobe,100,52.0,
+BAL_4434-437,subject_4434,2020-07-23,Left lower lobe,120,45.3,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_4434-513,subject_4434,2021-02-18,Right lower lobe,120,35.7,
+BAL_4437-462,subject_4437,2019-08-16,Left lower lobe,100,35.9,
+BAL_4437-292,subject_4437,2019-09-02,Right upper lobe,80,31.2,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_4454-961,subject_4454,2019-12-06,Lingula,100,21.9,
+BAL_4454-385,subject_4454,2020-03-29,Right middle lobe,90,29.6,All 7 mL of sample were processed - cell count was too low to sort
+BAL_4462-254,subject_4462,2016-05-03,Right lower lobe,80,45.3,Cloudy return; moderate mucus burden
+BAL_4499-344,subject_4499,2017-12-23,Right lower lobe,80,22.3,All 7 mL of sample were processed - cell count was too low to sort
+BAL_4501-991,subject_4501,2020-02-02,Right upper lobe,80,56.1,Cloudy return; moderate mucus burden
+BAL_4506-995,subject_4506,2022-06-23,Right upper lobe,100,69.3,Cloudy return; moderate mucus burden
+BAL_4506-840,subject_4506,2024-03-21,Left lower lobe,100,48.9,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_4513-992,subject_4513,2020-06-11,Right upper lobe,120,64.0,
+BAL_4513-518,subject_4513,2020-07-14,Right upper lobe,120,54.7,"Low return volume, procedure tolerated well"
+BAL_4514-974,subject_4514,2017-08-18,Lingula,120,52.8,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_4515-945,subject_4515,2016-06-09,Left lower lobe,100,66.6,"Low return volume, procedure tolerated well"
+BAL_4515-321,subject_4515,2017-06-15,Lingula,120,51.7,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_4541-180,subject_4541,2020-09-10,Right upper lobe,100,53.3,
+BAL_4549-679,subject_4549,2017-08-02,Lingula,100,57.8,
+BAL_4560-630,subject_4560,2020-10-04,Right upper lobe,120,44.6,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_4560-136,subject_4560,2021-03-15,Right middle lobe,80,22.9,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_4560-479,subject_4560,2022-04-15,Right middle lobe,90,49.1,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_4561-334,subject_4561,2017-05-28,Right middle lobe,120,50.5,
+BAL_4561-933,subject_4561,2018-07-11,Right lower lobe,100,44.3,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_4570-887,subject_4570,2019-08-12,Right middle lobe,90,50.1,Cloudy return; moderate mucus burden
+BAL_4570-659,subject_4570,2019-11-10,Right middle lobe,120,44.6,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_4573-466,subject_4573,2022-01-13,Right lower lobe,90,41.9,
+BAL_4582-902,subject_4582,2021-10-19,Right lower lobe,80,26.5,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_4582-119,subject_4582,2021-10-22,Right upper lobe,120,42.1,All 7 mL of sample were processed - cell count was too low to sort
+BAL_4595-410,subject_4595,2023-09-19,Right middle lobe,100,41.9,"Low return volume, procedure tolerated well"
+BAL_4596-198,subject_4596,2017-12-17,Right upper lobe,90,40.3,Cloudy return; moderate mucus burden
+BAL_4596-568,subject_4596,2018-01-05,Right middle lobe,100,39.9,
+BAL_4597-789,subject_4597,2019-06-04,Lingula,120,44.7,
+BAL_4636-676,subject_4636,2018-10-06,Right upper lobe,90,36.3,
+BAL_4636-277,subject_4636,2020-01-06,Lingula,80,32.5,Cloudy return; moderate mucus burden
+BAL_4645-732,subject_4645,2024-01-07,Right middle lobe,100,46.7,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_4646-711,subject_4646,2019-07-10,Left lower lobe,100,62.8,
+BAL_4649-731,subject_4649,2017-08-01,Lingula,100,45.1,
+BAL_4655-693,subject_4655,2017-08-16,Right upper lobe,90,48.6,
+BAL_4672-972,subject_4672,2022-03-22,Right lower lobe,100,22.0,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_4678-690,subject_4678,2021-07-03,Left lower lobe,90,45.9,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_4681-548,subject_4681,2017-09-18,Left lower lobe,100,34.0,
+BAL_4684-103,subject_4684,2017-04-22,Right upper lobe,80,38.4,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_4684-250,subject_4684,2018-03-10,Right middle lobe,80,41.1,All 7 mL of sample were processed - cell count was too low to sort
+BAL_4691-367,subject_4691,2025-09-26,Left lower lobe,80,44.5,"Low return volume, procedure tolerated well"
+BAL_4697-732,subject_4697,2016-01-29,Right middle lobe,90,32.8,All 7 mL of sample were processed - cell count was too low to sort
+BAL_4701-697,subject_4701,2016-07-21,Right middle lobe,100,35.3,"Low return volume, procedure tolerated well"
+BAL_4701-790,subject_4701,2016-12-23,Right middle lobe,100,31.6,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_4707-966,subject_4707,2018-07-07,Right lower lobe,90,41.9,Cloudy return; moderate mucus burden
+BAL_4707-675,subject_4707,2018-08-12,Lingula,100,32.2,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_4714-921,subject_4714,2017-07-15,Right upper lobe,120,44.4,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_4721-144,subject_4721,2018-08-04,Right upper lobe,120,44.3,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_4749-359,subject_4749,2020-09-01,Right lower lobe,120,32.5,Cloudy return; moderate mucus burden
+BAL_4749-465,subject_4749,2023-09-02,Right upper lobe,120,23.2,"Low return volume, procedure tolerated well"
+BAL_4753-123,subject_4753,2016-11-17,Lingula,120,42.0,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_4753-940,subject_4753,2016-11-19,Lingula,100,36.9,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_4772-181,subject_4772,2020-07-04,Right upper lobe,80,25.0,
+BAL_4782-404,subject_4782,2017-09-01,Right middle lobe,80,17.3,"Low return volume, procedure tolerated well"
+BAL_4782-745,subject_4782,2019-09-17,Right lower lobe,90,59.7,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_4783-587,subject_4783,2023-05-23,Left lower lobe,120,72.1,All 7 mL of sample were processed - cell count was too low to sort
+BAL_4789-213,subject_4789,2020-09-01,Right middle lobe,90,19.4,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_4794-562,subject_4794,2018-05-28,Right lower lobe,80,43.7,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_4796-584,subject_4796,2016-10-26,Right lower lobe,120,65.8,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_4796-645,subject_4796,2016-12-29,Left lower lobe,120,48.1,All 7 mL of sample were processed - cell count was too low to sort
+BAL_4799-995,subject_4799,2017-09-10,Lingula,80,27.3,
+BAL_4804-127,subject_4804,2018-02-28,Right upper lobe,90,28.4,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_4808-307,subject_4808,2017-07-01,Right lower lobe,90,28.0,
+BAL_4813-624,subject_4813,2021-09-23,Right lower lobe,90,45.4,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_4822-775,subject_4822,2021-01-22,Left lower lobe,120,47.3,"Low return volume, procedure tolerated well"
+BAL_4823-620,subject_4823,2016-10-24,Right middle lobe,90,48.1,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_4824-426,subject_4824,2018-01-14,Right upper lobe,120,47.0,
+BAL_4824-174,subject_4824,2018-09-19,Lingula,100,36.0,"Low return volume, procedure tolerated well"
+BAL_4825-163,subject_4825,2018-10-27,Left lower lobe,100,42.8,
+BAL_4826-629,subject_4826,2020-08-08,Lingula,120,49.5,Cloudy return; moderate mucus burden
+BAL_4827-421,subject_4827,2017-08-21,Lingula,90,27.6,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_4833-213,subject_4833,2019-04-14,Right lower lobe,90,51.2,
+BAL_4850-274,subject_4850,2020-05-19,Right lower lobe,100,49.0,
+BAL_4852-403,subject_4852,2019-11-02,Right middle lobe,120,45.5,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_4861-154,subject_4861,2019-08-14,Left lower lobe,80,22.0,
+BAL_4861-895,subject_4861,2019-09-16,Left lower lobe,80,52.0,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_4872-526,subject_4872,2019-07-13,Right upper lobe,100,28.8,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_4872-548,subject_4872,2019-08-01,Right middle lobe,100,49.9,
+BAL_4880-606,subject_4880,2016-01-01,Left lower lobe,90,33.4,Cloudy return; moderate mucus burden
+BAL_4896-435,subject_4896,2019-08-22,Right upper lobe,100,35.9,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_4896-169,subject_4896,2020-05-04,Right middle lobe,90,39.2,
+BAL_4912-708,subject_4912,2018-03-11,Left lower lobe,100,33.5,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_4926-450,subject_4926,2019-07-19,Right middle lobe,120,47.3,"Low return volume, procedure tolerated well"
+BAL_4926-387,subject_4926,2020-06-06,Right lower lobe,100,59.5,"Low return volume, procedure tolerated well"
+BAL_4927-443,subject_4927,2021-01-20,Lingula,80,8.0,
+BAL_4951-593,subject_4951,2016-12-30,Right upper lobe,100,37.4,Cloudy return; moderate mucus burden
+BAL_4963-248,subject_4963,2017-02-08,Right upper lobe,100,53.1,
+BAL_4965-403,subject_4965,2018-12-04,Left lower lobe,80,34.1,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_4969-822,subject_4969,2025-02-14,Right lower lobe,100,39.2,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_4969-873,subject_4969,2025-05-21,Lingula,80,38.7,Cloudy return; moderate mucus burden
+BAL_4976-917,subject_4976,2021-10-23,Left lower lobe,90,26.5,
+BAL_4978-300,subject_4978,2019-06-03,Left lower lobe,100,41.8,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_4980-849,subject_4980,2019-06-06,Right lower lobe,100,22.8,
+BAL_4985-450,subject_4985,2016-08-31,Right upper lobe,80,34.7,
+BAL_4985-244,subject_4985,2016-10-07,Right upper lobe,90,39.3,
+BAL_4985-936,subject_4985,2016-10-11,Right middle lobe,100,45.4,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_4990-102,subject_4990,2018-08-10,Left lower lobe,90,31.2,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_4991-942,subject_4991,2018-12-04,Right lower lobe,90,48.2,"Low return volume, procedure tolerated well"
+BAL_4991-832,subject_4991,2018-12-10,Lingula,120,69.9,
+BAL_5003-983,subject_5003,2016-02-16,Right upper lobe,80,45.9,"Low return volume, procedure tolerated well"
+BAL_5003-408,subject_5003,2016-07-26,Right upper lobe,100,51.1,All 7 mL of sample were processed - cell count was too low to sort
+BAL_5011-573,subject_5011,2020-03-27,Right upper lobe,100,30.9,
+BAL_5011-995,subject_5011,2020-07-11,Right lower lobe,80,28.1,All 7 mL of sample were processed - cell count was too low to sort
+BAL_5011-699,subject_5011,2021-02-26,Lingula,100,22.6,
+BAL_5012-506,subject_5012,2021-09-05,Right middle lobe,100,51.1,
+BAL_5030-425,subject_5030,2019-06-13,Right upper lobe,90,45.5,
+BAL_5031-771,subject_5031,2019-11-30,Right lower lobe,100,36.1,
+BAL_5044-474,subject_5044,2016-06-13,Lingula,80,38.6,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_5056-676,subject_5056,2022-02-18,Left lower lobe,100,8.1,
+BAL_5065-555,subject_5065,2016-10-29,Right lower lobe,120,49.1,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_5072-679,subject_5072,2020-01-20,Lingula,80,34.5,
+BAL_5078-352,subject_5078,2021-04-11,Right lower lobe,90,43.1,
+BAL_5082-169,subject_5082,2021-04-28,Left lower lobe,80,54.6,"Low return volume, procedure tolerated well"
+BAL_5091-483,subject_5091,2016-01-01,Right middle lobe,120,49.1,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_5091-441,subject_5091,2016-01-10,Right lower lobe,80,54.3,All 7 mL of sample were processed - cell count was too low to sort
+BAL_5098-845,subject_5098,2020-02-18,Right upper lobe,90,48.3,All 7 mL of sample were processed - cell count was too low to sort
+BAL_5103-529,subject_5103,2017-04-13,Left lower lobe,100,31.6,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_5108-441,subject_5108,2022-11-18,Left lower lobe,80,30.3,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_5112-999,subject_5112,2018-05-04,Right upper lobe,80,37.6,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_5131-306,subject_5131,2019-04-06,Lingula,80,36.9,
+BAL_5131-465,subject_5131,2022-11-27,Right lower lobe,80,28.5,
+BAL_5146-911,subject_5146,2018-01-10,Left lower lobe,100,37.6,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_5146-467,subject_5146,2018-01-21,Right upper lobe,100,27.1,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_5146-511,subject_5146,2018-06-14,Lingula,90,48.3,"Low return volume, procedure tolerated well"
+BAL_5158-374,subject_5158,2020-02-16,Right middle lobe,120,60.9,All 7 mL of sample were processed - cell count was too low to sort
+BAL_5159-223,subject_5159,2020-12-22,Right lower lobe,100,18.3,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_5164-208,subject_5164,2019-10-19,Lingula,120,62.7,
+BAL_5179-506,subject_5179,2021-10-15,Right lower lobe,120,59.3,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_5197-378,subject_5197,2017-06-25,Right middle lobe,90,65.8,
+BAL_5202-600,subject_5202,2021-10-23,Right lower lobe,90,41.3,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_5202-238,subject_5202,2022-01-08,Right upper lobe,80,43.8,Cloudy return; moderate mucus burden
+BAL_5209-389,subject_5209,2017-03-21,Left lower lobe,120,52.7,
+BAL_5214-627,subject_5214,2017-03-19,Right upper lobe,100,63.3,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_5223-344,subject_5223,2019-12-29,Right lower lobe,80,44.5,
+BAL_5229-368,subject_5229,2021-05-13,Right middle lobe,80,45.5,"Low return volume, procedure tolerated well"
+BAL_5231-567,subject_5231,2018-06-23,Left lower lobe,80,16.1,
+BAL_5236-538,subject_5236,2019-01-10,Left lower lobe,100,31.4,
+BAL_5237-797,subject_5237,2018-11-13,Right upper lobe,100,55.0,
+BAL_5242-725,subject_5242,2016-01-01,Right middle lobe,100,45.9,
+BAL_5242-415,subject_5242,2016-01-24,Lingula,90,53.8,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_5249-820,subject_5249,2016-04-19,Right middle lobe,90,35.1,Cloudy return; moderate mucus burden
+BAL_5249-253,subject_5249,2016-11-12,Lingula,120,51.0,Cloudy return; moderate mucus burden
+BAL_5250-639,subject_5250,2019-10-01,Right middle lobe,80,19.8,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_5250-156,subject_5250,2022-01-20,Right upper lobe,80,17.2,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_5269-519,subject_5269,2018-09-27,Right lower lobe,100,41.7,
+BAL_5280-537,subject_5280,2016-01-30,Right lower lobe,80,25.9,
+BAL_5282-859,subject_5282,2021-03-23,Right middle lobe,90,45.8,
+BAL_5282-873,subject_5282,2021-05-04,Left lower lobe,100,56.2,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_5298-207,subject_5298,2021-05-20,Right lower lobe,100,41.5,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_5312-130,subject_5312,2019-01-11,Left lower lobe,80,54.1,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_5322-566,subject_5322,2019-02-15,Right lower lobe,100,32.3,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_5329-351,subject_5329,2021-05-23,Right upper lobe,100,45.8,All 7 mL of sample were processed - cell count was too low to sort
+BAL_5353-731,subject_5353,2016-01-01,Left lower lobe,120,47.9,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_5359-930,subject_5359,2016-01-01,Lingula,90,42.8,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_5362-405,subject_5362,2016-08-27,Right lower lobe,80,30.5,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_5362-205,subject_5362,2018-04-19,Left lower lobe,120,41.7,
+BAL_5364-645,subject_5364,2020-09-15,Right lower lobe,120,48.8,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_5384-542,subject_5384,2020-09-28,Lingula,100,28.0,All 7 mL of sample were processed - cell count was too low to sort
+BAL_5384-930,subject_5384,2020-10-17,Right upper lobe,120,74.8,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_5384-409,subject_5384,2020-11-08,Right middle lobe,80,28.9,
+BAL_5391-921,subject_5391,2021-02-19,Left lower lobe,80,28.7,
+BAL_5392-919,subject_5392,2018-10-27,Right upper lobe,80,23.0,Cloudy return; moderate mucus burden
+BAL_5397-436,subject_5397,2017-11-28,Left lower lobe,120,51.7,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_5397-785,subject_5397,2017-12-06,Right middle lobe,90,40.6,
+BAL_5397-819,subject_5397,2017-12-09,Right lower lobe,90,47.2,All 7 mL of sample were processed - cell count was too low to sort
+BAL_5402-883,subject_5402,2019-04-06,Right middle lobe,100,8.6,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_5408-280,subject_5408,2021-08-07,Right upper lobe,90,26.6,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_5408-648,subject_5408,2022-01-04,Right upper lobe,100,44.6,
+BAL_5421-526,subject_5421,2017-03-30,Left lower lobe,100,42.8,All 7 mL of sample were processed - cell count was too low to sort
+BAL_5423-208,subject_5423,2024-09-29,Lingula,90,32.3,
+BAL_5423-163,subject_5423,2024-11-13,Right upper lobe,120,53.4,"Low return volume, procedure tolerated well"
+BAL_5427-415,subject_5427,2021-04-10,Right middle lobe,90,44.4,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_5427-137,subject_5427,2021-09-26,Lingula,80,29.1,
+BAL_5432-472,subject_5432,2020-08-16,Left lower lobe,100,53.3,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_5460-389,subject_5460,2023-09-12,Lingula,80,28.7,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_5465-980,subject_5465,2021-04-02,Right lower lobe,90,25.9,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_5465-797,subject_5465,2021-05-15,Right middle lobe,100,40.1,Cloudy return; moderate mucus burden
+BAL_5473-197,subject_5473,2019-07-27,Left lower lobe,90,59.7,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_5478-280,subject_5478,2016-05-27,Right lower lobe,80,41.9,All 7 mL of sample were processed - cell count was too low to sort
+BAL_5490-619,subject_5490,2019-04-24,Left lower lobe,90,53.9,Cloudy return; moderate mucus burden
+BAL_5494-221,subject_5494,2017-08-07,Lingula,100,24.1,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_5500-746,subject_5500,2017-03-21,Right upper lobe,100,38.1,
+BAL_5500-713,subject_5500,2017-03-22,Left lower lobe,100,43.9,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_5506-375,subject_5506,2020-11-07,Right upper lobe,120,66.6,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_5520-955,subject_5520,2019-08-08,Right upper lobe,90,54.2,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_5520-715,subject_5520,2019-09-24,Right upper lobe,120,62.5,Cloudy return; moderate mucus burden
+BAL_5549-257,subject_5549,2021-10-28,Lingula,120,58.3,Cloudy return; moderate mucus burden
+BAL_5549-691,subject_5549,2022-04-19,Lingula,100,36.7,
+BAL_5566-783,subject_5566,2017-03-25,Left lower lobe,100,34.9,Cloudy return; moderate mucus burden
+BAL_5575-300,subject_5575,2019-12-06,Lingula,100,31.2,All 7 mL of sample were processed - cell count was too low to sort
+BAL_5576-885,subject_5576,2019-09-04,Lingula,90,55.4,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_5576-950,subject_5576,2020-12-04,Right lower lobe,80,27.4,"Low return volume, procedure tolerated well"
+BAL_5577-421,subject_5577,2020-07-15,Right middle lobe,100,54.0,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_5580-961,subject_5580,2016-08-04,Right lower lobe,100,66.5,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_5582-188,subject_5582,2020-09-30,Right lower lobe,100,51.2,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_5592-292,subject_5592,2016-01-01,Left lower lobe,90,25.8,All 7 mL of sample were processed - cell count was too low to sort
+BAL_5596-904,subject_5596,2019-02-07,Right upper lobe,90,30.5,All 7 mL of sample were processed - cell count was too low to sort
+BAL_5596-909,subject_5596,2019-12-26,Right middle lobe,90,28.1,
+BAL_5600-932,subject_5600,2024-10-02,Left lower lobe,90,42.9,Cloudy return; moderate mucus burden
+BAL_5629-443,subject_5629,2018-09-19,Lingula,120,61.6,All 7 mL of sample were processed - cell count was too low to sort
+BAL_5643-718,subject_5643,2020-09-30,Left lower lobe,120,42.3,
+BAL_5659-452,subject_5659,2016-12-10,Right lower lobe,100,46.9,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_5666-618,subject_5666,2021-06-27,Right upper lobe,90,12.2,"Low return volume, procedure tolerated well"
+BAL_5666-727,subject_5666,2023-01-23,Right upper lobe,80,18.7,
+BAL_5672-707,subject_5672,2020-12-07,Left lower lobe,120,39.7,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_5675-385,subject_5675,2016-07-30,Right upper lobe,90,50.2,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_5676-403,subject_5676,2023-06-04,Right upper lobe,120,52.2,All 7 mL of sample were processed - cell count was too low to sort
+BAL_5682-324,subject_5682,2019-08-11,Right upper lobe,120,65.2,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_5682-426,subject_5682,2019-08-23,Left lower lobe,80,37.8,"Low return volume, procedure tolerated well"
+BAL_5700-236,subject_5700,2020-06-12,Right middle lobe,100,58.4,Cloudy return; moderate mucus burden
+BAL_5700-400,subject_5700,2021-03-27,Right middle lobe,120,38.4,
+BAL_5716-255,subject_5716,2018-10-27,Right upper lobe,120,38.6,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_5724-634,subject_5724,2021-02-19,Lingula,90,72.8,Cloudy return; moderate mucus burden
+BAL_5737-281,subject_5737,2020-07-15,Right upper lobe,120,56.4,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_5744-491,subject_5744,2020-03-06,Right lower lobe,120,58.9,"Low return volume, procedure tolerated well"
+BAL_5749-109,subject_5749,2016-01-01,Lingula,100,61.8,"Low return volume, procedure tolerated well"
+BAL_5751-954,subject_5751,2020-08-04,Left lower lobe,90,44.4,Cloudy return; moderate mucus burden
+BAL_5751-521,subject_5751,2021-01-20,Lingula,100,51.1,"Low return volume, procedure tolerated well"
+BAL_5759-161,subject_5759,2017-07-26,Right lower lobe,100,49.1,"Low return volume, procedure tolerated well"
+BAL_5759-733,subject_5759,2019-08-09,Right middle lobe,120,40.6,Cloudy return; moderate mucus burden
+BAL_5759-401,subject_5759,2020-10-12,Right lower lobe,90,15.0,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_5768-929,subject_5768,2018-02-07,Left lower lobe,100,41.1,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_5768-820,subject_5768,2019-01-29,Left lower lobe,120,66.8,
+BAL_5776-191,subject_5776,2023-01-10,Right lower lobe,80,37.0,All 7 mL of sample were processed - cell count was too low to sort
+BAL_5787-468,subject_5787,2021-02-11,Lingula,120,45.6,
+BAL_5788-664,subject_5788,2020-04-06,Right middle lobe,90,42.3,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_5792-622,subject_5792,2018-06-09,Right upper lobe,90,38.1,
+BAL_5796-652,subject_5796,2021-04-19,Right upper lobe,80,18.1,All 7 mL of sample were processed - cell count was too low to sort
+BAL_5804-812,subject_5804,2016-01-01,Lingula,100,43.7,
+BAL_5804-739,subject_5804,2016-09-25,Right middle lobe,90,40.2,Cloudy return; moderate mucus burden
+BAL_5804-816,subject_5804,2018-05-28,Right upper lobe,100,38.6,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_5833-853,subject_5833,2016-03-18,Right middle lobe,120,54.8,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_5833-263,subject_5833,2017-02-07,Left lower lobe,80,49.4,Cloudy return; moderate mucus burden
+BAL_5833-133,subject_5833,2017-12-31,Right middle lobe,80,44.2,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_5847-933,subject_5847,2019-07-10,Lingula,100,65.1,All 7 mL of sample were processed - cell count was too low to sort
+BAL_5856-500,subject_5856,2018-11-20,Lingula,120,57.2,"Low return volume, procedure tolerated well"
+BAL_5857-808,subject_5857,2018-12-27,Right middle lobe,100,55.5,All 7 mL of sample were processed - cell count was too low to sort
+BAL_5857-379,subject_5857,2022-06-24,Right middle lobe,120,60.5,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_5868-996,subject_5868,2018-01-02,Right middle lobe,90,31.8,All 7 mL of sample were processed - cell count was too low to sort
+BAL_5871-923,subject_5871,2017-12-14,Right lower lobe,90,60.6,Cloudy return; moderate mucus burden
+BAL_5874-820,subject_5874,2023-03-18,Left lower lobe,100,51.2,
+BAL_5878-327,subject_5878,2019-03-08,Lingula,120,51.6,"Low return volume, procedure tolerated well"
+BAL_5881-921,subject_5881,2018-07-27,Left lower lobe,90,26.0,"Low return volume, procedure tolerated well"
+BAL_5895-532,subject_5895,2018-09-09,Right lower lobe,80,18.7,Cloudy return; moderate mucus burden
+BAL_5895-669,subject_5895,2019-04-08,Left lower lobe,100,43.4,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_5900-509,subject_5900,2020-04-07,Lingula,90,26.0,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_5917-698,subject_5917,2019-02-16,Lingula,90,40.6,Cloudy return; moderate mucus burden
+BAL_5918-605,subject_5918,2019-09-12,Left lower lobe,90,33.0,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_5918-725,subject_5918,2022-10-25,Lingula,80,34.5,Cloudy return; moderate mucus burden
+BAL_5923-417,subject_5923,2017-01-04,Right lower lobe,100,46.7,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_5925-903,subject_5925,2016-01-01,Left lower lobe,80,37.3,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_5931-956,subject_5931,2016-12-24,Right upper lobe,100,27.8,
+BAL_5934-266,subject_5934,2016-04-13,Right middle lobe,90,39.9,"Low return volume, procedure tolerated well"
+BAL_5935-573,subject_5935,2019-09-30,Right lower lobe,80,19.6,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_5939-625,subject_5939,2020-12-21,Right upper lobe,90,21.7,
+BAL_5947-845,subject_5947,2016-05-04,Left lower lobe,100,50.2,Cloudy return; moderate mucus burden
+BAL_5947-720,subject_5947,2016-06-03,Right lower lobe,80,28.9,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_5954-463,subject_5954,2020-05-02,Right upper lobe,80,21.2,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_5954-414,subject_5954,2021-05-27,Left lower lobe,80,8.0,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_5971-880,subject_5971,2019-07-27,Left lower lobe,80,26.3,
+BAL_5974-167,subject_5974,2019-09-11,Left lower lobe,90,24.0,"Low return volume, procedure tolerated well"
+BAL_5984-414,subject_5984,2022-02-05,Lingula,100,12.4,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_5989-270,subject_5989,2020-05-13,Right middle lobe,90,20.6,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_5989-849,subject_5989,2020-10-15,Lingula,80,32.2,All 7 mL of sample were processed - cell count was too low to sort
+BAL_5989-658,subject_5989,2021-06-01,Left lower lobe,80,44.0,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_5990-220,subject_5990,2016-01-01,Right middle lobe,120,65.7,All 7 mL of sample were processed - cell count was too low to sort
+BAL_5993-157,subject_5993,2017-02-16,Right middle lobe,90,40.3,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_5993-764,subject_5993,2017-04-01,Lingula,120,54.3,
+BAL_5993-689,subject_5993,2018-03-04,Right middle lobe,80,35.5,Cloudy return; moderate mucus burden
+BAL_6014-635,subject_6014,2021-05-07,Lingula,80,28.1,
+BAL_6016-120,subject_6016,2017-02-20,Left lower lobe,80,22.1,Cloudy return; moderate mucus burden
+BAL_6016-552,subject_6016,2017-03-06,Right upper lobe,80,29.1,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_6019-968,subject_6019,2017-02-02,Right upper lobe,120,40.2,
+BAL_6019-959,subject_6019,2018-08-28,Left lower lobe,90,45.1,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_6022-897,subject_6022,2023-02-02,Left lower lobe,100,42.6,Cloudy return; moderate mucus burden
+BAL_6030-665,subject_6030,2019-05-17,Right upper lobe,90,49.9,Cloudy return; moderate mucus burden
+BAL_6045-452,subject_6045,2016-04-29,Left lower lobe,100,17.1,
+BAL_6072-893,subject_6072,2020-11-11,Right lower lobe,90,31.6,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_6072-162,subject_6072,2020-12-26,Lingula,90,31.0,Cloudy return; moderate mucus burden
+BAL_6078-463,subject_6078,2018-07-04,Right middle lobe,120,44.5,All 7 mL of sample were processed - cell count was too low to sort
+BAL_6082-875,subject_6082,2017-08-01,Right upper lobe,100,44.4,"Low return volume, procedure tolerated well"
+BAL_6082-545,subject_6082,2018-02-05,Left lower lobe,120,42.0,"Low return volume, procedure tolerated well"
+BAL_6099-566,subject_6099,2020-12-01,Right upper lobe,120,38.5,
+BAL_6102-546,subject_6102,2018-06-04,Left lower lobe,120,43.5,
+BAL_6132-396,subject_6132,2018-10-19,Lingula,80,27.5,
+BAL_6133-968,subject_6133,2016-06-18,Right lower lobe,100,33.8,
+BAL_6148-962,subject_6148,2017-10-08,Right middle lobe,120,41.4,All 7 mL of sample were processed - cell count was too low to sort
+BAL_6148-113,subject_6148,2025-12-14,Left lower lobe,80,8.0,
+BAL_6149-662,subject_6149,2024-12-11,Right upper lobe,120,29.1,
+BAL_6152-859,subject_6152,2017-09-23,Lingula,90,31.0,"Low return volume, procedure tolerated well"
+BAL_6166-575,subject_6166,2019-12-14,Lingula,120,56.5,
+BAL_6175-326,subject_6175,2017-01-12,Right lower lobe,90,39.6,
+BAL_6175-917,subject_6175,2018-03-29,Right upper lobe,80,49.9,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_6178-559,subject_6178,2021-03-15,Right lower lobe,80,28.5,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_6190-507,subject_6190,2018-04-23,Right middle lobe,90,31.3,All 7 mL of sample were processed - cell count was too low to sort
+BAL_6193-366,subject_6193,2017-06-25,Right middle lobe,100,35.1,All 7 mL of sample were processed - cell count was too low to sort
+BAL_6193-817,subject_6193,2019-01-16,Lingula,90,50.2,"Low return volume, procedure tolerated well"
+BAL_6197-560,subject_6197,2022-03-05,Right middle lobe,80,31.6,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_6200-853,subject_6200,2023-02-28,Right middle lobe,100,48.1,
+BAL_6200-388,subject_6200,2023-03-08,Right lower lobe,100,21.9,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_6213-920,subject_6213,2017-08-04,Left lower lobe,90,50.2,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_6220-599,subject_6220,2018-06-28,Right middle lobe,90,36.3,All 7 mL of sample were processed - cell count was too low to sort
+BAL_6234-675,subject_6234,2018-01-14,Right lower lobe,120,43.8,Cloudy return; moderate mucus burden
+BAL_6234-709,subject_6234,2021-01-25,Right lower lobe,120,51.2,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_6234-612,subject_6234,2022-03-02,Right middle lobe,120,43.7,
+BAL_6245-111,subject_6245,2021-04-06,Right upper lobe,90,43.0,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_6256-142,subject_6256,2018-12-07,Right lower lobe,100,36.6,
+BAL_6256-179,subject_6256,2020-04-21,Lingula,80,33.1,"Low return volume, procedure tolerated well"
+BAL_6265-202,subject_6265,2022-03-15,Right middle lobe,80,22.7,
+BAL_6267-412,subject_6267,2022-01-11,Right upper lobe,120,57.7,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_6273-714,subject_6273,2024-07-07,Left lower lobe,100,63.7,"Low return volume, procedure tolerated well"
+BAL_6274-945,subject_6274,2016-07-02,Lingula,80,32.1,
+BAL_6282-321,subject_6282,2016-10-11,Lingula,80,8.0,
+BAL_6291-550,subject_6291,2019-11-19,Right lower lobe,100,22.4,Cloudy return; moderate mucus burden
+BAL_6294-870,subject_6294,2021-11-04,Lingula,100,33.7,
+BAL_6300-772,subject_6300,2023-05-05,Lingula,80,41.4,
+BAL_6307-997,subject_6307,2017-08-12,Left lower lobe,90,52.3,All 7 mL of sample were processed - cell count was too low to sort
+BAL_6329-903,subject_6329,2018-07-29,Right upper lobe,80,9.0,
+BAL_6329-895,subject_6329,2018-12-25,Right lower lobe,120,37.8,
+BAL_6337-814,subject_6337,2017-03-25,Right middle lobe,80,34.6,All 7 mL of sample were processed - cell count was too low to sort
+BAL_6337-916,subject_6337,2017-04-16,Lingula,90,29.1,Cloudy return; moderate mucus burden
+BAL_6342-553,subject_6342,2018-06-28,Right middle lobe,100,32.0,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_6342-881,subject_6342,2019-02-02,Lingula,90,36.9,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_6343-960,subject_6343,2023-02-05,Right upper lobe,80,37.8,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_6346-247,subject_6346,2019-12-01,Right upper lobe,80,17.3,"Low return volume, procedure tolerated well"
+BAL_6346-918,subject_6346,2020-01-05,Right upper lobe,80,43.2,
+BAL_6351-440,subject_6351,2024-06-20,Right middle lobe,100,27.7,
+BAL_6379-310,subject_6379,2017-05-21,Left lower lobe,80,41.8,
+BAL_6385-531,subject_6385,2018-03-24,Lingula,80,36.3,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_6385-230,subject_6385,2019-07-22,Lingula,80,22.7,Cloudy return; moderate mucus burden
+BAL_6386-116,subject_6386,2020-11-07,Left lower lobe,100,57.2,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_6386-767,subject_6386,2021-05-16,Left lower lobe,100,42.1,All 7 mL of sample were processed - cell count was too low to sort
+BAL_6386-950,subject_6386,2021-05-24,Lingula,80,37.0,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_6390-469,subject_6390,2017-05-31,Lingula,80,47.2,All 7 mL of sample were processed - cell count was too low to sort
+BAL_6390-592,subject_6390,2017-06-21,Right lower lobe,120,55.6,Cloudy return; moderate mucus burden
+BAL_6410-379,subject_6410,2016-11-13,Right middle lobe,90,37.9,
+BAL_6410-156,subject_6410,2017-01-05,Left lower lobe,100,35.6,"Low return volume, procedure tolerated well"
+BAL_6428-417,subject_6428,2017-04-10,Lingula,100,36.9,"Low return volume, procedure tolerated well"
+BAL_6428-383,subject_6428,2017-05-03,Left lower lobe,100,40.1,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_6429-358,subject_6429,2019-10-03,Right middle lobe,80,31.6,
+BAL_6429-968,subject_6429,2020-06-18,Right middle lobe,100,52.5,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_6446-563,subject_6446,2019-12-02,Right middle lobe,120,40.8,
+BAL_6450-588,subject_6450,2019-03-30,Right lower lobe,90,11.5,All 7 mL of sample were processed - cell count was too low to sort
+BAL_6450-617,subject_6450,2019-04-03,Right middle lobe,80,50.0,
+BAL_6455-587,subject_6455,2016-08-31,Right lower lobe,90,45.8,All 7 mL of sample were processed - cell count was too low to sort
+BAL_6483-748,subject_6483,2016-04-23,Right upper lobe,90,34.3,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_6489-129,subject_6489,2021-07-28,Lingula,80,26.3,
+BAL_6494-871,subject_6494,2018-04-21,Right upper lobe,90,33.7,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_6494-422,subject_6494,2018-08-13,Lingula,90,22.3,"Low return volume, procedure tolerated well"
+BAL_6519-247,subject_6519,2022-12-26,Lingula,100,28.7,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_6537-478,subject_6537,2021-02-05,Right upper lobe,100,56.9,Cloudy return; moderate mucus burden
+BAL_6537-744,subject_6537,2021-10-10,Right lower lobe,120,45.3,
+BAL_6543-433,subject_6543,2017-01-30,Right middle lobe,100,31.2,All 7 mL of sample were processed - cell count was too low to sort
+BAL_6552-820,subject_6552,2019-08-31,Right middle lobe,120,59.6,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_6552-241,subject_6552,2019-09-11,Left lower lobe,100,60.0,
+BAL_6564-938,subject_6564,2016-01-01,Lingula,100,36.9,All 7 mL of sample were processed - cell count was too low to sort
+BAL_6564-225,subject_6564,2016-05-16,Lingula,80,31.3,
+BAL_6564-130,subject_6564,2017-02-02,Right lower lobe,80,33.5,All 7 mL of sample were processed - cell count was too low to sort
+BAL_6580-872,subject_6580,2018-02-22,Lingula,80,47.6,"Low return volume, procedure tolerated well"
+BAL_6580-234,subject_6580,2019-07-12,Right upper lobe,100,46.7,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_6580-719,subject_6580,2022-11-23,Right upper lobe,90,46.8,All 7 mL of sample were processed - cell count was too low to sort
+BAL_6592-281,subject_6592,2021-04-27,Lingula,90,13.7,"Low return volume, procedure tolerated well"
+BAL_6594-659,subject_6594,2018-06-16,Right lower lobe,120,58.1,All 7 mL of sample were processed - cell count was too low to sort
+BAL_6629-855,subject_6629,2019-03-12,Left lower lobe,90,43.0,"Low return volume, procedure tolerated well"
+BAL_6652-661,subject_6652,2016-03-03,Right lower lobe,120,52.9,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_6652-191,subject_6652,2016-07-14,Right middle lobe,80,42.7,
+BAL_6664-358,subject_6664,2016-10-24,Left lower lobe,80,46.7,"Low return volume, procedure tolerated well"
+BAL_6675-242,subject_6675,2018-03-25,Right upper lobe,80,27.3,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_6675-767,subject_6675,2018-04-17,Right upper lobe,80,32.1,Cloudy return; moderate mucus burden
+BAL_6675-312,subject_6675,2018-05-10,Left lower lobe,80,55.5,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_6691-151,subject_6691,2023-09-16,Left lower lobe,120,35.7,
+BAL_6695-766,subject_6695,2017-09-30,Right lower lobe,90,8.0,
+BAL_6695-215,subject_6695,2018-06-10,Right middle lobe,100,37.9,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_6695-730,subject_6695,2018-06-11,Right upper lobe,90,46.3,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_6698-198,subject_6698,2018-10-29,Right lower lobe,90,55.8,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_6710-883,subject_6710,2019-04-28,Right middle lobe,80,37.9,Cloudy return; moderate mucus burden
+BAL_6711-340,subject_6711,2018-10-25,Right middle lobe,100,37.6,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_6711-900,subject_6711,2020-03-24,Lingula,100,36.8,
+BAL_6738-552,subject_6738,2019-02-17,Right middle lobe,90,40.7,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_6738-626,subject_6738,2019-03-20,Right lower lobe,90,38.5,Cloudy return; moderate mucus burden
+BAL_6738-371,subject_6738,2021-01-29,Right middle lobe,90,31.9,
+BAL_6739-859,subject_6739,2019-08-18,Right lower lobe,80,21.2,
+BAL_6745-189,subject_6745,2019-05-08,Lingula,90,48.3,All 7 mL of sample were processed - cell count was too low to sort
+BAL_6747-345,subject_6747,2019-12-27,Right middle lobe,80,16.2,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_6747-942,subject_6747,2020-06-17,Left lower lobe,90,29.0,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_6753-254,subject_6753,2018-10-09,Right middle lobe,100,40.1,
+BAL_6753-929,subject_6753,2019-07-06,Left lower lobe,120,53.6,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_6761-889,subject_6761,2020-04-16,Right lower lobe,100,36.1,
+BAL_6765-754,subject_6765,2018-08-07,Lingula,120,46.6,
+BAL_6783-283,subject_6783,2023-05-04,Right upper lobe,120,20.7,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_6802-114,subject_6802,2016-03-19,Right upper lobe,100,18.9,"Low return volume, procedure tolerated well"
+BAL_6802-213,subject_6802,2016-10-18,Right middle lobe,120,33.9,
+BAL_6803-908,subject_6803,2018-05-18,Right middle lobe,90,46.7,
+BAL_6808-206,subject_6808,2021-09-14,Right upper lobe,80,52.5,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_6810-210,subject_6810,2017-12-24,Right lower lobe,120,59.6,"Low return volume, procedure tolerated well"
+BAL_6834-864,subject_6834,2021-08-14,Lingula,80,46.0,
+BAL_6864-370,subject_6864,2018-12-19,Right lower lobe,120,72.1,"Low return volume, procedure tolerated well"
+BAL_6864-894,subject_6864,2021-03-26,Right lower lobe,80,24.4,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_6864-618,subject_6864,2021-04-28,Right lower lobe,120,49.5,
+BAL_6867-261,subject_6867,2018-09-22,Lingula,100,29.7,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_6867-401,subject_6867,2018-10-20,Right upper lobe,80,31.8,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_6879-345,subject_6879,2018-02-28,Right upper lobe,120,51.2,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_6886-661,subject_6886,2019-01-08,Left lower lobe,90,46.5,
+BAL_6886-440,subject_6886,2019-05-17,Left lower lobe,80,28.3,Cloudy return; moderate mucus burden
+BAL_6890-550,subject_6890,2020-04-30,Right upper lobe,120,41.0,"Low return volume, procedure tolerated well"
+BAL_6890-666,subject_6890,2020-05-13,Lingula,90,29.1,Cloudy return; moderate mucus burden
+BAL_6901-806,subject_6901,2019-01-09,Right middle lobe,80,27.8,"Low return volume, procedure tolerated well"
+BAL_6901-916,subject_6901,2019-01-18,Right lower lobe,90,38.0,
+BAL_6901-961,subject_6901,2019-08-17,Right upper lobe,100,57.3,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_6911-402,subject_6911,2020-10-01,Left lower lobe,80,35.4,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_6912-820,subject_6912,2020-10-03,Left lower lobe,100,50.7,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_6916-187,subject_6916,2016-01-01,Right upper lobe,90,41.4,"Low return volume, procedure tolerated well"
+BAL_6916-822,subject_6916,2016-02-07,Right upper lobe,80,26.4,
+BAL_6960-672,subject_6960,2021-02-15,Right middle lobe,80,13.3,"Low return volume, procedure tolerated well"
+BAL_6968-806,subject_6968,2023-02-09,Right middle lobe,90,46.5,Cloudy return; moderate mucus burden
+BAL_6983-212,subject_6983,2022-02-08,Right upper lobe,80,42.8,"Low return volume, procedure tolerated well"
+BAL_6988-626,subject_6988,2021-05-25,Right middle lobe,120,57.7,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_6988-356,subject_6988,2021-06-08,Left lower lobe,80,29.3,Cloudy return; moderate mucus burden
+BAL_6995-707,subject_6995,2019-07-03,Right middle lobe,120,42.5,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_6995-641,subject_6995,2019-07-05,Right middle lobe,80,36.6,
+BAL_7001-127,subject_7001,2021-12-13,Lingula,100,40.3,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_7005-600,subject_7005,2018-12-10,Left lower lobe,90,35.6,
+BAL_7016-435,subject_7016,2022-05-04,Lingula,100,59.9,
+BAL_7016-738,subject_7016,2023-04-24,Right lower lobe,100,26.7,All 7 mL of sample were processed - cell count was too low to sort
+BAL_7017-857,subject_7017,2021-11-04,Right upper lobe,100,33.1,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_7018-193,subject_7018,2021-10-06,Right lower lobe,90,24.3,Cloudy return; moderate mucus burden
+BAL_7023-905,subject_7023,2016-01-01,Right upper lobe,120,58.8,
+BAL_7023-575,subject_7023,2016-04-04,Right lower lobe,90,40.0,All 7 mL of sample were processed - cell count was too low to sort
+BAL_7036-441,subject_7036,2023-06-18,Lingula,80,18.4,
+BAL_7038-623,subject_7038,2017-07-08,Right lower lobe,80,34.9,"Low return volume, procedure tolerated well"
+BAL_7043-382,subject_7043,2020-04-30,Right upper lobe,80,21.7,"Low return volume, procedure tolerated well"
+BAL_7048-646,subject_7048,2018-11-25,Right lower lobe,100,58.2,
+BAL_7053-107,subject_7053,2021-03-21,Lingula,80,37.2,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_7069-627,subject_7069,2020-06-04,Right middle lobe,120,42.9,
+BAL_7072-707,subject_7072,2019-06-07,Left lower lobe,90,33.3,
+BAL_7080-353,subject_7080,2020-12-11,Right lower lobe,100,21.4,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_7082-760,subject_7082,2019-08-16,Lingula,80,29.2,Cloudy return; moderate mucus burden
+BAL_7094-704,subject_7094,2021-01-17,Lingula,120,44.8,"Low return volume, procedure tolerated well"
+BAL_7094-821,subject_7094,2023-05-26,Lingula,80,56.7,Cloudy return; moderate mucus burden
+BAL_7100-373,subject_7100,2018-03-21,Right middle lobe,100,37.7,
+BAL_7101-654,subject_7101,2019-01-07,Lingula,100,32.1,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_7117-554,subject_7117,2019-10-19,Left lower lobe,80,22.4,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_7120-627,subject_7120,2016-01-01,Left lower lobe,80,39.3,
+BAL_7120-225,subject_7120,2016-02-06,Right upper lobe,120,64.3,All 7 mL of sample were processed - cell count was too low to sort
+BAL_7125-866,subject_7125,2018-06-13,Lingula,100,39.6,Cloudy return; moderate mucus burden
+BAL_7125-335,subject_7125,2018-06-21,Left lower lobe,100,43.4,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_7148-988,subject_7148,2016-01-03,Left lower lobe,100,21.5,
+BAL_7149-357,subject_7149,2021-12-08,Left lower lobe,100,43.8,
+BAL_7149-266,subject_7149,2021-12-18,Left lower lobe,100,48.5,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_7168-904,subject_7168,2018-06-24,Right lower lobe,90,33.4,
+BAL_7168-218,subject_7168,2019-01-13,Right lower lobe,90,56.8,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_7174-995,subject_7174,2021-10-02,Left lower lobe,120,58.4,
+BAL_7174-469,subject_7174,2021-10-18,Right middle lobe,90,16.2,
+BAL_7181-897,subject_7181,2019-12-31,Right lower lobe,120,25.9,
+BAL_7181-820,subject_7181,2020-07-20,Left lower lobe,80,29.7,
+BAL_7200-463,subject_7200,2023-10-26,Lingula,120,44.8,
+BAL_7201-694,subject_7201,2021-05-24,Lingula,90,31.2,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_7203-774,subject_7203,2018-05-24,Lingula,90,30.0,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_7211-518,subject_7211,2018-10-29,Right lower lobe,100,40.1,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_7219-704,subject_7219,2023-09-02,Right upper lobe,120,43.0,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_7228-349,subject_7228,2017-09-21,Right upper lobe,90,32.6,"Low return volume, procedure tolerated well"
+BAL_7228-741,subject_7228,2020-01-01,Lingula,90,30.8,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_7235-746,subject_7235,2016-01-01,Lingula,100,25.5,
+BAL_7250-463,subject_7250,2022-09-15,Right middle lobe,80,24.5,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_7264-262,subject_7264,2018-01-24,Lingula,90,46.4,"Low return volume, procedure tolerated well"
+BAL_7267-702,subject_7267,2017-11-06,Right middle lobe,100,40.9,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_7269-632,subject_7269,2019-04-01,Right upper lobe,100,63.3,
+BAL_7297-276,subject_7297,2016-01-01,Right upper lobe,120,54.1,"Low return volume, procedure tolerated well"
+BAL_7297-855,subject_7297,2016-01-09,Lingula,120,54.6,"Low return volume, procedure tolerated well"
+BAL_7313-827,subject_7313,2018-11-04,Right middle lobe,90,19.5,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_7326-188,subject_7326,2018-10-16,Lingula,80,35.1,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_7326-576,subject_7326,2020-04-18,Lingula,90,47.1,
+BAL_7328-957,subject_7328,2016-10-29,Right upper lobe,90,29.8,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_7328-953,subject_7328,2017-04-03,Right lower lobe,80,29.5,
+BAL_7328-704,subject_7328,2017-09-08,Right middle lobe,100,47.5,
+BAL_7338-729,subject_7338,2018-08-17,Left lower lobe,100,33.7,All 7 mL of sample were processed - cell count was too low to sort
+BAL_7338-254,subject_7338,2019-04-12,Right upper lobe,100,53.3,
+BAL_7338-596,subject_7338,2019-05-04,Left lower lobe,120,61.4,
+BAL_7341-650,subject_7341,2016-06-28,Right upper lobe,120,60.1,Cloudy return; moderate mucus burden
+BAL_7341-956,subject_7341,2019-06-04,Lingula,90,35.3,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_7343-685,subject_7343,2020-12-22,Lingula,90,26.6,"Low return volume, procedure tolerated well"
+BAL_7343-764,subject_7343,2023-08-19,Left lower lobe,100,32.1,
+BAL_7344-574,subject_7344,2018-08-13,Lingula,100,24.3,
+BAL_7344-949,subject_7344,2019-08-16,Right lower lobe,80,31.6,
+BAL_7356-853,subject_7356,2016-07-22,Right lower lobe,100,53.8,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_7362-341,subject_7362,2022-02-06,Lingula,120,56.0,Cloudy return; moderate mucus burden
+BAL_7362-539,subject_7362,2022-02-16,Right upper lobe,100,16.5,Cloudy return; moderate mucus burden
+BAL_7365-813,subject_7365,2024-03-01,Lingula,80,19.9,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_7373-584,subject_7373,2019-01-23,Left lower lobe,100,26.7,
+BAL_7377-302,subject_7377,2016-12-21,Lingula,100,30.8,
+BAL_7379-413,subject_7379,2018-07-23,Left lower lobe,120,30.6,
+BAL_7379-100,subject_7379,2021-12-25,Right middle lobe,80,31.8,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_7406-220,subject_7406,2022-08-29,Right middle lobe,90,33.6,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_7443-836,subject_7443,2024-05-05,Right lower lobe,100,48.5,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_7445-274,subject_7445,2019-05-25,Right upper lobe,90,43.9,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_7459-559,subject_7459,2016-03-21,Lingula,90,29.0,
+BAL_7459-444,subject_7459,2019-11-30,Right lower lobe,120,50.1,All 7 mL of sample were processed - cell count was too low to sort
+BAL_7461-325,subject_7461,2020-01-19,Right middle lobe,90,68.3,Cloudy return; moderate mucus burden
+BAL_7463-470,subject_7463,2016-10-05,Lingula,100,56.3,
+BAL_7463-629,subject_7463,2016-10-17,Right lower lobe,80,20.9,All 7 mL of sample were processed - cell count was too low to sort
+BAL_7467-908,subject_7467,2020-03-09,Right upper lobe,120,42.8,"Low return volume, procedure tolerated well"
+BAL_7477-898,subject_7477,2018-09-14,Right middle lobe,90,48.2,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_7509-346,subject_7509,2020-08-26,Right lower lobe,120,43.1,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_7522-973,subject_7522,2025-07-28,Lingula,120,61.5,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_7526-425,subject_7526,2016-01-01,Left lower lobe,120,41.4,
+BAL_7529-201,subject_7529,2016-01-24,Left lower lobe,90,26.2,Cloudy return; moderate mucus burden
+BAL_7535-343,subject_7535,2019-06-30,Right lower lobe,100,22.1,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_7535-769,subject_7535,2020-02-16,Lingula,100,51.3,
+BAL_7535-898,subject_7535,2021-01-07,Right middle lobe,90,26.2,
+BAL_7539-606,subject_7539,2019-11-01,Left lower lobe,90,19.9,"Low return volume, procedure tolerated well"
+BAL_7541-301,subject_7541,2017-02-06,Right lower lobe,80,38.6,
+BAL_7541-458,subject_7541,2017-04-01,Lingula,100,43.2,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_7544-583,subject_7544,2018-04-12,Right upper lobe,90,19.2,All 7 mL of sample were processed - cell count was too low to sort
+BAL_7544-389,subject_7544,2018-08-30,Right upper lobe,100,53.5,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_7560-202,subject_7560,2019-12-19,Right middle lobe,90,51.6,
+BAL_7560-470,subject_7560,2020-11-20,Right upper lobe,90,36.6,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_7563-970,subject_7563,2019-08-16,Right upper lobe,120,36.3,
+BAL_7570-210,subject_7570,2022-04-08,Right upper lobe,100,65.2,"Low return volume, procedure tolerated well"
+BAL_7570-741,subject_7570,2022-11-25,Right upper lobe,80,40.6,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_7585-579,subject_7585,2017-02-17,Lingula,90,20.6,All 7 mL of sample were processed - cell count was too low to sort
+BAL_7585-826,subject_7585,2018-03-21,Lingula,100,31.1,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_7592-363,subject_7592,2020-02-07,Right middle lobe,90,72.7,
+BAL_7593-289,subject_7593,2017-07-30,Right middle lobe,90,42.8,All 7 mL of sample were processed - cell count was too low to sort
+BAL_7595-814,subject_7595,2020-09-15,Lingula,120,54.5,
+BAL_7595-593,subject_7595,2020-12-11,Left lower lobe,90,34.1,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_7595-351,subject_7595,2021-01-07,Right upper lobe,80,39.8,"Low return volume, procedure tolerated well"
+BAL_7604-174,subject_7604,2021-04-30,Right lower lobe,80,33.1,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_7604-354,subject_7604,2021-06-17,Lingula,100,57.8,
+BAL_7604-318,subject_7604,2024-12-28,Right lower lobe,100,56.7,
+BAL_7609-937,subject_7609,2016-01-11,Lingula,120,63.7,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_7609-992,subject_7609,2016-07-06,Right lower lobe,80,43.3,All 7 mL of sample were processed - cell count was too low to sort
+BAL_7609-212,subject_7609,2016-07-29,Right upper lobe,80,37.3,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_7626-779,subject_7626,2020-04-11,Right lower lobe,120,45.6,
+BAL_7626-458,subject_7626,2021-12-24,Lingula,80,42.5,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_7635-519,subject_7635,2020-12-07,Left lower lobe,100,36.4,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_7635-695,subject_7635,2021-09-09,Lingula,90,23.1,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_7644-391,subject_7644,2020-06-24,Right upper lobe,100,18.0,All 7 mL of sample were processed - cell count was too low to sort
+BAL_7644-820,subject_7644,2020-12-26,Right middle lobe,120,65.1,"Low return volume, procedure tolerated well"
+BAL_7644-656,subject_7644,2021-07-21,Left lower lobe,80,31.0,
+BAL_7645-140,subject_7645,2021-03-12,Right upper lobe,90,40.2,All 7 mL of sample were processed - cell count was too low to sort
+BAL_7645-359,subject_7645,2022-08-30,Lingula,120,50.9,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_7656-237,subject_7656,2023-10-12,Right upper lobe,80,28.8,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_7660-526,subject_7660,2022-07-26,Lingula,100,47.5,
+BAL_7663-588,subject_7663,2021-04-19,Left lower lobe,90,43.5,"Low return volume, procedure tolerated well"
+BAL_7663-489,subject_7663,2021-08-23,Right upper lobe,120,45.1,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_7664-911,subject_7664,2020-05-02,Left lower lobe,80,47.5,
+BAL_7665-813,subject_7665,2023-02-04,Right lower lobe,100,31.8,All 7 mL of sample were processed - cell count was too low to sort
+BAL_7671-578,subject_7671,2017-02-13,Lingula,90,52.4,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_7671-852,subject_7671,2017-12-24,Right middle lobe,80,23.8,Cloudy return; moderate mucus burden
+BAL_7673-587,subject_7673,2018-12-03,Right upper lobe,100,43.8,
+BAL_7676-169,subject_7676,2024-11-03,Right lower lobe,120,65.1,Cloudy return; moderate mucus burden
+BAL_7704-477,subject_7704,2016-01-01,Right lower lobe,120,24.1,All 7 mL of sample were processed - cell count was too low to sort
+BAL_7707-333,subject_7707,2021-12-26,Left lower lobe,90,48.9,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_7711-295,subject_7711,2019-01-09,Left lower lobe,120,40.3,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_7718-537,subject_7718,2019-09-24,Right upper lobe,90,19.2,"Low return volume, procedure tolerated well"
+BAL_7720-812,subject_7720,2020-12-11,Lingula,90,10.3,
+BAL_7720-619,subject_7720,2021-06-15,Right upper lobe,90,55.2,
+BAL_7720-978,subject_7720,2021-07-07,Right upper lobe,120,47.2,
+BAL_7727-750,subject_7727,2016-07-27,Left lower lobe,100,59.3,Cloudy return; moderate mucus burden
+BAL_7729-789,subject_7729,2022-11-29,Lingula,100,12.3,
+BAL_7729-500,subject_7729,2024-01-13,Right upper lobe,90,35.0,All 7 mL of sample were processed - cell count was too low to sort
+BAL_7741-958,subject_7741,2018-08-24,Lingula,100,49.7,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_7741-792,subject_7741,2018-08-29,Left lower lobe,80,29.1,
+BAL_7742-808,subject_7742,2016-01-01,Left lower lobe,100,28.5,"Low return volume, procedure tolerated well"
+BAL_7742-812,subject_7742,2016-01-16,Right middle lobe,100,36.5,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_7752-762,subject_7752,2024-01-15,Lingula,100,38.9,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_7753-991,subject_7753,2016-06-25,Left lower lobe,100,65.3,All 7 mL of sample were processed - cell count was too low to sort
+BAL_7753-274,subject_7753,2018-11-25,Lingula,90,69.6,
+BAL_7760-627,subject_7760,2017-05-06,Left lower lobe,80,18.6,
+BAL_7761-763,subject_7761,2022-07-12,Right upper lobe,100,46.9,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_7785-957,subject_7785,2020-05-14,Left lower lobe,120,29.2,
+BAL_7788-204,subject_7788,2018-08-12,Lingula,90,42.4,All 7 mL of sample were processed - cell count was too low to sort
+BAL_7791-706,subject_7791,2016-04-10,Right lower lobe,120,65.0,Cloudy return; moderate mucus burden
+BAL_7791-255,subject_7791,2016-11-02,Right middle lobe,80,22.1,"Low return volume, procedure tolerated well"
+BAL_7791-716,subject_7791,2017-01-02,Right lower lobe,100,54.3,
+BAL_7815-728,subject_7815,2020-11-17,Left lower lobe,90,43.0,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_7826-654,subject_7826,2017-10-07,Right middle lobe,100,43.2,
+BAL_7826-760,subject_7826,2017-11-01,Right middle lobe,80,31.1,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_7830-462,subject_7830,2020-02-06,Right middle lobe,80,36.0,All 7 mL of sample were processed - cell count was too low to sort
+BAL_7833-765,subject_7833,2021-04-14,Lingula,90,50.1,
+BAL_7833-646,subject_7833,2021-04-23,Lingula,90,29.5,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_7838-845,subject_7838,2016-01-01,Right lower lobe,90,38.5,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_7846-443,subject_7846,2020-12-22,Lingula,80,16.1,
+BAL_7857-436,subject_7857,2016-05-11,Right upper lobe,80,33.0,Cloudy return; moderate mucus burden
+BAL_7861-603,subject_7861,2020-06-24,Right upper lobe,100,40.1,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_7865-645,subject_7865,2017-03-02,Right upper lobe,90,41.2,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_7865-668,subject_7865,2019-10-04,Left lower lobe,120,72.6,
+BAL_7867-501,subject_7867,2021-05-24,Right middle lobe,120,74.7,All 7 mL of sample were processed - cell count was too low to sort
+BAL_7867-397,subject_7867,2021-07-10,Left lower lobe,90,38.6,"Low return volume, procedure tolerated well"
+BAL_7872-923,subject_7872,2020-04-03,Right lower lobe,80,17.4,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_7879-851,subject_7879,2019-01-28,Right middle lobe,100,36.3,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_7885-845,subject_7885,2017-07-14,Right lower lobe,80,24.4,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_7889-990,subject_7889,2020-06-23,Right middle lobe,100,32.7,
+BAL_7906-704,subject_7906,2016-02-06,Left lower lobe,120,44.7,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_7906-568,subject_7906,2018-06-01,Right lower lobe,80,39.1,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_7910-520,subject_7910,2016-01-01,Lingula,90,28.1,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_7910-203,subject_7910,2016-02-10,Right middle lobe,80,42.2,
+BAL_7913-135,subject_7913,2020-03-16,Left lower lobe,100,24.0,
+BAL_7919-210,subject_7919,2020-04-12,Right upper lobe,120,41.3,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_7927-627,subject_7927,2021-09-14,Left lower lobe,100,15.6,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_7937-489,subject_7937,2018-11-24,Right lower lobe,120,54.8,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_7940-852,subject_7940,2021-08-31,Right upper lobe,100,45.2,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_7952-770,subject_7952,2017-02-14,Left lower lobe,90,39.1,"Low return volume, procedure tolerated well"
+BAL_7952-483,subject_7952,2017-12-05,Right lower lobe,100,39.8,
+BAL_7971-124,subject_7971,2020-12-28,Right middle lobe,100,35.0,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_7979-727,subject_7979,2021-08-17,Right upper lobe,80,32.0,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_7982-339,subject_7982,2018-10-09,Right upper lobe,120,62.1,All 7 mL of sample were processed - cell count was too low to sort
+BAL_7996-600,subject_7996,2016-01-01,Right middle lobe,90,32.9,
+BAL_7996-712,subject_7996,2016-02-08,Left lower lobe,80,17.8,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_8010-417,subject_8010,2019-11-18,Right upper lobe,100,34.5,
+BAL_8010-234,subject_8010,2020-10-03,Right upper lobe,90,23.7,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_8015-620,subject_8015,2020-03-06,Left lower lobe,120,28.7,"Low return volume, procedure tolerated well"
+BAL_8015-604,subject_8015,2020-04-01,Left lower lobe,120,34.6,
+BAL_8015-927,subject_8015,2020-04-02,Lingula,120,50.8,"Low return volume, procedure tolerated well"
+BAL_8043-296,subject_8043,2017-10-26,Left lower lobe,90,28.1,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_8043-539,subject_8043,2018-06-01,Left lower lobe,100,44.0,
+BAL_8044-371,subject_8044,2016-09-24,Right middle lobe,90,41.8,Cloudy return; moderate mucus burden
+BAL_8057-839,subject_8057,2020-08-10,Left lower lobe,120,43.9,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_8058-101,subject_8058,2021-04-22,Lingula,120,65.9,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_8060-744,subject_8060,2022-02-19,Left lower lobe,100,39.5,All 7 mL of sample were processed - cell count was too low to sort
+BAL_8065-194,subject_8065,2018-10-01,Right upper lobe,80,27.9,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_8082-366,subject_8082,2016-09-07,Lingula,120,68.6,
+BAL_8082-770,subject_8082,2016-10-22,Right lower lobe,120,50.2,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_8090-379,subject_8090,2016-01-01,Lingula,100,39.6,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_8100-585,subject_8100,2017-01-07,Lingula,100,35.5,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_8100-692,subject_8100,2017-05-12,Right lower lobe,80,40.5,All 7 mL of sample were processed - cell count was too low to sort
+BAL_8103-294,subject_8103,2016-01-01,Right upper lobe,80,16.9,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_8111-830,subject_8111,2021-12-10,Left lower lobe,80,48.9,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_8111-165,subject_8111,2023-01-27,Right lower lobe,80,21.5,
+BAL_8117-349,subject_8117,2018-09-07,Lingula,120,49.2,All 7 mL of sample were processed - cell count was too low to sort
+BAL_8145-398,subject_8145,2020-07-23,Right upper lobe,80,27.9,Cloudy return; moderate mucus burden
+BAL_8159-991,subject_8159,2021-02-19,Right upper lobe,80,30.3,"Low return volume, procedure tolerated well"
+BAL_8159-199,subject_8159,2022-08-31,Right middle lobe,90,44.8,Cloudy return; moderate mucus burden
+BAL_8166-408,subject_8166,2022-04-28,Left lower lobe,100,30.6,
+BAL_8167-820,subject_8167,2020-03-08,Lingula,90,14.6,
+BAL_8171-905,subject_8171,2017-05-05,Right upper lobe,120,42.9,"Low return volume, procedure tolerated well"
+BAL_8182-285,subject_8182,2016-11-06,Right middle lobe,120,49.6,
+BAL_8190-613,subject_8190,2016-01-01,Right middle lobe,80,31.0,Cloudy return; moderate mucus burden
+BAL_8190-879,subject_8190,2016-07-06,Right lower lobe,90,24.0,
+BAL_8221-403,subject_8221,2017-04-23,Right upper lobe,80,38.9,
+BAL_8221-666,subject_8221,2018-04-04,Lingula,120,54.3,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_8222-483,subject_8222,2019-02-15,Right middle lobe,90,29.0,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_8225-850,subject_8225,2017-02-23,Right middle lobe,90,14.7,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_8227-895,subject_8227,2021-12-06,Right middle lobe,80,10.3,
+BAL_8232-754,subject_8232,2018-06-18,Left lower lobe,90,52.6,
+BAL_8235-345,subject_8235,2017-12-18,Right lower lobe,120,62.1,"Low return volume, procedure tolerated well"
+BAL_8241-237,subject_8241,2016-08-12,Right upper lobe,120,70.9,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_8241-221,subject_8241,2017-04-26,Left lower lobe,80,24.6,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_8241-587,subject_8241,2017-06-06,Right middle lobe,100,43.4,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_8245-171,subject_8245,2018-08-07,Left lower lobe,90,33.0,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_8251-460,subject_8251,2020-08-01,Left lower lobe,90,28.2,All 7 mL of sample were processed - cell count was too low to sort
+BAL_8254-854,subject_8254,2019-08-27,Right lower lobe,120,78.8,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_8254-708,subject_8254,2019-11-15,Right middle lobe,120,57.7,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_8258-977,subject_8258,2017-09-21,Right upper lobe,100,51.7,"Low return volume, procedure tolerated well"
+BAL_8258-797,subject_8258,2017-10-14,Right middle lobe,80,44.3,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_8264-785,subject_8264,2019-02-21,Right middle lobe,90,51.9,All 7 mL of sample were processed - cell count was too low to sort
+BAL_8264-863,subject_8264,2019-08-13,Right middle lobe,100,31.2,All 7 mL of sample were processed - cell count was too low to sort
+BAL_8273-993,subject_8273,2022-09-22,Right lower lobe,80,37.4,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_8275-337,subject_8275,2020-02-18,Right lower lobe,120,44.3,"Low return volume, procedure tolerated well"
+BAL_8279-711,subject_8279,2019-01-26,Right middle lobe,120,65.1,Cloudy return; moderate mucus burden
+BAL_8279-633,subject_8279,2019-02-28,Right middle lobe,90,38.8,All 7 mL of sample were processed - cell count was too low to sort
+BAL_8284-243,subject_8284,2017-08-20,Right upper lobe,90,37.2,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_8290-825,subject_8290,2016-01-01,Left lower lobe,120,10.2,
+BAL_8312-797,subject_8312,2020-07-16,Right upper lobe,90,39.6,
+BAL_8312-195,subject_8312,2022-06-23,Left lower lobe,100,58.9,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_8317-414,subject_8317,2016-01-01,Right lower lobe,90,59.2,All 7 mL of sample were processed - cell count was too low to sort
+BAL_8341-199,subject_8341,2017-03-19,Lingula,90,40.2,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_8341-610,subject_8341,2017-10-11,Right lower lobe,80,32.0,
+BAL_8341-142,subject_8341,2018-03-17,Right upper lobe,80,45.9,"Low return volume, procedure tolerated well"
+BAL_8342-318,subject_8342,2021-08-05,Right lower lobe,120,54.2,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_8345-717,subject_8345,2021-02-22,Right middle lobe,90,42.0,Cloudy return; moderate mucus burden
+BAL_8349-658,subject_8349,2017-10-01,Left lower lobe,90,27.5,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_8349-791,subject_8349,2017-10-03,Lingula,100,33.6,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_8360-686,subject_8360,2022-02-13,Right lower lobe,120,48.2,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_8383-148,subject_8383,2020-08-30,Left lower lobe,80,25.0,
+BAL_8383-651,subject_8383,2021-07-13,Lingula,120,40.2,All 7 mL of sample were processed - cell count was too low to sort
+BAL_8388-959,subject_8388,2016-12-26,Left lower lobe,80,14.9,"Low return volume, procedure tolerated well"
+BAL_8388-586,subject_8388,2018-05-20,Right upper lobe,90,45.1,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_8391-482,subject_8391,2018-07-28,Right middle lobe,90,44.9,
+BAL_8395-950,subject_8395,2016-06-03,Right upper lobe,120,47.9,
+BAL_8395-964,subject_8395,2016-10-02,Lingula,120,53.0,
+BAL_8397-587,subject_8397,2021-01-05,Right lower lobe,120,53.2,
+BAL_8397-671,subject_8397,2021-02-20,Right lower lobe,100,57.2,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_8425-249,subject_8425,2020-03-25,Right upper lobe,90,66.6,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_8442-344,subject_8442,2020-03-17,Right upper lobe,80,39.6,"Low return volume, procedure tolerated well"
+BAL_8456-134,subject_8456,2018-05-12,Left lower lobe,90,46.4,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_8465-202,subject_8465,2017-11-27,Right middle lobe,90,41.4,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_8471-104,subject_8471,2021-11-20,Right upper lobe,120,52.2,
+BAL_8476-256,subject_8476,2020-05-21,Right middle lobe,90,40.1,Cloudy return; moderate mucus burden
+BAL_8479-815,subject_8479,2018-01-21,Right upper lobe,80,21.6,
+BAL_8497-596,subject_8497,2022-06-29,Right middle lobe,90,35.1,Cloudy return; moderate mucus burden
+BAL_8506-455,subject_8506,2021-04-16,Right middle lobe,100,54.2,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_8519-898,subject_8519,2020-06-28,Right middle lobe,100,49.5,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_8520-190,subject_8520,2021-09-27,Lingula,120,48.9,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_8524-844,subject_8524,2020-01-04,Lingula,90,35.1,All 7 mL of sample were processed - cell count was too low to sort
+BAL_8535-518,subject_8535,2021-06-06,Right middle lobe,80,28.7,All 7 mL of sample were processed - cell count was too low to sort
+BAL_8539-398,subject_8539,2022-01-03,Lingula,120,44.8,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_8545-747,subject_8545,2020-01-17,Lingula,100,26.8,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_8545-414,subject_8545,2020-02-21,Lingula,120,45.9,Cloudy return; moderate mucus burden
+BAL_8547-147,subject_8547,2016-06-14,Right middle lobe,80,28.7,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_8551-274,subject_8551,2020-08-22,Right upper lobe,100,58.5,"Low return volume, procedure tolerated well"
+BAL_8598-514,subject_8598,2016-01-01,Right middle lobe,80,25.8,Cloudy return; moderate mucus burden
+BAL_8598-167,subject_8598,2016-01-27,Right lower lobe,100,34.0,Cloudy return; moderate mucus burden
+BAL_8599-258,subject_8599,2020-12-17,Lingula,90,19.8,All 7 mL of sample were processed - cell count was too low to sort
+BAL_8599-849,subject_8599,2023-02-24,Right middle lobe,100,48.5,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_8602-715,subject_8602,2020-01-04,Lingula,90,39.4,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_8616-102,subject_8616,2021-11-15,Lingula,80,52.8,"Low return volume, procedure tolerated well"
+BAL_8620-198,subject_8620,2020-01-18,Right middle lobe,120,59.0,Cloudy return; moderate mucus burden
+BAL_8620-652,subject_8620,2022-02-23,Left lower lobe,80,17.4,
+BAL_8628-884,subject_8628,2020-08-24,Right upper lobe,120,56.0,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_8628-952,subject_8628,2021-04-30,Right upper lobe,90,42.4,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_8638-715,subject_8638,2021-08-09,Right upper lobe,90,38.4,
+BAL_8639-972,subject_8639,2016-07-11,Lingula,100,27.7,Cloudy return; moderate mucus burden
+BAL_8645-431,subject_8645,2021-03-13,Left lower lobe,120,46.5,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_8645-214,subject_8645,2022-03-20,Right lower lobe,90,35.2,
+BAL_8650-660,subject_8650,2021-04-15,Right middle lobe,100,51.9,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_8651-261,subject_8651,2019-12-20,Right upper lobe,80,37.6,"Low return volume, procedure tolerated well"
+BAL_8661-761,subject_8661,2025-09-15,Right lower lobe,80,36.7,
+BAL_8683-574,subject_8683,2023-10-21,Right upper lobe,80,53.9,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_8683-296,subject_8683,2023-10-28,Lingula,90,40.0,
+BAL_8690-214,subject_8690,2019-05-11,Right middle lobe,100,49.4,
+BAL_8692-156,subject_8692,2021-02-19,Right middle lobe,120,50.5,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_8696-216,subject_8696,2020-11-08,Lingula,100,17.4,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_8698-811,subject_8698,2019-02-05,Right middle lobe,80,40.7,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_8699-464,subject_8699,2023-11-25,Lingula,120,24.7,
+BAL_8713-263,subject_8713,2019-01-21,Left lower lobe,90,35.5,"Low return volume, procedure tolerated well"
+BAL_8727-840,subject_8727,2020-06-22,Lingula,120,69.9,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_8727-997,subject_8727,2021-02-06,Lingula,120,44.9,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_8748-477,subject_8748,2016-01-12,Right upper lobe,90,23.3,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_8748-855,subject_8748,2016-01-25,Left lower lobe,80,47.7,
+BAL_8753-877,subject_8753,2022-09-30,Right lower lobe,120,46.2,
+BAL_8762-263,subject_8762,2016-01-01,Right middle lobe,80,37.1,"Low return volume, procedure tolerated well"
+BAL_8769-454,subject_8769,2018-08-23,Right middle lobe,90,50.2,
+BAL_8775-601,subject_8775,2017-10-09,Right upper lobe,100,46.1,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_8786-228,subject_8786,2017-06-09,Left lower lobe,120,52.1,
+BAL_8786-613,subject_8786,2025-06-03,Lingula,100,50.4,
+BAL_8787-603,subject_8787,2018-12-10,Right upper lobe,90,14.1,"Low return volume, procedure tolerated well"
+BAL_8791-322,subject_8791,2017-02-02,Right upper lobe,100,40.9,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_8792-744,subject_8792,2021-12-18,Right middle lobe,90,30.7,
+BAL_8792-647,subject_8792,2022-10-19,Left lower lobe,90,52.5,
+BAL_8806-528,subject_8806,2021-06-01,Right middle lobe,90,26.4,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_8806-559,subject_8806,2021-07-10,Lingula,100,40.3,All 7 mL of sample were processed - cell count was too low to sort
+BAL_8820-384,subject_8820,2025-03-02,Lingula,100,23.1,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_8831-856,subject_8831,2020-11-06,Left lower lobe,90,30.0,
+BAL_8831-379,subject_8831,2020-11-19,Lingula,100,45.6,
+BAL_8831-385,subject_8831,2020-11-28,Lingula,100,54.2,
+BAL_8835-814,subject_8835,2019-11-23,Right lower lobe,120,25.2,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_8844-120,subject_8844,2021-06-10,Lingula,100,42.0,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_8870-801,subject_8870,2018-06-27,Right upper lobe,120,45.8,
+BAL_8886-653,subject_8886,2020-04-15,Left lower lobe,80,36.2,All 7 mL of sample were processed - cell count was too low to sort
+BAL_8898-626,subject_8898,2016-12-30,Right upper lobe,90,46.5,
+BAL_8905-638,subject_8905,2021-11-01,Right lower lobe,90,56.3,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_8908-875,subject_8908,2021-06-25,Left lower lobe,80,37.0,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_8908-511,subject_8908,2021-07-22,Right lower lobe,80,16.7,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_8911-841,subject_8911,2020-09-04,Right lower lobe,100,50.8,
+BAL_8911-973,subject_8911,2021-03-11,Right upper lobe,120,59.0,All 7 mL of sample were processed - cell count was too low to sort
+BAL_8912-732,subject_8912,2018-07-20,Lingula,100,32.8,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_8920-343,subject_8920,2020-12-09,Left lower lobe,80,13.0,All 7 mL of sample were processed - cell count was too low to sort
+BAL_8924-712,subject_8924,2017-06-30,Right middle lobe,120,32.8,All 7 mL of sample were processed - cell count was too low to sort
+BAL_8924-433,subject_8924,2018-03-30,Left lower lobe,100,46.9,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_8926-595,subject_8926,2018-11-12,Left lower lobe,120,68.4,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_8927-297,subject_8927,2017-06-18,Left lower lobe,120,71.9,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_8930-883,subject_8930,2018-05-02,Left lower lobe,100,52.7,
+BAL_8939-302,subject_8939,2018-08-14,Lingula,80,24.5,All 7 mL of sample were processed - cell count was too low to sort
+BAL_8950-756,subject_8950,2020-04-07,Right middle lobe,90,37.6,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_8952-778,subject_8952,2018-02-10,Left lower lobe,90,55.3,Cloudy return; moderate mucus burden
+BAL_8952-664,subject_8952,2018-05-26,Right middle lobe,100,33.0,Cloudy return; moderate mucus burden
+BAL_8955-792,subject_8955,2020-11-30,Right middle lobe,80,48.1,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_8970-667,subject_8970,2021-12-21,Right lower lobe,100,33.6,
+BAL_8977-277,subject_8977,2017-09-17,Right middle lobe,90,39.2,All 7 mL of sample were processed - cell count was too low to sort
+BAL_8977-224,subject_8977,2017-10-20,Right upper lobe,100,27.5,Sample extremely-mucous like; small yield in cells and insufficient amount to sort
+BAL_8977-449,subject_8977,2020-04-28,Right middle lobe,120,71.4,"Bloody tinge initially, cleared with subsequent aliquots"
+BAL_8985-843,subject_8985,2025-02-08,Lingula,100,36.7,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected)
+BAL_8994-604,subject_8994,2020-07-06,Lingula,90,34.4,

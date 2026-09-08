@@ -1,0 +1,1501 @@
+study_code,ssc_subtype,other_dx,raynaud_date,nonraynaud_date,nonraynaud_sx,diagnosis_date
+subject_7250,lcSSc,,2015-10-10,2018-01-29,arthralgia,2020-12-18
+subject_4646,dcSSc,,2012-10-11,2016-04-10,puffy hands,2018-09-24
+subject_7910,dcSSc,ILD; GERD,2012-08-19,2012-08-17,GERD,2014-12-30
+subject_7832,lcSSc,,2010-08-03,2017-07-02,dyspnea,2019-02-26
+subject_3962,dcSSc,ILD; GERD,2012-04-12,2016-09-30,GERD,2020-08-23
+subject_6373,lcSSc,GERD,2010-09-30,2014-08-08,puffy hands,2016-11-18
+subject_8998,dcSSc,GERD,2020-04-03,2017-11-21,GERD,2020-12-02
+subject_4826,dcSSc,ILD; GERD,2014-12-15,2017-04-23,arthralgia,2019-12-13
+subject_4514,lcSSc,,2014-07-31,2012-08-16,dyspnea,2016-11-30
+subject_4093,dcSSc,,2009-08-17,2016-02-04,puffy hands,2016-07-24
+subject_6803,dcSSc,,2013-08-15,2015-09-27,arthralgia,2017-01-22
+subject_8733,dcSSc,,2014-08-21,2017-05-24,digital ulcers,2017-10-09
+subject_4055,dcSSc,ILD,2010-06-14,2016-01-02,dyspnea,2016-02-10
+subject_8355,lcSSc,,2019-04-02,2015-10-20,puffy hands,2019-12-23
+subject_6250,lcSSc,,2010-08-31,2011-02-08,GERD,2014-12-15
+subject_5397,dcSSc,,2012-09-22,2015-12-31,dyspnea,2018-03-11
+subject_3318,lcSSc,ILD; PAH,2015-09-15,2014-07-29,arthralgia,2016-02-22
+subject_4861,dcSSc,ILD,2012-03-06,2015-05-27,puffy hands,2018-05-23
+subject_4655,dcSSc,ILD,2010-08-05,2014-05-06,digital ulcers,2017-06-15
+subject_8046,lcSSc,ILD; GERD,2018-05-14,2018-06-10,arthralgia,2021-05-05
+subject_7635,lcSSc,GERD,2011-10-06,2015-02-01,dyspnea,2018-03-02
+subject_4685,dcSSc,ILD,2013-05-21,2016-12-18,arthralgia,2018-11-02
+subject_5788,dcSSc,GERD,2013-08-30,2017-12-14,arthralgia,2018-11-23
+subject_8941,lcSSc,GERD,2018-01-30,2016-11-27,arthralgia,2018-07-05
+subject_4850,lcSSc,,2012-04-25,2019-03-07,puffy hands,2020-01-12
+subject_6086,lcSSc,PAH,2018-02-08,2019-01-02,dyspnea,2020-11-06
+subject_6569,lcSSc,,2016-07-04,2017-03-16,GERD,2017-08-05
+subject_3647,dcSSc,ILD,2018-06-26,2018-09-05,digital ulcers,2020-06-04
+subject_6598,lcSSc,,2012-10-29,2018-04-09,dyspnea,2019-07-21
+subject_6155,lcSSc,ILD,2015-12-24,2015-04-21,arthralgia,2017-02-18
+subject_4721,lcSSc,ILD; GERD,2016-03-02,2016-05-11,dyspnea,2018-03-02
+subject_6308,lcSSc,,2008-03-22,2014-02-01,puffy hands,2014-10-24
+subject_8727,lcSSc,,2012-03-25,2019-09-23,GERD,2020-08-10
+subject_3180,lcSSc,,2015-12-11,2017-05-21,digital ulcers,2018-10-29
+subject_5391,lcSSc,PAH,2018-06-28,2017-09-11,digital ulcers,2019-10-03
+subject_7539,dcSSc,ILD,2016-11-01,2016-09-19,puffy hands,2018-04-26
+subject_8264,lcSSc,,2015-12-08,2016-10-25,digital ulcers,2019-03-02
+subject_6244,lcSSc,GERD,2015-03-27,2015-10-28,puffy hands,2017-11-16
+subject_8360,dcSSc,ILD,2020-02-25,2020-06-15,digital ulcers,2021-07-29
+subject_2968,lcSSc,GERD,2015-08-09,2014-03-14,puffy hands,2016-01-31
+subject_8952,dcSSc,ILD,2016-05-24,2015-08-12,dyspnea,2017-07-12
+subject_3061,dcSSc,,2007-10-06,2012-01-13,arthralgia,2015-07-16
+subject_7593,dcSSc,ILD,2015-08-05,2017-02-20,digital ulcers,2017-08-18
+subject_2276,lcSSc,GERD,2015-05-10,2016-08-31,GERD,2016-12-09
+subject_3498,dcSSc,ILD,2010-02-12,2016-03-19,dyspnea,2018-05-26
+subject_7072,dcSSc,ILD,2014-04-19,2014-05-24,dyspnea,2017-11-15
+subject_4644,lcSSc,PAH,2012-04-11,2014-09-21,arthralgia,2017-01-09
+subject_4515,lcSSc,ILD,2013-10-26,2015-05-01,puffy hands,2016-06-15
+subject_3948,lcSSc,,2011-02-27,2015-06-17,puffy hands,2018-04-06
+subject_3454,dcSSc,ILD,2016-05-19,2016-04-19,dyspnea,2019-09-05
+subject_8898,dcSSc,ILD; GERD,2015-12-25,2012-09-17,digital ulcers,2016-11-12
+subject_6197,lcSSc,,2018-01-27,2018-11-29,arthralgia,2020-10-12
+subject_4221,dcSSc,ILD,2008-09-30,2011-10-14,puffy hands,2015-12-06
+subject_4336,lcSSc,ILD; GERD,2010-07-07,2015-06-01,puffy hands,2018-01-05
+subject_3657,dcSSc,,2012-05-21,2014-07-01,dyspnea,2017-05-19
+subject_3855,dcSSc,,2019-03-17,2019-10-03,GERD,2020-10-31
+subject_5199,lcSSc,ILD; GERD,2018-02-13,2016-03-08,arthralgia,2019-07-24
+subject_5927,lcSSc,,2013-09-09,2012-05-22,dyspnea,2014-12-16
+subject_6027,dcSSc,ILD; GERD,2007-09-17,2011-07-21,dyspnea,2015-03-13
+subject_5180,lcSSc,,2012-01-20,2014-02-09,arthralgia,2015-04-07
+subject_7410,lcSSc,ILD; GERD,2010-05-08,2017-08-18,dyspnea,2018-10-24
+subject_4672,dcSSc,,2016-07-04,2018-05-21,arthralgia,2021-01-23
+subject_5359,lcSSc,GERD,2011-04-17,2011-02-05,GERD,2014-12-02
+subject_5283,lcSSc,,2017-01-22,2015-09-28,GERD,2017-12-07
+subject_3803,lcSSc,PAH,2010-04-14,2015-01-03,arthralgia,2015-05-27
+subject_5580,lcSSc,,2009-06-05,2014-06-03,puffy hands,2016-04-10
+subject_2729,dcSSc,ILD; GERD,2012-05-24,2016-04-26,puffy hands,2017-12-19
+subject_2924,dcSSc,ILD; GERD,2016-09-25,2018-05-14,GERD,2019-10-07
+subject_6695,lcSSc,ILD,2012-09-06,2015-06-13,arthralgia,2017-06-25
+subject_8431,lcSSc,ILD; PAH,2015-12-19,2015-11-10,puffy hands,2018-08-27
+subject_2639,lcSSc,ILD,2017-11-06,2018-01-19,puffy hands,2021-03-21
+subject_4108,lcSSc,,2016-11-22,2014-12-13,arthralgia,2017-09-29
+subject_4322,lcSSc,PAH,2015-10-17,2016-09-20,digital ulcers,2019-12-24
+subject_4407,dcSSc,ILD; GERD,2015-03-01,2017-04-20,GERD,2020-06-15
+subject_2626,lcSSc,,2017-06-17,2017-11-22,dyspnea,2019-12-30
+subject_5934,dcSSc,ILD,2012-02-23,2015-01-21,dyspnea,2015-04-15
+subject_7564,lcSSc,ILD; GERD; PAH,2009-02-17,2014-12-16,puffy hands,2015-03-29
+subject_7343,dcSSc,ILD,2014-10-17,2019-10-25,dyspnea,2019-12-29
+subject_7645,lcSSc,ILD,2018-03-19,2016-07-04,arthralgia,2019-11-10
+subject_2416,dcSSc,ILD,2018-07-10,2016-01-21,arthralgia,2018-11-12
+subject_5023,dcSSc,ILD,2015-07-12,2015-05-24,digital ulcers,2019-06-29
+subject_6844,lcSSc,GERD,2016-12-07,2014-11-02,dyspnea,2018-04-18
+subject_5749,lcSSc,,2011-05-29,2012-01-29,dyspnea,2014-07-22
+subject_7937,dcSSc,ILD,2014-02-23,2016-09-03,GERD,2018-11-08
+subject_7526,dcSSc,GERD,2007-08-18,2014-12-30,digital ulcers,2015-05-13
+subject_5030,lcSSc,ILD,2010-11-06,2017-03-28,arthralgia,2017-10-03
+subject_4757,lcSSc,,2013-01-24,2012-08-14,puffy hands,2015-09-11
+subject_5451,lcSSc,,2020-03-12,2020-09-11,dyspnea,2021-05-20
+subject_7258,lcSSc,,2019-05-01,2021-01-17,puffy hands,2020-12-24
+subject_7477,dcSSc,ILD,2013-06-20,2012-03-31,dyspnea,2016-07-09
+subject_2908,lcSSc,,2013-12-16,2015-06-17,digital ulcers,2019-05-04
+subject_8074,lcSSc,,2013-04-11,2015-04-23,GERD,2018-04-15
+subject_7080,dcSSc,,2016-12-11,2018-08-15,dyspnea,2020-10-10
+subject_3842,lcSSc,ILD,2018-04-19,2016-09-19,dyspnea,2019-01-31
+subject_2438,lcSSc,,2017-01-09,2017-11-01,arthralgia,2019-01-29
+subject_3801,dcSSc,ILD; GERD,2017-12-27,2018-01-28,digital ulcers,2020-10-07
+subject_6470,lcSSc,,2008-02-13,2012-04-06,arthralgia,2016-05-08
+subject_3770,dcSSc,GERD,2013-01-23,2018-04-01,puffy hands,2018-07-02
+subject_8442,dcSSc,ILD; GERD,2011-03-29,2015-12-17,GERD,2018-12-19
+subject_6645,lcSSc,ILD,2013-08-02,2015-06-10,dyspnea,2017-12-14
+subject_5672,dcSSc,ILD,2013-05-22,2016-11-12,digital ulcers,2020-10-20
+subject_6879,dcSSc,ILD; GERD,2013-05-25,2016-06-03,digital ulcers,2017-11-10
+subject_2371,dcSSc,ILD,2011-04-14,2016-04-03,digital ulcers,2018-02-14
+subject_6656,dcSSc,,2011-02-06,2015-04-05,digital ulcers,2016-06-19
+subject_5751,dcSSc,,2015-07-04,2019-03-31,arthralgia,2020-06-17
+subject_2828,lcSSc,,2019-02-15,2019-04-08,dyspnea,2020-03-03
+subject_4406,lcSSc,GERD,2015-03-16,2016-11-23,dyspnea,2018-11-06
+subject_3666,lcSSc,,2014-01-23,2013-08-04,arthralgia,2015-06-01
+subject_5925,dcSSc,ILD,2014-04-28,2014-04-27,arthralgia,2015-03-11
+subject_4214,dcSSc,ILD,2014-03-09,2017-05-21,arthralgia,2020-11-30
+subject_8696,dcSSc,,2012-02-05,2016-06-19,puffy hands,2019-12-06
+subject_8807,lcSSc,GERD,2012-05-11,2016-02-06,GERD,2016-03-18
+subject_2432,lcSSc,GERD,2016-04-02,2017-07-25,digital ulcers,2020-03-13
+subject_7168,dcSSc,ILD,2009-10-11,2013-04-10,digital ulcers,2017-08-22
+subject_7838,lcSSc,,2007-07-01,2012-03-11,arthralgia,2015-10-17
+subject_6706,lcSSc,ILD,2012-06-09,2015-03-11,digital ulcers,2019-07-05
+subject_5439,lcSSc,GERD,2016-11-16,2015-08-11,dyspnea,2018-01-14
+subject_2293,dcSSc,GERD,2011-04-18,2014-04-29,arthralgia,2018-04-27
+subject_7998,lcSSc,,2012-11-20,2016-04-21,puffy hands,2018-11-19
+subject_6698,lcSSc,,2017-01-25,2016-08-12,digital ulcers,2018-09-28
+subject_6841,lcSSc,ILD,2018-04-15,2017-10-28,GERD,2021-01-27
+subject_5146,dcSSc,,2011-08-26,2016-01-15,dyspnea,2017-06-29
+subject_7919,lcSSc,GERD,2010-09-19,2015-01-12,dyspnea,2017-09-13
+subject_8748,dcSSc,ILD,2008-10-25,2011-05-04,arthralgia,2014-11-10
+subject_2472,lcSSc,,2014-04-09,2019-04-06,puffy hands,2020-09-01
+subject_8786,lcSSc,,2014-07-29,2014-08-17,arthralgia,2016-08-12
+subject_5510,lcSSc,,2016-02-18,2016-05-23,dyspnea,2018-04-21
+subject_5923,lcSSc,,2008-02-25,2011-09-29,arthralgia,2015-07-24
+subject_8166,dcSSc,ILD; GERD,2013-08-11,2019-01-25,dyspnea,2019-08-12
+subject_5477,lcSSc,ILD,2008-07-27,2016-04-22,puffy hands,2017-02-25
+subject_5229,lcSSc,,2013-03-21,2012-08-04,puffy hands,2015-06-11
+subject_6152,dcSSc,ILD; GERD,2013-05-07,2013-10-01,dyspnea,2017-10-28
+subject_6351,lcSSc,PAH,2014-09-10,2013-08-10,digital ulcers,2017-11-10
+subject_8653,lcSSc,GERD,2015-10-30,2016-03-04,arthralgia,2017-02-25
+subject_5856,dcSSc,ILD,2013-12-02,2013-05-19,arthralgia,2015-07-06
+subject_8409,lcSSc,,2016-04-13,2019-11-16,dyspnea,2020-12-03
+subject_5413,lcSSc,ILD,2009-05-02,2013-07-25,dyspnea,2015-11-08
+subject_4425,dcSSc,ILD; GERD,2018-10-14,2015-10-17,GERD,2019-07-19
+subject_5528,lcSSc,,2011-10-30,2015-10-04,dyspnea,2018-08-19
+subject_6748,lcSSc,GERD,2012-12-11,2011-06-01,digital ulcers,2015-04-04
+subject_4626,dcSSc,ILD,2015-06-21,2014-11-25,arthralgia,2018-07-08
+subject_6775,lcSSc,GERD,2015-01-05,2018-08-23,puffy hands,2021-05-03
+subject_3156,lcSSc,ILD,2011-07-02,2015-08-06,puffy hands,2016-12-26
+subject_4735,lcSSc,PAH,2010-09-26,2012-12-06,puffy hands,2016-04-06
+subject_8551,lcSSc,,2013-11-25,2018-08-19,dyspnea,2019-04-15
+subject_7644,lcSSc,ILD,2017-04-26,2018-05-19,dyspnea,2019-01-12
+subject_6068,dcSSc,,2010-11-16,2014-07-21,puffy hands,2017-02-17
+subject_4549,dcSSc,,2014-08-22,2014-01-22,GERD,2016-10-04
+subject_2579,dcSSc,ILD,2015-01-13,2014-02-08,puffy hands,2017-05-30
+subject_5011,dcSSc,ILD; GERD,2014-09-09,2017-10-30,puffy hands,2019-09-06
+subject_6973,lcSSc,ILD,2009-12-24,2011-11-15,GERD,2015-04-08
+subject_6817,lcSSc,GERD,2015-02-24,2018-01-27,dyspnea,2021-09-16
+subject_3923,lcSSc,,2013-05-04,2017-08-18,digital ulcers,2019-05-05
+subject_7011,lcSSc,,2014-09-02,2019-11-08,dyspnea,2021-09-13
+subject_3213,dcSSc,ILD; GERD,2012-05-19,2015-09-10,dyspnea,2017-04-19
+subject_7286,lcSSc,,2014-09-17,2017-04-05,dyspnea,2019-04-21
+subject_6169,lcSSc,,2018-06-25,2018-04-23,dyspnea,2021-05-22
+subject_4132,dcSSc,GERD,2012-07-14,2018-03-24,dyspnea,2019-12-17
+subject_5602,lcSSc,ILD; PAH,2013-10-06,2015-07-13,puffy hands,2015-10-29
+subject_7581,lcSSc,GERD,2017-04-30,2019-05-12,puffy hands,2019-12-10
+subject_2544,lcSSc,,2008-03-06,2012-07-09,digital ulcers,2016-02-29
+subject_3661,lcSSc,ILD,2015-12-30,2016-06-11,GERD,2017-12-08
+subject_6385,dcSSc,ILD; GERD,2016-04-28,2015-10-27,digital ulcers,2017-08-28
+subject_4259,lcSSc,ILD; GERD; PAH,2014-12-07,2016-02-05,GERD,2017-08-01
+subject_6200,lcSSc,,2012-10-10,2014-08-04,arthralgia,2017-07-10
+subject_3955,dcSSc,ILD,2011-09-27,2012-05-19,puffy hands,2016-01-28
+subject_7094,dcSSc,ILD; GERD,2014-06-02,2019-09-28,arthralgia,2021-01-09
+subject_5414,lcSSc,ILD; GERD,2013-06-17,2015-09-22,arthralgia,2016-07-07
+subject_6178,dcSSc,ILD,2015-01-16,2019-12-02,puffy hands,2019-11-27
+subject_4691,lcSSc,,2012-11-17,2018-12-19,dyspnea,2020-09-20
+subject_7965,lcSSc,GERD,2018-05-04,2016-01-15,digital ulcers,2019-09-29
+subject_3476,dcSSc,GERD,2008-12-20,2014-01-18,digital ulcers,2014-11-27
+subject_6995,lcSSc,,2017-11-23,2016-02-01,dyspnea,2019-06-17
+subject_3093,lcSSc,ILD,2016-02-05,2018-07-23,arthralgia,2018-12-18
+subject_4250,lcSSc,,2016-06-22,2018-07-25,GERD,2018-07-19
+subject_6936,lcSSc,,2016-07-06,2014-12-06,puffy hands,2018-02-26
+subject_7529,dcSSc,,2013-01-15,2011-11-11,puffy hands,2016-01-26
+subject_7555,dcSSc,,2014-01-23,2014-04-11,GERD,2018-02-09
+subject_6989,lcSSc,GERD,2016-08-08,2017-08-08,digital ulcers,2021-02-07
+subject_6880,lcSSc,,2018-01-19,2018-03-30,GERD,2019-09-10
+subject_8396,lcSSc,,2015-08-20,2015-02-07,dyspnea,2016-08-12
+subject_4073,dcSSc,ILD,2019-07-08,2019-02-23,digital ulcers,2020-06-01
+subject_2630,lcSSc,ILD; GERD,2018-03-17,2017-05-14,digital ulcers,2020-04-01
+subject_2191,lcSSc,ILD; GERD,2016-08-01,2016-10-23,puffy hands,2020-06-30
+subject_7055,lcSSc,,2015-08-31,2013-05-03,dyspnea,2015-11-14
+subject_3961,lcSSc,ILD,2017-03-31,2021-01-13,dyspnea,2020-09-25
+subject_6741,dcSSc,ILD,2016-05-11,2019-01-30,puffy hands,2020-01-08
+subject_7439,lcSSc,GERD,2010-06-13,2017-11-09,digital ulcers,2018-08-10
+subject_3858,dcSSc,,2018-06-03,2017-11-07,dyspnea,2018-10-24
+subject_7125,lcSSc,GERD,2017-03-02,2016-07-09,puffy hands,2018-08-10
+subject_3146,lcSSc,,2014-01-09,2014-09-04,puffy hands,2017-03-05
+subject_2148,dcSSc,GERD,2009-03-10,2012-09-10,dyspnea,2015-04-27
+subject_4257,dcSSc,ILD; GERD,2016-10-06,2017-12-19,digital ulcers,2020-06-09
+subject_7365,lcSSc,,2010-04-11,2013-12-23,GERD,2015-05-02
+subject_8270,lcSSc,GERD,2011-11-16,2011-08-05,arthralgia,2014-08-20
+subject_5422,dcSSc,ILD; GERD,2013-09-20,2016-04-12,dyspnea,2018-06-16
+subject_2434,lcSSc,,2018-11-19,2018-01-28,digital ulcers,2021-01-21
+subject_4417,lcSSc,ILD; PAH,2013-08-26,2013-03-29,GERD,2015-03-07
+subject_2295,dcSSc,ILD; GERD,2014-08-20,2019-08-19,puffy hands,2021-10-04
+subject_4650,lcSSc,,2013-07-29,2014-01-28,digital ulcers,2017-03-22
+subject_4171,lcSSc,,2010-05-22,2015-10-10,GERD,2017-11-08
+subject_6144,lcSSc,ILD,2011-07-05,2014-03-06,puffy hands,2018-05-31
+subject_8506,lcSSc,,2016-07-16,2016-11-28,GERD,2020-01-12
+subject_8456,dcSSc,,2015-03-01,2015-03-28,arthralgia,2017-03-21
+subject_5759,dcSSc,ILD; GERD,2012-10-18,2014-11-04,digital ulcers,2017-07-05
+subject_6909,lcSSc,GERD,2013-08-28,2017-09-25,arthralgia,2018-02-03
+subject_6433,lcSSc,ILD,2007-12-31,2011-09-06,digital ulcers,2014-07-28
+subject_8620,dcSSc,ILD; GERD,2016-09-14,2017-03-21,GERD,2020-03-07
+subject_7671,dcSSc,,2014-12-28,2014-06-09,arthralgia,2017-05-03
+subject_5112,dcSSc,ILD,2009-11-25,2013-03-04,digital ulcers,2015-06-12
+subject_3123,lcSSc,GERD,2009-03-04,2015-03-22,digital ulcers,2015-05-30
+subject_6848,dcSSc,ILD,2015-08-21,2021-01-03,digital ulcers,2021-03-24
+subject_3512,lcSSc,,2011-10-18,2016-12-26,digital ulcers,2019-03-20
+subject_6489,dcSSc,ILD,2019-08-27,2020-11-01,puffy hands,2020-07-22
+subject_2590,dcSSc,GERD,2013-08-13,2016-04-04,arthralgia,2017-01-12
+subject_6071,lcSSc,,2015-12-11,2015-08-26,digital ulcers,2016-12-20
+subject_5989,dcSSc,ILD; GERD,2016-06-20,2016-05-22,digital ulcers,2018-12-29
+subject_7522,lcSSc,,2013-03-29,2019-06-13,arthralgia,2020-05-08
+subject_7146,lcSSc,ILD; GERD,2014-07-02,2013-01-07,arthralgia,2015-09-21
+subject_2940,lcSSc,,2014-06-28,2012-07-01,GERD,2016-05-13
+subject_8806,lcSSc,PAH,2013-05-17,2020-03-14,digital ulcers,2021-04-17
+subject_6652,dcSSc,,2014-04-25,2013-11-25,arthralgia,2015-11-22
+subject_8235,dcSSc,ILD; GERD,2010-07-20,2011-05-30,dyspnea,2015-09-02
+subject_7971,lcSSc,,2015-01-14,2018-04-25,dyspnea,2021-02-06
+subject_3102,dcSSc,ILD,2010-01-21,2017-05-04,puffy hands,2017-06-27
+subject_7229,lcSSc,ILD,2015-03-17,2014-12-18,dyspnea,2016-08-30
+subject_7659,lcSSc,,2017-01-15,2016-03-15,puffy hands,2019-09-22
+subject_7036,dcSSc,ILD,2013-02-28,2018-04-18,puffy hands,2020-04-03
+subject_5423,lcSSc,ILD; GERD,2017-11-26,2020-08-10,digital ulcers,2020-09-01
+subject_4112,lcSSc,GERD; PAH,2014-02-11,2017-07-20,dyspnea,2019-05-28
+subject_5296,lcSSc,GERD,2009-08-15,2014-05-10,GERD,2017-04-16
+subject_8350,lcSSc,GERD,2013-03-22,2013-07-08,arthralgia,2016-08-19
+subject_5804,dcSSc,ILD; GERD,2013-07-29,2015-01-12,dyspnea,2014-12-03
+subject_4678,dcSSc,,2018-06-11,2019-12-04,digital ulcers,2021-03-21
+subject_2287,dcSSc,GERD,2014-05-29,2015-12-01,puffy hands,2016-02-01
+subject_7406,lcSSc,ILD,2018-04-23,2018-12-25,arthralgia,2020-12-18
+subject_6790,lcSSc,,2016-11-29,2017-11-28,puffy hands,2017-08-09
+subject_8342,dcSSc,GERD,2020-04-06,2017-06-11,digital ulcers,2020-07-07
+subject_2468,dcSSc,ILD,2012-08-23,2016-11-21,dyspnea,2019-10-08
+subject_7656,dcSSc,ILD,2013-04-16,2021-03-30,GERD,2021-05-05
+subject_6985,lcSSc,,2019-04-14,2020-11-07,arthralgia,2021-01-25
+subject_5582,lcSSc,PAH,2013-12-06,2018-05-17,GERD,2019-10-22
+subject_3830,dcSSc,GERD,2009-05-24,2013-07-29,arthralgia,2015-04-23
+subject_6490,lcSSc,ILD; GERD,2019-03-29,2020-09-10,arthralgia,2020-11-21
+subject_8831,lcSSc,GERD,2015-07-05,2018-09-12,arthralgia,2020-10-01
+subject_3817,lcSSc,GERD; PAH,2009-03-31,2017-03-02,digital ulcers,2017-05-03
+subject_3623,lcSSc,GERD,2010-10-29,2015-05-09,digital ulcers,2016-03-14
+subject_7149,dcSSc,ILD,2017-09-27,2021-05-02,puffy hands,2021-10-05
+subject_6651,lcSSc,,2013-12-28,2013-11-23,digital ulcers,2018-04-10
+subject_7267,dcSSc,ILD,2016-05-20,2013-12-04,arthralgia,2017-04-16
+subject_6130,lcSSc,PAH,2013-05-18,2014-03-20,digital ulcers,2017-03-07
+subject_4597,lcSSc,,2017-01-28,2015-10-19,dyspnea,2018-05-10
+subject_3745,lcSSc,,2014-01-01,2017-11-08,dyspnea,2020-06-05
+subject_3019,dcSSc,ILD,2011-09-16,2016-01-21,GERD,2016-07-21
+subject_5342,lcSSc,GERD,2013-01-26,2018-05-30,puffy hands,2019-12-30
+subject_7803,lcSSc,ILD,2012-07-01,2015-07-16,dyspnea,2016-02-18
+subject_8762,lcSSc,,2010-04-15,2015-01-04,GERD,2014-10-10
+subject_2893,dcSSc,,2011-07-09,2011-09-25,GERD,2015-12-01
+subject_7624,lcSSc,,2011-02-04,2015-07-17,dyspnea,2016-03-02
+subject_2659,lcSSc,ILD,2013-12-31,2017-11-22,dyspnea,2019-08-25
+subject_6255,lcSSc,,2010-05-08,2014-06-07,arthralgia,2017-08-29
+subject_8934,lcSSc,,2015-06-30,2017-06-23,arthralgia,2019-12-20
+subject_3847,lcSSc,,2015-07-28,2018-07-09,dyspnea,2019-11-19
+subject_5318,lcSSc,,2013-07-09,2018-12-08,arthralgia,2019-11-17
+subject_3070,lcSSc,GERD; PAH,2009-01-25,2015-05-27,arthralgia,2016-04-17
+subject_5178,lcSSc,,2016-03-26,2014-12-04,GERD,2018-09-24
+subject_4174,dcSSc,ILD,2009-08-09,2012-06-23,dyspnea,2015-11-02
+subject_5874,dcSSc,ILD; GERD,2013-12-22,2018-12-26,GERD,2020-08-30
+subject_3507,dcSSc,,2017-10-16,2017-07-24,digital ulcers,2021-12-06
+subject_8852,lcSSc,,2007-11-26,2015-09-14,puffy hands,2016-01-11
+subject_2750,dcSSc,ILD; GERD,2013-09-11,2016-01-12,puffy hands,2020-02-19
+subject_7595,lcSSc,ILD,2019-01-24,2016-06-11,dyspnea,2019-11-14
+subject_5737,dcSSc,ILD; GERD,2018-10-07,2020-04-23,GERD,2020-07-28
+subject_2213,dcSSc,,2016-11-20,2016-09-13,dyspnea,2017-11-05
+subject_5768,dcSSc,,2017-05-15,2014-02-14,dyspnea,2017-12-14
+subject_5566,dcSSc,ILD,2010-02-21,2015-09-02,puffy hands,2016-07-30
+subject_8293,dcSSc,,2016-07-06,2019-07-04,arthralgia,2020-08-29
+subject_7120,lcSSc,ILD,2014-06-25,2012-01-31,dyspnea,2015-03-20
+subject_8010,dcSSc,,2013-01-17,2016-10-20,digital ulcers,2019-08-25
+subject_6907,lcSSc,,2015-01-12,2013-09-16,arthralgia,2016-06-01
+subject_2482,lcSSc,PAH,2014-08-03,2018-11-04,arthralgia,2021-01-27
+subject_6547,lcSSc,ILD,2016-05-28,2018-08-15,GERD,2020-06-29
+subject_6891,lcSSc,,2009-08-07,2014-03-03,GERD,2015-09-15
+subject_6990,lcSSc,,2016-06-05,2016-05-28,arthralgia,2017-02-23
+subject_6475,lcSSc,GERD,2016-07-28,2018-05-05,GERD,2019-06-12
+subject_8769,lcSSc,ILD,2016-10-03,2014-04-22,digital ulcers,2017-08-14
+subject_8407,lcSSc,,2014-06-14,2014-03-20,dyspnea,2015-12-23
+subject_4584,lcSSc,ILD,2016-03-01,2013-05-28,puffy hands,2016-10-28
+subject_8866,lcSSc,ILD,2013-03-01,2018-02-16,dyspnea,2019-03-12
+subject_2816,lcSSc,ILD,2011-11-21,2018-11-22,puffy hands,2019-12-04
+subject_7023,lcSSc,,2009-07-07,2014-11-05,arthralgia,2015-11-30
+subject_3989,lcSSc,PAH,2015-02-01,2017-04-08,dyspnea,2019-06-28
+subject_6703,lcSSc,PAH,2007-09-30,2014-08-15,GERD,2016-02-08
+subject_3528,lcSSc,,2015-03-02,2015-07-02,puffy hands,2017-10-19
+subject_4004,dcSSc,ILD; GERD,2019-11-20,2019-02-07,dyspnea,2021-03-24
+subject_3895,lcSSc,,2013-02-09,2014-12-16,dyspnea,2019-06-10
+subject_8598,lcSSc,ILD; GERD,2014-01-25,2013-03-27,digital ulcers,2014-12-25
+subject_5535,dcSSc,ILD; GERD,2013-05-27,2014-10-21,dyspnea,2017-11-10
+subject_8367,lcSSc,,2013-08-02,2016-06-01,GERD,2019-02-14
+subject_6150,lcSSc,ILD,2016-12-01,2018-07-20,arthralgia,2019-11-15
+subject_4825,lcSSc,ILD,2015-10-08,2016-09-09,digital ulcers,2016-11-02
+subject_5596,lcSSc,ILD,2013-02-15,2015-08-21,puffy hands,2018-08-03
+subject_8559,dcSSc,,2016-03-09,2012-12-11,dyspnea,2016-10-19
+subject_7867,lcSSc,,2015-06-12,2018-07-10,dyspnea,2021-01-14
+subject_2818,dcSSc,,2019-10-10,2020-02-04,GERD,2020-08-07
+subject_5083,lcSSc,ILD,2013-03-01,2014-02-03,puffy hands,2017-01-02
+subject_5700,dcSSc,,2014-06-12,2017-05-22,puffy hands,2020-05-09
+subject_7857,dcSSc,ILD,2010-05-29,2013-07-26,dyspnea,2016-03-13
+subject_6481,lcSSc,ILD,2017-08-22,2018-04-21,dyspnea,2019-01-12
+subject_5362,dcSSc,ILD,2011-07-25,2014-12-24,arthralgia,2015-06-07
+subject_8290,lcSSc,,2012-12-12,2013-02-18,digital ulcers,2015-06-02
+subject_3700,dcSSc,ILD,2016-03-27,2014-04-02,GERD,2018-05-09
+subject_5691,dcSSc,GERD,2017-02-18,2017-10-28,GERD,2017-10-10
+subject_6363,lcSSc,,2011-09-12,2015-11-10,puffy hands,2018-10-17
+subject_2021,dcSSc,,2015-08-07,2018-12-11,puffy hands,2018-11-29
+subject_8275,dcSSc,ILD,2013-04-22,2018-11-01,puffy hands,2018-11-21
+subject_7676,lcSSc,,2016-02-13,2014-08-26,digital ulcers,2016-09-04
+subject_5537,lcSSc,,2011-08-04,2013-09-22,GERD,2017-06-25
+subject_4124,lcSSc,,2017-02-23,2017-04-27,arthralgia,2021-02-15
+subject_4090,lcSSc,,2014-05-05,2013-02-24,GERD,2017-07-26
+subject_4833,lcSSc,,2017-10-28,2015-05-18,dyspnea,2018-02-15
+subject_2028,lcSSc,GERD,2014-12-17,2014-03-23,digital ulcers,2017-07-10
+subject_8606,dcSSc,ILD; GERD,2008-03-17,2014-08-14,GERD,2015-08-08
+subject_8800,lcSSc,GERD,2016-08-09,2018-05-14,GERD,2019-05-13
+subject_5254,lcSSc,,2013-05-27,2016-04-16,GERD,2019-08-31
+subject_6568,lcSSc,GERD,2008-08-22,2012-05-11,dyspnea,2015-12-22
+subject_5705,lcSSc,ILD,2009-05-20,2013-02-18,digital ulcers,2017-05-12
+subject_7560,lcSSc,GERD; PAH,2012-06-03,2017-10-05,digital ulcers,2019-12-21
+subject_8994,lcSSc,ILD; PAH,2016-06-16,2016-02-19,dyspnea,2018-06-21
+subject_6808,lcSSc,ILD; GERD,2017-04-04,2017-07-27,puffy hands,2019-06-26
+subject_4177,lcSSc,ILD,2016-08-26,2019-05-24,digital ulcers,2020-08-20
+subject_8168,lcSSc,,2018-10-01,2017-04-13,digital ulcers,2021-02-12
+subject_8245,dcSSc,ILD,2017-04-03,2018-04-23,digital ulcers,2018-10-15
+subject_5330,lcSSc,GERD,2014-07-19,2016-05-04,puffy hands,2020-10-06
+subject_2289,lcSSc,GERD,2014-06-03,2015-04-22,dyspnea,2015-07-19
+subject_5364,lcSSc,GERD,2014-12-07,2017-08-29,GERD,2019-11-18
+subject_7804,lcSSc,PAH,2009-08-09,2011-11-24,digital ulcers,2015-08-27
+subject_5511,lcSSc,,2015-12-25,2016-08-01,dyspnea,2018-02-15
+subject_3473,lcSSc,,2013-05-15,2015-05-30,dyspnea,2019-01-09
+subject_4437,lcSSc,ILD,2018-03-02,2015-09-18,digital ulcers,2019-05-15
+subject_4938,dcSSc,ILD,2011-08-31,2018-09-30,puffy hands,2019-08-01
+subject_7556,lcSSc,ILD; GERD,2014-07-14,2019-01-27,digital ulcers,2019-04-11
+subject_2095,lcSSc,ILD; GERD,2012-08-31,2014-12-19,digital ulcers,2017-04-21
+subject_5971,dcSSc,GERD,2015-05-03,2015-05-06,digital ulcers,2017-09-26
+subject_8592,lcSSc,,2018-05-05,2017-04-18,puffy hands,2020-09-15
+subject_5787,dcSSc,,2018-06-12,2019-11-30,arthralgia,2020-11-01
+subject_6029,lcSSc,ILD,2012-02-08,2018-05-13,dyspnea,2018-06-27
+subject_4270,dcSSc,ILD,2015-06-15,2019-05-24,digital ulcers,2021-03-22
+subject_2850,dcSSc,ILD,2007-04-11,2012-12-07,dyspnea,2015-02-15
+subject_4749,lcSSc,,2010-05-04,2013-01-27,GERD,2015-12-13
+subject_8377,lcSSc,,2013-06-22,2017-03-11,puffy hands,2018-04-09
+subject_5575,lcSSc,GERD; PAH,2017-11-14,2019-06-22,arthralgia,2019-07-22
+subject_2952,lcSSc,ILD; PAH,2014-08-13,2014-03-10,digital ulcers,2016-02-12
+subject_6340,lcSSc,ILD,2015-01-18,2012-08-23,GERD,2016-11-15
+subject_2187,dcSSc,GERD,2017-10-12,2017-07-30,GERD,2019-12-21
+subject_6217,lcSSc,,2010-06-25,2013-06-17,puffy hands,2016-07-30
+subject_4697,lcSSc,,2014-05-17,2012-04-01,arthralgia,2015-12-28
+subject_7443,lcSSc,,2015-01-03,2014-08-08,GERD,2016-09-24
+subject_2919,lcSSc,ILD,2014-12-07,2018-03-20,GERD,2020-09-27
+subject_3425,lcSSc,,2012-08-29,2019-02-03,arthralgia,2020-07-06
+subject_2930,dcSSc,,2012-05-26,2013-10-11,dyspnea,2017-01-28
+subject_8713,lcSSc,ILD,2014-08-22,2015-10-17,digital ulcers,2018-06-26
+subject_8812,lcSSc,,2015-11-03,2017-04-05,GERD,2020-10-22
+subject_5043,lcSSc,ILD; GERD,2015-07-19,2017-02-21,arthralgia,2019-01-24
+subject_7693,lcSSc,GERD,2017-07-03,2017-06-20,dyspnea,2020-05-14
+subject_5871,dcSSc,ILD; GERD,2009-06-19,2014-01-23,arthralgia,2016-06-02
+subject_7242,lcSSc,ILD; GERD,2019-01-22,2018-04-07,puffy hands,2020-10-15
+subject_3001,lcSSc,GERD,2015-06-30,2014-08-19,dyspnea,2018-03-17
+subject_4772,lcSSc,ILD; GERD,2017-12-14,2017-05-21,GERD,2020-03-29
+subject_4201,lcSSc,,2015-04-11,2017-06-26,dyspnea,2020-12-08
+subject_4188,lcSSc,,2011-02-28,2014-10-28,arthralgia,2017-04-19
+subject_8539,dcSSc,,2019-04-19,2017-10-12,arthralgia,2020-08-05
+subject_2796,dcSSc,ILD,2010-12-19,2012-03-08,digital ulcers,2015-05-04
+subject_7100,dcSSc,GERD,2013-12-16,2012-04-09,puffy hands,2016-04-20
+subject_3458,lcSSc,,2017-07-10,2015-12-29,dyspnea,2019-02-27
+subject_8120,dcSSc,ILD,2013-06-24,2012-06-20,dyspnea,2016-02-25
+subject_8471,dcSSc,ILD; GERD,2016-08-24,2014-09-07,digital ulcers,2018-10-19
+subject_6663,lcSSc,,2011-07-15,2016-01-06,GERD,2016-07-23
+subject_3798,lcSSc,,2014-10-03,2017-08-17,puffy hands,2018-07-06
+subject_5896,lcSSc,,2017-05-09,2014-11-10,GERD,2018-07-30
+subject_6494,lcSSc,,2014-06-29,2014-04-22,GERD,2017-12-01
+subject_3901,lcSSc,ILD,2015-07-09,2014-05-31,puffy hands,2018-04-25
+subject_3068,dcSSc,GERD,2011-12-26,2014-02-20,arthralgia,2016-08-24
+subject_6753,dcSSc,ILD; GERD,2017-06-22,2018-09-11,GERD,2019-04-26
+subject_6252,lcSSc,GERD,2012-11-05,2016-10-24,arthralgia,2017-12-12
+subject_8349,lcSSc,ILD,2009-01-02,2015-11-08,puffy hands,2016-08-23
+subject_7612,lcSSc,ILD,2013-05-12,2011-11-10,GERD,2015-04-28
+subject_6230,lcSSc,GERD,2009-09-09,2014-03-30,GERD,2015-02-23
+subject_7333,dcSSc,ILD,2012-12-02,2015-10-29,GERD,2016-09-21
+subject_6379,dcSSc,ILD,2011-11-13,2014-10-28,digital ulcers,2016-09-29
+subject_8131,dcSSc,,2015-01-22,2020-01-30,arthralgia,2020-08-16
+subject_4222,lcSSc,,2016-07-14,2017-08-22,arthralgia,2018-10-14
+subject_2780,lcSSc,ILD,2016-03-01,2018-12-26,puffy hands,2020-05-28
+subject_5666,dcSSc,ILD,2016-03-27,2021-04-13,GERD,2021-01-01
+subject_4824,dcSSc,ILD,2015-05-01,2013-08-20,puffy hands,2016-10-18
+subject_7264,lcSSc,GERD,2012-06-02,2012-12-12,dyspnea,2016-07-28
+subject_6711,lcSSc,GERD,2010-12-21,2014-12-26,dyspnea,2019-03-15
+subject_3565,dcSSc,ILD,2016-07-18,2020-09-15,digital ulcers,2020-10-07
+subject_3559,lcSSc,ILD,2010-10-01,2014-11-01,arthralgia,2017-12-10
+subject_4595,dcSSc,ILD,2013-07-16,2018-05-15,GERD,2021-08-24
+subject_5312,lcSSc,,2016-03-04,2016-01-23,dyspnea,2018-04-16
+subject_8745,lcSSc,,2015-02-19,2017-10-01,puffy hands,2020-03-25
+subject_8939,lcSSc,ILD; GERD,2013-07-28,2017-02-23,GERD,2019-05-01
+subject_7766,lcSSc,,2015-07-15,2017-07-06,arthralgia,2019-11-05
+subject_2601,lcSSc,,2015-08-11,2015-11-03,GERD,2019-10-04
+subject_7048,dcSSc,ILD,2010-12-29,2017-02-02,GERD,2019-01-14
+subject_2646,lcSSc,GERD,2011-10-03,2016-04-20,GERD,2017-01-26
+subject_5081,lcSSc,,2017-07-09,2019-03-30,arthralgia,2020-02-10
+subject_5113,lcSSc,,2018-08-18,2019-01-21,puffy hands,2020-01-20
+subject_5003,dcSSc,ILD; GERD,2009-09-04,2015-05-26,arthralgia,2016-05-11
+subject_4395,lcSSc,GERD,2014-08-25,2017-09-18,puffy hands,2019-04-16
+subject_7335,lcSSc,PAH,2019-06-23,2017-09-12,GERD,2019-08-21
+subject_3960,lcSSc,,2010-01-09,2014-08-08,arthralgia,2015-11-06
+subject_7927,lcSSc,,2019-11-02,2020-10-14,puffy hands,2021-05-08
+subject_8501,lcSSc,ILD,2020-04-20,2019-02-16,digital ulcers,2021-02-15
+subject_4418,dcSSc,ILD,2011-11-10,2015-02-10,puffy hands,2016-04-26
+subject_4318,lcSSc,,2011-08-22,2013-08-23,GERD,2017-09-28
+subject_6629,dcSSc,,2014-10-13,2017-06-27,arthralgia,2018-10-07
+subject_3215,dcSSc,ILD,2019-03-18,2018-08-09,dyspnea,2020-10-14
+subject_6625,dcSSc,,2007-04-27,2013-09-10,digital ulcers,2015-02-13
+subject_3320,dcSSc,ILD,2013-08-26,2015-07-27,GERD,2016-02-09
+subject_7377,dcSSc,ILD,2012-07-07,2012-12-20,arthralgia,2016-06-21
+subject_5895,dcSSc,ILD; GERD,2011-02-25,2016-12-26,arthralgia,2018-07-06
+subject_8167,dcSSc,ILD,2016-08-28,2018-05-24,puffy hands,2019-07-04
+subject_2803,lcSSc,,2010-02-14,2011-09-18,arthralgia,2014-11-13
+subject_6968,lcSSc,,2016-08-04,2018-08-27,digital ulcers,2021-03-02
+subject_2897,dcSSc,ILD; GERD,2015-05-07,2016-09-06,arthralgia,2017-12-22
+subject_4292,dcSSc,ILD,2010-12-10,2018-02-23,dyspnea,2017-11-23
+subject_7192,dcSSc,ILD,2017-07-12,2019-04-06,arthralgia,2021-01-17
+subject_2622,lcSSc,,2012-09-29,2019-10-06,puffy hands,2020-03-10
+subject_8977,dcSSc,ILD,2014-10-13,2014-11-18,digital ulcers,2017-07-15
+subject_5231,dcSSc,GERD,2014-03-13,2014-06-19,arthralgia,2018-09-10
+subject_7602,lcSSc,,2017-06-10,2019-07-29,dyspnea,2021-03-30
+subject_8141,lcSSc,GERD,2012-07-16,2018-09-26,dyspnea,2020-04-06
+subject_8877,lcSSc,,2015-12-11,2013-11-09,GERD,2017-04-07
+subject_8779,lcSSc,,2014-05-08,2017-09-26,GERD,2017-08-21
+subject_8182,dcSSc,ILD; GERD,2012-01-14,2012-03-05,dyspnea,2016-04-02
+subject_4114,dcSSc,ILD,2011-08-24,2014-11-10,digital ulcers,2017-11-09
+subject_7525,lcSSc,ILD; PAH,2017-04-14,2018-12-02,GERD,2020-06-21
+subject_4444,lcSSc,ILD; PAH,2015-12-29,2017-03-26,arthralgia,2019-09-02
+subject_5045,lcSSc,,2010-08-10,2014-06-07,arthralgia,2017-04-05
+subject_6101,dcSSc,,2014-12-21,2018-11-12,dyspnea,2019-02-06
+subject_7711,dcSSc,ILD,2014-03-08,2015-10-06,dyspnea,2018-11-23
+subject_7078,lcSSc,GERD,2017-11-28,2018-03-23,dyspnea,2019-12-03
+subject_2949,dcSSc,ILD,2010-11-06,2017-04-22,puffy hands,2017-10-25
+subject_3889,lcSSc,GERD,2008-03-18,2013-10-26,dyspnea,2016-02-27
+subject_3867,dcSSc,,2011-08-15,2017-01-17,GERD,2018-09-29
+subject_2764,lcSSc,,2012-02-10,2014-01-01,arthralgia,2015-04-09
+subject_3630,lcSSc,,2014-06-14,2020-09-13,digital ulcers,2021-04-17
+subject_6416,lcSSc,GERD,2014-06-21,2018-01-15,puffy hands,2020-11-20
+subject_8379,lcSSc,,2014-04-22,2020-10-26,GERD,2021-02-27
+subject_5242,lcSSc,,2010-09-06,2013-10-28,dyspnea,2015-07-23
+subject_4294,lcSSc,,2012-07-25,2016-05-22,arthralgia,2016-08-25
+subject_7749,lcSSc,GERD,2009-10-13,2015-02-10,GERD,2016-05-18
+subject_5935,lcSSc,,2017-12-29,2016-05-24,dyspnea,2019-07-31
+subject_2328,lcSSc,GERD,2016-04-27,2017-05-01,digital ulcers,2017-09-01
+subject_3749,dcSSc,,2008-05-02,2015-05-15,digital ulcers,2015-11-26
+subject_4346,dcSSc,,2015-09-21,2014-11-11,digital ulcers,2017-05-31
+subject_7082,dcSSc,ILD,2015-04-09,2015-09-17,dyspnea,2018-06-03
+subject_4727,lcSSc,PAH,2017-09-15,2020-08-26,arthralgia,2020-12-21
+subject_3005,lcSSc,,2013-03-26,2016-06-23,puffy hands,2018-02-19
+subject_2706,lcSSc,GERD,2014-01-05,2014-08-10,dyspnea,2015-10-19
+subject_4386,dcSSc,,2014-08-29,2014-07-18,dyspnea,2016-02-06
+subject_3289,lcSSc,,2011-12-31,2015-02-01,GERD,2016-01-14
+subject_5078,dcSSc,ILD; GERD,2018-03-07,2021-01-09,puffy hands,2020-11-07
+subject_4714,dcSSc,ILD,2013-01-09,2013-11-04,arthralgia,2016-09-18
+subject_8870,dcSSc,ILD; GERD,2016-09-03,2015-05-12,GERD,2018-04-06
+subject_8059,lcSSc,,2009-09-09,2012-06-03,puffy hands,2015-06-25
+subject_6446,lcSSc,,2012-04-01,2017-10-19,dyspnea,2019-02-27
+subject_6190,lcSSc,ILD; GERD; PAH,2007-12-30,2014-02-24,puffy hands,2014-11-03
+subject_8244,lcSSc,,2009-12-21,2015-02-13,GERD,2018-05-31
+subject_5988,lcSSc,GERD,2010-09-29,2014-11-21,dyspnea,2017-11-03
+subject_5676,lcSSc,GERD,2010-11-18,2014-08-27,arthralgia,2018-01-04
+subject_7952,dcSSc,,2009-04-07,2013-01-29,dyspnea,2016-05-19
+subject_5202,dcSSc,ILD,2019-04-20,2019-04-18,GERD,2021-04-12
+subject_5736,lcSSc,,2011-01-13,2016-12-15,arthralgia,2016-11-25
+subject_3892,lcSSc,GERD; PAH,2010-10-25,2017-07-30,dyspnea,2018-09-26
+subject_4041,lcSSc,,2015-09-17,2019-02-24,puffy hands,2021-03-16
+subject_5209,dcSSc,,2015-02-27,2015-05-20,puffy hands,2015-10-08
+subject_8468,dcSSc,ILD,2011-11-27,2018-10-23,dyspnea,2019-12-28
+subject_2442,dcSSc,,2016-03-27,2016-06-16,dyspnea,2018-06-11
+subject_5223,lcSSc,ILD,2010-03-05,2016-04-10,puffy hands,2017-05-09
+subject_3604,dcSSc,ILD,2009-10-22,2015-01-28,arthralgia,2015-03-08
+subject_7830,dcSSc,ILD,2017-11-30,2017-05-21,arthralgia,2019-01-23
+subject_3835,lcSSc,,2016-08-05,2018-08-14,dyspnea,2021-02-28
+subject_5392,lcSSc,,2015-12-11,2015-03-31,arthralgia,2018-05-15
+subject_7324,dcSSc,,2015-11-28,2019-01-22,GERD,2021-05-27
+subject_3964,dcSSc,ILD,2018-03-15,2016-06-27,dyspnea,2019-09-22
+subject_5091,dcSSc,ILD,2009-10-17,2012-05-15,dyspnea,2015-08-13
+subject_4985,dcSSc,,2010-11-18,2012-12-07,GERD,2016-08-13
+subject_2585,lcSSc,GERD,2012-01-24,2013-04-19,digital ulcers,2016-04-22
+subject_6240,dcSSc,,2013-01-20,2020-08-05,dyspnea,2021-06-14
+subject_5421,lcSSc,ILD,2011-08-23,2014-10-18,arthralgia,2016-03-10
+subject_4119,lcSSc,ILD,2015-11-15,2017-12-11,GERD,2018-05-03
+subject_3148,dcSSc,ILD; GERD,2011-02-07,2017-01-12,puffy hands,2019-04-13
+subject_4149,dcSSc,ILD; GERD,2014-09-25,2013-05-13,dyspnea,2017-05-03
+subject_5044,dcSSc,,2013-02-17,2016-02-22,arthralgia,2015-11-19
+subject_8497,dcSSc,,2017-02-25,2019-08-03,dyspnea,2021-04-05
+subject_4852,dcSSc,ILD; GERD,2010-03-06,2017-10-01,GERD,2017-06-29
+subject_3101,dcSSc,,2019-12-10,2020-03-08,arthralgia,2020-10-11
+subject_6594,dcSSc,ILD,2013-05-29,2016-07-06,dyspnea,2016-12-07
+subject_4831,lcSSc,,2012-02-25,2012-11-12,digital ulcers,2015-07-09
+subject_7979,dcSSc,ILD; GERD,2013-02-10,2017-10-22,puffy hands,2018-02-19
+subject_3693,lcSSc,ILD; PAH,2008-04-18,2014-03-27,dyspnea,2015-07-03
+subject_2871,lcSSc,,2013-12-20,2018-02-28,digital ulcers,2019-06-12
+subject_4057,dcSSc,,2014-01-22,2017-04-11,arthralgia,2018-05-16
+subject_5833,dcSSc,ILD; GERD,2011-06-26,2013-01-26,dyspnea,2016-05-31
+subject_7129,lcSSc,GERD,2008-10-03,2013-10-09,puffy hands,2015-05-01
+subject_5642,lcSSc,,2011-10-14,2019-01-24,GERD,2019-08-21
+subject_6267,dcSSc,,2013-12-21,2017-10-16,GERD,2020-12-05
+subject_3776,lcSSc,,2010-05-11,2013-11-24,GERD,2017-10-02
+subject_4753,dcSSc,ILD,2013-07-06,2013-03-22,dyspnea,2016-07-01
+subject_4296,lcSSc,,2017-08-21,2017-11-24,arthralgia,2018-03-06
+subject_2532,dcSSc,ILD; GERD,2015-08-18,2015-09-08,GERD,2018-04-11
+subject_8273,dcSSc,,2016-08-05,2017-09-28,GERD,2021-01-05
+subject_5890,lcSSc,GERD,2013-02-28,2016-02-17,GERD,2017-03-14
+subject_2643,dcSSc,ILD; GERD,2015-01-01,2016-07-18,dyspnea,2016-12-12
+subject_8692,dcSSc,,2016-09-20,2017-04-05,dyspnea,2021-04-28
+subject_8345,dcSSc,ILD,2016-04-04,2019-04-24,GERD,2021-01-07
+subject_5031,dcSSc,ILD,2011-11-03,2016-08-08,digital ulcers,2019-08-02
+subject_2965,dcSSc,,2012-02-15,2015-11-01,dyspnea,2020-05-18
+subject_6552,lcSSc,ILD,2012-04-12,2016-03-25,puffy hands,2018-11-11
+subject_7442,lcSSc,,2007-08-13,2015-05-15,GERD,2015-06-19
+subject_3255,dcSSc,ILD,2012-07-30,2015-02-11,arthralgia,2016-06-01
+subject_8019,lcSSc,ILD; PAH,2018-05-19,2018-08-23,arthralgia,2020-04-29
+subject_6438,lcSSc,GERD,2012-08-11,2016-02-27,puffy hands,2020-06-05
+subject_2053,dcSSc,GERD,2013-07-27,2017-04-29,dyspnea,2020-03-06
+subject_5425,lcSSc,ILD,2013-08-01,2015-10-30,digital ulcers,2018-05-17
+subject_2574,lcSSc,GERD,2012-06-02,2016-01-08,dyspnea,2017-01-31
+subject_7537,lcSSc,ILD,2013-01-07,2016-02-15,dyspnea,2019-04-21
+subject_7872,dcSSc,ILD,2017-06-24,2018-05-28,arthralgia,2019-06-22
+subject_6307,lcSSc,,2012-04-30,2013-12-20,puffy hands,2016-04-10
+subject_7316,lcSSc,GERD,2013-07-16,2013-12-10,dyspnea,2018-05-06
+subject_7880,lcSSc,,2015-06-07,2015-02-19,dyspnea,2018-02-15
+subject_6561,lcSSc,ILD; GERD,2011-04-10,2016-05-14,puffy hands,2016-03-15
+subject_8227,lcSSc,ILD,2016-07-16,2019-05-07,arthralgia,2021-02-26
+subject_7729,dcSSc,ILD,2018-03-01,2020-04-10,dyspnea,2021-01-27
+subject_6904,dcSSc,ILD,2016-10-15,2018-09-04,GERD,2020-06-19
+subject_8435,lcSSc,GERD,2013-07-04,2016-06-24,puffy hands,2020-12-20
+subject_3418,lcSSc,,2017-01-01,2014-11-03,dyspnea,2017-12-07
+subject_8545,lcSSc,ILD,2015-04-15,2015-10-17,GERD,2016-08-22
+subject_4992,dcSSc,ILD,2015-09-10,2019-07-17,GERD,2021-10-01
+subject_4012,lcSSc,,2009-09-24,2013-01-02,digital ulcers,2015-12-02
+subject_8465,dcSSc,ILD,2014-05-31,2014-05-08,puffy hands,2017-11-28
+subject_2444,dcSSc,,2016-08-03,2016-08-14,arthralgia,2019-07-28
+subject_7330,lcSSc,ILD,2011-03-30,2016-11-12,GERD,2018-08-31
+subject_2422,lcSSc,ILD,2009-08-02,2016-06-29,puffy hands,2017-08-31
+subject_2420,lcSSc,ILD,2014-02-24,2017-11-20,arthralgia,2018-03-12
+subject_6305,lcSSc,PAH,2014-01-27,2016-03-08,dyspnea,2019-03-15
+subject_6291,dcSSc,ILD,2013-05-19,2017-02-03,digital ulcers,2019-05-17
+subject_7818,lcSSc,ILD,2014-05-10,2017-12-19,GERD,2018-04-24
+subject_4244,dcSSc,ILD,2015-01-31,2017-07-14,digital ulcers,2020-09-25
+subject_7052,lcSSc,GERD,2012-09-24,2016-07-20,dyspnea,2019-11-11
+subject_3852,lcSSc,,2010-12-25,2014-03-07,GERD,2016-01-19
+subject_5188,lcSSc,,2011-04-19,2017-01-26,GERD,2018-05-12
+subject_8926,dcSSc,ILD,2015-11-08,2017-04-16,arthralgia,2018-05-21
+subject_7861,dcSSc,ILD; GERD,2015-10-22,2017-07-21,arthralgia,2018-05-01
+subject_3273,lcSSc,PAH,2012-06-08,2016-04-29,puffy hands,2018-02-22
+subject_5682,dcSSc,ILD; GERD,2016-02-07,2015-10-25,arthralgia,2018-08-05
+subject_2235,lcSSc,ILD; GERD,2018-06-19,2016-04-27,puffy hands,2020-10-31
+subject_3717,dcSSc,ILD,2014-05-05,2014-04-15,puffy hands,2015-04-11
+subject_2657,lcSSc,GERD; PAH,2015-11-26,2012-12-14,arthralgia,2017-02-23
+subject_4087,lcSSc,ILD; GERD,2017-06-26,2020-02-28,dyspnea,2020-01-30
+subject_2610,lcSSc,,2020-02-28,2017-07-16,puffy hands,2021-03-18
+subject_5695,lcSSc,PAH,2007-01-08,2014-08-05,arthralgia,2015-06-08
+subject_4083,dcSSc,GERD,2011-10-01,2017-02-12,dyspnea,2017-11-09
+subject_8044,lcSSc,,2010-10-08,2011-09-30,GERD,2014-10-22
+subject_8326,lcSSc,PAH,2018-07-11,2017-04-13,puffy hands,2020-02-12
+subject_5643,dcSSc,,2017-11-21,2016-11-21,GERD,2019-05-11
+subject_7592,dcSSc,GERD,2011-05-08,2015-07-16,digital ulcers,2018-10-29
+subject_7752,lcSSc,PAH,2014-02-21,2013-10-13,arthralgia,2018-03-19
+subject_4501,lcSSc,ILD,2018-01-07,2015-09-28,puffy hands,2020-01-11
+subject_3223,dcSSc,,2013-01-08,2015-06-08,GERD,2018-11-29
+subject_3535,lcSSc,PAH,2011-07-24,2013-02-13,arthralgia,2015-11-30
+subject_4146,dcSSc,ILD; GERD,2012-11-26,2014-10-15,GERD,2014-10-29
+subject_4813,dcSSc,,2017-04-22,2018-11-17,GERD,2021-07-08
+subject_3274,lcSSc,GERD,2009-08-21,2014-10-12,dyspnea,2017-06-01
+subject_6045,lcSSc,,2014-04-08,2014-03-05,puffy hands,2016-09-15
+subject_7437,lcSSc,PAH,2014-08-14,2018-05-01,digital ulcers,2018-03-26
+subject_5104,lcSSc,GERD; PAH,2014-04-17,2016-07-16,puffy hands,2019-03-21
+subject_8223,lcSSc,,2010-01-29,2014-11-01,dyspnea,2017-02-13
+subject_5280,lcSSc,GERD,2011-04-12,2014-10-02,arthralgia,2015-10-05
+subject_3149,dcSSc,ILD,2013-04-15,2014-09-23,arthralgia,2016-05-30
+subject_3530,lcSSc,,2009-02-04,2016-03-28,puffy hands,2017-04-18
+subject_6082,dcSSc,,2016-08-12,2013-10-14,digital ulcers,2017-03-28
+subject_4031,lcSSc,,2015-07-14,2013-09-27,digital ulcers,2016-02-29
+subject_2407,dcSSc,ILD,2009-10-18,2014-02-15,GERD,2015-08-30
+subject_8791,dcSSc,ILD; GERD,2014-04-19,2016-05-19,puffy hands,2016-05-28
+subject_5314,lcSSc,ILD,2011-08-29,2015-01-30,dyspnea,2019-02-21
+subject_4639,lcSSc,GERD,2016-03-22,2019-06-20,digital ulcers,2020-05-23
+subject_3047,dcSSc,ILD,2015-10-07,2020-03-14,arthralgia,2021-05-31
+subject_6915,lcSSc,GERD,2016-03-08,2018-03-06,dyspnea,2019-04-29
+subject_4681,dcSSc,GERD,2009-11-30,2014-06-19,GERD,2016-07-29
+subject_5792,dcSSc,ILD,2013-01-30,2014-07-14,arthralgia,2017-03-18
+subject_3748,dcSSc,ILD,2014-06-08,2015-03-21,digital ulcers,2015-09-09
+subject_8397,dcSSc,ILD,2017-08-12,2019-07-19,arthralgia,2021-05-28
+subject_8970,lcSSc,ILD; GERD; PAH,2018-09-28,2018-07-28,arthralgia,2021-05-24
+subject_7535,dcSSc,ILD,2011-09-27,2015-04-03,arthralgia,2018-04-20
+subject_5108,dcSSc,ILD,2013-11-28,2016-08-23,puffy hands,2019-03-06
+subject_6519,dcSSc,ILD,2019-08-19,2017-09-14,arthralgia,2020-09-12
+subject_6592,lcSSc,ILD,2010-11-26,2016-03-23,GERD,2017-09-09
+subject_8135,lcSSc,,2019-09-27,2020-02-18,puffy hands,2021-04-10
+subject_7704,dcSSc,ILD; GERD,2012-10-17,2015-04-22,GERD,2015-09-27
+subject_3010,lcSSc,GERD,2012-01-13,2016-12-29,GERD,2017-09-05
+subject_5065,dcSSc,ILD,2010-09-30,2015-05-08,GERD,2017-02-22
+subject_6039,lcSSc,PAH,2010-05-20,2013-06-18,arthralgia,2015-06-03
+subject_8700,lcSSc,ILD; PAH,2018-09-29,2017-07-19,GERD,2019-10-23
+subject_8535,dcSSc,ILD; GERD,2015-11-29,2020-08-03,arthralgia,2020-08-01
+subject_2325,dcSSc,ILD,2018-12-16,2019-04-27,arthralgia,2021-02-24
+subject_3724,dcSSc,ILD,2013-11-06,2018-02-03,dyspnea,2019-05-26
+subject_3933,lcSSc,PAH,2013-08-20,2016-10-23,digital ulcers,2018-10-05
+subject_8312,lcSSc,ILD; PAH,2017-05-17,2015-03-13,digital ulcers,2018-05-11
+subject_4358,dcSSc,,2014-10-21,2014-10-18,arthralgia,2016-03-19
+subject_7017,dcSSc,ILD,2014-03-04,2020-12-14,GERD,2021-08-08
+subject_4190,dcSSc,,2009-02-28,2012-03-27,arthralgia,2015-03-17
+subject_6962,dcSSc,GERD,2011-12-24,2016-02-02,puffy hands,2017-01-16
+subject_4963,lcSSc,ILD,2012-12-29,2013-05-02,dyspnea,2015-06-05
+subject_8351,dcSSc,,2009-05-11,2012-06-13,digital ulcers,2015-12-24
+subject_8103,dcSSc,,2011-12-21,2012-12-24,puffy hands,2015-01-22
+subject_2116,lcSSc,GERD; PAH,2018-06-19,2018-12-08,GERD,2020-11-12
+subject_6765,dcSSc,,2015-03-16,2016-12-23,GERD,2018-09-13
+subject_2239,lcSSc,ILD,2014-02-12,2017-02-04,GERD,2020-01-13
+subject_4305,dcSSc,ILD,2012-12-11,2015-04-04,GERD,2017-08-14
+subject_6540,lcSSc,GERD,2013-09-06,2019-02-21,GERD,2019-10-16
+subject_3382,lcSSc,,2011-09-11,2015-04-14,digital ulcers,2018-05-30
+subject_5520,dcSSc,,2017-09-28,2018-05-14,arthralgia,2018-10-05
+subject_2888,lcSSc,PAH,2014-06-19,2018-06-09,arthralgia,2018-03-08
+subject_4763,lcSSc,ILD,2015-03-02,2015-07-31,dyspnea,2018-01-03
+subject_5600,lcSSc,GERD,2011-02-13,2014-09-23,puffy hands,2015-09-14
+subject_7097,lcSSc,GERD,2018-10-10,2017-10-24,puffy hands,2020-07-30
+subject_5847,dcSSc,ILD; GERD,2016-11-25,2015-09-09,digital ulcers,2017-08-20
+subject_2043,lcSSc,,2018-08-27,2019-04-07,digital ulcers,2020-11-14
+subject_5149,lcSSc,,2013-05-26,2017-09-16,GERD,2017-11-20
+subject_3794,lcSSc,ILD,2015-09-01,2018-04-12,dyspnea,2018-02-19
+subject_2353,lcSSc,,2018-01-30,2017-11-11,arthralgia,2021-10-30
+subject_7081,lcSSc,,2011-06-13,2014-09-17,digital ulcers,2018-06-11
+subject_3665,lcSSc,GERD,2016-11-11,2018-09-13,digital ulcers,2018-10-14
+subject_7509,dcSSc,ILD,2018-11-14,2017-07-22,digital ulcers,2020-06-04
+subject_6406,lcSSc,ILD; GERD,2011-07-22,2016-03-19,dyspnea,2016-10-28
+subject_6212,dcSSc,,2008-06-11,2015-04-10,arthralgia,2016-07-24
+subject_2972,lcSSc,ILD; GERD,2009-01-11,2011-07-31,digital ulcers,2015-06-26
+subject_7328,dcSSc,GERD,2011-03-30,2013-03-26,GERD,2016-04-23
+subject_8111,dcSSc,GERD,2016-01-15,2019-05-25,puffy hands,2020-11-11
+subject_2730,lcSSc,GERD,2014-06-04,2015-11-29,GERD,2018-11-26
+subject_6931,lcSSc,GERD,2010-09-16,2014-08-17,GERD,2018-01-25
+subject_7718,dcSSc,,2013-10-26,2017-03-26,arthralgia,2019-07-30
+subject_7282,lcSSc,,2009-08-13,2014-02-05,puffy hands,2016-01-10
+subject_4633,dcSSc,ILD,2018-01-03,2016-12-13,puffy hands,2018-12-26
+subject_4823,dcSSc,,2011-03-08,2014-05-02,GERD,2017-01-18
+subject_6346,lcSSc,ILD,2017-01-09,2015-10-15,GERD,2019-04-23
+subject_6738,dcSSc,GERD,2010-12-15,2017-07-07,arthralgia,2018-09-05
+subject_8920,dcSSc,ILD,2018-07-23,2018-11-27,dyspnea,2019-10-13
+subject_2517,dcSSc,ILD,2011-11-21,2016-11-04,puffy hands,2020-02-19
+subject_6225,lcSSc,,2010-03-11,2013-01-27,GERD,2016-11-11
+subject_8661,lcSSc,ILD; GERD,2015-04-06,2015-04-30,puffy hands,2015-10-03
+subject_5993,lcSSc,ILD,2014-08-24,2012-06-25,puffy hands,2015-12-17
+subject_5408,dcSSc,ILD; GERD,2017-03-10,2021-04-06,puffy hands,2021-07-10
+subject_4161,dcSSc,ILD,2011-09-26,2017-07-12,puffy hands,2017-12-13
+subject_6428,lcSSc,,2010-05-07,2013-03-31,puffy hands,2016-09-11
+subject_4582,dcSSc,,2015-09-22,2019-08-19,arthralgia,2021-04-09
+subject_7148,dcSSc,GERD,2009-03-11,2012-02-25,puffy hands,2015-05-11
+subject_3413,lcSSc,GERD,2014-11-28,2014-05-21,puffy hands,2017-03-10
+subject_5669,lcSSc,GERD,2009-04-13,2011-05-04,puffy hands,2014-12-09
+subject_4812,dcSSc,ILD,2018-09-20,2019-08-14,puffy hands,2020-08-23
+subject_4636,lcSSc,,2010-03-18,2015-02-25,puffy hands,2015-07-01
+subject_3626,dcSSc,ILD,2013-04-22,2012-07-10,digital ulcers,2015-10-06
+subject_8097,lcSSc,,2015-03-05,2018-06-09,puffy hands,2019-09-09
+subject_6078,dcSSc,ILD,2013-04-23,2016-10-09,arthralgia,2016-12-15
+subject_7735,lcSSc,GERD; PAH,2015-12-12,2016-05-01,dyspnea,2017-07-23
+subject_7349,lcSSc,GERD,2015-09-18,2018-03-25,GERD,2019-08-05
+subject_7889,lcSSc,,2018-09-11,2018-08-26,dyspnea,2020-08-09
+subject_4632,lcSSc,,2012-10-20,2012-09-13,dyspnea,2015-04-03
+subject_8740,dcSSc,GERD,2013-02-24,2018-02-03,GERD,2018-10-25
+subject_3348,lcSSc,,2012-08-01,2018-04-10,dyspnea,2021-02-15
+subject_8908,lcSSc,ILD; GERD,2016-07-13,2016-05-21,dyspnea,2018-01-01
+subject_2462,lcSSc,,2014-05-05,2017-06-17,digital ulcers,2020-10-13
+subject_2938,dcSSc,ILD,2017-08-03,2018-12-05,dyspnea,2019-08-13
+subject_2366,lcSSc,GERD,2015-02-10,2013-11-27,digital ulcers,2017-06-03
+subject_4382,lcSSc,,2012-10-24,2011-10-01,dyspnea,2015-08-25
+subject_7217,lcSSc,,2014-01-15,2015-10-03,digital ulcers,2020-02-13
+subject_2301,dcSSc,GERD,2012-04-17,2018-11-05,GERD,2019-06-05
+subject_8690,dcSSc,GERD,2012-04-23,2014-07-28,arthralgia,2018-05-07
+subject_7354,lcSSc,,2014-03-15,2016-02-02,GERD,2017-12-07
+subject_3397,lcSSc,,2014-06-23,2018-05-11,digital ulcers,2020-01-25
+subject_8476,dcSSc,ILD,2015-01-29,2018-03-25,arthralgia,2020-03-12
+subject_6294,dcSSc,ILD,2015-09-17,2015-11-29,dyspnea,2019-02-22
+subject_7527,lcSSc,,2020-07-10,2017-07-10,puffy hands,2021-08-17
+subject_4420,lcSSc,GERD,2015-08-16,2018-10-23,puffy hands,2021-01-26
+subject_7342,lcSSc,,2010-10-19,2014-08-16,digital ulcers,2016-10-26
+subject_3621,dcSSc,ILD,2015-01-25,2021-03-28,dyspnea,2020-10-29
+subject_8850,lcSSc,,2015-02-06,2020-06-12,dyspnea,2020-06-07
+subject_2538,lcSSc,GERD,2011-11-25,2014-12-25,puffy hands,2016-09-07
+subject_3311,lcSSc,PAH,2013-01-21,2017-12-13,digital ulcers,2019-10-12
+subject_4276,lcSSc,,2013-04-15,2017-07-25,digital ulcers,2019-10-03
+subject_8964,lcSSc,,2016-05-05,2017-05-08,GERD,2020-04-29
+subject_2714,lcSSc,,2010-04-01,2015-12-31,digital ulcers,2016-07-02
+subject_7575,lcSSc,GERD,2011-11-23,2017-04-01,puffy hands,2018-11-08
+subject_6282,lcSSc,,2013-09-07,2013-04-16,digital ulcers,2016-03-22
+subject_7184,lcSSc,,2011-03-14,2019-01-13,GERD,2019-04-27
+subject_7235,dcSSc,ILD; GERD,2009-04-16,2014-09-02,GERD,2016-02-14
+subject_5716,dcSSc,ILD,2013-11-16,2016-05-14,dyspnea,2018-01-04
+subject_2679,lcSSc,ILD; PAH,2012-06-20,2016-04-27,arthralgia,2017-05-05
+subject_2885,lcSSc,ILD,2015-06-02,2016-01-10,digital ulcers,2015-11-01
+subject_5990,lcSSc,,2009-05-24,2012-06-17,puffy hands,2015-01-10
+subject_8651,dcSSc,ILD,2015-04-06,2016-02-13,digital ulcers,2019-01-30
+subject_6649,dcSSc,ILD,2013-08-29,2015-09-09,arthralgia,2018-06-09
+subject_5353,dcSSc,,2012-09-15,2012-10-18,GERD,2015-07-31
+subject_8221,lcSSc,,2011-01-25,2016-12-18,puffy hands,2017-02-25
+subject_6958,lcSSc,PAH,2014-01-06,2017-09-10,digital ulcers,2018-12-13
+subject_4976,dcSSc,GERD,2016-06-19,2020-04-23,dyspnea,2020-09-03
+subject_4485,lcSSc,ILD,2009-10-23,2016-02-22,arthralgia,2016-03-31
+subject_3108,lcSSc,,2014-04-12,2018-01-01,digital ulcers,2019-01-06
+subject_7962,lcSSc,GERD,2015-03-04,2014-04-25,GERD,2015-07-09
+subject_5918,lcSSc,ILD; GERD,2017-06-19,2015-07-25,GERD,2019-05-14
+subject_8222,dcSSc,ILD,2017-03-28,2014-11-03,dyspnea,2018-06-26
+subject_7197,lcSSc,ILD; GERD,2010-06-13,2013-11-11,dyspnea,2017-12-30
+subject_4561,dcSSc,,2015-08-16,2017-02-28,GERD,2017-05-01
+subject_8645,dcSSc,ILD,2018-02-06,2019-05-16,puffy hands,2020-07-24
+subject_3684,lcSSc,PAH,2015-06-11,2015-05-25,GERD,2016-11-01
+subject_2994,lcSSc,GERD; PAH,2008-06-24,2011-10-23,arthralgia,2015-05-05
+subject_7674,lcSSc,ILD,2015-01-17,2015-10-29,GERD,2019-09-29
+subject_2766,dcSSc,ILD,2012-10-17,2014-05-13,arthralgia,2015-08-12
+subject_7463,dcSSc,GERD,2009-07-22,2014-07-29,digital ulcers,2017-02-07
+subject_4769,lcSSc,GERD,2012-04-20,2019-06-10,digital ulcers,2019-11-04
+subject_4759,lcSSc,GERD; PAH,2014-04-01,2019-06-06,puffy hands,2019-10-15
+subject_6132,lcSSc,,2010-06-24,2016-03-09,GERD,2017-02-15
+subject_8479,dcSSc,ILD,2010-10-07,2014-02-27,arthralgia,2016-10-23
+subject_4570,lcSSc,ILD,2013-12-19,2017-06-15,arthralgia,2017-12-14
+subject_3871,lcSSc,GERD,2009-02-05,2014-05-31,digital ulcers,2015-07-25
+subject_6181,lcSSc,GERD,2020-10-30,2021-04-11,arthralgia,2021-10-21
+subject_4701,lcSSc,,2014-08-11,2013-09-09,dyspnea,2015-10-25
+subject_3104,dcSSc,ILD,2014-08-28,2018-07-12,digital ulcers,2020-03-07
+subject_6375,lcSSc,,2017-10-29,2015-04-26,digital ulcers,2019-03-20
+subject_5857,lcSSc,GERD,2012-01-30,2011-01-06,digital ulcers,2014-09-30
+subject_8777,lcSSc,,2015-12-15,2013-07-19,GERD,2016-12-22
+subject_5628,lcSSc,PAH,2017-12-13,2017-02-17,dyspnea,2018-08-11
+subject_5776,lcSSc,ILD; PAH,2012-03-13,2015-07-24,puffy hands,2019-01-19
+subject_3063,dcSSc,ILD,2009-07-26,2014-08-01,puffy hands,2017-06-05
+subject_8699,lcSSc,ILD,2014-09-23,2014-06-14,GERD,2015-11-05
+subject_7018,lcSSc,PAH,2015-07-19,2020-09-24,digital ulcers,2021-05-16
+subject_4157,lcSSc,,2012-01-30,2017-04-11,digital ulcers,2017-06-19
+subject_4224,lcSSc,,2008-05-16,2012-03-23,dyspnea,2015-12-03
+subject_5072,dcSSc,ILD,2010-06-25,2016-06-16,arthralgia,2017-01-24
+subject_7200,dcSSc,ILD,2012-12-08,2016-07-13,digital ulcers,2020-11-15
+subject_5144,lcSSc,GERD,2009-12-04,2015-07-01,GERD,2016-02-19
+subject_7673,dcSSc,,2016-05-04,2017-05-28,puffy hands,2018-01-07
+subject_8775,dcSSc,ILD,2010-12-09,2013-03-06,digital ulcers,2016-09-27
+subject_2485,dcSSc,ILD,2011-01-04,2015-07-28,digital ulcers,2018-11-05
+subject_3114,lcSSc,,2019-03-27,2020-06-22,dyspnea,2020-12-19
+subject_3288,lcSSc,GERD,2012-12-24,2014-12-29,arthralgia,2016-05-08
+subject_6147,lcSSc,,2009-01-02,2013-04-25,puffy hands,2016-01-30
+subject_2332,lcSSc,ILD,2009-08-23,2016-06-30,GERD,2017-12-29
+subject_3401,lcSSc,ILD,2013-05-21,2017-04-27,puffy hands,2020-08-27
+subject_6273,lcSSc,,2013-11-02,2012-11-29,puffy hands,2016-03-26
+subject_8025,lcSSc,,2009-02-02,2013-10-22,puffy hands,2016-11-15
+subject_5679,lcSSc,ILD; GERD; PAH,2008-11-30,2012-01-14,GERD,2014-09-21
+subject_2092,lcSSc,GERD; PAH,2011-01-19,2014-12-09,GERD,2017-11-27
+subject_2387,dcSSc,ILD; GERD,2016-07-08,2020-01-21,puffy hands,2021-02-12
+subject_5796,lcSSc,,2013-08-21,2016-08-28,dyspnea,2019-05-10
+subject_7053,dcSSc,ILD,2015-11-08,2018-10-01,digital ulcers,2021-02-16
+subject_2929,lcSSc,,2011-09-17,2013-10-27,arthralgia,2016-09-16
+subject_3840,lcSSc,PAH,2015-09-18,2019-04-24,GERD,2021-05-12
+subject_2455,dcSSc,,2015-12-29,2015-08-07,GERD,2019-02-13
+subject_5973,lcSSc,,2015-04-18,2016-11-17,arthralgia,2019-11-08
+subject_2151,dcSSc,,2011-03-19,2015-12-05,dyspnea,2017-08-08
+subject_7846,lcSSc,,2012-07-30,2019-03-09,puffy hands,2019-12-09
+subject_3365,lcSSc,,2012-03-24,2016-05-01,puffy hands,2016-12-06
+subject_4331,lcSSc,ILD,2015-06-24,2015-03-03,puffy hands,2016-07-30
+subject_4571,lcSSc,,2013-04-17,2014-08-27,arthralgia,2017-11-29
+subject_5310,lcSSc,,2015-09-19,2019-10-22,GERD,2020-06-26
+subject_5473,lcSSc,ILD; PAH,2018-08-05,2016-08-26,GERD,2019-04-09
+subject_2844,dcSSc,ILD,2015-06-21,2014-03-15,digital ulcers,2016-01-22
+subject_8879,lcSSc,,2011-11-09,2016-09-04,dyspnea,2018-12-01
+subject_7379,lcSSc,ILD,2010-05-09,2014-11-04,puffy hands,2018-03-16
+subject_7413,dcSSc,ILD,2016-08-27,2019-11-04,arthralgia,2019-09-09
+subject_4903,dcSSc,,2014-08-04,2015-10-13,digital ulcers,2018-05-21
+subject_7761,dcSSc,ILD,2016-12-07,2019-01-21,dyspnea,2019-10-08
+subject_3789,lcSSc,ILD; PAH,2014-02-16,2018-11-24,GERD,2020-12-26
+subject_2545,lcSSc,,2016-11-24,2014-11-01,GERD,2018-05-30
+subject_8279,lcSSc,ILD; GERD,2013-06-21,2014-11-09,puffy hands,2018-06-02
+subject_8924,dcSSc,ILD,2012-10-13,2016-03-05,arthralgia,2016-09-04
+subject_5494,lcSSc,ILD; GERD,2012-11-25,2016-07-04,dyspnea,2017-01-09
+subject_2583,lcSSc,,2010-04-02,2016-08-18,digital ulcers,2017-03-15
+subject_6220,dcSSc,ILD,2009-02-22,2013-01-23,arthralgia,2016-04-29
+subject_2461,dcSSc,,2015-08-16,2016-04-05,puffy hands,2017-10-28
+subject_6864,lcSSc,,2014-08-08,2018-01-31,arthralgia,2020-03-07
+subject_2860,dcSSc,ILD; GERD,2017-05-04,2015-11-30,digital ulcers,2019-04-25
+subject_3992,dcSSc,ILD,2016-07-18,2015-06-22,puffy hands,2018-03-13
+subject_7101,dcSSc,,2018-01-07,2018-01-14,dyspnea,2019-03-24
+subject_7285,dcSSc,ILD,2009-09-27,2015-01-18,GERD,2018-02-27
+subject_4235,dcSSc,ILD; GERD,2020-03-04,2019-10-16,arthralgia,2021-04-11
+subject_4913,lcSSc,,2008-07-30,2014-09-24,arthralgia,2016-03-26
+subject_8072,lcSSc,,2014-03-24,2012-08-04,arthralgia,2015-11-12
+subject_4930,lcSSc,PAH,2012-11-22,2015-06-16,arthralgia,2015-09-18
+subject_4060,dcSSc,ILD; GERD,2014-11-24,2014-11-08,dyspnea,2018-02-26
+subject_7139,lcSSc,,2013-06-28,2018-05-29,digital ulcers,2020-03-02
+subject_6580,lcSSc,,2012-01-13,2014-03-14,digital ulcers,2017-06-02
+subject_6796,lcSSc,,2012-03-12,2013-02-24,puffy hands,2015-07-07
+subject_6133,lcSSc,ILD,2009-06-14,2012-11-25,digital ulcers,2015-04-01
+subject_6036,lcSSc,ILD,2010-12-29,2014-10-08,digital ulcers,2015-03-11
+subject_7865,dcSSc,ILD,2012-04-23,2015-11-25,puffy hands,2016-10-29
+subject_4141,dcSSc,ILD,2014-09-07,2016-11-29,GERD,2020-02-21
+subject_7646,lcSSc,GERD; PAH,2011-06-12,2017-10-22,arthralgia,2018-01-07
+subject_4297,lcSSc,ILD,2012-11-27,2017-12-02,digital ulcers,2017-12-05
+subject_4098,lcSSc,ILD,2012-07-06,2017-06-18,arthralgia,2018-03-11
+subject_7244,lcSSc,,2020-01-22,2018-12-28,puffy hands,2021-02-08
+subject_4880,dcSSc,ILD; GERD,2006-12-23,2012-11-30,arthralgia,2014-10-22
+subject_6743,dcSSc,ILD,2015-02-27,2018-01-23,arthralgia,2021-09-09
+subject_2946,dcSSc,,2015-12-02,2016-05-23,arthralgia,2019-11-16
+subject_6719,dcSSc,ILD; GERD,2018-10-08,2020-02-25,digital ulcers,2020-04-21
+subject_5893,lcSSc,ILD; GERD,2012-06-02,2016-11-25,arthralgia,2018-11-24
+subject_3024,lcSSc,,2018-02-26,2020-03-10,GERD,2021-12-15
+subject_7313,dcSSc,ILD,2009-11-05,2015-06-05,arthralgia,2017-09-29
+subject_7344,dcSSc,,2013-11-12,2015-01-07,puffy hands,2018-08-08
+subject_8621,lcSSc,ILD; GERD,2018-06-03,2017-06-08,GERD,2018-09-10
+subject_8495,lcSSc,PAH,2013-05-08,2018-09-08,puffy hands,2019-12-28
+subject_8683,lcSSc,ILD,2019-06-09,2020-07-24,puffy hands,2021-07-05
+subject_7353,lcSSc,GERD,2018-05-10,2015-06-23,digital ulcers,2019-01-31
+subject_2943,lcSSc,,2017-02-01,2020-03-08,dyspnea,2021-05-14
+subject_6960,dcSSc,,2013-06-06,2018-10-15,dyspnea,2021-01-05
+subject_3026,lcSSc,GERD,2015-07-13,2016-08-13,arthralgia,2018-08-28
+subject_7868,lcSSc,GERD; PAH,2016-05-11,2019-07-17,dyspnea,2021-10-18
+subject_8254,dcSSc,ILD,2017-10-27,2016-08-28,puffy hands,2018-11-25
+subject_7301,lcSSc,GERD,2015-01-20,2017-05-26,dyspnea,2019-01-24
+subject_8418,dcSSc,ILD,2015-07-09,2014-06-09,GERD,2016-05-20
+subject_5498,lcSSc,GERD,2012-04-22,2015-04-13,arthralgia,2019-01-27
+subject_6329,dcSSc,,2014-07-24,2014-12-19,arthralgia,2017-09-20
+subject_7452,lcSSc,,2013-05-13,2016-07-15,dyspnea,2017-05-01
+subject_6390,lcSSc,ILD,2015-11-20,2016-09-06,digital ulcers,2017-04-25
+subject_4912,dcSSc,ILD; GERD,2012-07-15,2015-02-18,digital ulcers,2017-03-08
+subject_2099,lcSSc,ILD,2012-05-09,2017-11-15,digital ulcers,2020-02-27
+subject_4951,dcSSc,,2009-04-19,2014-04-26,puffy hands,2016-11-06
+subject_4997,lcSSc,,2013-11-10,2017-04-20,digital ulcers,2019-12-11
+subject_8065,dcSSc,ILD,2014-08-27,2016-05-20,dyspnea,2018-08-05
+subject_7662,lcSSc,,2015-04-25,2013-02-14,arthralgia,2015-08-29
+subject_7069,lcSSc,ILD,2012-01-21,2016-05-09,arthralgia,2016-04-25
+subject_3048,lcSSc,,2018-05-30,2018-10-11,dyspnea,2020-04-04
+subject_4374,lcSSc,,2013-12-19,2014-08-20,puffy hands,2017-09-05
+subject_8844,dcSSc,ILD,2014-12-31,2017-09-01,arthralgia,2021-04-24
+subject_5278,lcSSc,,2009-07-04,2013-02-05,puffy hands,2016-06-13
+subject_5460,dcSSc,ILD,2016-06-01,2018-05-03,GERD,2019-01-26
+subject_7604,lcSSc,ILD,2018-03-25,2020-10-28,digital ulcers,2021-02-18
+subject_7885,dcSSc,,2012-12-10,2014-11-13,digital ulcers,2017-04-14
+subject_3162,dcSSc,ILD; GERD,2017-08-29,2018-08-19,arthralgia,2020-01-09
+subject_4314,dcSSc,ILD,2020-06-04,2020-03-23,dyspnea,2021-04-27
+subject_2197,lcSSc,,2014-10-30,2013-11-11,arthralgia,2016-08-04
+subject_6901,dcSSc,ILD; GERD,2014-10-18,2016-09-23,digital ulcers,2017-12-26
+subject_7005,dcSSc,,2012-02-12,2013-12-26,dyspnea,2017-11-06
+subject_8753,lcSSc,GERD,2015-10-26,2020-09-30,GERD,2021-11-20
+subject_4051,lcSSc,,2009-09-07,2016-05-09,arthralgia,2017-05-15
+subject_8787,dcSSc,ILD; GERD,2013-03-06,2016-05-11,digital ulcers,2018-11-27
+subject_2748,lcSSc,ILD; GERD,2015-11-03,2018-04-04,dyspnea,2019-03-24
+subject_4278,dcSSc,,2013-10-07,2012-08-05,digital ulcers,2015-07-07
+subject_6342,dcSSc,,2016-05-21,2016-04-17,GERD,2018-04-28
+subject_8391,dcSSc,ILD; GERD,2016-10-16,2017-12-22,digital ulcers,2018-02-28
+subject_4202,dcSSc,ILD,2013-01-21,2018-04-29,arthralgia,2021-01-03
+subject_6166,dcSSc,ILD,2012-03-28,2017-06-18,arthralgia,2018-04-21
+subject_4649,lcSSc,ILD,2009-11-08,2015-09-19,dyspnea,2016-04-27
+subject_4917,lcSSc,,2016-02-01,2020-11-14,dyspnea,2020-11-11
+subject_4162,dcSSc,ILD; GERD,2018-04-25,2018-11-28,dyspnea,2020-06-10
+subject_4227,lcSSc,GERD,2014-11-16,2019-02-19,dyspnea,2019-06-29
+subject_8117,dcSSc,ILD,2011-09-28,2013-12-01,GERD,2017-05-28
+subject_6812,lcSSc,PAH,2014-03-06,2019-09-09,puffy hands,2020-07-12
+subject_8129,lcSSc,,2019-06-10,2019-12-28,digital ulcers,2020-07-19
+subject_2160,dcSSc,,2012-12-26,2013-12-18,digital ulcers,2016-07-06
+subject_3711,lcSSc,GERD,2012-03-22,2012-10-25,digital ulcers,2017-01-15
+subject_6802,dcSSc,,2008-05-21,2012-06-28,puffy hands,2016-02-29
+subject_8824,dcSSc,ILD,2013-11-08,2015-09-30,puffy hands,2015-08-26
+subject_8660,lcSSc,PAH,2013-04-23,2014-12-30,arthralgia,2017-11-18
+subject_2470,dcSSc,ILD,2017-06-10,2017-12-12,digital ulcers,2018-10-23
+subject_8277,dcSSc,,2019-06-15,2018-06-12,dyspnea,2021-04-29
+subject_2261,dcSSc,ILD,2019-05-20,2018-11-25,dyspnea,2020-01-24
+subject_4959,lcSSc,,2009-06-16,2014-10-13,puffy hands,2016-05-07
+subject_6337,dcSSc,ILD,2013-09-06,2015-07-29,puffy hands,2016-08-03
+subject_3897,lcSSc,,2010-09-25,2017-09-10,digital ulcers,2019-04-06
+subject_7982,dcSSc,ILD,2015-10-15,2014-04-29,digital ulcers,2018-08-01
+subject_5367,lcSSc,,2019-06-18,2020-01-15,dyspnea,2021-04-17
+subject_4695,lcSSc,GERD,2010-08-07,2013-05-23,dyspnea,2015-05-16
+subject_3219,dcSSc,ILD; GERD,2016-09-21,2018-06-11,arthralgia,2019-08-25
+subject_8406,lcSSc,GERD,2010-08-14,2015-02-17,GERD,2017-08-05
+subject_4385,lcSSc,ILD; GERD,2011-03-31,2018-02-03,dyspnea,2018-10-27
+subject_4069,dcSSc,,2019-05-16,2017-07-31,digital ulcers,2020-07-13
+subject_8057,dcSSc,,2018-07-01,2018-06-21,dyspnea,2019-11-11
+subject_3994,dcSSc,ILD,2012-01-27,2016-10-22,GERD,2017-12-06
+subject_8269,lcSSc,,2011-07-07,2016-02-14,GERD,2018-05-08
+subject_2230,lcSSc,ILD; PAH,2012-05-20,2016-12-23,digital ulcers,2017-06-26
+subject_5222,lcSSc,,2014-09-17,2018-03-16,arthralgia,2018-11-12
+subject_2237,dcSSc,ILD,2010-06-21,2014-08-01,dyspnea,2018-05-18
+subject_8258,lcSSc,ILD,2011-02-15,2015-02-16,puffy hands,2017-06-20
+subject_6710,dcSSc,ILD,2009-04-13,2016-03-26,puffy hands,2017-07-21
+subject_8082,dcSSc,GERD,2010-01-31,2013-05-18,arthralgia,2016-10-29
+subject_5590,lcSSc,PAH,2010-02-17,2014-03-05,puffy hands,2016-03-14
+subject_8985,lcSSc,,2013-06-09,2014-03-08,puffy hands,2017-11-15
+subject_4952,lcSSc,GERD,2016-09-03,2017-12-16,dyspnea,2019-11-19
+subject_4783,lcSSc,ILD,2018-05-20,2019-05-16,GERD,2021-07-30
+subject_7338,lcSSc,ILD; PAH,2011-08-31,2015-10-12,dyspnea,2018-01-19
+subject_7906,dcSSc,ILD,2013-01-09,2012-09-26,puffy hands,2016-06-14
+subject_7664,lcSSc,,2018-02-03,2015-03-11,arthralgia,2018-10-05
+subject_4367,lcSSc,,2012-08-13,2015-05-30,puffy hands,2015-12-14
+subject_2234,lcSSc,GERD,2010-01-07,2015-03-20,GERD,2018-07-14
+subject_3353,lcSSc,,2017-06-15,2018-07-30,arthralgia,2020-01-11
+subject_4054,dcSSc,,2011-04-19,2012-12-28,dyspnea,2017-03-23
+subject_2617,lcSSc,,2010-12-21,2014-11-22,digital ulcers,2018-03-07
+subject_7570,lcSSc,ILD,2018-12-29,2017-04-06,digital ulcers,2021-05-30
+subject_6849,lcSSc,ILD,2014-07-06,2016-01-22,digital ulcers,2019-03-11
+subject_2731,lcSSc,,2012-03-06,2016-12-15,digital ulcers,2018-09-21
+subject_4707,lcSSc,GERD,2011-12-01,2015-11-16,puffy hands,2018-03-21
+subject_8547,lcSSc,ILD,2010-05-10,2014-04-06,dyspnea,2015-09-02
+subject_5605,lcSSc,,2010-12-27,2013-12-09,digital ulcers,2016-08-15
+subject_6434,lcSSc,,2014-03-26,2014-10-15,GERD,2015-06-13
+subject_2505,lcSSc,,2018-09-01,2019-02-01,digital ulcers,2019-01-25
+subject_7727,dcSSc,,2008-03-09,2014-01-13,puffy hands,2015-07-02
+subject_6173,dcSSc,ILD,2013-04-08,2014-02-08,digital ulcers,2016-05-31
+subject_3779,dcSSc,ILD,2011-07-05,2013-02-18,GERD,2016-11-10
+subject_5576,dcSSc,ILD,2018-02-19,2016-03-10,dyspnea,2018-10-01
+subject_3950,lcSSc,,2013-04-23,2015-11-06,arthralgia,2019-04-13
+subject_7373,dcSSc,GERD,2012-07-26,2016-11-06,dyspnea,2018-06-23
+subject_8678,lcSSc,ILD,2014-12-01,2019-08-01,digital ulcers,2021-02-20
+subject_5164,lcSSc,,2014-01-23,2020-05-12,digital ulcers,2021-02-17
+subject_7665,dcSSc,ILD,2015-02-04,2017-10-11,dyspnea,2019-11-28
+subject_8680,lcSSc,ILD,2019-03-16,2019-05-21,dyspnea,2020-11-18
+subject_6300,dcSSc,ILD,2019-10-13,2018-02-03,GERD,2021-01-07
+subject_8989,lcSSc,ILD,2010-09-29,2016-07-11,dyspnea,2017-02-26
+subject_5250,dcSSc,ILD; GERD,2017-08-31,2016-10-10,puffy hands,2019-08-20
+subject_3694,lcSSc,,2010-04-03,2016-01-16,digital ulcers,2018-05-25
+subject_5881,dcSSc,ILD,2011-06-23,2017-03-30,GERD,2017-07-08
+subject_8284,dcSSc,ILD,2008-06-30,2015-04-19,GERD,2015-10-12
+subject_8043,lcSSc,,2010-10-19,2015-09-08,dyspnea,2017-11-28
+subject_8900,lcSSc,GERD,2015-03-25,2014-07-28,digital ulcers,2018-02-18
+subject_2841,lcSSc,,2011-06-28,2014-04-21,dyspnea,2015-10-18
+subject_6947,lcSSc,GERD,2014-08-18,2017-09-29,dyspnea,2020-09-15
+subject_3324,dcSSc,ILD; GERD,2017-05-27,2019-10-10,puffy hands,2020-06-18
+subject_8676,lcSSc,,2013-09-25,2018-05-01,arthralgia,2018-12-27
+subject_6019,dcSSc,ILD,2014-01-02,2013-07-07,dyspnea,2016-06-29
+subject_3893,lcSSc,,2012-11-13,2013-11-10,dyspnea,2015-10-04
+subject_4770,lcSSc,ILD,2014-02-04,2016-05-10,arthralgia,2019-02-17
+subject_6022,lcSSc,ILD; PAH,2015-06-17,2020-08-06,digital ulcers,2021-11-26
+subject_8171,dcSSc,ILD,2012-10-17,2013-12-10,dyspnea,2015-09-24
+subject_5329,dcSSc,ILD; GERD,2011-12-05,2016-06-08,puffy hands,2018-06-04
+subject_4645,dcSSc,,2017-03-16,2016-06-15,dyspnea,2020-05-09
+subject_2651,dcSSc,ILD,2011-06-28,2017-03-30,arthralgia,2017-06-26
+subject_3552,dcSSc,,2013-05-12,2015-07-22,dyspnea,2018-11-22
+subject_4711,lcSSc,ILD; GERD,2013-06-03,2018-07-16,arthralgia,2020-10-29
+subject_2925,lcSSc,,2019-10-20,2018-11-08,arthralgia,2020-02-09
+subject_5467,lcSSc,PAH,2010-05-19,2017-07-01,digital ulcers,2018-01-31
+subject_2374,lcSSc,GERD,2013-09-11,2014-06-20,puffy hands,2016-02-11
+subject_5640,lcSSc,,2015-03-19,2015-07-25,arthralgia,2018-10-20
+subject_3192,lcSSc,,2014-05-05,2012-10-10,GERD,2016-02-13
+subject_3463,lcSSc,GERD,2013-08-27,2020-07-03,digital ulcers,2020-10-31
+subject_6773,lcSSc,,2011-10-17,2015-04-20,arthralgia,2019-02-27
+subject_4635,lcSSc,ILD,2013-05-18,2012-03-21,dyspnea,2015-01-18
+subject_6450,dcSSc,GERD,2015-06-10,2016-06-17,arthralgia,2019-04-03
+subject_2195,lcSSc,GERD,2018-06-19,2016-01-28,arthralgia,2019-08-31
+subject_3137,dcSSc,ILD; GERD,2014-09-12,2014-01-29,arthralgia,2016-06-15
+subject_2480,lcSSc,ILD,2013-08-20,2017-02-15,digital ulcers,2018-06-18
+subject_2923,lcSSc,GERD,2008-12-25,2012-03-10,digital ulcers,2016-04-04
+subject_4212,lcSSc,,2015-05-22,2017-01-21,arthralgia,2018-10-08
+subject_4796,lcSSc,ILD; GERD,2010-07-25,2012-10-02,digital ulcers,2016-01-28
+subject_7833,lcSSc,PAH,2017-06-22,2018-10-17,digital ulcers,2021-09-28
+subject_5947,dcSSc,ILD,2009-12-16,2012-02-18,puffy hands,2016-02-25
+subject_7791,lcSSc,GERD,2012-12-30,2015-02-15,GERD,2016-01-01
+subject_7754,lcSSc,,2008-02-13,2014-04-25,arthralgia,2015-09-12
+subject_5082,dcSSc,,2013-08-06,2018-09-11,digital ulcers,2020-07-20
+subject_2703,lcSSc,,2013-10-17,2017-02-19,arthralgia,2017-10-16
+subject_8317,lcSSc,ILD,2007-05-04,2014-07-13,arthralgia,2014-10-22
+subject_4347,lcSSc,GERD,2012-08-16,2013-09-23,GERD,2017-04-24
+subject_6137,lcSSc,,2009-09-28,2014-11-24,GERD,2014-11-19
+subject_5437,lcSSc,,2012-09-14,2019-03-28,GERD,2020-11-03
+subject_7228,lcSSc,,2017-10-15,2020-01-25,arthralgia,2019-08-20
+subject_2232,lcSSc,,2009-03-19,2013-04-15,dyspnea,2016-03-29
+subject_8191,lcSSc,GERD,2010-08-13,2016-04-13,digital ulcers,2017-07-01
+subject_4799,dcSSc,,2009-05-12,2014-04-29,GERD,2016-05-31
+subject_2350,lcSSc,,2013-11-06,2014-05-05,digital ulcers,2014-12-04
+subject_8531,lcSSc,,2013-04-28,2017-07-13,dyspnea,2019-03-28
+subject_7341,lcSSc,ILD,2013-07-05,2013-07-27,arthralgia,2016-03-20
+subject_6149,lcSSc,PAH,2014-10-24,2020-02-21,dyspnea,2021-04-22
+subject_4116,lcSSc,,2016-02-26,2016-05-17,arthralgia,2017-03-02
+subject_4804,lcSSc,,2012-02-06,2016-01-13,dyspnea,2017-08-08
+subject_4782,dcSSc,ILD,2009-09-12,2015-07-13,digital ulcers,2017-02-13
+subject_2064,dcSSc,ILD,2013-03-24,2015-05-04,digital ulcers,2018-10-10
+subject_2696,dcSSc,,2019-06-29,2016-08-29,puffy hands,2020-08-02
+subject_8911,lcSSc,ILD; GERD; PAH,2015-09-12,2018-01-05,GERD,2020-04-08
+subject_2826,lcSSc,,2017-04-17,2014-04-23,arthralgia,2018-08-08
+subject_4439,lcSSc,,2013-09-02,2013-12-25,puffy hands,2016-09-04
+subject_3810,dcSSc,,2014-01-25,2013-10-04,digital ulcers,2015-07-02
+subject_3519,lcSSc,,2016-05-03,2017-02-19,dyspnea,2019-10-25
+subject_5048,lcSSc,ILD; GERD,2012-09-18,2015-01-25,arthralgia,2019-04-11
+subject_7797,dcSSc,ILD,2015-03-11,2012-03-17,digital ulcers,2015-10-06
+subject_2616,dcSSc,,2017-02-03,2018-12-25,digital ulcers,2020-07-19
+subject_6386,dcSSc,ILD,2012-08-05,2017-03-24,GERD,2020-04-29
+subject_5134,dcSSc,,2018-06-28,2019-03-28,GERD,2021-10-30
+subject_3337,lcSSc,,2010-09-08,2012-12-06,puffy hands,2015-06-11
+subject_2958,dcSSc,ILD,2014-05-03,2021-02-09,puffy hands,2021-06-17
+subject_4241,lcSSc,,2014-03-19,2015-09-08,GERD,2018-07-15
+subject_6579,lcSSc,GERD,2011-05-08,2016-04-12,GERD,2018-11-09
+subject_8402,lcSSc,,2016-03-12,2015-07-01,arthralgia,2018-09-02
+subject_7913,dcSSc,,2013-04-16,2018-08-04,puffy hands,2019-06-22
+subject_7203,lcSSc,ILD,2016-06-27,2017-09-10,puffy hands,2018-07-04
+subject_8773,lcSSc,,2009-07-31,2016-06-19,dyspnea,2017-09-07
+subject_2316,lcSSc,,2014-01-22,2014-10-20,digital ulcers,2016-11-19
+subject_2961,dcSSc,ILD,2015-02-19,2018-07-07,dyspnea,2019-10-27
+subject_3105,lcSSc,ILD; GERD; PAH,2011-08-15,2016-02-29,arthralgia,2016-06-18
+subject_8100,dcSSc,,2013-01-21,2016-01-03,digital ulcers,2017-02-05
+subject_4253,lcSSc,GERD,2013-08-07,2014-11-15,puffy hands,2017-07-30
+subject_4217,lcSSc,,2010-03-02,2013-09-09,arthralgia,2017-10-11
+subject_8388,lcSSc,GERD; PAH,2009-11-24,2013-02-13,dyspnea,2016-11-07
+subject_5939,lcSSc,,2016-07-21,2018-07-14,dyspnea,2021-04-20
+subject_5878,lcSSc,ILD,2011-09-02,2013-12-02,arthralgia,2018-03-06
+subject_4160,lcSSc,ILD; GERD,2015-01-03,2013-05-17,arthralgia,2017-04-30
+subject_8190,dcSSc,,2009-06-12,2015-03-24,dyspnea,2015-11-21
+subject_3975,lcSSc,ILD,2011-12-04,2015-12-26,arthralgia,2015-10-03
+subject_7211,dcSSc,ILD,2010-01-04,2017-01-11,arthralgia,2017-05-09
+subject_2447,lcSSc,ILD; GERD,2010-07-04,2015-09-10,GERD,2018-12-31
+subject_6865,lcSSc,GERD,2019-03-09,2018-03-21,GERD,2020-02-27
+subject_6072,dcSSc,,2013-10-11,2017-11-01,dyspnea,2021-01-14
+subject_3494,dcSSc,,2012-10-24,2014-08-31,arthralgia,2018-01-03
+subject_8714,dcSSc,,2018-05-13,2017-08-06,GERD,2019-03-17
+subject_2768,lcSSc,ILD; PAH,2008-03-06,2011-12-23,puffy hands,2015-05-04
+subject_4965,lcSSc,ILD,2011-11-27,2016-08-14,arthralgia,2018-02-20
+subject_7663,dcSSc,ILD,2013-05-02,2020-08-19,puffy hands,2021-04-15
+subject_4969,lcSSc,,2019-12-31,2019-07-06,GERD,2021-04-23
+subject_7174,lcSSc,,2018-01-30,2018-03-14,arthralgia,2020-11-19
+subject_6836,lcSSc,ILD; PAH,2019-03-25,2018-08-07,digital ulcers,2019-06-22
+subject_3526,dcSSc,,2014-06-16,2016-10-01,dyspnea,2017-12-02
+subject_7269,dcSSc,ILD; GERD,2015-04-04,2015-06-23,puffy hands,2018-05-26
+subject_8251,lcSSc,ILD; GERD,2016-07-07,2018-08-10,dyspnea,2020-08-10
+subject_8148,lcSSc,,2012-09-15,2011-12-20,GERD,2014-11-29
+subject_7016,dcSSc,,2019-03-07,2019-09-28,dyspnea,2019-10-08
+subject_5236,lcSSc,GERD; PAH,2013-02-25,2014-11-29,digital ulcers,2016-09-19
+subject_8050,lcSSc,PAH,2013-01-30,2019-05-02,digital ulcers,2020-01-30
+subject_3230,lcSSc,,2011-05-11,2015-01-18,dyspnea,2017-10-20
+subject_4062,dcSSc,,2013-02-23,2014-11-09,puffy hands,2017-01-16
+subject_5137,dcSSc,,2011-04-23,2012-05-13,puffy hands,2015-09-03
+subject_7742,dcSSc,ILD; GERD,2014-05-03,2012-03-14,puffy hands,2015-07-19
+subject_3763,dcSSc,ILD; GERD,2013-07-24,2016-01-23,dyspnea,2019-10-07
+subject_2362,lcSSc,ILD; GERD,2013-09-10,2015-11-10,arthralgia,2019-01-16
+subject_6694,dcSSc,,2014-04-14,2017-03-03,GERD,2019-09-29
+subject_5201,lcSSc,GERD,2014-12-21,2015-11-24,GERD,2018-04-03
+subject_5241,lcSSc,,2016-06-17,2015-04-22,GERD,2017-06-02
+subject_5984,dcSSc,ILD; GERD,2016-01-06,2020-09-18,arthralgia,2021-01-11
+subject_6834,lcSSc,,2016-06-19,2020-10-24,puffy hands,2020-06-10
+subject_5098,dcSSc,ILD; GERD,2011-08-16,2015-01-26,digital ulcers,2017-10-23
+subject_4268,dcSSc,ILD,2016-09-12,2018-07-05,dyspnea,2019-02-17
+subject_7117,lcSSc,,2017-03-23,2014-06-28,dyspnea,2018-08-08
+subject_5724,dcSSc,,2013-10-21,2016-12-22,dyspnea,2020-02-10
+subject_5517,dcSSc,ILD,2016-04-16,2017-07-21,puffy hands,2020-05-01
+subject_6912,lcSSc,GERD,2012-03-30,2015-06-22,GERD,2017-07-12
+subject_7107,lcSSc,ILD,2014-07-26,2015-03-11,dyspnea,2018-03-08
+subject_8650,lcSSc,ILD,2015-05-19,2018-05-09,digital ulcers,2018-07-24
+subject_3270,lcSSc,,2017-11-26,2018-12-22,arthralgia,2020-08-13
+subject_4236,lcSSc,,2011-09-09,2014-07-07,arthralgia,2018-03-23
+subject_8820,lcSSc,ILD,2019-01-30,2018-09-08,arthralgia,2021-08-13
+subject_3371,lcSSc,ILD,2013-06-10,2017-01-03,GERD,2020-10-12
+subject_6992,lcSSc,,2015-12-10,2020-01-15,GERD,2021-05-09
+subject_4002,lcSSc,,2013-05-05,2019-07-06,GERD,2020-08-12
+subject_5269,dcSSc,ILD; GERD,2010-11-02,2015-06-14,GERD,2018-02-10
+subject_3915,lcSSc,GERD,2018-02-14,2019-08-13,dyspnea,2021-05-27
+subject_5313,lcSSc,,2017-10-06,2019-12-10,GERD,2020-11-08
+subject_7038,lcSSc,ILD,2010-07-29,2015-02-20,digital ulcers,2015-11-01
+subject_7536,lcSSc,GERD,2010-11-24,2017-01-31,puffy hands,2018-03-01
+subject_5384,lcSSc,ILD,2012-03-24,2016-10-26,arthralgia,2020-08-17
+subject_6000,lcSSc,PAH,2010-04-01,2014-07-15,puffy hands,2017-07-28
+subject_3754,lcSSc,GERD,2011-07-17,2017-02-17,GERD,2018-07-12
+subject_7996,dcSSc,ILD,2007-04-03,2012-08-28,digital ulcers,2015-04-25
+subject_8955,dcSSc,ILD,2012-11-22,2016-11-17,digital ulcers,2019-12-28
+subject_8960,lcSSc,,2016-03-15,2016-12-31,arthralgia,2018-12-07
+subject_8969,lcSSc,GERD,2013-07-21,2015-07-26,arthralgia,2017-02-18
+subject_4365,dcSSc,ILD,2013-11-08,2013-03-13,arthralgia,2015-12-22
+subject_4827,dcSSc,ILD,2015-05-02,2015-08-21,digital ulcers,2016-08-21
+subject_6183,lcSSc,GERD,2013-05-13,2014-10-11,dyspnea,2017-03-05
+subject_6224,lcSSc,PAH,2018-05-03,2017-07-18,digital ulcers,2019-01-07
+subject_4573,dcSSc,ILD,2016-02-28,2018-09-02,dyspnea,2020-07-18
+subject_6102,lcSSc,ILD; GERD,2012-02-21,2015-10-16,digital ulcers,2018-08-10
+subject_6529,dcSSc,ILD; GERD,2015-01-04,2015-09-10,puffy hands,2017-03-28
+subject_4252,lcSSc,GERD,2010-08-17,2016-08-26,puffy hands,2017-03-24
+subject_2385,dcSSc,GERD,2017-08-31,2017-04-09,dyspnea,2020-10-02
+subject_3999,lcSSc,,2010-06-25,2015-01-30,dyspnea,2017-09-12
+subject_3195,dcSSc,ILD; GERD,2018-04-11,2019-09-23,digital ulcers,2020-11-23
+subject_8905,dcSSc,ILD,2013-09-17,2017-08-25,puffy hands,2021-05-12
+subject_2465,dcSSc,,2015-11-27,2013-11-03,puffy hands,2016-12-05
+subject_3726,lcSSc,ILD; GERD,2011-01-16,2014-01-01,digital ulcers,2016-04-14
+subject_6483,dcSSc,,2014-01-06,2013-06-04,dyspnea,2015-01-30
+subject_8957,dcSSc,,2010-06-29,2014-12-16,dyspnea,2016-03-26
+subject_8383,lcSSc,ILD,2016-12-07,2016-12-14,arthralgia,2020-12-11
+subject_3845,dcSSc,,2010-12-05,2014-05-18,puffy hands,2014-08-23
+subject_8316,lcSSc,ILD,2015-07-20,2018-04-08,GERD,2020-12-22
+subject_8581,lcSSc,,2009-09-21,2014-02-14,GERD,2015-07-17
+subject_6664,dcSSc,ILD,2010-06-27,2013-11-16,dyspnea,2016-03-14
+subject_5549,dcSSc,,2016-10-07,2018-12-01,arthralgia,2021-08-06
+subject_7326,dcSSc,ILD,2016-02-13,2015-01-17,puffy hands,2017-09-23
+subject_4767,lcSSc,GERD,2017-06-09,2020-06-07,arthralgia,2021-01-23
+subject_3335,lcSSc,GERD,2008-01-09,2012-06-11,digital ulcers,2016-07-18
+subject_3272,dcSSc,ILD,2013-11-30,2016-12-17,dyspnea,2019-05-09
+subject_4273,lcSSc,,2010-11-24,2016-01-03,GERD,2017-09-07
+subject_5060,lcSSc,,2010-09-08,2016-11-04,arthralgia,2017-08-20
+subject_2974,lcSSc,ILD,2010-01-31,2016-01-09,puffy hands,2017-04-06
+subject_2210,dcSSc,ILD,2014-11-07,2020-05-25,dyspnea,2020-12-08
+subject_7792,lcSSc,ILD,2015-07-19,2018-10-06,arthralgia,2019-12-01
+subject_8234,lcSSc,GERD,2016-05-10,2016-08-09,puffy hands,2020-03-15
+subject_8580,lcSSc,ILD,2015-05-05,2017-02-18,dyspnea,2019-05-09
+subject_7940,dcSSc,,2015-01-01,2019-08-07,puffy hands,2020-06-15
+subject_6937,lcSSc,,2011-09-11,2018-05-14,arthralgia,2018-06-09
+subject_8147,lcSSc,,2016-04-13,2018-08-09,dyspnea,2021-05-10
+subject_5629,dcSSc,,2014-02-03,2015-07-24,digital ulcers,2018-08-16
+subject_3774,lcSSc,,2019-08-09,2018-04-03,puffy hands,2021-02-17
+subject_2124,lcSSc,,2008-05-29,2013-10-29,arthralgia,2015-10-16
+subject_3584,dcSSc,ILD,2016-04-18,2016-07-04,dyspnea,2018-07-07
+subject_8060,dcSSc,,2012-09-10,2019-07-29,puffy hands,2020-06-07
+subject_4916,lcSSc,ILD,2012-01-25,2014-01-20,digital ulcers,2014-12-21
+subject_8047,lcSSc,,2011-06-05,2017-08-08,dyspnea,2018-11-02
+subject_5002,lcSSc,GERD,2017-06-08,2020-01-25,arthralgia,2021-10-05
+subject_4343,lcSSc,,2014-11-15,2013-09-17,dyspnea,2016-01-28
+subject_6988,dcSSc,,2014-01-04,2018-10-20,puffy hands,2020-02-09
+subject_6707,lcSSc,,2016-02-19,2014-10-31,dyspnea,2019-01-14
+subject_6825,lcSSc,,2011-02-25,2014-10-11,arthralgia,2015-09-27
+subject_8520,lcSSc,,2019-04-10,2018-01-01,arthralgia,2021-01-25
+subject_3662,lcSSc,GERD,2011-04-21,2014-08-13,dyspnea,2016-08-28
+subject_5478,dcSSc,ILD,2013-09-30,2012-01-12,GERD,2016-06-26
+subject_4541,dcSSc,ILD,2017-07-19,2018-04-25,GERD,2020-05-05
+subject_3302,dcSSc,ILD,2011-12-01,2013-04-25,arthralgia,2017-05-23
+subject_5620,lcSSc,,2016-01-02,2017-05-11,digital ulcers,2019-11-19
+subject_7563,lcSSc,ILD,2015-10-31,2017-01-17,GERD,2019-03-19
+subject_5159,lcSSc,,2019-01-13,2017-12-22,digital ulcers,2020-06-09
+subject_7541,lcSSc,PAH,2013-06-09,2015-05-28,arthralgia,2017-01-14
+subject_4327,dcSSc,ILD,2016-04-17,2016-03-23,puffy hands,2018-10-03
+subject_2638,dcSSc,,2017-07-28,2016-12-24,dyspnea,2020-08-31
+subject_5609,lcSSc,GERD,2016-06-05,2019-04-20,dyspnea,2019-03-14
+subject_5812,lcSSc,PAH,2016-05-28,2019-01-11,arthralgia,2022-01-03
+subject_3456,dcSSc,ILD; GERD,2017-11-24,2017-01-15,dyspnea,2019-02-01
+subject_6783,lcSSc,,2010-08-14,2016-02-13,digital ulcers,2017-10-08
+subject_7879,lcSSc,ILD; PAH,2014-12-31,2017-12-08,dyspnea,2018-11-28
+subject_6911,dcSSc,ILD,2013-06-28,2016-01-29,GERD,2018-09-10
+subject_6486,dcSSc,,2015-01-31,2017-07-12,GERD,2021-02-19
+subject_8341,lcSSc,GERD,2010-08-29,2013-06-14,GERD,2016-11-27
+subject_2553,dcSSc,ILD; GERD,2015-01-10,2017-04-04,GERD,2019-08-14
+subject_7001,dcSSc,ILD,2014-01-06,2018-12-18,dyspnea,2020-03-09
+subject_5298,dcSSc,GERD,2016-03-17,2016-10-11,dyspnea,2020-07-29
+subject_5103,dcSSc,,2011-05-09,2012-08-22,digital ulcers,2015-09-07
+subject_4323,dcSSc,ILD,2017-04-09,2016-09-27,GERD,2020-02-19
+subject_4808,dcSSc,GERD,2013-05-06,2012-10-21,puffy hands,2015-05-06
+subject_4927,dcSSc,,2018-08-12,2018-06-15,GERD,2020-03-05
+subject_6455,dcSSc,ILD; GERD,2010-03-21,2015-05-22,GERD,2016-03-09
+subject_8294,lcSSc,GERD,2009-08-06,2017-02-09,dyspnea,2018-01-19
+subject_5465,dcSSc,ILD; GERD,2015-12-09,2020-09-17,puffy hands,2020-12-11
+subject_3466,dcSSc,ILD,2011-05-19,2012-01-23,arthralgia,2016-01-27
+subject_4453,lcSSc,,2015-06-23,2015-01-30,digital ulcers,2018-10-04
+subject_6564,dcSSc,GERD,2011-12-22,2013-07-16,arthralgia,2015-02-24
+subject_3428,dcSSc,,2012-07-28,2014-09-15,digital ulcers,2014-12-30
+subject_6537,lcSSc,,2017-04-15,2019-06-05,arthralgia,2021-05-08
+subject_5249,dcSSc,ILD; GERD,2013-09-17,2013-10-13,puffy hands,2015-11-19
+subject_8599,dcSSc,ILD,2017-03-06,2018-12-24,GERD,2019-09-01
+subject_8798,lcSSc,GERD,2019-05-28,2018-03-09,dyspnea,2021-06-26
+subject_4038,lcSSc,ILD,2011-09-14,2014-10-17,arthralgia,2016-10-28
+subject_8425,dcSSc,ILD; GERD,2011-10-28,2016-10-29,digital ulcers,2019-05-16
+subject_2135,lcSSc,PAH,2011-11-11,2014-08-20,dyspnea,2018-01-18
+subject_8243,dcSSc,,2012-03-12,2012-01-05,digital ulcers,2015-03-01
+subject_4275,dcSSc,,2017-01-04,2015-03-29,GERD,2018-05-04
+subject_6632,lcSSc,ILD,2012-06-12,2015-01-12,arthralgia,2016-12-16
+subject_2072,lcSSc,,2014-11-27,2012-09-03,puffy hands,2015-11-20
+subject_3618,dcSSc,ILD,2017-07-31,2019-06-18,arthralgia,2020-03-09
+subject_7447,lcSSc,GERD; PAH,2014-08-06,2018-05-23,arthralgia,2018-08-14
+subject_4896,dcSSc,,2016-10-04,2015-09-17,dyspnea,2018-12-30
+subject_3164,dcSSc,ILD,2009-02-21,2013-04-12,digital ulcers,2016-07-25
+subject_6745,lcSSc,GERD,2014-02-04,2015-06-26,dyspnea,2018-06-26
+subject_5675,lcSSc,,2012-01-31,2013-04-30,arthralgia,2015-08-23
+subject_4256,lcSSc,ILD,2009-06-15,2015-04-12,digital ulcers,2017-05-21
+subject_2677,dcSSc,ILD,2011-11-16,2014-12-15,digital ulcers,2015-09-16
+subject_6983,dcSSc,ILD,2015-03-04,2021-04-03,digital ulcers,2021-02-07
+subject_6795,lcSSc,,2010-01-31,2012-02-27,arthralgia,2015-05-27
+subject_4377,lcSSc,,2010-09-08,2013-11-07,digital ulcers,2016-02-04
+subject_7660,lcSSc,ILD,2019-12-29,2021-03-26,arthralgia,2021-11-19
+subject_3949,lcSSc,GERD,2013-10-09,2014-08-01,digital ulcers,2017-06-26
+subject_4856,dcSSc,GERD,2013-05-27,2017-07-31,puffy hands,2018-03-09
+subject_4400,lcSSc,ILD,2016-03-13,2015-02-15,digital ulcers,2018-05-04
+subject_3301,lcSSc,ILD,2016-01-10,2018-10-22,arthralgia,2019-07-12
+subject_5650,lcSSc,,2017-10-01,2018-09-16,arthralgia,2020-06-09
+subject_2246,lcSSc,ILD; GERD; PAH,2018-07-11,2019-01-11,digital ulcers,2019-07-24
+subject_5061,lcSSc,PAH,2012-07-30,2015-05-27,dyspnea,2016-04-22
+subject_6099,dcSSc,ILD; GERD,2018-04-09,2018-02-25,dyspnea,2019-10-02
+subject_8948,lcSSc,GERD,2009-08-19,2014-09-16,digital ulcers,2018-02-14
+subject_5490,lcSSc,ILD,2013-12-24,2018-12-27,digital ulcers,2021-03-13
+subject_4283,dcSSc,GERD,2010-01-09,2015-10-31,digital ulcers,2015-11-28
+subject_2308,lcSSc,,2017-02-27,2018-02-09,GERD,2020-06-10
+subject_3237,dcSSc,ILD,2013-11-09,2012-01-28,digital ulcers,2015-09-03
+subject_4990,lcSSc,ILD,2008-06-07,2012-03-06,GERD,2015-10-26
+subject_5197,lcSSc,ILD,2010-10-05,2012-03-20,dyspnea,2015-05-27
+subject_5945,lcSSc,,2010-01-13,2013-11-29,GERD,2017-03-24
+subject_6945,lcSSc,GERD,2018-12-26,2017-07-01,digital ulcers,2020-10-03
+subject_6447,lcSSc,,2014-08-22,2019-07-20,digital ulcers,2021-04-19
+subject_6429,dcSSc,GERD,2013-11-20,2017-09-02,GERD,2019-07-18
+subject_8895,lcSSc,,2016-05-13,2013-07-03,dyspnea,2017-05-08
+subject_6977,lcSSc,,2008-10-09,2011-11-07,GERD,2014-08-14
+subject_5301,lcSSc,,2013-07-12,2017-07-24,arthralgia,2018-01-29
+subject_4671,lcSSc,GERD,2013-09-29,2017-10-20,GERD,2019-09-16
+subject_8864,lcSSc,,2014-03-09,2018-10-13,GERD,2020-08-05
+subject_4684,dcSSc,ILD,2016-10-03,2016-09-27,GERD,2017-03-16
+subject_2909,dcSSc,ILD,2012-11-29,2016-04-21,digital ulcers,2019-04-10
+subject_6343,lcSSc,,2015-12-19,2013-05-16,arthralgia,2017-01-10
+subject_6280,lcSSc,GERD,2017-07-04,2019-01-05,GERD,2020-04-21
+subject_5915,lcSSc,,2018-12-27,2018-11-29,puffy hands,2019-12-26
+subject_4313,lcSSc,ILD; GERD; PAH,2011-04-11,2017-01-04,dyspnea,2017-10-01
+subject_5744,lcSSc,ILD,2012-08-19,2016-12-28,arthralgia,2017-12-23
+subject_3374,lcSSc,ILD; GERD; PAH,2018-03-03,2017-03-15,dyspnea,2019-09-07
+subject_5936,lcSSc,ILD,2017-04-11,2016-01-11,arthralgia,2019-08-30
+subject_8638,dcSSc,ILD,2017-08-09,2019-08-10,dyspnea,2021-01-13
+subject_2150,dcSSc,GERD,2018-01-23,2016-11-26,digital ulcers,2019-06-22
+subject_8884,lcSSc,PAH,2016-05-25,2017-09-01,GERD,2020-07-06
+subject_2676,dcSSc,ILD; GERD,2013-04-02,2018-07-13,puffy hands,2019-07-02
+subject_7876,lcSSc,GERD,2012-03-11,2013-06-17,arthralgia,2016-12-13
+subject_5592,lcSSc,GERD,2010-12-12,2015-06-29,arthralgia,2016-01-16
+subject_6410,dcSSc,ILD,2015-01-29,2012-12-22,dyspnea,2016-09-07
+subject_4027,lcSSc,ILD,2018-04-15,2016-10-13,digital ulcers,2019-01-17
+subject_2832,dcSSc,,2015-01-13,2019-01-14,puffy hands,2019-09-12
+subject_8058,dcSSc,ILD; GERD,2018-08-08,2018-01-31,GERD,2020-05-23
+subject_2663,dcSSc,ILD,2017-09-30,2019-09-06,GERD,2019-06-09
+subject_6941,lcSSc,ILD; GERD,2016-01-31,2018-04-26,puffy hands,2020-01-15
+subject_5282,dcSSc,ILD; GERD,2014-11-21,2020-10-30,arthralgia,2020-06-06
+subject_2798,lcSSc,,2013-09-05,2016-06-18,dyspnea,2018-09-19
+subject_3836,lcSSc,,2018-07-27,2019-07-22,arthralgia,2021-08-24
+subject_7297,dcSSc,ILD,2012-02-10,2012-06-04,digital ulcers,2016-05-05
+subject_5403,lcSSc,GERD,2012-10-20,2013-04-05,dyspnea,2016-08-08
+subject_4648,lcSSc,GERD; PAH,2011-05-30,2013-08-18,puffy hands,2016-03-08
+subject_2302,lcSSc,GERD,2013-03-26,2014-02-15,arthralgia,2018-06-10
+subject_2548,lcSSc,,2015-09-02,2019-03-16,puffy hands,2020-08-30
+subject_7760,lcSSc,GERD,2011-06-22,2016-02-08,GERD,2016-08-19
+subject_7043,dcSSc,ILD,2017-06-09,2017-06-27,puffy hands,2019-11-23
+subject_4560,dcSSc,,2013-10-24,2018-11-22,arthralgia,2020-12-08
+subject_6265,dcSSc,ILD; GERD,2018-06-29,2018-08-23,digital ulcers,2020-09-05
+subject_4926,dcSSc,ILD; GERD,2012-05-08,2019-01-06,digital ulcers,2018-09-01
+subject_8185,lcSSc,GERD,2014-07-29,2017-08-24,dyspnea,2018-05-31
+subject_8886,dcSSc,ILD,2015-09-04,2018-02-22,arthralgia,2020-04-22
+subject_3212,lcSSc,GERD,2008-08-09,2014-08-10,GERD,2016-06-16
+subject_2009,dcSSc,ILD,2017-03-09,2016-10-28,digital ulcers,2019-12-16
+subject_7785,dcSSc,ILD,2012-10-13,2016-09-05,puffy hands,2019-09-19
+subject_6867,dcSSc,ILD; GERD,2014-03-20,2017-01-06,dyspnea,2017-09-09
+subject_2496,lcSSc,ILD,2018-01-20,2016-04-22,dyspnea,2019-10-20
+subject_6589,lcSSc,,2015-06-01,2020-06-21,arthralgia,2020-09-04
+subject_4368,lcSSc,,2015-01-12,2017-07-29,dyspnea,2019-12-11
+subject_6175,dcSSc,ILD,2010-01-20,2015-11-17,puffy hands,2016-07-10
+subject_2540,lcSSc,GERD,2012-04-16,2017-04-12,GERD,2019-08-15
+subject_6268,lcSSc,,2018-06-06,2016-09-12,dyspnea,2019-08-12
+subject_2724,lcSSc,ILD,2009-09-03,2011-10-16,digital ulcers,2015-01-29
+subject_2233,lcSSc,,2014-05-29,2016-09-13,digital ulcers,2018-06-18
+subject_3448,lcSSc,ILD,2017-01-20,2015-08-19,puffy hands,2017-05-09
+subject_4978,dcSSc,GERD,2015-01-10,2018-12-18,puffy hands,2019-05-17
+subject_8378,lcSSc,,2014-12-04,2014-02-15,digital ulcers,2016-05-06
+subject_3287,dcSSc,ILD,2009-12-09,2013-11-21,arthralgia,2015-09-21
+subject_4596,lcSSc,,2012-06-04,2015-01-25,puffy hands,2017-01-25
+subject_2886,lcSSc,,2012-08-06,2014-11-18,digital ulcers,2017-12-13
+subject_5917,lcSSc,,2010-10-27,2015-07-24,digital ulcers,2018-04-13
+subject_8639,dcSSc,ILD; GERD,2011-05-15,2013-11-18,GERD,2016-03-04
+subject_7896,lcSSc,,2012-12-15,2014-11-19,GERD,2017-08-28
+subject_3202,dcSSc,,2007-12-25,2013-04-10,puffy hands,2014-12-26
+subject_7496,lcSSc,GERD,2020-07-15,2019-04-27,puffy hands,2021-01-10
+subject_5659,dcSSc,GERD,2014-10-27,2012-04-27,dyspnea,2016-07-21
+subject_2951,dcSSc,ILD,2008-03-09,2014-05-19,puffy hands,2015-12-26
+subject_3381,dcSSc,ILD; GERD,2014-12-07,2017-12-21,arthralgia,2020-12-23
+subject_2942,lcSSc,,2011-09-12,2018-05-27,digital ulcers,2018-09-21
+subject_5402,dcSSc,ILD,2017-06-14,2018-04-17,arthralgia,2018-04-21
+subject_5237,dcSSc,ILD,2014-12-05,2017-05-04,puffy hands,2018-07-27
+subject_4624,lcSSc,,2011-07-17,2013-03-06,digital ulcers,2016-05-12
+subject_5326,lcSSc,ILD,2017-10-24,2018-01-30,GERD,2018-04-11
+subject_5158,dcSSc,ILD,2010-10-19,2018-03-23,GERD,2018-09-10
+subject_4290,dcSSc,ILD,2016-08-28,2016-11-10,dyspnea,2019-06-17
+subject_5056,dcSSc,,2017-12-26,2018-02-27,GERD,2020-09-10
+subject_8930,lcSSc,,2011-01-09,2015-04-08,digital ulcers,2018-12-22
+subject_4773,lcSSc,,2017-09-07,2017-03-07,arthralgia,2020-08-08
+subject_6654,lcSSc,ILD,2015-09-13,2017-12-07,puffy hands,2021-04-11
+subject_7856,lcSSc,GERD,2014-08-28,2018-12-28,puffy hands,2020-11-22
+subject_7585,dcSSc,,2008-12-10,2012-11-29,arthralgia,2016-09-11
+subject_3780,lcSSc,,2012-01-17,2017-08-26,digital ulcers,2019-11-13
+subject_8498,dcSSc,ILD,2018-01-04,2014-11-16,dyspnea,2018-12-06
+subject_4794,lcSSc,GERD,2012-08-10,2016-03-14,digital ulcers,2017-10-18
+subject_6256,dcSSc,ILD,2013-06-18,2018-01-02,GERD,2018-10-15
+subject_3002,lcSSc,,2011-06-24,2015-02-13,puffy hands,2017-11-14
+subject_4001,lcSSc,,2015-03-21,2014-11-25,arthralgia,2015-08-30
+subject_2636,dcSSc,,2018-02-22,2018-09-09,dyspnea,2020-10-17
+subject_2699,lcSSc,,2008-05-23,2015-05-25,arthralgia,2015-12-10
+subject_3839,lcSSc,GERD,2012-07-18,2018-02-02,puffy hands,2020-03-31
+subject_7201,dcSSc,GERD,2013-07-29,2019-08-01,dyspnea,2021-03-02
+subject_7626,dcSSc,ILD,2016-11-26,2018-09-21,arthralgia,2019-04-30
+subject_4145,lcSSc,,2013-01-29,2014-06-10,digital ulcers,2018-05-14
+subject_8754,lcSSc,GERD,2011-01-27,2014-10-07,GERD,2017-02-23
+subject_2005,dcSSc,ILD; GERD,2014-01-22,2018-05-01,dyspnea,2021-06-29
+subject_5954,lcSSc,ILD; GERD,2017-11-13,2018-05-27,dyspnea,2018-10-30
+subject_2558,lcSSc,GERD,2019-04-24,2017-07-31,arthralgia,2020-01-21
+subject_5267,lcSSc,GERD,2011-12-22,2015-03-22,puffy hands,2015-01-07
+subject_7898,lcSSc,,2016-06-15,2018-01-16,GERD,2019-04-27
+subject_3012,lcSSc,ILD,2017-01-07,2020-09-24,GERD,2021-09-19
+subject_8225,dcSSc,,2011-01-13,2014-08-07,arthralgia,2015-09-14
+subject_7356,dcSSc,,2014-01-02,2015-12-10,GERD,2015-09-28
+subject_4872,dcSSc,,2017-11-17,2018-12-20,digital ulcers,2019-05-06
+subject_2562,lcSSc,ILD,2012-01-25,2013-06-05,digital ulcers,2016-04-25
+subject_6419,lcSSc,,2013-11-06,2019-01-17,digital ulcers,2020-04-21
+subject_5746,lcSSc,,2015-03-01,2015-09-12,GERD,2018-04-25
+subject_7544,dcSSc,ILD,2011-11-16,2016-09-17,GERD,2018-08-06
+subject_7720,dcSSc,ILD,2020-01-28,2020-11-04,GERD,2021-05-14
+subject_3426,lcSSc,,2017-07-31,2019-08-07,puffy hands,2019-03-01
+subject_3594,dcSSc,ILD,2012-01-20,2014-04-03,dyspnea,2017-02-02
+subject_5226,lcSSc,,2016-06-30,2018-11-04,digital ulcers,2018-10-27
+subject_6916,dcSSc,ILD,2011-07-15,2014-03-17,digital ulcers,2014-12-09
+subject_6153,lcSSc,ILD,2010-05-02,2013-06-27,arthralgia,2016-12-04
+subject_6213,lcSSc,GERD,2011-11-20,2013-03-29,GERD,2016-05-09
+subject_2986,lcSSc,,2016-10-16,2015-06-09,puffy hands,2018-08-26
+subject_2846,dcSSc,GERD,2015-06-05,2018-06-30,puffy hands,2019-04-17
+subject_5577,lcSSc,GERD,2014-03-12,2015-05-27,puffy hands,2019-01-21
+subject_3140,dcSSc,GERD,2015-10-15,2018-03-04,GERD,2020-11-16
+subject_6675,dcSSc,ILD,2016-11-06,2014-03-30,arthralgia,2018-03-21
+subject_4150,dcSSc,GERD,2013-12-04,2021-02-22,GERD,2021-06-14
+subject_6739,dcSSc,ILD,2014-03-06,2014-08-19,puffy hands,2014-12-03
+subject_2170,lcSSc,ILD,2014-01-02,2018-06-01,dyspnea,2018-11-27
+subject_6940,lcSSc,,2010-07-14,2016-09-28,GERD,2017-06-29
+subject_2806,dcSSc,ILD,2014-07-24,2018-05-16,arthralgia,2019-10-11
+subject_6381,lcSSc,PAH,2014-05-16,2020-09-15,GERD,2020-09-22
+subject_8175,lcSSc,ILD; GERD,2018-08-25,2016-02-02,arthralgia,2020-02-03
+subject_8708,lcSSc,GERD,2014-06-14,2015-02-18,GERD,2016-12-17
+subject_3622,dcSSc,,2009-09-10,2016-06-07,GERD,2016-04-14
+subject_4434,dcSSc,ILD,2015-05-28,2016-07-25,digital ulcers,2018-10-15
+subject_3252,dcSSc,ILD,2012-09-05,2014-03-24,GERD,2016-08-08
+subject_4335,dcSSc,,2013-07-03,2017-01-16,puffy hands,2018-10-15
+subject_4789,dcSSc,,2016-08-05,2017-02-04,GERD,2019-10-28
+subject_6761,dcSSc,,2014-07-16,2015-11-28,dyspnea,2018-08-13
+subject_5562,lcSSc,PAH,2015-04-19,2015-05-05,GERD,2015-10-16
+subject_5073,lcSSc,GERD; PAH,2010-11-07,2013-06-04,dyspnea,2014-11-30
+subject_4105,dcSSc,,2016-02-19,2018-04-25,digital ulcers,2018-05-09
+subject_7273,lcSSc,GERD,2015-06-13,2016-06-13,dyspnea,2017-04-01
+subject_5168,lcSSc,,2019-01-12,2017-11-23,dyspnea,2021-04-03
+subject_3967,lcSSc,,2010-09-01,2015-05-28,dyspnea,2018-03-20
+subject_2598,dcSSc,ILD,2017-05-16,2018-04-20,GERD,2018-11-04
+subject_8159,dcSSc,ILD,2015-05-10,2017-08-06,digital ulcers,2020-06-08
+subject_4638,lcSSc,,2015-07-21,2015-09-11,digital ulcers,2019-02-25
+subject_2927,dcSSc,,2013-09-12,2012-04-09,GERD,2016-02-03
+subject_5931,dcSSc,GERD,2010-12-09,2014-01-17,puffy hands,2015-01-22
+subject_2650,dcSSc,ILD,2017-06-21,2017-09-06,dyspnea,2021-09-18
+subject_5417,lcSSc,,2009-07-26,2014-10-01,arthralgia,2015-02-20
+subject_7219,dcSSc,ILD,2013-02-19,2020-08-14,arthralgia,2021-05-31
+subject_6747,dcSSc,ILD,2016-04-24,2013-07-21,arthralgia,2017-03-10
+subject_6890,lcSSc,GERD,2015-05-08,2016-02-14,puffy hands,2020-05-31
+subject_6193,lcSSc,PAH,2014-08-09,2014-04-28,puffy hands,2017-02-09
+subject_8896,lcSSc,GERD,2016-04-17,2017-06-14,arthralgia,2019-02-19
+subject_8950,dcSSc,,2015-04-03,2017-10-03,GERD,2019-06-30
+subject_8616,dcSSc,,2020-09-13,2019-03-13,GERD,2021-11-12
+subject_5151,lcSSc,ILD; GERD,2012-05-06,2013-11-12,arthralgia,2017-11-15
+subject_7420,lcSSc,,2009-04-21,2013-12-06,puffy hands,2016-05-19
+subject_7943,lcSSc,GERD,2014-07-18,2018-02-24,arthralgia,2018-09-08
+subject_4355,lcSSc,ILD,2016-11-18,2017-02-18,arthralgia,2019-07-21
+subject_2977,lcSSc,,2011-07-14,2014-01-26,puffy hands,2017-12-20
+subject_5484,lcSSc,,2014-01-31,2016-11-11,digital ulcers,2019-03-13
+subject_3434,lcSSc,,2015-12-17,2014-09-28,arthralgia,2017-07-20
+subject_7461,dcSSc,ILD; GERD,2011-07-28,2018-11-21,GERD,2019-10-10
+subject_4325,dcSSc,ILD; GERD,2015-10-27,2016-02-29,arthralgia,2017-08-26
+subject_8078,lcSSc,ILD,2018-12-06,2017-12-23,arthralgia,2020-07-11
+subject_8780,dcSSc,,2007-11-02,2014-03-22,arthralgia,2015-01-02
+subject_5770,lcSSc,,2008-06-15,2013-05-09,dyspnea,2016-06-13
+subject_4428,lcSSc,GERD,2017-03-31,2018-03-24,GERD,2020-04-21
+subject_4266,lcSSc,ILD,2011-02-25,2014-04-15,GERD,2015-09-18
+subject_4209,dcSSc,ILD,2016-12-03,2016-10-13,digital ulcers,2019-07-17
+subject_8628,dcSSc,GERD,2015-01-13,2020-03-12,arthralgia,2020-01-09
+subject_6016,lcSSc,ILD; GERD; PAH,2016-05-17,2015-03-02,digital ulcers,2016-11-23
+subject_4499,dcSSc,GERD,2015-03-03,2014-01-17,puffy hands,2017-10-23
+subject_7788,dcSSc,ILD,2009-05-29,2015-03-14,arthralgia,2017-01-15
+subject_6148,lcSSc,GERD,2018-08-19,2017-12-23,digital ulcers,2021-01-16
+subject_2185,lcSSc,GERD,2012-12-08,2019-12-29,digital ulcers,2020-03-30
+subject_2823,lcSSc,,2018-04-12,2016-11-15,dyspnea,2019-07-20
+subject_4898,lcSSc,ILD,2017-09-15,2017-05-04,dyspnea,2020-05-02
+subject_6030,dcSSc,GERD,2010-08-06,2014-06-29,GERD,2017-03-23
+subject_5046,lcSSc,,2018-03-02,2017-09-28,GERD,2021-06-02
+subject_8232,lcSSc,,2015-03-18,2015-12-10,dyspnea,2017-11-22
+subject_5322,dcSSc,ILD; GERD,2010-11-07,2018-04-04,dyspnea,2019-01-03
+subject_2386,lcSSc,,2017-02-07,2018-04-25,puffy hands,2021-03-26
+subject_5981,dcSSc,,2011-11-19,2018-03-04,arthralgia,2018-11-29
+subject_5427,dcSSc,ILD; GERD,2015-09-04,2019-04-22,dyspnea,2019-08-08
+subject_4513,lcSSc,ILD,2016-07-30,2014-01-05,digital ulcers,2017-09-16
+subject_7418,lcSSc,GERD; PAH,2011-04-08,2013-10-26,dyspnea,2017-07-02
+subject_6524,lcSSc,,2011-05-28,2014-08-06,GERD,2017-09-01
+subject_6691,lcSSc,ILD,2015-04-10,2019-12-24,digital ulcers,2020-07-20
+subject_5900,lcSSc,ILD,2015-10-27,2016-07-15,puffy hands,2018-08-12
+subject_7445,dcSSc,ILD; GERD,2011-06-12,2015-04-19,digital ulcers,2018-12-27
+subject_2883,lcSSc,ILD,2015-09-03,2014-07-30,arthralgia,2016-12-18
+subject_5020,lcSSc,,2010-01-04,2012-12-12,GERD,2016-10-30
+subject_4506,lcSSc,,2013-07-25,2013-01-08,dyspnea,2015-07-29
+subject_3996,lcSSc,,2011-08-31,2015-08-22,puffy hands,2018-04-26
+subject_6565,lcSSc,ILD; PAH,2013-06-01,2014-12-14,digital ulcers,2017-12-05
+subject_4324,lcSSc,ILD,2010-10-16,2016-07-16,arthralgia,2018-06-22
+subject_8519,dcSSc,ILD,2014-12-13,2018-09-03,GERD,2020-02-02
+subject_4980,dcSSc,ILD,2011-03-02,2016-12-23,puffy hands,2019-06-01
+subject_3085,lcSSc,ILD; GERD,2011-08-22,2016-12-27,puffy hands,2018-06-30
+subject_2061,dcSSc,ILD,2015-05-21,2018-07-18,digital ulcers,2020-07-11
+subject_8395,dcSSc,ILD; GERD,2012-06-19,2014-04-18,puffy hands,2014-12-24
+subject_6871,lcSSc,,2009-06-26,2013-10-18,puffy hands,2015-03-20
+subject_4577,lcSSc,ILD,2013-12-11,2016-12-11,dyspnea,2017-09-19
+subject_3523,lcSSc,,2016-11-09,2017-09-19,arthralgia,2019-08-20
+subject_8698,dcSSc,GERD,2014-06-16,2016-07-08,arthralgia,2017-04-09
+subject_5948,lcSSc,GERD,2011-06-28,2016-01-30,puffy hands,2019-02-17
+subject_6170,lcSSc,ILD,2011-01-01,2017-08-11,GERD,2017-08-29
+subject_5756,lcSSc,ILD,2017-01-12,2019-05-20,puffy hands,2020-10-22
+subject_4152,dcSSc,ILD,2011-05-30,2015-11-02,puffy hands,2015-10-29
+subject_3407,dcSSc,ILD,2015-05-24,2018-06-01,arthralgia,2018-12-31
+subject_8763,lcSSc,,2014-09-19,2016-07-28,GERD,2016-05-21
+subject_7609,dcSSc,ILD; GERD,2009-05-10,2012-11-05,puffy hands,2015-12-14
+subject_3562,lcSSc,GERD,2010-12-18,2015-10-25,digital ulcers,2016-06-03
+subject_4550,lcSSc,,2017-01-05,2017-08-03,puffy hands,2019-03-01
+subject_7741,lcSSc,ILD,2017-01-05,2017-05-14,arthralgia,2018-01-28
+subject_4398,lcSSc,,2010-07-23,2013-01-16,puffy hands,2016-01-08
+subject_2624,dcSSc,ILD,2019-02-04,2019-07-04,digital ulcers,2021-08-19
+subject_8792,dcSSc,ILD,2020-02-02,2017-06-23,puffy hands,2021-04-28
+subject_7181,lcSSc,ILD; GERD; PAH,2015-01-15,2016-09-09,puffy hands,2020-04-29
+subject_8958,lcSSc,GERD,2013-02-07,2014-09-14,digital ulcers,2017-09-28
+subject_7561,dcSSc,GERD,2020-02-20,2018-12-03,GERD,2021-04-02
+subject_4977,lcSSc,GERD,2012-04-14,2016-06-13,digital ulcers,2016-03-09
+subject_8056,lcSSc,,2017-04-10,2019-09-24,GERD,2021-01-12
+subject_7178,lcSSc,,2010-12-26,2015-02-26,puffy hands,2015-10-14
+subject_5500,dcSSc,GERD,2011-03-27,2014-03-16,digital ulcers,2017-06-23
+subject_8927,lcSSc,ILD,2014-11-10,2012-07-16,puffy hands,2015-11-01
+subject_5783,lcSSc,ILD,2012-12-29,2016-09-13,puffy hands,2019-02-15
+subject_5131,lcSSc,ILD; PAH,2007-09-06,2013-07-12,puffy hands,2015-06-05
+subject_5974,lcSSc,,2018-12-21,2017-10-14,arthralgia,2019-05-16
+subject_8524,dcSSc,GERD,2015-08-10,2016-09-13,puffy hands,2019-01-15
+subject_4309,lcSSc,ILD; GERD,2016-08-02,2017-03-12,digital ulcers,2018-04-15
+subject_3998,dcSSc,ILD; GERD,2014-10-09,2018-03-23,puffy hands,2020-04-03
+subject_5214,lcSSc,PAH,2015-11-01,2016-02-09,digital ulcers,2017-03-29
+subject_8496,lcSSc,GERD,2015-07-04,2015-06-09,GERD,2019-04-08
+subject_5179,lcSSc,,2013-08-24,2017-03-29,GERD,2020-06-20
+subject_5407,lcSSc,ILD,2015-07-01,2015-11-06,dyspnea,2017-06-04
+subject_8327,lcSSc,,2012-09-30,2014-08-16,dyspnea,2016-07-21
+subject_5260,lcSSc,GERD,2008-12-12,2013-07-15,arthralgia,2014-10-16
+subject_8602,dcSSc,GERD,2017-12-27,2019-01-23,puffy hands,2019-02-03
+subject_3907,lcSSc,,2009-07-09,2014-04-13,puffy hands,2015-10-21
+subject_2792,dcSSc,ILD,2007-01-09,2013-12-12,digital ulcers,2015-08-01
+subject_3635,dcSSc,ILD,2016-07-07,2016-10-06,puffy hands,2018-05-09
+subject_6245,dcSSc,,2015-09-21,2017-10-11,GERD,2021-01-27
+subject_4817,lcSSc,,2013-06-17,2013-01-05,arthralgia,2016-01-13
+subject_2586,lcSSc,PAH,2018-11-18,2019-04-08,puffy hands,2020-12-27
+subject_3493,dcSSc,ILD; GERD,2013-03-31,2017-08-12,dyspnea,2019-06-10
+subject_4133,lcSSc,ILD,2016-01-29,2018-01-04,arthralgia,2018-05-26
+subject_5572,lcSSc,,2014-01-29,2019-04-30,puffy hands,2020-08-01
+subject_5466,lcSSc,ILD,2016-07-30,2017-12-17,GERD,2020-08-10
+subject_3264,lcSSc,,2019-04-22,2020-08-08,dyspnea,2021-02-17
+subject_5506,lcSSc,ILD,2015-05-02,2017-07-24,dyspnea,2019-06-30
+subject_4991,lcSSc,,2015-10-29,2014-05-23,arthralgia,2018-01-16
+subject_3307,lcSSc,,2010-06-28,2014-08-22,GERD,2016-06-23
+subject_6810,lcSSc,ILD; GERD,2012-11-09,2012-12-02,GERD,2015-08-04
+subject_5432,dcSSc,ILD,2015-07-25,2017-07-03,GERD,2019-11-30
+subject_2855,dcSSc,ILD,2017-11-25,2017-04-07,digital ulcers,2019-09-02
+subject_2443,lcSSc,GERD; PAH,2017-03-02,2018-02-12,puffy hands,2020-03-27
+subject_2274,lcSSc,GERD,2007-03-21,2013-01-07,dyspnea,2015-05-08
+subject_5012,lcSSc,ILD,2015-11-15,2019-01-04,puffy hands,2019-12-10
+subject_3548,dcSSc,GERD,2012-02-07,2011-11-08,arthralgia,2016-01-10
+subject_8517,lcSSc,ILD,2017-10-01,2018-07-25,puffy hands,2018-08-11
+subject_4454,dcSSc,ILD,2012-08-17,2016-08-27,GERD,2019-09-24
+subject_2667,lcSSc,,2013-10-09,2015-08-04,puffy hands,2016-11-11
+subject_2260,lcSSc,PAH,2010-11-15,2016-10-13,arthralgia,2018-05-09
+subject_7707,lcSSc,ILD; GERD,2013-12-26,2017-11-28,dyspnea,2019-11-01
+subject_5585,lcSSc,ILD; GERD,2017-10-07,2019-09-29,GERD,2020-06-18
+subject_4822,dcSSc,ILD,2015-01-16,2019-08-23,arthralgia,2020-12-26
+subject_6014,lcSSc,PAH,2012-07-11,2018-04-23,dyspnea,2020-01-07
+subject_7467,lcSSc,,2012-06-15,2016-11-14,puffy hands,2018-09-09
+subject_8646,dcSSc,ILD,2013-01-25,2015-04-03,dyspnea,2015-09-28
+subject_3912,dcSSc,ILD,2016-02-13,2018-07-30,puffy hands,2018-02-16
+subject_7702,dcSSc,,2014-11-30,2017-10-02,arthralgia,2020-06-20
+subject_4954,lcSSc,GERD; PAH,2014-04-03,2018-01-30,puffy hands,2020-04-25
+subject_6234,dcSSc,ILD,2011-01-19,2016-11-14,arthralgia,2017-08-26
+subject_2054,lcSSc,,2014-12-27,2020-08-09,arthralgia,2021-02-25
+subject_4410,dcSSc,GERD,2010-07-06,2015-11-10,arthralgia,2017-11-19
+subject_8912,lcSSc,ILD,2012-03-08,2016-03-20,puffy hands,2016-12-30
+subject_6543,dcSSc,ILD; GERD,2012-03-10,2015-02-07,dyspnea,2016-12-21
+subject_8241,dcSSc,ILD,2010-09-19,2012-11-06,GERD,2015-07-11
+subject_6274,dcSSc,ILD,2010-07-04,2013-11-10,GERD,2015-12-06
+subject_7459,dcSSc,ILD,2014-01-09,2016-01-07,digital ulcers,2015-11-07
+subject_5769,lcSSc,,2016-12-23,2016-07-01,digital ulcers,2017-10-27
+subject_2971,dcSSc,ILD; GERD,2015-11-28,2019-09-21,puffy hands,2021-04-03
+subject_5052,lcSSc,PAH,2012-12-21,2014-12-29,puffy hands,2015-12-20
+subject_5703,lcSSc,GERD,2014-10-05,2014-01-25,GERD,2015-11-12
+subject_4248,lcSSc,,2011-01-31,2014-05-14,GERD,2016-12-20
+subject_3758,dcSSc,ILD,2017-02-14,2017-08-21,digital ulcers,2019-12-02
+subject_3483,lcSSc,GERD,2007-09-11,2013-03-20,dyspnea,2016-03-05
+subject_3668,dcSSc,ILD,2013-12-23,2013-06-15,digital ulcers,2016-05-28
+subject_7826,dcSSc,ILD; GERD,2008-04-11,2015-01-15,arthralgia,2015-12-28
+subject_2584,lcSSc,ILD,2010-11-23,2014-03-05,GERD,2016-06-19
+subject_8015,lcSSc,ILD,2014-12-21,2018-09-23,puffy hands,2020-03-31
+subject_3376,lcSSc,,2015-10-06,2019-05-27,dyspnea,2020-12-11
+subject_8145,dcSSc,ILD,2013-06-23,2016-08-23,GERD,2018-12-02
+subject_7815,dcSSc,ILD,2015-04-24,2019-04-18,GERD,2020-04-26
+subject_8835,dcSSc,ILD; GERD,2018-08-21,2017-10-14,arthralgia,2019-06-07
+subject_7063,lcSSc,,2010-09-17,2017-10-20,dyspnea,2017-12-31
+subject_4462,dcSSc,,2010-11-30,2014-12-27,GERD,2015-11-24
+subject_8090,dcSSc,,2013-06-06,2014-08-14,arthralgia,2015-08-31
+subject_6025,lcSSc,GERD,2018-04-19,2019-04-18,dyspnea,2019-06-09
+subject_7789,lcSSc,ILD,2016-09-16,2018-09-13,arthralgia,2019-05-14
+subject_2190,lcSSc,ILD; PAH,2017-02-08,2016-11-24,GERD,2020-04-16
+subject_4206,lcSSc,,2011-12-24,2018-05-21,puffy hands,2019-02-11
+subject_6097,lcSSc,ILD,2015-03-13,2015-03-02,arthralgia,2017-06-29
+subject_5868,lcSSc,,2012-11-18,2015-11-23,puffy hands,2017-11-22
+subject_7753,dcSSc,ILD; GERD,2008-02-13,2012-06-13,dyspnea,2015-06-12
+subject_7362,lcSSc,,2019-04-25,2020-06-06,digital ulcers,2021-07-28
+subject_4414,lcSSc,GERD; PAH,2010-11-17,2014-04-12,puffy hands,2016-09-07
+subject_3930,dcSSc,GERD,2019-06-18,2019-10-04,digital ulcers,2021-02-15
+subject_7723,dcSSc,,2018-07-05,2019-03-21,arthralgia,2019-12-31
+subject_6886,dcSSc,,2011-05-19,2016-10-24,puffy hands,2018-12-24
+subject_4211,lcSSc,,2014-03-16,2015-05-05,puffy hands,2018-01-07

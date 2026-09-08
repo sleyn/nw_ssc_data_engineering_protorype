@@ -1,0 +1,1501 @@
+study,case number,first name,last name,birth date,ethnicity,gender,races,diagnosis,state,height,weight
+SSC-REG,subject_7250,Danielle,Taylor,1951-07-24,Not Hispanic or Latino,Female,White,SSc,CA,62.7,173.5
+SSC-REG,subject_4646,Minji,Kato,1957-12-01,Not Hispanic or Latino,Female,Asian,SSc,IL,67.1,129.9
+SSC-REG,subject_7910,Kimberly,Morris,1972-10-12,Not Hispanic or Latino,Female,Black or African American,SSc,MI,67.9,141.6
+SSC-REG,subject_7832,Isabella,Clark,1963-10-18,Not Hispanic or Latino,Female,White,SSc,IL,62.9,181.0
+SSC-REG,subject_3962,Brenda,Morris,1988-09-03,Not Hispanic or Latino,Female,White,SSc,CA,65.4,167.6
+SSC-REG,subject_6373,Betty,Burns,1954-07-05,Not Hispanic or Latino,Female,Other,SSc,MI,67.3,204.8
+SSC-REG,subject_8998,Melissa,Carroll,1989-08-05,Not Hispanic or Latino,Female,White,SSc,CA,63.1,140.1
+SSC-REG,subject_4826,Kayla,Dunn,1985-12-06,Not Hispanic or Latino,Female,White,SSc,CA,62.8,151.7
+SSC-REG,subject_4514,Carolina,Contreras,1954-06-19,Hispanic or Latino,Female,Black or African American,SSc,IN,62.3,135.1
+SSC-REG,subject_4093,Danielle,Collins,1980-03-14,Not Hispanic or Latino,Female,Black or African American,SSc,CA,62.0,160.7
+SSC-REG,subject_6803,Melanie,Thomas,1958-05-03,Not Hispanic or Latino,Female,White,SSc,OH,62.1,225.8
+SSC-REG,subject_8733,Nicole,Newton,1978-04-04,Not Hispanic or Latino,Female,White,SSc,CA,61.6,207.1
+SSC-REG,subject_4055,Marta,Santos,1983-06-06,Hispanic or Latino,Female,White,SSc,OH,59.5,190.8
+SSC-REG,subject_8355,Elena,Black,1957-04-21,Not Hispanic or Latino,Female,Black or African American,SSc,IL,62.9,184.5
+SSC-REG,subject_6250,Carolina,Mendez,1964-01-01,Hispanic or Latino,Female,Black or African American,SSc,CA,159.1,111.3
+SSC-REG,subject_5397,Ashley,Thomas,1951-11-20,Not Hispanic or Latino,Female,White,SSc,IL,64.7,195.6
+SSC-REG,subject_3318,Stephen,Rogers,1983-06-16,Not Hispanic or Latino,Male,Other,SSc,CA,68.5,197.5
+SSC-REG,subject_4861,Emily,Powell,1968-01-26,Not Hispanic or Latino,Female,White,SSc,IL,66.9,182.3
+SSC-REG,subject_4655,Marie,Johnston,1948-10-02,Not Hispanic or Latino,Female,White,SSc,CA,63.6,176.9
+SSC-REG,subject_8046,Susan,Wilson,1972-11-16,Not Hispanic or Latino,Female,White,SSc,CA,66.5,140.5
+SSC-REG,subject_7635,Douglas,Thomas,1978-06-17,Not Hispanic or Latino,Male,Other,SSc,CA,66.1,230.4
+SSC-REG,subject_4685,Erica,Rogers,1968-12-13,Not Hispanic or Latino,Female,White,SSc,CA,63.6,180.6
+SSC-REG,subject_5788,Christine,Owens,1980-06-21,Not Hispanic or Latino,Female,White,SSc,IL,66.1,123.4
+SSC-REG,subject_8941,Brian,Jenkins,1981-10-14,Not Hispanic or Latino,Male,White,SSc,TX,167.9,148.4
+SSC-REG,subject_4850,Janice,Brown,1971-03-27,Not Hispanic or Latino,Female,White,SSc,OH,64.5,180.4
+SSC-REG,subject_6086,Alexis,Holmes,1988-10-08,Not Hispanic or Latino,Female,White,SSc,CA,66.0,166.0
+SSC-REG,subject_6569,Theresa,Smith,1954-09-16,Not Hispanic or Latino,Female,Black or African American,SSc,MI,61.9,132.6
+SSC-REG,subject_3647,Debra,Ryan,1981-11-03,Not Hispanic or Latino,Female,White,SSc,OH,63.1,106.8
+SSC-REG,subject_6598,Patricia,Holt,1955-05-18,Not Hispanic or Latino,Female,White,SSc,CA,63.1,147.1
+SSC-REG,subject_6155,Kimberly,Nichols,1957-08-14,Not Hispanic or Latino,Female,White,SSc,CA,64.0,173.9
+SSC-REG,subject_4721,Nathan,Long,1953-12-14,Not Hispanic or Latino,Male,White,SSc,CA,67.6,215.2
+SSC-REG,subject_6308,Sharon,Moore,1957-07-03,Not Hispanic or Latino,Female,White,SSc,MI,64.1,128.7
+SSC-REG,subject_8727,Marilyn,Barnes,1973-07-06,Not Hispanic or Latino,Female,White,SSc,CA,157.3,173.5
+SSC-REG,subject_3180,Patricia,Ray,1970-06-23,Not Hispanic or Latino,Female,Black or African American,SSc,CA,61.9,162.3
+SSC-REG,subject_5391,Sandra,Hudson,1962-03-17,Not Hispanic or Latino,Female,White,SSc,OH,61.5,161.7
+SSC-REG,subject_7539,Alexis,Pierce,1971-10-28,Not Hispanic or Latino,Female,White,SSc,IN,63.4,159.5
+SSC-REG,subject_8264,Alejandra,Cabrera,1975-01-03,Hispanic or Latino,Female,White,SSc,CA,62.4,203.4
+SSC-REG,subject_6244,Kevin,Pierce,1952-07-27,Not Hispanic or Latino,Male,Other,SSc,CA,182.1,171.6
+SSC-REG,subject_8360,Frances,Spencer,1985-12-04,Not Hispanic or Latino,Female,White,SSc,TX,66.1,152.8
+SSC-REG,subject_2968,Lin,Le,1963-11-17,Not Hispanic or Latino,Female,Asian,SSc,NY,60.8,196.7
+SSC-REG,subject_8952,Kathryn,Cook,1966-08-03,Not Hispanic or Latino,Female,Other,SSc,TX,65.9,163.0
+SSC-REG,subject_3061,Stephanie,Cooper,1961-04-03,Not Hispanic or Latino,Female,Black or African American,SSc,CA,159.5,187.7
+SSC-REG,subject_7593,Lorena,Contreras,1972-01-29,Hispanic or Latino,Female,White,SSc,CA,70.9,139.2
+SSC-REG,subject_2276,Patrick,Hart,1962-07-26,Not Hispanic or Latino,Male,Black or African American,SSc,TX,75.0,127.0
+SSC-REG,subject_3498,Denise,Dunn,1961-11-08,Not Hispanic or Latino,Female,White,SSc,MI,63.3,144.8
+SSC-REG,subject_7072,Ivy,Fowler,1986-04-23,Not Hispanic or Latino,Female,Black or African American,SSc,CA,61.2,122.9
+SSC-REG,subject_4644,Pilar,Ortega,1984-01-17,Hispanic or Latino,Female,Black or African American,SSc,CA,64.5,123.8
+SSC-REG,subject_4515,Valerie,Watkins,1959-12-29,Not Hispanic or Latino,Female,White,SSc,IN,66.0,141.4
+SSC-REG,subject_3948,Carolyn,Kennedy,1975-12-12,Not Hispanic or Latino,Female,White,SSc,CA,170.6,162.0
+SSC-REG,subject_3454,Carol,Hayes,1963-08-10,Not Hispanic or Latino,Female,White,SSc,CA,65.8,142.5
+SSC-REG,subject_8898,Elena,Jones,1978-06-28,Not Hispanic or Latino,Female,Black or African American,SSc,OH,64.2,216.1
+SSC-REG,subject_6197,Xiao,Ito,1986-07-13,Not Hispanic or Latino,Female,Asian,SSc,CA,172.3,158.2
+SSC-REG,subject_4221,Ishaan,Huynh,1956-08-26,Not Hispanic or Latino,Male,Asian,SSc,IN,185.5,179.0
+SSC-REG,subject_4336,Minji,Liu,1948-12-05,Not Hispanic or Latino,Female,Asian,SSc,NY,62.1,184.1
+SSC-REG,subject_3657,Rebecca,Stewart,1968-12-26,Not Hispanic or Latino,Female,White,SSc,CA,64.3,155.8
+SSC-REG,subject_3855,Ann,Stevens,1953-10-29,Not Hispanic or Latino,Female,White,SSc,TX,63.3,207.3
+SSC-REG,subject_5199,Abigail,Marshall,1956-03-12,Not Hispanic or Latino,Female,Black or African American,SSc,MI,68.1,142.5
+SSC-REG,subject_5927,Lorena,Diaz,1980-05-27,Hispanic or Latino,Female,Black or African American,SSc,IN,62.2,149.1
+SSC-REG,subject_6027,Sarah,Gibson,1960-03-25,Not Hispanic or Latino,Female,White,SSc,MI,65.0,155.9
+SSC-REG,subject_5180,Patricia,Lopez,1981-01-19,Hispanic or Latino,Female,White,SSc,CA,67.2,140.5
+SSC-REG,subject_7410,Monica,Jimenez,1980-10-05,Hispanic or Latino,Female,Black or African American,SSc,MI,68.3,197.7
+SSC-REG,subject_4672,Debra,Doyle,1989-12-30,Not Hispanic or Latino,Female,White,SSc,CA,150.8,151.6
+SSC-REG,subject_5359,Nana,Joshi,1944-07-26,Not Hispanic or Latino,Female,Asian,SSc,MI,64.4,157.3
+SSC-REG,subject_5283,Rachel,Freeman,1973-07-21,Not Hispanic or Latino,Female,Black or African American,SSc,TX,62.0,160.7
+SSC-REG,subject_3803,Hyejin,Park,1967-03-02,Not Hispanic or Latino,Female,Asian,SSc,IL,63.7,204.5
+SSC-REG,subject_5580,Gloria,Butler,1977-02-27,Not Hispanic or Latino,Female,Black or African American,SSc,OH,172.1,121.0
+SSC-REG,subject_2729,Gerald,Walton,1984-12-31,Not Hispanic or Latino,Male,White,SSc,OH,66.8,184.5
+SSC-REG,subject_2924,Helen,Sanders,1985-01-12,Not Hispanic or Latino,Female,Black or African American,SSc,CA,62.9,196.9
+SSC-REG,subject_6695,Stephanie,George,1959-01-11,Not Hispanic or Latino,Female,White,SSc,NY,62.0,179.8
+SSC-REG,subject_8431,Victoria,Warren,1953-03-01,Not Hispanic or Latino,Female,White,SSc,OH,63.9,160.5
+SSC-REG,subject_2639,Rosa,Chavez,1952-01-17,Hispanic or Latino,Female,Other,SSc,CA,64.3,162.3
+SSC-REG,subject_4108,Nicole,Mason,1964-04-01,Not Hispanic or Latino,Female,White,SSc,WI,60.2,191.9
+SSC-REG,subject_4322,Christine,Dean,1975-09-08,Not Hispanic or Latino,Female,Black or African American,SSc,WI,66.5,147.8
+SSC-REG,subject_4407,Janet,Martin,1983-03-04,Not Hispanic or Latino,Female,White,SSc,NY,155.5,109.6
+SSC-REG,subject_2626,Sofia,Ramos,1963-12-21,Hispanic or Latino,Female,Asian,SSc,CA,157.4,195.3
+SSC-REG,subject_5934,Charlotte,Murphy,1973-05-08,Not Hispanic or Latino,Female,White,SSc,OH,62.3,198.0
+SSC-REG,subject_7564,Rachel,Roberts,1966-10-27,Not Hispanic or Latino,Female,White,SSc,MI,69.1,187.7
+SSC-REG,subject_7343,Neel,Iyer,1956-08-29,Not Hispanic or Latino,Male,Asian,SSc,WI,70.5,204.8
+SSC-REG,subject_7645,Barbara,Fowler,1950-10-14,Not Hispanic or Latino,Female,Black or African American,SSc,CA,68.2,177.2
+SSC-REG,subject_2416,Naomi,Crawford,1981-03-23,Not Hispanic or Latino,Female,White,SSc,IL,65.0,180.8
+SSC-REG,subject_5023,Karen,Bennett,1983-06-08,Not Hispanic or Latino,Female,White,SSc,WI,66.6,149.7
+SSC-REG,subject_6844,Haruto,Reddy,1965-06-10,Not Hispanic or Latino,Male,Asian,SSc,CA,173.3,175.9
+SSC-REG,subject_5749,Erica,Johnson,1948-09-08,Not Hispanic or Latino,Female,White,SSc,CA,172.2,148.9
+SSC-REG,subject_7937,Manuel,Castillo,1976-09-17,Hispanic or Latino,Male,White,SSc,IL,68.5,272.0
+SSC-REG,subject_7526,Madison,Webb,1974-12-21,Not Hispanic or Latino,Female,White,SSc,IN,61.6,156.0
+SSC-REG,subject_5030,Martha,Willis,1982-04-21,Not Hispanic or Latino,Female,White,SSc,CA,67.1,155.4
+SSC-REG,subject_4757,Carolyn,Rose,1974-11-26,Not Hispanic or Latino,Female,White,SSc,NY,61.6,202.0
+SSC-REG,subject_5451,Natalie,Evans,1981-02-22,Not Hispanic or Latino,Female,Black or African American,SSc,OH,158.3,169.1
+SSC-REG,subject_7258,Melissa,Reynolds,1962-02-14,Not Hispanic or Latino,Female,White,SSc,NY,58.6,150.5
+SSC-REG,subject_7477,Radhika,Vo,1972-05-12,Not Hispanic or Latino,Female,Asian,SSc,CA,68.1,190.0
+SSC-REG,subject_2908,Raquel,Torres,1955-08-03,Hispanic or Latino,Female,White,SSc,CA,64.8,129.5
+SSC-REG,subject_8074,Bianca,Rice,1948-12-21,Not Hispanic or Latino,Female,Other,SSc,OH,159.2,157.8
+SSC-REG,subject_7080,Jean,Cole,1955-03-12,Not Hispanic or Latino,Female,White,SSc,NY,67.3,194.0
+SSC-REG,subject_3842,Hannah,Hall,1985-01-18,Not Hispanic or Latino,Female,White,SSc,CA,61.3,153.6
+SSC-REG,subject_2438,Evelyn,Turner,1966-02-04,Not Hispanic or Latino,Female,Other,SSc,CA,66.6,171.1
+SSC-REG,subject_3801,Erica,Schmidt,1956-02-14,Not Hispanic or Latino,Female,Other,SSc,NY,64.2,164.4
+SSC-REG,subject_6470,Elizabeth,Harrison,1967-01-05,Not Hispanic or Latino,Female,White,SSc,NY,67.3,156.4
+SSC-REG,subject_3770,Sharon,Ryan,1950-07-08,Not Hispanic or Latino,Female,White,SSc,IN,62.4,174.1
+SSC-REG,subject_8442,Katherine,Henderson,1958-07-05,Not Hispanic or Latino,Female,Black or African American,SSc,CA,60.1,193.9
+SSC-REG,subject_6645,Nathan,Arnold,1967-02-10,Not Hispanic or Latino,Male,White,SSc,NY,73.2,187.0
+SSC-REG,subject_5672,Carolina,Gutierrez,1961-11-05,Hispanic or Latino,Female,White,SSc,IL,62.8,129.2
+SSC-REG,subject_6879,Martha,Powell,1947-06-07,Not Hispanic or Latino,Female,White,SSc,NY,151.7,201.8
+SSC-REG,subject_2371,Denise,Rice,1948-04-17,Not Hispanic or Latino,Female,Other,SSc,CA,65.9,183.8
+SSC-REG,subject_6656,Yui,Zhang,1949-10-26,Not Hispanic or Latino,Female,Asian,SSc,CA,63.2,156.2
+SSC-REG,subject_5751,Jean,Young,1971-11-20,Not Hispanic or Latino,Female,White,SSc,OH,156.4,146.6
+SSC-REG,subject_2828,Christine,Murray,1953-08-05,Not Hispanic or Latino,Female,Black or African American,SSc,TX,56.9,130.5
+SSC-REG,subject_4406,Satoshi,Reddy,1951-06-11,Not Hispanic or Latino,Male,Asian,SSc,CA,68.7,242.5
+SSC-REG,subject_3666,Amy,Brooks,1963-12-23,Not Hispanic or Latino,Female,White,SSc,CA,64.3,161.0
+SSC-REG,subject_5925,Sofia,Vazquez,1979-09-29,Hispanic or Latino,Female,Other,SSc,WI,151.6,141.6
+SSC-REG,subject_4214,Sakura,Guo,1972-10-11,Not Hispanic or Latino,Female,Asian,SSc,WI,64.6,181.1
+SSC-REG,subject_8696,Kelly,Woods,1961-10-26,Not Hispanic or Latino,Female,White,SSc,IN,61.7,154.0
+SSC-REG,subject_8807,Nicole,Ward,1947-05-13,Not Hispanic or Latino,Female,Black or African American,SSc,OH,69.4,144.8
+SSC-REG,subject_2432,Wei,Jung,1949-04-04,Not Hispanic or Latino,Male,Asian,SSc,IL,69.6,210.3
+SSC-REG,subject_7168,Samantha,Bradley,1978-01-12,Not Hispanic or Latino,Female,Black or African American,SSc,CA,61.8,228.1
+SSC-REG,subject_7838,Liam,Jenkins,1960-09-01,Not Hispanic or Latino,Male,White,SSc,NY,72.2,201.0
+SSC-REG,subject_6706,Kelly,Griffin,1981-03-16,Not Hispanic or Latino,Female,White,SSc,IN,64.3,181.4
+SSC-REG,subject_5439,Beatriz,Bravo,1983-08-14,Hispanic or Latino,Female,Asian,SSc,CA,64.6,137.1
+SSC-REG,subject_2293,Kayla,Woods,1978-06-02,Not Hispanic or Latino,Female,Other,SSc,IL,66.0,143.9
+SSC-REG,subject_7998,Denise,Murray,1962-12-29,Not Hispanic or Latino,Female,White,SSc,NY,178.4,109.4
+SSC-REG,subject_6698,Deborah,Nichols,1956-11-27,Not Hispanic or Latino,Female,Black or African American,SSc,TX,63.0,139.3
+SSC-REG,subject_6841,Isabella,Hunt,1970-12-19,Not Hispanic or Latino,Female,White,SSc,CA,61.8,115.8
+SSC-REG,subject_5146,Mai,Ito,1974-09-10,Not Hispanic or Latino,Female,Asian,SSc,CA,62.6,158.5
+SSC-REG,subject_7919,Henry,White,1977-12-10,Not Hispanic or Latino,Male,White,SSc,CA,72.2,198.9
+SSC-REG,subject_8748,Donna,Mitchell,1960-10-27,Not Hispanic or Latino,Female,White,SSc,IL,59.8,189.9
+SSC-REG,subject_2472,Julie,Turner,1980-09-23,Not Hispanic or Latino,Female,White,SSc,CA,61.5,110.4
+SSC-REG,subject_8786,Rose,Johnson,1960-06-14,Not Hispanic or Latino,Female,White,SSc,CA,64.5,163.7
+SSC-REG,subject_5510,Adriana,Aguilar,1969-08-14,Hispanic or Latino,Female,White,SSc,CA,64.8,199.6
+SSC-REG,subject_5923,Donna,Payne,1956-05-18,Not Hispanic or Latino,Female,Black or African American,SSc,CA,63.5,137.7
+SSC-REG,subject_8166,Amber,Roberts,1989-07-19,Not Hispanic or Latino,Female,White,SSc,CA,60.0,149.6
+SSC-REG,subject_5477,Kathryn,Anderson,1952-02-25,Not Hispanic or Latino,Female,White,SSc,CA,62.3,177.7
+SSC-REG,subject_5229,Nina,Ray,1970-11-28,Not Hispanic or Latino,Female,White,SSc,CA,65.0,160.9
+SSC-REG,subject_6152,Rachel,Butler,1956-01-15,Not Hispanic or Latino,Female,Black or African American,SSc,CA,65.9,145.6
+SSC-REG,subject_6351,Emily,Bennett,1953-05-07,Not Hispanic or Latino,Female,Other,SSc,CA,160.2,168.6
+SSC-REG,subject_8653,Sarah,Spencer,1956-05-17,Not Hispanic or Latino,Female,White,SSc,CA,61.6,161.9
+SSC-REG,subject_5856,Catherine,Stone,1947-01-06,Not Hispanic or Latino,Female,White,SSc,IL,63.8,133.1
+SSC-REG,subject_8409,Riya,Wu,1954-11-21,Not Hispanic or Latino,Female,Asian,SSc,CA,64.4,206.7
+SSC-REG,subject_5413,Donna,Armstrong,1961-05-28,Not Hispanic or Latino,Female,White,SSc,CA,63.7,80.1
+SSC-REG,subject_4425,Walter,Davis,1983-10-25,Not Hispanic or Latino,Male,Other,SSc,CA,70.8,191.2
+SSC-REG,subject_5528,Julie,Hines,1952-06-19,Not Hispanic or Latino,Female,Black or African American,SSc,IN,60.0,158.0
+SSC-REG,subject_6748,Laura,Clark,1948-06-02,Not Hispanic or Latino,Female,White,SSc,IN,65.3,125.6
+SSC-REG,subject_4626,Gabriela,Delgado,1970-04-18,Hispanic or Latino,Female,Black or African American,SSc,CA,63.4,180.8
+SSC-REG,subject_6775,Lauren,Woods,1977-07-30,Not Hispanic or Latino,Female,Black or African American,SSc,CA,164.4,220.9
+SSC-REG,subject_3156,Aisha,Yang,1951-06-24,Not Hispanic or Latino,Female,Asian,SSc,TX,63.2,180.9
+SSC-REG,subject_4735,Molly,Bowers,1971-02-11,Not Hispanic or Latino,Female,White,SSc,CA,63.2,164.1
+SSC-REG,subject_8551,Pooja,Le,1988-06-14,Not Hispanic or Latino,Female,Asian,SSc,CA,145.1,183.2
+SSC-REG,subject_7644,Daniela,Sandoval,1954-09-02,Hispanic or Latino,Female,White,SSc,WI,66.6,95.1
+SSC-REG,subject_6068,John,Ward,1946-11-26,Not Hispanic or Latino,Male,White,SSc,CA,68.3,168.2
+SSC-REG,subject_4549,Jordan,Baldwin,1972-11-11,Not Hispanic or Latino,Male,White,SSc,IN,68.0,178.7
+SSC-REG,subject_2579,Alexander,Mason,1958-09-08,Not Hispanic or Latino,Male,White,SSc,CA,161.9,181.5
+SSC-REG,subject_5011,Brittany,Carroll,1955-06-12,Not Hispanic or Latino,Female,White,SSc,WI,64.8,130.0
+SSC-REG,subject_6973,Christina,Johnston,1964-05-23,Not Hispanic or Latino,Female,Other,SSc,CA,56.2,193.6
+SSC-REG,subject_6817,Lisa,Hughes,1970-07-11,Not Hispanic or Latino,Female,Black or African American,SSc,TX,168.9,163.9
+SSC-REG,subject_3923,Nina,Carpenter,1957-11-10,Not Hispanic or Latino,Female,Other,SSc,CA,62.7,158.0
+SSC-REG,subject_7011,Bradley,Harrison,1990-02-24,Not Hispanic or Latino,Male,White,SSc,CA,68.9,180.8
+SSC-REG,subject_3213,Rosa,Bravo,1980-12-20,Hispanic or Latino,Female,White,SSc,OH,63.9,156.2
+SSC-REG,subject_7286,Shirley,Franklin,1966-04-24,Not Hispanic or Latino,Female,Other,SSc,WI,71.4,168.3
+SSC-REG,subject_6169,Natalie,Cox,1953-01-30,Not Hispanic or Latino,Female,White,SSc,CA,63.0,155.2
+SSC-REG,subject_4132,Sophia,Bennett,1963-07-27,Not Hispanic or Latino,Female,White,SSc,MI,66.0,151.4
+SSC-REG,subject_5602,Paige,Wright,1957-10-08,Not Hispanic or Latino,Female,White,SSc,IN,62.3,208.9
+SSC-REG,subject_7581,Brenda,Hill,1971-08-11,Not Hispanic or Latino,Female,White,SSc,NY,62.0,125.3
+SSC-REG,subject_2544,Kayla,Thompson,1967-06-02,Not Hispanic or Latino,Female,White,SSc,OH,164.4,165.3
+SSC-REG,subject_3661,Ira,Patel,1957-08-06,Not Hispanic or Latino,Female,Asian,SSc,CA,64.6,151.7
+SSC-REG,subject_6385,Gloria,Campbell,1961-02-05,Not Hispanic or Latino,Female,Black or African American,SSc,IL,64.5,166.2
+SSC-REG,subject_4259,Lisa,Holmes,1947-10-04,Not Hispanic or Latino,Female,White,SSc,CA,69.2,146.5
+SSC-REG,subject_6200,Gregory,Fowler,1956-09-28,Not Hispanic or Latino,Male,White,SSc,CA,68.9,188.1
+SSC-REG,subject_3955,Sara,Kelly,1948-05-20,Not Hispanic or Latino,Female,White,SSc,IL,60.8,207.6
+SSC-REG,subject_7094,Dolores,Delgado,1980-04-04,Hispanic or Latino,Female,Black or African American,SSc,CA,62.3,184.3
+SSC-REG,subject_5414,Joan,Franklin,1969-03-04,Not Hispanic or Latino,Female,Black or African American,SSc,IL,63.1,142.6
+SSC-REG,subject_6178,Nina,Rogers,1973-11-02,Not Hispanic or Latino,Female,White,SSc,IL,167.8,138.2
+SSC-REG,subject_4691,Phoebe,Allen,1983-11-21,Not Hispanic or Latino,Female,White,SSc,CA,68.0,210.1
+SSC-REG,subject_7965,Lisa,Howard,1961-06-06,Not Hispanic or Latino,Female,White,SSc,NY,64.8,150.4
+SSC-REG,subject_3476,Patricia,Freeman,1980-12-13,Not Hispanic or Latino,Female,White,SSc,CA,64.0,216.0
+SSC-REG,subject_6995,Carol,Sanders,1961-12-31,Not Hispanic or Latino,Female,White,SSc,CA,59.0,146.5
+SSC-REG,subject_3093,Pamela,Newton,1959-07-19,Not Hispanic or Latino,Female,White,SSc,CA,167.1,154.8
+SSC-REG,subject_4250,George,Rice,1960-04-04,Not Hispanic or Latino,Male,White,SSc,IN,169.3,136.6
+SSC-REG,subject_6936,Laura,Chapman,1960-07-09,Not Hispanic or Latino,Female,White,SSc,MI,163.7,227.0
+SSC-REG,subject_7529,Sungmin,Kato,1953-10-23,Not Hispanic or Latino,Male,Asian,SSc,OH,71.2,128.4
+SSC-REG,subject_7555,Kayla,Pierce,1956-11-14,Not Hispanic or Latino,Female,White,SSc,CA,169.8,142.7
+SSC-REG,subject_6989,Kathleen,Arnold,1985-07-17,Not Hispanic or Latino,Female,White,SSc,CA,66.1,159.7
+SSC-REG,subject_6880,Marie,Ellis,1986-07-17,Not Hispanic or Latino,Female,Other,SSc,NY,68.2,142.7
+SSC-REG,subject_8396,Phoebe,Washington,1967-04-21,Not Hispanic or Latino,Female,Other,SSc,IN,65.2,111.6
+SSC-REG,subject_4073,Doris,Burns,1983-03-05,Not Hispanic or Latino,Female,White,SSc,TX,169.8,142.5
+SSC-REG,subject_2630,Dennis,Sanders,1970-08-13,Not Hispanic or Latino,Male,White,SSc,CA,63.3,210.2
+SSC-REG,subject_2191,Kayla,Harris,1965-01-19,Not Hispanic or Latino,Female,White,SSc,CA,65.9,179.3
+SSC-REG,subject_7055,Tanvi,Wu,1958-10-29,Not Hispanic or Latino,Female,Asian,SSc,CA,60.3,151.2
+SSC-REG,subject_3961,Victoria,Goodman,1961-01-28,Not Hispanic or Latino,Female,Black or African American,SSc,CA,59.5,189.0
+SSC-REG,subject_6741,Louis,Sullivan,1960-06-21,Not Hispanic or Latino,Male,Black or African American,SSc,CA,65.2,214.5
+SSC-REG,subject_7439,Angela,Lewis,1958-08-20,Not Hispanic or Latino,Female,White,SSc,WI,63.1,169.4
+SSC-REG,subject_3858,Ariana,Mills,1989-01-26,Not Hispanic or Latino,Female,Black or African American,SSc,IL,56.2,122.4
+SSC-REG,subject_7125,Isabella,Martin,1952-06-14,Not Hispanic or Latino,Female,Other,SSc,CA,61.4,187.7
+SSC-REG,subject_3146,Alexis,Webb,1977-05-31,Not Hispanic or Latino,Female,Black or African American,SSc,WI,68.0,137.5
+SSC-REG,subject_2148,Frances,Johnston,1975-12-02,Not Hispanic or Latino,Female,Black or African American,SSc,CA,157.6,199.4
+SSC-REG,subject_4257,Laura,Smith,1958-03-27,Not Hispanic or Latino,Female,Black or African American,SSc,IL,173.7,181.2
+SSC-REG,subject_7365,Soojin,Huynh,1968-11-03,Not Hispanic or Latino,Female,Asian,SSc,CA,63.2,168.8
+SSC-REG,subject_8270,Larry,Perkins,1965-10-19,Not Hispanic or Latino,Male,White,SSc,IN,69.2,135.4
+SSC-REG,subject_5422,Vanessa,Marshall,1986-07-03,Not Hispanic or Latino,Female,White,SSc,CA,70.0,122.8
+SSC-REG,subject_2434,Carlos,Jimenez,1960-12-16,Hispanic or Latino,Male,White,SSc,CA,70.7,186.0
+SSC-REG,subject_4417,Stephanie,Mason,1979-06-03,Not Hispanic or Latino,Female,Black or African American,SSc,CA,61.6,210.5
+SSC-REG,subject_2295,Natalie,Hughes,1960-02-16,Not Hispanic or Latino,Female,White,SSc,NY,161.2,151.0
+SSC-REG,subject_4650,Ashley,Gibson,1962-06-22,Not Hispanic or Latino,Female,White,SSc,CA,66.3,173.0
+SSC-REG,subject_4171,Madison,Warren,1967-01-14,Not Hispanic or Latino,Female,White,SSc,OH,66.5,169.1
+SSC-REG,subject_6144,Martha,Mitchell,1974-09-19,Not Hispanic or Latino,Female,White,SSc,MI,158.2,236.6
+SSC-REG,subject_8506,Raquel,Munoz,1965-01-22,Hispanic or Latino,Female,White,SSc,CA,67.4,140.2
+SSC-REG,subject_8456,Deborah,Greene,1963-05-14,Not Hispanic or Latino,Female,White,SSc,IL,153.6,156.7
+SSC-REG,subject_5759,Diana,Thompson,1964-03-19,Not Hispanic or Latino,Female,Black or African American,SSc,WI,60.2,228.5
+SSC-REG,subject_6909,Barbara,Pruitt,1953-08-21,Not Hispanic or Latino,Female,Other,SSc,IL,63.7,208.6
+SSC-REG,subject_6433,Leonard,Jenkins,1976-04-23,Not Hispanic or Latino,Male,White,SSc,CA,66.3,148.7
+SSC-REG,subject_8620,Samuel,Anderson,1986-02-25,Not Hispanic or Latino,Male,Black or African American,SSc,CA,171.1,235.9
+SSC-REG,subject_7671,Christine,Perkins,1948-01-09,Not Hispanic or Latino,Female,White,SSc,NY,64.8,187.2
+SSC-REG,subject_5112,Kenneth,Kelley,1960-05-17,Not Hispanic or Latino,Male,Black or African American,SSc,IL,67.0,122.7
+SSC-REG,subject_3123,Heather,White,1952-02-08,Not Hispanic or Latino,Female,White,SSc,CA,66.9,89.7
+SSC-REG,subject_6848,Mary,Davis,1951-09-10,Not Hispanic or Latino,Female,White,SSc,CA,172.7,157.7
+SSC-REG,subject_3512,Yui,Choi,1958-04-02,Not Hispanic or Latino,Female,Asian,SSc,TX,64.8,105.3
+SSC-REG,subject_6489,Kimberly,Andrews,1963-04-19,Not Hispanic or Latino,Female,White,SSc,CA,66.8,140.7
+SSC-REG,subject_2590,Kathleen,Allen,1964-04-22,Not Hispanic or Latino,Female,White,SSc,CA,166.1,139.5
+SSC-REG,subject_6071,Heather,Robertson,1945-12-26,Not Hispanic or Latino,Female,White,SSc,OH,63.8,101.1
+SSC-REG,subject_5989,Monica,Grant,1967-05-02,Not Hispanic or Latino,Female,White,SSc,CA,64.9,121.5
+SSC-REG,subject_7522,Megan,Schmidt,1967-03-07,Not Hispanic or Latino,Female,White,SSc,CA,63.7,191.9
+SSC-REG,subject_7146,Helen,Burgess,1972-04-05,Not Hispanic or Latino,Female,Black or African American,SSc,IL,58.8,148.9
+SSC-REG,subject_2940,Erica,Simmons,1950-10-21,Not Hispanic or Latino,Female,White,SSc,WI,64.7,147.4
+SSC-REG,subject_8806,Katherine,Dixon,1961-05-05,Not Hispanic or Latino,Female,White,SSc,CA,62.3,134.7
+SSC-REG,subject_6652,Grace,Cole,1977-12-22,Not Hispanic or Latino,Female,Other,SSc,MI,63.3,153.6
+SSC-REG,subject_8235,Nicole,Foster,1973-09-11,Not Hispanic or Latino,Female,White,SSc,CA,62.6,149.9
+SSC-REG,subject_7971,Liam,Butler,1975-08-21,Not Hispanic or Latino,Male,Black or African American,SSc,CA,62.7,137.6
+SSC-REG,subject_3102,Samantha,King,1978-03-13,Not Hispanic or Latino,Female,White,SSc,CA,63.4,164.5
+SSC-REG,subject_7229,Janet,Carter,1969-08-06,Not Hispanic or Latino,Female,Black or African American,SSc,CA,63.9,132.6
+SSC-REG,subject_7659,Carolyn,Tucker,1962-07-26,Not Hispanic or Latino,Female,White,SSc,IN,154.5,142.8
+SSC-REG,subject_7036,Joyce,Bell,1952-09-28,Not Hispanic or Latino,Female,White,SSc,NY,171.3,176.4
+SSC-REG,subject_5423,Laura,Pruitt,1980-08-19,Not Hispanic or Latino,Female,White,SSc,OH,62.9,180.2
+SSC-REG,subject_4112,Ira,Hoang,1980-08-03,Not Hispanic or Latino,Female,Asian,SSc,OH,62.4,129.1
+SSC-REG,subject_5296,Kathryn,Wilson,1960-04-30,Not Hispanic or Latino,Female,Other,SSc,CA,170.1,163.0
+SSC-REG,subject_8350,Emily,James,1965-01-12,Not Hispanic or Latino,Female,White,SSc,CA,70.8,186.5
+SSC-REG,subject_5804,Sophia,Wells,1954-06-15,Not Hispanic or Latino,Female,Black or African American,SSc,IN,156.7,142.1
+SSC-REG,subject_4678,Jennifer,Stone,1987-09-18,Not Hispanic or Latino,Female,Black or African American,SSc,CA,60.0,133.2
+SSC-REG,subject_2287,Julie,Price,1948-07-10,Not Hispanic or Latino,Female,Other,SSc,CA,63.7,158.2
+SSC-REG,subject_7406,Joe,Porter,1951-08-14,Not Hispanic or Latino,Male,White,SSc,IN,62.4,172.5
+SSC-REG,subject_6790,Nina,Holmes,1961-02-02,Not Hispanic or Latino,Female,Black or African American,SSc,CA,65.3,198.4
+SSC-REG,subject_8342,Marco,Navarro,1973-11-25,Hispanic or Latino,Male,Black or African American,SSc,WI,73.5,201.2
+SSC-REG,subject_2468,Daniel,Simpson,1977-11-30,Not Hispanic or Latino,Male,White,SSc,MI,74.0,188.1
+SSC-REG,subject_7656,Xavier,Hill,1985-11-17,Not Hispanic or Latino,Male,Other,SSc,IL,66.0,197.2
+SSC-REG,subject_6985,Jack,Cross,1952-05-08,Not Hispanic or Latino,Male,White,SSc,TX,68.4,179.6
+SSC-REG,subject_5582,Natalie,Bryant,1951-09-06,Not Hispanic or Latino,Female,White,SSc,OH,70.1,217.4
+SSC-REG,subject_3830,Naomi,Perkins,1966-07-14,Not Hispanic or Latino,Female,White,SSc,IL,69.8,110.0
+SSC-REG,subject_6490,Charlotte,Taylor,1965-05-05,Not Hispanic or Latino,Female,Other,SSc,IN,68.0,124.3
+SSC-REG,subject_8831,Catherine,Gordon,1980-12-18,Not Hispanic or Latino,Female,White,SSc,IN,64.8,153.9
+SSC-REG,subject_3817,Jesse,Davis,1978-12-12,Not Hispanic or Latino,Male,White,SSc,CA,67.5,165.1
+SSC-REG,subject_3623,Linda,Hawkins,1957-01-17,Not Hispanic or Latino,Female,White,SSc,NY,64.1,123.4
+SSC-REG,subject_7149,Diane,Berry,1988-12-28,Not Hispanic or Latino,Female,White,SSc,CA,60.5,150.9
+SSC-REG,subject_6651,Liliana,Salazar,1974-01-08,Hispanic or Latino,Female,White,SSc,CA,63.9,118.2
+SSC-REG,subject_7267,Aaron,Watkins,1954-10-06,Not Hispanic or Latino,Male,White,SSc,CA,71.7,199.9
+SSC-REG,subject_6130,Samantha,Simmons,1949-07-13,Not Hispanic or Latino,Female,White,SSc,CA,63.9,208.7
+SSC-REG,subject_4597,Cody,Cook,1958-02-13,Not Hispanic or Latino,Male,White,SSc,TX,76.3,217.0
+SSC-REG,subject_3745,Rachel,Wood,1971-06-07,Not Hispanic or Latino,Female,White,SSc,CA,64.9,176.0
+SSC-REG,subject_3019,Wayne,Collins,1970-07-06,Not Hispanic or Latino,Male,White,SSc,IL,67.5,127.0
+SSC-REG,subject_5342,Valeria,Guzman,1982-09-05,Hispanic or Latino,Female,Black or African American,SSc,IN,62.2,64.0
+SSC-REG,subject_7803,Ann,Holland,1960-02-22,Not Hispanic or Latino,Female,White,SSc,WI,64.0,152.9
+SSC-REG,subject_8762,Nicholas,Hunter,1960-09-03,Not Hispanic or Latino,Male,White,SSc,MI,63.4,186.6
+SSC-REG,subject_2893,Owen,Chapman,1951-08-16,Not Hispanic or Latino,Male,White,SSc,TX,66.0,143.2
+SSC-REG,subject_7624,Joseph,Grant,1975-05-03,Not Hispanic or Latino,Male,White,SSc,IL,62.2,205.6
+SSC-REG,subject_2659,Joan,Hoffman,1987-06-21,Not Hispanic or Latino,Female,Other,SSc,CA,64.8,179.2
+SSC-REG,subject_6255,Maria,Pacheco,1949-06-28,Hispanic or Latino,Female,Black or African American,SSc,IN,62.0,141.1
+SSC-REG,subject_8934,Sharon,Jordan,1966-12-27,Not Hispanic or Latino,Female,White,SSc,OH,57.7,90.1
+SSC-REG,subject_3847,Julia,Smith,1954-04-01,Not Hispanic or Latino,Female,White,SSc,CA,65.5,215.7
+SSC-REG,subject_5318,Maya,Chapman,1986-01-14,Not Hispanic or Latino,Female,Other,SSc,CA,60.9,140.3
+SSC-REG,subject_3070,Sandra,Cook,1959-02-05,Not Hispanic or Latino,Female,Black or African American,SSc,CA,61.1,182.2
+SSC-REG,subject_5178,Sandra,Pierce,1970-11-29,Not Hispanic or Latino,Female,White,SSc,IL,64.8,181.2
+SSC-REG,subject_4174,Patricia,Garza,1967-03-14,Hispanic or Latino,Female,Black or African American,SSc,TX,164.2,194.5
+SSC-REG,subject_5874,Katherine,Wells,1978-10-06,Not Hispanic or Latino,Female,White,SSc,IL,65.7,227.5
+SSC-REG,subject_3507,Riya,Park,1976-08-17,Not Hispanic or Latino,Female,Asian,SSc,CA,63.4,132.0
+SSC-REG,subject_8852,David,Henry,1950-06-18,Not Hispanic or Latino,Male,White,SSc,MI,70.7,168.3
+SSC-REG,subject_2750,Christina,Hill,1963-06-01,Not Hispanic or Latino,Female,White,SSc,CA,162.8,166.7
+SSC-REG,subject_7595,Nana,Jung,1962-04-25,Not Hispanic or Latino,Female,Asian,SSc,CA,166.2,109.3
+SSC-REG,subject_5737,Nicholas,Franklin,1959-06-13,Not Hispanic or Latino,Male,White,SSc,IL,167.2,137.9
+SSC-REG,subject_2213,Sara,West,1950-08-06,Not Hispanic or Latino,Female,Black or African American,SSc,CA,62.2,182.3
+SSC-REG,subject_5768,Billy,Rice,1961-10-02,Not Hispanic or Latino,Male,Black or African American,SSc,CA,68.3,157.4
+SSC-REG,subject_5566,Jennifer,Foster,1948-10-24,Not Hispanic or Latino,Female,White,SSc,CA,69.4,106.2
+SSC-REG,subject_8293,Heather,Mills,1981-04-07,Not Hispanic or Latino,Female,Black or African American,SSc,CA,67.0,172.9
+SSC-REG,subject_7120,Doris,Arnold,1965-03-16,Not Hispanic or Latino,Female,White,SSc,IN,65.0,126.0
+SSC-REG,subject_8010,Carolyn,Mills,1955-10-15,Not Hispanic or Latino,Female,White,SSc,IN,62.0,159.4
+SSC-REG,subject_6907,Heather,Hansen,1948-02-28,Not Hispanic or Latino,Female,Other,SSc,MI,160.1,132.7
+SSC-REG,subject_2482,Susan,Black,1973-10-20,Not Hispanic or Latino,Female,White,SSc,IL,63.7,154.5
+SSC-REG,subject_6547,Joan,Griffin,1958-06-07,Not Hispanic or Latino,Female,White,SSc,CA,66.9,147.0
+SSC-REG,subject_6891,Paul,Baldwin,1946-11-16,Not Hispanic or Latino,Male,Black or African American,SSc,OH,74.6,166.5
+SSC-REG,subject_6990,Joan,Kelley,1959-09-03,Not Hispanic or Latino,Female,Black or African American,SSc,CA,68.8,213.9
+SSC-REG,subject_6475,Nina,Gardner,1989-10-02,Not Hispanic or Latino,Female,White,SSc,CA,68.7,139.7
+SSC-REG,subject_8769,Sharon,Black,1958-06-13,Not Hispanic or Latino,Female,White,SSc,CA,166.5,149.3
+SSC-REG,subject_8407,Kelly,Gordon,1979-02-21,Not Hispanic or Latino,Female,White,SSc,IN,60.7,166.6
+SSC-REG,subject_4584,Sharon,Palmer,1985-05-08,Not Hispanic or Latino,Female,White,SSc,IN,64.5,121.9
+SSC-REG,subject_8866,Elena,Webb,1955-02-11,Not Hispanic or Latino,Female,White,SSc,OH,62.7,106.6
+SSC-REG,subject_2816,Elijah,Hill,1968-04-14,Not Hispanic or Latino,Male,Black or African American,SSc,IL,63.9,208.0
+SSC-REG,subject_7023,Katherine,Stephens,1964-04-24,Not Hispanic or Latino,Female,White,SSc,CA,56.7,179.0
+SSC-REG,subject_3989,Alyssa,Holmes,1974-01-02,Not Hispanic or Latino,Female,Other,SSc,MI,60.2,112.1
+SSC-REG,subject_6703,Amanda,Hayes,1975-07-20,Not Hispanic or Latino,Female,White,SSc,IN,68.5,120.7
+SSC-REG,subject_3528,Sneha,Sharma,1974-08-23,Not Hispanic or Latino,Female,Asian,SSc,CA,63.0,106.3
+SSC-REG,subject_4004,Elena,Scott,1961-03-06,Not Hispanic or Latino,Female,Black or African American,SSc,TX,62.7,137.0
+SSC-REG,subject_3895,Linda,Simpson,1983-06-18,Not Hispanic or Latino,Female,White,SSc,CA,63.8,192.5
+SSC-REG,subject_8598,Kathleen,Hamilton,1973-05-14,Not Hispanic or Latino,Female,Black or African American,SSc,CA,175.0,170.4
+SSC-REG,subject_5535,Carl,Greene,1963-08-30,Not Hispanic or Latino,Male,White,SSc,CA,69.3,171.2
+SSC-REG,subject_8367,Silvia,Bravo,1970-03-08,Hispanic or Latino,Female,White,SSc,CA,61.8,165.0
+SSC-REG,subject_6150,Sara,Mccoy,1955-02-08,Not Hispanic or Latino,Female,Other,SSc,IL,64.7,196.3
+SSC-REG,subject_4825,Sofia,Ramirez,1954-05-03,Hispanic or Latino,Female,White,SSc,CA,66.3,150.3
+SSC-REG,subject_5596,Victoria,Marks,1967-05-26,Not Hispanic or Latino,Female,Black or African American,SSc,IL,157.3,142.7
+SSC-REG,subject_8559,Abigail,Cooper,1961-02-12,Not Hispanic or Latino,Female,White,SSc,WI,67.3,130.6
+SSC-REG,subject_7867,Sharon,Cunningham,1987-01-13,Not Hispanic or Latino,Female,White,SSc,TX,57.3,180.5
+SSC-REG,subject_2818,Jerry,Baker,1953-11-30,Not Hispanic or Latino,Male,White,SSc,IL,62.3,231.1
+SSC-REG,subject_5083,Ann,Cook,1966-12-18,Not Hispanic or Latino,Female,White,SSc,CA,64.8,189.8
+SSC-REG,subject_5700,Ruth,Robertson,1955-11-08,Not Hispanic or Latino,Female,Other,SSc,OH,62.2,125.6
+SSC-REG,subject_7857,Lillian,Boyd,1976-06-01,Not Hispanic or Latino,Female,White,SSc,CA,67.5,143.5
+SSC-REG,subject_6481,Rose,Elliott,1958-04-12,Not Hispanic or Latino,Female,White,SSc,TX,59.6,233.6
+SSC-REG,subject_5362,Emmanuel,Perkins,1968-04-22,Not Hispanic or Latino,Male,White,SSc,CA,68.9,159.3
+SSC-REG,subject_8290,Olivia,Harrison,1974-12-09,Not Hispanic or Latino,Female,White,SSc,CA,66.3,159.9
+SSC-REG,subject_3700,Alexis,Pierce,1971-10-28,Not Hispanic or Latino,Female,White,SSc,CA,63.4,159.5
+SSC-REG,subject_5691,Ananya,Wu,1957-12-06,Not Hispanic or Latino,Female,Asian,SSc,CA,63.4,143.2
+SSC-REG,subject_6363,Rachel,Sullivan,1956-03-14,Not Hispanic or Latino,Female,Black or African American,SSc,WI,62.2,177.9
+SSC-REG,subject_2021,Megan,Hill,1982-07-23,Not Hispanic or Latino,Female,White,SSc,CA,157.1,109.1
+SSC-REG,subject_8275,Jerry,James,1966-10-20,Not Hispanic or Latino,Male,White,SSc,IL,178.9,179.1
+SSC-REG,subject_7676,Victor,Estrada,1979-07-23,Hispanic or Latino,Male,Black or African American,SSc,CA,69.1,215.0
+SSC-REG,subject_5537,Frances,Anderson,1972-12-18,Not Hispanic or Latino,Female,White,SSc,MI,163.8,173.6
+SSC-REG,subject_4124,Grace,Bishop,1953-10-31,Not Hispanic or Latino,Female,White,SSc,CA,67.1,131.2
+SSC-REG,subject_4090,Elizabeth,Gordon,1955-09-25,Not Hispanic or Latino,Female,White,SSc,CA,61.9,138.3
+SSC-REG,subject_4833,Michael,Richards,1948-05-14,Not Hispanic or Latino,Male,White,SSc,CA,70.0,169.2
+SSC-REG,subject_2028,Tyler,Cross,1962-07-15,Not Hispanic or Latino,Male,Black or African American,SSc,CA,69.9,126.7
+SSC-REG,subject_8606,Olivia,Wallace,1965-05-02,Not Hispanic or Latino,Female,White,SSc,CA,142.8,152.1
+SSC-REG,subject_8800,Gloria,Wright,1957-10-23,Not Hispanic or Latino,Female,Black or African American,SSc,CA,61.5,210.7
+SSC-REG,subject_5254,Angela,Freeman,1959-12-27,Not Hispanic or Latino,Female,White,SSc,OH,157.9,141.1
+SSC-REG,subject_6568,Rachel,Griffin,1946-05-27,Not Hispanic or Latino,Female,White,SSc,NY,66.3,236.6
+SSC-REG,subject_5705,Laura,Roberts,1960-03-23,Not Hispanic or Latino,Female,Black or African American,SSc,IL,61.2,93.4
+SSC-REG,subject_7560,Kayla,Nelson,1971-07-29,Not Hispanic or Latino,Female,Black or African American,SSc,IN,59.7,159.3
+SSC-REG,subject_8994,Abigail,Bailey,1973-05-04,Not Hispanic or Latino,Female,Black or African American,SSc,CA,61.5,133.8
+SSC-REG,subject_6808,Pallavi,Hu,1976-03-18,Not Hispanic or Latino,Female,Asian,SSc,CA,67.9,202.3
+SSC-REG,subject_4177,Marilyn,Pierce,1981-01-21,Not Hispanic or Latino,Female,White,SSc,WI,153.5,144.6
+SSC-REG,subject_8168,Carolyn,Sullivan,1988-08-21,Not Hispanic or Latino,Female,White,SSc,TX,157.1,175.9
+SSC-REG,subject_8245,Pamela,Henry,1949-07-05,Not Hispanic or Latino,Female,White,SSc,OH,163.5,143.8
+SSC-REG,subject_5330,Kevin,Burns,1965-03-23,Not Hispanic or Latino,Male,White,SSc,MI,167.8,192.0
+SSC-REG,subject_2289,Janet,Willis,1982-03-20,Not Hispanic or Latino,Female,Black or African American,SSc,CA,61.8,197.1
+SSC-REG,subject_5364,Diego,Guzman,1979-06-13,Hispanic or Latino,Male,White,SSc,OH,72.0,250.2
+SSC-REG,subject_7804,Molly,Washington,1948-03-19,Not Hispanic or Latino,Female,White,SSc,NY,60.9,170.5
+SSC-REG,subject_5511,Ishaan,Shah,1953-12-26,Not Hispanic or Latino,Male,Asian,SSc,TX,74.2,223.4
+SSC-REG,subject_3473,Vanessa,Graham,1960-01-23,Not Hispanic or Latino,Female,White,SSc,NY,63.1,144.8
+SSC-REG,subject_4437,Noelia,Hernandez,1962-01-29,Hispanic or Latino,Female,Black or African American,SSc,CA,60.5,140.0
+SSC-REG,subject_4938,Paula,Medina,1987-06-25,Hispanic or Latino,Female,White,SSc,CA,150.1,142.7
+SSC-REG,subject_7556,Carol,Murray,1973-10-01,Not Hispanic or Latino,Female,White,SSc,IL,65.3,124.9
+SSC-REG,subject_2095,Debra,Chapman,1982-10-04,Not Hispanic or Latino,Female,White,SSc,TX,63.7,147.2
+SSC-REG,subject_5971,Roger,Sullivan,1972-12-13,Not Hispanic or Latino,Male,White,SSc,IN,71.2,170.5
+SSC-REG,subject_8592,Ying,Lee,1968-08-02,Not Hispanic or Latino,Female,Asian,SSc,CA,61.8,226.8
+SSC-REG,subject_5787,Mason,Gray,1962-07-02,Not Hispanic or Latino,Male,White,SSc,OH,72.1,138.5
+SSC-REG,subject_6029,Rachel,James,1985-09-27,Not Hispanic or Latino,Female,Black or African American,SSc,IL,63.2,161.6
+SSC-REG,subject_4270,Leah,Pierce,1988-10-25,Not Hispanic or Latino,Female,Black or African American,SSc,CA,66.2,179.4
+SSC-REG,subject_2850,Alexis,Ford,1956-04-19,Not Hispanic or Latino,Female,Black or African American,SSc,CA,67.0,126.1
+SSC-REG,subject_4749,Ming,Yang,1946-06-10,Not Hispanic or Latino,Male,Asian,SSc,CA,67.0,190.2
+SSC-REG,subject_8377,Ashley,Jenkins,1961-02-12,Not Hispanic or Latino,Female,White,SSc,CA,58.5,121.5
+SSC-REG,subject_5575,Debra,Simpson,1978-06-13,Not Hispanic or Latino,Female,Other,SSc,CA,68.2,166.2
+SSC-REG,subject_2952,Ruth,Cook,1945-12-22,Not Hispanic or Latino,Female,Other,SSc,TX,65.2,128.8
+SSC-REG,subject_6340,Yui,Huynh,1975-02-28,Not Hispanic or Latino,Female,Asian,SSc,TX,62.1,163.4
+SSC-REG,subject_2187,Teresa,Burgess,1986-09-04,Not Hispanic or Latino,Female,White,SSc,WI,160.7,167.4
+SSC-REG,subject_6217,Karen,Sullivan,1984-03-03,Not Hispanic or Latino,Female,White,SSc,TX,65.5,144.0
+SSC-REG,subject_4697,Jonathan,Robertson,1960-05-03,Not Hispanic or Latino,Male,White,SSc,CA,176.2,133.8
+SSC-REG,subject_7443,Sarah,Morgan,1957-12-01,Not Hispanic or Latino,Female,White,SSc,CA,167.6,119.2
+SSC-REG,subject_2919,Camila,Bravo,1952-11-08,Hispanic or Latino,Female,Black or African American,SSc,CA,66.0,208.4
+SSC-REG,subject_3425,Kavya,Kato,1977-06-02,Not Hispanic or Latino,Female,Asian,SSc,NY,61.1,214.9
+SSC-REG,subject_2930,Shirley,Bishop,1974-03-05,Not Hispanic or Latino,Female,White,SSc,CA,67.6,139.6
+SSC-REG,subject_8713,Fernanda,Aguilar,1951-02-27,Hispanic or Latino,Female,Black or African American,SSc,CA,65.0,209.6
+SSC-REG,subject_8812,Daniela,Perez,1972-02-02,Hispanic or Latino,Female,White,SSc,CA,175.6,172.0
+SSC-REG,subject_5043,Gloria,Bryant,1952-07-04,Not Hispanic or Latino,Female,Black or African American,SSc,CA,63.6,153.0
+SSC-REG,subject_7693,Julie,Moran,1958-06-05,Not Hispanic or Latino,Female,Black or African American,SSc,NY,59.9,163.6
+SSC-REG,subject_5871,Isabella,Knight,1974-02-01,Not Hispanic or Latino,Female,White,SSc,IN,65.0,195.2
+SSC-REG,subject_7242,Henry,Marks,1974-07-31,Not Hispanic or Latino,Male,White,SSc,CA,70.0,233.2
+SSC-REG,subject_3001,Joseph,Fox,1958-09-10,Not Hispanic or Latino,Male,White,SSc,TX,69.2,185.4
+SSC-REG,subject_4772,Julie,Edwards,1977-04-09,Not Hispanic or Latino,Female,Other,SSc,CA,65.9,121.7
+SSC-REG,subject_4201,Anna,Cunningham,1964-11-12,Not Hispanic or Latino,Female,Other,SSc,WI,156.1,167.9
+SSC-REG,subject_4188,Amy,Daniels,1952-06-28,Not Hispanic or Latino,Female,Black or African American,SSc,OH,62.7,175.4
+SSC-REG,subject_8539,Talia,Murphy,1950-02-12,Not Hispanic or Latino,Female,Other,SSc,CA,64.2,179.2
+SSC-REG,subject_2796,Jessica,Carroll,1947-10-21,Not Hispanic or Latino,Female,White,SSc,CA,61.3,137.6
+SSC-REG,subject_7100,Grace,Jackson,1957-02-04,Not Hispanic or Latino,Female,Black or African American,SSc,MI,60.1,157.3
+SSC-REG,subject_3458,Leah,Perkins,1959-09-30,Not Hispanic or Latino,Female,Black or African American,SSc,NY,65.3,213.9
+SSC-REG,subject_8120,Camila,Chavez,1954-02-08,Hispanic or Latino,Female,White,SSc,CA,65.1,157.1
+SSC-REG,subject_8471,Alicia,Hernandez,1985-04-06,Hispanic or Latino,Female,Other,SSc,IL,178.9,179.4
+SSC-REG,subject_6663,Naomi,Collins,1954-12-28,Not Hispanic or Latino,Female,White,SSc,TX,65.1,143.2
+SSC-REG,subject_3798,Lan,Nakamura,1957-06-15,Not Hispanic or Latino,Female,Asian,SSc,CA,65.8,132.0
+SSC-REG,subject_5896,Bradley,Harmon,1982-01-20,Not Hispanic or Latino,Male,Black or African American,SSc,CA,70.4,200.7
+SSC-REG,subject_6494,Leah,Dunn,1958-02-20,Not Hispanic or Latino,Female,White,SSc,CA,160.4,154.5
+SSC-REG,subject_3901,Sara,Henry,1965-01-06,Not Hispanic or Latino,Female,White,SSc,MI,67.1,137.9
+SSC-REG,subject_3068,Melissa,Edwards,1974-08-03,Not Hispanic or Latino,Female,White,SSc,CA,59.4,137.8
+SSC-REG,subject_6753,Erica,Gibson,1975-10-15,Not Hispanic or Latino,Female,White,SSc,IL,154.2,160.7
+SSC-REG,subject_6252,Evelyn,Martin,1961-08-06,Not Hispanic or Latino,Female,White,SSc,CA,149.3,146.1
+SSC-REG,subject_8349,Lillian,Walker,1957-04-17,Not Hispanic or Latino,Female,Other,SSc,CA,66.8,203.5
+SSC-REG,subject_7612,Amber,Mccoy,1966-03-14,Not Hispanic or Latino,Female,White,SSc,WI,64.0,172.9
+SSC-REG,subject_6230,Isabella,Hawkins,1956-05-10,Not Hispanic or Latino,Female,White,SSc,CA,66.8,196.0
+SSC-REG,subject_7333,Angela,Brady,1974-06-14,Not Hispanic or Latino,Female,Black or African American,SSc,CA,63.0,191.6
+SSC-REG,subject_6379,Joan,Moore,1955-10-26,Not Hispanic or Latino,Female,White,SSc,CA,61.6,186.9
+SSC-REG,subject_8131,Javier,Valdez,1957-06-07,Hispanic or Latino,Male,White,SSc,CA,183.2,195.0
+SSC-REG,subject_4222,Brenda,Simmons,1948-06-17,Not Hispanic or Latino,Female,White,SSc,MI,63.3,199.7
+SSC-REG,subject_2780,Guillermo,Hernandez,1951-07-14,Hispanic or Latino,Male,White,SSc,CA,60.4,191.0
+SSC-REG,subject_5666,Stephanie,Walsh,1956-08-15,Not Hispanic or Latino,Female,Black or African American,SSc,IN,63.2,124.4
+SSC-REG,subject_4824,Judith,Owens,1960-09-12,Not Hispanic or Latino,Female,White,SSc,TX,61.5,128.2
+SSC-REG,subject_7264,Miguel,Sullivan,1965-10-16,Not Hispanic or Latino,Male,Black or African American,SSc,CA,179.0,160.5
+SSC-REG,subject_6711,Michelle,Ferguson,1985-09-01,Not Hispanic or Latino,Female,White,SSc,MI,62.6,157.4
+SSC-REG,subject_3565,Linda,Hunt,1953-04-08,Not Hispanic or Latino,Female,Black or African American,SSc,CA,163.1,207.6
+SSC-REG,subject_3559,Richard,Wallace,1954-10-11,Not Hispanic or Latino,Male,White,SSc,IN,181.0,204.5
+SSC-REG,subject_4595,Kimberly,Stewart,1975-11-03,Not Hispanic or Latino,Female,White,SSc,OH,63.1,117.8
+SSC-REG,subject_5312,Teresa,Hicks,1977-01-29,Not Hispanic or Latino,Female,White,SSc,MI,64.3,169.3
+SSC-REG,subject_8745,Evelyn,Rice,1967-06-03,Not Hispanic or Latino,Female,Black or African American,SSc,NY,67.3,149.4
+SSC-REG,subject_8939,Travis,Stewart,1966-02-17,Not Hispanic or Latino,Male,White,SSc,CA,65.9,146.3
+SSC-REG,subject_7766,Melanie,Hamilton,1951-09-20,Not Hispanic or Latino,Female,Black or African American,SSc,OH,70.2,123.6
+SSC-REG,subject_2601,Madison,Holland,1972-08-28,Not Hispanic or Latino,Female,Other,SSc,NY,57.1,115.8
+SSC-REG,subject_7048,Pranav,Nakamura,1961-03-20,Not Hispanic or Latino,Male,Asian,SSc,IN,63.7,260.2
+SSC-REG,subject_2646,Gerald,Green,1980-09-23,Not Hispanic or Latino,Male,White,SSc,NY,71.0,173.5
+SSC-REG,subject_5081,Carolina,Sandoval,1967-06-04,Hispanic or Latino,Female,Other,SSc,MI,66.5,161.4
+SSC-REG,subject_5113,Divya,Yamamoto,1984-12-26,Not Hispanic or Latino,Female,Asian,SSc,WI,64.0,226.7
+SSC-REG,subject_5003,Carol,Baker,1967-03-07,Not Hispanic or Latino,Female,Black or African American,SSc,IN,64.0,127.0
+SSC-REG,subject_4395,Evan,Harmon,1954-11-26,Not Hispanic or Latino,Male,White,SSc,CA,65.7,134.1
+SSC-REG,subject_7335,Bradley,Mason,1978-11-05,Not Hispanic or Latino,Male,White,SSc,IL,71.0,122.8
+SSC-REG,subject_3960,Lauren,Sanders,1978-09-12,Not Hispanic or Latino,Female,White,SSc,CA,59.6,89.8
+SSC-REG,subject_7927,Madison,Russell,1970-12-28,Not Hispanic or Latino,Female,Black or African American,SSc,CA,156.1,237.9
+SSC-REG,subject_8501,Steven,Palmer,1967-10-02,Not Hispanic or Latino,Male,White,SSc,CA,62.7,253.4
+SSC-REG,subject_4418,Nisha,Park,1966-10-18,Not Hispanic or Latino,Female,Asian,SSc,MI,154.1,170.8
+SSC-REG,subject_4318,Marilyn,Johnson,1953-09-09,Not Hispanic or Latino,Female,Other,SSc,IN,66.8,189.9
+SSC-REG,subject_6629,Jasmine,Rogers,1980-10-22,Not Hispanic or Latino,Female,White,SSc,WI,61.0,165.8
+SSC-REG,subject_3215,Neha,Kato,1974-07-12,Not Hispanic or Latino,Female,Asian,SSc,MI,65.2,91.9
+SSC-REG,subject_6625,Haruka,Kumar,1948-05-05,Not Hispanic or Latino,Female,Asian,SSc,CA,68.9,104.4
+SSC-REG,subject_3320,Betty,Smith,1947-01-19,Not Hispanic or Latino,Female,Black or African American,SSc,CA,157.4,140.8
+SSC-REG,subject_7377,Jacqueline,Moran,1960-10-15,Not Hispanic or Latino,Female,White,SSc,IL,55.3,199.6
+SSC-REG,subject_5895,Ivy,Allen,1972-05-04,Not Hispanic or Latino,Female,White,SSc,CA,61.2,151.1
+SSC-REG,subject_8167,Martha,Alexander,1957-04-09,Not Hispanic or Latino,Female,Black or African American,SSc,IL,65.0,197.1
+SSC-REG,subject_2803,Nicholas,Morgan,1977-08-01,Not Hispanic or Latino,Male,White,SSc,NY,69.1,217.0
+SSC-REG,subject_6968,Ashley,Berry,1966-12-23,Not Hispanic or Latino,Female,White,SSc,IN,60.1,117.4
+SSC-REG,subject_2897,Patricia,Wells,1964-05-17,Not Hispanic or Latino,Female,White,SSc,CA,160.3,261.5
+SSC-REG,subject_4292,Andrea,Washington,1977-06-18,Not Hispanic or Latino,Female,Black or African American,SSc,TX,65.6,152.8
+SSC-REG,subject_7192,Jacqueline,Johnston,1982-04-08,Not Hispanic or Latino,Female,Black or African American,SSc,CA,67.6,190.7
+SSC-REG,subject_2622,Sarah,Payne,1975-12-12,Not Hispanic or Latino,Female,Other,SSc,TX,67.3,144.0
+SSC-REG,subject_8977,Maya,Graham,1949-12-28,Not Hispanic or Latino,Female,White,SSc,MI,69.2,180.9
+SSC-REG,subject_5231,Kenneth,Cox,1972-04-04,Not Hispanic or Latino,Male,Black or African American,SSc,CA,67.3,187.0
+SSC-REG,subject_7602,Nari,Yang,1969-12-06,Not Hispanic or Latino,Female,Asian,SSc,NY,65.4,156.1
+SSC-REG,subject_8141,Charlotte,Hamilton,1963-04-15,Not Hispanic or Latino,Female,White,SSc,TX,65.2,135.7
+SSC-REG,subject_8877,Mika,Kang,1984-06-24,Not Hispanic or Latino,Female,Asian,SSc,MI,65.3,135.8
+SSC-REG,subject_8779,Marie,Hansen,1949-06-17,Not Hispanic or Latino,Female,Other,SSc,CA,62.9,169.6
+SSC-REG,subject_8182,Mary,Black,1965-02-06,Not Hispanic or Latino,Female,White,SSc,CA,65.7,145.1
+SSC-REG,subject_4114,Alexis,Mccoy,1975-08-04,Not Hispanic or Latino,Female,White,SSc,NY,62.6,176.3
+SSC-REG,subject_7525,Marie,Rose,1965-02-27,Not Hispanic or Latino,Female,White,SSc,CA,64.9,168.5
+SSC-REG,subject_4444,Samuel,Hoffman,1973-11-28,Not Hispanic or Latino,Male,Black or African American,SSc,CA,69.8,182.3
+SSC-REG,subject_5045,Joan,Mitchell,1972-10-22,Not Hispanic or Latino,Female,White,SSc,CA,68.2,172.4
+SSC-REG,subject_6101,Diane,Hansen,1986-12-02,Not Hispanic or Latino,Female,Other,SSc,CA,67.9,144.0
+SSC-REG,subject_7711,Jean,Greene,1976-03-23,Not Hispanic or Latino,Female,White,SSc,CA,67.0,186.2
+SSC-REG,subject_7078,Maya,Murray,1962-04-30,Not Hispanic or Latino,Female,White,SSc,IL,60.8,161.0
+SSC-REG,subject_2949,Jessica,Ward,1951-12-31,Not Hispanic or Latino,Female,Other,SSc,NY,141.3,135.4
+SSC-REG,subject_3889,Joshua,Hines,1985-07-10,Not Hispanic or Latino,Male,Other,SSc,OH,72.5,156.6
+SSC-REG,subject_3867,Duy,Kim,1956-03-17,Not Hispanic or Latino,Male,Asian,SSc,TX,64.2,211.3
+SSC-REG,subject_2764,Diane,Washington,1984-11-09,Not Hispanic or Latino,Female,White,SSc,CA,64.1,173.8
+SSC-REG,subject_3630,Kelly,Foster,1956-05-05,Not Hispanic or Latino,Female,White,SSc,TX,62.5,198.4
+SSC-REG,subject_6416,Brenda,Henry,1964-01-25,Not Hispanic or Latino,Female,Black or African American,SSc,NY,64.6,205.1
+SSC-REG,subject_8379,Michelle,Thompson,1976-06-01,Not Hispanic or Latino,Female,White,SSc,IN,64.5,163.8
+SSC-REG,subject_5242,Kenji,Vu,1983-05-08,Not Hispanic or Latino,Male,Asian,SSc,CA,163.7,212.4
+SSC-REG,subject_4294,Anna,Watkins,1966-04-24,Not Hispanic or Latino,Female,White,SSc,CA,65.0,209.1
+SSC-REG,subject_7749,Jiwon,Jung,1955-02-10,Not Hispanic or Latino,Female,Asian,SSc,WI,64.2,142.4
+SSC-REG,subject_5935,Susan,Scott,1979-05-27,Not Hispanic or Latino,Female,White,SSc,OH,69.5,167.0
+SSC-REG,subject_2328,Noelia,Vasquez,1947-04-21,Hispanic or Latino,Female,Other,SSc,CA,60.4,137.1
+SSC-REG,subject_3749,Joan,Kennedy,1985-02-12,Not Hispanic or Latino,Female,White,SSc,WI,63.3,161.1
+SSC-REG,subject_4346,Isha,Reddy,1987-03-19,Not Hispanic or Latino,Female,Asian,SSc,CA,66.5,131.0
+SSC-REG,subject_7082,Amber,Hawkins,1982-06-02,Not Hispanic or Latino,Female,White,SSc,IL,64.3,136.9
+SSC-REG,subject_4727,Logan,Grant,1974-02-22,Not Hispanic or Latino,Male,White,SSc,IN,68.7,197.8
+SSC-REG,subject_3005,Talia,Phillips,1973-01-18,Not Hispanic or Latino,Female,Other,SSc,IL,64.4,143.6
+SSC-REG,subject_2706,Melissa,Morgan,1964-02-09,Not Hispanic or Latino,Female,White,SSc,WI,60.1,227.2
+SSC-REG,subject_4386,Alexander,Boyd,1970-10-04,Not Hispanic or Latino,Male,Black or African American,SSc,CA,68.8,136.9
+SSC-REG,subject_3289,Andrea,King,1971-12-12,Not Hispanic or Latino,Female,Other,SSc,CA,65.1,110.6
+SSC-REG,subject_5078,Kimberly,Davis,1969-10-13,Not Hispanic or Latino,Female,White,SSc,CA,59.8,200.4
+SSC-REG,subject_4714,Trang,Mehta,1974-01-15,Not Hispanic or Latino,Female,Asian,SSc,IL,66.9,134.5
+SSC-REG,subject_8870,Catherine,Carpenter,1970-11-21,Not Hispanic or Latino,Female,White,SSc,CA,64.6,131.0
+SSC-REG,subject_8059,Madison,Ford,1946-08-20,Not Hispanic or Latino,Female,White,SSc,TX,63.6,187.2
+SSC-REG,subject_6446,Melissa,Green,1980-08-03,Not Hispanic or Latino,Female,White,SSc,CA,67.2,211.1
+SSC-REG,subject_6190,Julia,Greene,1946-09-10,Not Hispanic or Latino,Female,White,SSc,CA,160.6,173.0
+SSC-REG,subject_8244,Evelyn,Price,1968-10-19,Not Hispanic or Latino,Female,White,SSc,NY,63.3,178.7
+SSC-REG,subject_5988,Fernanda,Herrera,1952-08-31,Hispanic or Latino,Female,Black or African American,SSc,IN,64.4,153.8
+SSC-REG,subject_5676,Alice,Palmer,1981-12-16,Not Hispanic or Latino,Female,White,SSc,CA,64.7,184.7
+SSC-REG,subject_7952,Martha,Griffin,1968-02-03,Not Hispanic or Latino,Female,Other,SSc,IN,66.3,155.4
+SSC-REG,subject_5202,Alexis,Evans,1990-08-25,Not Hispanic or Latino,Female,Black or African American,SSc,IN,58.9,150.2
+SSC-REG,subject_5736,Emmanuel,Schmidt,1981-09-26,Not Hispanic or Latino,Male,White,SSc,WI,69.6,107.6
+SSC-REG,subject_3892,Vanessa,Mills,1978-02-17,Not Hispanic or Latino,Female,White,SSc,CA,69.4,132.9
+SSC-REG,subject_4041,Victor,Newton,1989-07-29,Not Hispanic or Latino,Male,White,SSc,TX,69.8,196.0
+SSC-REG,subject_5209,Linda,Stevens,1967-04-25,Not Hispanic or Latino,Female,Black or African American,SSc,CA,168.3,180.0
+SSC-REG,subject_8468,Mei,Zhu,1960-07-14,Not Hispanic or Latino,Female,Asian,SSc,CA,62.1,166.3
+SSC-REG,subject_2442,Kathryn,Goodman,1984-08-05,Not Hispanic or Latino,Female,White,SSc,CA,61.4,135.4
+SSC-REG,subject_5223,Linh,Nakamura,1983-02-19,Not Hispanic or Latino,Female,Asian,SSc,OH,60.3,118.3
+SSC-REG,subject_3604,Scott,Griffin,1964-08-28,Not Hispanic or Latino,Male,White,SSc,OH,177.5,204.9
+SSC-REG,subject_7830,Virginia,Hayes,1969-05-12,Not Hispanic or Latino,Female,Black or African American,SSc,IN,60.5,175.6
+SSC-REG,subject_3835,Andrea,Vargas,1982-11-10,Hispanic or Latino,Female,Black or African American,SSc,CA,65.0,104.5
+SSC-REG,subject_5392,Emma,Hughes,1980-07-17,Not Hispanic or Latino,Female,Black or African American,SSc,CA,64.6,84.3
+SSC-REG,subject_7324,Nicole,Hughes,1961-10-27,Not Hispanic or Latino,Female,White,SSc,CA,188.3,161.5
+SSC-REG,subject_3964,Austin,Shaw,1962-09-05,Not Hispanic or Latino,Male,White,SSc,IN,159.7,153.8
+SSC-REG,subject_5091,Aaron,Rice,1951-10-06,Not Hispanic or Latino,Male,Black or African American,SSc,NY,66.8,230.6
+SSC-REG,subject_4985,Dennis,Burns,1960-08-03,Not Hispanic or Latino,Male,White,SSc,OH,68.5,167.6
+SSC-REG,subject_2585,Emily,Jackson,1972-12-15,Not Hispanic or Latino,Female,Black or African American,SSc,OH,66.2,133.9
+SSC-REG,subject_6240,Ayaka,Zhou,1973-11-04,Not Hispanic or Latino,Female,Asian,SSc,CA,61.9,168.0
+SSC-REG,subject_5421,Ayaka,Choi,1966-05-31,Not Hispanic or Latino,Female,Asian,SSc,MI,65.7,158.6
+SSC-REG,subject_4119,Denise,Hughes,1955-09-11,Not Hispanic or Latino,Female,White,SSc,OH,159.3,173.8
+SSC-REG,subject_3148,Mariana,Guerrero,1951-02-26,Hispanic or Latino,Female,Black or African American,SSc,CA,62.0,148.7
+SSC-REG,subject_4149,Theresa,Stewart,1973-04-06,Not Hispanic or Latino,Female,Black or African American,SSc,TX,61.9,156.8
+SSC-REG,subject_5044,Vivian,Mccoy,1968-03-04,Not Hispanic or Latino,Female,White,SSc,IN,162.7,151.0
+SSC-REG,subject_8497,Judith,Baldwin,1986-05-04,Not Hispanic or Latino,Female,White,SSc,CA,62.1,124.6
+SSC-REG,subject_4852,Riya,Suzuki,1970-12-03,Not Hispanic or Latino,Female,Asian,SSc,CA,57.8,152.7
+SSC-REG,subject_3101,Brittany,Murphy,1964-12-04,Not Hispanic or Latino,Female,Black or African American,SSc,CA,63.6,130.5
+SSC-REG,subject_6594,Diana,Harris,1975-05-11,Not Hispanic or Latino,Female,White,SSc,CA,64.8,158.5
+SSC-REG,subject_4831,Amber,Wright,1947-07-02,Not Hispanic or Latino,Female,White,SSc,CA,63.5,115.8
+SSC-REG,subject_7979,Diana,Holmes,1969-05-17,Not Hispanic or Latino,Female,White,SSc,CA,66.2,156.0
+SSC-REG,subject_3693,Anh,Choi,1969-10-28,Not Hispanic or Latino,Female,Asian,SSc,CA,63.1,164.5
+SSC-REG,subject_2871,Danielle,Jackson,1953-12-29,Not Hispanic or Latino,Female,White,SSc,NY,164.0,143.3
+SSC-REG,subject_4057,Amber,Harmon,1956-08-26,Not Hispanic or Latino,Female,White,SSc,CA,166.0,182.8
+SSC-REG,subject_5833,Christina,Crawford,1967-11-27,Not Hispanic or Latino,Female,White,SSc,WI,68.5,133.7
+SSC-REG,subject_7129,Jean,Harmon,1954-10-06,Not Hispanic or Latino,Female,Black or African American,SSc,CA,59.8,171.5
+SSC-REG,subject_5642,Mary,Clark,1977-09-30,Not Hispanic or Latino,Female,White,SSc,CA,66.0,198.4
+SSC-REG,subject_6267,Katherine,Walsh,1963-08-24,Not Hispanic or Latino,Female,Black or African American,SSc,IN,67.5,215.6
+SSC-REG,subject_3776,Billy,Carter,1959-04-28,Not Hispanic or Latino,Male,White,SSc,TX,72.6,191.7
+SSC-REG,subject_4753,Rachel,Wagner,1971-05-10,Not Hispanic or Latino,Female,White,SSc,CA,65.1,135.1
+SSC-REG,subject_4296,Susan,Allen,1962-05-19,Not Hispanic or Latino,Female,White,SSc,CA,61.5,121.9
+SSC-REG,subject_2532,Kathleen,Warren,1962-08-04,Not Hispanic or Latino,Female,White,SSc,CA,62.8,180.3
+SSC-REG,subject_8273,Ying,Huynh,1976-02-14,Not Hispanic or Latino,Female,Asian,SSc,TX,62.3,153.7
+SSC-REG,subject_5890,Amber,Mason,1971-05-08,Not Hispanic or Latino,Female,Black or African American,SSc,WI,65.1,201.7
+SSC-REG,subject_2643,Judy,Woods,1977-04-12,Not Hispanic or Latino,Female,White,SSc,CA,68.8,218.4
+SSC-REG,subject_8692,Ronald,Kennedy,1968-01-30,Not Hispanic or Latino,Male,Black or African American,SSc,NY,181.2,220.2
+SSC-REG,subject_8345,Linda,Powell,1980-10-30,Not Hispanic or Latino,Female,White,SSc,IN,60.8,139.2
+SSC-REG,subject_5031,Sharon,Gardner,1954-11-06,Not Hispanic or Latino,Female,Other,SSc,CA,171.6,104.2
+SSC-REG,subject_2965,Helen,Clark,1970-03-22,Not Hispanic or Latino,Female,White,SSc,CA,68.9,205.9
+SSC-REG,subject_6552,Sakura,Sharma,1962-02-01,Not Hispanic or Latino,Female,Asian,SSc,CA,151.9,181.6
+SSC-REG,subject_7442,Amanda,Carpenter,1970-06-06,Not Hispanic or Latino,Female,White,SSc,MI,68.5,219.0
+SSC-REG,subject_3255,Jing,Watanabe,1960-01-06,Not Hispanic or Latino,Female,Asian,SSc,MI,162.7,138.9
+SSC-REG,subject_8019,Mary,Mason,1964-08-03,Not Hispanic or Latino,Female,White,SSc,IN,60.2,131.9
+SSC-REG,subject_6438,Beverly,Reynolds,1950-01-28,Not Hispanic or Latino,Female,White,SSc,CA,63.3,160.3
+SSC-REG,subject_2053,Joan,Simmons,1953-02-27,Not Hispanic or Latino,Female,White,SSc,OH,63.4,169.2
+SSC-REG,subject_5425,Helen,Moore,1948-10-27,Not Hispanic or Latino,Female,Black or African American,SSc,CA,62.2,140.7
+SSC-REG,subject_2574,Kelly,Jordan,1978-12-05,Not Hispanic or Latino,Female,White,SSc,IN,62.5,170.3
+SSC-REG,subject_7537,Christine,Hawkins,1972-09-29,Not Hispanic or Latino,Female,Other,SSc,CA,62.0,145.7
+SSC-REG,subject_7872,Rose,Morris,1989-05-20,Not Hispanic or Latino,Female,White,SSc,CA,60.8,125.1
+SSC-REG,subject_6307,Debra,Miller,1947-03-04,Not Hispanic or Latino,Female,Other,SSc,CA,70.5,152.7
+SSC-REG,subject_7316,Elena,White,1961-01-12,Not Hispanic or Latino,Female,White,SSc,IL,59.2,157.4
+SSC-REG,subject_7880,Luis,Torres,1975-12-24,Hispanic or Latino,Male,Asian,SSc,CA,65.9,135.9
+SSC-REG,subject_6561,Amit,Dang,1967-06-15,Not Hispanic or Latino,Male,Asian,SSc,WI,69.9,166.6
+SSC-REG,subject_8227,Tanvi,Vu,1955-04-01,Not Hispanic or Latino,Female,Asian,SSc,NY,64.4,147.1
+SSC-REG,subject_7729,John,Russell,1990-10-22,Not Hispanic or Latino,Male,White,SSc,CA,70.1,210.9
+SSC-REG,subject_6904,Molly,Woods,1972-04-29,Not Hispanic or Latino,Female,Black or African American,SSc,CA,66.3,154.6
+SSC-REG,subject_8435,Leah,Moran,1955-08-14,Not Hispanic or Latino,Female,White,SSc,CA,58.0,172.9
+SSC-REG,subject_3418,Catherine,Anderson,1984-03-25,Not Hispanic or Latino,Female,White,SSc,IL,164.6,187.4
+SSC-REG,subject_8545,Victoria,Gibson,1954-10-13,Not Hispanic or Latino,Female,White,SSc,IN,63.9,22.5
+SSC-REG,subject_4992,Sharon,Kelly,1972-11-19,Not Hispanic or Latino,Female,White,SSc,CA,60.4,175.9
+SSC-REG,subject_4012,Gabriela,Ramirez,1967-12-26,Hispanic or Latino,Female,White,SSc,CA,67.6,172.8
+SSC-REG,subject_8465,Kimberly,Webb,1950-04-04,Not Hispanic or Latino,Female,White,SSc,TX,62.1,163.2
+SSC-REG,subject_2444,Raquel,Herrera,1981-08-25,Hispanic or Latino,Female,Other,SSc,TX,65.3,204.5
+SSC-REG,subject_7330,Daniel,Lane,1983-02-26,Not Hispanic or Latino,Male,White,SSc,CA,67.0,219.5
+SSC-REG,subject_2422,Emma,Goodman,1953-06-12,Not Hispanic or Latino,Female,White,SSc,IL,64.7,157.2
+SSC-REG,subject_2420,Julia,Hawkins,1985-12-04,Not Hispanic or Latino,Female,White,SSc,CA,168.7,130.6
+SSC-REG,subject_6305,Ines,Lopez,1953-01-31,Hispanic or Latino,Female,White,SSc,IL,171.8,143.0
+SSC-REG,subject_6291,Lillian,Evans,1983-12-02,Not Hispanic or Latino,Female,Black or African American,SSc,CA,58.9,119.2
+SSC-REG,subject_7818,Gloria,Meyer,1977-10-19,Not Hispanic or Latino,Female,White,SSc,IN,64.5,86.6
+SSC-REG,subject_4244,Vanessa,Harmon,1964-08-02,Not Hispanic or Latino,Female,Black or African American,SSc,MI,63.9,171.0
+SSC-REG,subject_7052,Philip,Griffin,1982-05-05,Not Hispanic or Latino,Male,Black or African American,SSc,CA,71.7,155.7
+SSC-REG,subject_3852,Ryan,Rose,1984-07-08,Not Hispanic or Latino,Male,Black or African American,SSc,WI,64.8,214.3
+SSC-REG,subject_5188,Rose,Davis,1975-06-05,Not Hispanic or Latino,Female,Black or African American,SSc,NY,60.7,96.8
+SSC-REG,subject_8926,Maya,Hall,1958-03-31,Not Hispanic or Latino,Female,Black or African American,SSc,WI,170.3,161.5
+SSC-REG,subject_7861,Alice,Rogers,1975-01-08,Not Hispanic or Latino,Female,White,SSc,OH,164.0,136.4
+SSC-REG,subject_3273,Laura,Knight,1969-02-04,Not Hispanic or Latino,Female,White,SSc,TX,63.4,167.6
+SSC-REG,subject_5682,Phoebe,Robertson,1955-05-07,Not Hispanic or Latino,Female,White,SSc,CA,62.8,188.6
+SSC-REG,subject_2235,Cheryl,Duncan,1963-05-26,Not Hispanic or Latino,Female,White,SSc,OH,64.4,152.1
+SSC-REG,subject_3717,Denise,Franklin,1983-09-18,Not Hispanic or Latino,Female,Other,SSc,IL,65.2,164.6
+SSC-REG,subject_2657,Donna,Daniels,1968-04-09,Not Hispanic or Latino,Female,White,SSc,CA,158.1,156.3
+SSC-REG,subject_4087,Patricia,Vasquez,1974-09-24,Hispanic or Latino,Female,White,SSc,CA,66.4,191.7
+SSC-REG,subject_2610,Sophia,Price,1987-01-22,Not Hispanic or Latino,Female,White,SSc,MI,67.8,198.3
+SSC-REG,subject_5695,Stephanie,Jordan,1982-07-22,Not Hispanic or Latino,Female,White,SSc,CA,62.3,168.1
+SSC-REG,subject_4083,Austin,Jones,1982-09-23,Not Hispanic or Latino,Male,White,SSc,IL,68.6,205.8
+SSC-REG,subject_8044,Stephanie,Perkins,1946-10-06,Not Hispanic or Latino,Female,Black or African American,SSc,MI,64.2,141.0
+SSC-REG,subject_8326,Liam,Morgan,1986-10-09,Not Hispanic or Latino,Male,Other,SSc,TX,71.3,98.8
+SSC-REG,subject_5643,Jean,Snyder,1970-05-31,Not Hispanic or Latino,Female,Other,SSc,CA,67.4,134.8
+SSC-REG,subject_7592,Shirley,Marks,1989-04-03,Not Hispanic or Latino,Female,Black or African American,SSc,CA,62.1,159.1
+SSC-REG,subject_7752,Talia,Hall,1982-05-19,Not Hispanic or Latino,Female,Other,SSc,CA,165.6,159.7
+SSC-REG,subject_4501,Zachary,Perry,1955-04-21,Not Hispanic or Latino,Male,White,SSc,TX,72.0,201.2
+SSC-REG,subject_3223,Walter,Reed,1981-11-30,Not Hispanic or Latino,Male,White,SSc,WI,70.6,185.6
+SSC-REG,subject_3535,Grace,Phillips,1981-07-28,Not Hispanic or Latino,Female,Black or African American,SSc,CA,61.5,133.3
+SSC-REG,subject_4146,Charlotte,Schmidt,1977-11-03,Not Hispanic or Latino,Female,White,SSc,NY,62.3,180.4
+SSC-REG,subject_4813,Rina,Kato,1980-07-28,Not Hispanic or Latino,Female,Asian,SSc,CA,61.3,202.4
+SSC-REG,subject_3274,Patricia,Hudson,1960-08-19,Not Hispanic or Latino,Female,White,SSc,OH,59.8,101.1
+SSC-REG,subject_6045,Judy,Shaw,1956-05-25,Not Hispanic or Latino,Female,Black or African American,SSc,CA,68.4,158.2
+SSC-REG,subject_7437,Helen,Gardner,1970-05-20,Not Hispanic or Latino,Female,White,SSc,CA,58.6,127.5
+SSC-REG,subject_5104,Hannah,Martin,1966-01-16,Not Hispanic or Latino,Female,White,SSc,IL,61.7,141.8
+SSC-REG,subject_8223,Jean,Robertson,1976-12-20,Not Hispanic or Latino,Female,White,SSc,IN,150.8,158.9
+SSC-REG,subject_5280,Cheryl,Phillips,1982-04-09,Not Hispanic or Latino,Female,White,SSc,NY,66.6,132.1
+SSC-REG,subject_3149,Theresa,Sullivan,1979-12-12,Not Hispanic or Latino,Female,White,SSc,NY,172.7,195.3
+SSC-REG,subject_3530,Brenda,Burgess,1980-03-24,Not Hispanic or Latino,Female,Black or African American,SSc,WI,61.7,155.5
+SSC-REG,subject_6082,Elizabeth,Myers,1951-02-26,Not Hispanic or Latino,Female,White,SSc,IN,67.1,119.7
+SSC-REG,subject_4031,Patricia,Gomez,1983-09-10,Hispanic or Latino,Female,White,SSc,CA,163.4,130.6
+SSC-REG,subject_2407,Diana,Baldwin,1949-01-02,Not Hispanic or Latino,Female,White,SSc,OH,58.5,193.9
+SSC-REG,subject_8791,Aiko,Yoshida,1952-04-23,Not Hispanic or Latino,Female,Asian,SSc,NY,60.7,155.2
+SSC-REG,subject_5314,Natalie,Wilson,1985-04-14,Not Hispanic or Latino,Female,Other,SSc,CA,60.6,156.8
+SSC-REG,subject_4639,Miyu,Yoon,1968-05-08,Not Hispanic or Latino,Female,Asian,SSc,OH,63.2,152.7
+SSC-REG,subject_3047,Hannah,Holt,1958-03-09,Not Hispanic or Latino,Female,White,SSc,TX,58.4,146.0
+SSC-REG,subject_6915,Kathleen,Hill,1973-12-01,Not Hispanic or Latino,Female,White,SSc,CA,68.5,192.1
+SSC-REG,subject_4681,Molly,Cross,1977-07-08,Not Hispanic or Latino,Female,Other,SSc,IL,61.1,206.2
+SSC-REG,subject_5792,Sharon,Kennedy,1959-06-12,Not Hispanic or Latino,Female,White,SSc,CA,62.4,123.2
+SSC-REG,subject_3748,Rose,Hoffman,1954-08-26,Not Hispanic or Latino,Female,White,SSc,CA,160.6,154.6
+SSC-REG,subject_8397,Betty,Perkins,1954-07-31,Not Hispanic or Latino,Female,White,SSc,CA,60.2,174.6
+SSC-REG,subject_8970,Melanie,Gardner,1990-03-16,Not Hispanic or Latino,Female,White,SSc,CA,66.8,144.1
+SSC-REG,subject_7535,Amber,Sanders,1959-08-28,Not Hispanic or Latino,Female,White,SSc,CA,65.0,122.8
+SSC-REG,subject_5108,Erica,Stephens,1967-04-24,Not Hispanic or Latino,Female,Black or African American,SSc,NY,60.5,194.2
+SSC-REG,subject_6519,Ines,Sanchez,1989-06-23,Hispanic or Latino,Female,Black or African American,SSc,TX,64.7,77.7
+SSC-REG,subject_6592,Madison,Hamilton,1975-07-12,Not Hispanic or Latino,Female,White,SSc,NY,62.3,154.7
+SSC-REG,subject_8135,Sara,Kelley,1975-09-28,Not Hispanic or Latino,Female,White,SSc,TX,70.2,140.1
+SSC-REG,subject_7704,Carmen,Bravo,1946-12-08,Hispanic or Latino,Female,White,SSc,IL,64.2,188.1
+SSC-REG,subject_3010,Yuna,Watanabe,1973-03-23,Not Hispanic or Latino,Female,Asian,SSc,OH,61.9,193.8
+SSC-REG,subject_5065,Nancy,Moore,1970-01-01,Not Hispanic or Latino,Female,Black or African American,SSc,OH,65.2,127.8
+SSC-REG,subject_6039,Christina,Myers,1966-04-24,Not Hispanic or Latino,Female,Black or African American,SSc,NY,64.1,175.1
+SSC-REG,subject_8700,Isabella,Burgess,1972-12-21,Not Hispanic or Latino,Female,Black or African American,SSc,CA,65.9,156.2
+SSC-REG,subject_8535,Pilar,Gonzalez,1972-05-16,Hispanic or Latino,Female,White,SSc,CA,57.9,172.3
+SSC-REG,subject_2325,Donna,Roberts,1950-10-24,Not Hispanic or Latino,Female,White,SSc,TX,61.0,143.5
+SSC-REG,subject_3724,Bianca,Mason,1986-05-09,Not Hispanic or Latino,Female,Black or African American,SSc,IL,156.1,193.1
+SSC-REG,subject_3933,Vikram,Nakamura,1986-06-10,Not Hispanic or Latino,Male,Asian,SSc,OH,68.0,222.3
+SSC-REG,subject_8312,Jacqueline,Mitchell,1961-09-05,Not Hispanic or Latino,Female,White,SSc,CA,161.6,144.1
+SSC-REG,subject_4358,Isabel,Alvarez,1986-01-17,Hispanic or Latino,Female,Black or African American,SSc,IL,63.5,189.4
+SSC-REG,subject_7017,Andrea,Ortiz,1980-01-12,Hispanic or Latino,Female,White,SSc,TX,61.2,180.5
+SSC-REG,subject_4190,Carolyn,Jones,1960-06-11,Not Hispanic or Latino,Female,Black or African American,SSc,WI,65.1,131.5
+SSC-REG,subject_6962,Justin,Marks,1965-12-15,Not Hispanic or Latino,Male,Other,SSc,CA,67.7,210.3
+SSC-REG,subject_4963,Valerie,Carroll,1945-10-21,Not Hispanic or Latino,Female,White,SSc,WI,64.9,148.0
+SSC-REG,subject_8351,Virginia,Henderson,1973-08-18,Not Hispanic or Latino,Female,White,SSc,CA,57.2,107.9
+SSC-REG,subject_8103,Laura,Jenkins,1959-08-18,Not Hispanic or Latino,Female,Black or African American,SSc,CA,166.2,202.3
+SSC-REG,subject_2116,Alexis,Henderson,1973-10-21,Not Hispanic or Latino,Female,White,SSc,NY,159.0,112.4
+SSC-REG,subject_6765,Joyce,Walsh,1950-02-01,Not Hispanic or Latino,Female,White,SSc,OH,61.5,175.1
+SSC-REG,subject_2239,Julia,Rose,1968-10-24,Not Hispanic or Latino,Female,Black or African American,SSc,NY,65.6,141.2
+SSC-REG,subject_4305,Victoria,Hughes,1958-09-17,Not Hispanic or Latino,Female,Black or African American,SSc,MI,173.2,180.6
+SSC-REG,subject_6540,Jessica,Daniels,1972-03-10,Not Hispanic or Latino,Female,White,SSc,WI,59.3,103.1
+SSC-REG,subject_3382,Virginia,Griffin,1984-01-17,Not Hispanic or Latino,Female,White,SSc,IL,63.9,150.5
+SSC-REG,subject_5520,Louis,Carpenter,1976-02-27,Not Hispanic or Latino,Male,Black or African American,SSc,CA,69.9,158.1
+SSC-REG,subject_2888,Martin,Flores,1980-05-05,Hispanic or Latino,Male,Other,SSc,CA,194.7,238.2
+SSC-REG,subject_4763,Diane,Wells,1975-01-10,Not Hispanic or Latino,Female,Black or African American,SSc,IN,65.2,206.3
+SSC-REG,subject_5600,Natalie,Johnston,1980-05-05,Not Hispanic or Latino,Female,Black or African American,SSc,CA,60.9,154.9
+SSC-REG,subject_7097,Donna,Ellis,1975-07-15,Not Hispanic or Latino,Female,White,SSc,NY,63.9,136.5
+SSC-REG,subject_5847,Gregory,Wells,1964-06-28,Not Hispanic or Latino,Male,White,SSc,NY,176.7,138.4
+SSC-REG,subject_2043,Linda,Marshall,1985-09-30,Not Hispanic or Latino,Female,White,SSc,CA,65.2,195.2
+SSC-REG,subject_5149,Xavier,Bell,1966-03-09,Not Hispanic or Latino,Male,White,SSc,TX,69.0,193.4
+SSC-REG,subject_3794,Huong,Lin,1979-09-12,Not Hispanic or Latino,Female,Asian,SSc,CA,189.8,178.5
+SSC-REG,subject_2353,Valerie,Grant,1954-06-19,Not Hispanic or Latino,Female,White,SSc,MI,62.2,133.9
+SSC-REG,subject_7081,Lisa,Jordan,1967-04-01,Not Hispanic or Latino,Female,White,SSc,IL,168.1,144.0
+SSC-REG,subject_3665,Steven,Rice,1957-07-23,Not Hispanic or Latino,Male,White,SSc,NY,68.5,255.9
+SSC-REG,subject_7509,Salvador,Nunez,1971-08-08,Hispanic or Latino,Male,White,SSc,WI,178.2,190.7
+SSC-REG,subject_6406,Samantha,Parker,1971-12-15,Not Hispanic or Latino,Female,White,SSc,CA,64.4,157.3
+SSC-REG,subject_6212,Juan,Hicks,1982-05-06,Not Hispanic or Latino,Male,White,SSc,MI,69.4,174.2
+SSC-REG,subject_2972,Patricia,Turner,1960-06-22,Not Hispanic or Latino,Female,White,SSc,TX,161.5,173.9
+SSC-REG,subject_7328,Diane,Brooks,1969-02-04,Not Hispanic or Latino,Female,Black or African American,SSc,TX,66.1,155.4
+SSC-REG,subject_8111,Diana,Myers,1982-01-14,Not Hispanic or Latino,Female,White,SSc,MI,159.3,155.6
+SSC-REG,subject_2730,Jasmine,Hicks,1968-02-08,Not Hispanic or Latino,Female,White,SSc,CA,63.6,127.9
+SSC-REG,subject_6931,Doris,Baker,1964-05-08,Not Hispanic or Latino,Female,White,SSc,TX,66.7,158.5
+SSC-REG,subject_7718,Pallavi,Wu,1967-11-19,Not Hispanic or Latino,Female,Asian,SSc,CA,60.3,164.3
+SSC-REG,subject_7282,Sophia,Gordon,1957-07-09,Not Hispanic or Latino,Female,Black or African American,SSc,MI,168.1,153.7
+SSC-REG,subject_4633,Bryan,Harris,1954-02-08,Not Hispanic or Latino,Male,White,SSc,CA,63.0,186.3
+SSC-REG,subject_4823,Danielle,Butler,1966-11-21,Not Hispanic or Latino,Female,White,SSc,NY,62.4,139.2
+SSC-REG,subject_6346,Arthur,Allen,1980-07-02,Not Hispanic or Latino,Male,Black or African American,SSc,WI,66.8,238.5
+SSC-REG,subject_6738,Carol,Robinson,1978-05-24,Not Hispanic or Latino,Female,White,SSc,CA,64.8,204.7
+SSC-REG,subject_8920,Lauren,Moore,1966-11-20,Not Hispanic or Latino,Female,Black or African American,SSc,CA,62.8,145.3
+SSC-REG,subject_2517,Sandra,Wells,1976-06-30,Not Hispanic or Latino,Female,White,SSc,NY,62.0,137.3
+SSC-REG,subject_6225,Catherine,Miller,1962-02-17,Not Hispanic or Latino,Female,White,SSc,CA,65.9,163.4
+SSC-REG,subject_8661,Sarah,Lewis,1971-08-21,Not Hispanic or Latino,Female,White,SSc,CA,163.1,148.0
+SSC-REG,subject_5993,Ariana,Lane,1973-09-01,Not Hispanic or Latino,Female,Black or African American,SSc,CA,161.1,166.5
+SSC-REG,subject_5408,Sofia,Garcia,1954-05-19,Hispanic or Latino,Female,Asian,SSc,WI,60.5,130.4
+SSC-REG,subject_4161,Rachel,Holt,1971-10-07,Not Hispanic or Latino,Female,White,SSc,NY,66.2,183.0
+SSC-REG,subject_6428,Janet,Bradley,1947-12-17,Not Hispanic or Latino,Female,White,SSc,CA,62.4,164.8
+SSC-REG,subject_4582,Lillian,Mccoy,1989-05-17,Not Hispanic or Latino,Female,Black or African American,SSc,IN,160.5,174.9
+SSC-REG,subject_7148,Christina,Morris,1970-03-01,Not Hispanic or Latino,Female,Black or African American,SSc,WI,60.2,186.4
+SSC-REG,subject_3413,Vanessa,Jordan,1978-06-09,Not Hispanic or Latino,Female,Black or African American,SSc,CA,63.9,137.4
+SSC-REG,subject_5669,Erica,Robertson,1979-07-20,Not Hispanic or Latino,Female,White,SSc,IL,61.3,159.2
+SSC-REG,subject_4812,Diane,Knight,1954-11-04,Not Hispanic or Latino,Female,White,SSc,CA,61.0,160.7
+SSC-REG,subject_4636,Brenda,Franklin,1960-11-18,Not Hispanic or Latino,Female,Black or African American,SSc,CA,162.1,108.3
+SSC-REG,subject_3626,Susan,Wallace,1970-07-17,Not Hispanic or Latino,Female,Black or African American,SSc,IN,62.2,153.5
+SSC-REG,subject_8097,Kimberly,Coleman,1967-04-20,Not Hispanic or Latino,Female,White,SSc,MI,62.3,139.0
+SSC-REG,subject_6078,Fernanda,Santos,1967-02-23,Hispanic or Latino,Female,White,SSc,CA,60.8,150.2
+SSC-REG,subject_7735,Debra,Hansen,1978-01-23,Not Hispanic or Latino,Female,White,SSc,MI,62.1,156.5
+SSC-REG,subject_7349,Alicia,Castro,1975-12-27,Hispanic or Latino,Female,White,SSc,NY,63.5,161.3
+SSC-REG,subject_7889,Maria,Chapman,1982-10-09,Not Hispanic or Latino,Female,White,SSc,IL,162.0,189.6
+SSC-REG,subject_4632,Grace,Harrison,1964-01-25,Not Hispanic or Latino,Female,Other,SSc,CA,63.8,115.8
+SSC-REG,subject_8740,Isaac,Watson,1980-04-12,Not Hispanic or Latino,Male,White,SSc,CA,78.5,150.9
+SSC-REG,subject_3348,Virginia,Black,1958-11-10,Not Hispanic or Latino,Female,Black or African American,SSc,MI,60.1,158.2
+SSC-REG,subject_8908,Margaret,Howard,1970-02-04,Not Hispanic or Latino,Female,Other,SSc,TX,170.9,157.7
+SSC-REG,subject_2462,Virginia,Lawrence,1953-03-22,Not Hispanic or Latino,Female,White,SSc,CA,65.0,185.7
+SSC-REG,subject_2938,Connor,Carroll,1967-04-23,Not Hispanic or Latino,Male,White,SSc,MI,70.6,193.5
+SSC-REG,subject_2366,Christina,Carroll,1962-08-16,Not Hispanic or Latino,Female,White,SSc,TX,155.8,208.9
+SSC-REG,subject_4382,Sara,Scott,1964-09-16,Not Hispanic or Latino,Female,White,SSc,CA,65.7,194.7
+SSC-REG,subject_7217,Benjamin,Peterson,1984-03-29,Not Hispanic or Latino,Male,White,SSc,CA,70.1,174.4
+SSC-REG,subject_2301,Miles,Scott,1963-05-12,Not Hispanic or Latino,Male,White,SSc,OH,176.6,198.2
+SSC-REG,subject_8690,Sophia,Foster,1977-11-08,Not Hispanic or Latino,Female,Black or African American,SSc,OH,67.1,158.8
+SSC-REG,subject_7354,Mary,Harrison,1968-10-03,Not Hispanic or Latino,Female,White,SSc,IL,158.9,172.5
+SSC-REG,subject_3397,Deborah,Mason,1949-07-14,Not Hispanic or Latino,Female,White,SSc,TX,67.3,213.3
+SSC-REG,subject_8476,Amanda,Powell,1953-06-03,Not Hispanic or Latino,Female,Black or African American,SSc,IN,66.9,99.6
+SSC-REG,subject_6294,Bianca,Pruitt,1974-08-03,Not Hispanic or Latino,Female,White,SSc,IN,66.9,173.0
+SSC-REG,subject_7527,Betty,Hughes,1971-10-10,Not Hispanic or Latino,Female,White,SSc,TX,170.4,253.5
+SSC-REG,subject_4420,Patricia,Torres,1978-04-11,Hispanic or Latino,Female,White,SSc,IN,63.9,207.5
+SSC-REG,subject_7342,Isabel,Vargas,1975-06-08,Hispanic or Latino,Female,White,SSc,CA,63.4,172.4
+SSC-REG,subject_3621,Virginia,Myers,1980-03-16,Not Hispanic or Latino,Female,White,SSc,NY,65.6,134.4
+SSC-REG,subject_8850,Nina,Cunningham,1970-03-26,Not Hispanic or Latino,Female,Black or African American,SSc,OH,61.7,178.7
+SSC-REG,subject_2538,Carmen,Vargas,1971-04-12,Hispanic or Latino,Female,Asian,SSc,TX,64.2,178.2
+SSC-REG,subject_3311,Russell,Matthews,1977-10-27,Not Hispanic or Latino,Male,White,SSc,CA,63.8,228.3
+SSC-REG,subject_4276,Willie,Daniels,1972-07-09,Not Hispanic or Latino,Male,Black or African American,SSc,IL,69.2,205.8
+SSC-REG,subject_8964,Beatriz,Jimenez,1988-07-22,Hispanic or Latino,Female,Black or African American,SSc,WI,65.0,180.2
+SSC-REG,subject_2714,Brian,Perry,1971-12-13,Not Hispanic or Latino,Male,White,SSc,MI,168.0,150.6
+SSC-REG,subject_7575,Marilyn,Hoffman,1970-04-13,Not Hispanic or Latino,Female,White,SSc,OH,70.5,194.0
+SSC-REG,subject_6282,Carol,Roberts,1978-12-14,Not Hispanic or Latino,Female,Black or African American,SSc,MI,61.1,133.5
+SSC-REG,subject_7184,Sara,Evans,1955-06-19,Not Hispanic or Latino,Female,Black or African American,SSc,OH,68.2,151.7
+SSC-REG,subject_7235,Valerie,Weaver,1956-12-24,Not Hispanic or Latino,Female,White,SSc,CA,66.6,78.1
+SSC-REG,subject_5716,Maria,Walsh,1953-09-13,Not Hispanic or Latino,Female,White,SSc,IL,65.3,166.2
+SSC-REG,subject_2679,Ann,James,1968-05-27,Not Hispanic or Latino,Female,Black or African American,SSc,CA,60.2,178.1
+SSC-REG,subject_2885,Catherine,Richardson,1961-03-18,Not Hispanic or Latino,Female,White,SSc,WI,71.0,200.6
+SSC-REG,subject_5990,Monica,Reynolds,1954-08-14,Not Hispanic or Latino,Female,White,SSc,OH,61.5,198.9
+SSC-REG,subject_8651,Ming,Watanabe,1979-09-29,Not Hispanic or Latino,Male,Asian,SSc,CA,64.6,245.4
+SSC-REG,subject_6649,Diane,Bryant,1955-12-18,Not Hispanic or Latino,Female,White,SSc,CA,66.4,188.9
+SSC-REG,subject_5353,Hannah,Woods,1970-08-28,Not Hispanic or Latino,Female,White,SSc,NY,59.0,190.4
+SSC-REG,subject_8221,Veronica,Ortega,1978-05-30,Hispanic or Latino,Female,Black or African American,SSc,CA,61.0,130.4
+SSC-REG,subject_6958,Patricia,Morales,1965-11-10,Hispanic or Latino,Female,Black or African American,SSc,CA,164.3,150.7
+SSC-REG,subject_4976,Jack,Simmons,1969-09-19,Not Hispanic or Latino,Male,Other,SSc,NY,67.8,206.8
+SSC-REG,subject_4485,Deborah,Payne,1973-06-30,Not Hispanic or Latino,Female,White,SSc,CA,61.2,176.4
+SSC-REG,subject_3108,Judy,Hart,1965-05-13,Not Hispanic or Latino,Female,Black or African American,SSc,NY,55.6,247.5
+SSC-REG,subject_7962,Martha,Foster,1980-02-20,Not Hispanic or Latino,Female,Black or African American,SSc,IL,60.0,149.4
+SSC-REG,subject_5918,Bradley,Greene,1957-09-22,Not Hispanic or Latino,Male,White,SSc,CA,72.2,206.3
+SSC-REG,subject_8222,Denise,Berry,1977-07-22,Not Hispanic or Latino,Female,Other,SSc,CA,69.3,168.7
+SSC-REG,subject_7197,Qiao,Zhou,1979-07-02,Not Hispanic or Latino,Female,Asian,SSc,CA,66.7,100.3
+SSC-REG,subject_4561,Amy,Moran,1986-06-27,Not Hispanic or Latino,Female,White,SSc,NY,62.1,144.0
+SSC-REG,subject_8645,Lillian,Porter,1960-11-03,Not Hispanic or Latino,Female,White,SSc,CA,64.9,160.5
+SSC-REG,subject_3684,Sungmin,Tran,1952-03-19,Not Hispanic or Latino,Male,Asian,SSc,NY,68.3,223.9
+SSC-REG,subject_2994,Jing,Joshi,1982-01-31,Not Hispanic or Latino,Female,Asian,SSc,TX,69.0,140.2
+SSC-REG,subject_7674,Jasmine,Adams,1975-07-04,Not Hispanic or Latino,Female,White,SSc,IN,61.3,141.6
+SSC-REG,subject_2766,Helen,Ross,1969-10-31,Not Hispanic or Latino,Female,White,SSc,CA,68.4,177.1
+SSC-REG,subject_7463,Chi,Zhao,1945-10-15,Not Hispanic or Latino,Female,Asian,SSc,IN,64.8,197.6
+SSC-REG,subject_4769,Kaori,Jung,1979-12-01,Not Hispanic or Latino,Female,Asian,SSc,CA,58.5,105.2
+SSC-REG,subject_4759,Janet,Ford,1963-04-13,Not Hispanic or Latino,Female,Black or African American,SSc,NY,63.7,162.7
+SSC-REG,subject_6132,Monica,Garcia,1957-08-11,Hispanic or Latino,Female,Asian,SSc,CA,61.1,201.4
+SSC-REG,subject_8479,Theresa,Perry,1980-12-30,Not Hispanic or Latino,Female,Black or African American,SSc,IL,60.8,202.8
+SSC-REG,subject_4570,Fernanda,Cuevas,1978-07-22,Hispanic or Latino,Female,Black or African American,SSc,CA,156.5,163.6
+SSC-REG,subject_3871,Patricia,Martinez,1945-09-06,Hispanic or Latino,Female,White,SSc,CA,66.4,181.1
+SSC-REG,subject_6181,Kaori,Iyer,1979-10-09,Not Hispanic or Latino,Female,Asian,SSc,CA,152.4,147.1
+SSC-REG,subject_4701,Isabella,Wells,1982-05-18,Not Hispanic or Latino,Female,Black or African American,SSc,NY,161.9,126.2
+SSC-REG,subject_3104,Nana,Tanaka,1966-12-25,Not Hispanic or Latino,Female,Asian,SSc,CA,61.5,94.9
+SSC-REG,subject_6375,Amber,Carroll,1971-11-08,Not Hispanic or Latino,Female,Black or African American,SSc,CA,66.8,128.5
+SSC-REG,subject_5857,Joe,Thomas,1945-12-04,Not Hispanic or Latino,Male,White,SSc,CA,73.5,182.9
+SSC-REG,subject_8777,Noelia,Salazar,1986-04-09,Hispanic or Latino,Female,Black or African American,SSc,WI,62.8,213.9
+SSC-REG,subject_5628,Hannah,Russell,1973-04-07,Not Hispanic or Latino,Female,White,SSc,NY,167.4,203.9
+SSC-REG,subject_5776,Grace,Patterson,1951-02-25,Not Hispanic or Latino,Female,White,SSc,IN,65.9,191.2
+SSC-REG,subject_3063,Naomi,Murray,1981-09-14,Not Hispanic or Latino,Female,White,SSc,OH,63.6,212.5
+SSC-REG,subject_8699,Ashley,Turner,1980-10-04,Not Hispanic or Latino,Female,Other,SSc,CA,163.7,190.5
+SSC-REG,subject_7018,Nicholas,Wright,1962-11-16,Not Hispanic or Latino,Male,White,SSc,CA,67.2,228.9
+SSC-REG,subject_4157,Gloria,Bradley,1963-12-28,Not Hispanic or Latino,Female,White,SSc,WI,145.4,132.4
+SSC-REG,subject_4224,Vanessa,Andrews,1955-04-30,Not Hispanic or Latino,Female,Black or African American,SSc,WI,67.3,140.7
+SSC-REG,subject_5072,Thomas,Stewart,1954-01-05,Not Hispanic or Latino,Male,White,SSc,CA,67.7,190.9
+SSC-REG,subject_7200,Thomas,Matthews,1981-05-22,Not Hispanic or Latino,Male,White,SSc,OH,68.8,200.0
+SSC-REG,subject_5144,Ivy,Hines,1980-02-06,Not Hispanic or Latino,Female,White,SSc,NY,65.3,130.8
+SSC-REG,subject_7673,Emma,Lane,1959-08-30,Not Hispanic or Latino,Female,Black or African American,SSc,MI,66.7,146.5
+SSC-REG,subject_8775,Helen,King,1955-05-24,Not Hispanic or Latino,Female,White,SSc,IL,68.7,162.1
+SSC-REG,subject_2485,Keith,Reynolds,1981-11-14,Not Hispanic or Latino,Male,White,SSc,WI,67.1,169.5
+SSC-REG,subject_3114,Teresa,Clark,1976-06-16,Not Hispanic or Latino,Female,White,SSc,CA,167.4,205.6
+SSC-REG,subject_3288,Maya,Price,1951-08-08,Not Hispanic or Latino,Female,White,SSc,OH,64.1,194.9
+SSC-REG,subject_6147,Vivian,Mason,1968-10-29,Not Hispanic or Latino,Female,Black or African American,SSc,OH,60.8,146.4
+SSC-REG,subject_2332,Bianca,Willis,1971-12-10,Not Hispanic or Latino,Female,Black or African American,SSc,TX,62.9,202.4
+SSC-REG,subject_3401,Elena,Garcia,1989-02-16,Hispanic or Latino,Female,White,SSc,NY,58.9,133.1
+SSC-REG,subject_6273,Elena,Guzman,1945-10-06,Hispanic or Latino,Female,Other,SSc,CA,62.2,152.5
+SSC-REG,subject_8025,Anthony,Moran,1972-04-30,Not Hispanic or Latino,Male,White,SSc,NY,67.7,169.7
+SSC-REG,subject_5679,Yuna,Choi,1970-04-08,Not Hispanic or Latino,Female,Asian,SSc,CA,60.1,151.2
+SSC-REG,subject_2092,Gavin,Gibson,1953-09-22,Not Hispanic or Latino,Male,White,SSc,CA,72.2,172.2
+SSC-REG,subject_2387,Rebecca,Daniels,1963-02-28,Not Hispanic or Latino,Female,White,SSc,TX,64.1,139.1
+SSC-REG,subject_5796,Paige,Black,1981-01-07,Not Hispanic or Latino,Female,Black or African American,SSc,OH,56.7,164.6
+SSC-REG,subject_7053,Stephanie,Harmon,1963-04-14,Not Hispanic or Latino,Female,Other,SSc,CA,152.0,86.2
+SSC-REG,subject_2929,Rachel,Rice,1971-10-27,Not Hispanic or Latino,Female,Other,SSc,OH,62.3,143.6
+SSC-REG,subject_3840,Abigail,Freeman,1966-04-12,Not Hispanic or Latino,Female,White,SSc,CA,64.1,157.2
+SSC-REG,subject_2455,Mei,Wang,1970-02-13,Not Hispanic or Latino,Female,Asian,SSc,TX,61.2,112.2
+SSC-REG,subject_5973,Joshua,Grant,1952-09-04,Not Hispanic or Latino,Male,White,SSc,CA,173.6,152.0
+SSC-REG,subject_2151,Francisco,Pacheco,1987-04-08,Hispanic or Latino,Male,Black or African American,SSc,CA,69.5,166.5
+SSC-REG,subject_7846,Kavya,Lim,1967-08-30,Not Hispanic or Latino,Female,Asian,SSc,CA,67.6,199.7
+SSC-REG,subject_3365,Elena,Chapman,1959-10-11,Not Hispanic or Latino,Female,Black or African American,SSc,OH,63.8,218.0
+SSC-REG,subject_4331,Lucia,Cuevas,1965-02-07,Hispanic or Latino,Female,Black or African American,SSc,IL,60.2,142.8
+SSC-REG,subject_4571,Andrea,Hawkins,1982-04-03,Not Hispanic or Latino,Female,White,SSc,CA,63.9,155.4
+SSC-REG,subject_5310,Guillermo,Vasquez,1950-11-02,Hispanic or Latino,Male,White,SSc,CA,70.5,169.6
+SSC-REG,subject_5473,Bianca,Cole,1969-10-10,Not Hispanic or Latino,Female,White,SSc,OH,61.5,125.7
+SSC-REG,subject_2844,Molly,Hart,1950-12-09,Not Hispanic or Latino,Female,White,SSc,CA,60.3,191.2
+SSC-REG,subject_8879,Kelly,Dixon,1973-06-11,Not Hispanic or Latino,Female,White,SSc,MI,63.4,134.4
+SSC-REG,subject_7379,Katherine,Marks,1987-10-20,Not Hispanic or Latino,Female,White,SSc,MI,58.6,88.3
+SSC-REG,subject_7413,Julie,Carroll,1974-04-05,Not Hispanic or Latino,Female,White,SSc,CA,66.5,123.3
+SSC-REG,subject_4903,Sophia,Watson,1985-05-31,Not Hispanic or Latino,Female,Black or African American,SSc,CA,67.7,174.9
+SSC-REG,subject_7761,Huong,Gupta,1955-09-12,Not Hispanic or Latino,Female,Asian,SSc,CA,60.3,161.3
+SSC-REG,subject_3789,Kayla,Meyer,1976-03-27,Not Hispanic or Latino,Female,White,SSc,WI,63.3,165.4
+SSC-REG,subject_2545,Ruth,Roberts,1961-04-09,Not Hispanic or Latino,Female,White,SSc,IL,177.1,170.4
+SSC-REG,subject_8279,Samantha,Jackson,1954-02-25,Not Hispanic or Latino,Female,Other,SSc,IN,63.1,163.6
+SSC-REG,subject_8924,Justin,Jordan,1961-03-29,Not Hispanic or Latino,Male,White,SSc,CA,71.3,220.5
+SSC-REG,subject_5494,Brenda,Walsh,1956-06-13,Not Hispanic or Latino,Female,White,SSc,IL,61.5,136.7
+SSC-REG,subject_2583,Samantha,Howard,1973-06-26,Not Hispanic or Latino,Female,White,SSc,CA,69.0,195.7
+SSC-REG,subject_6220,Isabella,Rice,1975-01-12,Not Hispanic or Latino,Female,White,SSc,WI,66.0,189.5
+SSC-REG,subject_2461,Heather,Young,1960-08-15,Not Hispanic or Latino,Female,White,SSc,CA,58.2,142.7
+SSC-REG,subject_6864,Emily,Tucker,1959-11-12,Not Hispanic or Latino,Female,White,SSc,CA,63.8,128.1
+SSC-REG,subject_2860,Evelyn,Edwards,1985-06-14,Not Hispanic or Latino,Female,White,SSc,IN,64.8,111.5
+SSC-REG,subject_3992,Shreya,Phan,1955-04-19,Not Hispanic or Latino,Female,Asian,SSc,MI,165.1,172.5
+SSC-REG,subject_7101,Anna,Thomas,1954-03-09,Not Hispanic or Latino,Female,White,SSc,IN,65.2,155.4
+SSC-REG,subject_7285,Daniela,Chavez,1959-11-04,Hispanic or Latino,Female,White,SSc,CA,55.7,182.4
+SSC-REG,subject_4235,Maria,Foster,1963-09-06,Not Hispanic or Latino,Female,White,SSc,OH,68.5,196.0
+SSC-REG,subject_4913,Pilar,Sandoval,1945-12-17,Hispanic or Latino,Female,White,SSc,MI,66.8,194.8
+SSC-REG,subject_8072,Teresa,Mason,1982-05-24,Not Hispanic or Latino,Female,White,SSc,IL,64.2,194.1
+SSC-REG,subject_4930,Naomi,Holland,1967-06-03,Not Hispanic or Latino,Female,White,SSc,TX,66.4,176.0
+SSC-REG,subject_4060,Megan,Shaw,1987-11-10,Not Hispanic or Latino,Female,White,SSc,TX,162.1,208.7
+SSC-REG,subject_7139,Paige,Stephens,1963-10-05,Not Hispanic or Latino,Female,White,SSc,NY,67.1,126.6
+SSC-REG,subject_6580,Aditi,Zhao,1982-06-13,Not Hispanic or Latino,Female,Asian,SSc,CA,62.8,154.4
+SSC-REG,subject_6796,Michelle,Chapman,1965-12-10,Not Hispanic or Latino,Female,White,SSc,TX,173.9,186.8
+SSC-REG,subject_6133,Jacqueline,Cunningham,1962-11-11,Not Hispanic or Latino,Female,White,SSc,CA,64.9,104.8
+SSC-REG,subject_6036,Louis,Black,1955-05-25,Not Hispanic or Latino,Male,White,SSc,NY,64.4,224.9
+SSC-REG,subject_7865,Jiyoon,Sato,1970-07-06,Not Hispanic or Latino,Female,Asian,SSc,CA,64.5,198.6
+SSC-REG,subject_4141,Sofia,Medina,1987-04-09,Hispanic or Latino,Female,White,SSc,MI,168.7,130.2
+SSC-REG,subject_7646,Danielle,Weaver,1947-10-08,Not Hispanic or Latino,Female,White,SSc,IN,165.1,165.1
+SSC-REG,subject_4297,Brenda,Hunter,1950-02-07,Not Hispanic or Latino,Female,Black or African American,SSc,WI,66.5,149.5
+SSC-REG,subject_4098,Virginia,Ford,1955-06-28,Not Hispanic or Latino,Female,White,SSc,NY,64.2,170.0
+SSC-REG,subject_7244,Thao,Zhang,1985-10-07,Not Hispanic or Latino,Female,Asian,SSc,CA,67.4,225.0
+SSC-REG,subject_4880,Megan,Armstrong,1946-04-28,Not Hispanic or Latino,Female,White,SSc,CA,66.5,135.1
+SSC-REG,subject_6743,Andrea,West,1979-09-23,Not Hispanic or Latino,Female,White,SSc,CA,63.8,142.5
+SSC-REG,subject_2946,Paula,Castillo,1958-06-19,Hispanic or Latino,Female,White,SSc,OH,65.2,112.4
+SSC-REG,subject_6719,Bobby,Payne,1985-12-14,Not Hispanic or Latino,Male,White,SSc,CA,66.7,169.8
+SSC-REG,subject_5893,Rafael,Vasquez,1969-04-28,Hispanic or Latino,Male,Black or African American,SSc,MI,67.8,254.5
+SSC-REG,subject_3024,Cristina,Guerrero,1961-08-13,Hispanic or Latino,Female,White,SSc,CA,61.0,148.5
+SSC-REG,subject_7313,Pamela,Morgan,1975-12-04,Not Hispanic or Latino,Female,White,SSc,CA,60.5,136.5
+SSC-REG,subject_7344,Samantha,Daniels,1959-09-15,Not Hispanic or Latino,Female,White,SSc,IN,66.6,115.6
+SSC-REG,subject_8621,Stephanie,Bennett,1983-03-17,Not Hispanic or Latino,Female,White,SSc,OH,57.1,116.9
+SSC-REG,subject_8495,Barbara,Cross,1982-02-11,Not Hispanic or Latino,Female,White,SSc,CA,61.9,169.1
+SSC-REG,subject_8683,Nikhil,Watanabe,1982-01-15,Not Hispanic or Latino,Male,Asian,SSc,NY,67.2,218.3
+SSC-REG,subject_7353,Claudia,Santos,1987-07-31,Hispanic or Latino,Female,Other,SSc,CA,68.2,177.3
+SSC-REG,subject_2943,Denise,Edwards,1987-07-04,Not Hispanic or Latino,Female,White,SSc,IL,152.8,165.1
+SSC-REG,subject_6960,Christina,Gibson,1968-03-02,Not Hispanic or Latino,Female,White,SSc,CA,63.1,118.0
+SSC-REG,subject_3026,Julia,Reynolds,1953-05-24,Not Hispanic or Latino,Female,Other,SSc,IN,65.9,152.9
+SSC-REG,subject_7868,Sara,Morris,1966-02-11,Not Hispanic or Latino,Female,Other,SSc,NY,61.5,103.2
+SSC-REG,subject_8254,Amanda,Pierce,1977-04-29,Not Hispanic or Latino,Female,Black or African American,SSc,WI,65.3,147.7
+SSC-REG,subject_7301,Ryan,Stewart,1971-10-20,Not Hispanic or Latino,Male,Black or African American,SSc,CA,68.4,195.1
+SSC-REG,subject_8418,Natalie,Hunt,1958-04-09,Not Hispanic or Latino,Female,Black or African American,SSc,CA,65.6,176.2
+SSC-REG,subject_5498,Ananya,Wang,1963-05-31,Not Hispanic or Latino,Female,Asian,SSc,OH,64.9,182.3
+SSC-REG,subject_6329,Riya,Nakamura,1975-09-27,Not Hispanic or Latino,Female,Asian,SSc,CA,61.6,117.7
+SSC-REG,subject_7452,Bruce,Thomas,1982-06-24,Not Hispanic or Latino,Male,Other,SSc,CA,72.5,175.8
+SSC-REG,subject_6390,Adrian,Fowler,1983-07-27,Not Hispanic or Latino,Male,Other,SSc,NY,67.5,163.9
+SSC-REG,subject_4912,Donna,Evans,1979-06-20,Not Hispanic or Latino,Female,White,SSc,IN,169.8,164.3
+SSC-REG,subject_2099,Carolina,Solis,1986-02-14,Hispanic or Latino,Female,White,SSc,MI,62.6,193.8
+SSC-REG,subject_4951,Bianca,Carter,1948-03-11,Not Hispanic or Latino,Female,Black or African American,SSc,CA,63.0,177.9
+SSC-REG,subject_4997,Paula,Montoya,1971-08-06,Hispanic or Latino,Female,White,SSc,WI,61.1,192.1
+SSC-REG,subject_8065,Natalie,Dean,1978-07-23,Not Hispanic or Latino,Female,White,SSc,IN,162.0,114.9
+SSC-REG,subject_7662,Janet,Porter,1967-03-05,Not Hispanic or Latino,Female,White,SSc,CA,161.0,69.9
+SSC-REG,subject_7069,Margaret,Spencer,1968-08-29,Not Hispanic or Latino,Female,White,SSc,CA,151.9,164.7
+SSC-REG,subject_3048,Paige,Burns,1985-08-19,Not Hispanic or Latino,Female,Other,SSc,MI,62.5,226.9
+SSC-REG,subject_4374,Lillian,Kelly,1979-07-27,Not Hispanic or Latino,Female,White,SSc,IL,58.8,150.3
+SSC-REG,subject_8844,Erica,Marshall,1972-11-20,Not Hispanic or Latino,Female,White,SSc,CA,65.1,192.1
+SSC-REG,subject_5278,Ming,Liu,1947-09-15,Not Hispanic or Latino,Male,Asian,SSc,CA,70.0,210.2
+SSC-REG,subject_5460,Elena,Weaver,1975-02-09,Not Hispanic or Latino,Female,White,SSc,IN,63.7,106.5
+SSC-REG,subject_7604,Rebecca,Marshall,1955-04-09,Not Hispanic or Latino,Female,White,SSc,OH,65.3,122.2
+SSC-REG,subject_7885,Camila,Hernandez,1948-10-11,Hispanic or Latino,Female,White,SSc,IN,64.3,172.3
+SSC-REG,subject_3162,Nana,Sun,1972-01-27,Not Hispanic or Latino,Female,Asian,SSc,WI,61.7,130.2
+SSC-REG,subject_4314,Janice,Richardson,1984-09-16,Not Hispanic or Latino,Female,Black or African American,SSc,IL,65.9,180.5
+SSC-REG,subject_2197,Xavier,Jackson,1984-09-27,Not Hispanic or Latino,Male,White,SSc,TX,68.4,210.1
+SSC-REG,subject_6901,Liam,Rose,1962-09-18,Not Hispanic or Latino,Male,White,SSc,NY,69.9,226.4
+SSC-REG,subject_7005,Miguel,Mitchell,1978-05-30,Not Hispanic or Latino,Male,White,SSc,NY,69.9,179.3
+SSC-REG,subject_8753,Frances,Powell,1965-12-26,Not Hispanic or Latino,Female,Other,SSc,WI,64.8,149.8
+SSC-REG,subject_4051,Yejin,Singh,1956-11-15,Not Hispanic or Latino,Female,Asian,SSc,IL,60.2,173.0
+SSC-REG,subject_8787,Andrea,Ruiz,1981-03-15,Hispanic or Latino,Female,Black or African American,SSc,NY,66.5,214.6
+SSC-REG,subject_2748,Gloria,Freeman,1970-02-04,Not Hispanic or Latino,Female,Black or African American,SSc,CA,62.2,151.1
+SSC-REG,subject_4278,Christine,Cooper,1955-04-03,Not Hispanic or Latino,Female,Black or African American,SSc,WI,58.7,187.6
+SSC-REG,subject_6342,Christine,Butler,1971-02-21,Not Hispanic or Latino,Female,White,SSc,CA,65.1,153.7
+SSC-REG,subject_8391,Karen,Moore,1949-06-13,Not Hispanic or Latino,Female,White,SSc,WI,169.4,203.6
+SSC-REG,subject_4202,Benjamin,Hines,1984-07-22,Not Hispanic or Latino,Male,Black or African American,SSc,WI,179.6,182.4
+SSC-REG,subject_6166,Frances,Stone,1957-07-10,Not Hispanic or Latino,Female,White,SSc,NY,63.8,156.4
+SSC-REG,subject_4649,Maya,Daniels,1981-10-20,Not Hispanic or Latino,Female,Black or African American,SSc,CA,59.7,124.7
+SSC-REG,subject_4917,Helen,Cook,1987-01-10,Not Hispanic or Latino,Female,White,SSc,CA,67.1,166.5
+SSC-REG,subject_4162,Jean,Russell,1949-12-11,Not Hispanic or Latino,Female,Black or African American,SSc,TX,61.7,214.8
+SSC-REG,subject_4227,Lisa,Murphy,1961-09-23,Not Hispanic or Latino,Female,Black or African American,SSc,CA,70.1,148.2
+SSC-REG,subject_8117,Roger,Adams,1971-05-31,Not Hispanic or Latino,Male,Black or African American,SSc,CA,68.6,192.7
+SSC-REG,subject_6812,Marilyn,Rice,1989-08-20,Not Hispanic or Latino,Female,White,SSc,NY,69.7,198.4
+SSC-REG,subject_8129,Maria,Herrera,1974-06-28,Hispanic or Latino,Female,Black or African American,SSc,CA,61.4,156.9
+SSC-REG,subject_2160,Cynthia,Marks,1975-08-03,Not Hispanic or Latino,Female,White,SSc,WI,61.4,188.8
+SSC-REG,subject_3711,Doris,Bowers,1962-09-12,Not Hispanic or Latino,Female,White,SSc,OH,168.0,172.9
+SSC-REG,subject_6802,Donna,Weaver,1972-06-09,Not Hispanic or Latino,Female,White,SSc,MI,65.0,129.7
+SSC-REG,subject_8824,Martha,Anderson,1977-05-27,Not Hispanic or Latino,Female,White,SSc,CA,58.8,206.0
+SSC-REG,subject_8660,Isabel,Munoz,1967-04-18,Hispanic or Latino,Female,White,SSc,CA,60.9,159.1
+SSC-REG,subject_2470,Aiko,Liu,1954-11-30,Not Hispanic or Latino,Female,Asian,SSc,CA,65.3,163.7
+SSC-REG,subject_8277,Barbara,Andrews,1980-11-12,Not Hispanic or Latino,Female,White,SSc,CA,67.3,108.1
+SSC-REG,subject_2261,Kavya,Tang,1983-11-04,Not Hispanic or Latino,Female,Asian,SSc,CA,62.3,156.5
+SSC-REG,subject_4959,Judy,Richards,1968-04-16,Not Hispanic or Latino,Female,White,SSc,CA,67.9,128.7
+SSC-REG,subject_6337,Donald,Ellis,1956-01-09,Not Hispanic or Latino,Male,White,SSc,TX,67.2,168.0
+SSC-REG,subject_3897,Dolores,Solis,1956-07-18,Hispanic or Latino,Female,White,SSc,CA,160.1,167.4
+SSC-REG,subject_7982,Madison,Willis,1980-09-25,Not Hispanic or Latino,Female,Other,SSc,WI,64.2,137.8
+SSC-REG,subject_5367,Ruth,Coleman,1977-04-13,Not Hispanic or Latino,Female,White,SSc,OH,69.4,158.4
+SSC-REG,subject_4695,Sean,Perry,1968-03-05,Not Hispanic or Latino,Male,White,SSc,MI,73.4,216.1
+SSC-REG,subject_3219,Christine,Hicks,1955-07-31,Not Hispanic or Latino,Female,Black or African American,SSc,WI,64.0,127.2
+SSC-REG,subject_8406,Rosa,Mendoza,1984-09-17,Hispanic or Latino,Female,White,SSc,WI,145.0,142.6
+SSC-REG,subject_4385,Michelle,Johnston,1954-10-20,Not Hispanic or Latino,Female,White,SSc,CA,66.4,110.1
+SSC-REG,subject_4069,Michelle,Hughes,1986-11-18,Not Hispanic or Latino,Female,White,SSc,CA,60.9,117.6
+SSC-REG,subject_8057,Judy,Gibson,1962-01-21,Not Hispanic or Latino,Female,White,SSc,CA,64.5,147.2
+SSC-REG,subject_3994,Barbara,Brooks,1963-05-27,Not Hispanic or Latino,Female,White,SSc,CA,60.5,169.2
+SSC-REG,subject_8269,Lisa,Weaver,1970-07-18,Not Hispanic or Latino,Female,White,SSc,OH,66.2,193.7
+SSC-REG,subject_2230,Julia,Ford,1980-01-01,Not Hispanic or Latino,Female,White,SSc,CA,63.0,127.4
+SSC-REG,subject_5222,Carol,Meyer,1969-10-22,Not Hispanic or Latino,Female,White,SSc,CA,61.8,163.7
+SSC-REG,subject_2237,Ricardo,Pacheco,1963-05-04,Hispanic or Latino,Male,Other,SSc,CA,65.4,160.9
+SSC-REG,subject_8258,Brenda,Young,1984-06-01,Not Hispanic or Latino,Female,White,SSc,CA,66.2,133.0
+SSC-REG,subject_6710,Jiyoon,Shah,1948-02-01,Not Hispanic or Latino,Female,Asian,SSc,WI,59.4,187.3
+SSC-REG,subject_8082,Ariana,Roberts,1971-09-03,Not Hispanic or Latino,Female,White,SSc,CA,58.9,194.9
+SSC-REG,subject_5590,Julia,Holmes,1973-07-10,Not Hispanic or Latino,Female,White,SSc,MI,59.3,179.1
+SSC-REG,subject_8985,Brian,Russell,1972-12-03,Not Hispanic or Latino,Male,Other,SSc,CA,67.9,175.0
+SSC-REG,subject_4952,Jasmine,Alexander,1982-05-19,Not Hispanic or Latino,Female,White,SSc,TX,63.0,137.9
+SSC-REG,subject_4783,Naomi,Elliott,1984-05-02,Not Hispanic or Latino,Female,White,SSc,CA,65.5,153.6
+SSC-REG,subject_7338,Veronica,Montoya,1968-04-24,Hispanic or Latino,Female,Other,SSc,WI,61.1,114.3
+SSC-REG,subject_7906,Naomi,Gardner,1978-06-17,Not Hispanic or Latino,Female,White,SSc,NY,62.0,152.1
+SSC-REG,subject_7664,Debra,Franklin,1977-11-17,Not Hispanic or Latino,Female,White,SSc,CA,154.7,177.8
+SSC-REG,subject_4367,Katherine,Snyder,1980-06-22,Not Hispanic or Latino,Female,White,SSc,MI,61.5,140.0
+SSC-REG,subject_2234,Maria,Perry,1985-06-24,Not Hispanic or Latino,Female,Other,SSc,TX,155.8,167.9
+SSC-REG,subject_3353,Teresa,Mendoza,1949-04-20,Hispanic or Latino,Female,White,SSc,OH,154.5,206.7
+SSC-REG,subject_4054,Xiao,Lee,1946-04-13,Not Hispanic or Latino,Female,Asian,SSc,OH,65.9,146.5
+SSC-REG,subject_2617,Doris,Knight,1953-03-23,Not Hispanic or Latino,Female,White,SSc,CA,62.4,167.5
+SSC-REG,subject_7570,Cody,Marshall,1964-05-18,Not Hispanic or Latino,Male,White,SSc,WI,182.0,200.6
+SSC-REG,subject_6849,Renata,Alvarez,1975-04-25,Hispanic or Latino,Female,Other,SSc,TX,64.6,106.9
+SSC-REG,subject_2731,Ashley,Palmer,1954-12-15,Not Hispanic or Latino,Female,White,SSc,OH,57.1,127.5
+SSC-REG,subject_4707,Doris,Gordon,1976-08-21,Not Hispanic or Latino,Female,Black or African American,SSc,IN,176.4,134.3
+SSC-REG,subject_8547,Paige,Bowers,1961-03-29,Not Hispanic or Latino,Female,Black or African American,SSc,CA,59.9,164.1
+SSC-REG,subject_5605,Nancy,Hall,1982-09-04,Not Hispanic or Latino,Female,Black or African American,SSc,CA,61.4,200.3
+SSC-REG,subject_6434,Yuna,Joshi,1978-09-03,Not Hispanic or Latino,Female,Asian,SSc,WI,65.2,146.4
+SSC-REG,subject_2505,Willie,Snyder,1957-05-14,Not Hispanic or Latino,Male,Other,SSc,OH,63.7,168.8
+SSC-REG,subject_7727,Nana,Nguyen,1973-12-12,Not Hispanic or Latino,Female,Asian,SSc,CA,66.0,126.4
+SSC-REG,subject_6173,Mary,Jackson,1959-07-22,Not Hispanic or Latino,Female,White,SSc,CA,60.5,151.8
+SSC-REG,subject_3779,Amy,Marks,1953-08-27,Not Hispanic or Latino,Female,White,SSc,CA,155.6,179.3
+SSC-REG,subject_5576,Emma,Cunningham,1968-09-13,Not Hispanic or Latino,Female,White,SSc,CA,60.9,141.7
+SSC-REG,subject_3950,Nikhil,Tran,1973-09-01,Not Hispanic or Latino,Male,Asian,SSc,NY,69.7,186.5
+SSC-REG,subject_7373,Haruka,Yang,1949-08-27,Not Hispanic or Latino,Female,Asian,SSc,MI,66.4,164.8
+SSC-REG,subject_8678,Christopher,Taylor,1985-02-13,Not Hispanic or Latino,Male,Other,SSc,IN,65.8,167.3
+SSC-REG,subject_5164,Abigail,Payne,1967-09-23,Not Hispanic or Latino,Female,White,SSc,CA,162.4,194.2
+SSC-REG,subject_7665,Karen,Holland,1951-02-27,Not Hispanic or Latino,Female,White,SSc,OH,64.9,164.4
+SSC-REG,subject_8680,Lillian,Ward,1967-01-28,Not Hispanic or Latino,Female,White,SSc,OH,68.0,194.4
+SSC-REG,subject_6300,Samantha,Nelson,1970-04-16,Not Hispanic or Latino,Female,Black or African American,SSc,CA,150.7,138.8
+SSC-REG,subject_8989,Kayla,Bowers,1982-02-03,Not Hispanic or Latino,Female,Other,SSc,CA,66.2,156.0
+SSC-REG,subject_5250,Sophia,Cross,1975-02-15,Not Hispanic or Latino,Female,White,SSc,WI,63.0,169.6
+SSC-REG,subject_3694,Angela,Walton,1987-08-28,Not Hispanic or Latino,Female,White,SSc,WI,64.2,117.4
+SSC-REG,subject_5881,Alyssa,Lane,1961-08-05,Not Hispanic or Latino,Female,White,SSc,CA,61.9,108.5
+SSC-REG,subject_8284,Jennifer,Peterson,1975-07-14,Not Hispanic or Latino,Female,Other,SSc,OH,58.6,174.3
+SSC-REG,subject_8043,Donald,Holland,1982-12-04,Not Hispanic or Latino,Male,White,SSc,IL,176.0,172.9
+SSC-REG,subject_8900,Janet,Black,1987-09-25,Not Hispanic or Latino,Female,Black or African American,SSc,CA,63.3,130.2
+SSC-REG,subject_2841,Andrew,Robinson,1969-05-25,Not Hispanic or Latino,Male,Black or African American,SSc,CA,67.6,158.8
+SSC-REG,subject_6947,Ralph,Knight,1988-03-15,Not Hispanic or Latino,Male,White,SSc,CA,67.3,177.9
+SSC-REG,subject_3324,Dolores,Hernandez,1989-12-11,Hispanic or Latino,Female,Black or African American,SSc,NY,64.1,106.1
+SSC-REG,subject_8676,Jiwon,Sharma,1959-06-22,Not Hispanic or Latino,Female,Asian,SSc,MI,62.2,168.1
+SSC-REG,subject_6019,Carolyn,Cole,1961-08-26,Not Hispanic or Latino,Female,Black or African American,SSc,TX,60.8,160.6
+SSC-REG,subject_3893,Judith,Payne,1948-10-31,Not Hispanic or Latino,Female,Black or African American,SSc,MI,60.3,134.5
+SSC-REG,subject_4770,Shreya,Nguyen,1975-09-28,Not Hispanic or Latino,Female,Asian,SSc,TX,163.1,202.9
+SSC-REG,subject_6022,Neha,Yang,1956-01-31,Not Hispanic or Latino,Female,Asian,SSc,IL,64.6,87.2
+SSC-REG,subject_8171,Virginia,Cunningham,1977-01-26,Not Hispanic or Latino,Female,White,SSc,NY,62.7,181.5
+SSC-REG,subject_5329,Bianca,Hart,1958-10-07,Not Hispanic or Latino,Female,Black or African American,SSc,CA,67.4,161.7
+SSC-REG,subject_4645,Beverly,Cook,1969-06-14,Not Hispanic or Latino,Female,White,SSc,CA,61.4,183.4
+SSC-REG,subject_2651,Ruben,Sandoval,1954-12-08,Hispanic or Latino,Male,Other,SSc,WI,68.3,165.1
+SSC-REG,subject_3552,Rachel,Watkins,1963-02-14,Not Hispanic or Latino,Female,White,SSc,TX,62.3,205.0
+SSC-REG,subject_4711,Megan,Walton,1988-10-31,Not Hispanic or Latino,Female,Black or African American,SSc,CA,64.2,185.5
+SSC-REG,subject_2925,Jiwon,Iyer,1965-01-09,Not Hispanic or Latino,Female,Asian,SSc,IL,67.4,118.3
+SSC-REG,subject_5467,Marilyn,Tucker,1967-04-01,Not Hispanic or Latino,Female,White,SSc,CA,65.8,134.0
+SSC-REG,subject_2374,Maria,Cuevas,1959-04-14,Hispanic or Latino,Female,White,SSc,IN,65.0,100.7
+SSC-REG,subject_5640,Anna,Griffin,1985-07-01,Not Hispanic or Latino,Female,White,SSc,WI,62.9,135.5
+SSC-REG,subject_3192,Valerie,Robinson,1970-09-02,Not Hispanic or Latino,Female,White,SSc,CA,63.5,223.1
+SSC-REG,subject_3463,Emma,Collins,1987-09-16,Not Hispanic or Latino,Female,White,SSc,IN,66.3,189.8
+SSC-REG,subject_6773,Vanessa,Davis,1961-12-12,Not Hispanic or Latino,Female,Black or African American,SSc,NY,160.1,161.1
+SSC-REG,subject_4635,Alyssa,Russell,1972-05-18,Not Hispanic or Latino,Female,White,SSc,CA,167.0,199.6
+SSC-REG,subject_6450,Anna,Powell,1964-12-25,Not Hispanic or Latino,Female,White,SSc,NY,65.8,140.6
+SSC-REG,subject_2195,Sungmin,Yang,1959-05-06,Not Hispanic or Latino,Male,Asian,SSc,CA,68.9,174.5
+SSC-REG,subject_3137,Maya,Howard,1984-08-21,Not Hispanic or Latino,Female,White,SSc,IL,63.9,163.7
+SSC-REG,subject_2480,Benjamin,Shaw,1957-12-13,Not Hispanic or Latino,Male,Other,SSc,IN,70.4,188.4
+SSC-REG,subject_2923,Hyejin,Xu,1952-07-31,Not Hispanic or Latino,Female,Asian,SSc,OH,159.7,174.5
+SSC-REG,subject_4212,Ayaka,Cho,1955-01-26,Not Hispanic or Latino,Female,Asian,SSc,CA,160.0,150.9
+SSC-REG,subject_4796,Amber,Porter,1945-11-21,Not Hispanic or Latino,Female,White,SSc,CA,63.4,120.4
+SSC-REG,subject_7833,Sneha,Lim,1956-11-24,Not Hispanic or Latino,Female,Asian,SSc,WI,63.3,197.3
+SSC-REG,subject_5947,Vanessa,Henderson,1961-06-07,Not Hispanic or Latino,Female,Black or African American,SSc,CA,167.3,189.5
+SSC-REG,subject_7791,Christine,Goodman,1972-08-03,Not Hispanic or Latino,Female,White,SSc,CA,64.1,167.5
+SSC-REG,subject_7754,Samantha,Olson,1981-03-22,Not Hispanic or Latino,Female,White,SSc,OH,169.7,138.2
+SSC-REG,subject_5082,Julian,Lewis,1952-07-10,Not Hispanic or Latino,Male,White,SSc,CA,65.9,195.5
+SSC-REG,subject_2703,Vivian,Jordan,1956-11-03,Not Hispanic or Latino,Female,Black or African American,SSc,CA,61.5,140.3
+SSC-REG,subject_8317,Lucia,Mendez,1944-07-01,Hispanic or Latino,Female,White,SSc,MI,56.9,227.2
+SSC-REG,subject_4347,Bryan,Fowler,1980-07-16,Not Hispanic or Latino,Male,White,SSc,TX,70.0,184.2
+SSC-REG,subject_6137,Evelyn,Dean,1978-06-02,Not Hispanic or Latino,Female,White,SSc,WI,61.8,141.2
+SSC-REG,subject_5437,Sharon,Chapman,1981-10-08,Not Hispanic or Latino,Female,White,SSc,CA,64.0,182.4
+SSC-REG,subject_7228,Kimberly,Reynolds,1967-05-15,Not Hispanic or Latino,Female,White,SSc,CA,64.9,140.8
+SSC-REG,subject_2232,Carmen,Medina,1957-03-28,Hispanic or Latino,Female,White,SSc,IL,61.7,136.3
+SSC-REG,subject_8191,Monica,Berry,1978-10-17,Not Hispanic or Latino,Female,Black or African American,SSc,CA,63.5,195.3
+SSC-REG,subject_4799,Barbara,Gibson,1952-05-23,Not Hispanic or Latino,Female,White,SSc,TX,63.3,165.0
+SSC-REG,subject_2350,Deborah,Griffin,1950-01-21,Not Hispanic or Latino,Female,Other,SSc,OH,68.4,161.4
+SSC-REG,subject_8531,Kathryn,Hill,1974-12-25,Not Hispanic or Latino,Female,White,SSc,OH,62.8,110.9
+SSC-REG,subject_7341,Monica,Flores,1977-08-10,Hispanic or Latino,Female,White,SSc,CA,63.8,190.3
+SSC-REG,subject_6149,Molly,Brown,1982-02-26,Not Hispanic or Latino,Female,White,SSc,CA,181.5,172.5
+SSC-REG,subject_4116,Martha,Holmes,1972-04-15,Not Hispanic or Latino,Female,White,SSc,MI,63.2,135.4
+SSC-REG,subject_4804,Doris,Matthews,1971-06-25,Not Hispanic or Latino,Female,White,SSc,NY,61.2,135.7
+SSC-REG,subject_4782,Judith,Chapman,1974-12-22,Not Hispanic or Latino,Female,Other,SSc,CA,66.5,146.7
+SSC-REG,subject_2064,Nicole,Wilson,1988-01-23,Not Hispanic or Latino,Female,White,SSc,OH,61.5,223.3
+SSC-REG,subject_2696,Abigail,Kennedy,1986-06-30,Not Hispanic or Latino,Female,Black or African American,SSc,WI,154.1,236.6
+SSC-REG,subject_8911,Benjamin,Ross,1980-11-27,Not Hispanic or Latino,Male,White,SSc,IN,65.4,225.8
+SSC-REG,subject_2826,Claudia,Ramos,1962-01-10,Hispanic or Latino,Female,White,SSc,IN,60.9,86.2
+SSC-REG,subject_4439,Rosa,Herrera,1985-12-31,Hispanic or Latino,Female,White,SSc,CA,64.9,189.3
+SSC-REG,subject_3810,Mariana,Vazquez,1957-01-08,Hispanic or Latino,Female,White,SSc,NY,151.5,166.5
+SSC-REG,subject_3519,Isabella,Thompson,1949-09-20,Not Hispanic or Latino,Female,White,SSc,CA,66.3,191.1
+SSC-REG,subject_5048,Sana,Pham,1950-07-03,Not Hispanic or Latino,Female,Asian,SSc,CA,67.8,140.2
+SSC-REG,subject_7797,Teresa,Warren,1951-07-20,Not Hispanic or Latino,Female,White,SSc,TX,183.2,166.4
+SSC-REG,subject_2616,Karen,Matthews,1981-04-08,Not Hispanic or Latino,Female,White,SSc,OH,165.0,136.2
+SSC-REG,subject_6386,Stephanie,Baldwin,1988-01-27,Not Hispanic or Latino,Female,Black or African American,SSc,TX,58.9,109.8
+SSC-REG,subject_5134,Paige,Pierce,1983-09-17,Not Hispanic or Latino,Female,White,SSc,CA,68.6,91.7
+SSC-REG,subject_3337,Denise,Harris,1973-04-17,Not Hispanic or Latino,Female,Black or African American,SSc,CA,72.0,129.9
+SSC-REG,subject_2958,Nicole,Cunningham,1967-03-05,Not Hispanic or Latino,Female,Black or African American,SSc,TX,58.9,157.2
+SSC-REG,subject_4241,Linda,Thompson,1964-07-24,Not Hispanic or Latino,Female,White,SSc,CA,163.7,172.9
+SSC-REG,subject_6579,Timothy,Mitchell,1957-01-19,Not Hispanic or Latino,Male,White,SSc,NY,185.5,185.6
+SSC-REG,subject_8402,Kathleen,Andrews,1960-10-10,Not Hispanic or Latino,Female,White,SSc,CA,63.0,149.3
+SSC-REG,subject_7913,Martha,Johnston,1973-07-19,Not Hispanic or Latino,Female,White,SSc,CA,63.4,142.1
+SSC-REG,subject_7203,Deborah,King,1947-11-03,Not Hispanic or Latino,Female,White,SSc,MI,62.3,118.3
+SSC-REG,subject_8773,Jean,Kelley,1964-06-02,Not Hispanic or Latino,Female,Black or African American,SSc,IL,68.9,172.1
+SSC-REG,subject_2316,Stephen,Henry,1958-07-13,Not Hispanic or Latino,Male,White,SSc,CA,71.2,190.8
+SSC-REG,subject_2961,Albert,Lane,1968-07-23,Not Hispanic or Latino,Male,White,SSc,CA,73.8,211.0
+SSC-REG,subject_3105,Joan,Dixon,1958-09-12,Not Hispanic or Latino,Female,White,SSc,WI,64.0,188.5
+SSC-REG,subject_8100,Ashley,Walton,1957-12-16,Not Hispanic or Latino,Female,Black or African American,SSc,MI,64.7,164.1
+SSC-REG,subject_4253,Nancy,Williams,1947-10-24,Not Hispanic or Latino,Female,White,SSc,CA,64.9,134.4
+SSC-REG,subject_4217,Lisa,Holt,1967-06-12,Not Hispanic or Latino,Female,White,SSc,CA,155.4,137.9
+SSC-REG,subject_8388,Ivy,Palmer,1986-10-20,Not Hispanic or Latino,Female,White,SSc,CA,64.7,148.0
+SSC-REG,subject_5939,Judith,Franklin,1981-07-07,Not Hispanic or Latino,Female,White,SSc,CA,63.4,182.2
+SSC-REG,subject_5878,Jacqueline,Pruitt,1968-06-25,Not Hispanic or Latino,Female,White,SSc,MI,67.5,172.6
+SSC-REG,subject_4160,Steven,Snyder,1947-05-05,Not Hispanic or Latino,Male,White,SSc,IN,67.2,216.0
+SSC-REG,subject_8190,Patricia,Franklin,1969-05-30,Not Hispanic or Latino,Female,White,SSc,CA,61.5,153.3
+SSC-REG,subject_3975,Chi,Guo,1984-02-29,Not Hispanic or Latino,Female,Asian,SSc,IN,63.1,124.6
+SSC-REG,subject_7211,Nicole,Boyd,1967-03-03,Not Hispanic or Latino,Female,White,SSc,OH,59.0,136.7
+SSC-REG,subject_2447,Samuel,Freeman,1981-06-25,Not Hispanic or Latino,Male,White,SSc,WI,69.8,168.7
+SSC-REG,subject_6865,Natalie,Armstrong,1976-06-07,Not Hispanic or Latino,Female,Black or African American,SSc,IL,165.8,158.8
+SSC-REG,subject_6072,Stephanie,Evans,1977-05-29,Not Hispanic or Latino,Female,White,SSc,CA,62.7,142.4
+SSC-REG,subject_3494,Melanie,Russell,1966-12-08,Not Hispanic or Latino,Female,Other,SSc,CA,164.0,225.5
+SSC-REG,subject_8714,Ronald,Young,1974-04-12,Not Hispanic or Latino,Male,White,SSc,CA,70.1,185.3
+SSC-REG,subject_2768,Barbara,Bishop,1982-01-04,Not Hispanic or Latino,Female,Black or African American,SSc,CA,65.5,160.2
+SSC-REG,subject_4965,Sneha,Huang,1958-11-29,Not Hispanic or Latino,Female,Asian,SSc,MI,63.4,135.6
+SSC-REG,subject_7663,Shirley,Knight,1956-05-24,Not Hispanic or Latino,Female,Other,SSc,WI,63.4,116.6
+SSC-REG,subject_4969,Nina,Price,1965-07-22,Not Hispanic or Latino,Female,White,SSc,CA,169.1,148.4
+SSC-REG,subject_7174,Silvia,Sandoval,1978-09-26,Hispanic or Latino,Female,White,SSc,CA,63.6,129.0
+SSC-REG,subject_6836,Jiwon,Hoang,1961-12-22,Not Hispanic or Latino,Female,Asian,SSc,IL,61.6,154.2
+SSC-REG,subject_3526,Benjamin,King,1968-12-11,Not Hispanic or Latino,Male,White,SSc,WI,67.4,196.9
+SSC-REG,subject_7269,Joan,Bell,1956-04-22,Not Hispanic or Latino,Female,White,SSc,NY,61.6,168.0
+SSC-REG,subject_8251,Jennifer,Miller,1986-01-28,Not Hispanic or Latino,Female,White,SSc,IL,62.7,169.8
+SSC-REG,subject_8148,Owen,Wood,1948-10-26,Not Hispanic or Latino,Male,White,SSc,TX,184.3,227.2
+SSC-REG,subject_7016,Mary,Kennedy,1977-07-11,Not Hispanic or Latino,Female,White,SSc,CA,67.4,226.2
+SSC-REG,subject_5236,Alicia,Reyes,1971-09-22,Hispanic or Latino,Female,Black or African American,SSc,CA,155.9,154.2
+SSC-REG,subject_8050,Rose,Dixon,1970-12-09,Not Hispanic or Latino,Female,Other,SSc,IL,67.1,136.0
+SSC-REG,subject_3230,Jose,Walker,1962-10-15,Not Hispanic or Latino,Male,Other,SSc,OH,70.7,169.9
+SSC-REG,subject_4062,Patricia,Powell,1959-11-22,Not Hispanic or Latino,Female,Other,SSc,WI,64.2,193.9
+SSC-REG,subject_5137,Denise,Black,1945-11-19,Not Hispanic or Latino,Female,White,SSc,CA,59.1,166.4
+SSC-REG,subject_7742,Patricia,Sandoval,1955-10-16,Hispanic or Latino,Female,White,SSc,CA,67.2,158.5
+SSC-REG,subject_3763,Monica,Nunez,1951-09-04,Hispanic or Latino,Female,White,SSc,OH,163.9,195.6
+SSC-REG,subject_2362,Raquel,Contreras,1968-02-24,Hispanic or Latino,Female,Black or African American,SSc,MI,65.5,135.8
+SSC-REG,subject_6694,Carolyn,Pierce,1951-12-16,Not Hispanic or Latino,Female,Black or African American,SSc,CA,65.1,152.5
+SSC-REG,subject_5201,Diane,Grant,1980-06-19,Not Hispanic or Latino,Female,White,SSc,TX,63.4,207.1
+SSC-REG,subject_5241,Sneha,Iyer,1948-10-22,Not Hispanic or Latino,Female,Asian,SSc,MI,65.5,159.1
+SSC-REG,subject_5984,Kelly,Burgess,1989-11-29,Not Hispanic or Latino,Female,Black or African American,SSc,TX,69.5,138.1
+SSC-REG,subject_6834,Kelly,Palmer,1953-02-02,Not Hispanic or Latino,Female,Black or African American,SSc,NY,62.6,158.3
+SSC-REG,subject_5098,Francisco,Cruz,1954-07-26,Hispanic or Latino,Male,White,SSc,CA,69.2,168.4
+SSC-REG,subject_4268,Sara,Peterson,1981-09-09,Not Hispanic or Latino,Female,White,SSc,TX,61.4,159.5
+SSC-REG,subject_7117,Megan,Hunter,1987-02-22,Not Hispanic or Latino,Female,Black or African American,SSc,IL,62.5,189.0
+SSC-REG,subject_5724,Madison,Evans,1965-12-28,Not Hispanic or Latino,Female,Other,SSc,NY,60.9,174.7
+SSC-REG,subject_5517,Sarah,Campbell,1987-10-04,Not Hispanic or Latino,Female,White,SSc,CA,62.5,148.4
+SSC-REG,subject_6912,Kavya,Wu,1968-01-17,Not Hispanic or Latino,Female,Asian,SSc,CA,64.1,149.4
+SSC-REG,subject_7107,Lauren,Patterson,1947-10-24,Not Hispanic or Latino,Female,Black or African American,SSc,CA,61.2,120.0
+SSC-REG,subject_8650,Emma,Willis,1963-12-10,Not Hispanic or Latino,Female,Other,SSc,CA,65.3,121.8
+SSC-REG,subject_3270,Paige,Arnold,1950-10-09,Not Hispanic or Latino,Female,White,SSc,CA,165.6,149.2
+SSC-REG,subject_4236,Stephanie,Gibson,1964-05-23,Not Hispanic or Latino,Female,White,SSc,WI,162.5,94.6
+SSC-REG,subject_8820,Gloria,Rose,1955-10-30,Not Hispanic or Latino,Female,Black or African American,SSc,IN,173.5,129.1
+SSC-REG,subject_3371,Kavya,Mehta,1986-01-30,Not Hispanic or Latino,Female,Asian,SSc,IN,59.6,166.8
+SSC-REG,subject_6992,Vincent,Adams,1971-02-20,Not Hispanic or Latino,Male,White,SSc,CA,70.4,201.8
+SSC-REG,subject_4002,Virginia,Martin,1982-02-23,Not Hispanic or Latino,Female,Black or African American,SSc,OH,66.7,194.4
+SSC-REG,subject_5269,Shirley,Gibson,1969-05-08,Not Hispanic or Latino,Female,White,SSc,IN,69.2,185.1
+SSC-REG,subject_3915,Margaret,Hart,1965-12-15,Not Hispanic or Latino,Female,White,SSc,CA,167.0,164.4
+SSC-REG,subject_5313,Kimberly,Jordan,1981-04-05,Not Hispanic or Latino,Female,Black or African American,SSc,CA,63.6,135.9
+SSC-REG,subject_7038,Sharon,Nichols,1958-06-14,Not Hispanic or Latino,Female,Other,SSc,NY,66.0,181.0
+SSC-REG,subject_7536,Janet,Mitchell,1982-01-02,Not Hispanic or Latino,Female,White,SSc,CA,64.0,126.9
+SSC-REG,subject_5384,Beatriz,Montoya,1966-05-03,Hispanic or Latino,Female,White,SSc,CA,166.3,181.1
+SSC-REG,subject_6000,Ines,Navarro,1980-04-20,Hispanic or Latino,Female,Asian,SSc,IN,65.4,145.4
+SSC-REG,subject_3754,Kathleen,Pruitt,1976-09-01,Not Hispanic or Latino,Female,White,SSc,MI,63.7,221.1
+SSC-REG,subject_7996,Pamela,Richards,1964-01-08,Not Hispanic or Latino,Female,White,SSc,OH,67.5,159.8
+SSC-REG,subject_8955,Joan,Shaw,1988-03-27,Not Hispanic or Latino,Female,White,SSc,NY,63.5,214.2
+SSC-REG,subject_8960,Danielle,Holmes,1962-07-16,Not Hispanic or Latino,Female,White,SSc,WI,66.5,155.0
+SSC-REG,subject_8969,Nicole,Jenkins,1959-04-12,Not Hispanic or Latino,Female,White,SSc,NY,58.0,172.6
+SSC-REG,subject_4365,Sara,Dixon,1959-02-15,Not Hispanic or Latino,Female,White,SSc,CA,62.8,154.5
+SSC-REG,subject_4827,Angela,Hart,1982-10-17,Not Hispanic or Latino,Female,White,SSc,CA,65.0,240.2
+SSC-REG,subject_6183,Sandra,Perkins,1950-06-11,Not Hispanic or Latino,Female,White,SSc,IN,68.7,179.7
+SSC-REG,subject_6224,Teresa,Dixon,1972-10-01,Not Hispanic or Latino,Female,Other,SSc,TX,61.5,154.9
+SSC-REG,subject_4573,Grace,Davis,1984-07-10,Not Hispanic or Latino,Female,White,SSc,WI,68.9,150.6
+SSC-REG,subject_6102,Diana,Daniels,1948-12-13,Not Hispanic or Latino,Female,White,SSc,CA,61.5,156.1
+SSC-REG,subject_6529,Kelly,Turner,1956-04-03,Not Hispanic or Latino,Female,White,SSc,CA,64.6,143.3
+SSC-REG,subject_4252,Ying,Tang,1982-07-13,Not Hispanic or Latino,Female,Asian,SSc,IN,58.8,115.9
+SSC-REG,subject_2385,Camila,Diaz,1968-08-21,Hispanic or Latino,Female,Black or African American,SSc,CA,67.5,177.2
+SSC-REG,subject_3999,Vivian,King,1959-10-01,Not Hispanic or Latino,Female,White,SSc,NY,67.4,161.2
+SSC-REG,subject_3195,Victoria,Long,1975-11-09,Not Hispanic or Latino,Female,White,SSc,OH,65.5,109.9
+SSC-REG,subject_8905,Melanie,Berry,1990-11-03,Not Hispanic or Latino,Female,Other,SSc,WI,59.5,155.7
+SSC-REG,subject_2465,Linda,Marks,1981-02-07,Not Hispanic or Latino,Female,Black or African American,SSc,CA,66.2,164.5
+SSC-REG,subject_3726,Travis,Berry,1979-05-26,Not Hispanic or Latino,Male,Black or African American,SSc,IN,69.0,219.3
+SSC-REG,subject_6483,Roy,Matthews,1947-04-25,Not Hispanic or Latino,Male,Black or African American,SSc,CA,174.8,215.5
+SSC-REG,subject_8957,Angel,Santos,1954-08-13,Hispanic or Latino,Male,Black or African American,SSc,MI,73.0,236.0
+SSC-REG,subject_8383,Martha,Pierce,1985-04-11,Not Hispanic or Latino,Female,White,SSc,CA,61.8,128.9
+SSC-REG,subject_3845,Erica,Hall,1976-04-04,Not Hispanic or Latino,Female,Black or African American,SSc,CA,163.4,137.1
+SSC-REG,subject_8316,Fernanda,Sanchez,1960-05-20,Hispanic or Latino,Female,White,SSc,CA,65.4,197.8
+SSC-REG,subject_8581,Jesse,Marshall,1984-09-04,Not Hispanic or Latino,Male,White,SSc,CA,68.2,193.9
+SSC-REG,subject_6664,Natalia,Escobar,1960-01-20,Hispanic or Latino,Female,White,SSc,IN,67.5,158.2
+SSC-REG,subject_5549,Fernando,Santos,1977-08-21,Hispanic or Latino,Male,White,SSc,CA,70.6,188.1
+SSC-REG,subject_7326,Logan,Smith,1953-02-24,Not Hispanic or Latino,Male,White,SSc,NY,68.0,168.0
+SSC-REG,subject_4767,Erica,Powell,1957-07-25,Not Hispanic or Latino,Female,Other,SSc,WI,177.9,130.0
+SSC-REG,subject_3335,Evelyn,Arnold,1971-09-01,Not Hispanic or Latino,Female,White,SSc,NY,66.0,139.9
+SSC-REG,subject_3272,Elena,Clark,1964-11-10,Not Hispanic or Latino,Female,Other,SSc,OH,66.5,157.8
+SSC-REG,subject_4273,Lisa,Martin,1965-06-27,Not Hispanic or Latino,Female,White,SSc,CA,67.4,139.6
+SSC-REG,subject_5060,Pamela,Goodman,1963-06-28,Not Hispanic or Latino,Female,White,SSc,MI,62.2,137.9
+SSC-REG,subject_2974,Sharon,Turner,1964-08-14,Not Hispanic or Latino,Female,White,SSc,MI,62.3,117.2
+SSC-REG,subject_2210,Tanvi,Yoon,1958-04-14,Not Hispanic or Latino,Female,Asian,SSc,NY,68.9,160.9
+SSC-REG,subject_7792,Theresa,Ryan,1982-11-22,Not Hispanic or Latino,Female,White,SSc,IL,66.9,146.4
+SSC-REG,subject_8234,Joyce,Matthews,1987-09-20,Not Hispanic or Latino,Female,Black or African American,SSc,CA,154.7,147.2
+SSC-REG,subject_8580,Laura,Bell,1951-12-21,Not Hispanic or Latino,Female,Other,SSc,MI,154.4,91.5
+SSC-REG,subject_7940,Valerie,Simmons,1989-09-25,Not Hispanic or Latino,Female,White,SSc,WI,63.2,153.0
+SSC-REG,subject_6937,Emily,Carter,1983-05-10,Not Hispanic or Latino,Female,Other,SSc,OH,65.9,155.6
+SSC-REG,subject_8147,Julia,Ross,1959-11-24,Not Hispanic or Latino,Female,Black or African American,SSc,WI,64.7,178.0
+SSC-REG,subject_5629,Amber,Burgess,1964-08-10,Not Hispanic or Latino,Female,White,SSc,OH,66.4,150.6
+SSC-REG,subject_3774,Christine,White,1978-02-15,Not Hispanic or Latino,Female,Black or African American,SSc,NY,63.9,138.1
+SSC-REG,subject_2124,Sandra,Carroll,1962-09-14,Not Hispanic or Latino,Female,Black or African American,SSc,CA,166.1,176.4
+SSC-REG,subject_3584,Susan,Franklin,1958-06-22,Not Hispanic or Latino,Female,Black or African American,SSc,MI,60.6,212.6
+SSC-REG,subject_8060,Grace,Webb,1958-01-09,Not Hispanic or Latino,Female,White,SSc,CA,141.8,139.3
+SSC-REG,subject_4916,Dolores,Garza,1966-07-20,Hispanic or Latino,Female,White,SSc,NY,69.7,144.5
+SSC-REG,subject_8047,Sungmin,Kumar,1970-07-17,Not Hispanic or Latino,Male,Asian,SSc,CA,70.6,170.8
+SSC-REG,subject_5002,Julian,Lane,1982-12-23,Not Hispanic or Latino,Male,Black or African American,SSc,TX,163.5,157.8
+SSC-REG,subject_4343,Mika,Ma,1971-06-10,Not Hispanic or Latino,Female,Asian,SSc,OH,61.6,129.8
+SSC-REG,subject_6988,Charlotte,Burns,1970-07-25,Not Hispanic or Latino,Female,White,SSc,NY,58.6,139.3
+SSC-REG,subject_6707,Margaret,Hicks,1952-03-08,Not Hispanic or Latino,Female,Black or African American,SSc,OH,173.0,179.2
+SSC-REG,subject_6825,Brenda,West,1975-02-17,Not Hispanic or Latino,Female,White,SSc,IN,63.7,186.2
+SSC-REG,subject_8520,Helen,Anderson,1969-06-17,Not Hispanic or Latino,Female,White,SSc,OH,163.0,159.9
+SSC-REG,subject_3662,Bora,Guo,1985-03-30,Not Hispanic or Latino,Female,Asian,SSc,NY,71.2,130.4
+SSC-REG,subject_5478,Nandini,Joshi,1955-10-13,Not Hispanic or Latino,Female,Asian,SSc,TX,62.0,138.4
+SSC-REG,subject_4541,Kathleen,Mason,1957-05-25,Not Hispanic or Latino,Female,Black or African American,SSc,CA,63.1,221.2
+SSC-REG,subject_3302,Alicia,Sanchez,1947-08-03,Hispanic or Latino,Female,Asian,SSc,NY,68.4,141.2
+SSC-REG,subject_5620,Jean,Thompson,1969-11-20,Not Hispanic or Latino,Female,White,SSc,CA,64.5,205.0
+SSC-REG,subject_7563,Maya,Marks,1983-03-25,Not Hispanic or Latino,Female,Black or African American,SSc,MI,68.1,143.4
+SSC-REG,subject_5159,Caleb,Price,1984-04-20,Not Hispanic or Latino,Male,White,SSc,TX,178.2,202.0
+SSC-REG,subject_7541,Maya,Rogers,1971-03-22,Not Hispanic or Latino,Female,White,SSc,CA,60.6,151.9
+SSC-REG,subject_4327,Heather,Green,1961-01-17,Not Hispanic or Latino,Female,White,SSc,CA,56.3,200.4
+SSC-REG,subject_2638,Eric,Walsh,1953-11-01,Not Hispanic or Latino,Male,Black or African American,SSc,IL,61.3,181.7
+SSC-REG,subject_5609,Alyssa,Wallace,1949-04-07,Not Hispanic or Latino,Female,White,SSc,NY,66.1,222.5
+SSC-REG,subject_5812,Cynthia,Russell,1963-08-06,Not Hispanic or Latino,Female,Black or African American,SSc,CA,63.6,94.0
+SSC-REG,subject_3456,Evelyn,Ferguson,1952-07-09,Not Hispanic or Latino,Female,White,SSc,WI,57.7,210.2
+SSC-REG,subject_6783,Valeria,Diaz,1974-01-01,Hispanic or Latino,Female,Black or African American,SSc,CA,65.4,127.7
+SSC-REG,subject_7879,Marta,Mendoza,1980-11-12,Hispanic or Latino,Female,White,SSc,CA,64.4,163.4
+SSC-REG,subject_6911,Rose,Richards,1960-06-01,Not Hispanic or Latino,Female,Black or African American,SSc,WI,64.3,209.6
+SSC-REG,subject_6486,Linda,Bailey,1960-05-22,Not Hispanic or Latino,Female,White,SSc,CA,60.9,155.7
+SSC-REG,subject_8341,Carolyn,Reynolds,1952-12-12,Not Hispanic or Latino,Female,White,SSc,NY,66.4,201.2
+SSC-REG,subject_2553,Frank,Brady,1961-12-14,Not Hispanic or Latino,Male,White,SSc,IN,73.1,158.4
+SSC-REG,subject_7001,Joyce,Carpenter,1963-12-11,Not Hispanic or Latino,Female,White,SSc,MI,62.5,214.0
+SSC-REG,subject_5298,Camila,Guerrero,1967-07-21,Hispanic or Latino,Female,White,SSc,WI,59.8,136.4
+SSC-REG,subject_5103,Sara,Ross,1949-01-22,Not Hispanic or Latino,Female,White,SSc,CA,64.2,165.2
+SSC-REG,subject_4323,Travis,Franklin,1963-04-16,Not Hispanic or Latino,Male,Other,SSc,IL,66.5,216.3
+SSC-REG,subject_4808,Claudia,Rios,1982-01-13,Hispanic or Latino,Female,Asian,SSc,CA,64.5,212.7
+SSC-REG,subject_4927,Adrian,Carroll,1984-11-28,Not Hispanic or Latino,Male,White,SSc,CA,65.3,128.7
+SSC-REG,subject_6455,Walter,Bishop,1977-07-23,Not Hispanic or Latino,Male,White,SSc,IN,70.8,161.4
+SSC-REG,subject_8294,Randy,Jackson,1961-06-30,Not Hispanic or Latino,Male,White,SSc,IL,65.7,246.1
+SSC-REG,subject_5465,Abigail,Bailey,1973-05-04,Not Hispanic or Latino,Female,Black or African American,SSc,CA,61.5,133.8
+SSC-REG,subject_3466,Kimberly,Schmidt,1977-05-28,Not Hispanic or Latino,Female,White,SSc,CA,61.3,183.7
+SSC-REG,subject_4453,Amber,Jackson,1965-07-23,Not Hispanic or Latino,Female,White,SSc,CA,151.0,89.6
+SSC-REG,subject_6564,Teresa,Medina,1973-09-29,Hispanic or Latino,Female,Black or African American,SSc,CA,64.7,170.2
+SSC-REG,subject_3428,Linda,Wallace,1975-04-23,Not Hispanic or Latino,Female,White,SSc,IN,63.7,163.5
+SSC-REG,subject_6537,Victoria,Rogers,1987-04-10,Not Hispanic or Latino,Female,White,SSc,IN,63.6,204.7
+SSC-REG,subject_5249,Eunji,Kobayashi,1984-01-04,Not Hispanic or Latino,Female,Asian,SSc,IL,60.8,160.5
+SSC-REG,subject_8599,Alberto,Ortega,1956-03-08,Hispanic or Latino,Male,White,SSc,CA,64.4,262.3
+SSC-REG,subject_8798,Linda,Gordon,1967-01-30,Not Hispanic or Latino,Female,White,SSc,OH,62.1,164.6
+SSC-REG,subject_4038,Isabella,Nichols,1978-09-10,Not Hispanic or Latino,Female,Black or African American,SSc,CA,165.8,171.1
+SSC-REG,subject_8425,Miles,Burns,1964-04-25,Not Hispanic or Latino,Male,Black or African American,SSc,TX,174.9,160.5
+SSC-REG,subject_2135,Debra,Moran,1987-05-08,Not Hispanic or Latino,Female,White,SSc,CA,160.4,144.8
+SSC-REG,subject_8243,Ines,Ruiz,1983-05-19,Hispanic or Latino,Female,White,SSc,CA,62.4,125.5
+SSC-REG,subject_4275,Amanda,Baldwin,1950-05-05,Not Hispanic or Latino,Female,Black or African American,SSc,OH,64.4,141.7
+SSC-REG,subject_6632,Donna,Walsh,1956-04-13,Not Hispanic or Latino,Female,White,SSc,CA,62.2,112.7
+SSC-REG,subject_2072,Talia,Hill,1985-08-29,Not Hispanic or Latino,Female,White,SSc,OH,60.6,184.8
+SSC-REG,subject_3618,Marilyn,Berry,1982-11-15,Not Hispanic or Latino,Female,White,SSc,IN,67.7,121.3
+SSC-REG,subject_7447,Naomi,Wright,1984-03-08,Not Hispanic or Latino,Female,White,SSc,WI,62.5,192.0
+SSC-REG,subject_4896,Danielle,Mitchell,1976-03-23,Not Hispanic or Latino,Female,Black or African American,SSc,IL,63.3,114.7
+SSC-REG,subject_3164,Victoria,Hall,1979-01-24,Not Hispanic or Latino,Female,White,SSc,CA,63.3,175.4
+SSC-REG,subject_6745,Catherine,Chapman,1971-08-24,Not Hispanic or Latino,Female,Other,SSc,CA,57.4,161.5
+SSC-REG,subject_5675,Lillian,Cox,1984-10-11,Not Hispanic or Latino,Female,Black or African American,SSc,MI,64.0,147.6
+SSC-REG,subject_4256,Nicole,Hunter,1955-02-01,Not Hispanic or Latino,Female,White,SSc,MI,162.9,133.5
+SSC-REG,subject_2677,Carolyn,Hansen,1977-08-07,Not Hispanic or Latino,Female,White,SSc,IN,67.4,183.9
+SSC-REG,subject_6983,Ashley,Howard,1962-04-08,Not Hispanic or Latino,Female,White,SSc,NY,66.7,147.4
+SSC-REG,subject_6795,Janice,Ryan,1967-04-14,Not Hispanic or Latino,Female,White,SSc,NY,157.1,145.5
+SSC-REG,subject_4377,Taehyun,Pham,1969-03-17,Not Hispanic or Latino,Male,Asian,SSc,CA,66.5,177.9
+SSC-REG,subject_7660,Erica,White,1964-10-10,Not Hispanic or Latino,Female,Black or African American,SSc,MI,168.8,187.4
+SSC-REG,subject_3949,Sharon,Walker,1960-02-03,Not Hispanic or Latino,Female,Black or African American,SSc,IN,64.5,88.3
+SSC-REG,subject_4856,Sarah,Phillips,1960-03-08,Not Hispanic or Latino,Female,Other,SSc,CA,68.2,162.4
+SSC-REG,subject_4400,Jordan,Lewis,1984-12-11,Not Hispanic or Latino,Male,White,SSc,IL,66.9,205.7
+SSC-REG,subject_3301,Jerry,Knight,1953-12-06,Not Hispanic or Latino,Male,White,SSc,CA,68.9,193.1
+SSC-REG,subject_5650,Cynthia,Adams,1981-06-16,Not Hispanic or Latino,Female,White,SSc,CA,69.2,174.0
+SSC-REG,subject_2246,Kayla,Morris,1962-11-07,Not Hispanic or Latino,Female,White,SSc,WI,65.1,165.5
+SSC-REG,subject_5061,Bobby,Johnson,1959-09-07,Not Hispanic or Latino,Male,Black or African American,SSc,IL,68.9,253.6
+SSC-REG,subject_6099,Sophia,Jordan,1986-04-28,Not Hispanic or Latino,Female,White,SSc,IL,60.5,141.9
+SSC-REG,subject_8948,Alicia,Rios,1963-07-21,Hispanic or Latino,Female,White,SSc,CA,64.8,119.9
+SSC-REG,subject_5490,Benjamin,Williams,1982-04-02,Not Hispanic or Latino,Male,White,SSc,CA,67.9,170.4
+SSC-REG,subject_4283,Barbara,Long,1981-09-24,Not Hispanic or Latino,Female,White,SSc,CA,70.6,139.7
+SSC-REG,subject_2308,Benjamin,Hicks,1958-02-04,Not Hispanic or Latino,Male,White,SSc,CA,65.1,133.9
+SSC-REG,subject_3237,Leah,Robinson,1946-11-16,Not Hispanic or Latino,Female,White,SSc,OH,64.9,128.6
+SSC-REG,subject_4990,Joyce,Gardner,1974-12-09,Not Hispanic or Latino,Female,Black or African American,SSc,TX,67.3,126.1
+SSC-REG,subject_5197,Theresa,King,1970-01-07,Not Hispanic or Latino,Female,Black or African American,SSc,NY,61.3,162.4
+SSC-REG,subject_5945,Janice,Hines,1955-09-18,Not Hispanic or Latino,Female,White,SSc,CA,68.9,159.3
+SSC-REG,subject_6945,Christina,Robinson,1965-02-14,Not Hispanic or Latino,Female,Other,SSc,CA,67.5,156.0
+SSC-REG,subject_6447,Gavin,Bishop,1963-04-09,Not Hispanic or Latino,Male,White,SSc,OH,66.8,227.7
+SSC-REG,subject_6429,Emily,Myers,1966-01-03,Not Hispanic or Latino,Female,White,SSc,CA,67.0,147.5
+SSC-REG,subject_8895,Ivy,Ryan,1962-10-24,Not Hispanic or Latino,Female,White,SSc,CA,63.7,108.2
+SSC-REG,subject_6977,Jennifer,Wells,1978-06-20,Not Hispanic or Latino,Female,White,SSc,IL,70.4,181.1
+SSC-REG,subject_5301,Tanvi,Zhang,1983-06-09,Not Hispanic or Latino,Female,Asian,SSc,CA,67.8,142.1
+SSC-REG,subject_4671,Duy,Tang,1981-03-27,Not Hispanic or Latino,Male,Asian,SSc,CA,69.4,234.1
+SSC-REG,subject_8864,George,Holmes,1990-05-11,Not Hispanic or Latino,Male,Black or African American,SSc,OH,68.1,149.5
+SSC-REG,subject_4684,Hai,Yang,1982-10-09,Not Hispanic or Latino,Male,Asian,SSc,CA,68.6,171.8
+SSC-REG,subject_2909,Stephen,Hamilton,1987-11-09,Not Hispanic or Latino,Male,White,SSc,CA,72.2,198.8
+SSC-REG,subject_6343,Stephanie,Ross,1963-11-27,Not Hispanic or Latino,Female,Black or African American,SSc,CA,66.9,130.6
+SSC-REG,subject_6280,Roy,Elliott,1969-05-17,Not Hispanic or Latino,Male,Other,SSc,IN,69.0,147.7
+SSC-REG,subject_5915,Marie,Perry,1963-01-24,Not Hispanic or Latino,Female,Black or African American,SSc,TX,69.3,163.2
+SSC-REG,subject_4313,Anil,Lee,1967-05-22,Not Hispanic or Latino,Male,Asian,SSc,CA,69.4,174.4
+SSC-REG,subject_5744,Theresa,Olson,1947-08-05,Not Hispanic or Latino,Female,White,SSc,TX,67.3,109.5
+SSC-REG,subject_3374,Stephanie,Griffin,1957-11-29,Not Hispanic or Latino,Female,Black or African American,SSc,CA,61.8,161.0
+SSC-REG,subject_5936,Melissa,Hughes,1963-07-08,Not Hispanic or Latino,Female,Other,SSc,TX,67.5,150.8
+SSC-REG,subject_8638,Lorena,Pena,1970-12-27,Hispanic or Latino,Female,Asian,SSc,CA,63.6,145.8
+SSC-REG,subject_2150,Madison,Arnold,1962-11-01,Not Hispanic or Latino,Female,Black or African American,SSc,WI,164.9,140.2
+SSC-REG,subject_8884,Jose,Alvarez,1979-03-25,Hispanic or Latino,Male,White,SSc,CA,68.8,206.0
+SSC-REG,subject_2676,Teresa,Edwards,1983-04-03,Not Hispanic or Latino,Female,White,SSc,CA,59.7,198.5
+SSC-REG,subject_7876,Molly,Kelley,1957-03-25,Not Hispanic or Latino,Female,White,SSc,CA,65.6,195.0
+SSC-REG,subject_5592,Ivy,Dixon,1966-01-01,Not Hispanic or Latino,Female,Black or African American,SSc,OH,168.5,132.8
+SSC-REG,subject_6410,Beverly,Tucker,1982-12-18,Not Hispanic or Latino,Female,White,SSc,CA,60.0,155.7
+SSC-REG,subject_4027,Jiyoon,Choi,1987-10-15,Not Hispanic or Latino,Female,Asian,SSc,CA,63.8,180.6
+SSC-REG,subject_2832,Christine,Jones,1977-12-22,Not Hispanic or Latino,Female,White,SSc,WI,155.1,167.8
+SSC-REG,subject_8058,Molly,Bell,1980-12-04,Not Hispanic or Latino,Female,Black or African American,SSc,MI,154.8,217.7
+SSC-REG,subject_2663,Hyejin,Sato,1985-08-22,Not Hispanic or Latino,Female,Asian,SSc,CA,162.1,126.1
+SSC-REG,subject_6941,Lauren,West,1986-05-21,Not Hispanic or Latino,Female,White,SSc,CA,59.5,160.2
+SSC-REG,subject_5282,Valerie,Pruitt,1951-12-11,Not Hispanic or Latino,Female,Other,SSc,IL,59.5,192.6
+SSC-REG,subject_2798,Maya,Fox,1960-07-15,Not Hispanic or Latino,Female,Black or African American,SSc,WI,160.2,115.2
+SSC-REG,subject_3836,Lauren,Baldwin,1982-08-15,Not Hispanic or Latino,Female,Black or African American,SSc,IL,63.2,191.4
+SSC-REG,subject_7297,Nancy,Hayes,1961-05-08,Not Hispanic or Latino,Female,Other,SSc,MI,66.4,157.6
+SSC-REG,subject_5403,Erica,Alexander,1974-05-04,Not Hispanic or Latino,Female,Black or African American,SSc,IL,60.9,191.9
+SSC-REG,subject_4648,Kayla,Ryan,1984-07-24,Not Hispanic or Latino,Female,White,SSc,TX,62.3,138.4
+SSC-REG,subject_2302,Danielle,Fox,1951-02-03,Not Hispanic or Latino,Female,White,SSc,MI,167.6,138.5
+SSC-REG,subject_2548,Rose,Watkins,1988-09-23,Not Hispanic or Latino,Female,White,SSc,CA,63.9,168.7
+SSC-REG,subject_7760,Sandra,Phillips,1979-05-24,Not Hispanic or Latino,Female,White,SSc,WI,66.2,192.8
+SSC-REG,subject_7043,Margaret,Green,1980-11-18,Not Hispanic or Latino,Female,White,SSc,CA,159.5,183.5
+SSC-REG,subject_4560,Bobby,Fox,1957-02-17,Not Hispanic or Latino,Male,White,SSc,CA,156.6,134.3
+SSC-REG,subject_6265,Gabriel,Edwards,1965-09-14,Not Hispanic or Latino,Male,White,SSc,TX,72.8,171.7
+SSC-REG,subject_4926,Liliana,Nunez,1958-12-19,Hispanic or Latino,Female,White,SSc,NY,62.3,131.1
+SSC-REG,subject_8185,Kimberly,Lane,1987-08-14,Not Hispanic or Latino,Female,White,SSc,CA,160.6,173.7
+SSC-REG,subject_8886,Rosa,Vazquez,1956-06-26,Hispanic or Latino,Female,Other,SSc,TX,60.8,116.5
+SSC-REG,subject_3212,Charlotte,Hayes,1949-08-20,Not Hispanic or Latino,Female,White,SSc,TX,62.6,126.7
+SSC-REG,subject_2009,Abigail,Gardner,1986-03-30,Not Hispanic or Latino,Female,Black or African American,SSc,IL,66.0,132.0
+SSC-REG,subject_7785,Yuna,Hoang,1971-06-18,Not Hispanic or Latino,Female,Asian,SSc,TX,67.4,172.7
+SSC-REG,subject_6867,Rose,Graham,1967-05-07,Not Hispanic or Latino,Female,Other,SSc,CA,63.1,172.3
+SSC-REG,subject_2496,Lisa,Schmidt,1986-01-02,Not Hispanic or Latino,Female,Black or African American,SSc,NY,59.8,183.3
+SSC-REG,subject_6589,Jessica,Wells,1989-10-28,Not Hispanic or Latino,Female,White,SSc,CA,170.1,139.4
+SSC-REG,subject_4368,Naomi,Wagner,1956-09-30,Not Hispanic or Latino,Female,Other,SSc,CA,64.7,120.3
+SSC-REG,subject_6175,Betty,Carroll,1956-05-24,Not Hispanic or Latino,Female,White,SSc,IL,61.6,198.3
+SSC-REG,subject_2540,Heather,Grant,1977-05-27,Not Hispanic or Latino,Female,White,SSc,IN,64.1,160.2
+SSC-REG,subject_6268,Robert,Moore,1965-12-30,Not Hispanic or Latino,Male,White,SSc,IL,71.0,182.3
+SSC-REG,subject_2724,Andrea,Spencer,1944-12-09,Not Hispanic or Latino,Female,Other,SSc,MI,168.4,168.1
+SSC-REG,subject_2233,Evelyn,Hall,1974-05-09,Not Hispanic or Latino,Female,Black or African American,SSc,IL,63.6,217.2
+SSC-REG,subject_3448,Scott,Kelly,1965-06-13,Not Hispanic or Latino,Male,White,SSc,CA,66.9,207.8
+SSC-REG,subject_4978,Beverly,Cross,1959-02-09,Not Hispanic or Latino,Female,White,SSc,IN,69.8,172.2
+SSC-REG,subject_8378,Rose,Sanders,1955-07-08,Not Hispanic or Latino,Female,White,SSc,MI,64.9,175.7
+SSC-REG,subject_3287,Kayla,Tucker,1961-03-01,Not Hispanic or Latino,Female,Other,SSc,IN,62.7,143.8
+SSC-REG,subject_4596,Lauren,Doyle,1961-09-21,Not Hispanic or Latino,Female,White,SSc,OH,65.1,177.1
+SSC-REG,subject_2886,Lan,Sato,1972-10-15,Not Hispanic or Latino,Female,Asian,SSc,OH,152.1,183.4
+SSC-REG,subject_5917,Sara,Ryan,1956-01-03,Not Hispanic or Latino,Female,White,SSc,CA,66.2,196.2
+SSC-REG,subject_8639,Bora,Jung,1978-10-14,Not Hispanic or Latino,Female,Asian,SSc,CA,149.8,168.4
+SSC-REG,subject_7896,Andrea,Newton,1948-10-10,Not Hispanic or Latino,Female,Black or African American,SSc,CA,65.4,178.9
+SSC-REG,subject_3202,Michelle,White,1966-11-16,Not Hispanic or Latino,Female,White,SSc,MI,160.6,153.5
+SSC-REG,subject_7496,Lin,Nguyen,1957-11-29,Not Hispanic or Latino,Female,Asian,SSc,MI,64.2,182.9
+SSC-REG,subject_5659,Lauren,Newton,1969-07-14,Not Hispanic or Latino,Female,Other,SSc,OH,64.4,138.0
+SSC-REG,subject_2951,Evelyn,Cook,1982-12-27,Not Hispanic or Latino,Female,White,SSc,CA,62.5,168.1
+SSC-REG,subject_3381,Arthur,Perry,1981-10-11,Not Hispanic or Latino,Male,White,SSc,CA,174.8,198.6
+SSC-REG,subject_2942,Pamela,Reynolds,1981-09-19,Not Hispanic or Latino,Female,White,SSc,CA,60.6,120.2
+SSC-REG,subject_5402,Zachary,Wilson,1970-04-06,Not Hispanic or Latino,Male,White,SSc,WI,174.7,153.5
+SSC-REG,subject_5237,Judith,Stone,1951-11-03,Not Hispanic or Latino,Female,White,SSc,MI,65.5,182.1
+SSC-REG,subject_4624,Natalie,Doyle,1953-11-07,Not Hispanic or Latino,Female,White,SSc,IN,157.6,116.9
+SSC-REG,subject_5326,Judy,Henry,1957-02-20,Not Hispanic or Latino,Female,White,SSc,CA,62.7,159.3
+SSC-REG,subject_5158,Diana,Watkins,1950-01-14,Not Hispanic or Latino,Female,Other,SSc,TX,66.2,99.5
+SSC-REG,subject_4290,Gerald,Murphy,1966-06-19,Not Hispanic or Latino,Male,White,SSc,OH,67.0,232.4
+SSC-REG,subject_5056,Seoyeon,Huynh,1972-01-03,Not Hispanic or Latino,Female,Asian,SSc,MI,63.9,241.9
+SSC-REG,subject_8930,Gloria,Tucker,1958-05-08,Not Hispanic or Latino,Female,White,SSc,CA,54.7,216.7
+SSC-REG,subject_4773,Melissa,Jenkins,1969-09-22,Not Hispanic or Latino,Female,White,SSc,CA,63.0,162.2
+SSC-REG,subject_6654,Megan,Martin,1988-11-12,Not Hispanic or Latino,Female,Black or African American,SSc,CA,60.3,163.8
+SSC-REG,subject_7856,Sana,Cho,1973-03-17,Not Hispanic or Latino,Female,Asian,SSc,CA,64.9,185.4
+SSC-REG,subject_7585,Christopher,James,1945-12-26,Not Hispanic or Latino,Male,Black or African American,SSc,IN,70.4,209.8
+SSC-REG,subject_3780,Rose,Bowers,1965-12-14,Not Hispanic or Latino,Female,White,SSc,NY,65.9,115.8
+SSC-REG,subject_8498,Paige,Berry,1987-06-01,Not Hispanic or Latino,Female,White,SSc,CA,62.3,167.3
+SSC-REG,subject_4794,Mary,Doyle,1951-06-16,Not Hispanic or Latino,Female,Other,SSc,CA,62.8,123.7
+SSC-REG,subject_6256,Ashley,Fowler,1978-06-07,Not Hispanic or Latino,Female,White,SSc,CA,64.1,146.6
+SSC-REG,subject_3002,Maya,Fowler,1953-05-17,Not Hispanic or Latino,Female,White,SSc,CA,163.3,126.9
+SSC-REG,subject_4001,Susan,Carter,1950-09-16,Not Hispanic or Latino,Female,White,SSc,TX,66.6,110.7
+SSC-REG,subject_2636,Victoria,Elliott,1963-06-05,Not Hispanic or Latino,Female,Black or African American,SSc,TX,69.3,118.9
+SSC-REG,subject_2699,Alice,Pruitt,1945-12-13,Not Hispanic or Latino,Female,Black or African American,SSc,NY,71.0,123.9
+SSC-REG,subject_3839,Brittany,Hart,1978-03-10,Not Hispanic or Latino,Female,White,SSc,IN,64.0,154.0
+SSC-REG,subject_7201,Teresa,Phillips,1980-11-03,Not Hispanic or Latino,Female,White,SSc,CA,64.7,125.3
+SSC-REG,subject_7626,Carmen,Rios,1963-04-05,Hispanic or Latino,Female,White,SSc,OH,62.8,246.2
+SSC-REG,subject_4145,Mason,Carroll,1954-06-28,Not Hispanic or Latino,Male,Other,SSc,CA,71.9,194.6
+SSC-REG,subject_8754,Sandra,Ellis,1963-04-26,Not Hispanic or Latino,Female,White,SSc,MI,65.2,145.1
+SSC-REG,subject_2005,Victor,Doyle,1979-05-25,Not Hispanic or Latino,Male,White,SSc,CA,68.3,223.5
+SSC-REG,subject_5954,Alicia,Santos,1972-01-12,Hispanic or Latino,Female,Asian,SSc,CA,63.5,162.3
+SSC-REG,subject_2558,Amber,Brady,1951-11-12,Not Hispanic or Latino,Female,Black or African American,SSc,CA,61.8,184.7
+SSC-REG,subject_5267,Lillian,Martin,1984-09-12,Not Hispanic or Latino,Female,White,SSc,TX,166.2,184.5
+SSC-REG,subject_7898,Erica,Wallace,1956-11-10,Not Hispanic or Latino,Female,White,SSc,WI,62.5,156.8
+SSC-REG,subject_3012,Susan,Richards,1965-01-10,Not Hispanic or Latino,Female,White,SSc,CA,65.8,143.5
+SSC-REG,subject_8225,Charlotte,Long,1967-09-10,Not Hispanic or Latino,Female,White,SSc,IN,65.8,126.2
+SSC-REG,subject_7356,Debra,Russell,1976-07-20,Not Hispanic or Latino,Female,Black or African American,SSc,MI,159.6,136.5
+SSC-REG,subject_4872,Liam,Dunn,1968-11-08,Not Hispanic or Latino,Male,White,SSc,TX,64.8,185.4
+SSC-REG,subject_2562,Valerie,Hamilton,1965-10-05,Not Hispanic or Latino,Female,White,SSc,CA,61.9,222.6
+SSC-REG,subject_6419,Lisa,Willis,1964-08-27,Not Hispanic or Latino,Female,White,SSc,IN,64.2,145.4
+SSC-REG,subject_5746,Vivian,Bishop,1976-03-17,Not Hispanic or Latino,Female,Other,SSc,TX,66.1,154.6
+SSC-REG,subject_7544,Kimberly,Chapman,1980-10-11,Not Hispanic or Latino,Female,White,SSc,IN,61.6,229.9
+SSC-REG,subject_7720,Debra,Holt,1981-11-19,Not Hispanic or Latino,Female,White,SSc,IN,175.2,176.6
+SSC-REG,subject_3426,Linda,Walsh,1962-07-23,Not Hispanic or Latino,Female,Black or African American,SSc,MI,62.7,178.4
+SSC-REG,subject_3594,Satoshi,Zhao,1962-07-08,Not Hispanic or Latino,Male,Asian,SSc,CA,71.3,152.7
+SSC-REG,subject_5226,Teresa,Vasquez,1950-10-20,Hispanic or Latino,Female,Black or African American,SSc,NY,63.8,134.6
+SSC-REG,subject_6916,Janet,Griffin,1970-04-16,Not Hispanic or Latino,Female,White,SSc,NY,63.8,189.6
+SSC-REG,subject_6153,Ruth,Edwards,1948-09-12,Not Hispanic or Latino,Female,White,SSc,CA,65.7,159.5
+SSC-REG,subject_6213,Sneha,Guo,1976-12-30,Not Hispanic or Latino,Female,Asian,SSc,WI,62.3,107.7
+SSC-REG,subject_2986,Janet,Hunt,1982-04-27,Not Hispanic or Latino,Female,Black or African American,SSc,IN,65.4,129.6
+SSC-REG,subject_2846,Bianca,Carroll,1978-01-12,Not Hispanic or Latino,Female,Black or African American,SSc,OH,60.4,178.7
+SSC-REG,subject_5577,Michelle,Franklin,1952-12-01,Not Hispanic or Latino,Female,White,SSc,WI,168.1,144.1
+SSC-REG,subject_3140,Cynthia,Griffin,1960-03-01,Not Hispanic or Latino,Female,Black or African American,SSc,OH,61.1,133.1
+SSC-REG,subject_6675,Alexander,Webb,1958-06-01,Not Hispanic or Latino,Male,White,SSc,CA,71.7,210.7
+SSC-REG,subject_4150,Christina,Nichols,1962-06-07,Not Hispanic or Latino,Female,White,SSc,TX,66.0,151.8
+SSC-REG,subject_6739,Sandra,Cox,1950-10-10,Not Hispanic or Latino,Female,White,SSc,MI,61.7,196.2
+SSC-REG,subject_2170,Aditi,Joshi,1950-11-02,Not Hispanic or Latino,Female,Asian,SSc,NY,60.9,54.7
+SSC-REG,subject_6940,Theresa,Cook,1981-02-08,Not Hispanic or Latino,Female,Other,SSc,CA,69.5,138.9
+SSC-REG,subject_2806,Catherine,Powell,1966-01-26,Not Hispanic or Latino,Female,White,SSc,CA,65.8,91.1
+SSC-REG,subject_6381,Alberto,Cuevas,1958-12-28,Hispanic or Latino,Male,Other,SSc,CA,68.1,197.0
+SSC-REG,subject_8175,Cristina,Valdez,1974-06-21,Hispanic or Latino,Female,White,SSc,TX,64.9,154.3
+SSC-REG,subject_8708,Erica,Meyer,1951-08-31,Not Hispanic or Latino,Female,Other,SSc,TX,67.4,133.4
+SSC-REG,subject_3622,Ann,Marks,1980-03-30,Not Hispanic or Latino,Female,Black or African American,SSc,CA,61.0,195.0
+SSC-REG,subject_4434,Ethan,Kelley,1978-03-07,Not Hispanic or Latino,Male,White,SSc,CA,68.8,203.2
+SSC-REG,subject_3252,Samantha,Brady,1969-03-21,Not Hispanic or Latino,Female,White,SSc,TX,66.1,153.1
+SSC-REG,subject_4335,Doris,Morgan,1964-07-27,Not Hispanic or Latino,Female,White,SSc,CA,63.5,145.1
+SSC-REG,subject_4789,Olivia,Sullivan,1955-04-24,Not Hispanic or Latino,Female,White,SSc,CA,65.4,148.0
+SSC-REG,subject_6761,Terry,Mitchell,1955-09-11,Not Hispanic or Latino,Male,Black or African American,SSc,IN,174.9,199.7
+SSC-REG,subject_5562,Betty,Wilson,1959-05-30,Not Hispanic or Latino,Female,Other,SSc,MI,61.8,197.3
+SSC-REG,subject_5073,Christopher,Rice,1981-04-03,Not Hispanic or Latino,Male,Black or African American,SSc,WI,74.6,159.6
+SSC-REG,subject_4105,Brenda,Rice,1952-03-15,Not Hispanic or Latino,Female,White,SSc,CA,66.9,156.9
+SSC-REG,subject_7273,Olivia,Miller,1968-05-03,Not Hispanic or Latino,Female,Other,SSc,IN,164.4,131.1
+SSC-REG,subject_5168,Ana,Navarro,1958-11-12,Hispanic or Latino,Female,Asian,SSc,CA,68.4,116.3
+SSC-REG,subject_3967,Nari,Wu,1947-12-19,Not Hispanic or Latino,Female,Asian,SSc,TX,67.9,159.7
+SSC-REG,subject_2598,Robert,Hudson,1954-08-15,Not Hispanic or Latino,Male,White,SSc,CA,73.9,222.9
+SSC-REG,subject_8159,Patricia,Anderson,1980-01-19,Not Hispanic or Latino,Female,White,SSc,NY,67.9,162.4
+SSC-REG,subject_4638,Louis,Cook,1970-02-05,Not Hispanic or Latino,Male,White,SSc,MI,161.0,191.3
+SSC-REG,subject_2927,Cody,Scott,1955-04-14,Not Hispanic or Latino,Male,White,SSc,CA,73.5,153.6
+SSC-REG,subject_5931,Sanjay,Park,1974-04-27,Not Hispanic or Latino,Male,Asian,SSc,MI,70.1,167.5
+SSC-REG,subject_2650,Liam,Alexander,1990-03-10,Not Hispanic or Latino,Male,Other,SSc,MI,67.2,177.1
+SSC-REG,subject_5417,Samantha,Jenkins,1947-12-19,Not Hispanic or Latino,Female,White,SSc,CA,56.6,125.7
+SSC-REG,subject_7219,Joan,Hayes,1957-06-10,Not Hispanic or Latino,Female,White,SSc,TX,67.2,144.0
+SSC-REG,subject_6747,Vivian,Olson,1951-12-03,Not Hispanic or Latino,Female,Black or African American,SSc,CA,62.3,130.7
+SSC-REG,subject_6890,Christopher,Perry,1983-08-07,Not Hispanic or Latino,Male,Black or African American,SSc,CA,73.8,231.2
+SSC-REG,subject_6193,Sarah,Miller,1971-09-14,Not Hispanic or Latino,Female,White,SSc,IN,164.0,187.3
+SSC-REG,subject_8896,Judy,Olson,1961-03-30,Not Hispanic or Latino,Female,Black or African American,SSc,CA,66.0,165.1
+SSC-REG,subject_8950,Isaac,Hamilton,1957-01-17,Not Hispanic or Latino,Male,White,SSc,CA,190.2,194.5
+SSC-REG,subject_8616,Monica,Pierce,1950-11-06,Not Hispanic or Latino,Female,White,SSc,CA,66.6,134.4
+SSC-REG,subject_5151,Janice,Morris,1961-07-06,Not Hispanic or Latino,Female,White,SSc,TX,64.9,191.4
+SSC-REG,subject_7420,Christine,Kelly,1973-01-15,Not Hispanic or Latino,Female,White,SSc,CA,65.2,203.9
+SSC-REG,subject_7943,Anna,Stevens,1979-01-10,Not Hispanic or Latino,Female,White,SSc,CA,155.4,111.5
+SSC-REG,subject_4355,Anthony,Shaw,1975-11-14,Not Hispanic or Latino,Male,Black or African American,SSc,MI,181.3,195.2
+SSC-REG,subject_2977,Charles,Murray,1950-07-11,Not Hispanic or Latino,Male,White,SSc,CA,67.5,162.1
+SSC-REG,subject_5484,Angel,Chavez,1974-04-08,Hispanic or Latino,Male,White,SSc,IL,70.4,163.8
+SSC-REG,subject_3434,Carol,Duncan,1983-12-29,Not Hispanic or Latino,Female,Black or African American,SSc,CA,66.2,159.0
+SSC-REG,subject_7461,Lisa,Anderson,1989-01-12,Not Hispanic or Latino,Female,Black or African American,SSc,NY,65.0,161.2
+SSC-REG,subject_4325,Bradley,Carter,1960-04-05,Not Hispanic or Latino,Male,White,SSc,CA,67.4,167.7
+SSC-REG,subject_8078,Kevin,Franklin,1950-11-13,Not Hispanic or Latino,Male,Black or African American,SSc,IN,67.9,201.3
+SSC-REG,subject_8780,Victoria,Matthews,1965-12-09,Not Hispanic or Latino,Female,Black or African American,SSc,CA,158.6,212.4
+SSC-REG,subject_5770,Jason,Mccoy,1966-08-21,Not Hispanic or Latino,Male,White,SSc,CA,71.0,190.6
+SSC-REG,subject_4428,Jiyoon,Iyer,1988-11-18,Not Hispanic or Latino,Female,Asian,SSc,CA,171.7,193.3
+SSC-REG,subject_4266,Evelyn,Reed,1975-11-04,Not Hispanic or Latino,Female,Black or African American,SSc,CA,152.7,204.7
+SSC-REG,subject_4209,Barbara,Taylor,1948-11-20,Not Hispanic or Latino,Female,White,SSc,CA,63.1,96.6
+SSC-REG,subject_8628,Joan,White,1981-07-01,Not Hispanic or Latino,Female,White,SSc,IL,64.0,139.6
+SSC-REG,subject_6016,Gerald,Davis,1982-02-15,Not Hispanic or Latino,Male,White,SSc,CA,67.8,255.0
+SSC-REG,subject_4499,Elena,Ramirez,1982-08-22,Hispanic or Latino,Female,Other,SSc,WI,64.6,207.9
+SSC-REG,subject_7788,Megan,Foster,1978-05-10,Not Hispanic or Latino,Female,White,SSc,WI,66.8,174.7
+SSC-REG,subject_6148,Cheryl,Ford,1976-06-15,Not Hispanic or Latino,Female,Black or African American,SSc,CA,69.5,211.7
+SSC-REG,subject_2185,Isaac,Newton,1975-09-15,Not Hispanic or Latino,Male,White,SSc,OH,72.9,224.2
+SSC-REG,subject_2823,Rose,Moore,1950-01-13,Not Hispanic or Latino,Female,Other,SSc,CA,66.3,117.8
+SSC-REG,subject_4898,Amy,Davis,1952-12-25,Not Hispanic or Latino,Female,Other,SSc,CA,64.3,155.6
+SSC-REG,subject_6030,Jean,Crawford,1972-04-02,Not Hispanic or Latino,Female,Black or African American,SSc,CA,61.1,122.7
+SSC-REG,subject_5046,Mary,Smith,1975-05-27,Not Hispanic or Latino,Female,Black or African American,SSc,CA,65.2,134.4
+SSC-REG,subject_8232,Andrea,Young,1955-05-10,Not Hispanic or Latino,Female,Black or African American,SSc,OH,64.1,125.2
+SSC-REG,subject_5322,Danielle,Shaw,1950-10-30,Not Hispanic or Latino,Female,White,SSc,WI,62.4,117.0
+SSC-REG,subject_2386,Angela,Sullivan,1980-02-28,Not Hispanic or Latino,Female,White,SSc,CA,64.6,141.9
+SSC-REG,subject_5981,Cheryl,Carroll,1953-10-13,Not Hispanic or Latino,Female,Black or African American,SSc,CA,67.3,168.9
+SSC-REG,subject_5427,Monica,Patterson,1986-09-16,Not Hispanic or Latino,Female,White,SSc,MI,66.6,143.3
+SSC-REG,subject_4513,Alejandra,Herrera,1971-02-18,Hispanic or Latino,Female,Black or African American,SSc,IL,156.1,121.3
+SSC-REG,subject_7418,Kavya,Yamamoto,1951-06-18,Not Hispanic or Latino,Female,Asian,SSc,IL,61.9,162.4
+SSC-REG,subject_6524,Evelyn,Grant,1971-09-26,Not Hispanic or Latino,Female,White,SSc,OH,67.8,145.4
+SSC-REG,subject_6691,Mary,Bell,1974-06-22,Not Hispanic or Latino,Female,White,SSc,CA,173.3,126.5
+SSC-REG,subject_5900,Ana,Vazquez,1965-05-05,Hispanic or Latino,Female,Black or African American,SSc,OH,67.1,191.3
+SSC-REG,subject_7445,Arthur,Mccoy,1950-01-21,Not Hispanic or Latino,Male,Black or African American,SSc,CA,75.5,129.0
+SSC-REG,subject_2883,Maya,Andrews,1952-03-25,Not Hispanic or Latino,Female,White,SSc,CA,159.6,165.3
+SSC-REG,subject_5020,Madison,Rose,1973-02-27,Not Hispanic or Latino,Female,White,SSc,IN,63.9,160.1
+SSC-REG,subject_4506,Melanie,Morris,1945-12-24,Not Hispanic or Latino,Female,White,SSc,CA,66.9,177.2
+SSC-REG,subject_3996,Naomi,Bishop,1961-01-08,Not Hispanic or Latino,Female,Other,SSc,TX,64.1,103.6
+SSC-REG,subject_6565,Catherine,Walker,1975-10-21,Not Hispanic or Latino,Female,White,SSc,OH,162.5,183.5
+SSC-REG,subject_4324,Patricia,Ramirez,1947-05-01,Hispanic or Latino,Female,Black or African American,SSc,OH,61.3,146.9
+SSC-REG,subject_8519,Radhika,Yamamoto,1975-08-07,Not Hispanic or Latino,Female,Asian,SSc,CA,65.8,172.8
+SSC-REG,subject_4980,Katherine,Dean,1960-03-21,Not Hispanic or Latino,Female,Black or African American,SSc,IN,63.6,152.5
+SSC-REG,subject_3085,Pamela,Andrews,1962-06-30,Not Hispanic or Latino,Female,White,SSc,IL,63.5,165.6
+SSC-REG,subject_2061,Barbara,Rose,1969-09-11,Not Hispanic or Latino,Female,White,SSc,OH,63.5,198.9
+SSC-REG,subject_8395,Deborah,Thompson,1971-12-30,Not Hispanic or Latino,Female,White,SSc,NY,67.0,207.1
+SSC-REG,subject_6871,Brenda,Ray,1977-10-16,Not Hispanic or Latino,Female,White,SSc,WI,153.4,144.6
+SSC-REG,subject_4577,Rina,Choi,1982-05-04,Not Hispanic or Latino,Female,Asian,SSc,WI,63.6,173.3
+SSC-REG,subject_3523,Jean,Gordon,1951-10-19,Not Hispanic or Latino,Female,White,SSc,MI,64.8,196.0
+SSC-REG,subject_8698,Alicia,Montoya,1966-02-01,Hispanic or Latino,Female,Black or African American,SSc,NY,58.3,145.7
+SSC-REG,subject_5948,Isabella,Porter,1953-06-10,Not Hispanic or Latino,Female,White,SSc,MI,68.7,207.5
+SSC-REG,subject_6170,Judith,Bishop,1953-08-21,Not Hispanic or Latino,Female,Other,SSc,CA,168.4,201.6
+SSC-REG,subject_5756,Ruth,Doyle,1984-03-03,Not Hispanic or Latino,Female,White,SSc,CA,153.0,176.4
+SSC-REG,subject_4152,Leah,Ward,1984-11-02,Not Hispanic or Latino,Female,White,SSc,TX,70.1,160.6
+SSC-REG,subject_3407,Manish,Lee,1968-04-22,Not Hispanic or Latino,Male,Asian,SSc,CA,69.4,192.8
+SSC-REG,subject_8763,Ashley,Grant,1954-01-04,Not Hispanic or Latino,Female,White,SSc,TX,63.0,149.7
+SSC-REG,subject_7609,Veronica,Acosta,1979-03-19,Hispanic or Latino,Female,White,SSc,NY,62.0,181.2
+SSC-REG,subject_3562,Abigail,Simpson,1952-02-11,Not Hispanic or Latino,Female,White,SSc,WI,60.5,172.0
+SSC-REG,subject_4550,Terry,Rice,1969-04-11,Not Hispanic or Latino,Male,Black or African American,SSc,CA,75.3,200.4
+SSC-REG,subject_7741,Donna,Greene,1958-12-15,Not Hispanic or Latino,Female,Black or African American,SSc,CA,62.5,150.3
+SSC-REG,subject_4398,Paige,Simpson,1945-06-08,Not Hispanic or Latino,Female,Black or African American,SSc,MI,65.6,152.7
+SSC-REG,subject_2624,Renata,Cuevas,1952-07-15,Hispanic or Latino,Female,White,SSc,TX,64.1,170.3
+SSC-REG,subject_8792,Bianca,King,1981-08-22,Not Hispanic or Latino,Female,White,SSc,CA,160.8,198.2
+SSC-REG,subject_7181,Katherine,Mccoy,1987-04-26,Not Hispanic or Latino,Female,Black or African American,SSc,IN,158.7,108.4
+SSC-REG,subject_8958,Peter,Taylor,1961-10-16,Not Hispanic or Latino,Male,White,SSc,OH,68.3,200.3
+SSC-REG,subject_7561,Felipe,Contreras,1990-12-15,Hispanic or Latino,Male,White,SSc,CA,66.1,177.1
+SSC-REG,subject_4977,Monica,Dixon,1960-09-28,Not Hispanic or Latino,Female,Other,SSc,NY,67.4,156.8
+SSC-REG,subject_8056,Carolina,Vasquez,1954-03-12,Hispanic or Latino,Female,White,SSc,NY,62.0,140.0
+SSC-REG,subject_7178,Kyle,Warren,1964-05-05,Not Hispanic or Latino,Male,Other,SSc,CA,150.7,228.8
+SSC-REG,subject_5500,Manuel,Chavez,1976-10-08,Hispanic or Latino,Male,Asian,SSc,OH,63.2,198.6
+SSC-REG,subject_8927,Isaac,Lane,1949-08-08,Not Hispanic or Latino,Male,White,SSc,IL,172.5,216.9
+SSC-REG,subject_5783,Katherine,Bennett,1984-01-29,Not Hispanic or Latino,Female,White,SSc,CA,60.5,90.6
+SSC-REG,subject_5131,Theresa,Bishop,1964-01-09,Not Hispanic or Latino,Female,Black or African American,SSc,CA,66.3,150.2
+SSC-REG,subject_5974,Valerie,Woods,1970-08-20,Not Hispanic or Latino,Female,White,SSc,CA,64.0,212.3
+SSC-REG,subject_8524,Isaac,Carter,1969-04-14,Not Hispanic or Latino,Male,White,SSc,CA,70.3,189.5
+SSC-REG,subject_4309,Rose,Burns,1986-08-24,Not Hispanic or Latino,Female,White,SSc,NY,63.9,158.1
+SSC-REG,subject_3998,Betty,Turner,1985-12-02,Not Hispanic or Latino,Female,White,SSc,CA,63.3,143.4
+SSC-REG,subject_5214,Byungho,Huynh,1970-03-14,Not Hispanic or Latino,Male,Asian,SSc,WI,72.4,200.7
+SSC-REG,subject_8496,Zachary,Arnold,1958-04-24,Not Hispanic or Latino,Male,White,SSc,IN,67.2,191.3
+SSC-REG,subject_5179,Maria,Hamilton,1969-06-06,Not Hispanic or Latino,Female,Black or African American,SSc,IN,64.0,183.3
+SSC-REG,subject_5407,Betty,Thomas,1972-01-19,Not Hispanic or Latino,Female,White,SSc,CA,64.9,153.5
+SSC-REG,subject_8327,Marie,Griffin,1974-02-26,Not Hispanic or Latino,Female,White,SSc,NY,66.2,151.3
+SSC-REG,subject_5260,Gabriela,Vazquez,1955-08-10,Hispanic or Latino,Female,Other,SSc,CA,64.6,110.1
+SSC-REG,subject_8602,Yuna,Sato,1977-09-12,Not Hispanic or Latino,Female,Asian,SSc,IL,67.0,169.8
+SSC-REG,subject_3907,Molly,Riley,1951-03-10,Not Hispanic or Latino,Female,White,SSc,TX,165.0,182.4
+SSC-REG,subject_2792,Juan,Hunter,1949-05-07,Not Hispanic or Latino,Male,White,SSc,CA,64.1,209.7
+SSC-REG,subject_3635,Molly,Evans,1958-07-09,Not Hispanic or Latino,Female,White,SSc,CA,61.0,173.4
+SSC-REG,subject_6245,Diane,Wood,1961-05-02,Not Hispanic or Latino,Female,Black or African American,SSc,CA,68.0,192.4
+SSC-REG,subject_4817,Anthony,Fox,1981-04-06,Not Hispanic or Latino,Male,Other,SSc,CA,65.0,175.1
+SSC-REG,subject_2586,Daniel,Wagner,1954-09-09,Not Hispanic or Latino,Male,White,SSc,CA,74.2,186.9
+SSC-REG,subject_3493,Ashley,Jones,1983-06-14,Not Hispanic or Latino,Female,White,SSc,OH,67.5,134.7
+SSC-REG,subject_4133,Melanie,Graham,1950-03-19,Not Hispanic or Latino,Female,White,SSc,OH,162.8,189.4
+SSC-REG,subject_5572,Jing,Nguyen,1966-09-29,Not Hispanic or Latino,Female,Asian,SSc,CA,61.2,137.9
+SSC-REG,subject_5466,Emma,Richardson,1955-05-31,Not Hispanic or Latino,Female,White,SSc,TX,62.3,151.9
+SSC-REG,subject_3264,Madison,Bradley,1964-04-01,Not Hispanic or Latino,Female,White,SSc,CA,67.4,127.2
+SSC-REG,subject_5506,Carolina,Chavez,1956-08-14,Hispanic or Latino,Female,White,SSc,CA,58.5,110.1
+SSC-REG,subject_4991,Cheryl,Ray,1971-10-08,Not Hispanic or Latino,Female,Other,SSc,WI,58.4,87.6
+SSC-REG,subject_3307,Laura,Simmons,1981-06-24,Not Hispanic or Latino,Female,White,SSc,IL,152.8,191.9
+SSC-REG,subject_6810,Andrea,Miller,1978-02-05,Not Hispanic or Latino,Female,Black or African American,SSc,CA,159.7,108.7
+SSC-REG,subject_5432,Elena,Rios,1961-09-08,Hispanic or Latino,Female,Black or African American,SSc,IN,152.9,220.4
+SSC-REG,subject_2855,Betty,Rice,1974-11-10,Not Hispanic or Latino,Female,Black or African American,SSc,CA,60.6,182.6
+SSC-REG,subject_2443,Nana,Ma,1966-09-02,Not Hispanic or Latino,Female,Asian,SSc,CA,63.9,199.3
+SSC-REG,subject_2274,Neha,Wang,1968-11-08,Not Hispanic or Latino,Female,Asian,SSc,TX,67.9,149.6
+SSC-REG,subject_5012,Megan,Patterson,1982-05-07,Not Hispanic or Latino,Female,White,SSc,NY,63.9,167.9
+SSC-REG,subject_3548,Ngoc,Hu,1981-03-28,Not Hispanic or Latino,Female,Asian,SSc,CA,62.6,187.1
+SSC-REG,subject_8517,Joan,Kelly,1968-10-16,Not Hispanic or Latino,Female,Black or African American,SSc,OH,65.9,107.6
+SSC-REG,subject_4454,Bianca,Gordon,1952-06-29,Not Hispanic or Latino,Female,Other,SSc,CA,63.3,156.6
+SSC-REG,subject_2667,Julie,Simpson,1951-07-12,Not Hispanic or Latino,Female,White,SSc,CA,60.2,203.1
+SSC-REG,subject_2260,Lorena,Mendez,1955-03-06,Hispanic or Latino,Female,White,SSc,CA,64.7,119.0
+SSC-REG,subject_7707,Heather,Boyd,1968-02-09,Not Hispanic or Latino,Female,Other,SSc,IL,63.1,124.1
+SSC-REG,subject_5585,Sharon,Berry,1956-09-25,Not Hispanic or Latino,Female,White,SSc,IN,63.6,151.6
+SSC-REG,subject_4822,Dennis,Stone,1974-04-02,Not Hispanic or Latino,Male,White,SSc,CA,72.2,215.4
+SSC-REG,subject_6014,Liliana,Gomez,1968-07-30,Hispanic or Latino,Female,White,SSc,NY,60.4,110.7
+SSC-REG,subject_7467,Angela,Long,1951-11-23,Not Hispanic or Latino,Female,White,SSc,CA,66.4,149.9
+SSC-REG,subject_8646,Ann,Arnold,1974-12-13,Not Hispanic or Latino,Female,Black or African American,SSc,CA,161.9,112.1
+SSC-REG,subject_3912,Ines,Solis,1972-08-17,Hispanic or Latino,Female,Black or African American,SSc,IL,64.3,139.6
+SSC-REG,subject_7702,Julie,Dean,1953-03-29,Not Hispanic or Latino,Female,White,SSc,CA,164.9,103.9
+SSC-REG,subject_4954,Jean,Thomas,1981-11-23,Not Hispanic or Latino,Female,White,SSc,TX,62.0,108.5
+SSC-REG,subject_6234,Qiao,Pham,1975-08-23,Not Hispanic or Latino,Female,Asian,SSc,CA,65.4,128.3
+SSC-REG,subject_2054,Alicia,Ramirez,1990-03-17,Hispanic or Latino,Female,White,SSc,IN,155.5,219.4
+SSC-REG,subject_4410,Kathleen,Gordon,1964-11-29,Not Hispanic or Latino,Female,White,SSc,NY,175.8,164.9
+SSC-REG,subject_8912,Hannah,Willis,1955-03-24,Not Hispanic or Latino,Female,White,SSc,NY,65.9,186.7
+SSC-REG,subject_6543,Sofia,Rivera,1967-05-30,Hispanic or Latino,Female,White,SSc,CA,62.0,185.5
+SSC-REG,subject_8241,Jeremy,Bell,1965-01-12,Not Hispanic or Latino,Male,Other,SSc,CA,172.8,274.0
+SSC-REG,subject_6274,Jordan,Johnston,1965-02-04,Not Hispanic or Latino,Male,White,SSc,CA,180.9,144.2
+SSC-REG,subject_7459,Alexander,Morris,1955-02-07,Not Hispanic or Latino,Male,Black or African American,SSc,CA,69.3,189.4
+SSC-REG,subject_5769,Kathleen,Roberts,1952-04-11,Not Hispanic or Latino,Female,White,SSc,MI,67.0,168.4
+SSC-REG,subject_2971,Heather,Bowers,1980-01-14,Not Hispanic or Latino,Female,White,SSc,OH,63.6,186.5
+SSC-REG,subject_5052,Linda,Barnes,1946-04-14,Not Hispanic or Latino,Female,White,SSc,TX,62.6,163.7
+SSC-REG,subject_5703,Nina,Harmon,1950-08-17,Not Hispanic or Latino,Female,Black or African American,SSc,TX,65.0,198.5
+SSC-REG,subject_4248,Yuna,Tanaka,1984-09-23,Not Hispanic or Latino,Female,Asian,SSc,MI,64.9,168.4
+SSC-REG,subject_3758,Deborah,Hughes,1949-12-12,Not Hispanic or Latino,Female,White,SSc,CA,65.8,107.7
+SSC-REG,subject_3483,Vivian,Simmons,1952-09-27,Not Hispanic or Latino,Female,White,SSc,CA,64.9,113.7
+SSC-REG,subject_3668,Son,Zhao,1945-10-22,Not Hispanic or Latino,Male,Asian,SSc,IL,68.7,192.8
+SSC-REG,subject_7826,Amy,King,1956-04-04,Not Hispanic or Latino,Female,White,SSc,IL,67.2,160.8
+SSC-REG,subject_2584,Justin,Baldwin,1954-08-17,Not Hispanic or Latino,Male,White,SSc,TX,69.8,210.1
+SSC-REG,subject_8015,Paula,Perez,1985-09-07,Hispanic or Latino,Female,White,SSc,CA,162.9,119.9
+SSC-REG,subject_3376,Mason,Alexander,1989-05-21,Not Hispanic or Latino,Male,White,SSc,OH,72.8,184.8
+SSC-REG,subject_8145,Ronald,Long,1955-01-14,Not Hispanic or Latino,Male,Black or African American,SSc,CA,171.7,178.2
+SSC-REG,subject_7815,Soojin,Joshi,1959-03-22,Not Hispanic or Latino,Female,Asian,SSc,CA,64.2,164.1
+SSC-REG,subject_8835,Sarah,Clark,1960-08-18,Not Hispanic or Latino,Female,Other,SSc,WI,71.1,176.4
+SSC-REG,subject_7063,Ivy,Wallace,1986-06-09,Not Hispanic or Latino,Female,Other,SSc,IN,58.3,113.9
+SSC-REG,subject_4462,Melanie,Wood,1969-08-01,Not Hispanic or Latino,Female,Black or African American,SSc,CA,63.2,121.5
+SSC-REG,subject_8090,Carolyn,Wilson,1945-08-24,Not Hispanic or Latino,Female,Other,SSc,OH,62.1,98.0
+SSC-REG,subject_6025,Gloria,Bailey,1982-01-08,Not Hispanic or Latino,Female,White,SSc,CA,66.6,138.8
+SSC-REG,subject_7789,Lillian,Fox,1954-01-16,Not Hispanic or Latino,Female,Black or African American,SSc,WI,65.3,113.2
+SSC-REG,subject_2190,Janice,Webb,1958-03-11,Not Hispanic or Latino,Female,White,SSc,CA,67.7,138.8
+SSC-REG,subject_4206,Patricia,Mitchell,1958-01-31,Not Hispanic or Latino,Female,White,SSc,NY,64.9,190.3
+SSC-REG,subject_6097,Adrian,Harris,1964-10-13,Not Hispanic or Latino,Male,White,SSc,CA,64.8,213.6
+SSC-REG,subject_5868,Elizabeth,Lawrence,1962-01-12,Not Hispanic or Latino,Female,Black or African American,SSc,WI,68.4,132.3
+SSC-REG,subject_7753,Stephanie,Johnson,1958-01-18,Not Hispanic or Latino,Female,Black or African American,SSc,IL,63.2,166.0
+SSC-REG,subject_7362,Ariana,Hunt,1969-11-26,Not Hispanic or Latino,Female,White,SSc,IL,64.3,141.1
+SSC-REG,subject_4414,Steven,Foster,1954-07-11,Not Hispanic or Latino,Male,Black or African American,SSc,CA,73.3,172.8
+SSC-REG,subject_3930,Martha,Wallace,1982-06-14,Not Hispanic or Latino,Female,Other,SSc,WI,66.8,133.4
+SSC-REG,subject_7723,Sarah,Rogers,1953-02-18,Not Hispanic or Latino,Female,White,SSc,CA,65.5,190.5
+SSC-REG,subject_6886,Lisa,Hunt,1975-05-09,Not Hispanic or Latino,Female,White,SSc,TX,63.2,177.8
+SSC-REG,subject_4211,Danielle,Gordon,1977-08-14,Not Hispanic or Latino,Female,White,SSc,IN,65.1,155.1

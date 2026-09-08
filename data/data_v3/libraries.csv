@@ -1,0 +1,919 @@
+reg_id,cell_viability,processing_date,comment,RNA isolation kit,Kit lot number,Elution vol (ul),Macrophage RNA Tube ID,Macrophage RNA Tube Location Box ID,Date of RNA QC,RNA volume for QC,RIN,RNA concentration (pg/ul),TS comment,TechCore comment,Sequence?,TapeStation assay type,ul for 250 pg,Complete?,Library prep date,Sample,RNA Tube ID,Library prep plate,RNAseq batch
+subject_3975,99.0,2018-02-11,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Norgen Single Cell RNA kit,161004778.0,16.0,303871963.0,TS01069817,2018-02-12,1.0,,895.0,RNA concentration outside recommended range for RINe; RINe edited,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,Pico RNA,6.24,Complete,2018-03-18,3975-SMP-03,303871963.0,G1,SCRIPT_RNAseq_Batch_03
+subject_8264,42.9,,,,,,,,,,,,,,No,,,,,,,,
+subject_5895,52.3,,,,,,,,,,,,,,,,,,,5895-SMP-05,,,
+subject_2952,46.0,,,,,,,,,,,,,,,,,,,2952-SMP-07,,,
+subject_2148,66.4,2016-04-01,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected),,,,,,,,7.6,1139.1,,,No,,,,,,,,
+subject_8317,50.0,,,,,,,,,,,,,,,,,,,,,,
+subject_7023,57.1,,,,,,,,,,,,,,,,,,,,,,
+subject_6455,57.0,,,,,,,,,,,,,,,,,,,,,,
+subject_3140,59.5,,,,,,,,,,,,,,,,,,,,,,
+subject_3149,76.8,,,,,,,,,,,,,,No,,,,,,,,
+subject_2462,58.3,,,,,,,,,,,,,,,,,,,,,,
+subject_2213,72.7,,,,,,,,,,,,,,No,,,,,,,,
+subject_8258,72.3,,,,,,,,,,,,,,,,,,,,,,
+subject_7341,,,,,,,,,,,,,,,,,,,,7341-SMP-00,,,
+subject_6446,,,,,,,,,,,,,,,,,,,,,,,
+subject_5881,78.1,,All 7 mL of sample were processed - cell count was too low to sort,,,,,,,,,,,,,,,,,,,,
+subject_5011,38.4,2020-07-15,Sample extremely-mucous like; small yield in cells and insufficient amount to sort,QIAGEN RNeasy Micro,170220164.0,14.0,300077928.0,TS01063219,2020-07-15,1.0,8.1,388.3,RNA concentration outside recommended range for RINe,Use for sequencing.,No,Standard RNA,1.69,Complete,2020-08-14,5011-SMP-05,300077928.0,F1,SCRIPT_RNAseq_Batch_03
+subject_2420,74.3,,,,,,,,,,,,,,,,,,,,,,
+subject_4437,47.2,2019-08-17,,,,,,,,,,,,,,,,,,,,,
+subject_8395,45.6,2016-10-03,,,,,,,,,,,,,,,,,,,,,
+subject_6337,60.3,,,,,,,,,,,,,,,,,,,6337-SMP-05,,,
+subject_2860,60.3,,RNA concentration outside recommended range for RINe,,,,,,,,,,,,,,,,,,,,
+subject_2846,60.3,,,,,,,,,,,,,,,,,,,2846-SMP-07,,,
+subject_2374,56.0,2017-06-11,,,,,,,,,,,,,,,,,,,,,
+subject_5666,75.1,,,,,,,,,,,,,,,,,,,,,,
+subject_7626,72.0,2020-04-14,RNA concentration outside recommended range for RINe,Norgen Single Cell RNA kit,161004778.0,18.0,302744835.0,TS01063219,2020-04-16,1.0,8.7,483.0,RNA concentration outside recommended range for RINe; RINe edited,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,Standard RNA,3.28,Partial,2020-04-28,7626-SMP-09,302744835.0,H1,SCRIPT_RNAseq_Batch_04
+subject_7885,67.1,,,,,,,,,,,,,,,,,,,,,,
+subject_5993,64.5,,,,,,,,,,,,,,,,,,,,,,
+subject_3063,44.6,,,,,,,,,,,,,,,,,,,3063-SMP-01,,,
+subject_3604,50.4,2016-01-03,All 7 mL of sample were processed - cell count was too low to sort,QIAGEN RNeasy Plus Micro,160047191.0,16.0,304399682.0,TS01063219,2016-01-06,2.0,,45990.3,RNA concentration outside recommended range for RINe; RINe edited,Use for sequencing.,Yes,HSRNA,2.21,Complete,2016-01-24,3604-SMP-05,304399682.0,E1,SCRIPT_RNAseq_Batch_02
+subject_5423,58.4,2024-10-03,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Norgen Single Cell RNA kit,160052304.0,14.0,,,,,,,,,,,,,,,,,
+subject_5993,36.0,2018-03-05,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected),QIAGEN RNeasy Micro,170220164.0,12.0,,,,,8.8,158.7,,,Yes,,,,,,,,
+subject_3810,66.7,2017-08-19,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected),,,,,,,,,,,,,,,,,,,,
+subject_6337,,,,,,,,,,,,,,,,,,,,,,,
+subject_5131,46.4,,,,,,,,,,,,,,,,,,,5131-SMP-04,,,
+subject_3195,58.6,2024-02-15,Sample extremely-mucous like; small yield in cells and insufficient amount to sort,Norgen Single Cell RNA kit,161004778.0,14.0,303703771.0,TS01063219,2024-02-16,2.0,,855.7,ok,ok,Yes,Pico RNA,1.36,Complete,2024-03-11,3195-SMP-05,303703771.0,D1,SCRIPT_RNAseq_Batch_01
+subject_6968,77.2,,,,,,,,,,,,,,No,,,,,,,,
+subject_4087,89.8,,,,,,,,,,,,,,,,,,,,,,
+subject_2885,34.2,,,,,,,,,,,,,,,,,,,,,,
+subject_4407,74.2,2022-11-27,,Norgen Single Cell RNA kit,170220164.0,18.0,302006130.0,TS01063219,2022-11-29,3.0,,1194.1,RNA concentration outside recommended range for RINe,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,Pico RNA,3.44,Complete,2022-12-13,4407-SMP-03,302006130.0,H1,SCRIPT_RNAseq_Batch_01
+subject_7168,48.4,2019-01-14,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",QIAGEN RNeasy Plus Micro,160052304.0,14.0,304299831.0,TS01063219,2019-01-14,3.0,,25.7,,Use for sequencing.,Yes,Standard RNA,8.15,Complete,2019-02-09,7168-SMP-02,304299831.0,A1,SCRIPT_RNAseq_Batch_04
+subject_2532,,,,,,,,,,,,,,,,,,,,,,,
+subject_5011,43.3,2020-03-31,RNA concentration outside recommended range for RINe,QIAGEN RNeasy Micro,160047191.0,18.0,303377758.0,TS01063219,2020-04-02,3.0,,271.1,RNA concentration outside recommended range for RINe,Use for sequencing.,Yes,Standard RNA,6.36,Partial,2020-04-30,5011-SMP-09,303377758.0,B1,SCRIPT_RNAseq_Batch_03
+subject_2517,62.0,,,,,,,,,,,,,,,,,,,,,,
+subject_4514,,,,,,,,,,,,,,,No,,,,,,,,
+subject_8598,40.4,,,,,,,,,,,,,,,,,,,,,,
+subject_6390,65.4,,,,,,,,,,,,,,,,,,,,,,
+subject_4031,76.5,,,,,,,,,,,,,,,,,,,,,,
+subject_6543,88.3,,,,,,,,,,,,,,,,,,,,,,
+subject_6410,60.1,2016-11-15,,QIAGEN RNeasy Plus Micro,160047191.0,12.0,303384993.0,TS01063219,,,,,,,,,,,,6410-SMP-07,303384993.0,,
+subject_6148,40.3,,,,,,,,,,,,,,No,,,,,,,,
+subject_3498,58.9,,RNA concentration outside recommended range for RINe,,,,,,,,,,,,,,,,,,,,
+subject_6265,51.1,2022-03-16,,QIAGEN RNeasy Micro,160047191.0,12.0,303211120.0,TS01069817,2022-03-17,1.0,6.2,4742.8,RNA concentration outside recommended range for RINe; RINe edited,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,Pico RNA,0.97,Complete,2022-04-13,6265-SMP-01,303211120.0,G1,SCRIPT_RNAseq_Batch_04
+subject_3215,79.1,,RNA concentration outside recommended range for RINe,,,,,,,,,,,,,,,,,,,,
+subject_6867,74.8,2018-10-24,"Traces look ok, decent 18S and 28S peaks. Use for sequencing.",QIAGEN RNeasy Micro,161004778.0,12.0,302164218.0,TS01069817,2018-10-25,1.0,6.6,676.2,ok,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,Pico RNA,2.22,Complete,2018-11-18,6867-SMP-05,302164218.0,F1,SCRIPT_RNAseq_Batch_03
+subject_6390,79.5,2017-06-02,,,,,304575121.0,TS01063219,,,,,,,,,,,,6390-SMP-02,304575121.0,,
+subject_4672,75.1,2022-03-25,,,,,,,,,,,,,,,,,,,,,
+subject_3523,75.3,,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected),,,,,,,,,,,,,,,,,,,,
+subject_8010,52.6,,,,,,,,,,,,,,,,,,,,,,
+subject_7149,99.0,,,,,,,,,,,,,,,,,,,,,,
+subject_2124,30.0,2019-06-13,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected),QIAGEN RNeasy Plus Micro,170220164.0,16.0,301439894.0,TS01069817,2019-06-14,1.0,6.0,2942.3,,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,HSRNA,8.49,Partial,2019-07-08,2124-SMP-03,301439894.0,E1,SCRIPT_RNAseq_Batch_01
+subject_5280,29.5,2016-02-01,,,,,,,,,,,,,,,,,,,,,
+subject_8349,,,,,,,,,,,,,,,,,,,,,,,
+subject_6901,74.8,2019-01-22,,QIAGEN RNeasy Micro,160047191.0,14.0,302462608.0,TS01064421,,,,,,,,,,,,6901-SMP-03,302462608.0,,
+subject_4313,62.7,,,,,,,,,,,,,,,,,,,,,,
+subject_8645,41.5,2022-03-24,,,,,,,,,,,,,,,,,,,,,
+subject_7742,69.3,,,,,,301503117.0,TS01064421,,,,,,,,,,,,7742-SMP-08,301503117.0,,
+subject_4162,,,,,,,,,,,,,,,,,,,,,,,
+subject_8713,60.0,2019-01-22,,QIAGEN RNeasy Micro,161004778.0,18.0,300829221.0,TS01064421,2019-01-23,3.0,,193.0,RNA concentration outside recommended range for RINe; RINe edited,Use for sequencing.,Yes,Pico RNA,3.28,Complete,2019-02-08,8713-SMP-01,300829221.0,G1,SCRIPT_RNAseq_Batch_04
+subject_3975,82.6,,,,,,,,,,,,,,,,,,,,,,
+subject_7791,90.4,2016-04-14,,QIAGEN RNeasy Plus Micro,160047191.0,18.0,302058450.0,TS01069817,2016-04-14,3.0,,72.0,RNA concentration outside recommended range for RINe; RINe edited,Use for sequencing.,Yes,Pico RNA,0.91,Complete,2016-05-12,7791-SMP-00,302058450.0,A1,SCRIPT_RNAseq_Batch_02
+subject_8182,25.9,,,,,,,,,,,,,,,,,,,,,,
+subject_4152,77.1,,,,,,,,,,,,,,,,,,,,,,
+subject_2624,88.0,2021-09-23,,,,,304181845.0,TS01063219,,,,,,,,,,,,2624-SMP-09,304181845.0,,
+subject_8690,66.6,,,,,,301287776.0,TS01069817,,,,,,,,,,,,8690-SMP-06,301287776.0,,
+subject_6428,70.1,2017-05-07,,QIAGEN RNeasy Plus Micro,160052304.0,14.0,304106447.0,TS01069817,2017-05-07,3.0,,294.0,RNA concentration outside recommended range for RINe,ok,Yes,Pico RNA,6.03,Complete,2017-05-20,6428-SMP-04,304106447.0,G1,SCRIPT_RNAseq_Batch_02
+subject_4501,81.3,,,,,,,,,,9.7,218.5,,,Yes,,,,,,,,
+subject_6765,,,,,,,,,,,,,,,,,,,,,,,
+subject_8645,63.5,2021-03-14,,QIAGEN RNeasy Micro,160047191.0,14.0,304708047.0,TS01069817,2021-03-15,3.0,,1717.7,,Use for sequencing.,Yes,Pico RNA,0.66,Partial,2021-03-29,8645-SMP-00,304708047.0,C1,SCRIPT_RNAseq_Batch_04
+subject_2387,99.0,,,,,,,,,,,,,,,,,,,,,,
+subject_2442,56.1,,,,,,303307862.0,TS01069817,,,,,,,,,,,,2442-SMP-00,303307862.0,,
+subject_3005,59.3,2019-02-15,,,,,,,,,,,,,,,,,,,,,
+subject_4235,87.9,,,,,,,,,,,,,,,,,,,,,,
+subject_4978,78.0,2019-06-07,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected),QIAGEN RNeasy Micro,161004778.0,14.0,301236291.0,TS01064421,2019-06-09,2.0,7.5,34952.5,,Use for sequencing.,Yes,HSRNA,4.93,Complete,2019-06-24,4978-SMP-08,301236291.0,C1,SCRIPT_RNAseq_Batch_01
+subject_4214,,,,,,,,,,,,,,,,,,,,,,,
+subject_4132,57.6,2020-06-17,,QIAGEN RNeasy Plus Micro,161004778.0,18.0,303335507.0,TS01069817,2020-06-17,1.0,,1732.8,RNA concentration outside recommended range for RINe,Use for sequencing.,Yes,Standard RNA,8.27,Complete,2020-07-01,4132-SMP-05,303335507.0,E1,SCRIPT_RNAseq_Batch_01
+subject_2239,99.0,,,,,,,,,,,,,,,,,,,,,,
+subject_3456,56.9,2021-11-16,RNA concentration outside recommended range for RINe,Norgen Single Cell RNA kit,170220164.0,16.0,300002783.0,TS01069817,2021-11-19,3.0,8.3,9808.8,,Use for sequencing.,Yes,HSRNA,6.87,Complete,2021-12-04,3456-SMP-03,300002783.0,D1,SCRIPT_RNAseq_Batch_04
+subject_3512,61.1,,,,,,,,,,,,,,,,,,,,,,
+subject_6429,47.5,,,,,,,,,,,,,,,,,,,,,,
+subject_6342,,,,,,,,,,,,,,,,,,,,,,,
+subject_8235,26.3,2017-12-19,,Norgen Single Cell RNA kit,170220164.0,18.0,303560460.0,TS01063219,2017-12-21,1.0,8.2,25831.6,RNA concentration outside recommended range for RINe,ok,Yes,Standard RNA,7.88,Partial,2018-01-21,8235-SMP-02,303560460.0,D1,SCRIPT_RNAseq_Batch_02
+subject_8994,57.0,2020-07-10,,Norgen Single Cell RNA kit,170220164.0,16.0,304167757.0,TS01063219,2020-07-11,3.0,,331.9,ok,Use for sequencing.,Yes,HSRNA,6.57,Partial,2020-07-18,8994-SMP-08,304167757.0,B1,SCRIPT_RNAseq_Batch_03
+subject_3763,61.0,,,,,,,,,,,,,,,,,,,,,,
+subject_3836,,,Sample extremely-mucous like; small yield in cells and insufficient amount to sort,,,,,,,,5.9,21.2,,,No,,,,,,,,
+subject_7477,44.7,,,,,,,,,,,,,,,,,,,,,,
+subject_5895,54.3,,,,,,,,,,,,,,,,,,,,,,
+subject_2766,66.4,,,QIAGEN RNeasy Plus Micro,161004778.0,12.0,,,,,,,,,,,,,,,,,
+subject_7377,64.4,,,,,,,,,,,,,,,,,,,,,,
+subject_3466,62.8,,,,,,,,,,,,,,,,,,,,,,
+subject_3901,,,,,,,,,,,,,,,,,,,,,,,
+subject_7036,92.8,2023-06-19,All 7 mL of sample were processed - cell count was too low to sort,Norgen Single Cell RNA kit,160052304.0,16.0,,,,,,,,,,,,,,,,,
+subject_4141,41.7,2021-11-22,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",QIAGEN RNeasy Micro,160047191.0,16.0,304463922.0,TS01069817,2021-11-24,1.0,,2005.3,RNA concentration outside recommended range for RINe,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,HSRNA,7.87,Complete,2021-12-19,4141-SMP-06,304463922.0,A1,SCRIPT_RNAseq_Batch_01
+subject_8524,69.8,,,,,,,,,,,,,,,,,,,,,,
+subject_8699,50.4,,,,,,,,,,,,,,,,,,,,,,
+subject_6879,81.9,,,,,,,,,,,,,,,,,,,,,,
+subject_3992,56.6,2018-09-25,,QIAGEN RNeasy Micro,161004778.0,12.0,300740698.0,TS01069817,2018-09-28,3.0,,2656.9,ok,Use for sequencing.,Yes,Standard RNA,5.34,Complete,2018-10-22,3992-SMP-06,300740698.0,E1,SCRIPT_RNAseq_Batch_02
+subject_2598,7.3,,,,,,,,,,,,,,,,,,,,,,
+subject_8015,38.6,2020-04-03,,,,,,,,,,,,,,,,,,,,,
+subject_4004,50.1,,,,,,,,,,,,,,,,,,,,,,
+subject_5749,68.5,,,,,,,,,,,,,,,,,,,5749-SMP-03,,,
+subject_3498,73.6,2020-07-09,All 7 mL of sample were processed - cell count was too low to sort,QIAGEN RNeasy Plus Micro,170220164.0,16.0,303076031.0,TS01064421,2020-07-11,2.0,7.1,44128.7,RNA concentration outside recommended range for RINe,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",No,Standard RNA,5.04,Partial,2020-07-25,3498-SMP-03,303076031.0,D1,SCRIPT_RNAseq_Batch_02
+subject_8908,76.6,,,,,,,,,,,,,,,,,,,,,,
+subject_8927,53.8,,,,,,,,,,,,,,,,,,,,,,
+subject_5768,69.9,,,,,,,,,,,,,,,,,,,,,,
+subject_5494,93.1,2017-08-08,,Norgen Single Cell RNA kit,161004778.0,12.0,,,,,,,,,,,,,,,,,
+subject_3230,61.6,,,,,,,,,,,,,,,,,,,,,,
+subject_8950,88.7,,,,,,,,,,,,,,,,,,,,,,
+subject_5158,52.5,,,,,,,,,,,,,,,,,,,,,,
+subject_2650,62.3,,,,,,,,,,,,,,,,,,,,,,
+subject_7467,72.1,,,,,,,,,,,,,,,,,,,7467-SMP-04,,,
+subject_5989,85.1,2021-06-02,,Norgen Single Cell RNA kit,160052304.0,14.0,,,,,,,,,,,,,,,,,
+subject_3519,69.4,,,,,,,,,,,,,,No,,,,,,,,
+subject_4141,83.2,,,,,,,,,,,,,,,,,,,,,,
+subject_4145,,2019-02-28,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",QIAGEN RNeasy Plus Micro,161004778.0,12.0,301897477.0,TS01069817,2019-03-03,2.0,9.8,7476.3,ok,ok,Yes,Standard RNA,4.3,Complete,2019-03-15,4145-SMP-08,301897477.0,F1,SCRIPT_RNAseq_Batch_01
+subject_8100,54.9,,,,,,,,,,,,,,,,,,,,,,
+subject_3401,88.2,2021-01-19,,,,,,,,,7.0,39.2,,,Yes,,,,,,,,
+subject_6594,66.5,,,,,,,,,,,,,,,,,,,,,,
+subject_4270,72.5,,,,,,,,,,,,,,,,,,,,,,
+subject_7919,60.9,2020-04-14,,,,,,,,,,,,,,,,,,,,,
+subject_4235,66.1,2023-10-16,,,,,,,,,,,,,,,,,,,,,
+subject_6351,30.3,,,,,,,,,,,,,,No,,,,,,,,
+subject_3493,62.3,,,,,,,,,,,,,,,,,,,,,,
+subject_2855,52.7,2021-05-23,All 7 mL of sample were processed - cell count was too low to sort,QIAGEN RNeasy Micro,161004778.0,14.0,300520379.0,TS01063219,2021-05-26,3.0,8.4,794.6,RNA concentration outside recommended range for RINe; RINe edited,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,HSRNA,3.77,Complete,2021-06-15,2855-SMP-05,300520379.0,F1,SCRIPT_RNAseq_Batch_03
+subject_5768,82.6,,,QIAGEN RNeasy Plus Micro,161004778.0,16.0,,,,,,,,,,,,,,,,,
+subject_5971,52.9,2019-07-30,RNA concentration outside recommended range for RINe,QIAGEN RNeasy Plus Micro,160047191.0,16.0,301771550.0,TS01069817,2019-08-01,3.0,,239.1,RNA concentration outside recommended range for RINe,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,HSRNA,7.51,Complete,2019-08-26,5971-SMP-06,301771550.0,H1,SCRIPT_RNAseq_Batch_01
+subject_2796,43.2,,,,,,,,,,,,,,,,,,,,,,
+subject_3630,,,,,,,,,,,,,,,,,,,,,,,
+subject_4813,92.7,2021-09-26,,Norgen Single Cell RNA kit,160052304.0,12.0,,,,,,,,,,,,,,,,,
+subject_7203,66.6,,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",,,,,,,,,,,,,,,,,,,,
+subject_2420,36.8,2019-06-25,,,,,,,,,,,,,,,,,,,,,
+subject_5427,63.4,2021-04-13,,QIAGEN RNeasy Micro,161004778.0,14.0,302862127.0,TS01064421,,,,,,,,,,,,5427-SMP-06,302862127.0,,
+subject_5312,64.2,,,,,,300239705.0,TS01063219,,,,,,,,,,,,5312-SMP-08,300239705.0,,
+subject_4314,71.4,2022-06-18,,Norgen Single Cell RNA kit,160047191.0,14.0,,,,,,,,,,,,,,,,,
+subject_6016,35.3,2017-02-23,,,,,,,,,,,,,,,,,,,,,
+subject_5159,54.4,2020-12-26,,Norgen Single Cell RNA kit,160047191.0,16.0,303252059.0,TS01063219,2020-12-28,3.0,,7983.5,RNA concentration outside recommended range for RINe; RINe edited,Use for sequencing.,Yes,Standard RNA,5.99,Complete,2021-01-18,5159-SMP-07,303252059.0,C1,SCRIPT_RNAseq_Batch_03
+subject_2706,74.3,,,,,,,,,,,,,,No,,,,,,,,
+subject_5857,86.2,,,,,,,,,,,,,,,,,,,,,,
+subject_5737,75.6,2020-07-19,Sample extremely-mucous like; small yield in cells and insufficient amount to sort,,,,,,,,,,,,,,,,,,,,
+subject_2416,62.8,,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",,,,,,,,6.5,96.3,,,No,,,,,,,,
+subject_7038,61.7,2017-07-12,All 7 mL of sample were processed - cell count was too low to sort,,,,,,,,,,,,,,,,,,,,
+subject_8952,64.0,,,,,,,,,,,,,,,,,,,,,,
+subject_3758,76.1,2019-12-17,,Norgen Single Cell RNA kit,161004778.0,16.0,301988315.0,TS01063219,2019-12-17,2.0,9.8,169.2,ok,Use for sequencing.,Yes,Pico RNA,5.97,Complete,2020-01-16,3758-SMP-00,301988315.0,B1,SCRIPT_RNAseq_Batch_03
+subject_6890,76.2,2020-05-15,,,,,,,,,,,,,,,,,,,,,
+subject_3836,59.7,2021-10-25,All 7 mL of sample were processed - cell count was too low to sort,Norgen Single Cell RNA kit,161004778.0,12.0,304767805.0,TS01069817,2021-10-26,1.0,,14638.3,RNA concentration outside recommended range for RINe,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,Standard RNA,7.39,Partial,2021-11-27,3836-SMP-05,304767805.0,C1,SCRIPT_RNAseq_Batch_04
+subject_5672,60.8,,,,,,,,,,,,,,,,,,,,,,
+subject_5082,47.6,,,,,,,,,,,,,,,,,,,,,,
+subject_4325,90.5,,,Norgen Single Cell RNA kit,170220164.0,12.0,303803776.0,TS01064421,,,,,,,,,,,,4325-SMP-04,303803776.0,,
+subject_8341,77.9,,RNA concentration outside recommended range for RINe,,,,,,,,,,,,,,,,,,,,
+subject_7149,49.6,,,,,,,,,,,,,,,,,,,,,,
+subject_4145,47.8,2025-01-14,,QIAGEN RNeasy Plus Micro,161004778.0,18.0,304749502.0,TS01063219,2025-01-16,1.0,7.9,4920.4,RNA concentration outside recommended range for RINe; RINe edited,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,HSRNA,7.65,Complete,2025-02-15,4145-SMP-00,304749502.0,H1,SCRIPT_RNAseq_Batch_03
+subject_6385,58.5,,,,,,,,,,,,,,,,,,,,,,
+subject_7344,,,,,,,,,,,,,,,,,,,,,,,
+subject_7707,,2021-12-29,,,,,,,,,,,,,,,,,,,,,
+subject_4861,69.1,,,QIAGEN RNeasy Plus Micro,170220164.0,12.0,,,,,,,,,,,,,,,,,
+subject_7080,54.3,,,,,,,,,,,,,,,,,,,,,,
+subject_6386,59.3,,,,,,,,,,,,,,No,,,,,,,,
+subject_4294,62.2,2022-06-09,,,,,302778284.0,TS01063219,,,,,,,,,,,,4294-SMP-01,302778284.0,,
+subject_3684,62.7,2017-03-24,Sample extremely-mucous like; small yield in cells and insufficient amount to sort,Norgen Single Cell RNA kit,170220164.0,16.0,303558667.0,TS01064421,2017-03-24,1.0,,60.9,RNA concentration outside recommended range for RINe; RINe edited,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",No,Pico RNA,7.51,Complete,2017-04-03,3684-SMP-06,303558667.0,A1,SCRIPT_RNAseq_Batch_04
+subject_7101,66.3,,,,,,,,,,,,,,,,,,,7101-SMP-06,,,
+subject_2938,71.4,,,,,,,,,,,,,,,,,,,,,,
+subject_8159,91.2,,,,,,,,,,,,,,,,,,,8159-SMP-01,,,
+subject_8044,56.2,,,,,,,,,,,,,,,,,,,,,,
+subject_4655,31.3,2017-08-17,,,,,,,,,,,,,,,,,,,,,
+subject_2386,37.9,,,,,,,,,,,,,,No,,,,,,,,
+subject_4645,67.0,,,,,,,,,,,,,,,,,,,,,,
+subject_2295,54.7,2023-09-06,RNA concentration outside recommended range for RINe,Norgen Single Cell RNA kit,170220164.0,18.0,302552735.0,TS01064421,2023-09-08,3.0,,87.6,RNA concentration outside recommended range for RINe; RINe edited,Use for sequencing.,Yes,Standard RNA,5.58,Partial,2023-09-25,2295-SMP-01,302552735.0,D1,SCRIPT_RNAseq_Batch_03
+subject_5298,67.0,2021-05-21,All 7 mL of sample were processed - cell count was too low to sort,Norgen Single Cell RNA kit,161004778.0,14.0,302005788.0,TS01063219,2021-05-24,2.0,,154.6,ok,Use for sequencing.,Yes,Pico RNA,7.11,Partial,2021-06-22,5298-SMP-07,302005788.0,A1,SCRIPT_RNAseq_Batch_01
+subject_8898,53.6,,,,,,,,,,,,,,,,,,,,,,
+subject_8015,64.3,,,,,,,,,,,,,,,,,,,,,,
+subject_4824,77.1,2018-01-16,,QIAGEN RNeasy Plus Micro,160047191.0,14.0,304542211.0,TS01063219,2018-01-18,2.0,,25475.2,ok,ok,Yes,Standard RNA,0.15,Complete,2018-02-19,4824-SMP-02,304542211.0,D1,SCRIPT_RNAseq_Batch_02
+subject_8290,56.8,,,,,,,,,,,,,,,,,,,8290-SMP-00,,,
+subject_8241,78.1,,"Traces look ok, decent 18S and 28S peaks. Use for sequencing.",,,,,,,,,,,,,,,,,,,,
+subject_4377,64.5,2022-04-06,,QIAGEN RNeasy Plus Micro,161004778.0,12.0,302586743.0,TS01063219,2022-04-08,1.0,,2973.8,ok,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,HSRNA,4.24,Complete,2022-04-22,4377-SMP-08,302586743.0,H1,SCRIPT_RNAseq_Batch_01
+subject_6802,64.3,2016-03-23,,,,,300926914.0,TS01064421,,,,,,,,,,,,6802-SMP-04,300926914.0,,
+subject_5362,26.2,2018-04-23,,QIAGEN RNeasy Micro,170220164.0,12.0,302766019.0,TS01064421,2018-04-25,1.0,,2680.9,RNA concentration outside recommended range for RINe; RINe edited,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",No,Pico RNA,4.93,Partial,2018-05-12,5362-SMP-04,302766019.0,A1,SCRIPT_RNAseq_Batch_04
+subject_3666,42.3,2021-11-09,,,,,,,,,,,,,,,,,,,,,
+subject_7100,,,,,,,,,,,,,,,No,,,,,,,,
+subject_4827,25.2,2017-08-24,,Norgen Single Cell RNA kit,161004778.0,12.0,302263762.0,TS01069817,,,,,,,,,,,,4827-SMP-02,302263762.0,,
+subject_2961,66.3,,Sample extremely-mucous like; small yield in cells and insufficient amount to sort,,,,,,,,,,,,,,,,,,,,
+subject_8479,76.4,2018-01-24,,QIAGEN RNeasy Plus Micro,161004778.0,14.0,302639023.0,TS01063219,2018-01-24,3.0,8.9,25.5,,ok,Yes,Pico RNA,8.16,Complete,2018-02-15,8479-SMP-04,302639023.0,F1,SCRIPT_RNAseq_Batch_03
+subject_3693,68.1,,,,,,,,,,,,,,,,,,,,,,
+subject_3852,45.8,,All 7 mL of sample were processed - cell count was too low to sort,,,,,,,,,,,,,,,,,,,,
+subject_8650,39.0,2021-04-19,All 7 mL of sample were processed - cell count was too low to sort,QIAGEN RNeasy Micro,161004778.0,16.0,304335958.0,TS01063219,2021-04-21,1.0,,832.9,RNA concentration outside recommended range for RINe,ok,Yes,HSRNA,4.68,Complete,2021-04-26,8650-SMP-07,304335958.0,C1,SCRIPT_RNAseq_Batch_01
+subject_2871,72.5,2020-06-18,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected),,,,,,,,,,,,No,,,,,,,,
+subject_3494,48.4,,Sample extremely-mucous like; small yield in cells and insufficient amount to sort,,,,,,,,,,,,,,,,,3494-SMP-00,,,
+subject_3047,44.5,,,,,,,,,,,,,,,,,,,,,,
+subject_2651,65.1,,,,,,,,,,,,,,,,,,,,,,
+subject_7838,78.7,2016-01-04,,,,,,,,,,,,,,,,,,,,,
+subject_2455,48.4,2019-04-19,,,,,,,,,5.9,4630.8,,,Yes,,,,,,,,
+subject_2213,65.8,2020-06-14,All 7 mL of sample were processed - cell count was too low to sort,QIAGEN RNeasy Micro,161004778.0,14.0,,,,,,,,,,,,,,,,,
+subject_2638,93.5,,,,,,,,,,,,,,,,,,,,,,
+subject_3835,59.8,,,,,,,,,,,,,,,,,,,,,,
+subject_2532,59.7,2018-08-03,,Norgen Single Cell RNA kit,160052304.0,14.0,302240180.0,TS01069817,2018-08-05,1.0,,13819.6,ok,Use for sequencing.,Yes,Standard RNA,6.58,Complete,2018-08-30,2532-SMP-08,302240180.0,H1,SCRIPT_RNAseq_Batch_02
+subject_3498,79.6,2021-11-28,All 7 mL of sample were processed - cell count was too low to sort,,,,,,,,,,,,,,,,,,,,
+subject_8787,80.4,2018-12-11,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected),Norgen Single Cell RNA kit,170220164.0,16.0,,,,,,,,,,,,,,,,,
+subject_4969,73.0,,RNA concentration outside recommended range for RINe,,,,,,,,,,,,,,,,,,,,
+subject_5666,80.9,,,,,,,,,,,,,,,,,,,,,,
+subject_4290,93.4,2021-01-05,,QIAGEN RNeasy Plus Micro,170220164.0,18.0,300073458.0,TS01063219,2021-01-08,1.0,7.2,39780.4,RNA concentration outside recommended range for RINe,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,Standard RNA,0.67,Complete,2021-01-15,4290-SMP-01,300073458.0,G1,SCRIPT_RNAseq_Batch_01
+subject_6175,59.5,2017-01-13,,Norgen Single Cell RNA kit,170220164.0,18.0,302197699.0,TS01064421,2017-01-13,2.0,,446.3,RNA concentration outside recommended range for RINe; RINe edited,Use for sequencing.,Yes,HSRNA,7.3,Partial,2017-01-28,6175-SMP-09,302197699.0,D1,SCRIPT_RNAseq_Batch_02
+subject_6193,99.0,2017-06-27,,,,,,,,,,,,,No,,,,,,,,
+subject_3552,61.2,,,,,,,,,,,,,,,,,,,,,,
+subject_6282,66.5,,,,,,,,,,,,,,,,,,,,,,
+subject_4985,68.4,,,,,,,,,,,,,,,,,,,,,,
+subject_3964,,,,,,,,,,,,,,,,,,,,,,,
+subject_4385,67.7,2025-06-28,"Traces look ok, decent 18S and 28S peaks. Use for sequencing.",QIAGEN RNeasy Plus Micro,161004778.0,16.0,300887377.0,TS01064421,2025-06-30,2.0,8.6,404.5,RNA concentration outside recommended range for RINe,ok,Yes,Pico RNA,2.74,Complete,2025-07-26,4385-SMP-02,300887377.0,D1,SCRIPT_RNAseq_Batch_03
+subject_3162,36.4,,,,,,,,,,,,,,,,,,,,,,
+subject_7741,,2018-08-26,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected),QIAGEN RNeasy Micro,161004778.0,16.0,301889717.0,TS01064421,2018-08-27,2.0,,107.7,RNA concentration outside recommended range for RINe; RINe edited,ok,Yes,HSRNA,1.57,Complete,2018-09-16,7741-SMP-06,301889717.0,B1,SCRIPT_RNAseq_Batch_04
+subject_8762,80.5,,RNA concentration outside recommended range for RINe,,,,,,,,,,,,,,,,,,,,
+subject_8221,69.7,,,,,,,,,,,,,,,,,,,,,,
+subject_5759,73.7,,,,,,,,,,,,,,,,,,,,,,
+subject_6739,33.4,2019-08-20,,Norgen Single Cell RNA kit,170220164.0,14.0,303699432.0,TS01069817,,,,,,,,,,,,6739-SMP-01,303699432.0,,
+subject_3907,61.0,,,,,,,,,,,,,,,,,,,,,,
+subject_6030,,,,,,,,,,,,,,,,,,,,6030-SMP-07,,,
+subject_6014,96.4,,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected),Norgen Single Cell RNA kit,170220164.0,14.0,,,,,8.7,7380.3,,,No,,,,,,,,
+subject_6386,60.2,,,,,,,,,,,,,,,,,,,,,,
+subject_4880,59.4,2016-01-05,,Norgen Single Cell RNA kit,170220164.0,12.0,301733756.0,TS01064421,,,,,,,,,,,,4880-SMP-05,301733756.0,,
+subject_2028,64.4,,,,,,,,,,,,,,,,,,,,,,
+subject_4355,55.1,,,,,,,,,,,,,,,,,,,,,,
+subject_5065,92.2,2016-11-02,All 7 mL of sample were processed - cell count was too low to sort,Norgen Single Cell RNA kit,170220164.0,16.0,303216120.0,TS01063219,2016-11-03,1.0,,1059.6,RNA concentration outside recommended range for RINe,Use for sequencing.,Yes,HSRNA,7.27,Complete,2016-11-19,5065-SMP-03,303216120.0,E1,SCRIPT_RNAseq_Batch_04
+subject_3858,48.5,2019-06-29,,Norgen Single Cell RNA kit,160052304.0,16.0,304787812.0,TS01069817,2019-07-01,3.0,,27770.9,RNA concentration outside recommended range for RINe,Use for sequencing.,No,HSRNA,3.5,Complete,2019-08-01,3858-SMP-00,304787812.0,G1,SCRIPT_RNAseq_Batch_04
+subject_6519,75.0,,,,,,,,,,,,,,,,,,,6519-SMP-09,,,
+subject_2148,72.5,,,,,,,,,,,,,,,,,,,2148-SMP-01,,,
+subject_3770,54.1,,,,,,,,,,,,,,,,,,,,,,
+subject_4174,41.3,,,,,,,,,,,,,,,,,,,,,,
+subject_8886,68.3,,,,,,,,,,,,,,,,,,,,,,
+subject_7604,59.9,2024-12-30,,QIAGEN RNeasy Micro,160052304.0,14.0,301613787.0,TS01063219,2025-01-01,2.0,,741.3,RNA concentration outside recommended range for RINe,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,Pico RNA,0.02,Partial,2025-01-14,7604-SMP-00,301613787.0,F1,SCRIPT_RNAseq_Batch_02
+subject_6552,59.3,,,,,,,,,,,,,,,,,,,,,,
+subject_4872,70.8,,,,,,,,,,,,,,,,,,,,,,
+subject_6710,84.1,2019-04-29,,,,,,,,,7.0,658.0,,,Yes,,,,,,,,
+subject_8171,48.6,,,,,,,,,,,,,,,,,,,,,,
+subject_7529,66.0,,,,,,,,,,,,,,,,,,,,,,
+subject_7445,,,,,,,,,,,,,,,,,,,,,,,
+subject_6329,55.2,,,,,,,,,,,,,,,,,,,,,,
+subject_6193,56.1,,,,,,,,,,,,,,,,,,,,,,
+subject_6675,54.6,2018-05-11,,QIAGEN RNeasy Micro,160052304.0,18.0,300236802.0,TS01069817,2018-05-14,3.0,7.5,918.1,RNA concentration outside recommended range for RINe; RINe edited,Use for sequencing.,Yes,Pico RNA,1.31,Complete,2018-06-09,6675-SMP-00,300236802.0,G1,SCRIPT_RNAseq_Batch_02
+subject_5146,63.0,2018-01-23,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected),QIAGEN RNeasy Micro,161004778.0,14.0,300012862.0,TS01064421,2018-01-23,3.0,8.8,8235.9,RNA concentration outside recommended range for RINe; RINe edited,ok,Yes,Standard RNA,5.03,Partial,2018-02-27,5146-SMP-09,300012862.0,A1,SCRIPT_RNAseq_Batch_04
+subject_5954,47.7,,,,,,,,,,,,,,,,,,,,,,
+subject_4990,66.5,,RNA concentration outside recommended range for RINe,,,,,,,,7.5,274.6,,,No,,,,,,,,
+subject_2468,68.8,2021-06-12,All 7 mL of sample were processed - cell count was too low to sort,Norgen Single Cell RNA kit,161004778.0,14.0,301949860.0,TS01064421,2021-06-13,1.0,,87.2,ok,Use for sequencing.,Yes,HSRNA,3.29,Complete,2021-06-26,2468-SMP-09,301949860.0,A1,SCRIPT_RNAseq_Batch_02
+subject_8190,60.7,2016-01-02,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",QIAGEN RNeasy Plus Micro,160047191.0,14.0,300921226.0,TS01063219,2016-01-04,3.0,8.7,130.9,RNA concentration outside recommended range for RINe,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,Standard RNA,5.26,Partial,2016-01-21,8190-SMP-00,300921226.0,D1,SCRIPT_RNAseq_Batch_01
+subject_8241,71.4,,All 7 mL of sample were processed - cell count was too low to sort,,,,,,,,7.6,587.0,,,No,,,,,,,,
+subject_4257,66.8,,,,,,,,,,,,,,,,,,,,,,
+subject_8769,88.4,,,,,,,,,,,,,,,,,,,,,,
+subject_7120,70.5,2016-02-09,,QIAGEN RNeasy Micro,160047191.0,14.0,,,,,,,,,,,,,,,,,
+subject_3794,42.8,,,,,,,,,,,,,,,,,,,,,,
+subject_6995,43.6,2019-07-07,"Traces look ok, decent 18S and 28S peaks. Use for sequencing.",,,,301961977.0,TS01063219,,,,,,,,,,,,6995-SMP-01,301961977.0,,
+subject_3867,90.4,,,,,,,,,,,,,,,,,,,,,,
+subject_8698,63.3,2019-02-08,,,,,,,,,,,,,,,,,,,,,
+subject_4649,36.7,,RNA concentration outside recommended range for RINe,,,,,,,,,,,,,,,,,,,,
+subject_7704,74.7,,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",,,,,,,,,,,,,,,,,,,,
+subject_5596,45.7,,,,,,,,,,,,,,No,,,,,,,,
+subject_4214,41.9,,,,,,,,,,,,,,,,,,,,,,
+subject_4991,,,,,,,,,,,,,,,,,,,,4991-SMP-08,,,
+subject_3374,82.9,,,,,,,,,,,,,,,,,,,,,,
+subject_7857,29.8,,,,,,,,,,,,,,,,,,,,,,
+subject_7463,70.1,2016-10-06,,Norgen Single Cell RNA kit,160047191.0,14.0,302547608.0,TS01064421,2016-10-07,1.0,,613.1,RNA concentration outside recommended range for RINe,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,Standard RNA,5.22,Complete,2016-11-08,7463-SMP-02,302547608.0,D1,SCRIPT_RNAseq_Batch_02
+subject_5478,53.1,,,,,,,,,,,,,,,,,,,,,,
+subject_5659,25.3,,,,,,,,,,,,,,,,,,,,,,
+subject_3287,79.3,,,,,,,,,,,,,,,,,,,,,,
+subject_6753,60.4,2018-10-12,,QIAGEN RNeasy Micro,170220164.0,14.0,301757121.0,TS01063219,,,8.8,250.5,,,Yes,,,,,6753-SMP-07,301757121.0,,
+subject_5751,30.6,2021-01-24,,Norgen Single Cell RNA kit,160052304.0,14.0,,,,,,,,,,,,,,,,,
+subject_7788,25.3,2018-08-13,,QIAGEN RNeasy Micro,170220164.0,12.0,302988836.0,TS01063219,2018-08-13,2.0,6.6,17533.9,RNA concentration outside recommended range for RINe; RINe edited,ok,Yes,Pico RNA,3.84,Complete,2018-09-11,7788-SMP-06,302988836.0,A1,SCRIPT_RNAseq_Batch_03
+subject_7313,48.4,,,,,,,,,,,,,,,,,,,,,,
+subject_2768,78.1,2023-09-11,,QIAGEN RNeasy Micro,170220164.0,12.0,,,,,,,,,,,,,,,,,
+subject_7865,50.8,2019-10-05,,,,,,,,,,,,,,,,,,,,,
+subject_4825,45.1,,,,,,,,,,,,,,,,,,,,,,
+subject_8279,,,,,,,,,,,,,,,,,,,,,,,
+subject_4597,77.3,2019-06-07,"Traces look ok, decent 18S and 28S peaks. Use for sequencing.",,,,,,,,,,,,,,,,,,,,
+subject_2053,64.8,2021-03-24,,,,,,,,,5.7,63.0,,,Yes,,,,,,,,
+subject_4872,59.2,2019-07-16,,,,,,,,,,,,,,,,,,,,,
+subject_7343,41.1,,,,,,,,,,,,,,,,,,,,,,
+subject_4318,,,,,,,,,,,,,,,No,,,,,,,,
+subject_5676,48.1,,,,,,,,,,,,,,,,,,,,,,
+subject_3912,76.2,,,,,,,,,,,,,,,,,,,,,,
+subject_3748,96.1,2016-12-04,,,,,,,,,,,,,,,,,,,,,
+subject_8520,63.1,2021-10-01,"Traces look ok, decent 18S and 28S peaks. Use for sequencing.",Norgen Single Cell RNA kit,170220164.0,16.0,304746963.0,TS01064421,2021-10-01,1.0,,1162.4,RNA concentration outside recommended range for RINe,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,Pico RNA,1.47,Partial,2021-10-30,8520-SMP-04,304746963.0,E1,SCRIPT_RNAseq_Batch_04
+subject_5202,70.5,,,,,,,,,,,,,,,,,,,,,,
+subject_2806,,,,,,,,,,,,,,,,,,,,,,,
+subject_3047,90.7,2022-01-24,,QIAGEN RNeasy Micro,161004778.0,12.0,301232639.0,TS01069817,2022-01-26,2.0,,46.4,,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,Standard RNA,4.14,Complete,2022-02-05,3047-SMP-08,301232639.0,F1,SCRIPT_RNAseq_Batch_03
+subject_8920,72.0,2020-12-11,,QIAGEN RNeasy Micro,170220164.0,14.0,304854460.0,TS01064421,2020-12-13,2.0,6.5,397.6,RNA concentration outside recommended range for RINe,ok,Yes,HSRNA,6.01,Complete,2021-01-12,8920-SMP-08,304854460.0,G1,SCRIPT_RNAseq_Batch_04
+subject_3618,61.7,2021-05-03,,,,,,,,,,,,,,,,,,,,,
+subject_4162,58.0,,,,,,,,,,,,,,,,,,,,,,
+subject_5214,93.8,2017-03-20,,QIAGEN RNeasy Micro,160047191.0,16.0,,,,,6.1,153.7,,,Yes,,,,,,,,
+subject_2293,90.5,2020-05-29,,,,,304494910.0,TS01063219,,,,,,,,,,,,2293-SMP-05,304494910.0,,
+subject_5974,40.4,,,,,,,,,,,,,,,,,,,,,,
+subject_2276,79.2,2018-06-28,,,,,,,,,,,,,,,,,,,,,
+subject_7201,79.6,2021-05-26,,QIAGEN RNeasy Plus Micro,161004778.0,12.0,302189724.0,TS01063219,2021-05-27,3.0,8.4,63.8,RNA concentration outside recommended range for RINe,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",No,HSRNA,5.46,Complete,2021-06-02,7201-SMP-09,302189724.0,D1,SCRIPT_RNAseq_Batch_01
+subject_5857,83.5,,"Traces look ok, decent 18S and 28S peaks. Use for sequencing.",Norgen Single Cell RNA kit,160052304.0,14.0,,,,,,,,,,,,,,,,,
+subject_4684,92.2,,,,,,,,,,,,,,,,,,,,,,
+subject_2579,52.2,,RNA concentration outside recommended range for RINe,,,,,,,,,,,,,,,,,,,,
+subject_5804,72.6,2018-05-31,,QIAGEN RNeasy Micro,160052304.0,16.0,304836313.0,TS01064421,,,,,,,,,,,,5804-SMP-01,304836313.0,,
+subject_8912,58.4,,,,,,,,,,,,,,,,,,,,,,
+subject_7459,66.0,2019-12-02,,,,,,,,,,,,,,,,,,,,,
+subject_5056,58.0,2022-02-20,,Norgen Single Cell RNA kit,161004778.0,14.0,301230348.0,TS01064421,2022-02-20,3.0,,37.4,,Use for sequencing.,Yes,HSRNA,4.68,Partial,2022-03-27,5056-SMP-04,301230348.0,E1,SCRIPT_RNAseq_Batch_04
+subject_3621,31.2,,,,,,,,,,,,,,,,,,,3621-SMP-00,,,
+subject_4721,51.5,,,,,,,,,,,,,,,,,,,,,,
+subject_3855,38.7,,,,,,,,,,,,,,,,,,,,,,
+subject_8820,34.9,,,,,,,,,,,,,,,,,,,,,,
+subject_7544,48.5,,,,,,,,,,,,,,,,,,,,,,
+subject_6802,76.5,2016-10-21,"Traces look ok, decent 18S and 28S peaks. Use for sequencing.",Norgen Single Cell RNA kit,161004778.0,18.0,304213586.0,TS01063219,2016-10-22,1.0,6.7,61.9,,Use for sequencing.,No,HSRNA,6.96,Complete,2016-11-17,6802-SMP-04,304213586.0,D1,SCRIPT_RNAseq_Batch_03
+subject_8221,88.4,,,,,,,,,,,,,,,,,,,,,,
+subject_6738,77.7,2021-01-31,,Norgen Single Cell RNA kit,161004778.0,16.0,302152845.0,TS01069817,2021-02-01,3.0,,5126.5,,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,Standard RNA,3.66,Partial,2021-03-02,6738-SMP-06,302152845.0,B1,SCRIPT_RNAseq_Batch_01
+subject_3622,58.3,,,,,,,,,,,,,,,,,,,,,,
+subject_7168,71.2,,,,,,,,,,,,,,,,,,,,,,
+subject_5091,43.1,2016-01-02,,QIAGEN RNeasy Plus Micro,170220164.0,18.0,302543098.0,TS01064421,2016-01-03,1.0,,11046.7,RNA concentration outside recommended range for RINe,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,Standard RNA,4.19,Complete,2016-01-29,5091-SMP-00,302543098.0,C1,SCRIPT_RNAseq_Batch_03
+subject_6695,63.4,,,,,,,,,,,,,,,,,,,,,,
+subject_7663,67.8,,,,,,,,,,,,,,,,,,,7663-SMP-04,,,
+subject_7250,64.9,,,,,,,,,,,,,,,,,,,,,,
+subject_8476,67.0,2020-05-23,,QIAGEN RNeasy Plus Micro,160052304.0,16.0,301578967.0,TS01063219,2020-05-23,2.0,,32.3,RNA concentration outside recommended range for RINe; RINe edited,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,Pico RNA,5.45,Complete,2020-06-11,8476-SMP-04,301578967.0,H1,SCRIPT_RNAseq_Batch_01
+subject_4425,25.3,,,,,,,,,,,,,,,,,,,,,,
+subject_2558,65.6,,,,,,,,,,,,,,,,,,,,,,
+subject_4561,67.5,2018-07-13,,,,,,,,,,,,,,,,,,,,,
+subject_8831,75.0,,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected),,,,,,,,,,,,,,,,,,,,
+subject_8535,29.1,,"Traces look ok, decent 18S and 28S peaks. Use for sequencing.",,,,,,,,,,,,,,,,,,,,
+subject_4804,36.2,2018-03-03,,Norgen Single Cell RNA kit,170220164.0,16.0,,,,,,,,,,,,,,,,,
+subject_2210,88.2,,,,,,,,,,,,,,,,,,,,,,
+subject_4365,95.1,2017-02-01,,QIAGEN RNeasy Micro,160047191.0,16.0,300387555.0,TS01063219,2017-02-01,1.0,8.3,72.4,,Use for sequencing.,Yes,HSRNA,6.19,Complete,2017-03-07,4365-SMP-00,300387555.0,D1,SCRIPT_RNAseq_Batch_01
+subject_7541,73.0,,,,,,301220760.0,TS01064421,,,7.0,3856.6,,,No,,,,,7541-SMP-00,301220760.0,,
+subject_4852,41.8,,,,,,,,,,,,,,,,,,,,,,
+subject_2927,75.0,,,,,,,,,,,,,,,,,,,,,,
+subject_7741,,,,,,,,,,,,,,,,,,,,7741-SMP-05,,,
+subject_4244,65.6,,,,,,,,,,,,,,,,,,,,,,
+subject_3749,85.5,,,,,,,,,,,,,,,,,,,,,,
+subject_2053,,2021-07-06,,Norgen Single Cell RNA kit,160052304.0,18.0,304119885.0,TS01064421,2021-07-06,3.0,8.9,40.7,RNA concentration outside recommended range for RINe,Use for sequencing.,Yes,Pico RNA,3.19,Partial,2021-08-03,2053-SMP-04,304119885.0,A1,SCRIPT_RNAseq_Batch_04
+subject_7560,62.9,2020-11-24,,,,,,,,,,,,,,,,,,,,,
+subject_7560,81.6,,Sample extremely-mucous like; small yield in cells and insufficient amount to sort,Norgen Single Cell RNA kit,160047191.0,12.0,302984433.0,TS01063219,,,,,,,,,,,,7560-SMP-09,302984433.0,,
+subject_5432,44.9,,,,,,,,,,,,,,,,,,,5432-SMP-01,,,
+subject_3776,72.4,,,,,,,,,,,,,,No,,,,,,,,
+subject_2729,,,,,,,,,,,,,,,,,,,,,,,
+subject_5989,76.4,2020-05-16,,,,,,,,,,,,,,,,,,,,,
+subject_8599,98.5,2023-02-26,,,,,300992480.0,TS01069817,,,,,,,,,,,,8599-SMP-03,300992480.0,,
+subject_7328,17.9,2016-11-02,,,,,,,,,,,,,,,,,,,,,
+subject_7219,47.4,,,,,,,,,,,,,,,,,,,,,,
+subject_5993,78.8,2017-04-02,,QIAGEN RNeasy Micro,161004778.0,16.0,302458047.0,TS01064421,2017-04-05,1.0,7.6,65.1,RNA concentration outside recommended range for RINe,Use for sequencing.,Yes,Pico RNA,3.71,Complete,2017-05-05,5993-SMP-05,302458047.0,C1,SCRIPT_RNAseq_Batch_01
+subject_4707,50.8,2018-07-11,,QIAGEN RNeasy Micro,160047191.0,14.0,,,,,9.0,2829.3,,,No,,,,,,,,
+subject_6867,64.6,2018-09-24,,,,,,,,,,,,,,,,,,,,,
+subject_3458,68.2,,,,,,,,,,,,,,,,,,,,,,
+subject_6133,38.1,,,,,,,,,,,,,,,,,,,,,,
+subject_4454,83.5,,,,,,,,,,,,,,,,,,,,,,
+subject_5397,60.3,2017-12-07,,,,,,,,,,,,,,,,,,,,,
+subject_4292,73.8,,,,,,,,,,,,,,,,,,,,,,
+subject_7952,96.6,2017-12-08,,QIAGEN RNeasy Plus Micro,170220164.0,12.0,,,,,9.4,300.9,,,No,,,,,,,,
+subject_4055,64.5,2016-06-11,,Norgen Single Cell RNA kit,160047191.0,12.0,300597260.0,TS01063219,2016-06-13,1.0,7.8,8741.1,,ok,Yes,Pico RNA,4.29,Complete,2016-06-30,4055-SMP-02,300597260.0,B1,SCRIPT_RNAseq_Batch_01
+subject_6016,60.6,,,,,,,,,,,,,,,,,,,,,,
+subject_2385,77.9,,,,,,,,,,,,,,,,,,,,,,
+subject_7379,78.3,,,,,,,,,,,,,,,,,,,,,,
+subject_5031,22.0,,,,,,,,,,,,,,,,,,,,,,
+subject_7595,89.8,,,,,,,,,,,,,,,,,,,,,,
+subject_5391,71.7,,,,,,,,,,,,,,,,,,,,,,
+subject_2818,49.3,,,,,,,,,,,,,,No,,,,,,,,
+subject_8599,51.0,,,,,,,,,,,,,,,,,,,,,,
+subject_6190,68.0,,,,,,,,,,,,,,,,,,,6190-SMP-05,,,
+subject_2965,84.0,2020-06-21,All 7 mL of sample were processed - cell count was too low to sort,QIAGEN RNeasy Micro,170220164.0,12.0,301474289.0,TS01063219,,,,,,,,,,,,2965-SMP-03,301474289.0,,
+subject_5833,34.7,,,,,,,,,,,,,,,,,,,,,,
+subject_2816,,,,,,,,,,,,,,,,,,,,,,,
+subject_5209,28.6,2017-03-24,All 7 mL of sample were processed - cell count was too low to sort,QIAGEN RNeasy Micro,160052304.0,18.0,301128525.0,TS01064421,2017-03-27,3.0,,65.9,ok,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,HSRNA,4.96,Complete,2017-04-13,5209-SMP-03,301128525.0,C1,SCRIPT_RNAseq_Batch_02
+subject_6901,47.9,2019-08-20,,,,,,,,,7.8,953.6,,,Yes,,,,,,,,
+subject_5003,56.6,,,,,,,,,,,,,,No,,,,,,,,
+subject_7644,30.9,,,,,,,,,,,,,,,,,,,,,,
+subject_7937,59.5,2018-11-26,,,,,304877564.0,TS01063219,,,,,,,,,,,,7937-SMP-09,304877564.0,,
+subject_4290,55.4,,,QIAGEN RNeasy Plus Micro,160052304.0,14.0,300391077.0,TS01069817,,,,,,,,,,,,4290-SMP-05,300391077.0,,
+subject_4214,78.3,2025-01-08,,QIAGEN RNeasy Micro,160047191.0,12.0,,,,,,,,,,,,,,,,,
+subject_8254,47.3,2019-11-16,,QIAGEN RNeasy Micro,160052304.0,12.0,300177148.0,TS01064421,,,,,,,,,,,,8254-SMP-01,300177148.0,,
+subject_6747,74.2,2020-06-18,,QIAGEN RNeasy Micro,160052304.0,16.0,300841102.0,TS01064421,2020-06-18,2.0,6.1,37186.0,,ok,Yes,Standard RNA,1.66,Complete,2020-07-09,6747-SMP-01,300841102.0,B1,SCRIPT_RNAseq_Batch_04
+subject_6745,49.6,2019-05-11,,QIAGEN RNeasy Plus Micro,160047191.0,12.0,304088327.0,TS01064421,2019-05-12,3.0,6.3,20175.3,ok,ok,Yes,HSRNA,0.22,Partial,2019-05-31,6745-SMP-02,304088327.0,E1,SCRIPT_RNAseq_Batch_02
+subject_5918,59.5,,,,,,,,,,,,,,,,,,,,,,
+subject_8241,66.1,2017-04-29,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",QIAGEN RNeasy Micro,160052304.0,18.0,301582770.0,TS01064421,2017-05-01,1.0,6.0,3055.2,RNA concentration outside recommended range for RINe,ok,Yes,HSRNA,0.01,Complete,2017-05-15,8241-SMP-08,301582770.0,B1,SCRIPT_RNAseq_Batch_02
+subject_5012,65.5,2021-09-08,,,,,,,,,7.0,4289.7,,,Yes,,,,,,,,
+subject_7663,60.1,,,,,,,,,,,,,,,,,,,,,,
+subject_5576,72.6,,,,,,,,,,,,,,,,,,,,,,
+subject_3466,86.5,2016-03-31,,,,,,,,,,,,,,,,,,,,,
+subject_5359,61.5,2016-01-03,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Norgen Single Cell RNA kit,160052304.0,18.0,303133484.0,TS01064421,2016-01-04,3.0,,7945.4,RNA concentration outside recommended range for RINe,ok,Yes,Standard RNA,3.26,Complete,2016-01-30,5359-SMP-05,303133484.0,H1,SCRIPT_RNAseq_Batch_04
+subject_4114,45.9,,,,,,,,,,,,,,,,,,,,,,
+subject_2796,52.8,2016-09-02,,Norgen Single Cell RNA kit,161004778.0,12.0,304123867.0,TS01069817,2016-09-03,3.0,,25.9,RNA concentration outside recommended range for RINe; RINe edited,Use for sequencing.,Yes,HSRNA,7.99,Complete,2016-09-17,2796-SMP-04,304123867.0,D1,SCRIPT_RNAseq_Batch_02
+subject_7585,49.2,2018-03-23,,QIAGEN RNeasy Micro,160052304.0,16.0,301163251.0,TS01063219,2018-03-26,2.0,9.8,51.6,ok,Use for sequencing.,Yes,Pico RNA,3.56,Complete,2018-04-01,7585-SMP-01,301163251.0,G1,SCRIPT_RNAseq_Batch_02
+subject_7665,89.1,2023-02-08,,QIAGEN RNeasy Plus Micro,160052304.0,18.0,304705884.0,TS01063219,2023-02-10,1.0,,225.0,ok,Use for sequencing.,Yes,Standard RNA,2.62,Complete,2023-03-05,7665-SMP-05,304705884.0,A1,SCRIPT_RNAseq_Batch_02
+subject_2332,99.0,2017-09-20,,,,,,,,,,,,,,,,,,,,,
+subject_4506,60.3,,"Traces look ok, decent 18S and 28S peaks. Use for sequencing.",,,,,,,,,,,,,,,,,,,,
+subject_3623,59.7,,,,,,,,,,,,,,,,,,,3623-SMP-08,,,
+subject_6483,42.4,2016-04-24,,Norgen Single Cell RNA kit,160047191.0,14.0,303859641.0,TS01069817,2016-04-24,2.0,,55.5,,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,Pico RNA,2.37,Complete,2016-05-03,6483-SMP-07,303859641.0,F1,SCRIPT_RNAseq_Batch_02
+subject_7338,74.1,2019-04-13,"Traces look ok, decent 18S and 28S peaks. Use for sequencing.",,,,304038038.0,TS01069817,,,6.0,47.8,,,Yes,,,,,7338-SMP-00,304038038.0,,
+subject_2420,51.4,2022-07-18,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Norgen Single Cell RNA kit,161004778.0,16.0,302266894.0,TS01063219,2022-07-19,2.0,9.0,1657.5,RNA concentration outside recommended range for RINe; RINe edited,ok,Yes,Pico RNA,1.7,Complete,2022-08-17,2420-SMP-03,302266894.0,A1,SCRIPT_RNAseq_Batch_04
+subject_5179,47.1,,,,,,,,,,,,,,,,,,,,,,
+subject_3287,85.0,,,,,,,,,,,,,,No,,,,,,,,
+subject_5236,44.0,2019-01-13,,,,,,,,,,,,,,,,,,,,,
+subject_6082,58.4,2017-08-03,"Traces look ok, decent 18S and 28S peaks. Use for sequencing.",QIAGEN RNeasy Plus Micro,161004778.0,12.0,300017010.0,TS01069817,2017-08-06,1.0,,194.7,RNA concentration outside recommended range for RINe,Use for sequencing.,Yes,Standard RNA,4.11,Complete,2017-08-23,6082-SMP-06,300017010.0,B1,SCRIPT_RNAseq_Batch_01
+subject_6149,48.5,2024-12-12,,QIAGEN RNeasy Plus Micro,160052304.0,16.0,303180820.0,TS01069817,2024-12-15,2.0,6.6,3225.2,RNA concentration outside recommended range for RINe,Use for sequencing.,Yes,HSRNA,8.01,Complete,2025-01-11,6149-SMP-02,303180820.0,G1,SCRIPT_RNAseq_Batch_01
+subject_2190,46.6,,,,,,,,,,,,,,,,,,,,,,
+subject_7753,,,Sample extremely-mucous like; small yield in cells and insufficient amount to sort,,,,,,,,,,,,,,,,,,,,
+subject_7125,49.2,2018-06-22,All 7 mL of sample were processed - cell count was too low to sort,QIAGEN RNeasy Plus Micro,160052304.0,12.0,303606114.0,TS01069817,2018-06-24,3.0,8.9,805.4,RNA concentration outside recommended range for RINe,ok,Yes,Standard RNA,1.48,Partial,2018-07-25,7125-SMP-06,303606114.0,A1,SCRIPT_RNAseq_Batch_02
+subject_6494,91.2,,,,,,,,,,,,,,,,,,,,,,
+subject_8926,,,,,,,,,,,,,,,,,,,,,,,
+subject_4985,71.2,,,,,,,,,,,,,,,,,,,,,,
+subject_5397,45.7,2017-12-01,All 7 mL of sample were processed - cell count was too low to sort,,,,,,,,,,,,,,,,,,,,
+subject_4560,65.4,2020-10-07,All 7 mL of sample were processed - cell count was too low to sort,QIAGEN RNeasy Plus Micro,160047191.0,18.0,300263186.0,TS01064421,2020-10-07,3.0,,212.7,ok,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,Standard RNA,1.27,Complete,2020-10-18,4560-SMP-00,300263186.0,B1,SCRIPT_RNAseq_Batch_01
+subject_6022,41.3,2023-02-06,,Norgen Single Cell RNA kit,160052304.0,18.0,303227323.0,TS01064421,2023-02-08,3.0,,2490.7,,Use for sequencing.,No,HSRNA,5.53,Partial,2023-02-19,6022-SMP-01,303227323.0,E1,SCRIPT_RNAseq_Batch_02
+subject_8117,45.6,,,,,,,,,,,,,,,,,,,,,,
+subject_6234,79.3,2022-03-04,,,,,,,,,,,,,,,,,,,,,
+subject_5131,79.0,2019-04-08,,,,,,,,,,,,,No,,,,,,,,
+subject_4062,,,,,,,,,,,,,,,,,,,,,,,
+subject_4325,,,,,,,,,,,,,,,,,,,,4325-SMP-02,,,
+subject_5878,67.2,2019-03-12,,,,,,,,,,,,,,,,,,,,,
+subject_8190,54.8,2016-07-10,,Norgen Single Cell RNA kit,170220164.0,16.0,304474827.0,TS01064421,2016-07-12,2.0,9.7,366.5,ok,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,Standard RNA,0.67,Complete,2016-08-10,8190-SMP-08,304474827.0,C1,SCRIPT_RNAseq_Batch_01
+subject_6148,67.3,,,,,,,,,,,,,,,,,,,,,,
+subject_2971,72.9,,,,,,,,,,,,,,,,,,,,,,
+subject_8312,80.8,2020-07-18,"Traces look ok, decent 18S and 28S peaks. Use for sequencing.",QIAGEN RNeasy Plus Micro,160047191.0,16.0,303359824.0,TS01069817,2020-07-18,3.0,,9144.2,,Use for sequencing.,Yes,Standard RNA,2.62,Complete,2020-08-20,8312-SMP-04,303359824.0,D1,SCRIPT_RNAseq_Batch_03
+subject_4582,50.1,2021-10-24,All 7 mL of sample were processed - cell count was too low to sort,QIAGEN RNeasy Plus Micro,161004778.0,14.0,302489492.0,TS01069817,2021-10-24,2.0,,5428.8,ok,ok,Yes,Standard RNA,1.31,Complete,2021-11-03,4582-SMP-08,302489492.0,A1,SCRIPT_RNAseq_Batch_04
+subject_7720,,,,,,,,,,,,,,,,,,,,7720-SMP-07,,,
+subject_8254,84.4,,,Norgen Single Cell RNA kit,160047191.0,16.0,304281720.0,TS01063219,,,,,,,,,,,,8254-SMP-05,304281720.0,,
+subject_6808,55.3,,,,,,,,,,,,,,,,,,,,,,
+subject_2325,64.1,2021-07-23,"Traces look ok, decent 18S and 28S peaks. Use for sequencing.",QIAGEN RNeasy Plus Micro,170220164.0,14.0,,,,,,,,,,,,,,,,,
+subject_7343,55.1,,,,,,,,,,,,,,,,,,,,,,
+subject_3717,,,,,,,,,,,,,,,,,,,,,,,
+subject_4060,61.1,,,,,,,,,,,,,,,,,,,,,,
+subject_7053,43.4,,,QIAGEN RNeasy Plus Micro,160047191.0,14.0,,,,,7.0,16.8,,,Yes,,,,,,,,
+subject_6564,86.9,,,,,,,,,,,,,,,,,,,,,,
+subject_7729,57.1,,,,,,,,,,,,,,,,,,,,,,
+subject_7889,50.4,2020-06-25,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",QIAGEN RNeasy Plus Micro,161004778.0,12.0,301082433.0,TS01064421,2020-06-26,2.0,7.8,42.4,RNA concentration outside recommended range for RINe; RINe edited,Use for sequencing.,Yes,Standard RNA,4.19,Complete,2020-07-20,7889-SMP-03,301082433.0,D1,SCRIPT_RNAseq_Batch_04
+subject_5990,56.9,2016-01-03,,QIAGEN RNeasy Micro,170220164.0,14.0,304258500.0,TS01069817,2016-01-06,1.0,,132.3,RNA concentration outside recommended range for RINe,ok,Yes,HSRNA,3.52,Complete,2016-01-23,5990-SMP-08,304258500.0,D1,SCRIPT_RNAseq_Batch_01
+subject_6695,57.1,,,,,,,,,,6.4,26.6,,,Yes,,,,,,,,
+subject_7644,49.6,2020-12-29,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",QIAGEN RNeasy Micro,160052304.0,14.0,303579947.0,TS01063219,2020-12-29,2.0,9.6,74.0,,ok,Yes,Pico RNA,0.2,Partial,2021-01-07,7644-SMP-02,303579947.0,F1,SCRIPT_RNAseq_Batch_01
+subject_8908,,2021-06-27,,Norgen Single Cell RNA kit,170220164.0,16.0,301616877.0,TS01063219,2021-06-28,1.0,8.4,4610.6,RNA concentration outside recommended range for RINe,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,Pico RNA,3.87,Complete,2021-07-29,8908-SMP-02,301616877.0,E1,SCRIPT_RNAseq_Batch_04
+subject_6864,62.1,,,,,,,,,,,,,,,,,,,,,,
+subject_4714,49.7,,,Norgen Single Cell RNA kit,160052304.0,14.0,301572148.0,TS01064421,,,,,,,,,,,,4714-SMP-05,301572148.0,,
+subject_6580,46.6,,,QIAGEN RNeasy Plus Micro,161004778.0,16.0,300428710.0,TS01069817,,,,,,,,,,,,6580-SMP-02,300428710.0,,
+subject_2325,44.6,2022-06-08,"Traces look ok, decent 18S and 28S peaks. Use for sequencing.",QIAGEN RNeasy Plus Micro,160052304.0,14.0,302327065.0,TS01064421,2022-06-11,2.0,,4412.8,,Use for sequencing.,Yes,Standard RNA,5.88,Partial,2022-06-23,2325-SMP-07,302327065.0,E1,SCRIPT_RNAseq_Batch_04
+subject_7043,45.8,,,,,,,,,,,,,,,,,,,,,,
+subject_2191,,,,,,,,,,,,,,,,,,,,,,,
+subject_3371,75.6,,,,,,,,,,,,,,,,,,,,,,
+subject_4278,71.4,2016-06-17,,,,,,,,,,,,,,,,,,,,,
+subject_3847,51.6,2020-02-19,,QIAGEN RNeasy Plus Micro,161004778.0,14.0,,,,,,,,,,,,,,,,,
+subject_4499,42.1,,,,,,,,,,7.6,285.4,,,No,,,,,,,,
+subject_5329,,2021-05-27,,QIAGEN RNeasy Plus Micro,160047191.0,16.0,,,,,,,,,,,,,,,,,
+subject_4323,99.0,,RNA concentration outside recommended range for RINe,QIAGEN RNeasy Micro,161004778.0,12.0,,,,,,,,,,,,,,,,,
+subject_8103,63.0,,,,,,,,,,,,,,,,,,,,,,
+subject_7174,69.4,,,,,,,,,,,,,,,,,,,,,,
+subject_5700,65.4,,,,,,,,,,,,,,No,,,,,,,,
+subject_4782,78.2,2017-09-03,,QIAGEN RNeasy Plus Micro,161004778.0,12.0,302757710.0,TS01063219,2017-09-03,1.0,8.8,3884.0,RNA concentration outside recommended range for RINe,ok,Yes,HSRNA,7.7,Complete,2017-09-11,4782-SMP-02,302757710.0,A1,SCRIPT_RNAseq_Batch_02
+subject_4681,66.2,,,,,,,,,,,,,,,,,,,,,,
+subject_4309,52.1,2019-04-13,,QIAGEN RNeasy Micro,160052304.0,16.0,301028847.0,TS01069817,2019-04-14,2.0,,43083.4,RNA concentration outside recommended range for RINe,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,Standard RNA,7.91,Complete,2019-05-11,4309-SMP-09,301028847.0,A1,SCRIPT_RNAseq_Batch_03
+subject_6810,57.4,,All 7 mL of sample were processed - cell count was too low to sort,,,,,,,,,,,,No,,,,,,,,
+subject_4926,67.3,2019-07-20,,,,,303891248.0,TS01064421,,,,,,,,,,,,4926-SMP-09,303891248.0,,
+subject_4701,68.9,2016-07-25,,Norgen Single Cell RNA kit,161004778.0,18.0,301596300.0,TS01063219,2016-07-25,1.0,9.0,3537.2,RNA concentration outside recommended range for RINe,Use for sequencing.,Yes,Standard RNA,1.09,Partial,2016-08-27,4701-SMP-04,301596300.0,H1,SCRIPT_RNAseq_Batch_01
+subject_2958,71.2,,,,,,,,,,,,,,,,,,,,,,
+subject_4114,95.2,2017-12-22,,QIAGEN RNeasy Plus Micro,160047191.0,12.0,304765414.0,TS01064421,2017-12-25,2.0,9.2,51.3,RNA concentration outside recommended range for RINe,Use for sequencing.,Yes,Pico RNA,0.7,Complete,2018-01-14,4114-SMP-01,304765414.0,C1,SCRIPT_RNAseq_Batch_02
+subject_6691,59.1,2023-09-19,,QIAGEN RNeasy Plus Micro,160047191.0,14.0,,,,,6.2,773.8,,,Yes,,,,,,,,
+subject_2676,69.3,2019-10-04,,,,,,,,,,,,,,,,,,,,,
+subject_4149,65.5,,,,,,,,,,,,,,,,,,,4149-SMP-09,,,
+subject_6664,55.5,2016-10-26,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",QIAGEN RNeasy Micro,161004778.0,14.0,300044079.0,TS01064421,2016-10-26,1.0,,6087.5,,Use for sequencing.,Yes,Standard RNA,6.66,Complete,2016-11-14,6664-SMP-05,300044079.0,D1,SCRIPT_RNAseq_Batch_01
+subject_7595,34.5,2021-01-11,,,,,,,,,,,,,,,,,,,,,
+subject_7267,,,,,,,,,,,,,,,,,,,,,,,
+subject_8341,29.9,2017-10-13,All 7 mL of sample were processed - cell count was too low to sort,Norgen Single Cell RNA kit,160047191.0,16.0,303073852.0,TS01063219,2017-10-16,1.0,8.6,32211.9,,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",No,Standard RNA,7.69,Partial,2017-10-26,8341-SMP-03,303073852.0,A1,SCRIPT_RNAseq_Batch_01
+subject_4573,56.5,,,,,,,,,,,,,,,,,,,,,,
+subject_5947,51.6,2016-05-07,,QIAGEN RNeasy Micro,161004778.0,16.0,302103237.0,TS01063219,2016-05-08,1.0,,111.6,ok,Use for sequencing.,Yes,Pico RNA,0.53,Partial,2016-05-24,5947-SMP-08,302103237.0,F1,SCRIPT_RNAseq_Batch_01
+subject_2696,55.9,,,,,,,,,,,,,,,,,,,,,,
+subject_5197,60.5,,,,,,,,,,,,,,,,,,,,,,
+subject_4157,58.7,2017-07-16,,Norgen Single Cell RNA kit,161004778.0,18.0,301304776.0,TS01063219,2017-07-18,1.0,7.1,443.7,RNA concentration outside recommended range for RINe; RINe edited,ok,Yes,Standard RNA,6.76,Complete,2017-08-05,4157-SMP-08,301304776.0,G1,SCRIPT_RNAseq_Batch_04
+subject_3776,,2019-01-12,,,,,,,,,,,,,,,,,,,,,
+subject_6652,45.2,2016-03-06,,Norgen Single Cell RNA kit,170220164.0,12.0,302041183.0,TS01064421,2016-03-06,1.0,6.6,62.2,ok,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",No,Pico RNA,1.57,Partial,2016-03-23,6652-SMP-00,302041183.0,D1,SCRIPT_RNAseq_Batch_04
+subject_8939,56.2,,,,,,,,,,,,,,,,,,,,,,
+subject_2407,47.2,2016-06-29,,,,,,,,,,,,,,,,,,,,,
+subject_7913,17.4,,,,,,,,,,,,,,,,,,,,,,
+subject_2099,75.4,,,,,,,,,,,,,,,,,,,2099-SMP-09,,,
+subject_4549,62.0,,,,,,,,,,,,,,,,,,,,,,
+subject_7927,66.3,,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",,,,,,,,,,,,,,,,,7927-SMP-08,,,
+subject_5575,92.9,,,,,,,,,,,,,,,,,,,,,,
+subject_8397,53.9,,,,,,,,,,,,,,,,,,,,,,
+subject_5925,81.7,,,,,,,,,,,,,,,,,,,,,,
+subject_3817,52.4,,,,,,,,,,,,,,,,,,,3817-SMP-03,,,
+subject_3428,45.8,,,,,,,,,,,,,,,,,,,,,,
+subject_7570,91.4,2022-04-12,RNA concentration outside recommended range for RINe,Norgen Single Cell RNA kit,161004778.0,18.0,301442948.0,TS01064421,2022-04-15,2.0,6.7,687.6,ok,Use for sequencing.,Yes,HSRNA,8.45,Complete,2022-04-30,7570-SMP-05,301442948.0,F1,SCRIPT_RNAseq_Batch_04
+subject_5984,45.3,,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected),,,,,,,,,,,,No,,,,,,,,
+subject_5282,46.5,,,QIAGEN RNeasy Plus Micro,160052304.0,14.0,302721493.0,TS01069817,,,,,,,,,,,,5282-SMP-06,302721493.0,,
+subject_4796,59.2,2016-12-31,All 7 mL of sample were processed - cell count was too low to sort,QIAGEN RNeasy Micro,160052304.0,16.0,,,,,,,,,,,,,,,,,
+subject_7720,63.8,2021-07-08,,,,,,,,,,,,,,,,,,,,,
+subject_4822,86.6,,,,,,,,,,,,,,,,,,,,,,
+subject_6072,48.4,,,,,,,,,,,,,,,,,,,,,,
+subject_8791,98.0,,,,,,,,,,,,,,No,,,,,,,,
+subject_5490,54.5,,,,,,,,,,,,,,,,,,,,,,
+subject_5954,99.0,,,,,,,,,,,,,,,,,,,5954-SMP-06,,,
+subject_5716,85.8,,,,,,,,,,,,,,,,,,,,,,
+subject_5947,84.8,2016-06-05,,,,,,,,,,,,,No,,,,,,,,
+subject_3180,47.4,,All 7 mL of sample were processed - cell count was too low to sort,,,,,,,,,,,,,,,,,3180-SMP-08,,,
+subject_7644,,,,,,,,,,,,,,,,,,,,7644-SMP-05,,,
+subject_8166,,2022-04-29,,Norgen Single Cell RNA kit,160052304.0,18.0,304002701.0,TS01064421,2022-04-29,3.0,8.7,26454.2,RNA concentration outside recommended range for RINe; RINe edited,ok,No,Standard RNA,6.75,Partial,2022-05-21,8166-SMP-02,304002701.0,B1,SCRIPT_RNAseq_Batch_01
+subject_4753,55.9,,,,,,,,,,,,,,,,,,,,,,
+subject_2630,59.3,2020-08-05,,,,,,,,,,,,,,,,,,,,,
+subject_7940,53.5,,All 7 mL of sample were processed - cell count was too low to sort,QIAGEN RNeasy Plus Micro,160047191.0,16.0,,,,,7.0,3268.5,,,No,,,,,,,,
+subject_4799,78.3,2017-09-11,,Norgen Single Cell RNA kit,160047191.0,18.0,302324365.0,TS01063219,2017-09-14,3.0,,1770.5,ok,ok,Yes,HSRNA,6.44,Complete,2017-09-29,4799-SMP-01,302324365.0,G1,SCRIPT_RNAseq_Batch_02
+subject_7830,40.0,,,,,,,,,,,,,,,,,,,,,,
+subject_4133,76.4,2019-07-10,,QIAGEN RNeasy Plus Micro,161004778.0,18.0,300094454.0,TS01063219,2019-07-12,3.0,8.1,5649.4,RNA concentration outside recommended range for RINe,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",No,Standard RNA,7.48,Complete,2019-07-20,4133-SMP-07,300094454.0,A1,SCRIPT_RNAseq_Batch_03
+subject_5427,67.5,,,,,,,,,,,,,,,,,,,,,,
+subject_2871,76.8,2020-12-23,,,,,,,,,,,,,,,,,,,,,
+subject_3061,53.5,,,,,,,,,,,,,,,,,,,,,,
+subject_7595,60.5,,,,,,,,,,,,,,,,,,,,,,
+subject_7826,45.7,,,,,,,,,,,,,,,,,,,,,,
+subject_5931,44.0,,,,,,,,,,,,,,,,,,,5931-SMP-06,,,
+subject_5792,59.9,,,,,,,,,,,,,,,,,,,,,,
+subject_8010,65.1,,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",,,,,,,,,,,,,,,,,,,,
+subject_7971,75.7,2020-12-29,,Norgen Single Cell RNA kit,160052304.0,16.0,300736795.0,TS01064421,2020-12-30,2.0,8.0,1092.2,RNA concentration outside recommended range for RINe,ok,No,Pico RNA,6.49,Complete,2021-01-22,7971-SMP-00,300736795.0,A1,SCRIPT_RNAseq_Batch_04
+subject_4244,,,,,,,,,,,,,,,,,,,,,,,
+subject_6580,88.7,2019-07-16,,,,,,,,,,,,,,,,,,6580-SMP-00,,,
+subject_4190,99.0,2016-01-03,,,,,,,,,,,,,,,,,,,,,
+subject_3407,61.5,2022-11-16,,,,,,,,,,,,,,,,,,,,,
+subject_7604,75.7,,,,,,,,,,,,,,,,,,,,,,
+subject_6213,24.6,,,,,,,,,,,,,,,,,,,,,,
+subject_2302,54.4,2018-09-26,RNA concentration outside recommended range for RINe,QIAGEN RNeasy Plus Micro,161004778.0,12.0,,,,,5.5,33.2,,,No,,,,,,,,
+subject_7982,50.8,,,,,,,,,,,,,,,,,,,,,,
+subject_7016,53.8,,,,,,,,,,,,,,,,,,,,,,
+subject_2485,43.2,,,,,,,,,,,,,,,,,,,,,,
+subject_3162,65.7,,,,,,,,,,,,,,,,,,,,,,
+subject_3801,58.4,2020-11-17,"Traces look ok, decent 18S and 28S peaks. Use for sequencing.",,,,,,,,,,,,,,,,,,,,
+subject_3647,63.7,2020-10-09,,QIAGEN RNeasy Micro,160052304.0,16.0,,,,,,,,,,,,,,,,,
+subject_2855,49.4,,,,,,,,,,,,,,,,,,,,,,
+subject_8628,57.2,,,,,,,,,,,,,,,,,,,,,,
+subject_4985,33.6,,,,,,,,,,,,,,,,,,,,,,
+subject_2237,69.7,,,,,,,,,,,,,,,,,,,,,,
+subject_8227,,,,,,,,,,,,,,,No,,,,,,,,
+subject_8383,74.3,,,,,,,,,,,,,,,,,,,,,,
+subject_5011,37.0,2021-03-01,All 7 mL of sample were processed - cell count was too low to sort,QIAGEN RNeasy Micro,170220164.0,16.0,302102650.0,TS01063219,2021-03-02,1.0,,3462.9,ok,ok,Yes,Pico RNA,3.12,Complete,2021-03-28,5011-SMP-01,302102650.0,H1,SCRIPT_RNAseq_Batch_04
+subject_4268,,,,,,,,,,,,,,,,,,,,,,,
+subject_7328,40.9,,,,,,,,,,,,,,,,,,,,,,
+subject_6132,56.8,,,,,,,,,,,,,,,,,,,,,,
+subject_7522,51.7,,,,,,,,,,,,,,,,,,,,,,
+subject_2505,79.3,,,,,,,,,,,,,,,,,,,,,,
+subject_6175,41.4,,,,,,,,,,,,,,,,,,,,,,
+subject_3289,60.4,2016-01-20,,QIAGEN RNeasy Micro,170220164.0,18.0,304956359.0,TS01063219,2016-01-21,2.0,,38.0,RNA concentration outside recommended range for RINe; RINe edited,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,Pico RNA,7.7,Complete,2016-02-15,3289-SMP-08,304956359.0,C1,SCRIPT_RNAseq_Batch_01
+subject_3552,88.1,2019-11-20,,,,,,,,,,,,,,,,,,,,,
+subject_7120,97.3,,,,,,,,,,,,,,,,,,,,,,
+subject_8970,51.8,,,,,,,,,,,,,,,,,,,8970-SMP-07,,,
+subject_2371,56.8,,,,,,,,,,,,,,,,,,,,,,
+subject_3337,52.0,2023-01-12,,QIAGEN RNeasy Plus Micro,161004778.0,18.0,303396814.0,TS01064421,2023-01-12,1.0,,62.9,,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,Pico RNA,6.77,Complete,2023-01-24,3337-SMP-07,303396814.0,B1,SCRIPT_RNAseq_Batch_02
+subject_2768,51.5,2025-07-16,,Norgen Single Cell RNA kit,170220164.0,18.0,300064157.0,TS01069817,2025-07-16,2.0,,911.1,RNA concentration outside recommended range for RINe,ok,Yes,HSRNA,6.1,Partial,2025-08-05,2768-SMP-08,300064157.0,A1,SCRIPT_RNAseq_Batch_04
+subject_7833,50.2,,,,,,,,,,,,,,,,,,,,,,
+subject_5675,99.0,,,,,,,,,,,,,,,,,,,,,,
+subject_3594,39.6,2017-06-23,,QIAGEN RNeasy Micro,170220164.0,18.0,304537074.0,TS01064421,2017-06-24,3.0,,570.1,RNA concentration outside recommended range for RINe,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,HSRNA,2.77,Complete,2017-07-28,3594-SMP-06,304537074.0,E1,SCRIPT_RNAseq_Batch_04
+subject_7865,64.7,2017-03-06,,,,,300034043.0,TS01069817,,,5.7,513.3,,,Yes,,,,,7865-SMP-01,300034043.0,,
+subject_3219,48.3,,,,,,,,,,,,,,,,,,,3219-SMP-04,,,
+subject_8043,57.9,2017-10-27,,QIAGEN RNeasy Micro,160047191.0,12.0,302879052.0,TS01064421,2017-10-30,1.0,,43.2,RNA concentration outside recommended range for RINe; RINe edited,ok,Yes,Standard RNA,8.49,Complete,2017-11-18,8043-SMP-07,302879052.0,G1,SCRIPT_RNAseq_Batch_03
+subject_8383,60.3,,"Traces look ok, decent 18S and 28S peaks. Use for sequencing.",,,,,,,,,,,,,,,,,,,,
+subject_6537,54.2,2021-10-11,RNA concentration outside recommended range for RINe,Norgen Single Cell RNA kit,160052304.0,18.0,304490651.0,TS01063219,2021-10-12,2.0,7.7,3593.4,RNA concentration outside recommended range for RINe,ok,Yes,Pico RNA,7.9,Complete,2021-11-05,6537-SMP-02,304490651.0,B1,SCRIPT_RNAseq_Batch_02
+subject_5231,50.1,,,,,,,,,,,,,,,,,,,5231-SMP-07,,,
+subject_5592,,,,QIAGEN RNeasy Micro,161004778.0,16.0,304075118.0,TS01064421,,,,,,,,,,,,5592-SMP-04,304075118.0,,
+subject_4912,59.0,,,,,,,,,,,,,,,,,,,4912-SMP-00,,,
+subject_4596,74.2,2017-12-21,,,,,,,,,,,,,,,,,,,,,
+subject_5091,66.7,2016-01-14,,,,,,,,,,,,,No,,,,,,,,
+subject_4236,45.4,,,,,,,,,,,,,,,,,,,,,,
+subject_7979,30.5,2021-08-18,RNA concentration outside recommended range for RINe,QIAGEN RNeasy Micro,160052304.0,14.0,300484260.0,TS01063219,2021-08-18,1.0,,371.9,RNA concentration outside recommended range for RINe,ok,Yes,Pico RNA,8.31,Partial,2021-08-29,7979-SMP-04,300484260.0,B1,SCRIPT_RNAseq_Batch_01
+subject_2099,56.2,,,,,,,,,,,,,,,,,,,,,,
+subject_7785,93.8,2020-05-15,,Norgen Single Cell RNA kit,170220164.0,18.0,300436077.0,TS01069817,2020-05-15,1.0,,1419.9,RNA concentration outside recommended range for RINe; RINe edited,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,Standard RNA,6.22,Partial,2020-06-02,7785-SMP-05,300436077.0,E1,SCRIPT_RNAseq_Batch_02
+subject_4833,45.5,,,,,,,,,,,,,,,,,,,,,,
+subject_8465,54.8,2017-11-30,,,,,,,,,,,,,,,,,,,,,
+subject_5596,,2019-12-29,,,,,301425554.0,TS01069817,,,,,,,,,,,,5596-SMP-03,301425554.0,,
+subject_2028,49.2,,,,,,,,,,,,,,No,,,,,,,,
+subject_6580,83.3,,,,,,,,,,,,,,,,,,,6580-SMP-02,,,
+subject_8225,74.3,2017-02-24,,,,,,,,,,,,,,,,,,8225-SMP-04,,,
+subject_4206,63.1,,,,,,,,,,,,,,,,,,,,,,
+subject_5044,77.1,,,,,,,,,,,,,,,,,,,,,,
+subject_7760,64.2,2017-05-08,,,,,,,,,,,,,,,,,,,,,
+subject_4414,85.0,2017-08-29,,,,,,,,,,,,,,,,,,,,,
+subject_3994,37.9,,,,,,,,,,,,,,,,,,,,,,
+subject_2061,48.2,,,,,,,,,,,,,,,,,,,,,,
+subject_3148,41.9,,,,,,,,,,,,,,,,,,,,,,
+subject_6019,89.4,,,,,,,,,,,,,,,,,,,,,,
+subject_5682,99.0,,,,,,,,,,,,,,,,,,,5682-SMP-02,,,
+subject_8251,42.6,2020-08-02,,QIAGEN RNeasy Plus Micro,160047191.0,14.0,303677026.0,TS01064421,,,,,,,,,,,,8251-SMP-02,303677026.0,,
+subject_6019,48.9,2017-02-05,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected),Norgen Single Cell RNA kit,160047191.0,16.0,301101351.0,TS01069817,2017-02-06,1.0,8.2,6235.0,,ok,Yes,HSRNA,4.81,Complete,2017-03-01,6019-SMP-02,301101351.0,G1,SCRIPT_RNAseq_Batch_03
+subject_5030,68.5,,,,,,,,,,,,,,,,,,,,,,
+subject_4896,45.3,2020-05-06,,,,,,,,,,,,,,,,,,,,,
+subject_2616,64.0,2021-01-22,Sample extremely-mucous like; small yield in cells and insufficient amount to sort,QIAGEN RNeasy Plus Micro,161004778.0,18.0,301586658.0,TS01064421,2021-01-23,1.0,,380.8,,ok,Yes,Standard RNA,2.13,Partial,2021-02-20,2616-SMP-01,301586658.0,H1,SCRIPT_RNAseq_Batch_04
+subject_7228,68.4,2020-01-05,,Norgen Single Cell RNA kit,170220164.0,12.0,300369492.0,TS01064421,2020-01-07,1.0,7.8,94.8,RNA concentration outside recommended range for RINe,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,Standard RNA,7.81,Partial,2020-01-28,7228-SMP-04,300369492.0,C1,SCRIPT_RNAseq_Batch_03
+subject_7593,59.0,,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected),,,,,,,,,,,,,,,,,,,,
+subject_6256,99.0,2018-12-09,,QIAGEN RNeasy Plus Micro,161004778.0,12.0,302891661.0,TS01064421,2018-12-11,2.0,,30.2,RNA concentration outside recommended range for RINe; RINe edited,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",No,HSRNA,2.4,Partial,2019-01-10,6256-SMP-06,302891661.0,G1,SCRIPT_RNAseq_Batch_02
+subject_6379,50.5,,,,,,,,,,,,,,,,,,,,,,
+subject_7356,69.3,,,Norgen Single Cell RNA kit,170220164.0,14.0,303460493.0,TS01069817,,,,,,,,,,,,7356-SMP-07,303460493.0,,
+subject_7094,58.4,,,,,,,,,,,,,,,,,,,,,,
+subject_8545,58.0,,,,,,,,,,,,,,,,,,,,,,
+subject_2237,53.8,,"Traces look ok, decent 18S and 28S peaks. Use for sequencing.",,,,,,,,,,,,,,,,,,,,
+subject_2328,,2018-01-01,,QIAGEN RNeasy Plus Micro,170220164.0,16.0,303541237.0,TS01063219,2018-01-04,3.0,7.1,7159.6,ok,Use for sequencing.,Yes,HSRNA,7.9,Complete,2018-01-20,2328-SMP-04,303541237.0,G1,SCRIPT_RNAseq_Batch_03
+subject_7664,83.2,,Sample extremely-mucous like; small yield in cells and insufficient amount to sort,Norgen Single Cell RNA kit,170220164.0,16.0,300297001.0,TS01063219,,,8.8,667.1,,,No,,,,,7664-SMP-06,300297001.0,,
+subject_2455,76.5,,,,,,,,,,,,,,,,,,,,,,
+subject_8015,,,,,,,,,,,,,,,,,,,,,,,
+subject_3255,,2017-10-19,,,,,,,,,,,,,,,,,,,,,
+subject_4749,,,,,,,,,,,,,,,,,,,,,,,
+subject_5384,64.8,,,,,,,,,,,,,,,,,,,5384-SMP-01,,,
+subject_5322,68.0,2019-02-17,,,,,,,,,,,,,,,,,,,,,
+subject_2630,65.8,2021-08-03,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",QIAGEN RNeasy Plus Micro,161004778.0,14.0,301060678.0,TS01063219,,,,,,,,,,,,2630-SMP-00,301060678.0,,
+subject_7023,68.9,,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected),,,,,,,,,,,,,,,,,,,,
+subject_5103,,2017-04-16,Sample extremely-mucous like; small yield in cells and insufficient amount to sort,QIAGEN RNeasy Plus Micro,170220164.0,16.0,304613658.0,TS01063219,2017-04-16,3.0,9.5,7335.2,RNA concentration outside recommended range for RINe; RINe edited,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,HSRNA,4.61,Complete,2017-05-12,5103-SMP-04,304613658.0,A1,SCRIPT_RNAseq_Batch_02
+subject_5397,49.9,,,,,,,,,,,,,,,,,,,,,,
+subject_4152,86.5,,,,,,,,,,,,,,,,,,,,,,
+subject_6960,67.0,,,,,,,,,,,,,,,,,,,,,,
+subject_4418,66.9,,,,,,,,,,,,,,,,,,,,,,
+subject_3148,32.9,2020-03-23,,,,,,,,,,,,,,,,,,,,,
+subject_7718,76.0,,,,,,,,,,,,,,,,,,,,,,
+subject_8232,76.2,,,,,,,,,,,,,,,,,,,,,,
+subject_2636,74.3,,,,,,,,,,,,,,,,,,,2636-SMP-02,,,
+subject_4385,40.5,2021-11-13,,,,,,,,,6.4,44.8,,,No,,,,,,,,
+subject_2444,65.1,2020-04-23,,QIAGEN RNeasy Micro,160052304.0,12.0,301574361.0,TS01064421,2020-04-23,1.0,,29.0,RNA concentration outside recommended range for RINe; RINe edited,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,Pico RNA,3.02,Complete,2020-05-26,2444-SMP-04,301574361.0,E1,SCRIPT_RNAseq_Batch_02
+subject_5506,67.9,2020-11-10,,QIAGEN RNeasy Micro,170220164.0,18.0,300440824.0,TS01069817,2020-11-11,1.0,7.5,188.9,RNA concentration outside recommended range for RINe; RINe edited,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",No,HSRNA,1.24,Complete,2020-11-28,5506-SMP-08,300440824.0,A1,SCRIPT_RNAseq_Batch_01
+subject_7604,63.6,,,,,,,,,,,,,,,,,,,,,,
+subject_3933,42.8,2019-02-23,,QIAGEN RNeasy Plus Micro,160052304.0,14.0,303963120.0,TS01063219,2019-02-24,3.0,9.1,213.6,RNA concentration outside recommended range for RINe; RINe edited,ok,No,Pico RNA,2.18,Partial,2019-03-14,3933-SMP-04,303963120.0,H1,SCRIPT_RNAseq_Batch_01
+subject_7833,54.9,2021-04-25,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",QIAGEN RNeasy Micro,160047191.0,18.0,303972207.0,TS01063219,2021-04-28,1.0,,586.0,RNA concentration outside recommended range for RINe,ok,Yes,Standard RNA,7.56,Complete,2021-05-16,7833-SMP-02,303972207.0,A1,SCRIPT_RNAseq_Batch_01
+subject_7338,59.4,,,,,,,,,,,,,,No,,,,,,,,
+subject_5796,76.7,,,,,,,,,,,,,,,,,,,,,,
+subject_6307,65.7,,,,,,,,,,,,,,,,,,,,,,
+subject_7541,68.3,2017-02-09,,QIAGEN RNeasy Micro,160052304.0,14.0,304095102.0,TS01069817,2017-02-09,3.0,,1226.0,RNA concentration outside recommended range for RINe,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,Standard RNA,7.93,Partial,2017-02-19,7541-SMP-03,304095102.0,D1,SCRIPT_RNAseq_Batch_03
+subject_2562,76.1,,,,,,,,,,,,,,,,,,,,,,
+subject_8628,61.5,,,QIAGEN RNeasy Plus Micro,161004778.0,14.0,302980798.0,TS01063219,,,,,,,,,,,,8628-SMP-03,302980798.0,,
+subject_4202,51.6,2022-09-07,Sample extremely-mucous like; small yield in cells and insufficient amount to sort,QIAGEN RNeasy Micro,161004778.0,16.0,304985736.0,TS01069817,2022-09-08,2.0,,107.6,ok,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,Standard RNA,0.07,Complete,2022-10-06,4202-SMP-09,304985736.0,H1,SCRIPT_RNAseq_Batch_04
+subject_4782,,,,,,,,,,,,,,,No,,,,,,,,
+subject_2677,61.7,2016-09-23,All 7 mL of sample were processed - cell count was too low to sort,,,,,,,,,,,,,,,,,,,,
+subject_8245,90.9,,,,,,,,,,,,,,,,,,,,,,
+subject_8425,52.0,,,,,,,,,,,,,,,,,,,,,,
+subject_3213,52.3,,,QIAGEN RNeasy Plus Micro,160052304.0,14.0,,,,,5.8,55.0,,,No,,,,,,,,
+subject_4368,39.4,2020-09-11,Sample extremely-mucous like; small yield in cells and insufficient amount to sort,QIAGEN RNeasy Micro,160047191.0,14.0,302123847.0,TS01063219,2020-09-12,1.0,,379.8,RNA concentration outside recommended range for RINe; RINe edited,Use for sequencing.,Yes,HSRNA,1.33,Complete,2020-09-21,4368-SMP-08,302123847.0,A1,SCRIPT_RNAseq_Batch_02
+subject_7826,64.1,,,,,,,,,,,,,,,,,,,,,,
+subject_6200,73.0,2023-03-01,,QIAGEN RNeasy Plus Micro,160052304.0,16.0,,,,,,,,,,,,,,,,,
+subject_8391,,2018-08-01,,Norgen Single Cell RNA kit,170220164.0,14.0,303740786.0,TS01064421,2018-08-02,2.0,6.1,25123.6,RNA concentration outside recommended range for RINe; RINe edited,ok,No,HSRNA,2.39,Complete,2018-08-31,8391-SMP-04,303740786.0,H1,SCRIPT_RNAseq_Batch_04
+subject_2946,60.4,2021-07-17,RNA concentration outside recommended range for RINe,QIAGEN RNeasy Micro,161004778.0,14.0,304159453.0,TS01064421,2021-07-17,1.0,7.6,307.5,ok,ok,Yes,Standard RNA,8.19,Complete,2021-07-31,2946-SMP-01,304159453.0,G1,SCRIPT_RNAseq_Batch_01
+subject_6738,73.5,2019-03-21,,QIAGEN RNeasy Micro,161004778.0,18.0,301023034.0,TS01063219,2019-03-23,3.0,,44.2,,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,Pico RNA,7.93,Partial,2019-04-05,6738-SMP-01,301023034.0,F1,SCRIPT_RNAseq_Batch_03
+subject_2553,35.6,2021-01-04,,,,,,,,,,,,,,,,,,,,,
+subject_4691,67.6,,,,,,,,,,,,,,,,,,,,,,
+subject_6429,49.0,2019-10-07,All 7 mL of sample were processed - cell count was too low to sort,QIAGEN RNeasy Micro,160047191.0,12.0,301334392.0,TS01063219,2019-10-10,3.0,,1087.1,RNA concentration outside recommended range for RINe,ok,Yes,Standard RNA,3.63,Complete,2019-11-11,6429-SMP-09,301334392.0,A1,SCRIPT_RNAseq_Batch_04
+subject_2276,68.8,,,,,,,,,,,,,,,,,,,,,,
+subject_7879,75.0,2019-01-30,RNA concentration outside recommended range for RINe,QIAGEN RNeasy Micro,161004778.0,14.0,301565951.0,TS01069817,2019-02-01,1.0,,10591.1,ok,Use for sequencing.,Yes,Standard RNA,5.88,Complete,2019-02-14,7879-SMP-08,301565951.0,A1,SCRIPT_RNAseq_Batch_03
+subject_2657,51.0,,,,,,,,,,,,,,,,,,,,,,
+subject_8786,68.2,2025-06-05,,,,,,,,,,,,,,,,,,,,,
+subject_4418,93.5,2016-09-26,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected),,,,,,,,8.9,30.8,,,Yes,,,,,,,,
+subject_7727,79.7,2016-07-31,RNA concentration outside recommended range for RINe,QIAGEN RNeasy Plus Micro,160052304.0,16.0,301213739.0,TS01069817,2016-08-03,1.0,,116.2,,ok,Yes,HSRNA,7.13,Complete,2016-08-20,7727-SMP-00,301213739.0,G1,SCRIPT_RNAseq_Batch_02
+subject_7297,65.2,,,QIAGEN RNeasy Plus Micro,160052304.0,12.0,,,,,,,,,,,,,,,,,
+subject_4541,67.9,2020-09-14,,Norgen Single Cell RNA kit,160047191.0,16.0,,,,,,,,,,,,,,,,,
+subject_8727,39.8,,,,,,,,,,,,,,,,,,,,,,
+subject_5700,89.1,2020-06-13,RNA concentration outside recommended range for RINe,Norgen Single Cell RNA kit,160052304.0,16.0,303875821.0,TS01064421,2020-06-16,3.0,,6141.8,,Use for sequencing.,Yes,HSRNA,0.82,Complete,2020-06-23,5700-SMP-04,303875821.0,D1,SCRIPT_RNAseq_Batch_02
+subject_7406,97.4,,,,,,,,,,,,,,,,,,,,,,
+subject_2301,79.6,,,,,,,,,,,,,,,,,,,,,,
+subject_4783,44.4,,,Norgen Single Cell RNA kit,170220164.0,12.0,,,,,,,,,,,,,,,,,
+subject_8806,82.1,,Sample extremely-mucous like; small yield in cells and insufficient amount to sort,,,,,,,,,,,,,,,,,,,,
+subject_8620,44.4,2020-01-19,,QIAGEN RNeasy Plus Micro,160052304.0,18.0,304832417.0,TS01064421,2020-01-20,1.0,8.6,52.9,ok,Use for sequencing.,Yes,Pico RNA,4.54,Complete,2020-01-30,8620-SMP-08,304832417.0,G1,SCRIPT_RNAseq_Batch_04
+subject_3374,37.8,,,,,,,,,,,,,,,,,,,,,,
+subject_4275,,,,,,,,,,,,,,,,,,,,4275-SMP-04,,,
+subject_4927,31.1,2021-01-22,,,,,,,,,,,,,,,,,,,,,
+subject_6675,54.7,,,,,,,,,,,,,,,,,,,,,,
+subject_3794,57.8,2018-10-04,,Norgen Single Cell RNA kit,160047191.0,16.0,303231397.0,TS01069817,2018-10-06,1.0,6.6,8953.6,ok,Use for sequencing.,Yes,Standard RNA,8.11,Partial,2018-10-18,3794-SMP-03,303231397.0,D1,SCRIPT_RNAseq_Batch_03
+subject_8748,46.5,,,,,,,,,,,,,,,,,,,,,,
+subject_4701,78.3,2016-12-25,,QIAGEN RNeasy Plus Micro,160052304.0,12.0,302772428.0,TS01063219,2016-12-28,2.0,7.2,2213.5,RNA concentration outside recommended range for RINe,Use for sequencing.,Yes,Standard RNA,1.44,Partial,2017-01-04,4701-SMP-03,302772428.0,E1,SCRIPT_RNAseq_Batch_01
+subject_8905,89.8,2021-11-03,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected),QIAGEN RNeasy Micro,161004778.0,18.0,301641386.0,TS01064421,2021-11-03,3.0,7.6,10199.6,RNA concentration outside recommended range for RINe,Use for sequencing.,Yes,Pico RNA,1.77,Complete,2021-11-29,8905-SMP-03,301641386.0,F1,SCRIPT_RNAseq_Batch_02
+subject_4991,53.2,,,,,,,,,,,,,,,,,,,,,,
+subject_4434,59.1,2020-07-24,,,,,,,,,,,,,,,,,,,,,
+subject_7846,,,,,,,,,,,,,,,,,,,,,,,
+subject_3694,59.5,,,,,,,,,,,,,,,,,,,,,,
+subject_7656,81.2,2023-10-16,RNA concentration outside recommended range for RINe,QIAGEN RNeasy Micro,161004778.0,18.0,300577141.0,TS01064421,2023-10-18,1.0,8.9,18769.5,RNA concentration outside recommended range for RINe; RINe edited,Use for sequencing.,Yes,HSRNA,7.93,Complete,2023-10-26,7656-SMP-04,300577141.0,D1,SCRIPT_RNAseq_Batch_01
+subject_8222,49.9,,,QIAGEN RNeasy Plus Micro,160052304.0,14.0,,,,,,,,,,,,,,,,,
+subject_4038,54.6,2017-08-26,,,,,,,,,,,,,,,,,,,,,
+subject_7048,59.6,,,,,,,,,,,,,,,,,,,,,,
+subject_7148,58.7,,Sample extremely-mucous like; small yield in cells and insufficient amount to sort,Norgen Single Cell RNA kit,170220164.0,16.0,300222161.0,TS01064421,,,,,,,,,,,,7148-SMP-08,300222161.0,,
+subject_8145,91.0,,,,,,,,,,,,,,,,,,,,,,
+subject_3955,51.5,2017-04-02,,,,,,,,,,,,,,,,,,,,,
+subject_6450,69.2,,,,,,,,,,,,,,,,,,,,,,
+subject_8082,,,,,,,,,,,,,,,,,,,,8082-SMP-01,,,
+subject_3324,70.5,,,,,,,,,,,,,,,,,,,,,,
+subject_6698,56.2,,,,,,304026038.0,TS01064421,,,,,,,,,,,,6698-SMP-02,304026038.0,,
+subject_2005,83.1,,,QIAGEN RNeasy Plus Micro,160047191.0,12.0,,,,,,,,,,,,,,,,,
+subject_6428,97.0,,,,,,,,,,,,,,,,,,,,,,
+subject_7645,63.7,,,,,,,,,,,,,,,,,,,,,,
+subject_4160,38.6,2019-05-05,,,,,304600340.0,TS01069817,,,,,,,,,,,,4160-SMP-08,304600340.0,,
+subject_6386,99.0,,,,,,,,,,,,,,,,,,,6386-SMP-07,,,
+subject_7544,,,RNA concentration outside recommended range for RINe,,,,301810301.0,TS01064421,,,,,,,,,,,,7544-SMP-08,301810301.0,,
+subject_2362,77.8,,,,,,,,,,,,,,,,,,,,,,
+subject_6178,37.2,,,,,,,,,,,,,,,,,,,,,,
+subject_6747,73.5,2019-12-31,RNA concentration outside recommended range for RINe,,,,300822606.0,TS01069817,,,,,,,,,,,,6747-SMP-02,300822606.0,,
+subject_4054,64.4,2017-04-05,,,,,,,,,,,,,,,,,,,,,
+subject_5408,49.1,2022-01-06,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",QIAGEN RNeasy Micro,170220164.0,14.0,300694968.0,TS01064421,2022-01-08,2.0,,7804.1,,Use for sequencing.,Yes,HSRNA,5.67,Partial,2022-02-05,5408-SMP-01,300694968.0,H1,SCRIPT_RNAseq_Batch_03
+subject_2951,73.7,,,,,,,,,,,,,,,,,,,2951-SMP-08,,,
+subject_2187,,,,,,,,,,,,,,,,,,,,,,,
+subject_3895,72.9,,,,,,,,,,,,,,,,,,,,,,
+subject_3413,51.1,,,,,,300297699.0,TS01069817,,,9.5,169.5,,,Yes,,,,,3413-SMP-03,300297699.0,,
+subject_5935,57.0,,,,,,,,,,,,,,No,,,,,,,,
+subject_7125,54.3,2018-06-17,,Norgen Single Cell RNA kit,170220164.0,16.0,302992530.0,TS01064421,2018-06-17,1.0,,26948.1,RNA concentration outside recommended range for RINe,ok,Yes,HSRNA,3.31,Partial,2018-07-07,7125-SMP-01,302992530.0,G1,SCRIPT_RNAseq_Batch_01
+subject_8060,81.3,,,,,,,,,,,,,,,,,,,,,,
+subject_3523,67.9,2020-02-26,,,,,,,,,,,,,,,,,,,,,
+subject_2061,86.2,2021-02-03,,,,,,,,,,,,,,,,,,,,,
+subject_7609,62.7,,,,,,,,,,,,,,,,,,,,,,
+subject_5402,74.7,,,,,,,,,,,,,,,,,,,,,,
+subject_8924,24.8,,,,,,,,,,,,,,,,,,,8924-SMP-08,,,
+subject_7016,56.8,,,,,,,,,,,,,,,,,,,,,,
+subject_7626,56.2,,,,,,,,,,,,,,,,,,,,,,
+subject_2832,72.9,2020-07-21,,,,,,,,,,,,,,,,,,,,,
+subject_8792,75.8,2022-10-22,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Norgen Single Cell RNA kit,160052304.0,18.0,304922758.0,TS01069817,2022-10-25,3.0,6.9,17503.6,RNA concentration outside recommended range for RINe; RINe edited,ok,Yes,HSRNA,8.09,Partial,2022-11-02,8792-SMP-07,304922758.0,F1,SCRIPT_RNAseq_Batch_04
+subject_4174,72.2,,,,,,,,,,,,,,,,,,,,,,
+subject_7341,87.9,,,,,,,,,,,,,,,,,,,,,,
+subject_3302,,,,,,,,,,,,,,,No,,,,,,,,
+subject_6803,53.5,2018-05-21,,,,,,,,,,,,,,,,,,,,,
+subject_7872,59.2,2020-04-06,All 7 mL of sample were processed - cell count was too low to sort,Norgen Single Cell RNA kit,160047191.0,14.0,301790242.0,TS01063219,2020-04-08,2.0,,66.9,RNA concentration outside recommended range for RINe; RINe edited,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,HSRNA,7.73,Partial,2020-04-30,7872-SMP-03,301790242.0,H1,SCRIPT_RNAseq_Batch_01
+subject_7861,43.7,2020-06-25,,,,,,,,,,,,,,,,,,,,,
+subject_3565,57.7,2021-10-19,,,,,,,,,,,,,,,,,,,,,
+subject_8395,67.7,,,,,,,,,,,,,,,,,,,8395-SMP-01,,,
+subject_4861,79.4,2019-08-17,,QIAGEN RNeasy Plus Micro,161004778.0,14.0,304242214.0,TS01069817,2019-08-17,3.0,,80.9,RNA concentration outside recommended range for RINe; RINe edited,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,Pico RNA,4.58,Complete,2019-09-15,4861-SMP-08,304242214.0,F1,SCRIPT_RNAseq_Batch_03
+subject_2965,70.9,,,,,,,,,,,,,,,,,,,,,,
+subject_8275,81.8,,,,,,,,,,,,,,,,,,,,,,
+subject_8831,84.4,,,,,,,,,,,,,,,,,,,,,,
+subject_7443,70.3,,All 7 mL of sample were processed - cell count was too low to sort,,,,,,,,,,,,,,,,,,,,
+subject_6911,47.0,2020-10-02,,QIAGEN RNeasy Plus Micro,160047191.0,16.0,303214730.0,TS01064421,2020-10-05,3.0,,2623.0,ok,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,Standard RNA,0.25,Partial,2020-10-18,6911-SMP-08,303214730.0,G1,SCRIPT_RNAseq_Batch_01
+subject_6045,48.7,,,,,,,,,,,,,,,,,,,,,,
+subject_3137,,,,,,,,,,,,,,,,,,,,,,,
+subject_3374,92.4,,,,,,,,,,,,,,,,,,,,,,
+subject_6343,54.5,,,,,,,,,,,,,,,,,,,6343-SMP-05,,,
+subject_8692,55.2,2021-02-22,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Norgen Single Cell RNA kit,161004778.0,18.0,302186030.0,TS01063219,2021-02-23,3.0,9.4,103.1,RNA concentration outside recommended range for RINe; RINe edited,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,Pico RNA,5.73,Partial,2021-03-18,8692-SMP-07,302186030.0,D1,SCRIPT_RNAseq_Batch_03
+subject_4678,66.9,,,,,,,,,,,,,,,,,,,,,,
+subject_2287,58.9,,,,,,,,,,,,,,,,,,,,,,
+subject_8616,70.5,,,,,,,,,,,,,,,,,,,,,,
+subject_6983,78.3,,,,,,,,,,,,,,,,,,,,,,
+subject_3912,,2019-03-03,,,,,,,,,,,,,,,,,,,,,
+subject_6890,42.3,2020-05-03,Sample extremely-mucous like; small yield in cells and insufficient amount to sort,,,,,,,,,,,,,,,,,,,,
+subject_8082,99.0,,,,,,,,,,,,,,No,,,,,8082-SMP-00,,,
+subject_7996,55.4,,Sample extremely-mucous like; small yield in cells and insufficient amount to sort,,,,,,,,,,,,,,,,,,,,
+subject_4749,30.9,,,,,,,,,,,,,,,,,,,,,,
+subject_8638,79.5,,,,,,,,,,,,,,,,,,,,,,
+subject_8471,80.1,,,,,,,,,,,,,,,,,,,,,,
+subject_3666,59.1,,,,,,,,,,,,,,,,,,,3666-SMP-00,,,
+subject_4418,84.0,2016-11-09,RNA concentration outside recommended range for RINe,Norgen Single Cell RNA kit,170220164.0,12.0,302477702.0,TS01064421,2016-11-11,1.0,,11846.2,RNA concentration outside recommended range for RINe; RINe edited,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",No,HSRNA,5.51,Partial,2016-12-08,4418-SMP-06,302477702.0,G1,SCRIPT_RNAseq_Batch_02
+subject_3507,37.2,2022-07-10,"Traces look ok, decent 18S and 28S peaks. Use for sequencing.",QIAGEN RNeasy Micro,161004778.0,18.0,302829865.0,TS01064421,2022-07-12,3.0,,8724.5,,ok,No,Standard RNA,2.91,Complete,2022-07-20,3507-SMP-06,302829865.0,D1,SCRIPT_RNAseq_Batch_04
+subject_6886,64.9,,All 7 mL of sample were processed - cell count was too low to sort,,,,,,,,,,,,,,,,,,,,
+subject_5856,81.2,,,,,,,,,,,,,,,,,,,,,,
+subject_8977,42.5,,,,,,,,,,,,,,,,,,,,,,
+subject_3302,75.9,,,,,,,,,,,,,,,,,,,,,,
+subject_3724,54.3,,,,,,,,,,,,,,,,,,,,,,
+subject_7742,49.6,,,,,,,,,,,,,,,,,,,,,,
+subject_2210,71.8,2023-06-14,,Norgen Single Cell RNA kit,170220164.0,12.0,302961446.0,TS01064421,2023-06-16,3.0,,98.6,RNA concentration outside recommended range for RINe,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",No,Pico RNA,6.32,Partial,2023-07-12,2210-SMP-02,302961446.0,F1,SCRIPT_RNAseq_Batch_04
+subject_8598,60.2,2016-01-28,,QIAGEN RNeasy Micro,170220164.0,12.0,302922135.0,TS01064421,2016-01-28,1.0,,144.3,ok,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",No,Pico RNA,5.39,Complete,2016-02-23,8598-SMP-01,302922135.0,C1,SCRIPT_RNAseq_Batch_04
+subject_5918,30.3,2019-09-14,,QIAGEN RNeasy Plus Micro,161004778.0,18.0,301589679.0,TS01063219,2019-09-16,2.0,,95.3,RNA concentration outside recommended range for RINe,ok,Yes,Pico RNA,0.2,Partial,2019-10-04,5918-SMP-00,301589679.0,C1,SCRIPT_RNAseq_Batch_03
+subject_4174,70.6,2016-07-29,,Norgen Single Cell RNA kit,170220164.0,18.0,303351326.0,TS01063219,2016-07-31,3.0,7.4,902.5,RNA concentration outside recommended range for RINe,ok,Yes,Pico RNA,4.46,Complete,2016-08-28,4174-SMP-07,303351326.0,C1,SCRIPT_RNAseq_Batch_04
+subject_7570,62.3,,,,,,,,,,,,,,,,,,,,,,
+subject_5362,72.8,,,,,,,,,,,,,,,,,,,,,,
+subject_6346,95.6,,,,,,,,,,,,,,,,,,,,,,
+subject_3621,49.5,,,,,,,,,,,,,,,,,,,,,,
+subject_7539,24.5,2019-11-02,,,,,,,,,,,,,,,,,,,,,
+subject_7362,58.8,,,,,,,,,,,,,,,,,,,,,,
+subject_5108,63.5,,,,,,,,,,,,,,,,,,,,,,
+subject_3104,,2021-01-26,,QIAGEN RNeasy Micro,170220164.0,16.0,301794194.0,TS01063219,2021-01-27,1.0,8.0,566.3,RNA concentration outside recommended range for RINe; RINe edited,ok,Yes,Standard RNA,0.39,Complete,2021-02-15,3104-SMP-02,301794194.0,H1,SCRIPT_RNAseq_Batch_02
+subject_4105,52.7,2019-07-06,,QIAGEN RNeasy Plus Micro,170220164.0,16.0,,,,,,,,,,,,,,,,,
+subject_4826,38.2,2020-08-10,,Norgen Single Cell RNA kit,160047191.0,12.0,,,,,8.1,32.7,,,No,,,,,,,,
+subject_3989,59.4,,,,,,,,,,,,,,,,,,,,,,
+subject_5423,82.0,2024-11-15,,,,,,,,,,,,,,,,,,,,,
+subject_2387,54.9,,,,,,,,,,,,,,,,,,,,,,
+subject_5643,,,,,,,,,,,,,,,,,,,,,,,
+subject_3770,71.7,,,,,,,,,,,,,,,,,,,,,,
+subject_5500,68.4,,,,,,,,,,,,,,,,,,,,,,
+subject_8602,62.8,2020-01-06,,,,,,,,,,,,,,,,,,,,,
+subject_6988,29.2,,,,,,,,,,,,,,,,,,,,,,
+subject_7461,80.5,2020-01-21,Sample extremely-mucous like; small yield in cells and insufficient amount to sort,Norgen Single Cell RNA kit,170220164.0,14.0,304464489.0,TS01063219,2020-01-22,2.0,,182.6,RNA concentration outside recommended range for RINe; RINe edited,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,HSRNA,0.43,Complete,2020-02-25,7461-SMP-09,304464489.0,D1,SCRIPT_RNAseq_Batch_02
+subject_3867,42.6,2018-09-23,,,,,,,,,,,,,,,,,,,,,
+subject_4083,74.0,2018-08-15,,,,,,,,,,,,,,,,,,,,,
+subject_5582,53.8,2020-10-03,,,,,301723498.0,TS01063219,,,6.7,40.5,,,No,,,,,5582-SMP-00,301723498.0,,
+subject_4646,99.0,2019-07-14,,QIAGEN RNeasy Plus Micro,170220164.0,18.0,303833063.0,TS01063219,2019-07-14,2.0,,702.0,ok,ok,Yes,Standard RNA,6.0,Partial,2019-08-15,4646-SMP-00,303833063.0,D1,SCRIPT_RNAseq_Batch_04
+subject_2287,87.3,2017-07-06,,QIAGEN RNeasy Micro,160052304.0,18.0,301559413.0,TS01063219,2017-07-08,2.0,9.1,3430.4,,ok,Yes,HSRNA,4.43,Partial,2017-07-24,2287-SMP-02,301559413.0,E1,SCRIPT_RNAseq_Batch_04
+subject_2886,80.2,2017-11-26,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",QIAGEN RNeasy Plus Micro,160047191.0,18.0,301313617.0,TS01063219,2017-11-28,1.0,8.7,12920.6,,ok,Yes,Pico RNA,0.79,Complete,2017-12-25,2886-SMP-01,301313617.0,F1,SCRIPT_RNAseq_Batch_02
+subject_2958,75.3,2021-12-25,,,,,,,,,,,,,,,,,,,,,
+subject_2768,60.8,,,Norgen Single Cell RNA kit,170220164.0,16.0,303785226.0,TS01063219,,,,,,,,,,,,2768-SMP-03,303785226.0,,
+subject_7761,73.9,2022-07-14,,Norgen Single Cell RNA kit,161004778.0,12.0,304975045.0,TS01064421,2022-07-15,2.0,,325.6,ok,ok,Yes,Pico RNA,0.41,Complete,2022-07-28,7761-SMP-06,304975045.0,E1,SCRIPT_RNAseq_Batch_04
+subject_3635,54.7,2023-07-05,RNA concentration outside recommended range for RINe,,,,302388754.0,TS01064421,,,,,,,,,,,,3635-SMP-07,302388754.0,,
+subject_7676,57.8,,,,,,,,,,,,,,,,,,,,,,
+subject_7609,67.7,,,,,,,,,,,,,,,,,,,,,,
+subject_7269,65.1,,,,,,,,,,,,,,,,,,,,,,
+subject_2724,49.0,,,,,,,,,,,,,,,,,,,,,,
+subject_6300,57.3,2023-05-08,,,,,,,,,,,,,,,,,,,,,
+subject_5804,38.7,2016-01-03,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected),Norgen Single Cell RNA kit,170220164.0,12.0,,,,,6.9,4966.7,,,Yes,,,,,,,,
+subject_4560,42.8,2022-04-18,,,,,302535106.0,TS01063219,,,6.5,1904.8,,,No,,,,,4560-SMP-05,302535106.0,,
+subject_3371,45.1,,,,,,,,,,,,,,,,,,,,,,
+subject_3068,59.2,,,,,,,,,,,,,,,,,,,,,,
+subject_8100,56.9,2017-01-08,"Traces look ok, decent 18S and 28S peaks. Use for sequencing.",Norgen Single Cell RNA kit,170220164.0,12.0,302657538.0,TS01064421,2017-01-11,2.0,8.6,98.0,RNA concentration outside recommended range for RINe; RINe edited,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,Standard RNA,3.63,Partial,2017-01-18,8100-SMP-08,302657538.0,C1,SCRIPT_RNAseq_Batch_03
+subject_4560,,2021-03-18,,QIAGEN RNeasy Micro,161004778.0,18.0,302673538.0,TS01063219,2021-03-18,1.0,9.5,2476.3,RNA concentration outside recommended range for RINe; RINe edited,Use for sequencing.,Yes,Standard RNA,6.33,Complete,2021-04-14,4560-SMP-00,302673538.0,B1,SCRIPT_RNAseq_Batch_04
+subject_2972,55.7,2018-02-25,RNA concentration outside recommended range for RINe,Norgen Single Cell RNA kit,170220164.0,14.0,303410019.0,TS01069817,2018-02-26,2.0,,446.2,RNA concentration outside recommended range for RINe,ok,Yes,Standard RNA,3.29,Complete,2018-03-31,2972-SMP-04,303410019.0,B1,SCRIPT_RNAseq_Batch_03
+subject_6864,65.2,2021-05-02,,,,,,,,,,,,,,,,,,,,,
+subject_2844,69.8,2017-08-28,,,,,300710717.0,TS01063219,,,7.8,733.8,,,Yes,,,,,2844-SMP-06,300710717.0,,
+subject_7609,54.3,,,,,,,,,,,,,,,,,,,,,,
+subject_8727,87.0,2021-02-09,,,,,,,,,,,,,,,,,,,,,
+subject_3962,73.4,2021-11-15,,,,,,,,,,,,,,,,,,,,,
+subject_2908,72.3,,,,,,,,,,,,,,,,,,,,,,
+subject_6346,,,Sample extremely-mucous like; small yield in cells and insufficient amount to sort,,,,,,,,,,,,,,,,,,,,
+subject_7228,,2017-09-24,,,,,,,,,,,,,,,,,,,,,
+subject_8753,,2022-10-04,,,,,,,,,,,,,,,,,,,,,
+subject_3287,20.1,,,,,,,,,,,,,,,,,,,,,,
+subject_2416,67.8,2019-03-16,,,,,,,,,,,,,,,,,,,,,
+subject_3223,99.0,,,,,,,,,,,,,,,,,,,,,,
+subject_8388,50.3,2018-05-21,,QIAGEN RNeasy Plus Micro,170220164.0,16.0,304297890.0,TS01064421,2018-05-22,3.0,8.0,796.5,RNA concentration outside recommended range for RINe; RINe edited,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,HSRNA,7.2,Complete,2018-05-28,8388-SMP-07,304297890.0,F1,SCRIPT_RNAseq_Batch_04
+subject_4434,65.4,2021-02-19,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected),QIAGEN RNeasy Plus Micro,161004778.0,12.0,301180836.0,TS01069817,2021-02-22,3.0,6.4,28647.3,RNA concentration outside recommended range for RINe; RINe edited,ok,Yes,HSRNA,2.21,Complete,2021-03-22,4434-SMP-07,301180836.0,C1,SCRIPT_RNAseq_Batch_03
+subject_4976,66.9,2021-10-27,All 7 mL of sample were processed - cell count was too low to sort,QIAGEN RNeasy Plus Micro,160052304.0,18.0,304164346.0,TS01069817,2021-10-29,2.0,9.8,2076.9,,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,Pico RNA,1.11,Complete,2021-11-27,4976-SMP-08,304164346.0,F1,SCRIPT_RNAseq_Batch_01
+subject_4157,51.9,2017-06-03,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",QIAGEN RNeasy Plus Micro,160052304.0,14.0,303722524.0,TS01069817,2017-06-04,2.0,8.0,28.8,ok,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,Pico RNA,0.78,Complete,2017-07-07,4157-SMP-07,303722524.0,C1,SCRIPT_RNAseq_Batch_02
+subject_6675,54.6,2018-04-19,,QIAGEN RNeasy Plus Micro,161004778.0,14.0,,,,,,,,,,,,,,,,,
+subject_8090,39.3,,,,,,,,,,,,,,,,,,,,,,
+subject_8058,59.8,2021-04-25,,,,,,,,,,,,,,,,,,,,,
+subject_7181,99.0,,,,,,,,,,,,,,No,,,,,,,,
+subject_3657,,,Sample extremely-mucous like; small yield in cells and insufficient amount to sort,,,,,,,,,,,,No,,,,,3657-SMP-03,,,
+subject_4358,46.8,,,,,,,,,,,,,,,,,,,,,,
+subject_5744,73.3,,,,,,,,,,,,,,,,,,,,,,
+subject_5549,63.9,2022-04-22,,QIAGEN RNeasy Plus Micro,170220164.0,14.0,,,,,,,,,,,,,,,,,
+subject_4221,,,,,,,,,,,,,,,,,,,,,,,
+subject_8345,,,,Norgen Single Cell RNA kit,160047191.0,16.0,,,,,,,,,,,,,,,,,
+subject_3657,86.5,,,,,,,,,,7.2,1791.1,,,No,,,,,,,,
+subject_8748,72.6,2016-01-27,,QIAGEN RNeasy Plus Micro,160047191.0,14.0,303296084.0,TS01064421,2016-01-29,2.0,,49785.4,RNA concentration outside recommended range for RINe; RINe edited,Use for sequencing.,Yes,HSRNA,0.28,Partial,2016-02-15,8748-SMP-08,303296084.0,F1,SCRIPT_RNAseq_Batch_01
+subject_4697,35.2,,RNA concentration outside recommended range for RINe,,,,,,,,,,,,,,,,,,,,
+subject_6901,78.9,,,,,,,,,,,,,,,,,,,,,,
+subject_4515,62.1,2017-06-16,,,,,,,,,,,,,,,,,,,,,
+subject_6102,49.5,2018-06-07,,,,,,,,,,,,,,,,,,,,,
+subject_6099,76.4,,,,,,,,,,,,,,,,,,,,,,
+subject_3745,46.9,,,,,,,,,,,,,,,,,,,,,,
+subject_8442,65.2,,,,,,,,,,,,,,,,,,,,,,
+subject_3137,43.0,2017-01-22,,QIAGEN RNeasy Plus Micro,160052304.0,14.0,300260716.0,TS01064421,2017-01-24,2.0,,49.6,ok,ok,Yes,HSRNA,7.49,Complete,2017-02-23,3137-SMP-01,300260716.0,H1,SCRIPT_RNAseq_Batch_03
+subject_2818,95.2,,,,,,,,,,,,,,,,,,,,,,
+subject_7867,,,,,,,,,,,,,,,,,,,,7867-SMP-04,,,
+subject_8661,99.0,,,,,,,,,,,,,,,,,,,,,,
+subject_2893,79.2,2016-01-04,RNA concentration outside recommended range for RINe,QIAGEN RNeasy Plus Micro,160052304.0,14.0,303907793.0,TS01063219,2016-01-06,2.0,9.7,153.9,,ok,Yes,Pico RNA,1.93,Complete,2016-01-14,2893-SMP-00,303907793.0,F1,SCRIPT_RNAseq_Batch_01
+subject_6552,51.5,,,,,,,,,,,,,,,,,,,,,,
+subject_4963,88.1,,,Norgen Single Cell RNA kit,161004778.0,14.0,,,,,,,,,,,,,,,,,
+subject_5269,48.4,2018-09-30,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected),Norgen Single Cell RNA kit,161004778.0,12.0,301179231.0,TS01069817,2018-10-03,2.0,9.3,705.8,RNA concentration outside recommended range for RINe; RINe edited,Use for sequencing.,Yes,Pico RNA,7.83,Complete,2018-10-22,5269-SMP-02,301179231.0,E1,SCRIPT_RNAseq_Batch_03
+subject_2553,,,,,,,,,,,,,,,,,,,,,,,
+subject_4318,51.9,2018-10-03,"Traces look ok, decent 18S and 28S peaks. Use for sequencing.",Norgen Single Cell RNA kit,161004778.0,16.0,304652502.0,TS01069817,2018-10-05,1.0,7.2,214.2,RNA concentration outside recommended range for RINe,Use for sequencing.,Yes,HSRNA,8.01,Partial,2018-10-17,4318-SMP-07,304652502.0,D1,SCRIPT_RNAseq_Batch_01
+subject_5392,65.4,,,,,,,,,,,,,,,,,,,,,,
+subject_3270,86.7,2021-02-10,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected),QIAGEN RNeasy Plus Micro,170220164.0,18.0,304841071.0,TS01064421,2021-02-13,3.0,,252.8,RNA concentration outside recommended range for RINe,ok,Yes,Standard RNA,4.69,Complete,2021-02-27,3270-SMP-08,304841071.0,A1,SCRIPT_RNAseq_Batch_03
+subject_3647,75.3,2020-08-06,,Norgen Single Cell RNA kit,160047191.0,16.0,300070162.0,TS01064421,2020-08-08,1.0,7.2,4977.0,RNA concentration outside recommended range for RINe; RINe edited,ok,Yes,Pico RNA,3.39,Complete,2020-08-30,3647-SMP-00,300070162.0,D1,SCRIPT_RNAseq_Batch_02
+subject_7585,74.9,,,,,,,,,,,,,,,,,,,,,,
+subject_6291,96.8,2019-11-20,RNA concentration outside recommended range for RINe,QIAGEN RNeasy Plus Micro,161004778.0,12.0,302464200.0,TS01064421,2019-11-23,1.0,,607.2,ok,ok,No,HSRNA,2.6,Complete,2019-12-20,6291-SMP-04,302464200.0,B1,SCRIPT_RNAseq_Batch_04
+subject_4259,90.8,2019-01-29,"Traces look ok, decent 18S and 28S peaks. Use for sequencing.",QIAGEN RNeasy Plus Micro,160047191.0,16.0,304254938.0,TS01069817,2019-02-01,2.0,6.0,2100.0,,Use for sequencing.,Yes,HSRNA,4.77,Complete,2019-02-18,4259-SMP-09,304254938.0,F1,SCRIPT_RNAseq_Batch_02
+subject_6988,49.0,2021-05-27,,Norgen Single Cell RNA kit,161004778.0,12.0,303749134.0,TS01069817,2021-05-28,3.0,9.5,2783.5,RNA concentration outside recommended range for RINe,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,Standard RNA,1.28,Complete,2021-06-16,6988-SMP-04,303749134.0,A1,SCRIPT_RNAseq_Batch_01
+subject_6652,75.6,2016-07-15,Sample extremely-mucous like; small yield in cells and insufficient amount to sort,QIAGEN RNeasy Micro,160052304.0,16.0,303779850.0,TS01069817,2016-07-16,2.0,6.2,2541.9,ok,Use for sequencing.,Yes,Pico RNA,1.1,Complete,2016-08-03,6652-SMP-01,303779850.0,E1,SCRIPT_RNAseq_Batch_03
+subject_5724,50.4,2021-02-21,,QIAGEN RNeasy Micro,170220164.0,14.0,304874421.0,TS01063219,2021-02-22,2.0,6.1,15641.8,,Use for sequencing.,Yes,Standard RNA,2.81,Complete,2021-03-27,5724-SMP-08,304874421.0,H1,SCRIPT_RNAseq_Batch_04
+subject_5364,32.7,2020-09-16,,Norgen Single Cell RNA kit,160047191.0,14.0,,,,,,,,,,,,,,,,,
+subject_2386,61.8,2021-07-15,,QIAGEN RNeasy Micro,160047191.0,14.0,302187835.0,TS01069817,2021-07-18,1.0,,1950.0,RNA concentration outside recommended range for RINe,Use for sequencing.,Yes,Pico RNA,7.57,Complete,2021-08-09,2386-SMP-05,302187835.0,A1,SCRIPT_RNAseq_Batch_02
+subject_3700,58.8,,,,,,,,,,,,,,,,,,,,,,
+subject_7671,70.7,2017-02-16,Sample extremely-mucous like; small yield in cells and insufficient amount to sort,,,,302520233.0,TS01064421,,,,,,,,,,,,7671-SMP-05,302520233.0,,
+subject_2287,61.1,2017-11-07,"Traces look ok, decent 18S and 28S peaks. Use for sequencing.",QIAGEN RNeasy Plus Micro,161004778.0,14.0,301747373.0,TS01063219,2017-11-08,1.0,,2834.9,RNA concentration outside recommended range for RINe; RINe edited,Use for sequencing.,Yes,HSRNA,6.79,Complete,2017-12-03,2287-SMP-08,301747373.0,G1,SCRIPT_RNAseq_Batch_01
+subject_4896,78.7,,,,,,,,,,,,,,,,,,,4896-SMP-02,,,
+subject_7910,87.8,2016-01-03,,QIAGEN RNeasy Plus Micro,160052304.0,14.0,,,,,,,,,,,,,,,,,
+subject_2160,47.1,,,,,,,,,,,,,,,,,,,,,,
+subject_7635,44.9,2021-09-12,,QIAGEN RNeasy Micro,160047191.0,12.0,302296011.0,TS01064421,2021-09-14,2.0,9.2,52.6,RNA concentration outside recommended range for RINe,ok,Yes,Pico RNA,0.52,Complete,2021-09-28,7635-SMP-01,302296011.0,H1,SCRIPT_RNAseq_Batch_04
+subject_2908,45.9,,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected),QIAGEN RNeasy Plus Micro,160047191.0,16.0,,,,,,,,,,,,,,,,,
+subject_5242,33.7,2016-01-05,RNA concentration outside recommended range for RINe,QIAGEN RNeasy Micro,160052304.0,14.0,302647880.0,TS01063219,2016-01-05,2.0,6.7,374.8,RNA concentration outside recommended range for RINe; RINe edited,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,Standard RNA,2.8,Complete,2016-02-03,5242-SMP-04,302647880.0,D1,SCRIPT_RNAseq_Batch_04
+subject_2949,38.5,,,,,,,,,,,,,,,,,,,,,,
+subject_8551,57.1,,All 7 mL of sample were processed - cell count was too low to sort,,,,,,,,,,,,,,,,,8551-SMP-08,,,
+subject_7592,52.1,,,,,,,,,,,,,,,,,,,,,,
+subject_8835,,,,,,,,,,,,,,,,,,,,,,,
+subject_3530,53.6,,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",,,,,,,,,,,,,,,,,,,,
+subject_2650,52.9,,,,,,,,,,,,,,,,,,,,,,
+subject_7729,30.9,,,,,,,,,,,,,,,,,,,,,,
+subject_7365,48.2,,,,,,,,,,,,,,,,,,,,,,
+subject_5600,68.3,,,,,,,,,,,,,,,,,,,,,,
+subject_3272,99.0,,,,,,,,,,,,,,,,,,,,,,
+subject_6783,63.3,,,,,,,,,,,,,,,,,,,,,,
+subject_4582,60.7,,,,,,,,,,,,,,,,,,,4582-SMP-08,,,
+subject_7535,60.3,,,,,,,,,,,,,,,,,,,,,,
+subject_5576,49.9,,,,,,,,,,,,,,No,,,,,,,,
+subject_3895,56.5,,,,,,,,,,,,,,,,,,,,,,
+subject_4513,19.3,,,,,,,,,,,,,,,,,,,,,,
+subject_3337,,,,,,,,,,,,,,,,,,,,3337-SMP-01,,,
+subject_5788,49.4,,,,,,,,,,,,,,,,,,,,,,
+subject_4636,85.3,2018-10-07,,QIAGEN RNeasy Plus Micro,170220164.0,16.0,303087786.0,TS01063219,2018-10-07,3.0,,23128.9,,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",No,Pico RNA,0.72,Complete,2018-10-21,4636-SMP-08,303087786.0,H1,SCRIPT_RNAseq_Batch_01
+subject_7711,55.2,2019-01-10,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Norgen Single Cell RNA kit,160052304.0,18.0,300607261.0,TS01063219,2019-01-11,2.0,,28.1,RNA concentration outside recommended range for RINe; RINe edited,ok,Yes,Standard RNA,1.85,Complete,2019-01-24,7711-SMP-04,300607261.0,B1,SCRIPT_RNAseq_Batch_02
+subject_5520,81.3,,,,,,,,,,,,,,,,,,,,,,
+subject_8519,51.0,2020-07-01,,,,,304809671.0,TS01064421,,,,,,,,,,,,8519-SMP-09,304809671.0,,
+subject_5421,22.0,,,,,,,,,,,,,,,,,,,,,,
+subject_2517,80.4,2019-10-22,,,,,,,,,,,,,,,,,,,,,
+subject_6738,80.5,,,,,,,,,,,,,,,,,,,,,,
+subject_5566,71.8,,,,,,,,,,,,,,,,,,,,,,
+subject_5923,83.1,,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected),,,,,,,,,,,,,,,,,,,,
+subject_5465,49.8,2021-05-17,,QIAGEN RNeasy Micro,160052304.0,14.0,,,,,7.3,790.0,,,No,,,,,,,,
+subject_7952,,,RNA concentration outside recommended range for RINe,,,,,,,,,,,,,,,,,,,,
+subject_5759,74.2,,,,,,,,,,,,,,,,,,,,,,
+subject_5874,75.7,,Sample extremely viscous; was diluted with MACs buffer prior to filtering (no supernatant sample collected),,,,,,,,,,,,,,,,,,,,
+subject_4206,82.7,,RNA concentration outside recommended range for RINe,,,,,,,,,,,,,,,,,,,,
+subject_3975,70.3,2019-04-17,,QIAGEN RNeasy Plus Micro,161004778.0,16.0,,,,,,,,,,,,,,,,,
+subject_5384,55.8,2020-10-02,,QIAGEN RNeasy Plus Micro,160052304.0,18.0,301664909.0,TS01063219,2020-10-03,2.0,6.3,16840.7,RNA concentration outside recommended range for RINe; RINe edited,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,Pico RNA,7.4,Partial,2020-10-26,5384-SMP-00,301664909.0,H1,SCRIPT_RNAseq_Batch_04
+subject_4454,63.3,,,,,,,,,,,,,,,,,,,,,,
+subject_3584,49.9,,,,,,,,,,,,,,,,,,,,,,
+subject_7338,,,,,,,,,,,,,,,,,,,,,,,
+subject_3626,43.9,,,,,,,,,,,,,,No,,,,,,,,
+subject_3202,56.2,2017-01-21,"Traces look ok, decent 18S and 28S peaks. Use for sequencing.",QIAGEN RNeasy Plus Micro,161004778.0,12.0,301916340.0,TS01064421,2017-01-23,3.0,8.0,9042.6,RNA concentration outside recommended range for RINe; RINe edited,Use for sequencing.,Yes,Standard RNA,4.64,Complete,2017-02-02,3202-SMP-02,301916340.0,C1,SCRIPT_RNAseq_Batch_04
+subject_6078,13.0,,,,,,,,,,,,,,,,,,,,,,
+subject_2461,86.6,,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",,,,,,,,,,,,,,,,,,,,
+subject_7174,44.8,2021-10-21,,QIAGEN RNeasy Plus Micro,160047191.0,14.0,304763911.0,TS01064421,2021-10-21,1.0,,237.3,,Use for sequencing.,Yes,Pico RNA,7.26,Complete,2021-11-25,7174-SMP-04,304763911.0,C1,SCRIPT_RNAseq_Batch_01
+subject_8360,61.1,,,,,,,,,,,,,,,,,,,,,,
+subject_8111,82.2,,,,,,,,,,,,,,,,,,,,,,
+subject_5833,52.7,,,,,,,,,,,,,,,,,,,,,,
+subject_6274,54.4,,,,,,,,,,,,,,,,,,,,,,
+subject_2885,75.0,,,,,,,,,,,,,,,,,,,,,,
+subject_3149,56.2,2017-02-27,RNA concentration outside recommended range for RINe,Norgen Single Cell RNA kit,170220164.0,16.0,300781063.0,TS01064421,2017-03-02,2.0,,1557.4,,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,HSRNA,0.02,Partial,2017-03-17,3149-SMP-07,300781063.0,H1,SCRIPT_RNAseq_Batch_03
+subject_3948,,,,QIAGEN RNeasy Plus Micro,160052304.0,12.0,,,,,,,,,,,,,,,,,
+subject_4707,99.0,2018-08-14,RNA concentration outside recommended range for RINe,Norgen Single Cell RNA kit,160052304.0,14.0,301090645.0,TS01064421,2018-08-14,2.0,7.2,1417.8,RNA concentration outside recommended range for RINe; RINe edited,ok,Yes,Pico RNA,6.33,Complete,2018-09-18,4707-SMP-09,301090645.0,A1,SCRIPT_RNAseq_Batch_02
+subject_7815,42.4,,RNA concentration outside recommended range for RINe,,,,,,,,,,,,,,,,,,,,
+subject_5520,86.8,,,,,,,,,,,,,,,,,,,,,,
+subject_6886,90.1,2019-01-11,"Traces look ok, decent 18S and 28S peaks. Use for sequencing.",QIAGEN RNeasy Micro,160052304.0,12.0,301954109.0,TS01064421,2019-01-11,1.0,7.0,235.7,,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,HSRNA,8.08,Partial,2019-01-21,6886-SMP-03,301954109.0,A1,SCRIPT_RNAseq_Batch_04
+subject_5408,59.2,,,,,,,,,,,,,,,,,,,,,,
+subject_8620,63.4,2022-02-25,,,,,,,,,,,,,,,,,,,,,
+subject_6916,93.8,2016-02-11,,QIAGEN RNeasy Micro,160052304.0,18.0,304942849.0,TS01063219,2016-02-13,3.0,,856.9,RNA concentration outside recommended range for RINe; RINe edited,ok,Yes,Standard RNA,3.83,Complete,2016-03-02,6916-SMP-07,304942849.0,B1,SCRIPT_RNAseq_Batch_02
+subject_8258,51.7,,,,,,,,,,,,,,,,,,,8258-SMP-03,,,
+subject_8547,96.3,,,,,,,,,,,,,,,,,,,,,,
+subject_4824,99.0,2018-09-21,,QIAGEN RNeasy Micro,160047191.0,14.0,300069589.0,TS01064421,,,,,,,,,,,,4824-SMP-00,300069589.0,,
+subject_7005,61.6,,,,,,,,,,,,,,,,,,,7005-SMP-04,,,
+subject_5223,55.9,,,,,,,,,,,,,,,,,,,,,,
+subject_4417,87.2,2020-01-26,Sample extremely-mucous like; small yield in cells and insufficient amount to sort,QIAGEN RNeasy Plus Micro,170220164.0,12.0,304421134.0,TS01064421,2020-01-27,1.0,7.7,487.4,RNA concentration outside recommended range for RINe,"Low concentration, almost no 18S and 28S peaks. Use for sequencing (serial sample).",Yes,HSRNA,6.52,Partial,2020-03-01,4417-SMP-08,304421134.0,E1,SCRIPT_RNAseq_Batch_04
+subject_4462,81.8,,,,,,,,,,,,,,,,,,,4462-SMP-07,,,
+subject_4248,63.1,,,,,,,,,,,,,,,,,,,,,,
+SSC_NORM_0101,94.2,2019-06-12,Healthy control sample; low-input prep.,Norgen Single Cell RNA kit,191106245,14.0,403871901,TS01071102,2019-06-13,1.0,8.6,1120.0,,Control arm processed with batch controls.,Yes,Pico RNA,4.12,Complete,2019-06-20,NORM-0101-SMP-01,403871901,G3,SCRIPT_RNAseq_Batch_09
+SSC_NORM_0102,89.7,2019-09-04,Control sample; delayed transport noted.,Norgen Single Cell RNA kit,191106245,16.0,403871955,TS01071129,2019-09-05,1.0,7.9,975.0,Slightly broad 18S peak.,,Yes,Pico RNA,4.78,Complete,2019-09-12,NORM-0102-SMP-01,403871955,G3,SCRIPT_RNAseq_Batch_10
+SSC_NORM_0102,87.1,2020-02-14,Serial control draw.,Norgen Single Cell RNA kit,200102334,14.0,403872044,TS01071203,2020-02-15,1.0,8.1,1042.0,,Serial control sample.,Yes,Pico RNA,4.39,Complete,2020-02-21,NORM-0102-SMP-02,403872044,H1,SCRIPT_RNAseq_Batch_12
+SSC_NORM_0104,73.5,2020-08-28,Control sample below preferred viability threshold.,Norgen Single Cell RNA kit,200708551,15.0,403872311,TS01071298,2020-08-29,1.0,NA,688.0,Low concentration outside RINe recommendation.,Keep for batch balance only.,No,,,,,,403872311,,
+SSC_NORM_0110,92.4,2021-01-17,Healthy control sample.,Norgen Single Cell RNA kit,201211074,16.0,403872522,TS01071344,2021-01-18,1.0,9.0,1265.0,,,Yes,Pico RNA,3.95,Complete,2021-01-25,NORM-0110-SMP-01,403872522,H2,SCRIPT_RNAseq_Batch_15

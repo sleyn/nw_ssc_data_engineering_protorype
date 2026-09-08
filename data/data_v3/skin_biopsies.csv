@@ -1,0 +1,216 @@
+case_number,biopsy_date,ENTRY_USER_NAME,biopsy_site,clinical_indication,specimen_accession,image_file_path,image_format
+subject_2009,2019-05-31,Dr. Kline,dorsal hand,worsening digital ulcer margin,BX-20190531-2009-01,/synthetic_pathology/skin_biopsy/2019/subject_2009/BX-20190531-2009-01.ndpi,NDPI
+subject_2061,2021-04-25,Dr. Lee,upper arm,skin thickening progression,BX-20210425-2061-01,/synthetic_pathology/skin_biopsy/2021/subject_2061/BX-20210425-2061-01.tiff,NDPI
+subject_2064,2020-07-29,Dr. Shah,finger,atypical lesion in scleroderma skin,BX-20200729-2064-01,/synthetic_pathology/skin_biopsy/2020/subject_2064/BX-20200729-2064-01.tiff,TIFF
+subject_2151,2019-01-01,Dr. Brooks,back,refractory pruritic induration,BX-20190101-2151-01,/synthetic_pathology/skin_biopsy/2019/subject_2151/BX-20190101-2151-01.ndpi,NDPI
+subject_2160,2019-01-08,Dr. Patel,thigh,skin thickening progression,BX-20190108-2160-01,/synthetic_pathology/skin_biopsy/2019/subject_2160/BX-20190108-2160-01.tiff,TIFF
+subject_2287,2017-04-16,Dr. Hernandez,back,worsening digital ulcer margin,BX-20170416-2287-01,/synthetic_pathology/skin_biopsy/2017/subject_2287/BX-20170416-2287-01.ndpi,TIFF
+subject_2293,2020-09-20,Dr. Lee,upper arm,new inflammatory plaque,BX-20200920-2293-01,/synthetic_pathology/skin_biopsy/2020/subject_2293/BX-20200920-2293-01.ndpi,NDPI
+subject_2295,2021-05-11,Dr. Ruiz,chest,new inflammatory plaque,BX-20210511-2295-01,/synthetic_pathology/skin_biopsy/2021/subject_2295/BX-20210511-2295-01.ndpi,NDPI
+subject_2301,2022-04-10,Dr. Nguyen,lower leg,worsening digital ulcer margin,BX-20220410-2301-01,/synthetic_pathology/skin_biopsy/2022/subject_2301/BX-20220410-2301-01.ndpi,NDPI
+subject_2301,2022-08-18,Dr. Ruiz,back,atypical lesion in scleroderma skin,BX-20220818-2301-02,/synthetic_pathology/skin_biopsy/2022/subject_2301/BX-20220818-2301-02.tiff,NDPI
+subject_2301,2022-10-31,Dr. Novak,chest,atypical lesion in scleroderma skin,BX-20221031-2301-03,/synthetic_pathology/skin_biopsy/2022/subject_2301/BX-20221031-2301-03.ndpi,NDPI
+subject_2325,2024-02-24,Dr. Hernandez,back,atypical lesion in scleroderma skin,BX-20240224-2325-01,/synthetic_pathology/skin_biopsy/2024/subject_2325/BX-20240224-2325-01.tiff,TIFF
+subject_2407,2016-05-11,Dr. Ibrahim,thigh,skin thickening progression,BX-20160511-2407-01,/synthetic_pathology/skin_biopsy/2016/subject_2407/BX-20160511-2407-01.svs,TIFF
+subject_2416,2019-03-27,Dr. Brooks,upper arm,worsening digital ulcer margin,BX-20190327-2416-01,/synthetic_pathology/skin_biopsy/2019/subject_2416/BX-20190327-2416-01.ndpi,TIFF
+subject_2455,2019-12-16,Dr. Singh,chest,new inflammatory plaque,BX-20191216-2455-01,/synthetic_pathology/skin_biopsy/2019/subject_2455/BX-20191216-2455-01.tiff,TIFF
+subject_2468,2020-12-21,Dr. Hernandez,lower leg,new inflammatory plaque,BX-20201221-2468-01,/synthetic_pathology/skin_biopsy/2020/subject_2468/BX-20201221-2468-01.tiff,NDPI
+subject_2468,2021-05-26,Dr. Ruiz,finger,skin thickening progression,BX-20210526-2468-02,/synthetic_pathology/skin_biopsy/2021/subject_2468/BX-20210526-2468-02.tiff,TIFF
+subject_2624,2022-08-26,Dr. Ruiz,back,skin thickening progression,BX-20220826-2624-01,/synthetic_pathology/skin_biopsy/2022/subject_2624/BX-20220826-2624-01.tiff,NDPI
+subject_2636,2024-10-08,Dr. Stone,chest,worsening digital ulcer margin,BX-20241008-2636-01,/synthetic_pathology/skin_biopsy/2024/subject_2636/BX-20241008-2636-01.svs,NDPI
+subject_2650,2023-11-17,Dr. Novak,finger,worsening digital ulcer margin,BX-20231117-2650-01,/synthetic_pathology/skin_biopsy/2023/subject_2650/BX-20231117-2650-01.tiff,NDPI
+subject_2650,2024-03-06,Dr. Martin,finger,new inflammatory plaque,BX-20240306-2650-02,/synthetic_pathology/skin_biopsy/2024/subject_2650/BX-20240306-2650-02.svs,TIFF
+subject_2650,2024-07-14,Dr. Martin,lower leg,refractory pruritic induration,BX-20240714-2650-03,/synthetic_pathology/skin_biopsy/2024/subject_2650/BX-20240714-2650-03.tiff,NDPI
+subject_2729,2018-09-27,Dr. Brooks,back,atypical lesion in scleroderma skin,BX-20180927-2729-01,/synthetic_pathology/skin_biopsy/2018/subject_2729/BX-20180927-2729-01.tiff,NDPI
+subject_2818,2023-09-28,Dr. Sullivan,dorsal hand,skin thickening progression,BX-20230928-2818-01,/synthetic_pathology/skin_biopsy/2023/subject_2818/BX-20230928-2818-01.ndpi,TIFF
+subject_2846,2019-01-12,Dr. Patel,back,worsening digital ulcer margin,BX-20190112-2846-01,/synthetic_pathology/skin_biopsy/2019/subject_2846/BX-20190112-2846-01.svs,TIFF
+subject_2893,2018-12-29,Dr. Adler,lower leg,atypical lesion in scleroderma skin,BX-20181229-2893-01,/synthetic_pathology/skin_biopsy/2018/subject_2893/BX-20181229-2893-01.svs,NDPI
+subject_2924,2020-02-26,Dr. Novak,forearm,new inflammatory plaque,BX-20200226-2924-01,/synthetic_pathology/skin_biopsy/2020/subject_2924/BX-20200226-2924-01.svs,TIFF
+subject_2965,2020-12-22,Dr. Ibrahim,finger,skin thickening progression,BX-20201222-2965-01,/synthetic_pathology/skin_biopsy/2020/subject_2965/BX-20201222-2965-01.svs,NDPI
+subject_2971,2021-03-15,Dr. Kim,lower leg,worsening digital ulcer margin,BX-20210315-2971-01,/synthetic_pathology/skin_biopsy/2021/subject_2971/BX-20210315-2971-01.svs,NDPI
+subject_2971,2021-06-16,Dr. Shah,abdomen,new inflammatory plaque,BX-20210616-2971-02,/synthetic_pathology/skin_biopsy/2021/subject_2971/BX-20210616-2971-02.tiff,NDPI
+subject_2971,2022-04-27,Dr. Novak,thigh,worsening digital ulcer margin,BX-20220427-2971-03,/synthetic_pathology/skin_biopsy/2022/subject_2971/BX-20220427-2971-03.svs,NDPI
+subject_3019,2017-10-27,Dr. Novak,abdomen,atypical lesion in scleroderma skin,BX-20171027-3019-01,/synthetic_pathology/skin_biopsy/2017/subject_3019/BX-20171027-3019-01.ndpi,TIFF
+subject_3047,2021-09-13,Dr. Sullivan,thigh,worsening digital ulcer margin,BX-20210913-3047-01,/synthetic_pathology/skin_biopsy/2021/subject_3047/BX-20210913-3047-01.tiff,NDPI
+subject_3047,2021-10-31,Dr. Bennett,forearm,new inflammatory plaque,BX-20211031-3047-02,/synthetic_pathology/skin_biopsy/2021/subject_3047/BX-20211031-3047-02.svs,NDPI
+subject_3068,2018-02-18,Dr. Novak,lower leg,skin thickening progression,BX-20180218-3068-01,/synthetic_pathology/skin_biopsy/2018/subject_3068/BX-20180218-3068-01.ndpi,TIFF
+subject_3149,2019-02-02,Dr. Hernandez,dorsal hand,atypical lesion in scleroderma skin,BX-20190202-3149-01,/synthetic_pathology/skin_biopsy/2019/subject_3149/BX-20190202-3149-01.tiff,TIFF
+subject_3149,2019-05-26,Dr. Martin,chest,atypical lesion in scleroderma skin,BX-20190526-3149-02,/synthetic_pathology/skin_biopsy/2019/subject_3149/BX-20190526-3149-02.tiff,NDPI
+subject_3164,2016-11-28,Dr. Kline,thigh,skin thickening progression,BX-20161128-3164-01,/synthetic_pathology/skin_biopsy/2016/subject_3164/BX-20161128-3164-01.svs,TIFF
+subject_3195,2022-10-12,Dr. Nguyen,finger,skin thickening progression,BX-20221012-3195-01,/synthetic_pathology/skin_biopsy/2022/subject_3195/BX-20221012-3195-01.svs,NDPI
+subject_3213,2018-11-16,Dr. Hernandez,dorsal hand,new inflammatory plaque,BX-20181116-3213-01,/synthetic_pathology/skin_biopsy/2018/subject_3213/BX-20181116-3213-01.tiff,NDPI
+subject_3215,2020-05-04,Dr. Lee,dorsal hand,refractory pruritic induration,BX-20200504-3215-01,/synthetic_pathology/skin_biopsy/2020/subject_3215/BX-20200504-3215-01.ndpi,TIFF
+subject_3219,2023-02-06,Dr. Martin,forearm,refractory pruritic induration,BX-20230206-3219-01,/synthetic_pathology/skin_biopsy/2023/subject_3219/BX-20230206-3219-01.tiff,TIFF
+subject_3219,2023-06-13,Dr. Stone,back,skin thickening progression,BX-20230613-3219-02,/synthetic_pathology/skin_biopsy/2023/subject_3219/BX-20230613-3219-02.svs,NDPI
+subject_3252,2017-07-31,Dr. Kim,lower leg,refractory pruritic induration,BX-20170731-3252-01,/synthetic_pathology/skin_biopsy/2017/subject_3252/BX-20170731-3252-01.svs,NDPI
+subject_3287,2016-09-30,Dr. Lee,forearm,skin thickening progression,BX-20160930-3287-01,/synthetic_pathology/skin_biopsy/2016/subject_3287/BX-20160930-3287-01.svs,TIFF
+subject_3320,2017-05-04,Dr. Ruiz,lower leg,atypical lesion in scleroderma skin,BX-20170504-3320-01,/synthetic_pathology/skin_biopsy/2017/subject_3320/BX-20170504-3320-01.ndpi,NDPI
+subject_3493,2019-01-18,Dr. Kim,thigh,skin thickening progression,BX-20190118-3493-01,/synthetic_pathology/skin_biopsy/2019/subject_3493/BX-20190118-3493-01.svs,TIFF
+subject_3493,2019-05-16,Dr. Stone,upper arm,skin thickening progression,BX-20190516-3493-02,/synthetic_pathology/skin_biopsy/2019/subject_3493/BX-20190516-3493-02.ndpi,NDPI
+subject_3548,2015-04-18,Dr. Kim,chest,skin thickening progression,BX-20150418-3548-01,/synthetic_pathology/skin_biopsy/2015/subject_3548/BX-20150418-3548-01.svs,NDPI
+subject_3604,2017-07-17,Dr. Nguyen,abdomen,worsening digital ulcer margin,BX-20170717-3604-01,/synthetic_pathology/skin_biopsy/2017/subject_3604/BX-20170717-3604-01.tiff,TIFF
+subject_3604,2018-01-02,Dr. Adler,abdomen,new inflammatory plaque,BX-20180102-3604-02,/synthetic_pathology/skin_biopsy/2018/subject_3604/BX-20180102-3604-02.ndpi,NDPI
+subject_3635,2020-07-06,Dr. Adler,back,worsening digital ulcer margin,BX-20200706-3635-01,/synthetic_pathology/skin_biopsy/2020/subject_3635/BX-20200706-3635-01.ndpi,NDPI
+subject_3647,2020-09-15,Dr. Shah,forearm,atypical lesion in scleroderma skin,BX-20200915-3647-01,/synthetic_pathology/skin_biopsy/2020/subject_3647/BX-20200915-3647-01.tiff,TIFF
+subject_3724,2019-08-19,Dr. Shah,finger,atypical lesion in scleroderma skin,BX-20190819-3724-01,/synthetic_pathology/skin_biopsy/2019/subject_3724/BX-20190819-3724-01.svs,TIFF
+subject_3779,2017-07-14,Dr. Novak,forearm,refractory pruritic induration,BX-20170714-3779-01,/synthetic_pathology/skin_biopsy/2017/subject_3779/BX-20170714-3779-01.svs,NDPI
+subject_3801,2021-10-22,Dr. Brooks,back,refractory pruritic induration,BX-20211022-3801-01,/synthetic_pathology/skin_biopsy/2021/subject_3801/BX-20211022-3801-01.tiff,TIFF
+subject_3801,2022-01-29,Dr. Singh,thigh,refractory pruritic induration,BX-20220129-3801-02,/synthetic_pathology/skin_biopsy/2022/subject_3801/BX-20220129-3801-02.tiff,NDPI
+subject_3801,2022-12-30,Dr. Hernandez,back,atypical lesion in scleroderma skin,BX-20221230-3801-03,/synthetic_pathology/skin_biopsy/2022/subject_3801/BX-20221230-3801-03.tiff,NDPI
+subject_3855,2024-04-14,Dr. Kim,forearm,worsening digital ulcer margin,BX-20240414-3855-01,/synthetic_pathology/skin_biopsy/2024/subject_3855/BX-20240414-3855-01.svs,NDPI
+subject_3858,2021-06-20,Dr. Gomez,dorsal hand,new inflammatory plaque,BX-20210620-3858-01,/synthetic_pathology/skin_biopsy/2021/subject_3858/BX-20210620-3858-01.svs,NDPI
+subject_3867,2020-07-25,Dr. Brooks,back,new inflammatory plaque,BX-20200725-3867-01,/synthetic_pathology/skin_biopsy/2020/subject_3867/BX-20200725-3867-01.ndpi,TIFF
+subject_3930,2024-01-15,Dr. Brooks,finger,refractory pruritic induration,BX-20240115-3930-01,/synthetic_pathology/skin_biopsy/2024/subject_3930/BX-20240115-3930-01.ndpi,TIFF
+subject_3930,2024-08-22,Dr. Bennett,back,atypical lesion in scleroderma skin,BX-20240822-3930-02,/synthetic_pathology/skin_biopsy/2024/subject_3930/BX-20240822-3930-02.ndpi,NDPI
+subject_3962,2020-09-10,Dr. Gomez,dorsal hand,worsening digital ulcer margin,BX-20200910-3962-01,/synthetic_pathology/skin_biopsy/2020/subject_3962/BX-20200910-3962-01.ndpi,NDPI
+subject_3964,2022-09-11,Dr. Kline,thigh,atypical lesion in scleroderma skin,BX-20220911-3964-01,/synthetic_pathology/skin_biopsy/2022/subject_3964/BX-20220911-3964-01.ndpi,NDPI
+subject_3992,2019-03-02,Dr. Nguyen,back,new inflammatory plaque,BX-20190302-3992-01,/synthetic_pathology/skin_biopsy/2019/subject_3992/BX-20190302-3992-01.ndpi,NDPI
+subject_4004,2023-06-30,Dr. Brooks,finger,refractory pruritic induration,BX-20230630-4004-01,/synthetic_pathology/skin_biopsy/2023/subject_4004/BX-20230630-4004-01.ndpi,NDPI
+subject_4004,2024-03-01,Dr. Sullivan,dorsal hand,atypical lesion in scleroderma skin,BX-20240301-4004-02,/synthetic_pathology/skin_biopsy/2024/subject_4004/BX-20240301-4004-02.ndpi,NDPI
+subject_4004,2024-11-09,Dr. Singh,chest,new inflammatory plaque,BX-20241109-4004-03,/synthetic_pathology/skin_biopsy/2024/subject_4004/BX-20241109-4004-03.svs,TIFF
+subject_4054,2018-06-21,Dr. Chen,dorsal hand,new inflammatory plaque,BX-20180621-4054-01,/synthetic_pathology/skin_biopsy/2018/subject_4054/BX-20180621-4054-01.ndpi,TIFF
+subject_4073,2020-08-15,Dr. Kline,forearm,atypical lesion in scleroderma skin,BX-20200815-4073-01,/synthetic_pathology/skin_biopsy/2020/subject_4073/BX-20200815-4073-01.svs,TIFF
+subject_4146,2016-03-04,Dr. Chen,finger,skin thickening progression,BX-20160304-4146-01,/synthetic_pathology/skin_biopsy/2016/subject_4146/BX-20160304-4146-01.ndpi,NDPI
+subject_4150,2021-04-23,Dr. Ruiz,back,atypical lesion in scleroderma skin,BX-20210423-4150-01,/synthetic_pathology/skin_biopsy/2021/subject_4150/BX-20210423-4150-01.ndpi,TIFF
+subject_4152,2016-05-23,Dr. Patel,upper arm,worsening digital ulcer margin,BX-20160523-4152-01,/synthetic_pathology/skin_biopsy/2016/subject_4152/BX-20160523-4152-01.ndpi,NDPI
+subject_4162,2021-11-14,Dr. Singh,back,skin thickening progression,BX-20211114-4162-01,/synthetic_pathology/skin_biopsy/2021/subject_4162/BX-20211114-4162-01.tiff,NDPI
+subject_4214,2022-01-28,Dr. Gomez,upper arm,new inflammatory plaque,BX-20220128-4214-01,/synthetic_pathology/skin_biopsy/2022/subject_4214/BX-20220128-4214-01.tiff,TIFF
+subject_4224,2017-10-28,Dr. Martin,upper arm,atypical lesion in scleroderma skin,BX-20171028-4224-01,/synthetic_pathology/skin_biopsy/2017/subject_4224/BX-20171028-4224-01.svs,TIFF
+subject_4235,2021-01-27,Dr. Lee,dorsal hand,atypical lesion in scleroderma skin,BX-20210127-4235-01,/synthetic_pathology/skin_biopsy/2021/subject_4235/BX-20210127-4235-01.ndpi,TIFF
+subject_4244,2022-07-15,Dr. Ibrahim,finger,new inflammatory plaque,BX-20220715-4244-01,/synthetic_pathology/skin_biopsy/2022/subject_4244/BX-20220715-4244-01.ndpi,NDPI
+subject_4244,2022-11-14,Dr. Kim,lower leg,skin thickening progression,BX-20221114-4244-03,/synthetic_pathology/skin_biopsy/2022/subject_4244/BX-20221114-4244-03.ndpi,TIFF
+subject_4244,2022-11-25,Dr. Chen,upper arm,refractory pruritic induration,BX-20221125-4244-02,/synthetic_pathology/skin_biopsy/2022/subject_4244/BX-20221125-4244-02.svs,TIFF
+subject_4268,2019-03-01,Dr. Kim,thigh,new inflammatory plaque,BX-20190301-4268-01,/synthetic_pathology/skin_biopsy/2019/subject_4268/BX-20190301-4268-01.ndpi,NDPI
+subject_4278,2018-04-18,Dr. Adler,dorsal hand,atypical lesion in scleroderma skin,BX-20180418-4278-01,/synthetic_pathology/skin_biopsy/2018/subject_4278/BX-20180418-4278-01.tiff,NDPI
+subject_4290,2021-05-18,Dr. Martin,dorsal hand,new inflammatory plaque,BX-20210518-4290-01,/synthetic_pathology/skin_biopsy/2021/subject_4290/BX-20210518-4290-01.svs,NDPI
+subject_4292,2019-01-02,Dr. Martin,forearm,skin thickening progression,BX-20190102-4292-01,/synthetic_pathology/skin_biopsy/2019/subject_4292/BX-20190102-4292-01.ndpi,NDPI
+subject_4292,2019-06-29,Dr. Ruiz,back,new inflammatory plaque,BX-20190629-4292-02,/synthetic_pathology/skin_biopsy/2019/subject_4292/BX-20190629-4292-02.ndpi,NDPI
+subject_4292,2019-12-16,Dr. Novak,dorsal hand,worsening digital ulcer margin,BX-20191216-4292-03,/synthetic_pathology/skin_biopsy/2019/subject_4292/BX-20191216-4292-03.svs,TIFF
+subject_4323,2021-05-18,Dr. Gomez,finger,atypical lesion in scleroderma skin,BX-20210518-4323-01,/synthetic_pathology/skin_biopsy/2021/subject_4323/BX-20210518-4323-01.ndpi,TIFF
+subject_4407,2021-08-13,Dr. Nguyen,finger,new inflammatory plaque,BX-20210813-4407-01,/synthetic_pathology/skin_biopsy/2021/subject_4407/BX-20210813-4407-01.ndpi,NDPI
+subject_4541,2021-05-10,Dr. Sullivan,upper arm,refractory pruritic induration,BX-20210510-4541-01,/synthetic_pathology/skin_biopsy/2021/subject_4541/BX-20210510-4541-01.svs,TIFF
+subject_4646,2021-08-07,Dr. Adler,lower leg,skin thickening progression,BX-20210807-4646-01,/synthetic_pathology/skin_biopsy/2021/subject_4646/BX-20210807-4646-01.ndpi,TIFF
+subject_4646,2021-10-23,Dr. Shah,back,refractory pruritic induration,BX-20211023-4646-02,/synthetic_pathology/skin_biopsy/2021/subject_4646/BX-20211023-4646-02.svs,TIFF
+subject_4685,2021-02-21,Dr. Hernandez,back,worsening digital ulcer margin,BX-20210221-4685-01,/synthetic_pathology/skin_biopsy/2021/subject_4685/BX-20210221-4685-01.tiff,TIFF
+subject_4782,2019-07-16,Dr. Kim,forearm,skin thickening progression,BX-20190716-4782-01,/synthetic_pathology/skin_biopsy/2019/subject_4782/BX-20190716-4782-01.svs,NDPI
+subject_4808,2016-10-23,Dr. Lee,forearm,skin thickening progression,BX-20161023-4808-01,/synthetic_pathology/skin_biopsy/2016/subject_4808/BX-20161023-4808-01.tiff,TIFF
+subject_4808,2017-01-21,Dr. Nguyen,dorsal hand,refractory pruritic induration,BX-20170121-4808-02,/synthetic_pathology/skin_biopsy/2017/subject_4808/BX-20170121-4808-02.tiff,NDPI
+subject_4813,2021-11-08,Dr. Bennett,chest,refractory pruritic induration,BX-20211108-4813-01,/synthetic_pathology/skin_biopsy/2021/subject_4813/BX-20211108-4813-01.tiff,TIFF
+subject_4813,2022-02-11,Dr. Nguyen,chest,worsening digital ulcer margin,BX-20220211-4813-02,/synthetic_pathology/skin_biopsy/2022/subject_4813/BX-20220211-4813-02.svs,NDPI
+subject_4861,2019-07-02,Dr. Chen,chest,worsening digital ulcer margin,BX-20190702-4861-01,/synthetic_pathology/skin_biopsy/2019/subject_4861/BX-20190702-4861-01.tiff,NDPI
+subject_4861,2019-12-27,Dr. Patel,abdomen,atypical lesion in scleroderma skin,BX-20191227-4861-02,/synthetic_pathology/skin_biopsy/2019/subject_4861/BX-20191227-4861-02.svs,NDPI
+subject_4861,2020-09-30,Dr. Singh,dorsal hand,refractory pruritic induration,BX-20200930-4861-03,/synthetic_pathology/skin_biopsy/2020/subject_4861/BX-20200930-4861-03.ndpi,NDPI
+subject_4978,2020-04-27,Dr. Nguyen,thigh,atypical lesion in scleroderma skin,BX-20200427-4978-01,/synthetic_pathology/skin_biopsy/2020/subject_4978/BX-20200427-4978-01.svs,TIFF
+subject_5011,2022-12-14,Dr. Patel,back,new inflammatory plaque,BX-20221214-5011-01,/synthetic_pathology/skin_biopsy/2022/subject_5011/BX-20221214-5011-01.tiff,NDPI
+subject_5044,2018-08-03,Dr. Bennett,upper arm,new inflammatory plaque,BX-20180803-5044-01,/synthetic_pathology/skin_biopsy/2018/subject_5044/BX-20180803-5044-01.ndpi,NDPI
+subject_5108,2020-05-17,Dr. Nguyen,forearm,refractory pruritic induration,BX-20200517-5108-01,/synthetic_pathology/skin_biopsy/2020/subject_5108/BX-20200517-5108-01.tiff,TIFF
+subject_5158,2018-08-18,Dr. Bennett,upper arm,refractory pruritic induration,BX-20180818-5158-01,/synthetic_pathology/skin_biopsy/2018/subject_5158/BX-20180818-5158-01.svs,TIFF
+subject_5269,2019-07-13,Dr. Stone,back,skin thickening progression,BX-20190713-5269-01,/synthetic_pathology/skin_biopsy/2019/subject_5269/BX-20190713-5269-01.ndpi,TIFF
+subject_5330,2020-04-11,Dr. Chen,forearm,atypical lesion in scleroderma skin,BX-20200411-5330-01,/synthetic_pathology/skin_biopsy/2020/subject_5330/BX-20200411-5330-01.svs,NDPI
+subject_5353,2017-09-14,Dr. Gomez,forearm,atypical lesion in scleroderma skin,BX-20170914-5353-01,/synthetic_pathology/skin_biopsy/2017/subject_5353/BX-20170914-5353-01.tiff,TIFF
+subject_5353,2018-02-26,Dr. Sullivan,upper arm,worsening digital ulcer margin,BX-20180226-5353-02,/synthetic_pathology/skin_biopsy/2018/subject_5353/BX-20180226-5353-02.ndpi,TIFF
+subject_5402,2020-09-23,Dr. Ibrahim,finger,new inflammatory plaque,BX-20200923-5402-01,/synthetic_pathology/skin_biopsy/2020/subject_5402/BX-20200923-5402-01.ndpi,NDPI
+subject_5478,2019-04-06,Dr. Nguyen,lower leg,refractory pruritic induration,BX-20190406-5478-01,/synthetic_pathology/skin_biopsy/2019/subject_5478/BX-20190406-5478-01.ndpi,TIFF
+subject_5517,2024-04-29,Dr. Sullivan,chest,skin thickening progression,BX-20240429-5517-01,/synthetic_pathology/skin_biopsy/2024/subject_5517/BX-20240429-5517-01.svs,TIFF
+subject_5620,2020-03-22,Dr. Singh,finger,atypical lesion in scleroderma skin,BX-20200322-5620-01,/synthetic_pathology/skin_biopsy/2020/subject_5620/BX-20200322-5620-01.tiff,TIFF
+subject_5629,2020-08-01,Dr. Ibrahim,forearm,new inflammatory plaque,BX-20200801-5629-01,/synthetic_pathology/skin_biopsy/2020/subject_5629/BX-20200801-5629-01.tiff,TIFF
+subject_5716,2020-06-06,Dr. Sullivan,thigh,refractory pruritic induration,BX-20200606-5716-01,/synthetic_pathology/skin_biopsy/2020/subject_5716/BX-20200606-5716-01.ndpi,TIFF
+subject_5759,2019-04-20,Dr. Bennett,lower leg,refractory pruritic induration,BX-20190420-5759-01,/synthetic_pathology/skin_biopsy/2019/subject_5759/BX-20190420-5759-01.tiff,TIFF
+subject_5787,2023-02-18,Dr. Kline,back,refractory pruritic induration,BX-20230218-5787-01,/synthetic_pathology/skin_biopsy/2023/subject_5787/BX-20230218-5787-01.tiff,TIFF
+subject_5788,2019-08-07,Dr. Hernandez,back,refractory pruritic induration,BX-20190807-5788-01,/synthetic_pathology/skin_biopsy/2019/subject_5788/BX-20190807-5788-01.ndpi,NDPI
+subject_5874,2023-10-14,Dr. Kim,finger,atypical lesion in scleroderma skin,BX-20231014-5874-01,/synthetic_pathology/skin_biopsy/2023/subject_5874/BX-20231014-5874-01.tiff,NDPI
+subject_5874,2024-04-24,Dr. Nguyen,dorsal hand,refractory pruritic induration,BX-20240424-5874-02,/synthetic_pathology/skin_biopsy/2024/subject_5874/BX-20240424-5874-02.svs,TIFF
+subject_5874,2024-05-15,Dr. Adler,thigh,atypical lesion in scleroderma skin,BX-20240515-5874-03,/synthetic_pathology/skin_biopsy/2024/subject_5874/BX-20240515-5874-03.tiff,NDPI
+subject_5881,2017-06-10,Dr. Shah,upper arm,worsening digital ulcer margin,BX-20170610-5881-01,/synthetic_pathology/skin_biopsy/2017/subject_5881/BX-20170610-5881-01.tiff,NDPI
+subject_5881,2017-09-05,Dr. Bennett,thigh,worsening digital ulcer margin,BX-20170905-5881-02,/synthetic_pathology/skin_biopsy/2017/subject_5881/BX-20170905-5881-02.tiff,TIFF
+subject_5896,2018-07-28,Dr. Nguyen,forearm,atypical lesion in scleroderma skin,BX-20180728-5896-01,/synthetic_pathology/skin_biopsy/2018/subject_5896/BX-20180728-5896-01.ndpi,NDPI
+subject_5931,2017-08-14,Dr. Martin,forearm,refractory pruritic induration,BX-20170814-5931-01,/synthetic_pathology/skin_biopsy/2017/subject_5931/BX-20170814-5931-01.tiff,TIFF
+subject_5931,2017-12-17,Dr. Patel,dorsal hand,skin thickening progression,BX-20171217-5931-02,/synthetic_pathology/skin_biopsy/2017/subject_5931/BX-20171217-5931-02.tiff,NDPI
+subject_5934,2020-04-14,Dr. Adler,forearm,skin thickening progression,BX-20200414-5934-01,/synthetic_pathology/skin_biopsy/2020/subject_5934/BX-20200414-5934-01.ndpi,TIFF
+subject_5934,2020-06-02,Dr. Kline,abdomen,skin thickening progression,BX-20200602-5934-02,/synthetic_pathology/skin_biopsy/2020/subject_5934/BX-20200602-5934-02.tiff,TIFF
+subject_6019,2016-09-23,Dr. Novak,forearm,refractory pruritic induration,BX-20160923-6019-01,/synthetic_pathology/skin_biopsy/2016/subject_6019/BX-20160923-6019-01.svs,TIFF
+subject_6082,2017-11-12,Dr. Chen,dorsal hand,refractory pruritic induration,BX-20171112-6082-01,/synthetic_pathology/skin_biopsy/2017/subject_6082/BX-20171112-6082-01.svs,NDPI
+subject_6099,2019-11-17,Dr. Kline,lower leg,atypical lesion in scleroderma skin,BX-20191117-6099-01,/synthetic_pathology/skin_biopsy/2019/subject_6099/BX-20191117-6099-01.svs,NDPI
+subject_6455,2016-11-24,Dr. Shah,back,worsening digital ulcer margin,BX-20161124-6455-01,/synthetic_pathology/skin_biopsy/2016/subject_6455/BX-20161124-6455-01.ndpi,NDPI
+subject_6652,2016-01-27,Dr. Novak,lower leg,refractory pruritic induration,BX-20160127-6652-01,/synthetic_pathology/skin_biopsy/2016/subject_6652/BX-20160127-6652-01.tiff,TIFF
+subject_6652,2016-03-18,Dr. Ruiz,back,worsening digital ulcer margin,BX-20160318-6652-02,/synthetic_pathology/skin_biopsy/2016/subject_6652/BX-20160318-6652-02.ndpi,NDPI
+subject_6694,2021-09-18,Dr. Novak,back,atypical lesion in scleroderma skin,BX-20210918-6694-01,/synthetic_pathology/skin_biopsy/2021/subject_6694/BX-20210918-6694-01.svs,NDPI
+subject_6710,2019-07-01,Dr. Sullivan,chest,new inflammatory plaque,BX-20190701-6710-01,/synthetic_pathology/skin_biopsy/2019/subject_6710/BX-20190701-6710-01.tiff,NDPI
+subject_6710,2020-02-25,Dr. Hernandez,abdomen,atypical lesion in scleroderma skin,BX-20200225-6710-02,/synthetic_pathology/skin_biopsy/2020/subject_6710/BX-20200225-6710-02.svs,NDPI
+subject_6710,2020-05-26,Dr. Singh,back,skin thickening progression,BX-20200526-6710-03,/synthetic_pathology/skin_biopsy/2020/subject_6710/BX-20200526-6710-03.ndpi,NDPI
+subject_6743,2023-04-08,Dr. Kim,upper arm,skin thickening progression,BX-20230408-6743-01,/synthetic_pathology/skin_biopsy/2023/subject_6743/BX-20230408-6743-01.svs,NDPI
+subject_6743,2023-10-05,Dr. Nguyen,upper arm,skin thickening progression,BX-20231005-6743-02,/synthetic_pathology/skin_biopsy/2023/subject_6743/BX-20231005-6743-02.ndpi,TIFF
+subject_6743,2024-07-03,Dr. Singh,upper arm,refractory pruritic induration,BX-20240703-6743-03,/synthetic_pathology/skin_biopsy/2024/subject_6743/BX-20240703-6743-03.tiff,TIFF
+subject_6761,2022-03-22,Dr. Sullivan,back,atypical lesion in scleroderma skin,BX-20220322-6761-01,/synthetic_pathology/skin_biopsy/2022/subject_6761/BX-20220322-6761-01.svs,NDPI
+subject_6886,2018-11-30,Dr. Brooks,thigh,skin thickening progression,BX-20181130-6886-01,/synthetic_pathology/skin_biopsy/2018/subject_6886/BX-20181130-6886-01.svs,NDPI
+subject_6960,2025-04-30,Dr. Kim,chest,skin thickening progression,BX-20250430-6960-01,/synthetic_pathology/skin_biopsy/2025/subject_6960/BX-20250430-6960-01.tiff,TIFF
+subject_6960,2025-07-14,Dr. Lee,finger,refractory pruritic induration,BX-20250714-6960-02,/synthetic_pathology/skin_biopsy/2025/subject_6960/BX-20250714-6960-02.ndpi,TIFF
+subject_6960,2026-02-18,Dr. Novak,finger,new inflammatory plaque,BX-20260218-6960-03,/synthetic_pathology/skin_biopsy/2026/subject_6960/BX-20260218-6960-03.svs,NDPI
+subject_7017,2024-01-27,Dr. Novak,back,new inflammatory plaque,BX-20240127-7017-01,/synthetic_pathology/skin_biopsy/2024/subject_7017/BX-20240127-7017-01.svs,NDPI
+subject_7036,2021-07-27,Dr. Shah,lower leg,atypical lesion in scleroderma skin,BX-20210727-7036-01,/synthetic_pathology/skin_biopsy/2021/subject_7036/BX-20210727-7036-01.ndpi,NDPI
+subject_7048,2020-01-23,Dr. Brooks,abdomen,worsening digital ulcer margin,BX-20200123-7048-01,/synthetic_pathology/skin_biopsy/2020/subject_7048/BX-20200123-7048-01.svs,TIFF
+subject_7148,2015-09-07,Dr. Sullivan,abdomen,atypical lesion in scleroderma skin,BX-20150907-7148-01,/synthetic_pathology/skin_biopsy/2015/subject_7148/BX-20150907-7148-01.tiff,TIFF
+subject_7168,2017-11-06,Dr. Shah,thigh,new inflammatory plaque,BX-20171106-7168-01,/synthetic_pathology/skin_biopsy/2017/subject_7168/BX-20171106-7168-01.ndpi,NDPI
+subject_7192,2022-01-19,Dr. Ruiz,finger,skin thickening progression,BX-20220119-7192-01,/synthetic_pathology/skin_biopsy/2022/subject_7192/BX-20220119-7192-01.tiff,TIFF
+subject_7201,2021-07-27,Dr. Lee,upper arm,refractory pruritic induration,BX-20210727-7201-01,/synthetic_pathology/skin_biopsy/2021/subject_7201/BX-20210727-7201-01.svs,TIFF
+subject_7201,2022-01-13,Dr. Shah,dorsal hand,atypical lesion in scleroderma skin,BX-20220113-7201-02,/synthetic_pathology/skin_biopsy/2022/subject_7201/BX-20220113-7201-02.svs,NDPI
+subject_7373,2021-07-04,Dr. Adler,back,refractory pruritic induration,BX-20210704-7373-01,/synthetic_pathology/skin_biopsy/2021/subject_7373/BX-20210704-7373-01.ndpi,TIFF
+subject_7377,2017-04-11,Dr. Ruiz,forearm,refractory pruritic induration,BX-20170411-7377-01,/synthetic_pathology/skin_biopsy/2017/subject_7377/BX-20170411-7377-01.ndpi,NDPI
+subject_7377,2017-12-13,Dr. Ruiz,lower leg,refractory pruritic induration,BX-20171213-7377-02,/synthetic_pathology/skin_biopsy/2017/subject_7377/BX-20171213-7377-02.ndpi,NDPI
+subject_7377,2018-09-25,Dr. Sullivan,finger,skin thickening progression,BX-20180925-7377-03,/synthetic_pathology/skin_biopsy/2018/subject_7377/BX-20180925-7377-03.tiff,NDPI
+subject_7539,2020-05-21,Dr. Hernandez,dorsal hand,new inflammatory plaque,BX-20200521-7539-01,/synthetic_pathology/skin_biopsy/2020/subject_7539/BX-20200521-7539-01.svs,TIFF
+subject_7539,2020-08-25,Dr. Shah,thigh,new inflammatory plaque,BX-20200825-7539-02,/synthetic_pathology/skin_biopsy/2020/subject_7539/BX-20200825-7539-02.ndpi,TIFF
+subject_7539,2021-06-17,Dr. Novak,thigh,refractory pruritic induration,BX-20210617-7539-03,/synthetic_pathology/skin_biopsy/2021/subject_7539/BX-20210617-7539-03.svs,TIFF
+subject_7626,2021-10-14,Dr. Gomez,thigh,skin thickening progression,BX-20211014-7626-01,/synthetic_pathology/skin_biopsy/2021/subject_7626/BX-20211014-7626-01.svs,TIFF
+subject_7704,2017-03-28,Dr. Kim,abdomen,new inflammatory plaque,BX-20170328-7704-01,/synthetic_pathology/skin_biopsy/2017/subject_7704/BX-20170328-7704-01.ndpi,TIFF
+subject_7704,2017-07-22,Dr. Patel,lower leg,worsening digital ulcer margin,BX-20170722-7704-02,/synthetic_pathology/skin_biopsy/2017/subject_7704/BX-20170722-7704-02.ndpi,TIFF
+subject_7711,2022-10-02,Dr. Nguyen,dorsal hand,atypical lesion in scleroderma skin,BX-20221002-7711-01,/synthetic_pathology/skin_biopsy/2022/subject_7711/BX-20221002-7711-01.svs,NDPI
+subject_7788,2020-08-19,Dr. Stone,upper arm,atypical lesion in scleroderma skin,BX-20200819-7788-01,/synthetic_pathology/skin_biopsy/2020/subject_7788/BX-20200819-7788-01.tiff,TIFF
+subject_7861,2020-11-11,Dr. Ruiz,upper arm,new inflammatory plaque,BX-20201111-7861-01,/synthetic_pathology/skin_biopsy/2020/subject_7861/BX-20201111-7861-01.tiff,NDPI
+subject_7937,2018-06-06,Dr. Shah,dorsal hand,atypical lesion in scleroderma skin,BX-20180606-7937-01,/synthetic_pathology/skin_biopsy/2018/subject_7937/BX-20180606-7937-01.svs,TIFF
+subject_7982,2020-10-07,Dr. Novak,dorsal hand,worsening digital ulcer margin,BX-20201007-7982-01,/synthetic_pathology/skin_biopsy/2020/subject_7982/BX-20201007-7982-01.ndpi,NDPI
+subject_7982,2020-12-22,Dr. Hernandez,dorsal hand,atypical lesion in scleroderma skin,BX-20201222-7982-02,/synthetic_pathology/skin_biopsy/2020/subject_7982/BX-20201222-7982-02.svs,TIFF
+subject_8058,2023-11-29,Dr. Gomez,dorsal hand,atypical lesion in scleroderma skin,BX-20231129-8058-01,/synthetic_pathology/skin_biopsy/2023/subject_8058/BX-20231129-8058-01.svs,NDPI
+subject_8058,2024-05-18,Dr. Kim,thigh,new inflammatory plaque,BX-20240518-8058-02,/synthetic_pathology/skin_biopsy/2024/subject_8058/BX-20240518-8058-02.svs,NDPI
+subject_8065,2019-08-24,Dr. Shah,lower leg,new inflammatory plaque,BX-20190824-8065-01,/synthetic_pathology/skin_biopsy/2019/subject_8065/BX-20190824-8065-01.tiff,TIFF
+subject_8159,2021-04-11,Dr. Kline,thigh,atypical lesion in scleroderma skin,BX-20210411-8159-01,/synthetic_pathology/skin_biopsy/2021/subject_8159/BX-20210411-8159-01.ndpi,NDPI
+subject_8159,2022-01-10,Dr. Ibrahim,upper arm,new inflammatory plaque,BX-20220110-8159-02,/synthetic_pathology/skin_biopsy/2022/subject_8159/BX-20220110-8159-02.tiff,NDPI
+subject_8167,2020-07-05,Dr. Gomez,upper arm,new inflammatory plaque,BX-20200705-8167-01,/synthetic_pathology/skin_biopsy/2020/subject_8167/BX-20200705-8167-01.tiff,TIFF
+subject_8171,2019-06-16,Dr. Singh,abdomen,new inflammatory plaque,BX-20190616-8171-01,/synthetic_pathology/skin_biopsy/2019/subject_8171/BX-20190616-8171-01.svs,TIFF
+subject_8171,2019-10-04,Dr. Singh,upper arm,skin thickening progression,BX-20191004-8171-02,/synthetic_pathology/skin_biopsy/2019/subject_8171/BX-20191004-8171-02.ndpi,NDPI
+subject_8171,2020-04-11,Dr. Hernandez,back,worsening digital ulcer margin,BX-20200411-8171-03,/synthetic_pathology/skin_biopsy/2020/subject_8171/BX-20200411-8171-03.svs,TIFF
+subject_8182,2015-07-30,Dr. Novak,abdomen,worsening digital ulcer margin,BX-20150730-8182-01,/synthetic_pathology/skin_biopsy/2015/subject_8182/BX-20150730-8182-01.tiff,TIFF
+subject_8241,2018-10-27,Dr. Adler,dorsal hand,atypical lesion in scleroderma skin,BX-20181027-8241-01,/synthetic_pathology/skin_biopsy/2018/subject_8241/BX-20181027-8241-01.svs,TIFF
+subject_8254,2020-05-09,Dr. Bennett,upper arm,new inflammatory plaque,BX-20200509-8254-01,/synthetic_pathology/skin_biopsy/2020/subject_8254/BX-20200509-8254-01.svs,TIFF
+subject_8273,2021-07-24,Dr. Brooks,lower leg,worsening digital ulcer margin,BX-20210724-8273-01,/synthetic_pathology/skin_biopsy/2021/subject_8273/BX-20210724-8273-01.ndpi,TIFF
+subject_8273,2022-01-03,Dr. Patel,thigh,skin thickening progression,BX-20220103-8273-02,/synthetic_pathology/skin_biopsy/2022/subject_8273/BX-20220103-8273-02.svs,NDPI
+subject_8284,2016-07-16,Dr. Patel,dorsal hand,refractory pruritic induration,BX-20160716-8284-01,/synthetic_pathology/skin_biopsy/2016/subject_8284/BX-20160716-8284-01.svs,NDPI
+subject_8351,2019-04-09,Dr. Gomez,dorsal hand,worsening digital ulcer margin,BX-20190409-8351-01,/synthetic_pathology/skin_biopsy/2019/subject_8351/BX-20190409-8351-01.ndpi,NDPI
+subject_8391,2018-05-21,Dr. Stone,chest,worsening digital ulcer margin,BX-20180521-8391-01,/synthetic_pathology/skin_biopsy/2018/subject_8391/BX-20180521-8391-01.tiff,TIFF
+subject_8391,2018-11-23,Dr. Brooks,forearm,worsening digital ulcer margin,BX-20181123-8391-02,/synthetic_pathology/skin_biopsy/2018/subject_8391/BX-20181123-8391-02.ndpi,TIFF
+subject_8391,2019-09-13,Dr. Shah,lower leg,refractory pruritic induration,BX-20190913-8391-03,/synthetic_pathology/skin_biopsy/2019/subject_8391/BX-20190913-8391-03.svs,TIFF
+subject_8425,2019-09-02,Dr. Singh,dorsal hand,refractory pruritic induration,BX-20190902-8425-01,/synthetic_pathology/skin_biopsy/2019/subject_8425/BX-20190902-8425-01.tiff,NDPI
+subject_8456,2019-08-29,Dr. Gomez,forearm,worsening digital ulcer margin,BX-20190829-8456-01,/synthetic_pathology/skin_biopsy/2019/subject_8456/BX-20190829-8456-01.ndpi,NDPI
+subject_8456,2020-03-10,Dr. Novak,upper arm,atypical lesion in scleroderma skin,BX-20200310-8456-03,/synthetic_pathology/skin_biopsy/2020/subject_8456/BX-20200310-8456-03.tiff,NDPI
+subject_8456,2020-04-02,Dr. Bennett,upper arm,skin thickening progression,BX-20200402-8456-02,/synthetic_pathology/skin_biopsy/2020/subject_8456/BX-20200402-8456-02.tiff,NDPI
+subject_8465,2019-05-21,Dr. Ibrahim,abdomen,skin thickening progression,BX-20190521-8465-01,/synthetic_pathology/skin_biopsy/2019/subject_8465/BX-20190521-8465-01.ndpi,TIFF
+subject_8465,2019-08-31,Dr. Gomez,chest,refractory pruritic induration,BX-20190831-8465-02,/synthetic_pathology/skin_biopsy/2019/subject_8465/BX-20190831-8465-02.tiff,TIFF
+subject_8465,2020-02-21,Dr. Ibrahim,lower leg,worsening digital ulcer margin,BX-20200221-8465-03,/synthetic_pathology/skin_biopsy/2020/subject_8465/BX-20200221-8465-03.ndpi,NDPI
+subject_8476,2022-02-23,Dr. Sullivan,dorsal hand,worsening digital ulcer margin,BX-20220223-8476-01,/synthetic_pathology/skin_biopsy/2022/subject_8476/BX-20220223-8476-01.svs,NDPI
+subject_8602,2019-08-05,Dr. Kline,chest,skin thickening progression,BX-20190805-8602-01,/synthetic_pathology/skin_biopsy/2019/subject_8602/BX-20190805-8602-01.svs,TIFF
+subject_8602,2020-05-08,Dr. Stone,forearm,skin thickening progression,BX-20200508-8602-02,/synthetic_pathology/skin_biopsy/2020/subject_8602/BX-20200508-8602-02.tiff,NDPI
+subject_8692,2023-05-23,Dr. Gomez,chest,worsening digital ulcer margin,BX-20230523-8692-01,/synthetic_pathology/skin_biopsy/2023/subject_8692/BX-20230523-8692-01.tiff,TIFF
+subject_8692,2023-11-10,Dr. Bennett,abdomen,new inflammatory plaque,BX-20231110-8692-02,/synthetic_pathology/skin_biopsy/2023/subject_8692/BX-20231110-8692-02.ndpi,NDPI
+subject_8714,2024-06-08,Dr. Stone,chest,refractory pruritic induration,BX-20240608-8714-01,/synthetic_pathology/skin_biopsy/2024/subject_8714/BX-20240608-8714-01.svs,NDPI
+subject_8714,2024-08-13,Dr. Chen,abdomen,atypical lesion in scleroderma skin,BX-20240813-8714-02,/synthetic_pathology/skin_biopsy/2024/subject_8714/BX-20240813-8714-02.ndpi,TIFF
+subject_8780,2017-02-24,Dr. Kline,lower leg,atypical lesion in scleroderma skin,BX-20170224-8780-01,/synthetic_pathology/skin_biopsy/2017/subject_8780/BX-20170224-8780-01.tiff,TIFF
+subject_8791,2018-05-30,Dr. Martin,abdomen,refractory pruritic induration,BX-20180530-8791-01,/synthetic_pathology/skin_biopsy/2018/subject_8791/BX-20180530-8791-01.tiff,NDPI
+subject_8791,2018-09-05,Dr. Kim,dorsal hand,new inflammatory plaque,BX-20180905-8791-02,/synthetic_pathology/skin_biopsy/2018/subject_8791/BX-20180905-8791-02.ndpi,TIFF
+subject_8791,2019-07-16,Dr. Adler,back,new inflammatory plaque,BX-20190716-8791-03,/synthetic_pathology/skin_biopsy/2019/subject_8791/BX-20190716-8791-03.tiff,TIFF
+subject_8824,2017-04-24,Dr. Novak,upper arm,new inflammatory plaque,BX-20170424-8824-01,/synthetic_pathology/skin_biopsy/2017/subject_8824/BX-20170424-8824-01.ndpi,TIFF
+subject_8926,2019-06-08,Dr. Lee,lower leg,atypical lesion in scleroderma skin,BX-20190608-8926-01,/synthetic_pathology/skin_biopsy/2019/subject_8926/BX-20190608-8926-01.tiff,TIFF
+subject_8950,2021-10-10,Dr. Ibrahim,dorsal hand,new inflammatory plaque,BX-20211010-8950-01,/synthetic_pathology/skin_biopsy/2021/subject_8950/BX-20211010-8950-01.ndpi,NDPI
+subject_8950,2022-05-12,Dr. Ibrahim,back,refractory pruritic induration,BX-20220512-8950-02,/synthetic_pathology/skin_biopsy/2022/subject_8950/BX-20220512-8950-02.svs,NDPI
+subject_8955,2022-01-21,Dr. Kim,abdomen,new inflammatory plaque,BX-20220121-8955-01,/synthetic_pathology/skin_biopsy/2022/subject_8955/BX-20220121-8955-01.svs,NDPI
+subject_8955,2022-05-01,Dr. Kline,lower leg,new inflammatory plaque,BX-20220501-8955-02,/synthetic_pathology/skin_biopsy/2022/subject_8955/BX-20220501-8955-02.ndpi,NDPI
+subject_8955,2023-04-22,Dr. Brooks,upper arm,atypical lesion in scleroderma skin,BX-20230422-8955-03,/synthetic_pathology/skin_biopsy/2023/subject_8955/BX-20230422-8955-03.ndpi,NDPI

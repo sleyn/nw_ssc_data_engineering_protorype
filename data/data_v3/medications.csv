@@ -1,0 +1,3274 @@
+reg_id,date,medication,dose
+subject_2005,2021-09-28,CellCept,1 g twice daily
+subject_2005,2023-07-27,nifedipine,30 mg daily
+subject_2009,2021-01-23,mycophenolate mofetil,1 g twice daily
+subject_2009,2020-12-02,calcium carbonate,500 mg daily
+subject_2021,2019-08-21,CellCept,1000 mg BID
+subject_2021,2021-09-24,rituximab,1000 mg IV x2
+subject_2021,2020-05-28,naproxen,500 mg BID
+subject_2021,2020-03-08,atorvastatin,20 mg daily
+subject_2021,2020-08-20,atorvastatin,20 mg daily
+subject_2028,2019-11-26,atorvastatin,20 mg daily
+subject_2043,2020-12-21,albuterol,PRN
+subject_2043,2024-01-22,vitamin D3,2000 IU daily
+subject_2043,2021-01-11,omeprazole,20 mg daily
+subject_2054,2022-08-13,vitamin D3,2000 IU daily
+subject_2061,2022-01-15,CellCept,1000 mg BID
+subject_2061,2022-03-29,rituximab,1000 mg IV x2
+subject_2061,2023-11-28,tocilizumab,162 mg SC weekly
+subject_2064,2020-04-18,CellCept,500 mg BID
+subject_2064,2020-04-01,rituximab,1000 mg IV x2
+subject_2064,2018-12-05,albuterol,PRN
+subject_2064,2022-03-05,naproxen,500 mg BID
+subject_2072,2017-12-26,lisinopril,999 tablets daily
+subject_2092,2020-11-27,calcium carbonate,500 mg daily
+subject_2092,2021-06-01,ibuprofen,400 mg PRN
+subject_2095,2020-09-27,rituximab,1000 mg IV x2
+subject_2099,2021-05-01,CellCept,1 g twice daily
+subject_2099,2020-08-24,vitamin D3,2000 IU daily
+subject_2099,2019-12-08,ibuprofen,400 mg PRN
+subject_2116,2021-01-13,calcium carbonate,500 mg daily
+subject_2116,2024-03-26,naproxen,500 mg BID
+subject_2124,2016-11-13,MMF,500 mg BID
+subject_2135,2021-04-26,naproxen,500 mg BID
+subject_2135,2019-09-20,levothyroxine,50 mcg daily
+subject_2135,2021-12-23,ibuprofen,400 mg PRN
+subject_2148,2016-07-31,tocilizumab,162 mg SC weekly
+subject_2148,2019-04-25,lisinopril,10 mg daily
+subject_2148,2016-07-14,levothyroxine,50 mcg daily
+subject_2148,2019-06-19,naproxen,500 mg BID
+subject_2150,2022-03-31,rituximab,1000 mg IV x2
+subject_2150,2021-01-26,omeprazole,20 mg daily
+subject_2150,2020-07-09,albuterol,PRN
+subject_2150,2020-08-08,calcium carbonate,500 mg daily
+subject_2151,2019-11-09,tocilizumab,162 mg SC weekly
+subject_2151,2019-08-14,levothyroxine,50 mcg daily
+subject_2151,2018-10-14,vitamin D3,2000 IU daily
+subject_2151,2020-06-20,calcium carbonate,500 mg daily
+subject_2160,2018-03-28,mycophenolate mofetil,1000 mg BID
+subject_2170,2020-07-08,CellCept,1 g twice daily
+subject_2170,2020-10-29,rituximab,1000 mg IV x2
+subject_2170,2022-07-23,lisinopril,10 mg daily
+subject_2185,2020-09-09,MMF,1 g twice daily
+subject_2185,2020-10-26,levothyroxine,50 mcg daily
+subject_2185,2024-03-14,nifedipine,30 mg daily
+subject_2185,2021-05-28,calcium carbonate,500 mg daily
+subject_2187,2021-12-12,CellCept,1 g twice daily
+subject_2187,2022-07-08,rituximab,1000 mg IV x2
+subject_2187,2023-03-03,albuterol,PRN
+subject_2190,2021-07-12,rituximab,1000 mg IV x2
+subject_2191,2020-11-30,mycophenolate mofetil,1 g twice daily
+subject_2191,2024-07-17,omeprazole,20 mg daily
+subject_2191,2023-11-07,ibuprofen,400 mg PRN
+subject_2191,2021-06-11,ibuprofen,400 mg PRN
+subject_2197,2019-03-06,levothyroxine,50 mcg daily
+subject_2197,2019-06-23,calcium carbonate,500 mg daily
+subject_2210,2023-03-31,amlodipine,5 mg daily
+subject_2210,2022-03-02,albuterol,PRN
+subject_2210,2022-01-29,omeprazole,20 mg daily
+subject_2230,2019-01-22,MMF,1000 mg BID
+subject_2230,2020-06-26,rituximab,1000 mg IV x2
+subject_2230,2020-02-03,tocilizumab,162 mg SC weekly
+subject_2233,2021-03-19,omeprazole,20 mg daily
+subject_2233,2021-02-01,calcium carbonate,500 mg daily
+subject_2235,2021-08-26,mycophenolate mofetil,1500 mg BID
+subject_2235,2024-02-13,omeprazole,20 mg daily
+subject_2235,2021-05-01,albuterol,PRN
+subject_2237,2018-09-16,CellCept,750mg BID
+subject_2237,2020-03-24,albuterol,PRN
+subject_2239,2020-08-13,tocilizumab,162 mg SC weekly
+subject_2239,2020-08-06,omeprazole,20 mg daily
+subject_2246,2020-06-04,MMF,1500 mg BID
+subject_2246,2024-01-03,nifedipine,30 mg daily
+subject_2246,2022-12-03,atorvastatin,20 mg daily
+subject_2260,2018-11-09,MMF,1500 mg BID
+subject_2261,2020-04-09,MMF,1 g twice daily
+subject_2261,2021-05-06,amlodipine,5 mg daily
+subject_2261,2021-06-25,levothyroxine,50 mcg daily
+subject_2276,2018-11-19,MMF,1500 mg BID
+subject_2276,2018-10-29,vitamin D3,2000 IU daily
+subject_2287,2016-09-13,atorvastatin,20 mg daily
+subject_2287,2019-11-01,calcium carbonate,500 mg daily
+subject_2287,2017-11-26,ibuprofen,400 mg PRN
+subject_2293,2019-10-12,albuterol,PRN
+subject_2293,2018-03-31,calcium carbonate,500 mg daily
+subject_2293,2018-05-08,nifedipine,30 mg daily
+subject_2295,2023-01-16,levothyroxine,50 mcg daily
+subject_2301,2020-04-23,vitamin D3,
+subject_2301,2021-07-05,nifedipine,30 mg daily
+subject_2308,2023-06-13,albuterol,PRN
+subject_2308,2023-06-30,vitamin D3,2000 IU daily
+subject_2316,2018-03-08,amlodipine,5 mg daily
+subject_2328,2018-04-24,naproxen,500 mg BID
+subject_2328,2018-01-22,amlodipine,5 mg daily
+subject_2332,2019-07-12,MMF,1500 mg BID
+subject_2332,2021-01-16,naproxen,500 mg BID
+subject_2332,2019-06-19,calcium carbonate,500 mg daily
+subject_2350,2019-04-05,calcium carbonate,500 mg daily
+subject_2350,2018-07-27,vitamin D3,2000 IU daily
+subject_2350,2017-07-07,albuterol,PRN
+subject_2353,2022-07-01,omeprazole,20 mg daily
+subject_2353,2023-06-10,ibuprofen,400 mg PRN
+subject_2362,2019-11-20,MMF,1500 mg BID
+subject_2362,2019-11-14,rituximab,1000 mg IV x2
+subject_2362,2021-03-21,tocilizumab,162 mg SC weekly
+subject_2362,2020-07-29,ibuprofen,400 mg PRN
+subject_2366,2018-09-06,amlodipine,5 mg daily
+subject_2366,2018-06-12,atorvastatin,20 mg daily
+subject_2374,2018-03-14,tocilizumab,162 mg SC weekly
+subject_2385,2021-03-13,vitamin D3,2000 IU daily
+subject_2385,,amlodipine,5 mg daily
+subject_2385,2023-07-24,atorvastatin,20 mg daily
+subject_2386,2022-01-10,rituximab,1000 mg IV x2
+subject_2387,2021-10-14,mycophenolate mofetil,1500 mg BID
+subject_2387,2021-05-17,naproxen,500 mg BID
+subject_2407,2017-08-28,mycophenolate mofetil,750mg BID
+subject_2407,2017-07-09,lisinopril,10 mg daily
+subject_2407,2017-01-07,omeprazole,20 mg daily
+subject_2416,2020-04-20,mycophenolate mofetil,500 mg BID
+subject_2416,2021-12-12,rituximab,1000 mg IV x2
+subject_2420,2021-02-02,tocilizumab,162 mg SC weekly
+subject_2420,2019-05-23,ibuprofen,400 mg PRN
+subject_2422,2018-09-25,MMF,1 g twice daily
+subject_2434,2024-01-31,lisinopril,10 mg daily
+subject_2434,2023-04-13,calcium carbonate,500 mg daily
+subject_2434,2022-06-03,atorvastatin,20 mg daily
+subject_2438,2020-04-27,levothyroxine,50 mcg daily
+subject_2442,2019-11-14,rituximab,1000 mg IV x2
+subject_2442,2022-08-18,calcium carbonate,500 mg daily
+subject_2442,2021-04-26,levothyroxine,
+subject_2443,2024-05-22,omeprazole,20 mg daily
+subject_2443,2023-01-08,levothyroxine,50 mcg daily
+subject_2443,2023-09-28,calcium carbonate,500 mg daily
+subject_2447,2021-07-25,albuterol,PRN
+subject_2455,2020-06-06,MMF,1000 mg BID
+subject_2461,2020-06-25,rituximab,1000 mg IV x2
+subject_2461,2020-11-13,calcium carbonate,500 mg daily
+subject_2462,2021-07-04,naproxen,500 mg BID
+subject_2462,2021-01-27,naproxen,500 mg BID
+subject_2462,2024-04-21,vitamin D3,2000 IU daily
+subject_2465,2020-05-19,rituximab,1000 mg IV x2
+subject_2465,2019-03-29,nifedipine,30 mg daily
+subject_2468,2021-06-25,mycophenolate mofetil,1500 mg BID
+subject_2468,2020-11-02,albuterol,PRN
+subject_2468,2021-10-26,amlodipine,5 mg daily
+subject_2470,2019-07-18,MMF,1 g twice daily
+subject_2470,2020-11-20,lisinopril,10 mg daily
+subject_2470,2021-03-10,vitamin D3,2000 IU daily
+subject_2472,2023-12-08,lisinopril,10 mg daily
+subject_2480,2019-08-15,CellCept,1000 mg BID
+subject_2480,2021-05-17,albuterol,PRN
+subject_2480,2019-10-13,amlodipine,5 mg daily
+subject_2480,2019-06-16,atorvastatin,20 mg daily
+subject_2482,2022-06-22,mycophenolate mofetil,1000 mg BID
+subject_2482,2021-02-17,calcium carbonate,500 mg daily
+subject_2485,2019-03-02,mycophenolate mofetil,1 g twice daily
+subject_2485,2020-01-28,atorvastatin,20 mg daily
+subject_2485,2018-12-16,naproxen,500 mg BID
+subject_2496,2022-01-16,mycophenolate mofetil,1 g twice daily
+subject_2496,2020-08-17,lisinopril,10 mg daily
+subject_2517,2021-06-01,albuterol,PRN
+subject_2517,2021-11-23,ibuprofen,400 mg PRN
+subject_2532,2022-05-23,ibuprofen,400 mg PRN
+subject_2532,2018-06-17,atorvastatin,20 mg daily
+subject_2532,2022-03-12,calcium carbonate,500 mg daily
+subject_2540,2020-12-12,omeprazole,20 mg daily
+subject_2540,2023-01-09,levothyroxine,50 mcg daily
+subject_2540,2021-04-18,atorvastatin,20 mg daily
+subject_2544,2019-02-10,tocilizumab,162 mg SC weekly
+subject_2544,2019-04-18,nifedipine,30 mg daily
+subject_2544,2017-12-24,ibuprofen,400 mg PRN
+subject_2545,2019-02-17,MMF,1500 mg BID
+subject_2545,2020-07-05,lisinopril,10 mg daily
+subject_2545,2020-07-21,amlodipine,
+subject_2545,2021-03-16,calcium carbonate,500 mg daily
+subject_2548,2021-02-16,levothyroxine,50 mcg daily
+subject_2553,2021-03-31,mycophenolate mofetil,1 g twice daily
+subject_2553,2021-11-17,naproxen,500 mg BID
+subject_2553,2023-06-02,omeprazole,20 mg daily
+subject_2553,2023-07-30,lisinopril,10 mg daily
+subject_2558,2021-06-19,atorvastatin,20 mg daily
+subject_2558,2020-11-11,albuterol,PRN
+subject_2562,2019-12-29,nifedipine,30 mg daily
+subject_2562,2017-04-18,calcium carbonate,500 mg daily
+subject_2574,2018-02-01,mycophenolate mofetil,1000 mg BID
+subject_2574,2019-04-24,albuterol,PRN
+subject_2574,2020-05-02,vitamin D3,2000 IU daily
+subject_2574,2018-03-05,ibuprofen,400 mg PRN
+subject_2579,2019-03-14,MMF,500 mg BID
+subject_2579,2017-09-05,rituximab,1000 mg IV x2
+subject_2579,2018-05-23,vitamin D3,2000 IU daily
+subject_2579,2018-03-28,ibuprofen,400 mg PRN
+subject_2583,2017-03-19,nifedipine,30 mg daily
+subject_2583,2017-05-13,nifedipine,30 mg daily
+subject_2584,2017-02-11,levothyroxine,50 mcg daily
+subject_2584,2018-10-15,ibuprofen,400 mg PRN
+subject_2584,2019-09-20,calcium carbonate,500 mg daily
+subject_2585,2017-02-05,mycophenolate mofetil,750mg BID
+subject_2586,2022-02-25,rituximab,1000 mg IV x2
+subject_2586,2021-04-14,tocilizumab,162 mg SC weekly
+subject_2586,2021-10-21,atorvastatin,20 mg daily
+subject_2590,2016-11-12,nifedipine,30 mg daily
+subject_2590,2019-01-15,calcium carbonate,500 mg daily
+subject_2590,2017-08-06,amlodipine,5 mg daily
+subject_2598,2019-09-11,mycophenolate mofetil,500 mg BID
+subject_2598,2020-01-26,rituximab,1000 mg IV x2
+subject_2598,2020-06-10,albuterol,PRN
+subject_2598,2020-02-26,amlodipine,5 mg daily
+subject_2601,2023-05-22,vitamin D3,
+subject_2610,2022-06-09,amlodipine,5 mg daily
+subject_2610,2024-01-14,nifedipine,30 mg daily
+subject_2616,2022-10-09,vitamin D3,2000 IU daily
+subject_2617,2018-10-05,omeprazole,20 mg daily
+subject_2617,2019-09-26,atorvastatin,20 mg daily
+subject_2622,2022-06-18,MMF,1500 mg BID
+subject_2622,,levothyroxine,50 mcg daily
+subject_2622,2022-02-22,atorvastatin,20 mg daily
+subject_2624,2022-10-13,MMF,750mg BID
+subject_2624,2024-05-31,nifedipine,30 mg daily
+subject_2626,2021-09-08,calcium carbonate,500 mg daily
+subject_2630,2020-05-29,mycophenolate mofetil,1 g twice daily
+subject_2630,2021-07-28,vitamin D3,2000 IU daily
+subject_2630,2022-10-11,vitamin D3,2000 IU daily
+subject_2630,2020-02-20,lisinopril,10 mg daily
+subject_2636,2023-03-08,calcium carbonate,500 mg daily
+subject_2636,2021-10-24,lisinopril,10 mg daily
+subject_2638,2024-01-28,rituximab,1000 mg IV x2
+subject_2638,2022-04-12,levothyroxine,50 mcg daily
+subject_2638,2023-12-03,naproxen,
+subject_2638,2024-04-02,vitamin D3,2000 IU daily
+subject_2639,2023-06-28,mycophenolate mofetil,1500 mg BID
+subject_2643,2018-11-20,mycophenolate mofetil,500 mg BID
+subject_2643,2017-12-19,rituximab,1000 mg IV x2
+subject_2643,2018-05-08,lisinopril,10 mg daily
+subject_2643,2019-03-06,albuterol,PRN
+subject_2643,2017-06-10,albuterol,PRN
+subject_2646,2018-09-08,rituximab,1000 mg IV x2
+subject_2650,2022-05-24,MMF,1 g twice daily
+subject_2650,2022-06-03,atorvastatin,20 mg daily
+subject_2651,2018-08-22,mycophenolate mofetil,750mg BID
+subject_2651,2018-11-22,rituximab,-1 tablet daily
+subject_2657,2018-08-31,tocilizumab,162 mg SC weekly
+subject_2659,2020-01-23,vitamin D3,2000 IU daily
+subject_2659,2021-12-18,lisinopril,10 mg daily
+subject_2659,2023-01-16,nifedipine,30 mg daily
+subject_2663,2020-03-14,MMF,500 mg BID
+subject_2663,2021-07-10,albuterol,PRN
+subject_2667,2019-03-31,mycophenolate mofetil,1000 mg BID
+subject_2676,2020-06-23,mycophenolate mofetil,1000 mg BID
+subject_2676,2021-07-26,tocilizumab,162 mg SC weekly
+subject_2677,2017-10-20,mycophenolate mofetil,1500 mg BID
+subject_2677,2018-01-06,lisinopril,10 mg daily
+subject_2677,2019-01-27,atorvastatin,20 mg daily
+subject_2677,2019-05-30,nifedipine,30 mg daily
+subject_2679,2021-06-09,albuterol,PRN
+subject_2679,2019-08-26,vitamin D3,2000 IU daily
+subject_2679,2021-01-23,lisinopril,10 mg daily
+subject_2696,2022-02-11,rituximab,1000 mg IV x2
+subject_2696,2023-12-06,atorvastatin,20 mg daily
+subject_2696,2024-03-11,albuterol,PRN
+subject_2696,2021-08-10,lisinopril,10 mg daily
+subject_2703,2018-08-19,rituximab,1000 mg IV x2
+subject_2706,2015-07-30,calcium carbonate,500 mg daily
+subject_2706,2017-02-18,nifedipine,30 mg daily
+subject_2706,2016-10-08,calcium carbonate,500 mg daily
+subject_2714,2017-10-23,MMF,250 g twice daily
+subject_2714,2017-04-10,omeprazole,20 mg daily
+subject_2724,2017-01-12,CellCept,1 g twice daily
+subject_2724,2016-05-27,rituximab,
+subject_2724,2016-03-24,ibuprofen,400 mg PRN
+subject_2724,2018-03-13,atorvastatin,-25 mg daily
+subject_2724,2015-07-29,ibuprofen,400 mg PRN
+subject_2729,2019-12-15,CellCept,1 g twice daily
+subject_2729,2021-04-07,tocilizumab,162 mg SC weekly
+subject_2729,2018-05-28,vitamin D3,2000 IU daily
+subject_2729,2018-12-30,lisinopril,10 mg daily
+subject_2729,2020-02-03,albuterol,PRN
+subject_2730,2021-06-09,naproxen,500 mg BID
+subject_2730,2020-04-03,amlodipine,5 mg daily
+subject_2730,2020-09-11,amlodipine,-1 tablet daily
+subject_2748,2020-02-22,mycophenolate mofetil,750mg BID
+subject_2748,2019-05-03,,2000 IU daily
+subject_2748,2022-04-21,ibuprofen,400 mg PRN
+subject_2748,2019-08-11,naproxen,500 mg BID
+subject_2750,2021-08-07,mycophenolate mofetil,1 g twice daily
+subject_2750,2022-11-10,omeprazole,20 mg daily
+subject_2750,2022-03-31,lisinopril,10 mg daily
+subject_2750,2022-08-16,vitamin D3,2000 IU daily
+subject_2764,2016-08-26,ibuprofen,-25 mg daily
+subject_2766,2016-12-09,CellCept,1 g twice daily
+subject_2766,2017-10-07,rituximab,1000 mg IV x2
+subject_2766,,nifedipine,30 mg daily
+subject_2766,2016-01-25,ibuprofen,400 mg PRN
+subject_2780,2021-10-12,mycophenolate mofetil,500 mg BID
+subject_2780,2022-05-07,rituximab,1000 mg IV x2
+subject_2780,2024-02-17,naproxen,500 mg BID
+subject_2796,2017-03-17,MMF,1 g twice daily
+subject_2796,2018-07-31,ibuprofen,400 mg PRN
+subject_2796,2016-03-19,lisinopril,10 mg daily
+subject_2798,2019-10-07,tocilizumab,162 mg SC weekly
+subject_2803,2016-12-16,atorvastatin,20 mg daily
+subject_2803,2019-05-22,omeprazole,20 mg daily
+subject_2803,2017-07-11,lisinopril,10 mg daily
+subject_2816,2020-10-23,mycophenolate mofetil,750mg BID
+subject_2816,2020-04-24,rituximab,1000 mg IV x2
+subject_2816,2022-09-26,tocilizumab,162 mg SC weekly
+subject_2816,2019-12-18,ibuprofen,400 mg PRN
+subject_2816,2022-01-27,levothyroxine,50 mcg daily
+subject_2816,2021-12-13,nifedipine,30 mg daily
+subject_2818,2023-11-29,tocilizumab,162 mg SC weekly
+subject_2818,2023-12-08,calcium carbonate,500 mg daily
+subject_2818,2021-02-26,vitamin D3,2000 IU daily
+subject_2823,2022-07-13,omeprazole,20 mg daily
+subject_2823,2021-08-05,levothyroxine,50 mcg daily
+subject_2826,2021-04-14,albuterol,PRN
+subject_2826,2020-08-10,calcium carbonate,500 mg daily
+subject_2828,2020-06-28,calcium carbonate,500 mg daily
+subject_2828,2023-11-25,lisinopril,
+subject_2832,2022-12-23,tocilizumab,162 mg SC weekly
+subject_2832,2023-03-22,nifedipine,30 mg daily
+subject_2832,2020-12-02,calcium carbonate,500 mg daily
+subject_2841,2017-04-09,tocilizumab,162 mg SC weekly
+subject_2841,2017-06-08,omeprazole,20 mg daily
+subject_2844,2018-01-20,,1 g twice daily
+subject_2844,2019-08-16,tocilizumab,162 mg SC weekly
+subject_2844,2019-04-27,lisinopril,10 mg daily
+subject_2844,2016-12-01,amlodipine,5 mg daily
+subject_2846,2019-10-24,MMF,1500 mg BID
+subject_2850,2015-09-27,mycophenolate mofetil,1500 mg BID
+subject_2850,2018-04-27,rituximab,1000 mg IV x2
+subject_2850,2016-03-26,tocilizumab,162 mg SC weekly
+subject_2855,2020-08-12,rituximab,1000 mg IV x2
+subject_2860,2019-02-04,mycophenolate mofetil,1 g twice daily
+subject_2871,2020-06-16,omeprazole,20 mg daily
+subject_2883,2017-09-21,MMF,1 g twice daily
+subject_2883,2017-12-27,nifedipine,30 mg daily
+subject_2883,2020-11-10,amlodipine,5 mg daily
+subject_2883,2017-03-24,nifedipine,30 mg daily
+subject_2885,2017-08-01,MMF,500 mg BID
+subject_2885,2017-10-25,rituximab,1000 mg IV x2
+subject_2886,2019-10-27,amlodipine,5 mg daily
+subject_2886,2019-01-11,vitamin D3,2000 IU daily
+subject_2888,2021-08-23,rituximab,1000 mg IV x2
+subject_2888,2019-04-02,levothyroxine,50 mcg daily
+subject_2888,2020-01-13,vitamin D3,2000 IU daily
+subject_2888,2021-08-31,naproxen,500 mg BID
+subject_2893,2017-01-16,naproxen,500 mg BID
+subject_2897,2018-10-15,MMF,1500 mg BID
+subject_2897,,albuterol,PRN
+subject_2897,2019-12-20,calcium carbonate,500 mg daily
+subject_2897,2019-03-14,nifedipine,30 mg daily
+subject_2908,2020-04-07,mycophenolate mofetil,500 mg BID
+subject_2909,2019-07-29,mycophenolate mofetil,750mg BID
+subject_2909,2019-07-17,tocilizumab,162 mg SC weekly
+subject_2919,2022-09-29,CellCept,1500 mg BID
+subject_2919,2021-10-04,calcium carbonate,500 mg daily
+subject_2919,2023-04-14,omeprazole,20 mg daily
+subject_2919,2021-03-12,levothyroxine,50 mcg daily
+subject_2923,2019-04-08,calcium carbonate,500 mg daily
+subject_2924,2020-02-23,MMF,750mg BID
+subject_2924,2020-10-13,rituximab,1000 mg IV x2
+subject_2924,2020-04-27,tocilizumab,162 mg SC weekly
+subject_2924,2022-02-10,atorvastatin,20 mg daily
+subject_2924,2022-11-11,amlodipine,5 mg daily
+subject_2925,2022-12-14,nifedipine,30 mg daily
+subject_2927,2017-11-04,rituximab,1000 mg IV x2
+subject_2927,2018-08-27,naproxen,500 mg BID
+subject_2927,2017-10-15,albuterol,PRN
+subject_2927,2019-09-18,omeprazole,20 mg daily
+subject_2929,2016-08-31,calcium carbonate,500 mg daily
+subject_2930,2018-10-23,rituximab,1000 mg IV x2
+subject_2930,2017-05-11,ibuprofen,400 mg PRN
+subject_2930,2016-11-27,amlodipine,5 mg daily
+subject_2930,2020-09-12,calcium carbonate,500 mg daily
+subject_2938,2021-07-07,mycophenolate mofetil,1000 mg BID
+subject_2938,2021-08-24,amlodipine,5 mg daily
+subject_2938,2022-08-15,nifedipine,30 mg daily
+subject_2938,2023-09-29,vitamin D3,2000 IU daily
+subject_2940,2020-02-20,calcium carbonate,500 mg daily
+subject_2942,2020-09-20,mycophenolate mofetil,750mg BID
+subject_2942,2021-04-07,rituximab,1000 mg IV x2
+subject_2942,2019-12-20,albuterol,PRN
+subject_2942,2019-10-19,lisinopril,10 mg daily
+subject_2943,2021-08-29,naproxen,500 mg BID
+subject_2946,2021-02-16,CellCept,750mg BID
+subject_2946,2022-04-02,ibuprofen,400 mg PRN
+subject_2946,2020-10-29,atorvastatin,20 mg daily
+subject_2946,2022-01-17,atorvastatin,20 mg daily
+subject_2949,2018-10-22,mycophenolate mofetil,1000 mg BID
+subject_2949,2019-09-06,albuterol,PRN
+subject_2949,2020-11-25,vitamin D3,2000 IU daily
+subject_2951,2017-03-15,mycophenolate mofetil,1000 mg BID
+subject_2951,2017-11-11,tocilizumab,162 mg SC weekly
+subject_2951,2019-01-01,naproxen,500 mg BID
+subject_2952,2016-06-27,mycophenolate mofetil,1 g twice daily
+subject_2952,2018-11-08,atorvastatin,20 mg daily
+subject_2952,2016-10-20,lisinopril,10 mg daily
+subject_2952,2017-06-26,albuterol,PRN
+subject_2958,2023-05-28,CellCept,750mg BID
+subject_2958,2024-06-11,rituximab,1000 mg IV x2
+subject_2958,2021-12-31,albuterol,PRN
+subject_2958,2023-02-03,omeprazole,20 mg daily
+subject_2958,2023-04-04,naproxen,500 mg BID
+subject_2965,2021-01-09,tocilizumab,162 mg SC weekly
+subject_2965,2020-02-20,vitamin D3,2000 IU daily
+subject_2971,2023-09-14,lisinopril,10 mg daily
+subject_2971,2022-05-17,lisinopril,10 mg daily
+subject_2972,2018-06-07,rituximab,1000 mg IV x2
+subject_2972,2018-07-24,tocilizumab,162 mg SC weekly
+subject_2972,2017-11-13,calcium carbonate,500 mg daily
+subject_2972,2017-04-05,albuterol,PRN
+subject_2972,2016-12-08,naproxen,500 mg BID
+subject_2974,2017-12-27,rituximab,1000 mg IV x2
+subject_2974,2021-05-13,atorvastatin,20 mg daily
+subject_2974,2021-01-21,atorvastatin,20 mg daily
+subject_2974,2018-11-21,nifedipine,30 mg daily
+subject_2977,2017-11-03,tocilizumab,162 mg SC weekly
+subject_2977,2021-05-19,omeprazole,20 mg daily
+subject_2977,2018-07-09,omeprazole,20 mg daily
+subject_2977,2019-12-20,ibuprofen,400 mg PRN
+subject_2986,2019-03-11,rituximab,1000 mg IV x2
+subject_2986,2021-10-30,calcium carbonate,500 mg daily
+subject_2994,,omeprazole,20 mg daily
+subject_3002,2018-08-20,amlodipine,5 mg daily
+subject_3002,2020-08-21,albuterol,PRN
+subject_3002,2021-07-16,atorvastatin,20 mg daily
+subject_3005,2018-08-18,albuterol,PRN
+subject_3005,2022-06-06,levothyroxine,50 mcg daily
+subject_3005,2019-05-25,naproxen,500 mg BID
+subject_3010,2018-07-17,levothyroxine,50 mcg daily
+subject_3010,2020-06-29,omeprazole,20 mg daily
+subject_3010,2020-06-05,vitamin D3,2000 IU daily
+subject_3012,2022-01-31,mycophenolate mofetil,1500 mg BID
+subject_3012,2025-06-12,omeprazole,20 mg daily
+subject_3012,2025-06-07,albuterol,PRN
+subject_3012,2024-05-01,amlodipine,5 mg daily
+subject_3019,2017-11-03,CellCept,500 mg BID
+subject_3019,2020-01-19,albuterol,PRN
+subject_3019,2020-04-26,omeprazole,20 mg daily
+subject_3024,2024-02-15,omeprazole,20 mg daily
+subject_3024,2025-04-03,levothyroxine,50 mcg daily
+subject_3024,2025-01-16,calcium carbonate,500 mg daily
+subject_3047,2021-04-10,CellCept,500 mg BID
+subject_3047,2022-10-14,atorvastatin,20 mg daily
+subject_3047,2022-06-13,lisinopril,10 mg daily
+subject_3047,2023-03-30,omeprazole,20 mg daily
+subject_3048,2024-02-05,amlodipine,5 mg daily
+subject_3048,2022-12-11,amlodipine,5 mg daily
+subject_3048,2023-07-12,lisinopril,10 mg daily
+subject_3061,2015-12-26,naproxen,500 mg BID
+subject_3061,2016-01-30,ibuprofen,400 mg PRN
+subject_3063,2018-10-08,MMF,750mg BID
+subject_3085,2019-08-20,MMF,750mg BID
+subject_3085,2020-05-27,amlodipine,5 mg daily
+subject_3085,2019-08-10,omeprazole,20 mg daily
+subject_3085,2021-01-30,ibuprofen,400 mg PRN
+subject_3101,2022-01-15,rituximab,1000 mg IV x2
+subject_3102,2020-09-11,amlodipine,5 mg daily
+subject_3102,2018-07-01,atorvastatin,20 mg daily
+subject_3104,2021-05-21,MMF,500 mg BID
+subject_3104,2022-10-17,rituximab,1000 mg IV x2
+subject_3104,2023-05-22,levothyroxine,50 mcg daily
+subject_3104,2021-10-11,lisinopril,10 mg daily
+subject_3105,2017-06-05,CellCept,
+subject_3105,2017-04-29,rituximab,1000 mg IV x2
+subject_3105,2018-04-07,amlodipine,5 mg daily
+subject_3108,2020-02-10,nifedipine,30 mg daily
+subject_3108,2018-11-23,atorvastatin,20 mg daily
+subject_3137,2018-01-21,rituximab,1000 mg IV x2
+subject_3137,2016-12-30,atorvastatin,20 mg daily
+subject_3137,2019-03-28,vitamin D3,2000 IU daily
+subject_3137,2018-12-18,atorvastatin,20 mg daily
+subject_3140,2024-06-04,omeprazole,20 mg daily
+subject_3140,2024-02-01,albuterol,PRN
+subject_3146,2019-10-12,MMF,1 g twice daily
+subject_3146,2018-06-14,rituximab,1000 mg IV x2
+subject_3148,2021-03-23,rituximab,1000 mg IV x2
+subject_3148,2021-08-29,omeprazole,20 mg daily
+subject_3149,2018-08-18,MMF,750mg BID
+subject_3149,2019-12-13,rituximab,1000 mg IV x2
+subject_3149,2020-09-10,nifedipine,30 mg daily
+subject_3156,2019-01-27,MMF,1500 mg BID
+subject_3162,2021-10-10,MMF,1 g twice daily
+subject_3162,2021-06-10,rituximab,1000 mg IV x2
+subject_3162,2020-05-26,atorvastatin,20 mg daily
+subject_3162,2021-08-20,omeprazole,20 mg daily
+subject_3162,2022-09-13,naproxen,500 mg BID
+subject_3164,2017-08-05,rituximab,1000 mg IV x2
+subject_3164,2018-07-14,vitamin D3,2000 IU daily
+subject_3164,2016-11-18,lisinopril,10 mg daily
+subject_3192,2019-04-27,ibuprofen,400 mg PRN
+subject_3192,2017-10-24,lisinopril,10 mg daily
+subject_3192,2020-03-30,amlodipine,5 mg daily
+subject_3195,2021-10-24,mycophenolate mofetil,500 mg BID
+subject_3195,2023-08-17,lisinopril,10 mg daily
+subject_3202,2018-07-17,levothyroxine,50 mcg daily
+subject_3213,2019-12-30,rituximab,1000 mg IV x2
+subject_3213,2019-03-16,omeprazole,20 mg daily
+subject_3219,2020-04-03,mycophenolate mofetil,1000 mg BID
+subject_3219,2022-03-07,tocilizumab,162 mg SC weekly
+subject_3230,2019-02-11,lisinopril,10 mg daily
+subject_3230,2018-12-14,ibuprofen,400 mg PRN
+subject_3230,2021-11-17,albuterol,PRN
+subject_3237,2016-01-09,CellCept,500 mg BID
+subject_3237,2018-10-23,tocilizumab,162 mg SC weekly
+subject_3237,2019-03-02,levothyroxine,50 mcg daily
+subject_3237,2019-01-08,atorvastatin,20 mg daily
+subject_3252,2016-11-14,mycophenolate mofetil,1500 mg BID
+subject_3252,2019-03-27,omeprazole,20 mg daily
+subject_3252,2017-01-16,vitamin D3,2000 IU daily
+subject_3252,2019-06-13,levothyroxine,50 mcg daily
+subject_3255,2017-01-02,CellCept,1500 mg BID
+subject_3255,2017-01-02,nifedipine,30 mg daily
+subject_3255,2019-08-04,levothyroxine,50 mcg daily
+subject_3270,2020-10-20,tocilizumab,162 mg SC weekly
+subject_3272,2022-06-29,vitamin D3,2000 IU daily
+subject_3272,2023-05-13,calcium carbonate,500 mg daily
+subject_3273,2021-01-16,rituximab,1000 mg IV x2
+subject_3273,2019-03-21,levothyroxine,50 mcg daily
+subject_3273,2021-08-08,naproxen,500 mg BID
+subject_3274,2019-04-17,CellCept,1500 mg BID
+subject_3287,2016-06-02,MMF,750mg BID
+subject_3287,2019-12-22,calcium carbonate,500 mg daily
+subject_3287,2019-06-17,amlodipine,5 mg daily
+subject_3288,2016-02-14,vitamin D3,2000 IU daily
+subject_3288,2019-01-05,naproxen,500 mg BID
+subject_3301,2023-05-07,nifedipine,30 mg daily
+subject_3301,2022-05-04,calcium carbonate,500 mg daily
+subject_3301,2023-09-17,albuterol,PRN
+subject_3302,2018-08-24,CellCept,1500 mg BID
+subject_3302,2019-11-29,albuterol,0 mg daily
+subject_3302,2020-08-10,omeprazole,20 mg daily
+subject_3307,2017-08-21,atorvastatin,20 mg daily
+subject_3307,2018-12-08,omeprazole,20 mg daily
+subject_3311,2020-07-07,levothyroxine,50 mcg daily
+subject_3311,2020-04-18,albuterol,PRN
+subject_3311,2020-01-19,naproxen,500 mg BID
+subject_3318,2017-09-23,vitamin D3,2000 IU daily
+subject_3318,2018-02-12,omeprazole,20 mg daily
+subject_3318,2017-10-12,levothyroxine,50 mcg daily
+subject_3320,2019-12-10,calcium carbonate,500 mg daily
+subject_3320,2017-05-30,ibuprofen,400 mg PRN
+subject_3324,2022-10-10,CellCept,500 mg BID
+subject_3324,2021-05-05,tocilizumab,162 mg SC weekly
+subject_3324,2024-10-03,calcium carbonate,
+subject_3324,2024-08-28,calcium carbonate,500 mg daily
+subject_3335,2018-02-12,MMF,1500 mg BID
+subject_3335,2017-01-18,calcium carbonate,500 mg daily
+subject_3335,2019-02-10,calcium carbonate,500 mg daily
+subject_3337,2017-03-17,albuterol,PRN
+subject_3348,2023-01-07,vitamin D3,2000 IU daily
+subject_3353,2023-10-15,levothyroxine,50 mcg daily
+subject_3353,2023-09-08,calcium carbonate,500 mg daily
+subject_3365,2019-03-02,nifedipine,30 mg daily
+subject_3371,2023-05-21,tocilizumab,162 mg SC weekly
+subject_3371,2023-07-21,lisinopril,10 mg daily
+subject_3371,2023-09-13,atorvastatin,20 mg daily
+subject_3371,2022-02-04,vitamin D3,2000 IU daily
+subject_3374,2022-12-14,omeprazole,20 mg daily
+subject_3381,2023-03-04,levothyroxine,50 mcg daily
+subject_3381,2023-03-16,omeprazole,20 mg daily
+subject_3381,2022-06-10,amlodipine,5 mg daily
+subject_3382,2021-01-15,lisinopril,10 mg daily
+subject_3382,2022-07-26,lisinopril,10 mg daily
+subject_3382,2021-08-17,vitamin D3,2000 IU daily
+subject_3397,2020-03-10,mycophenolate mofetil,10000 mg every hour
+subject_3397,2023-07-03,albuterol,PRN
+subject_3397,2021-12-12,omeprazole,20 mg daily
+subject_3401,2021-05-21,MMF,1500 mg BID
+subject_3401,2021-02-03,atorvastatin,20 mg daily
+subject_3407,2019-09-15,amlodipine,5 mg daily
+subject_3407,,omeprazole,20 mg daily
+subject_3407,2021-07-18,nifedipine,30 mg daily
+subject_3418,2018-09-29,lisinopril,10 mg daily
+subject_3426,2020-08-21,lisinopril,10 mg daily
+subject_3428,2017-02-19,rituximab,1000 mg IV x2
+subject_3434,2019-06-14,vitamin D3,2000 IU daily
+subject_3434,2018-11-23,ibuprofen,400 mg PRN
+subject_3434,2017-07-22,vitamin D3,2000 IU daily
+subject_3448,2018-02-06,CellCept,1000 mg BID
+subject_3448,2020-05-22,ibuprofen,400 mg PRN
+subject_3448,2021-03-24,nifedipine,30 mg daily
+subject_3448,2019-09-03,albuterol,PRN
+subject_3454,2023-08-28,atorvastatin,20 mg daily
+subject_3454,2022-03-31,levothyroxine,50 mcg daily
+subject_3456,2021-01-19,mycophenolate mofetil,750mg BID
+subject_3456,2021-08-03,rituximab,1000 mg IV x2
+subject_3458,2019-09-21,ibuprofen,400 mg PRN
+subject_3463,2023-07-13,calcium carbonate,
+subject_3466,2017-01-28,MMF,1500 mg BID
+subject_3466,2016-06-30,atorvastatin,20 mg daily
+subject_3466,2019-09-05,lisinopril,10 mg daily
+subject_3473,2022-11-28,amlodipine,5 mg daily
+subject_3473,2021-11-18,levothyroxine,50 mcg daily
+subject_3476,2015-07-03,rituximab,1000 mg IV x2
+subject_3476,2018-02-13,amlodipine,5 mg daily
+subject_3483,2016-12-17,ibuprofen,400 mg PRN
+subject_3483,2019-11-27,nifedipine,30 mg daily
+subject_3493,,mycophenolate mofetil,500 mg BID
+subject_3493,2019-11-30,rituximab,1000 mg IV x2
+subject_3494,2018-05-12,rituximab,1000 mg IV x2
+subject_3494,2021-06-28,omeprazole,20 mg daily
+subject_3494,2018-04-12,naproxen,500 mg BID
+subject_3494,2020-01-02,omeprazole,20 mg daily
+subject_3498,2020-08-15,rituximab,1000 mg IV x2
+subject_3498,2020-02-19,ibuprofen,400 mg PRN
+subject_3498,2018-10-12,ibuprofen,400 mg PRN
+subject_3512,2020-05-25,MMF,750mg BID
+subject_3512,2021-01-26,tocilizumab,162 mg SC weekly
+subject_3512,2022-04-09,calcium carbonate,500 mg daily
+subject_3512,2021-05-17,omeprazole,20 mg daily
+subject_3512,2021-01-25,calcium carbonate,500 mg daily
+subject_3519,2021-03-03,mycophenolate mofetil,1500 mg BID
+subject_3519,2023-09-21,ibuprofen,400 mg PRN
+subject_3519,2024-03-06,atorvastatin,20 mg daily
+subject_3523,2021-10-24,tocilizumab,162 mg SC weekly
+subject_3523,2022-10-22,nifedipine,30 mg daily
+subject_3523,2022-07-10,nifedipine,30 mg daily
+subject_3523,2023-01-26,naproxen,500 mg BID
+subject_3526,2020-03-12,amlodipine,5 mg daily
+subject_3528,2018-11-20,MMF,1000 mg BID
+subject_3528,2021-10-25,naproxen,500 mg BID
+subject_3528,2020-03-06,lisinopril,10 mg daily
+subject_3528,2020-12-24,levothyroxine,50 mcg daily
+subject_3530,2018-05-09,albuterol,PRN
+subject_3530,2017-07-13,amlodipine,5 mg daily
+subject_3530,2020-12-21,amlodipine,5 mg daily
+subject_3535,2017-09-15,atorvastatin,20 mg daily
+subject_3535,2019-03-15,albuterol,PRN
+subject_3548,2018-03-09,lisinopril,10 mg daily
+subject_3548,2016-01-12,naproxen,500 mg BID
+subject_3548,2016-07-19,amlodipine,5 mg daily
+subject_3552,2020-12-05,rituximab,1000 mg IV x2
+subject_3559,2018-09-09,lisinopril,10 mg daily
+subject_3559,2019-05-24,atorvastatin,20 mg daily
+subject_3559,2019-04-02,vitamin D3,2000 IU daily
+subject_3565,2022-10-22,CellCept,750mg BID
+subject_3565,2022-10-29,rituximab,1000 mg IV x2
+subject_3565,2022-05-06,vitamin D3,2000 IU daily
+subject_3565,2023-09-07,lisinopril,10 mg daily
+subject_3565,2021-06-02,naproxen,500 mg BID
+subject_3584,2020-05-30,MMF,1500 mg BID
+subject_3584,2021-11-04,levothyroxine,50 mcg daily
+subject_3594,2017-09-04,mycophenolate mofetil,1000 mg BID
+subject_3594,2018-12-14,levothyroxine,50 mcg daily
+subject_3594,2021-03-23,albuterol,PRN
+subject_3618,2021-07-03,MMF,1 g twice daily
+subject_3618,2020-05-04,albuterol,PRN
+subject_3618,2022-02-09,ibuprofen,400 mg PRN
+subject_3621,2023-02-06,MMF,1 g twice daily
+subject_3621,2024-05-20,lisinopril,10 mg daily
+subject_3621,2021-05-20,levothyroxine,50 mcg daily
+subject_3623,2017-05-23,CellCept,750mg BID
+subject_3623,2016-07-20,nifedipine,30 mg daily
+subject_3623,2018-12-12,levothyroxine,50 mcg daily
+subject_3626,2017-01-06,MMF,1000 mg BID
+subject_3626,2018-07-11,rituximab,1000 mg IV x2
+subject_3626,2019-09-26,calcium carbonate,500 mg daily
+subject_3630,2021-12-22,rituximab,1000 mg IV x2
+subject_3635,2020-11-10,MMF,500 mg BID
+subject_3635,2021-09-02,naproxen,500 mg BID
+subject_3647,2021-07-05,MMF,500 mg BID
+subject_3647,2020-11-22,rituximab,1000 mg IV x2
+subject_3647,2022-10-19,atorvastatin,20 mg daily
+subject_3657,2020-05-23,rituximab,1000 mg IV x2
+subject_3661,2019-01-13,omeprazole,20 mg daily
+subject_3661,2021-06-02,ibuprofen,400 mg PRN
+subject_3661,2021-08-02,lisinopril,10 mg daily
+subject_3662,2019-04-13,nifedipine,30 mg daily
+subject_3666,2018-12-24,ibuprofen,400 mg PRN
+subject_3666,2016-10-30,nifedipine,30 mg daily
+subject_3668,2017-06-15,MMF,0 mg daily
+subject_3668,2018-05-05,rituximab,1000 mg IV x2
+subject_3668,2019-04-01,naproxen,500 mg BID
+subject_3668,2018-10-10,lisinopril,10 mg daily
+subject_3684,2017-04-14,albuterol,PRN
+subject_3693,,CellCept,1000 mg BID
+subject_3693,2018-02-19,albuterol,PRN
+subject_3693,2015-08-24,levothyroxine,50 mcg daily
+subject_3694,2019-01-16,mycophenolate mofetil,1 g twice daily
+subject_3700,2020-05-17,CellCept,1000 mg BID
+subject_3700,2019-01-29,levothyroxine,50 mcg daily
+subject_3700,2020-04-04,ibuprofen,400 mg PRN
+subject_3700,2021-05-18,lisinopril,10 mg daily
+subject_3711,2017-03-09,tocilizumab,162 mg SC weekly
+subject_3711,2017-02-06,atorvastatin,20 mg daily
+subject_3717,2016-07-11,CellCept,1500 mg BID
+subject_3717,2017-01-26,atorvastatin,20 mg daily
+subject_3717,2018-07-19,naproxen,500 mg BID
+subject_3717,2018-05-19,vitamin D3,2000 IU daily
+subject_3724,2019-10-10,levothyroxine,50 mcg daily
+subject_3724,2020-05-23,naproxen,500 mg BID
+subject_3726,2017-03-28,MMF,
+subject_3726,2019-01-25,tocilizumab,162 mg SC weekly
+subject_3726,2018-08-08,albuterol,PRN
+subject_3726,2019-05-16,ibuprofen,400 mg PRN
+subject_3726,2017-05-16,calcium carbonate,500 mg daily
+subject_3745,2021-04-30,nifedipine,30 mg daily
+subject_3745,2020-05-22,lisinopril,10 mg daily
+subject_3745,2021-03-26,nifedipine,30 mg daily
+subject_3748,2016-08-28,mycophenolate mofetil,1000 mg BID
+subject_3749,2017-09-29,nifedipine,30 mg daily
+subject_3749,2019-12-14,ibuprofen,400 mg PRN
+subject_3749,2016-08-08,atorvastatin,20 mg daily
+subject_3758,2022-01-02,mycophenolate mofetil,1500 mg BID
+subject_3758,2022-11-20,levothyroxine,50 mcg daily
+subject_3763,2019-12-10,CellCept,1500 mg BID
+subject_3763,2022-07-28,rituximab,1000 mg IV x2
+subject_3763,2022-03-28,omeprazole,20 mg daily
+subject_3770,2020-01-24,mycophenolate mofetil,750mg BID
+subject_3770,2021-01-04,nifedipine,30 mg daily
+subject_3770,2021-04-25,vitamin D3,2000 IU daily
+subject_3774,2022-07-19,albuterol,PRN
+subject_3774,2025-01-22,atorvastatin,20 mg daily
+subject_3779,2018-01-11,mycophenolate mofetil,750mg BID
+subject_3779,2017-12-09,albuterol,PRN
+subject_3780,2023-01-31,levothyroxine,50 mcg daily
+subject_3780,2023-03-30,levothyroxine,50 mcg daily
+subject_3780,2022-05-17,atorvastatin,20 mg daily
+subject_3789,2024-05-01,nifedipine,0 mg daily
+subject_3789,2023-04-02,atorvastatin,20 mg daily
+subject_3794,2019-06-06,mycophenolate mofetil,1500 mg BID
+subject_3801,2023-05-31,omeprazole,20 mg daily
+subject_3801,2020-08-15,vitamin D3,
+subject_3810,2019-10-27,lisinopril,10 mg daily
+subject_3810,2018-06-20,vitamin D3,2000 IU daily
+subject_3817,2020-10-24,omeprazole,20 mg daily
+subject_3817,2021-06-04,levothyroxine,50 mcg daily
+subject_3835,2023-11-09,calcium carbonate,10000 mg every hour
+subject_3835,2022-11-14,nifedipine,30 mg daily
+subject_3835,2022-06-11,amlodipine,5 mg daily
+subject_3836,2021-10-29,omeprazole,20 mg daily
+subject_3836,2022-04-03,amlodipine,5 mg daily
+subject_3839,2021-04-20,atorvastatin,20 mg daily
+subject_3839,2019-11-19,amlodipine,5 mg daily
+subject_3839,2020-06-14,naproxen,500 mg BID
+subject_3840,2022-05-14,lisinopril,10 mg daily
+subject_3842,2020-03-09,MMF,1 g twice daily
+subject_3842,2020-09-28,vitamin D3,2000 IU daily
+subject_3842,2020-08-20,albuterol,PRN
+subject_3842,2021-08-06,omeprazole,20 mg daily
+subject_3845,2017-03-09,amlodipine,5 mg daily
+subject_3845,2018-07-23,vitamin D3,2000 IU daily
+subject_3845,2016-06-03,omeprazole,20 mg daily
+subject_3847,2023-08-08,omeprazole,20 mg daily
+subject_3847,2023-08-18,nifedipine,30 mg daily
+subject_3852,2016-10-22,MMF,1000 mg BID
+subject_3855,2021-04-19,vitamin D3,2000 IU daily
+subject_3855,2024-08-10,ibuprofen,400 mg PRN
+subject_3855,2023-04-30,naproxen,500 mg BID
+subject_3858,2019-12-20,CellCept,1500 mg BID
+subject_3858,2020-06-30,naproxen,500 mg BID
+subject_3867,2021-07-08,rituximab,1000 mg IV x2
+subject_3867,2020-03-04,nifedipine,30 mg daily
+subject_3871,2016-07-02,tocilizumab,162 mg SC weekly
+subject_3871,2018-05-08,levothyroxine,50 mcg daily
+subject_3871,2015-06-23,vitamin D3,2000 IU daily
+subject_3889,2017-08-10,calcium carbonate,500 mg daily
+subject_3892,2019-05-22,omeprazole,20 mg daily
+subject_3892,2020-11-18,vitamin D3,2000 IU daily
+subject_3892,2021-01-11,ibuprofen,400 mg PRN
+subject_3893,2016-01-27,CellCept,10000 mg every hour
+subject_3893,2016-01-20,atorvastatin,20 mg daily
+subject_3893,2018-07-26,levothyroxine,50 mcg daily
+subject_3893,2017-09-05,albuterol,PRN
+subject_3895,2020-12-29,rituximab,1000 mg IV x2
+subject_3897,2022-06-23,naproxen,500 mg BID
+subject_3897,2020-06-07,levothyroxine,50 mcg daily
+subject_3901,2019-08-30,MMF,1500 mg BID
+subject_3901,2021-09-05,omeprazole,20 mg daily
+subject_3901,2021-10-08,lisinopril,10 mg daily
+subject_3901,2021-07-23,levothyroxine,50 mcg daily
+subject_3907,2017-09-18,mycophenolate mofetil,750mg BID
+subject_3912,2019-09-29,atorvastatin,20 mg daily
+subject_3923,2020-08-21,rituximab,1000 mg IV x2
+subject_3930,2023-08-07,ibuprofen,400 mg PRN
+subject_3933,2018-11-21,naproxen,500 mg BID
+subject_3933,2019-08-27,vitamin D3,2000 IU daily
+subject_3933,2022-02-25,atorvastatin,20 mg daily
+subject_3948,2018-11-19,,500 mg daily
+subject_3950,2022-02-25,naproxen,500 mg BID
+subject_3950,2021-05-08,lisinopril,10 mg daily
+subject_3955,2017-06-06,MMF,1500 mg BID
+subject_3955,2016-09-08,tocilizumab,162 mg SC weekly
+subject_3955,2018-06-02,ibuprofen,400 mg PRN
+subject_3955,2018-07-05,calcium carbonate,500 mg daily
+subject_3960,,rituximab,1000 mg IV x2
+subject_3960,2018-03-04,amlodipine,5 mg daily
+subject_3960,2016-09-22,levothyroxine,50 mcg daily
+subject_3961,2023-04-24,CellCept,1500 mg BID
+subject_3961,2021-03-14,atorvastatin,20 mg daily
+subject_3962,2021-01-06,CellCept,750mg BID
+subject_3962,2022-02-20,atorvastatin,20 mg daily
+subject_3962,2022-08-09,albuterol,PRN
+subject_3962,2023-11-10,atorvastatin,20 mg daily
+subject_3964,2020-02-22,vitamin D3,2000 IU daily
+subject_3964,2023-08-06,nifedipine,30 mg daily
+subject_3967,2019-05-16,atorvastatin,20 mg daily
+subject_3967,2021-09-25,levothyroxine,50 mcg daily
+subject_3975,2018-03-24,CellCept,750mg BID
+subject_3975,2018-11-10,tocilizumab,162 mg SC weekly
+subject_3975,2019-05-16,omeprazole,
+subject_3989,2023-12-25,albuterol,PRN
+subject_3989,2020-06-07,ibuprofen,400 mg PRN
+subject_3992,2019-10-15,tocilizumab,162 mg SC weekly
+subject_3994,2018-01-31,CellCept,750mg BID
+subject_3994,2018-09-23,naproxen,500 mg BID
+subject_3994,2021-04-13,nifedipine,30 mg daily
+subject_3994,2019-09-04,lisinopril,10 mg daily
+subject_3999,2019-11-19,calcium carbonate,500 mg daily
+subject_3999,2019-12-11,levothyroxine,50 mcg daily
+subject_3999,2019-03-20,naproxen,500 mg BID
+subject_4001,2019-10-11,amlodipine,5 mg daily
+subject_4001,2018-09-29,levothyroxine,50 mcg daily
+subject_4002,2022-11-25,omeprazole,20 mg daily
+subject_4002,2023-01-10,omeprazole,20 mg daily
+subject_4002,2025-02-01,amlodipine,5 mg daily
+subject_4004,2022-11-28,mycophenolate mofetil,1500 mg BID
+subject_4004,2023-05-28,naproxen,500 mg BID
+subject_4004,2025-02-05,amlodipine,5 mg daily
+subject_4012,2019-08-27,omeprazole,20 mg daily
+subject_4012,2015-12-16,atorvastatin,20 mg daily
+subject_4012,2017-12-02,calcium carbonate,500 mg daily
+subject_4027,2022-07-02,calcium carbonate,500 mg daily
+subject_4027,2020-01-02,naproxen,500 mg BID
+subject_4038,2018-09-19,MMF,750mg BID
+subject_4038,2018-08-22,atorvastatin,20 mg daily
+subject_4038,2018-02-07,nifedipine,30 mg daily
+subject_4038,2018-12-20,atorvastatin,20 mg daily
+subject_4041,2021-11-01,omeprazole,20 mg daily
+subject_4041,2024-11-07,ibuprofen,400 mg PRN
+subject_4054,2017-05-09,rituximab,1000 mg IV x2
+subject_4054,2019-03-07,albuterol,PRN
+subject_4054,2018-06-06,levothyroxine,50 mcg daily
+subject_4055,2018-05-06,CellCept,1500 mg BID
+subject_4055,2017-05-20,vitamin D3,2000 IU daily
+subject_4055,2016-06-26,nifedipine,30 mg daily
+subject_4057,2020-04-08,rituximab,1000 mg IV x2
+subject_4060,2019-09-19,MMF,750mg BID
+subject_4060,2021-02-28,calcium carbonate,500 mg daily
+subject_4060,2022-03-24,omeprazole,20 mg daily
+subject_4060,2021-04-07,ibuprofen,400 mg PRN
+subject_4062,2018-10-28,mycophenolate mofetil,1500 mg BID
+subject_4062,2019-02-25,tocilizumab,162 mg SC weekly
+subject_4062,2020-06-26,calcium carbonate,500 mg daily
+subject_4062,2019-03-18,nifedipine,30 mg daily
+subject_4062,2020-02-18,naproxen,500 mg BID
+subject_4069,2022-02-23,mycophenolate mofetil,1500 mg BID
+subject_4069,2024-03-12,nifedipine,30 mg daily
+subject_4069,2021-05-31,omeprazole,20 mg daily
+subject_4069,2024-06-17,albuterol,PRN
+subject_4073,2021-04-06,MMF,1000 mg BID
+subject_4073,2021-07-27,rituximab,1000 mg IV x2
+subject_4083,2018-10-31,rituximab,1000 mg IV x2
+subject_4087,2021-05-22,CellCept,500 mg BID
+subject_4087,2020-10-08,vitamin D3,2000 IU daily
+subject_4090,2018-11-02,nifedipine,30 mg daily
+subject_4093,2016-07-30,lisinopril,10 mg daily
+subject_4093,2016-09-17,omeprazole,20 mg daily
+subject_4098,2019-07-14,rituximab,1000 mg IV x2
+subject_4098,2019-09-20,albuterol,PRN
+subject_4098,2020-01-15,lisinopril,10 mg daily
+subject_4098,2020-03-18,levothyroxine,50 mcg daily
+subject_4105,2019-01-20,tocilizumab,162 mg SC weekly
+subject_4105,2021-12-04,albuterol,PRN
+subject_4105,2019-01-26,calcium carbonate,500 mg daily
+subject_4108,2020-05-22,calcium carbonate,500 mg daily
+subject_4112,2019-10-10,levothyroxine,50 mcg daily
+subject_4112,2019-01-29,lisinopril,10 mg daily
+subject_4114,2019-06-09,mycophenolate mofetil,750mg BID
+subject_4114,2021-11-18,omeprazole,20 mg daily
+subject_4119,2018-09-21,MMF,1000 mg BID
+subject_4132,2022-04-26,levothyroxine,50 mcg daily
+subject_4133,2020-01-30,CellCept,1000 mg BID
+subject_4133,2021-11-18,naproxen,500 mg BID
+subject_4133,2019-11-24,nifedipine,30 mg daily
+subject_4133,2021-10-19,calcium carbonate,500 mg daily
+subject_4141,2020-07-02,MMF,1000 mg BID
+subject_4141,2023-05-07,lisinopril,10 mg daily
+subject_4141,2023-07-19,calcium carbonate,500 mg daily
+subject_4141,2021-04-01,vitamin D3,2000 IU daily
+subject_4145,2019-05-19,mycophenolate mofetil,1000 mg BID
+subject_4145,2020-03-21,rituximab,1000 mg IV x2
+subject_4145,2019-01-21,atorvastatin,20 mg daily
+subject_4145,2019-07-19,atorvastatin,20 mg daily
+subject_4145,2022-03-04,lisinopril,10 mg daily
+subject_4146,2017-04-26,mycophenolate mofetil,500 mg BID
+subject_4146,2015-07-09,omeprazole,20 mg daily
+subject_4149,2017-09-14,MMF,1000 mg BID
+subject_4149,2017-12-19,tocilizumab,162 mg SC weekly
+subject_4149,2018-07-10,atorvastatin,20 mg daily
+subject_4149,2017-03-13,amlodipine,5 mg daily
+subject_4150,2022-03-13,tocilizumab,162 mg SC weekly
+subject_4150,2023-01-08,lisinopril,10 mg daily
+subject_4150,2022-08-03,atorvastatin,20 mg daily
+subject_4150,2022-11-03,naproxen,500 mg BID
+subject_4152,2018-03-25,MMF,1 g twice daily
+subject_4157,2017-07-31,calcium carbonate,500 mg daily
+subject_4160,2018-05-08,mycophenolate mofetil,500 mg BID
+subject_4160,2019-01-22,tocilizumab,162 mg SC weekly
+subject_4160,2018-12-30,calcium carbonate,500 mg daily
+subject_4160,2018-11-08,albuterol,PRN
+subject_4160,2021-02-04,amlodipine,5 mg daily
+subject_4161,2019-12-05,MMF,1500 mg BID
+subject_4161,2019-12-16,rituximab,1000 mg IV x2
+subject_4161,2018-08-11,tocilizumab,162 mg SC weekly
+subject_4161,2021-04-01,ibuprofen,400 mg PRN
+subject_4161,2019-07-13,omeprazole,20 mg daily
+subject_4162,2021-04-12,CellCept,750mg BID
+subject_4162,2021-05-19,ibuprofen,400 mg PRN
+subject_4162,2022-03-21,omeprazole,20 mg daily
+subject_4162,2021-08-18,omeprazole,20 mg daily
+subject_4171,2018-11-30,MMF,1000 mg BID
+subject_4171,2020-07-01,tocilizumab,162 mg SC weekly
+subject_4174,2019-04-06,rituximab,1000 mg IV x2
+subject_4174,2018-10-24,ibuprofen,400 mg PRN
+subject_4174,2016-06-12,atorvastatin,20 mg daily
+subject_4177,2021-10-28,mycophenolate mofetil,750mg BID
+subject_4177,2022-12-20,vitamin D3,2000 IU daily
+subject_4188,2020-08-26,atorvastatin,20 mg daily
+subject_4188,2017-08-14,ibuprofen,400 mg PRN
+subject_4190,2015-06-10,amlodipine,5 mg daily
+subject_4201,2022-03-30,mycophenolate mofetil,1000 mg BID
+subject_4201,2023-11-21,rituximab,1000 mg IV x2
+subject_4202,2021-08-16,rituximab,1000 mg IV x2
+subject_4206,2020-09-15,rituximab,1000 mg IV x2
+subject_4206,2021-05-16,tocilizumab,162 mg SC weekly
+subject_4209,2019-10-14,MMF,1500 mg BID
+subject_4209,2021-05-14,amlodipine,5 mg daily
+subject_4212,2021-04-03,omeprazole,20 mg daily
+subject_4212,2020-10-15,levothyroxine,50 mcg daily
+subject_4214,2021-06-13,mycophenolate mofetil,1 g twice daily
+subject_4214,2021-09-19,lisinopril,10 mg daily
+subject_4217,2019-04-24,CellCept,1 g twice daily
+subject_4217,2018-06-26,nifedipine,30 mg daily
+subject_4217,2020-10-02,amlodipine,5 mg daily
+subject_4217,2021-06-21,ibuprofen,400 mg PRN
+subject_4221,2019-06-05,albuterol,PRN
+subject_4222,,nifedipine,30 mg daily
+subject_4222,2019-12-06,amlodipine,5 mg daily
+subject_4222,2019-01-15,lisinopril,10 mg daily
+subject_4227,2020-01-31,omeprazole,20 mg daily
+subject_4227,2022-09-05,ibuprofen,400 mg PRN
+subject_4235,2023-01-11,MMF,500 mg BID
+subject_4235,2022-06-21,nifedipine,30 mg daily
+subject_4236,2020-03-03,atorvastatin,
+subject_4236,2019-06-12,atorvastatin,20 mg daily
+subject_4244,2021-05-09,CellCept,500 mg BID
+subject_4248,2016-12-27,omeprazole,20 mg daily
+subject_4248,2017-12-11,albuterol,PRN
+subject_4248,2018-07-14,lisinopril,10 mg daily
+subject_4250,2021-10-26,naproxen,500 mg BID
+subject_4250,2022-05-07,atorvastatin,20 mg daily
+subject_4250,2022-11-02,omeprazole,20 mg daily
+subject_4253,2018-04-10,vitamin D3,2000 IU daily
+subject_4256,2017-06-24,CellCept,500 mg BID
+subject_4256,2020-02-13,levothyroxine,50 mcg daily
+subject_4256,2019-05-12,atorvastatin,20 mg daily
+subject_4256,2020-11-25,naproxen,
+subject_4257,2021-08-19,CellCept,1 g twice daily
+subject_4257,2022-05-02,rituximab,1000 mg IV x2
+subject_4259,2017-09-23,,750mg BID
+subject_4259,2020-12-05,atorvastatin,20 mg daily
+subject_4266,,MMF,1000 mg BID
+subject_4268,2019-11-03,mycophenolate mofetil,1500 mg BID
+subject_4268,2020-10-18,rituximab,1000 mg IV x2
+subject_4268,2020-05-12,tocilizumab,162 mg SC weekly
+subject_4270,2022-08-23,mycophenolate mofetil,1 g twice daily
+subject_4270,2024-01-12,tocilizumab,162 mg SC weekly
+subject_4270,2023-07-19,naproxen,500 mg BID
+subject_4270,2024-08-07,naproxen,500 mg BID
+subject_4270,2024-01-28,ibuprofen,400 mg PRN
+subject_4273,2019-02-20,atorvastatin,20 mg daily
+subject_4273,2021-04-21,calcium carbonate,500 mg daily
+subject_4275,2018-06-18,albuterol,PRN
+subject_4276,2023-09-05,amlodipine,5 mg daily
+subject_4278,2019-12-11,albuterol,PRN
+subject_4278,2016-03-22,naproxen,500 mg BID
+subject_4283,2017-05-10,rituximab,1000 mg IV x2
+subject_4283,2016-04-15,amlodipine,5 mg daily
+subject_4283,2019-07-23,vitamin D3,2000 IU daily
+subject_4290,2020-10-18,CellCept,750mg BID
+subject_4290,2023-05-01,vitamin D3,2000 IU daily
+subject_4290,2022-05-09,naproxen,500 mg BID
+subject_4292,2020-02-04,tocilizumab,162 mg SC weekly
+subject_4292,2021-12-09,lisinopril,10 mg daily
+subject_4296,2019-06-07,naproxen,
+subject_4296,2021-09-20,ibuprofen,400 mg PRN
+subject_4296,,nifedipine,30 mg daily
+subject_4297,2018-09-28,mycophenolate mofetil,500 mg BID
+subject_4297,2021-05-06,rituximab,1000 mg IV x2
+subject_4297,2021-07-06,lisinopril,10 mg daily
+subject_4297,2021-07-22,levothyroxine,
+subject_4297,2018-07-24,calcium carbonate,500 mg daily
+subject_4305,2020-07-13,naproxen,
+subject_4305,2021-06-01,omeprazole,20 mg daily
+subject_4309,2019-12-26,tocilizumab,162 mg SC weekly
+subject_4309,2020-08-31,lisinopril,10 mg daily
+subject_4313,2019-08-07,mycophenolate mofetil,
+subject_4314,2021-10-17,MMF,750mg BID
+subject_4314,2024-01-25,naproxen,500 mg BID
+subject_4314,2022-11-11,naproxen,500 mg BID
+subject_4314,2023-07-20,vitamin D3,2000 IU daily
+subject_4318,2018-10-05,rituximab,1000 mg IV x2
+subject_4318,2018-12-18,naproxen,500 mg BID
+subject_4322,2022-03-16,nifedipine,30 mg daily
+subject_4322,2021-06-07,nifedipine,30 mg daily
+subject_4322,2021-02-01,levothyroxine,50 mcg daily
+subject_4323,2020-08-07,MMF,500 mg BID
+subject_4323,2021-11-20,atorvastatin,20 mg daily
+subject_4323,2022-03-21,levothyroxine,50 mcg daily
+subject_4323,2022-01-24,omeprazole,20 mg daily
+subject_4324,2020-01-30,MMF,1500 mg BID
+subject_4324,2019-08-06,albuterol,PRN
+subject_4325,2017-12-20,MMF,750mg BID
+subject_4325,2019-10-07,rituximab,1000 mg IV x2
+subject_4325,2019-09-17,tocilizumab,162 mg SC weekly
+subject_4325,2019-10-26,naproxen,500 mg BID
+subject_4325,2019-09-07,levothyroxine,50 mcg daily
+subject_4327,2021-05-11,atorvastatin,20 mg daily
+subject_4331,2017-07-27,mycophenolate mofetil,1 g twice daily
+subject_4331,2016-01-13,levothyroxine,50 mcg daily
+subject_4336,2018-12-19,mycophenolate mofetil,1500 mg BID
+subject_4346,2020-03-24,tocilizumab,162 mg SC weekly
+subject_4346,2021-11-05,omeprazole,20 mg daily
+subject_4346,2019-12-14,calcium carbonate,500 mg daily
+subject_4346,2019-03-31,vitamin D3,2000 IU daily
+subject_4347,2017-12-23,CellCept,750mg BID
+subject_4347,2021-04-23,levothyroxine,50 mcg daily
+subject_4355,2020-10-07,CellCept,500 mg BID
+subject_4355,2022-06-09,calcium carbonate,500 mg daily
+subject_4355,2022-08-04,omeprazole,20 mg daily
+subject_4355,2022-04-02,calcium carbonate,500 mg daily
+subject_4358,2016-03-16,lisinopril,10 mg daily
+subject_4358,2019-01-26,ibuprofen,400 mg PRN
+subject_4358,2018-10-15,nifedipine,30 mg daily
+subject_4365,2016-12-04,mycophenolate mofetil,1500 mg BID
+subject_4365,2016-09-16,tocilizumab,162 mg SC weekly
+subject_4365,,atorvastatin,20 mg daily
+subject_4367,2017-07-20,atorvastatin,20 mg daily
+subject_4367,2018-08-10,amlodipine,5 mg daily
+subject_4367,2016-06-11,calcium carbonate,500 mg daily
+subject_4368,2023-04-12,atorvastatin,20 mg daily
+subject_4368,2024-06-16,ibuprofen,400 mg PRN
+subject_4374,2019-12-30,calcium carbonate,500 mg daily
+subject_4374,2019-09-17,nifedipine,30 mg daily
+subject_4377,2018-09-10,amlodipine,
+subject_4377,2019-03-30,lisinopril,10 mg daily
+subject_4377,2017-12-15,amlodipine,5 mg daily
+subject_4382,2015-07-04,CellCept,1000 mg BID
+subject_4382,2017-06-29,albuterol,PRN
+subject_4382,2017-03-30,nifedipine,30 mg daily
+subject_4385,2019-10-13,mycophenolate mofetil,1500 mg BID
+subject_4385,2020-03-29,nifedipine,30 mg daily
+subject_4385,2020-07-11,omeprazole,20 mg daily
+subject_4386,2017-09-16,rituximab,1000 mg IV x2
+subject_4386,2019-06-23,amlodipine,5 mg daily
+subject_4386,2020-04-22,naproxen,500 mg BID
+subject_4386,2019-10-14,atorvastatin,20 mg daily
+subject_4395,2021-03-24,CellCept,1 g twice daily
+subject_4398,2016-05-14,amlodipine,5 mg daily
+subject_4400,2019-03-04,MMF,1000 mg BID
+subject_4400,2021-07-22,lisinopril,10 mg daily
+subject_4407,2022-06-29,mycophenolate mofetil,1 g twice daily
+subject_4407,2022-03-07,amlodipine,5 mg daily
+subject_4410,2019-01-12,levothyroxine,50 mcg daily
+subject_4410,2019-02-25,levothyroxine,50 mcg daily
+subject_4410,2019-02-16,nifedipine,30 mg daily
+subject_4414,2021-03-16,nifedipine,
+subject_4414,2018-07-14,ibuprofen,400 mg PRN
+subject_4414,2020-06-29,albuterol,PRN
+subject_4417,2017-01-05,mycophenolate mofetil,1500 mg BID
+subject_4418,2017-09-21,rituximab,1000 mg IV x2
+subject_4420,2025-02-07,lisinopril,10 mg daily
+subject_4420,2025-03-08,nifedipine,30 mg daily
+subject_4425,2020-06-19,MMF,1000 mg BID
+subject_4425,2023-07-09,atorvastatin,20 mg daily
+subject_4425,2019-08-17,levothyroxine,50 mcg daily
+subject_4425,2020-11-08,ibuprofen,400 mg PRN
+subject_4428,2023-08-16,omeprazole,20 mg daily
+subject_4434,2021-02-08,rituximab,1000 mg IV x2
+subject_4434,2021-02-03,nifedipine,30 mg daily
+subject_4434,2020-07-30,vitamin D3,10000 mg every hour
+subject_4437,2021-01-11,rituximab,1000 mg IV x2
+subject_4437,2022-08-07,tocilizumab,162 mg SC weekly
+subject_4437,,vitamin D3,2000 IU daily
+subject_4437,2021-09-23,omeprazole,20 mg daily
+subject_4437,2022-05-30,amlodipine,5 mg daily
+subject_4439,2020-02-12,calcium carbonate,500 mg daily
+subject_4439,2020-01-26,ibuprofen,400 mg PRN
+subject_4444,2021-08-13,ibuprofen,400 mg PRN
+subject_4444,2022-02-26,levothyroxine,50 mcg daily
+subject_4453,2020-10-03,ibuprofen,400 mg PRN
+subject_4453,2020-05-21,albuterol,PRN
+subject_4454,2023-02-17,omeprazole,20 mg daily
+subject_4454,2023-07-24,nifedipine,30 mg daily
+subject_4454,2021-03-15,albuterol,PRN
+subject_4462,2017-03-11,tocilizumab,162 mg SC weekly
+subject_4462,2018-03-02,omeprazole,20 mg daily
+subject_4462,2018-02-19,nifedipine,30 mg daily
+subject_4462,2018-08-07,ibuprofen,400 mg PRN
+subject_4485,2018-06-11,CellCept,1500 mg BID
+subject_4499,2019-01-13,ibuprofen,400 mg PRN
+subject_4499,2021-04-24,albuterol,PRN
+subject_4501,2020-12-28,rituximab,1000 mg IV x2
+subject_4501,2023-04-24,amlodipine,5 mg daily
+subject_4506,2017-08-27,nifedipine,30 mg daily
+subject_4513,2017-10-17,tocilizumab,162 mg SC weekly
+subject_4514,2017-05-19,lisinopril,10 mg daily
+subject_4514,2020-01-14,lisinopril,10 mg daily
+subject_4514,2018-02-07,amlodipine,5 mg daily
+subject_4515,2019-01-13,lisinopril,10 mg daily
+subject_4541,2021-04-02,MMF,500 mg BID
+subject_4541,2022-07-07,vitamin D3,2000 IU daily
+subject_4541,2023-10-31,albuterol,PRN
+subject_4541,2020-08-05,naproxen,500 mg BID
+subject_4549,2020-03-13,tocilizumab,162 mg SC weekly
+subject_4549,2018-07-20,vitamin D3,2000 IU daily
+subject_4549,2021-01-07,calcium carbonate,
+subject_4549,2017-12-10,naproxen,500 mg BID
+subject_4560,2021-02-03,amlodipine,
+subject_4561,2017-12-31,MMF,1000 mg BID
+subject_4561,2017-10-11,calcium carbonate,500 mg daily
+subject_4561,2020-02-20,levothyroxine,50 mcg daily
+subject_4561,2017-06-07,ibuprofen,400 mg PRN
+subject_4570,2019-06-08,mycophenolate mofetil,
+subject_4570,2018-02-12,rituximab,
+subject_4570,2019-08-29,amlodipine,5 mg daily
+subject_4571,2019-06-22,mycophenolate mofetil,1500 mg BID
+subject_4571,2017-12-29,vitamin D3,2000 IU daily
+subject_4571,2020-09-10,lisinopril,10 mg daily
+subject_4571,2020-07-05,omeprazole,20 mg daily
+subject_4573,2022-04-04,CellCept,1000 mg BID
+subject_4573,2024-03-27,albuterol,PRN
+subject_4573,2022-12-14,omeprazole,20 mg daily
+subject_4577,2019-02-20,CellCept,1500 mg BID
+subject_4577,2020-10-04,naproxen,500 mg BID
+subject_4582,2022-10-31,mycophenolate mofetil,1500 mg BID
+subject_4582,2022-09-04,rituximab,
+subject_4582,2022-08-01,vitamin D3,2000 IU daily
+subject_4582,2023-02-10,naproxen,500 mg BID
+subject_4584,2017-09-26,mycophenolate mofetil,1500 mg BID
+subject_4584,2021-05-03,atorvastatin,20 mg daily
+subject_4595,2021-09-12,mycophenolate mofetil,750mg BID
+subject_4595,2023-02-23,rituximab,0 mg daily
+subject_4595,2022-03-21,calcium carbonate,500 mg daily
+subject_4597,2019-05-05,nifedipine,30 mg daily
+subject_4597,2019-10-30,amlodipine,5 mg daily
+subject_4597,2020-03-22,levothyroxine,50 mcg daily
+subject_4624,2017-09-24,nifedipine,30 mg daily
+subject_4626,2019-05-25,omeprazole,20 mg daily
+subject_4632,2016-08-11,CellCept,500 mg BID
+subject_4632,2015-10-26,rituximab,1000 mg IV x2
+subject_4632,2017-10-03,naproxen,
+subject_4632,2018-11-04,nifedipine,30 mg daily
+subject_4632,2017-01-06,,400 mg PRN
+subject_4633,2021-09-13,ibuprofen,400 mg PRN
+subject_4633,,amlodipine,5 mg daily
+subject_4635,2017-03-04,CellCept,1000 mg BID
+subject_4635,2015-10-14,tocilizumab,
+subject_4635,2016-06-10,omeprazole,20 mg daily
+subject_4635,2016-11-01,vitamin D3,2000 IU daily
+subject_4636,2017-06-11,calcium carbonate,500 mg daily
+subject_4638,2022-10-20,amlodipine,5 mg daily
+subject_4639,2022-06-18,albuterol,PRN
+subject_4639,2023-06-23,albuterol,PRN
+subject_4639,2021-05-28,nifedipine,30 mg daily
+subject_4644,2020-02-15,atorvastatin,20 mg daily
+subject_4644,2020-05-13,atorvastatin,20 mg daily
+subject_4644,2019-12-23,naproxen,500 mg BID
+subject_4645,2023-05-19,nifedipine,30 mg daily
+subject_4648,2018-01-09,mycophenolate mofetil,1 g twice daily
+subject_4648,2020-03-20,atorvastatin,20 mg daily
+subject_4648,2020-03-29,omeprazole,20 mg daily
+subject_4648,2018-04-04,vitamin D3,2000 IU daily
+subject_4649,2016-06-02,rituximab,1000 mg IV x2
+subject_4649,2019-12-19,omeprazole,20 mg daily
+subject_4650,2018-10-10,albuterol,PRN
+subject_4650,2018-12-13,atorvastatin,20 mg daily
+subject_4650,2020-01-23,calcium carbonate,500 mg daily
+subject_4655,2018-10-18,MMF,750mg BID
+subject_4655,,rituximab,1000 mg IV x2
+subject_4655,2020-05-07,albuterol,PRN
+subject_4655,2020-04-14,ibuprofen,400 mg PRN
+subject_4671,2019-12-13,albuterol,PRN
+subject_4671,,lisinopril,10 mg daily
+subject_4672,2023-04-16,rituximab,1000 mg IV x2
+subject_4678,2022-02-22,rituximab,1000 mg IV x2
+subject_4678,2022-09-14,calcium carbonate,500 mg daily
+subject_4681,2017-10-08,mycophenolate mofetil,1500 mg BID
+subject_4681,2019-12-24,omeprazole,20 mg daily
+subject_4684,2018-10-11,CellCept,1 g twice daily
+subject_4684,2017-05-28,naproxen,500 mg BID
+subject_4684,2019-05-05,albuterol,PRN
+subject_4684,2018-12-28,nifedipine,30 mg daily
+subject_4685,2022-05-25,rituximab,1000 mg IV x2
+subject_4685,2020-02-14,tocilizumab,162 mg SC weekly
+subject_4685,2020-11-18,omeprazole,20 mg daily
+subject_4685,2019-03-17,atorvastatin,20 mg daily
+subject_4685,2020-06-15,amlodipine,5 mg daily
+subject_4691,2021-08-04,MMF,1 g twice daily
+subject_4691,2023-01-22,lisinopril,10 mg daily
+subject_4691,2021-12-15,ibuprofen,400 mg PRN
+subject_4695,2016-06-16,amlodipine,5 mg daily
+subject_4695,2016-07-05,atorvastatin,20 mg daily
+subject_4695,2015-10-16,vitamin D3,2000 IU daily
+subject_4697,2017-09-02,amlodipine,5 mg daily
+subject_4711,2021-02-10,mycophenolate mofetil,1000 mg BID
+subject_4711,2022-04-01,rituximab,1000 mg IV x2
+subject_4711,2021-11-15,amlodipine,5 mg daily
+subject_4711,2021-09-25,atorvastatin,20 mg daily
+subject_4711,2022-07-14,calcium carbonate,500 mg daily
+subject_4714,2017-03-23,vitamin D3,2000 IU daily
+subject_4714,2018-12-16,albuterol,PRN
+subject_4721,2019-09-23,lisinopril,10 mg daily
+subject_4727,2023-12-09,tocilizumab,162 mg SC weekly
+subject_4735,2018-07-05,nifedipine,30 mg daily
+subject_4735,2020-02-21,levothyroxine,50 mcg daily
+subject_4749,2016-11-02,rituximab,1000 mg IV x2
+subject_4749,2018-10-15,lisinopril,10 mg daily
+subject_4753,2018-02-17,CellCept,500 mg BID
+subject_4753,2018-04-10,tocilizumab,162 mg SC weekly
+subject_4757,2016-08-17,rituximab,1000 mg IV x2
+subject_4757,2016-03-18,calcium carbonate,500 mg daily
+subject_4759,2022-05-05,ibuprofen,400 mg PRN
+subject_4759,2023-08-23,levothyroxine,50 mcg daily
+subject_4759,2019-09-17,naproxen,-1 tablet daily
+subject_4767,2022-03-08,rituximab,1000 mg IV x2
+subject_4767,2024-04-30,vitamin D3,2000 IU daily
+subject_4767,2023-08-11,nifedipine,30 mg daily
+subject_4767,2021-02-17,ibuprofen,400 mg PRN
+subject_4770,2019-07-23,MMF,1 g twice daily
+subject_4770,2022-12-12,albuterol,PRN
+subject_4772,2020-06-21,tocilizumab,162 mg SC weekly
+subject_4772,,atorvastatin,20 mg daily
+subject_4772,2020-03-18,vitamin D3,2000 IU daily
+subject_4772,2023-04-09,albuterol,PRN
+subject_4783,2023-02-03,CellCept,500 mg BID
+subject_4783,2023-07-15,naproxen,500 mg BID
+subject_4789,2020-03-20,vitamin D3,2000 IU daily
+subject_4794,2020-04-09,nifedipine,30 mg daily
+subject_4794,2021-04-23,amlodipine,5 mg daily
+subject_4796,2016-08-08,mycophenolate mofetil,1 g twice daily
+subject_4796,2018-06-08,albuterol,PRN
+subject_4799,2019-06-08,naproxen,500 mg BID
+subject_4799,2018-04-17,naproxen,500 mg BID
+subject_4799,2019-06-09,lisinopril,10 mg daily
+subject_4804,2020-11-06,vitamin D3,2000 IU daily
+subject_4804,2021-02-06,naproxen,500 mg BID
+subject_4812,2021-10-19,CellCept,1500 mg BID
+subject_4812,2021-01-15,rituximab,1000 mg IV x2
+subject_4812,2022-08-04,albuterol,PRN
+subject_4813,2024-08-13,tocilizumab,162 mg SC weekly
+subject_4813,2021-06-23,calcium carbonate,500 mg daily
+subject_4817,2019-11-22,albuterol,PRN
+subject_4822,2020-11-23,mycophenolate mofetil,1000 mg BID
+subject_4822,2022-07-15,albuterol,PRN
+subject_4823,2018-10-09,rituximab,1000 mg IV x2
+subject_4824,2018-02-10,CellCept,500 mg BID
+subject_4824,2020-05-10,vitamin D3,2000 IU daily
+subject_4824,2017-08-07,naproxen,500 mg BID
+subject_4824,2017-01-03,nifedipine,30 mg daily
+subject_4825,2017-05-28,omeprazole,20 mg daily
+subject_4826,2021-07-25,mycophenolate mofetil,1500 mg BID
+subject_4826,2021-12-22,rituximab,1000 mg IV x2
+subject_4826,2020-01-23,calcium carbonate,500 mg daily
+subject_4826,2021-02-20,amlodipine,5 mg daily
+subject_4833,2018-07-20,lisinopril,10 mg daily
+subject_4833,2019-02-07,calcium carbonate,500 mg daily
+subject_4833,2019-04-29,albuterol,PRN
+subject_4850,2020-12-27,amlodipine,5 mg daily
+subject_4852,2017-12-19,lisinopril,10 mg daily
+subject_4852,2018-10-23,calcium carbonate,500 mg daily
+subject_4856,2018-07-30,atorvastatin,20 mg daily
+subject_4861,2020-08-23,tocilizumab,162 mg SC weekly
+subject_4861,2021-01-02,ibuprofen,400 mg PRN
+subject_4872,2019-08-20,nifedipine,30 mg daily
+subject_4872,2019-10-16,albuterol,PRN
+subject_4872,2020-03-29,levothyroxine,50 mcg daily
+subject_4880,2016-04-25,mycophenolate mofetil,1000 mg BID
+subject_4880,2017-09-04,rituximab,1000 mg IV x2
+subject_4896,2020-11-19,CellCept,750mg BID
+subject_4898,2021-03-16,mycophenolate mofetil,1500 mg BID
+subject_4898,2023-07-07,lisinopril,10 mg daily
+subject_4898,2020-09-05,amlodipine,5 mg daily
+subject_4912,2020-04-12,ibuprofen,400 mg PRN
+subject_4912,2019-07-14,levothyroxine,50 mcg daily
+subject_4912,2018-03-07,vitamin D3,2000 IU daily
+subject_4913,2019-01-18,albuterol,PRN
+subject_4916,2017-04-04,CellCept,
+subject_4916,2016-09-17,tocilizumab,162 mg SC weekly
+subject_4917,2022-11-24,mycophenolate mofetil,750mg BID
+subject_4917,2024-04-25,levothyroxine,50 mcg daily
+subject_4926,2019-06-15,MMF,750mg BID
+subject_4926,2021-03-15,atorvastatin,20 mg daily
+subject_4926,2019-09-07,omeprazole,20 mg daily
+subject_4926,2022-03-13,nifedipine,30 mg daily
+subject_4927,2021-05-31,mycophenolate mofetil,1000 mg BID
+subject_4927,2020-12-30,calcium carbonate,500 mg daily
+subject_4930,2016-09-13,nifedipine,30 mg daily
+subject_4938,2020-08-18,naproxen,500 mg BID
+subject_4938,2021-03-01,vitamin D3,2000 IU daily
+subject_4938,2019-10-28,omeprazole,20 mg daily
+subject_4951,2019-02-19,calcium carbonate,500 mg daily
+subject_4951,2019-01-20,naproxen,500 mg BID
+subject_4952,2021-03-03,tocilizumab,162 mg SC weekly
+subject_4952,2023-09-02,vitamin D3,2000 IU daily
+subject_4952,2021-11-01,lisinopril,10 mg daily
+subject_4959,2017-07-12,mycophenolate mofetil,1500 mg BID
+subject_4959,2020-05-12,,10 mg daily
+subject_4959,2018-09-04,amlodipine,5 mg daily
+subject_4963,2016-04-17,rituximab,1000 mg IV x2
+subject_4963,2018-03-13,atorvastatin,20 mg daily
+subject_4965,2019-06-21,lisinopril,10 mg daily
+subject_4965,2018-07-17,vitamin D3,
+subject_4965,2019-04-05,naproxen,500 mg BID
+subject_4976,2024-01-11,tocilizumab,162 mg SC weekly
+subject_4977,2019-07-01,amlodipine,5 mg daily
+subject_4977,2019-05-08,levothyroxine,50 mcg daily
+subject_4977,2019-05-28,atorvastatin,20 mg daily
+subject_4978,2019-05-12,amlodipine,5 mg daily
+subject_4980,2022-11-10,amlodipine,5 mg daily
+subject_4980,2019-05-01,amlodipine,5 mg daily
+subject_4980,2020-10-15,atorvastatin,20 mg daily
+subject_4990,2017-08-22,CellCept,1 g twice daily
+subject_4991,2019-01-10,atorvastatin,20 mg daily
+subject_4991,2018-01-04,nifedipine,30 mg daily
+subject_4992,2023-06-05,tocilizumab,162 mg SC weekly
+subject_4992,2023-02-09,omeprazole,20 mg daily
+subject_4997,2022-02-25,vitamin D3,2000 IU daily
+subject_5003,2017-01-11,CellCept,1000 mg BID
+subject_5003,2018-07-31,rituximab,1000 mg IV x2
+subject_5011,2020-04-14,rituximab,1000 mg IV x2
+subject_5012,2021-06-22,mycophenolate mofetil,1 g twice daily
+subject_5012,2020-12-18,calcium carbonate,500 mg daily
+subject_5012,2023-07-01,lisinopril,10 mg daily
+subject_5012,2023-07-12,atorvastatin,20 mg daily
+subject_5020,2020-02-19,ibuprofen,400 mg PRN
+subject_5020,2019-12-20,ibuprofen,400 mg PRN
+subject_5023,2019-10-12,mycophenolate mofetil,750mg BID
+subject_5023,2021-01-13,tocilizumab,162 mg SC weekly
+subject_5030,2019-03-14,rituximab,1000 mg IV x2
+subject_5030,2020-11-30,amlodipine,5 mg daily
+subject_5031,2021-03-12,tocilizumab,162 mg SC weekly
+subject_5031,2023-09-11,lisinopril,10 mg daily
+subject_5031,2022-09-16,amlodipine,5 mg daily
+subject_5031,2020-04-08,ibuprofen,400 mg PRN
+subject_5043,2019-03-17,CellCept,1 g twice daily
+subject_5043,2020-08-07,nifedipine,30 mg daily
+subject_5043,2021-10-26,levothyroxine,50 mcg daily
+subject_5045,2018-09-26,MMF,500 mg BID
+subject_5046,2024-09-12,naproxen,500 mg BID
+subject_5048,2019-11-03,CellCept,1000 mg BID
+subject_5048,2021-09-01,amlodipine,5 mg daily
+subject_5048,2021-01-01,vitamin D3,2000 IU daily
+subject_5048,2020-01-14,atorvastatin,20 mg daily
+subject_5052,2017-05-31,mycophenolate mofetil,1000 mg BID
+subject_5052,2018-09-19,rituximab,1000 mg IV x2
+subject_5052,2019-10-13,vitamin D3,2000 IU daily
+subject_5056,2022-02-21,CellCept,1500 mg BID
+subject_5060,2017-09-13,calcium carbonate,500 mg daily
+subject_5060,2020-11-28,calcium carbonate,500 mg daily
+subject_5060,2019-11-30,vitamin D3,2000 IU daily
+subject_5061,2016-10-07,MMF,1000 mg BID
+subject_5061,2017-01-26,levothyroxine,50 mcg daily
+subject_5061,2016-07-08,albuterol,PRN
+subject_5061,2019-04-10,ibuprofen,400 mg PRN
+subject_5065,2018-02-26,MMF,1000 mg BID
+subject_5065,2020-01-01,amlodipine,5 mg daily
+subject_5065,2019-08-29,atorvastatin,20 mg daily
+subject_5072,2017-09-18,mycophenolate mofetil,500 mg BID
+subject_5073,2015-10-27,amlodipine,5 mg daily
+subject_5078,2023-06-26,MMF,1500 mg BID
+subject_5081,2020-05-02,mycophenolate mofetil,1500 mg BID
+subject_5081,2023-04-30,albuterol,PRN
+subject_5081,2023-02-08,ibuprofen,400 mg PRN
+subject_5082,2024-06-21,calcium carbonate,500 mg daily
+subject_5083,2017-03-27,mycophenolate mofetil,500 mg BID
+subject_5083,2018-01-20,ibuprofen,
+subject_5091,2015-09-29,CellCept,500 mg BID
+subject_5091,2016-12-12,rituximab,1000 mg IV x2
+subject_5091,2015-07-21,vitamin D3,2000 IU daily
+subject_5098,2020-02-29,mycophenolate mofetil,1000 mg BID
+subject_5103,2018-04-15,vitamin D3,2000 IU daily
+subject_5103,2017-05-24,vitamin D3,2000 IU daily
+subject_5103,2016-01-29,atorvastatin,20 mg daily
+subject_5104,2021-03-27,mycophenolate mofetil,750mg BID
+subject_5104,2020-10-29,rituximab,1000 mg IV x2
+subject_5104,2019-07-09,omeprazole,20 mg daily
+subject_5104,2019-03-02,naproxen,500 mg BID
+subject_5104,2019-05-10,nifedipine,30 mg daily
+subject_5108,2019-11-28,CellCept,750mg BID
+subject_5108,2020-04-10,rituximab,1000 mg IV x2
+subject_5108,2021-11-04,levothyroxine,50 mcg daily
+subject_5112,2016-05-14,CellCept,1500 mg BID
+subject_5112,2017-01-29,omeprazole,20 mg daily
+subject_5113,2022-05-18,albuterol,PRN
+subject_5113,2023-12-13,naproxen,500 mg BID
+subject_5113,2022-01-23,omeprazole,20 mg daily
+subject_5131,2016-06-02,CellCept,500 mg BID
+subject_5131,2016-08-31,rituximab,1000 mg IV x2
+subject_5131,2017-09-12,ibuprofen,400 mg PRN
+subject_5131,2019-11-24,vitamin D3,2000 IU daily
+subject_5131,2018-09-07,naproxen,500 mg BID
+subject_5134,2024-02-25,rituximab,1000 mg IV x2
+subject_5134,2022-06-28,vitamin D3,2000 IU daily
+subject_5134,2024-02-17,ibuprofen,400 mg PRN
+subject_5134,2024-06-08,naproxen,500 mg BID
+subject_5144,2016-01-13,amlodipine,
+subject_5144,2019-02-08,lisinopril,10 mg daily
+subject_5144,2017-09-12,albuterol,PRN
+subject_5146,2018-09-06,MMF,750mg BID
+subject_5146,2019-10-27,naproxen,500 mg BID
+subject_5149,2018-07-21,CellCept,750mg BID
+subject_5149,2018-05-20,vitamin D3,2000 IU daily
+subject_5151,2019-02-19,mycophenolate mofetil,750mg BID
+subject_5151,2020-11-25,atorvastatin,20 mg daily
+subject_5151,2019-05-26,omeprazole,20 mg daily
+subject_5158,2020-01-19,tocilizumab,162 mg SC weekly
+subject_5158,2022-01-27,albuterol,PRN
+subject_5158,2019-12-14,naproxen,500 mg BID
+subject_5164,,nifedipine,30 mg daily
+subject_5164,2024-06-28,calcium carbonate,500 mg daily
+subject_5164,2024-04-08,atorvastatin,20 mg daily
+subject_5168,2023-04-08,nifedipine,30 mg daily
+subject_5178,2020-04-19,ibuprofen,400 mg PRN
+subject_5178,2021-11-13,ibuprofen,400 mg PRN
+subject_5178,2018-04-28,ibuprofen,400 mg PRN
+subject_5179,2022-09-21,albuterol,PRN
+subject_5179,2022-12-31,naproxen,500 mg BID
+subject_5179,2022-08-25,albuterol,PRN
+subject_5180,2017-10-23,amlodipine,5 mg daily
+subject_5188,2021-09-23,albuterol,PRN
+subject_5197,2017-05-27,albuterol,PRN
+subject_5197,2018-07-07,levothyroxine,50 mcg daily
+subject_5199,2019-09-06,vitamin D3,2000 IU daily
+subject_5201,2022-03-20,nifedipine,30 mg daily
+subject_5201,2019-10-25,levothyroxine,50 mcg daily
+subject_5201,2019-04-12,albuterol,PRN
+subject_5202,2023-03-19,mycophenolate mofetil,750mg BID
+subject_5202,2023-11-11,calcium carbonate,-1 tablet daily
+subject_5209,2018-11-26,lisinopril,10 mg daily
+subject_5209,2016-07-09,naproxen,500 mg BID
+subject_5209,2016-03-26,omeprazole,20 mg daily
+subject_5214,2020-01-05,rituximab,1000 mg IV x2
+subject_5214,2019-03-31,naproxen,500 mg BID
+subject_5214,2019-12-21,atorvastatin,20 mg daily
+subject_5222,2021-07-13,omeprazole,20 mg daily
+subject_5222,2020-08-18,albuterol,PRN
+subject_5226,2022-10-31,calcium carbonate,500 mg daily
+subject_5229,2017-03-15,ibuprofen,
+subject_5229,2017-04-19,amlodipine,5 mg daily
+subject_5229,2018-07-03,atorvastatin,20 mg daily
+subject_5231,2019-02-06,MMF,500 mg BID
+subject_5231,2021-07-24,albuterol,PRN
+subject_5231,2021-08-08,calcium carbonate,500 mg daily
+subject_5237,2020-08-24,mycophenolate mofetil,500 mg BID
+subject_5237,2022-05-01,calcium carbonate,500 mg daily
+subject_5237,2020-09-12,omeprazole,20 mg daily
+subject_5241,2020-03-28,omeprazole,20 mg daily
+subject_5241,2019-11-10,calcium carbonate,500 mg daily
+subject_5241,2019-01-12,omeprazole,20 mg daily
+subject_5242,2016-10-28,mycophenolate mofetil,750mg BID
+subject_5242,2015-04-23,atorvastatin,20 mg daily
+subject_5242,2019-01-26,nifedipine,30 mg daily
+subject_5242,2016-10-06,levothyroxine,50 mcg daily
+subject_5249,2016-01-13,CellCept,1 g twice daily
+subject_5249,2016-09-22,ibuprofen,400 mg PRN
+subject_5249,2016-09-18,naproxen,500 mg BID
+subject_5249,2018-01-18,lisinopril,10 mg daily
+subject_5250,2020-04-03,MMF,1000 mg BID
+subject_5250,2021-08-02,rituximab,
+subject_5250,2021-10-29,amlodipine,5 mg daily
+subject_5250,2023-06-08,ibuprofen,400 mg PRN
+subject_5254,2021-03-25,lisinopril,10 mg daily
+subject_5260,2017-07-16,albuterol,PRN
+subject_5260,2018-05-16,lisinopril,10 mg daily
+subject_5260,2018-01-07,calcium carbonate,500 mg daily
+subject_5267,2016-04-23,omeprazole,20 mg daily
+subject_5278,2018-06-28,atorvastatin,20 mg daily
+subject_5278,2019-10-11,calcium carbonate,500 mg daily
+subject_5280,2016-07-09,MMF,1500 mg BID
+subject_5280,2018-06-19,naproxen,500 mg BID
+subject_5282,2024-12-17,lisinopril,10 mg daily
+subject_5282,2022-05-22,atorvastatin,20 mg daily
+subject_5296,2019-02-01,naproxen,500 mg BID
+subject_5298,2023-08-29,omeprazole,20 mg daily
+subject_5301,2018-10-29,tocilizumab,162 mg SC weekly
+subject_5301,2021-01-09,albuterol,PRN
+subject_5301,2018-03-19,lisinopril,10 mg daily
+subject_5312,2021-06-27,calcium carbonate,500 mg daily
+subject_5313,2021-07-24,rituximab,1000 mg IV x2
+subject_5313,2023-12-11,lisinopril,10 mg daily
+subject_5313,2021-09-18,amlodipine,
+subject_5314,2019-08-24,CellCept,750mg BID
+subject_5314,2021-03-17,lisinopril,10 mg daily
+subject_5314,2022-10-31,lisinopril,10 mg daily
+subject_5318,2020-03-11,MMF,1000 mg BID
+subject_5318,2021-11-27,atorvastatin,20 mg daily
+subject_5322,2020-01-12,mycophenolate mofetil,1 g twice daily
+subject_5322,2021-11-19,rituximab,1000 mg IV x2
+subject_5322,2019-01-17,levothyroxine,50 mcg daily
+subject_5322,2020-02-10,lisinopril,10 mg daily
+subject_5326,2019-10-30,mycophenolate mofetil,1000 mg BID
+subject_5326,2019-09-22,vitamin D3,2000 IU daily
+subject_5326,2022-02-27,levothyroxine,50 mcg daily
+subject_5326,2018-10-03,ibuprofen,400 mg PRN
+subject_5329,2019-02-02,mycophenolate mofetil,750mg BID
+subject_5329,2020-08-18,calcium carbonate,500 mg daily
+subject_5329,2022-05-20,omeprazole,20 mg daily
+subject_5330,2021-08-22,amlodipine,5 mg daily
+subject_5342,2021-09-13,atorvastatin,20 mg daily
+subject_5342,2024-04-07,albuterol,PRN
+subject_5359,2018-05-10,amlodipine,5 mg daily
+subject_5359,2017-08-11,nifedipine,
+subject_5359,2016-06-02,nifedipine,30 mg daily
+subject_5362,2018-02-01,atorvastatin,20 mg daily
+subject_5362,2018-08-25,calcium carbonate,500 mg daily
+subject_5364,2022-01-14,albuterol,
+subject_5367,2020-11-29,levothyroxine,50 mcg daily
+subject_5367,2024-11-13,ibuprofen,400 mg PRN
+subject_5384,2022-06-30,CellCept,1000 mg BID
+subject_5384,2022-10-25,vitamin D3,2000 IU daily
+subject_5392,2019-01-15,mycophenolate mofetil,1 g twice daily
+subject_5392,2021-02-27,tocilizumab,162 mg SC weekly
+subject_5392,2021-03-14,ibuprofen,400 mg PRN
+subject_5397,2019-05-15,vitamin D3,2000 IU daily
+subject_5402,2018-12-29,CellCept,1500 mg BID
+subject_5402,2020-01-20,atorvastatin,
+subject_5402,2019-12-26,naproxen,500 mg BID
+subject_5403,2020-01-14,lisinopril,10 mg daily
+subject_5403,2017-12-21,calcium carbonate,500 mg daily
+subject_5407,2019-08-28,CellCept,500 mg BID
+subject_5408,2022-02-08,mycophenolate mofetil,1000 mg BID
+subject_5413,2018-03-17,CellCept,750mg BID
+subject_5414,2016-12-06,CellCept,1000 mg BID
+subject_5414,2020-05-21,atorvastatin,20 mg daily
+subject_5414,2019-08-21,calcium carbonate,500 mg daily
+subject_5414,2018-11-06,amlodipine,5 mg daily
+subject_5417,2016-03-10,mycophenolate mofetil,1000 mg BID
+subject_5417,2018-08-19,nifedipine,30 mg daily
+subject_5417,2018-01-29,ibuprofen,400 mg PRN
+subject_5421,2017-05-09,CellCept,1 g twice daily
+subject_5421,2018-02-11,naproxen,500 mg BID
+subject_5421,2018-10-24,vitamin D3,2000 IU daily
+subject_5422,2020-02-21,albuterol,PRN
+subject_5422,2021-08-18,amlodipine,5 mg daily
+subject_5423,2022-06-22,mycophenolate mofetil,1000 mg BID
+subject_5423,2023-05-02,tocilizumab,
+subject_5423,2024-12-31,omeprazole,20 mg daily
+subject_5423,2022-11-02,naproxen,500 mg BID
+subject_5425,2019-11-11,lisinopril,10 mg daily
+subject_5427,2023-01-22,calcium carbonate,500 mg daily
+subject_5432,2021-03-12,mycophenolate mofetil,1 g twice daily
+subject_5432,2022-11-30,rituximab,1000 mg IV x2
+subject_5432,2022-12-31,naproxen,500 mg BID
+subject_5432,2021-12-31,omeprazole,20 mg daily
+subject_5432,2022-11-01,naproxen,500 mg BID
+subject_5437,2021-05-30,albuterol,PRN
+subject_5437,2023-12-12,amlodipine,5 mg daily
+subject_5439,2021-12-21,calcium carbonate,500 mg daily
+subject_5439,2022-01-26,calcium carbonate,500 mg daily
+subject_5460,2020-07-23,mycophenolate mofetil,1000 mg BID
+subject_5460,2020-04-12,rituximab,1000 mg IV x2
+subject_5460,2022-01-02,nifedipine,30 mg daily
+subject_5465,2022-06-26,MMF,1000 mg BID
+subject_5465,2024-11-13,ibuprofen,400 mg PRN
+subject_5465,2025-04-18,atorvastatin,20 mg daily
+subject_5465,2025-04-13,naproxen,500 mg BID
+subject_5466,2021-07-04,CellCept,1000 mg BID
+subject_5466,2021-12-21,levothyroxine,50 mcg daily
+subject_5466,2024-11-16,naproxen,500 mg BID
+subject_5466,2020-12-19,amlodipine,5 mg daily
+subject_5467,2020-04-22,omeprazole,20 mg daily
+subject_5467,2017-09-07,nifedipine,
+subject_5467,2018-09-12,amlodipine,5 mg daily
+subject_5473,2021-04-27,MMF,1 g twice daily
+subject_5473,2020-04-10,,1000 mg IV x2
+subject_5477,2019-07-22,lisinopril,10 mg daily
+subject_5477,2019-02-18,omeprazole,20 mg daily
+subject_5477,2018-09-17,amlodipine,5 mg daily
+subject_5478,2017-05-09,CellCept,1000 mg BID
+subject_5484,2019-11-02,CellCept,1 g twice daily
+subject_5484,2018-09-11,atorvastatin,20 mg daily
+subject_5490,2022-07-02,mycophenolate mofetil,500 mg BID
+subject_5490,2022-07-20,naproxen,500 mg BID
+subject_5490,,vitamin D3,2000 IU daily
+subject_5494,2019-04-19,CellCept,1500 mg BID
+subject_5494,2020-04-01,atorvastatin,20 mg daily
+subject_5494,2019-05-19,ibuprofen,400 mg PRN
+subject_5500,2017-08-10,omeprazole,20 mg daily
+subject_5500,2017-05-28,naproxen,500 mg BID
+subject_5500,2021-03-13,albuterol,PRN
+subject_5506,2020-10-21,CellCept,750mg BID
+subject_5506,2020-03-30,rituximab,1000 mg IV x2
+subject_5506,2020-05-24,tocilizumab,162 mg SC weekly
+subject_5506,2021-03-23,lisinopril,10 mg daily
+subject_5506,2022-01-15,vitamin D3,2000 IU daily
+subject_5510,2020-01-18,atorvastatin,20 mg daily
+subject_5510,2020-03-23,atorvastatin,20 mg daily
+subject_5510,2018-11-17,albuterol,PRN
+subject_5517,2024-03-29,atorvastatin,20 mg daily
+subject_5517,2022-02-06,nifedipine,30 mg daily
+subject_5528,2021-10-16,levothyroxine,50 mcg daily
+subject_5535,2019-12-20,mycophenolate mofetil,1500 mg BID
+subject_5535,2021-07-23,omeprazole,20 mg daily
+subject_5535,2019-05-27,nifedipine,30 mg daily
+subject_5549,2023-01-09,mycophenolate mofetil,1500 mg BID
+subject_5549,2022-12-06,rituximab,1000 mg IV x2
+subject_5549,2021-08-27,levothyroxine,50 mcg daily
+subject_5549,2022-08-26,ibuprofen,400 mg PRN
+subject_5562,2017-04-29,albuterol,PRN
+subject_5562,2017-11-03,lisinopril,10 mg daily
+subject_5562,2018-06-06,amlodipine,5 mg daily
+subject_5566,2018-06-15,mycophenolate mofetil,500 mg BID
+subject_5566,2018-12-03,levothyroxine,50 mcg daily
+subject_5572,2020-12-17,CellCept,1000 mg BID
+subject_5572,2022-10-15,lisinopril,10 mg daily
+subject_5572,2024-01-12,ibuprofen,400 mg PRN
+subject_5572,2021-05-27,naproxen,500 mg BID
+subject_5575,2021-08-21,levothyroxine,50 mcg daily
+subject_5576,2020-01-28,MMF,1000 mg BID
+subject_5576,2021-04-09,rituximab,1000 mg IV x2
+subject_5576,2019-12-29,ibuprofen,400 mg PRN
+subject_5576,2021-07-09,lisinopril,10 mg daily
+subject_5576,2019-03-26,atorvastatin,20 mg daily
+subject_5577,2021-02-06,omeprazole,20 mg daily
+subject_5577,2021-11-05,ibuprofen,400 mg PRN
+subject_5577,2022-09-20,lisinopril,10 mg daily
+subject_5580,2017-10-09,mycophenolate mofetil,750mg BID
+subject_5580,2018-07-08,vitamin D3,2000 IU daily
+subject_5582,2020-06-01,MMF,
+subject_5582,2022-09-26,naproxen,500 mg BID
+subject_5582,2022-10-13,ibuprofen,
+subject_5585,2020-10-13,mycophenolate mofetil,1000 mg BID
+subject_5590,2018-01-21,CellCept,1000 mg BID
+subject_5590,2019-07-11,rituximab,1000 mg IV x2
+subject_5590,2019-09-29,lisinopril,10 mg daily
+subject_5590,2020-03-05,calcium carbonate,500 mg daily
+subject_5590,2019-08-22,naproxen,500 mg BID
+subject_5592,2016-07-22,mycophenolate mofetil,1000 mg BID
+subject_5596,2022-03-19,amlodipine,5 mg daily
+subject_5600,2019-05-03,amlodipine,5 mg daily
+subject_5600,2015-11-22,lisinopril,10 mg daily
+subject_5602,2017-04-27,rituximab,1000 mg IV x2
+subject_5602,2016-09-27,calcium carbonate,500 mg daily
+subject_5602,2017-11-27,lisinopril,10 mg daily
+subject_5602,2017-03-24,omeprazole,20 mg daily
+subject_5605,2019-07-02,calcium carbonate,500 mg daily
+subject_5605,2018-11-05,naproxen,
+subject_5609,2021-02-06,tocilizumab,162 mg SC weekly
+subject_5620,2022-11-20,ibuprofen,400 mg PRN
+subject_5628,2020-08-13,MMF,1500 mg BID
+subject_5628,2021-10-14,calcium carbonate,
+subject_5629,2020-07-03,mycophenolate mofetil,500 mg BID
+subject_5629,2020-05-26,tocilizumab,162 mg SC weekly
+subject_5629,2021-07-27,omeprazole,20 mg daily
+subject_5629,2021-07-29,amlodipine,
+subject_5643,2023-07-19,naproxen,500 mg BID
+subject_5643,2021-01-06,levothyroxine,50 mcg daily
+subject_5643,2020-02-09,atorvastatin,20 mg daily
+subject_5659,2019-04-30,rituximab,1000 mg IV x2
+subject_5659,2019-06-14,vitamin D3,2000 IU daily
+subject_5666,2023-01-19,CellCept,750mg BID
+subject_5666,2023-01-04,tocilizumab,162 mg SC weekly
+subject_5666,2023-04-16,naproxen,500 mg BID
+subject_5666,2022-05-20,calcium carbonate,500 mg daily
+subject_5666,2025-07-15,calcium carbonate,500 mg daily
+subject_5669,2017-12-10,ibuprofen,400 mg PRN
+subject_5669,2017-03-24,omeprazole,20 mg daily
+subject_5672,2022-08-14,CellCept,750mg BID
+subject_5672,2022-12-01,rituximab,
+subject_5672,2020-09-16,lisinopril,500 mL tablets daily
+subject_5675,2019-02-06,levothyroxine,50 mcg daily
+subject_5675,2016-04-29,levothyroxine,
+subject_5675,2018-04-18,nifedipine,30 mg daily
+subject_5676,2017-11-21,albuterol,PRN
+subject_5676,2018-05-18,lisinopril,10 mg daily
+subject_5676,2018-05-02,atorvastatin,20 mg daily
+subject_5679,2015-10-21,MMF,1000 mg BID
+subject_5679,2018-03-23,ibuprofen,400 mg PRN
+subject_5679,2015-06-30,atorvastatin,20 mg daily
+subject_5682,2019-11-10,mycophenolate mofetil,750mg BID
+subject_5682,2020-09-15,calcium carbonate,500 mg daily
+subject_5682,2022-02-28,nifedipine,30 mg daily
+subject_5691,2021-05-11,omeprazole,20 mg daily
+subject_5695,2018-02-08,naproxen,500 mg BID
+subject_5700,2022-07-14,tocilizumab,162 mg SC weekly
+subject_5700,2020-11-19,atorvastatin,20 mg daily
+subject_5703,2016-04-03,MMF,1500 mg BID
+subject_5703,2017-04-13,nifedipine,30 mg daily
+subject_5703,2015-10-10,amlodipine,5 mg daily
+subject_5705,2017-04-10,CellCept,1000 mg BID
+subject_5705,2018-06-08,omeprazole,20 mg daily
+subject_5716,2019-01-31,CellCept,1500 mg BID
+subject_5716,,vitamin D3,2000 IU daily
+subject_5724,2023-05-14,atorvastatin,20 mg daily
+subject_5736,2017-05-29,mycophenolate mofetil,999 tablets daily
+subject_5736,2017-04-30,nifedipine,30 mg daily
+subject_5737,2020-11-30,tocilizumab,
+subject_5737,2021-01-25,naproxen,500 mg BID
+subject_5737,2021-09-20,vitamin D3,2000 IU daily
+subject_5744,2019-08-14,CellCept,1500 mg BID
+subject_5744,2018-11-25,tocilizumab,162 mg SC weekly
+subject_5744,2021-06-04,vitamin D3,2000 IU daily
+subject_5744,2022-01-24,amlodipine,
+subject_5744,2021-05-23,omeprazole,20 mg daily
+subject_5749,2016-02-02,calcium carbonate,500 mg daily
+subject_5749,2017-06-26,omeprazole,20 mg daily
+subject_5749,2017-02-28,atorvastatin,20 mg daily
+subject_5751,2022-01-07,albuterol,PRN
+subject_5751,2022-10-28,ibuprofen,400 mg PRN
+subject_5751,2020-09-12,levothyroxine,50 mcg daily
+subject_5756,2021-08-08,CellCept,1000 mg BID
+subject_5756,2022-05-09,tocilizumab,162 mg SC weekly
+subject_5756,2023-08-08,calcium carbonate,500 mg daily
+subject_5759,2017-11-09,MMF,1 g twice daily
+subject_5768,2020-03-21,amlodipine,5 mg daily
+subject_5769,2018-06-08,amlodipine,5 mg daily
+subject_5769,2020-01-28,atorvastatin,20 mg daily
+subject_5770,2018-12-11,atorvastatin,20 mg daily
+subject_5776,2020-06-13,mycophenolate mofetil,1500 mg BID
+subject_5783,2020-12-17,tocilizumab,162 mg SC weekly
+subject_5783,2022-01-04,albuterol,PRN
+subject_5783,2021-03-18,naproxen,500 mg BID
+subject_5787,2022-03-19,amlodipine,5 mg daily
+subject_5787,2024-04-09,amlodipine,5 mg daily
+subject_5792,2020-12-23,lisinopril,10 mg daily
+subject_5792,2019-05-11,levothyroxine,50 mcg daily
+subject_5796,2020-09-27,MMF,750mg BID
+subject_5796,2020-05-24,rituximab,1000 mg IV x2
+subject_5796,2020-09-23,atorvastatin,20 mg daily
+subject_5796,2022-10-06,amlodipine,5 mg daily
+subject_5804,2015-08-11,levothyroxine,50 mcg daily
+subject_5804,2018-01-17,lisinopril,10 mg daily
+subject_5812,2025-06-02,ibuprofen,400 mg PRN
+subject_5812,2022-05-26,atorvastatin,20 mg daily
+subject_5833,2016-05-01,mycophenolate mofetil,750mg BID
+subject_5833,2018-10-14,calcium carbonate,500 mg daily
+subject_5833,2017-10-20,naproxen,500 mg BID
+subject_5833,2016-02-25,levothyroxine,50 mcg daily
+subject_5847,2018-05-02,MMF,1500 mg BID
+subject_5847,2019-08-26,calcium carbonate,500 mg daily
+subject_5856,2016-08-18,CellCept,1 g twice daily
+subject_5856,2019-01-08,vitamin D3,2000 IU daily
+subject_5856,2018-11-21,nifedipine,30 mg daily
+subject_5856,2019-07-04,nifedipine,30 mg daily
+subject_5857,2015-11-19,atorvastatin,20 mg daily
+subject_5857,2016-08-18,nifedipine,30 mg daily
+subject_5857,2017-12-12,levothyroxine,50 mcg daily
+subject_5868,2017-11-30,calcium carbonate,500 mg daily
+subject_5871,2017-09-14,CellCept,500 mg BID
+subject_5871,2020-05-12,amlodipine,5 mg daily
+subject_5871,2016-06-06,calcium carbonate,500 mg daily
+subject_5874,2021-04-13,MMF,500 mg BID
+subject_5878,2018-07-01,mycophenolate mofetil,1500 mg BID
+subject_5878,2020-12-09,rituximab,1000 mg IV x2
+subject_5881,2019-07-28,CellCept,1 g twice daily
+subject_5881,2020-12-27,levothyroxine,50 mcg daily
+subject_5881,2021-06-10,nifedipine,30 mg daily
+subject_5881,2018-11-09,ibuprofen,400 mg PRN
+subject_5890,2016-12-21,ibuprofen,400 mg PRN
+subject_5890,2017-01-27,levothyroxine,50 mcg daily
+subject_5890,2020-06-11,albuterol,PRN
+subject_5893,2021-03-26,mycophenolate mofetil,1000 mg BID
+subject_5893,2022-04-01,rituximab,1000 mg IV x2
+subject_5893,2021-03-24,atorvastatin,20 mg daily
+subject_5895,2019-09-13,MMF,750mg BID
+subject_5896,2020-08-04,lisinopril,10 mg daily
+subject_5896,2018-08-14,albuterol,PRN
+subject_5896,2020-01-18,ibuprofen,400 mg PRN
+subject_5900,2020-05-04,MMF,1000 mg BID
+subject_5915,2019-12-11,rituximab,1000 mg IV x2
+subject_5915,2023-04-03,naproxen,500 mg BID
+subject_5917,2020-12-17,calcium carbonate,500 mg daily
+subject_5917,2018-07-27,lisinopril,250 g twice daily
+subject_5918,2022-01-14,calcium carbonate,500 mg daily
+subject_5918,2020-06-25,amlodipine,5 mg daily
+subject_5918,2020-07-12,ibuprofen,400 mg PRN
+subject_5923,2017-07-17,albuterol,PRN
+subject_5925,2016-01-26,MMF,750mg BID
+subject_5925,2017-09-05,,20 mg daily
+subject_5927,2016-11-20,CellCept,750mg BID
+subject_5927,,calcium carbonate,500 mg daily
+subject_5931,2016-04-22,mycophenolate mofetil,500 mg BID
+subject_5931,2017-11-10,ibuprofen,400 mg PRN
+subject_5931,2017-08-29,lisinopril,10 mg daily
+subject_5931,2016-03-15,omeprazole,20 mg daily
+subject_5934,2017-11-14,tocilizumab,162 mg SC weekly
+subject_5934,2016-09-03,amlodipine,5 mg daily
+subject_5934,2018-08-02,nifedipine,30 mg daily
+subject_5934,2017-01-21,naproxen,500 mg BID
+subject_5935,2020-12-12,rituximab,1000 mg IV x2
+subject_5936,2022-01-27,albuterol,PRN
+subject_5939,2022-09-11,CellCept,1500 mg BID
+subject_5939,2024-06-17,nifedipine,30 mg daily
+subject_5939,2021-10-15,vitamin D3,2000 IU daily
+subject_5945,2019-08-23,tocilizumab,162 mg SC weekly
+subject_5947,2017-11-14,mycophenolate mofetil,1 g twice daily
+subject_5947,2018-07-09,rituximab,1000 mg IV x2
+subject_5947,2018-04-10,atorvastatin,20 mg daily
+subject_5948,2020-07-25,MMF,1000 mg BID
+subject_5948,2020-08-06,omeprazole,20 mg daily
+subject_5948,2019-10-12,atorvastatin,20 mg daily
+subject_5954,2020-06-13,CellCept,750mg BID
+subject_5954,2021-01-26,amlodipine,5 mg daily
+subject_5971,2020-11-28,rituximab,1000 mg IV x2
+subject_5973,2021-04-23,CellCept,1 g twice daily
+subject_5973,2022-10-21,amlodipine,5 mg daily
+subject_5973,2023-06-25,amlodipine,5 mg daily
+subject_5974,2023-05-23,lisinopril,10 mg daily
+subject_5974,2022-05-25,naproxen,500 mg BID
+subject_5974,2021-06-25,calcium carbonate,500 mg daily
+subject_5981,2020-01-25,mycophenolate mofetil,750mg BID
+subject_5981,2020-09-01,rituximab,1000 mg IV x2
+subject_5981,2020-08-31,albuterol,PRN
+subject_5981,2022-08-26,amlodipine,5 mg daily
+subject_5988,2019-05-09,calcium carbonate,500 mg daily
+subject_5988,2019-12-31,amlodipine,5 mg daily
+subject_5989,2019-08-18,MMF,750mg BID
+subject_5989,2020-01-06,rituximab,1000 mg IV x2
+subject_5989,2020-01-03,lisinopril,999 tablets daily
+subject_5989,2021-12-28,amlodipine,5 mg daily
+subject_5990,2016-01-15,atorvastatin,20 mg daily
+subject_5990,2018-04-22,omeprazole,20 mg daily
+subject_5990,2018-04-12,atorvastatin,20 mg daily
+subject_5993,2018-12-10,ibuprofen,400 mg PRN
+subject_5993,2017-11-02,naproxen,500 mg BID
+subject_5993,2020-03-19,amlodipine,5 mg daily
+subject_6000,2020-11-07,calcium carbonate,500 mg daily
+subject_6014,2023-02-02,naproxen,500 mg BID
+subject_6014,2022-12-13,ibuprofen,400 mg PRN
+subject_6014,2021-07-18,omeprazole,20 mg daily
+subject_6016,2017-09-28,mycophenolate mofetil,500 mg BID
+subject_6016,2019-12-13,tocilizumab,162 mg SC weekly
+subject_6016,2018-11-24,nifedipine,30 mg daily
+subject_6016,2018-03-07,atorvastatin,20 mg daily
+subject_6016,2018-06-19,,30 mg daily
+subject_6019,2017-09-14,amlodipine,5 mg daily
+subject_6025,2023-01-20,naproxen,500 mg BID
+subject_6027,2017-08-18,ibuprofen,400 mg PRN
+subject_6029,2019-02-04,rituximab,1000 mg IV x2
+subject_6030,2018-08-19,CellCept,
+subject_6036,2016-04-15,mycophenolate mofetil,750mg BID
+subject_6036,2018-04-01,tocilizumab,162 mg SC weekly
+subject_6036,2018-02-19,albuterol,PRN
+subject_6036,2015-06-01,vitamin D3,2000 IU daily
+subject_6039,2017-08-02,rituximab,1000 mg IV x2
+subject_6039,2018-03-09,nifedipine,30 mg daily
+subject_6039,2019-08-06,lisinopril,10 mg daily
+subject_6045,2020-03-27,amlodipine,5 mg daily
+subject_6045,2016-07-19,vitamin D3,2000 IU daily
+subject_6045,2018-01-17,calcium carbonate,500 mg daily
+subject_6068,2018-10-03,mycophenolate mofetil,1500 mg BID
+subject_6068,2017-10-04,rituximab,1000 mg IV x2
+subject_6068,2020-06-30,albuterol,PRN
+subject_6068,2017-07-06,vitamin D3,2000 IU daily
+subject_6071,2019-11-27,nifedipine,30 mg daily
+subject_6071,2017-11-06,ibuprofen,400 mg PRN
+subject_6071,2019-07-15,naproxen,500 mg BID
+subject_6072,2023-08-16,atorvastatin,20 mg daily
+subject_6072,2021-09-20,albuterol,PRN
+subject_6078,2018-02-01,CellCept,750mg BID
+subject_6082,2018-04-21,lisinopril,10 mg daily
+subject_6082,2020-10-12,vitamin D3,2000 IU daily
+subject_6082,2021-07-11,amlodipine,5 mg daily
+subject_6086,2021-06-02,levothyroxine,50 mcg daily
+subject_6097,2018-10-20,CellCept,1500 mg BID
+subject_6097,2017-08-04,ibuprofen,400 mg PRN
+subject_6097,2020-07-16,albuterol,PRN
+subject_6099,2020-06-21,rituximab,1000 mg IV x2
+subject_6099,2020-01-03,lisinopril,
+subject_6099,2023-02-20,amlodipine,5 mg daily
+subject_6099,2020-09-11,omeprazole,20 mg daily
+subject_6101,2019-07-01,amlodipine,5 mg daily
+subject_6102,2019-05-03,MMF,1500 mg BID
+subject_6102,2019-03-30,atorvastatin,20 mg daily
+subject_6102,2021-08-15,lisinopril,10 mg daily
+subject_6102,2020-11-07,amlodipine,5 mg daily
+subject_6132,2020-06-17,nifedipine,30 mg daily
+subject_6132,2021-04-25,nifedipine,30 mg daily
+subject_6133,2016-07-25,mycophenolate mofetil,1 g twice daily
+subject_6133,2018-05-03,nifedipine,30 mg daily
+subject_6144,2018-07-02,MMF,1500 mg BID
+subject_6144,2020-09-27,nifedipine,30 mg daily
+subject_6144,2020-07-21,calcium carbonate,500 mg daily
+subject_6148,2024-01-12,tocilizumab,
+subject_6149,2024-04-08,calcium carbonate,500 mg daily
+subject_6149,2021-09-22,omeprazole,20 mg daily
+subject_6149,2023-09-07,naproxen,500 mg BID
+subject_6150,2021-01-19,mycophenolate mofetil,
+subject_6150,2021-02-26,omeprazole,20 mg daily
+subject_6150,2021-11-12,naproxen,500 mg BID
+subject_6152,2019-05-23,tocilizumab,162 mg SC weekly
+subject_6152,2019-03-21,amlodipine,5 mg daily
+subject_6153,2018-05-01,MMF,1500 mg BID
+subject_6153,2017-03-28,tocilizumab,162 mg SC weekly
+subject_6153,2018-03-10,atorvastatin,20 mg daily
+subject_6153,2019-11-20,naproxen,500 mg BID
+subject_6155,2017-03-30,ibuprofen,400 mg PRN
+subject_6155,2018-10-21,lisinopril,10 mg daily
+subject_6166,2019-11-04,CellCept,1 g twice daily
+subject_6166,2021-01-01,amlodipine,5 mg daily
+subject_6170,2019-04-01,CellCept,500 mg BID
+subject_6170,2018-08-13,levothyroxine,50 mcg daily
+subject_6170,2018-12-08,calcium carbonate,500 mg daily
+subject_6173,2019-07-23,omeprazole,20 mg daily
+subject_6175,2017-10-05,CellCept,1 g twice daily
+subject_6175,2019-09-02,naproxen,500 mg BID
+subject_6175,2016-11-04,amlodipine,5 mg daily
+subject_6175,2018-09-18,omeprazole,20 mg daily
+subject_6178,2021-06-09,atorvastatin,20 mg daily
+subject_6181,2024-07-28,tocilizumab,162 mg SC weekly
+subject_6181,2024-01-03,nifedipine,30 mg daily
+subject_6181,2023-12-18,ibuprofen,400 mg PRN
+subject_6183,2017-12-10,CellCept,1500 mg BID
+subject_6183,2018-10-12,lisinopril,10 mg daily
+subject_6183,2019-07-18,lisinopril,10 mg daily
+subject_6190,2016-11-16,mycophenolate mofetil,750mg BID
+subject_6190,2019-03-17,calcium carbonate,500 mg daily
+subject_6190,2017-03-04,nifedipine,30 mg daily
+subject_6193,2018-10-21,mycophenolate mofetil,1500 mg BID
+subject_6193,2019-08-08,tocilizumab,162 mg SC weekly
+subject_6193,2019-03-22,vitamin D3,2000 IU daily
+subject_6197,2022-06-22,atorvastatin,20 mg daily
+subject_6197,2021-03-27,amlodipine,5 mg daily
+subject_6197,2024-02-27,ibuprofen,400 mg PRN
+subject_6200,2019-09-07,atorvastatin,20 mg daily
+subject_6212,2019-03-16,rituximab,1000 mg IV x2
+subject_6212,2018-08-29,albuterol,PRN
+subject_6212,2018-02-25,ibuprofen,400 mg PRN
+subject_6213,2017-10-22,mycophenolate mofetil,1 g twice daily
+subject_6217,2020-10-30,atorvastatin,
+subject_6217,2017-02-25,vitamin D3,2000 IU daily
+subject_6217,2020-04-16,omeprazole,20 mg daily
+subject_6220,2018-05-05,MMF,1000 mg BID
+subject_6220,2019-06-18,tocilizumab,162 mg SC weekly
+subject_6220,2018-04-24,vitamin D3,2000 IU daily
+subject_6220,2018-02-24,atorvastatin,20 mg daily
+subject_6225,2016-11-23,levothyroxine,50 mcg daily
+subject_6225,2017-11-18,nifedipine,30 mg daily
+subject_6225,2018-11-28,omeprazole,20 mg daily
+subject_6230,2017-04-12,CellCept,1500 mg BID
+subject_6230,2016-03-22,lisinopril,10 mg daily
+subject_6234,2020-03-14,CellCept,1 g twice daily
+subject_6234,2019-01-30,rituximab,1000 mg IV x2
+subject_6234,2019-08-19,lisinopril,10 mg daily
+subject_6234,2021-03-06,atorvastatin,20 mg daily
+subject_6240,2021-05-24,MMF,750mg BID
+subject_6240,2023-03-25,lisinopril,10 mg daily
+subject_6240,2025-02-12,ibuprofen,400 mg PRN
+subject_6240,2022-05-31,amlodipine,500 mL tablets daily
+subject_6244,2018-05-14,atorvastatin,20 mg daily
+subject_6244,2020-03-06,vitamin D3,2000 IU daily
+subject_6244,2020-05-17,amlodipine,5 mg daily
+subject_6250,2018-09-12,naproxen,500 mg BID
+subject_6252,2018-12-09,atorvastatin,20 mg daily
+subject_6255,2020-04-20,omeprazole,20 mg daily
+subject_6255,2019-06-03,calcium carbonate,500 mg daily
+subject_6255,2017-09-18,lisinopril,10 mg daily
+subject_6256,2018-12-08,mycophenolate mofetil,1 g twice daily
+subject_6256,2020-04-25,vitamin D3,2000 IU daily
+subject_6265,2022-05-25,MMF,1 g twice daily
+subject_6265,2022-06-23,atorvastatin,20 mg daily
+subject_6265,2023-10-07,nifedipine,30 mg daily
+subject_6265,2021-02-27,albuterol,PRN
+subject_6267,2022-07-24,amlodipine,5 mg daily
+subject_6267,2021-07-31,ibuprofen,400 mg PRN
+subject_6273,2016-06-01,calcium carbonate,250 g twice daily
+subject_6273,,atorvastatin,20 mg daily
+subject_6274,2017-03-18,MMF,750mg BID
+subject_6280,2023-09-30,levothyroxine,50 mcg daily
+subject_6280,2023-11-07,atorvastatin,20 mg daily
+subject_6280,2024-04-30,lisinopril,10 mg daily
+subject_6282,2016-12-16,albuterol,PRN
+subject_6291,2020-08-24,mycophenolate mofetil,500 mg BID
+subject_6300,2022-06-02,CellCept,1000 mg BID
+subject_6300,2024-06-23,calcium carbonate,500 mg daily
+subject_6300,2023-04-06,naproxen,500 mg BID
+subject_6300,2020-10-11,albuterol,PRN
+subject_6305,2023-02-19,atorvastatin,20 mg daily
+subject_6307,2017-05-06,tocilizumab,162 mg SC weekly
+subject_6307,2019-06-12,calcium carbonate,500 mg daily
+subject_6307,2016-10-04,amlodipine,5 mg daily
+subject_6307,2016-02-24,naproxen,500 mg BID
+subject_6308,2015-08-22,amlodipine,5 mg daily
+subject_6329,2019-02-10,atorvastatin,20 mg daily
+subject_6337,2019-01-20,CellCept,1500 mg BID
+subject_6337,2020-03-14,amlodipine,5 mg daily
+subject_6337,2017-06-29,atorvastatin,20 mg daily
+subject_6340,2019-03-24,rituximab,1000 mg IV x2
+subject_6342,2019-10-18,mycophenolate mofetil,1500 mg BID
+subject_6342,2020-01-13,albuterol,PRN
+subject_6342,2018-11-15,albuterol,PRN
+subject_6343,2018-11-13,rituximab,1000 mg IV x2
+subject_6343,2019-10-21,nifedipine,30 mg daily
+subject_6343,2018-11-13,naproxen,500 mg BID
+subject_6343,2019-07-07,naproxen,500 mg BID
+subject_6346,2022-05-24,nifedipine,30 mg daily
+subject_6346,2022-02-11,amlodipine,5 mg daily
+subject_6351,2019-06-06,vitamin D3,2000 IU daily
+subject_6351,2020-10-12,amlodipine,5 mg daily
+subject_6351,2019-10-16,albuterol,PRN
+subject_6363,2021-12-31,omeprazole,20 mg daily
+subject_6363,2020-02-11,nifedipine,30 mg daily
+subject_6363,2020-12-06,nifedipine,30 mg daily
+subject_6373,2018-09-09,albuterol,PRN
+subject_6373,2019-05-16,ibuprofen,400 mg PRN
+subject_6375,2020-10-05,CellCept,1000 mg BID
+subject_6375,2019-06-08,nifedipine,30 mg daily
+subject_6375,2019-09-22,lisinopril,10 mg daily
+subject_6379,2017-07-28,rituximab,1000 mg IV x2
+subject_6381,2021-12-28,MMF,1000 mg BID
+subject_6381,2020-11-12,ibuprofen,400 mg PRN
+subject_6385,2021-05-04,vitamin D3,2000 IU daily
+subject_6386,2021-01-01,CellCept,1500 mg BID
+subject_6386,2021-03-31,atorvastatin,20 mg daily
+subject_6390,2018-05-10,mycophenolate mofetil,1500 mg BID
+subject_6390,2019-07-30,vitamin D3,2000 IU daily
+subject_6406,2018-02-28,mycophenolate mofetil,750mg BID
+subject_6406,2018-02-12,albuterol,PRN
+subject_6410,2017-07-17,mycophenolate mofetil,1000 mg BID
+subject_6410,2019-04-12,omeprazole,20 mg daily
+subject_6416,2023-10-28,levothyroxine,50 mcg daily
+subject_6416,2024-08-26,amlodipine,5 mg daily
+subject_6419,2023-11-27,amlodipine,5 mg daily
+subject_6428,2016-12-21,rituximab,1000 mg IV x2
+subject_6428,2020-06-05,omeprazole,20 mg daily
+subject_6429,2021-02-01,rituximab,1000 mg IV x2
+subject_6429,2021-12-03,naproxen,500 mg BID
+subject_6429,2022-12-28,ibuprofen,400 mg PRN
+subject_6433,2016-09-14,mycophenolate mofetil,1500 mg BID
+subject_6433,2018-12-05,lisinopril,10 mg daily
+subject_6433,2015-10-15,omeprazole,20 mg daily
+subject_6433,2017-12-07,lisinopril,10 mg daily
+subject_6434,2017-06-25,levothyroxine,50 mcg daily
+subject_6434,2018-07-06,nifedipine,30 mg daily
+subject_6434,2019-08-22,naproxen,500 mg BID
+subject_6438,2022-10-08,rituximab,1000 mg IV x2
+subject_6446,2020-03-02,MMF,500 mg BID
+subject_6447,,calcium carbonate,500 mg daily
+subject_6447,2024-06-10,vitamin D3,2000 IU daily
+subject_6447,2023-03-13,nifedipine,30 mg daily
+subject_6455,2016-04-06,mycophenolate mofetil,1 g twice daily
+subject_6475,2020-11-09,mycophenolate mofetil,-1 tablet daily
+subject_6475,2023-01-25,lisinopril,10 mg daily
+subject_6475,2023-10-15,naproxen,500 mg BID
+subject_6481,2019-11-20,tocilizumab,162 mg SC weekly
+subject_6481,2023-03-11,ibuprofen,400 mg PRN
+subject_6481,2020-07-02,naproxen,500 mg BID
+subject_6481,2023-04-02,nifedipine,30 mg daily
+subject_6483,2016-04-21,tocilizumab,162 mg SC weekly
+subject_6486,2023-12-22,omeprazole,20 mg daily
+subject_6486,2025-07-28,naproxen,500 mg BID
+subject_6486,2024-04-18,levothyroxine,50 mcg daily
+subject_6489,2021-11-06,MMF,1 g twice daily
+subject_6489,2021-08-14,amlodipine,5 mg daily
+subject_6489,2024-06-03,levothyroxine,50 mcg daily
+subject_6490,2022-07-20,CellCept,500 mg BID
+subject_6490,2022-09-12,lisinopril,10 mg daily
+subject_6494,2021-01-09,ibuprofen,400 mg PRN
+subject_6494,2018-10-20,lisinopril,10 mg daily
+subject_6494,2020-08-06,naproxen,500 mg BID
+subject_6519,2022-12-16,mycophenolate mofetil,750mg BID
+subject_6519,2022-02-07,tocilizumab,162 mg SC weekly
+subject_6524,2019-11-08,mycophenolate mofetil,1500 mg BID
+subject_6524,2021-03-19,omeprazole,
+subject_6524,2019-07-20,albuterol,-1 tablet daily
+subject_6524,2021-08-22,ibuprofen,400 mg PRN
+subject_6529,2019-01-26,mycophenolate mofetil,1000 mg BID
+subject_6529,2018-01-05,amlodipine,5 mg daily
+subject_6529,2017-10-10,naproxen,500 mg BID
+subject_6529,2019-08-09,nifedipine,30 mg daily
+subject_6537,2021-10-07,MMF,500 mg BID
+subject_6537,2022-08-16,albuterol,PRN
+subject_6543,2018-01-01,mycophenolate mofetil,1 g twice daily
+subject_6547,2021-11-20,mycophenolate mofetil,1000 mg BID
+subject_6547,2020-07-22,rituximab,1000 mg IV x2
+subject_6547,2020-05-24,omeprazole,20 mg daily
+subject_6547,2022-02-28,amlodipine,5 mg daily
+subject_6547,2023-11-24,nifedipine,30 mg daily
+subject_6552,2021-04-10,rituximab,1000 mg IV x2
+subject_6552,2022-03-08,calcium carbonate,500 mg daily
+subject_6561,2017-07-30,CellCept,1 g twice daily
+subject_6564,2018-06-12,rituximab,1000 mg IV x2
+subject_6565,2020-06-24,rituximab,1000 mg IV x2
+subject_6565,2020-05-26,omeprazole,20 mg daily
+subject_6565,2019-08-20,naproxen,500 mg BID
+subject_6568,2017-09-06,CellCept,1 g twice daily
+subject_6568,2020-01-21,naproxen,500 mg BID
+subject_6568,2018-01-01,calcium carbonate,500 mg daily
+subject_6568,2016-12-10,naproxen,500 mg BID
+subject_6569,2021-08-31,lisinopril,500 mL tablets daily
+subject_6569,2021-09-13,ibuprofen,400 mg PRN
+subject_6569,2020-04-25,naproxen,500 mg BID
+subject_6580,2019-09-21,naproxen,500 mg BID
+subject_6589,2024-07-27,atorvastatin,20 mg daily
+subject_6589,2022-12-13,levothyroxine,50 mcg daily
+subject_6589,2022-11-25,nifedipine,30 mg daily
+subject_6592,2018-08-11,mycophenolate mofetil,1 g twice daily
+subject_6592,2020-06-28,vitamin D3,2000 IU daily
+subject_6592,2021-01-27,omeprazole,20 mg daily
+subject_6592,2021-06-23,naproxen,500 mg BID
+subject_6594,2019-07-22,MMF,1000 mg BID
+subject_6594,2020-03-03,omeprazole,20 mg daily
+subject_6594,2021-03-26,naproxen,500 mg BID
+subject_6594,2018-04-07,calcium carbonate,500 mg daily
+subject_6598,2021-05-15,CellCept,1500 mg BID
+subject_6598,2019-04-30,naproxen,500 mg BID
+subject_6598,2020-01-09,levothyroxine,50 mcg daily
+subject_6625,2016-06-21,rituximab,1000 mg IV x2
+subject_6625,2015-11-02,vitamin D3,2000 IU daily
+subject_6629,2020-10-12,rituximab,1000 mg IV x2
+subject_6629,2021-07-09,vitamin D3,2000 IU daily
+subject_6629,2021-12-05,amlodipine,5 mg daily
+subject_6632,2018-08-24,mycophenolate mofetil,500 mg BID
+subject_6632,2017-09-30,rituximab,1000 mg IV x2
+subject_6632,2017-12-30,calcium carbonate,500 mg daily
+subject_6632,2017-07-04,atorvastatin,20 mg daily
+subject_6645,2019-10-19,tocilizumab,162 mg SC weekly
+subject_6649,2019-12-03,calcium carbonate,500 mg daily
+subject_6649,,naproxen,500 mg BID
+subject_6651,2021-12-02,calcium carbonate,500 mg daily
+subject_6651,2021-07-27,levothyroxine,50 mcg daily
+subject_6654,2022-09-14,CellCept,1 g twice daily
+subject_6654,2022-02-08,nifedipine,30 mg daily
+subject_6656,2015-12-23,levothyroxine,50 mcg daily
+subject_6656,2018-05-13,vitamin D3,2000 IU daily
+subject_6656,2017-09-14,albuterol,
+subject_6664,2018-08-08,MMF,1 g twice daily
+subject_6664,2019-09-18,tocilizumab,162 mg SC weekly
+subject_6664,2018-10-21,albuterol,PRN
+subject_6664,2018-12-22,lisinopril,10 mg daily
+subject_6664,2019-10-25,amlodipine,5 mg daily
+subject_6675,2019-01-12,MMF,1 g twice daily
+subject_6675,2019-07-15,rituximab,1000 mg IV x2
+subject_6675,2018-08-24,nifedipine,30 mg daily
+subject_6675,2021-03-11,ibuprofen,
+subject_6691,2021-04-26,mycophenolate mofetil,750mg BID
+subject_6691,2022-08-26,atorvastatin,20 mg daily
+subject_6691,2021-09-19,naproxen,500 mg BID
+subject_6691,2024-01-06,lisinopril,10 mg daily
+subject_6694,2022-03-20,omeprazole,20 mg daily
+subject_6695,2018-09-25,CellCept,750mg BID
+subject_6695,2021-07-15,lisinopril,10 mg daily
+subject_6695,2017-11-14,naproxen,500 mg BID
+subject_6695,2019-02-07,albuterol,PRN
+subject_6698,2018-12-19,rituximab,1000 mg IV x2
+subject_6698,2021-04-08,calcium carbonate,500 mg daily
+subject_6698,2021-04-30,ibuprofen,400 mg PRN
+subject_6698,2021-03-20,atorvastatin,20 mg daily
+subject_6703,2016-09-09,vitamin D3,2000 IU daily
+subject_6703,2016-07-16,atorvastatin,20 mg daily
+subject_6703,2017-07-22,atorvastatin,20 mg daily
+subject_6706,2020-01-25,CellCept,1 g twice daily
+subject_6706,2022-02-14,atorvastatin,20 mg daily
+subject_6706,2020-01-18,omeprazole,20 mg daily
+subject_6710,2019-05-11,atorvastatin,20 mg daily
+subject_6710,2019-02-22,levothyroxine,50 mcg daily
+subject_6711,2020-07-28,MMF,750mg BID
+subject_6711,2021-06-22,omeprazole,20 mg daily
+subject_6711,2019-05-16,calcium carbonate,500 mg daily
+subject_6719,2022-10-06,mycophenolate mofetil,500 mg BID
+subject_6719,2023-09-26,calcium carbonate,500 mg daily
+subject_6738,2019-07-15,CellCept,500 mg BID
+subject_6738,2019-11-20,rituximab,1000 mg IV x2
+subject_6739,2017-03-23,MMF,1000 mg BID
+subject_6741,2021-05-24,amlodipine,5 mg daily
+subject_6741,2021-10-20,naproxen,500 mg BID
+subject_6741,2021-09-04,ibuprofen,400 mg PRN
+subject_6743,2022-04-05,MMF,1000 mg BID
+subject_6743,,tocilizumab,162 mg SC weekly
+subject_6745,2021-10-12,rituximab,1000 mg IV x2
+subject_6745,2022-01-30,naproxen,500 mg BID
+subject_6745,2022-06-11,albuterol,PRN
+subject_6745,2021-11-27,nifedipine,30 mg daily
+subject_6747,2018-08-28,CellCept,1 g twice daily
+subject_6747,2020-11-03,calcium carbonate,500 mg daily
+subject_6748,2017-01-09,amlodipine,5 mg daily
+subject_6748,2017-01-24,atorvastatin,20 mg daily
+subject_6753,2020-02-24,rituximab,1000 mg IV x2
+subject_6761,2020-10-03,rituximab,1000 mg IV x2
+subject_6761,2021-11-19,levothyroxine,50 mcg daily
+subject_6761,2021-11-30,naproxen,500 mg BID
+subject_6761,2022-11-11,naproxen,500 mg BID
+subject_6765,2020-01-14,rituximab,1000 mg IV x2
+subject_6765,2018-11-19,nifedipine,30 mg daily
+subject_6765,2021-03-27,naproxen,500 mg BID
+subject_6765,2019-06-27,naproxen,500 mg BID
+subject_6773,2021-01-20,CellCept,750mg BID
+subject_6773,2020-01-31,rituximab,1000 mg IV x2
+subject_6775,2022-10-23,vitamin D3,2000 IU daily
+subject_6775,2022-06-09,ibuprofen,400 mg PRN
+subject_6790,2018-05-12,rituximab,1000 mg IV x2
+subject_6790,2021-05-03,lisinopril,10 mg daily
+subject_6790,2021-05-08,naproxen,500 mg BID
+subject_6790,2020-12-16,lisinopril,10 mg daily
+subject_6795,2018-09-06,naproxen,500 mg BID
+subject_6795,2018-07-31,calcium carbonate,500 mg daily
+subject_6796,2017-09-27,rituximab,1000 mg IV x2
+subject_6796,2019-03-03,tocilizumab,162 mg SC weekly
+subject_6796,2015-12-17,amlodipine,5 mg daily
+subject_6796,2018-06-28,vitamin D3,2000 IU daily
+subject_6796,2016-05-05,naproxen,500 mg BID
+subject_6802,2017-02-27,omeprazole,20 mg daily
+subject_6803,2017-12-20,CellCept,750mg BID
+subject_6803,2019-03-21,tocilizumab,162 mg SC weekly
+subject_6808,2020-10-17,calcium carbonate,500 mg daily
+subject_6808,2021-03-10,atorvastatin,20 mg daily
+subject_6808,2020-10-12,albuterol,
+subject_6810,2017-02-08,MMF,1000 mg BID
+subject_6810,2016-06-03,rituximab,1000 mg IV x2
+subject_6812,2020-09-22,rituximab,1000 mg IV x2
+subject_6812,2022-05-25,levothyroxine,10000 mg every hour
+subject_6817,2022-03-08,atorvastatin,20 mg daily
+subject_6817,2023-08-07,calcium carbonate,
+subject_6825,2017-05-20,levothyroxine,50 mcg daily
+subject_6825,2016-01-28,nifedipine,30 mg daily
+subject_6834,2021-03-04,MMF,1500 mg BID
+subject_6834,2021-06-01,levothyroxine,50 mcg daily
+subject_6841,2022-01-04,MMF,1 g twice daily
+subject_6841,2021-05-22,vitamin D3,2000 IU daily
+subject_6841,2023-07-08,albuterol,PRN
+subject_6844,2020-08-09,omeprazole,20 mg daily
+subject_6844,2021-05-09,omeprazole,20 mg daily
+subject_6848,2023-08-12,amlodipine,5 mg daily
+subject_6848,2023-12-31,amlodipine,5 mg daily
+subject_6848,2023-06-24,omeprazole,20 mg daily
+subject_6849,2020-04-01,CellCept,1000 mg BID
+subject_6849,2022-04-06,amlodipine,5 mg daily
+subject_6849,2020-09-07,lisinopril,10 mg daily
+subject_6864,2021-10-06,CellCept,1500 mg BID
+subject_6864,2022-12-17,calcium carbonate,500 mg daily
+subject_6864,2023-06-12,nifedipine,30 mg daily
+subject_6864,2022-10-21,albuterol,PRN
+subject_6865,2022-01-24,nifedipine,
+subject_6865,2022-10-13,amlodipine,5 mg daily
+subject_6865,2022-11-13,calcium carbonate,500 mg daily
+subject_6867,2018-05-24,CellCept,500 mg BID
+subject_6867,2018-09-10,tocilizumab,162 mg SC weekly
+subject_6867,2020-04-26,amlodipine,5 mg daily
+subject_6879,2019-09-01,CellCept,750mg BID
+subject_6879,2020-01-08,rituximab,1000 mg IV x2
+subject_6879,2020-03-24,tocilizumab,162 mg SC weekly
+subject_6879,2019-09-05,lisinopril,10 mg daily
+subject_6886,2021-01-10,nifedipine,30 mg daily
+subject_6886,2022-04-24,calcium carbonate,500 mg daily
+subject_6890,2021-06-16,levothyroxine,50 mcg daily
+subject_6890,2021-06-08,calcium carbonate,500 mg daily
+subject_6891,2016-05-15,CellCept,500 mg BID
+subject_6891,2017-09-18,lisinopril,10 mg daily
+subject_6901,2018-07-05,MMF,750mg BID
+subject_6901,2019-12-11,tocilizumab,162 mg SC weekly
+subject_6901,2021-04-29,levothyroxine,50 mcg daily
+subject_6901,2021-07-24,naproxen,500 mg BID
+subject_6909,2019-05-12,ibuprofen,400 mg PRN
+subject_6909,2021-03-27,nifedipine,30 mg daily
+subject_6911,2019-01-26,MMF,1000 mg BID
+subject_6911,2021-11-12,rituximab,1000 mg IV x2
+subject_6912,2018-03-27,CellCept,1000 mg BID
+subject_6912,2018-10-24,rituximab,1000 mg IV x2
+subject_6915,,naproxen,500 mg BID
+subject_6916,2016-09-06,mycophenolate mofetil,1000 mg BID
+subject_6916,2016-04-26,levothyroxine,50 mcg daily
+subject_6931,2019-11-12,naproxen,500 mg BID
+subject_6931,2020-07-15,nifedipine,30 mg daily
+subject_6931,2020-05-07,calcium carbonate,500 mg daily
+subject_6936,2020-10-12,omeprazole,20 mg daily
+subject_6936,2018-05-07,,50 mcg daily
+subject_6936,2021-03-17,vitamin D3,2000 IU daily
+subject_6937,2019-09-24,CellCept,1500 mg BID
+subject_6937,2020-10-17,tocilizumab,162 mg SC weekly
+subject_6941,2021-04-14,mycophenolate mofetil,500 mg BID
+subject_6941,2020-09-16,rituximab,1000 mg IV x2
+subject_6945,2021-01-24,mycophenolate mofetil,500 mg BID
+subject_6945,2022-10-22,naproxen,500 mg BID
+subject_6947,2022-08-14,rituximab,1000 mg IV x2
+subject_6947,2023-01-03,calcium carbonate,500 mg daily
+subject_6958,2021-10-09,calcium carbonate,500 mg daily
+subject_6958,2019-04-26,naproxen,500 mg BID
+subject_6960,2023-08-12,rituximab,1000 mg IV x2
+subject_6968,2021-12-03,MMF,500 mg BID
+subject_6973,2017-05-30,levothyroxine,50 mcg daily
+subject_6977,2015-12-01,omeprazole,20 mg daily
+subject_6977,2018-10-24,albuterol,PRN
+subject_6983,2022-06-17,rituximab,1000 mg IV x2
+subject_6983,2024-06-01,albuterol,PRN
+subject_6983,2022-05-03,atorvastatin,20 mg daily
+subject_6985,2021-04-23,CellCept,1 g twice daily
+subject_6988,2023-12-24,naproxen,500 mg BID
+subject_6988,2021-06-20,omeprazole,20 mg daily
+subject_6988,2022-02-05,omeprazole,20 mg daily
+subject_6989,2022-11-17,CellCept,1000 mg BID
+subject_6989,2023-04-05,rituximab,1000 mg IV x2
+subject_6989,2023-10-16,naproxen,500 mg BID
+subject_6990,2018-04-03,MMF,750mg BID
+subject_6990,,omeprazole,20 mg daily
+subject_6990,2019-01-16,lisinopril,10 mg daily
+subject_6990,2020-06-11,ibuprofen,400 mg PRN
+subject_6992,2024-06-17,atorvastatin,20 mg daily
+subject_6995,2020-09-07,amlodipine,5 mg daily
+subject_6995,2022-05-31,atorvastatin,20 mg daily
+subject_7001,2021-01-05,MMF,1500 mg BID
+subject_7001,2020-07-24,omeprazole,20 mg daily
+subject_7001,2022-12-26,calcium carbonate,500 mg daily
+subject_7005,2020-02-14,tocilizumab,162 mg SC weekly
+subject_7011,2023-09-16,omeprazole,20 mg daily
+subject_7011,2023-04-01,vitamin D3,2000 IU daily
+subject_7016,2023-07-27,nifedipine,30 mg daily
+subject_7017,2022-02-23,CellCept,500 mg BID
+subject_7017,2024-03-15,rituximab,1000 mg IV x2
+subject_7017,2025-01-30,ibuprofen,400 mg PRN
+subject_7017,2021-12-25,albuterol,PRN
+subject_7018,2022-09-01,tocilizumab,162 mg SC weekly
+subject_7018,2022-07-25,calcium carbonate,500 mg daily
+subject_7023,2016-07-20,atorvastatin,20 mg daily
+subject_7036,2021-01-27,CellCept,750mg BID
+subject_7036,2021-07-09,calcium carbonate,500 mg daily
+subject_7036,2024-03-08,nifedipine,30 mg daily
+subject_7038,2016-07-31,CellCept,1 g twice daily
+subject_7038,2017-12-25,tocilizumab,
+subject_7038,2019-05-24,calcium carbonate,500 mg daily
+subject_7038,2015-10-28,naproxen,500 mg BID
+subject_7038,2018-06-08,naproxen,500 mg BID
+subject_7043,2021-05-08,MMF,500 mg BID
+subject_7043,2022-04-08,rituximab,1000 mg IV x2
+subject_7043,2021-05-17,nifedipine,30 mg daily
+subject_7043,2020-12-28,levothyroxine,50 mcg daily
+subject_7043,2020-10-22,calcium carbonate,500 mg daily
+subject_7048,2019-01-09,CellCept,1500 mg BID
+subject_7048,2021-11-08,tocilizumab,162 mg SC weekly
+subject_7052,2022-05-22,omeprazole,20 mg daily
+subject_7053,2022-11-24,MMF,1500 mg BID
+subject_7053,2023-11-27,rituximab,1000 mg IV x2
+subject_7069,2020-04-05,amlodipine,5 mg daily
+subject_7072,2019-07-14,omeprazole,20 mg daily
+subject_7072,2019-10-02,omeprazole,20 mg daily
+subject_7078,2021-07-10,amlodipine,5 mg daily
+subject_7078,2023-09-04,omeprazole,20 mg daily
+subject_7080,2021-10-20,amlodipine,5 mg daily
+subject_7080,2022-04-04,omeprazole,20 mg daily
+subject_7080,2022-11-07,lisinopril,10 mg daily
+subject_7081,2020-11-19,atorvastatin,20 mg daily
+subject_7081,2020-02-24,nifedipine,30 mg daily
+subject_7081,2020-06-07,amlodipine,5 mg daily
+subject_7082,2019-05-25,CellCept,750mg BID
+subject_7082,2019-01-23,albuterol,PRN
+subject_7082,2021-05-22,albuterol,PRN
+subject_7082,2022-02-04,ibuprofen,400 mg PRN
+subject_7094,2022-09-01,naproxen,500 mg BID
+subject_7097,2024-02-19,levothyroxine,50 mcg daily
+subject_7100,2018-07-08,tocilizumab,162 mg SC weekly
+subject_7100,2018-09-18,amlodipine,5 mg daily
+subject_7100,2016-09-14,omeprazole,20 mg daily
+subject_7100,2016-11-02,nifedipine,30 mg daily
+subject_7101,2020-11-23,lisinopril,250 g twice daily
+subject_7101,2020-09-25,lisinopril,10 mg daily
+subject_7107,2019-09-19,MMF,500 mg BID
+subject_7107,2021-04-28,tocilizumab,162 mg SC weekly
+subject_7107,2019-10-02,levothyroxine,50 mcg daily
+subject_7117,2020-02-28,levothyroxine,50 mcg daily
+subject_7117,2021-06-26,amlodipine,
+subject_7117,2018-12-14,omeprazole,20 mg daily
+subject_7120,2016-12-30,CellCept,1500 mg BID
+subject_7120,2015-08-01,albuterol,PRN
+subject_7120,2015-12-03,amlodipine,5 mg daily
+subject_7120,2016-04-17,omeprazole,20 mg daily
+subject_7125,2018-12-09,mycophenolate mofetil,1500 mg BID
+subject_7129,2017-04-02,mycophenolate mofetil,500 mg BID
+subject_7129,2016-07-14,rituximab,1000 mg IV x2
+subject_7139,2021-04-07,MMF,1000 mg BID
+subject_7146,2016-03-09,mycophenolate mofetil,1000 mg BID
+subject_7146,2016-02-07,tocilizumab,162 mg SC weekly
+subject_7146,2016-11-28,calcium carbonate,500 mg daily
+subject_7146,2016-11-01,albuterol,PRN
+subject_7148,2016-07-09,omeprazole,20 mg daily
+subject_7149,2022-07-04,CellCept,1500 mg BID
+subject_7149,2022-09-01,ibuprofen,400 mg PRN
+subject_7168,2019-02-01,CellCept,1000 mg BID
+subject_7168,2019-05-04,rituximab,1000 mg IV x2
+subject_7168,2019-02-20,ibuprofen,400 mg PRN
+subject_7168,2017-07-30,nifedipine,30 mg daily
+subject_7174,2022-12-30,CellCept,1500 mg BID
+subject_7174,2021-11-13,rituximab,1000 mg IV x2
+subject_7174,2021-06-20,levothyroxine,50 mcg daily
+subject_7174,2022-03-20,amlodipine,5 mg daily
+subject_7174,2022-12-04,lisinopril,10 mg daily
+subject_7178,2017-08-17,levothyroxine,50 mcg daily
+subject_7178,2018-10-04,vitamin D3,2000 IU daily
+subject_7181,2020-07-17,MMF,1000 mg BID
+subject_7181,2023-05-16,atorvastatin,20 mg daily
+subject_7184,2021-05-22,mycophenolate mofetil,1500 mg BID
+subject_7192,2021-07-21,mycophenolate mofetil,500 mg BID
+subject_7192,2021-09-17,omeprazole,20 mg daily
+subject_7192,2022-01-11,levothyroxine,50 mcg daily
+subject_7197,2019-01-09,mycophenolate mofetil,500 mg BID
+subject_7197,2019-06-21,atorvastatin,20 mg daily
+subject_7197,2021-07-06,naproxen,500 mg BID
+subject_7200,2021-08-18,atorvastatin,20 mg daily
+subject_7200,2023-03-19,omeprazole,20 mg daily
+subject_7200,2024-05-15,naproxen,500 mg BID
+subject_7203,2019-11-12,tocilizumab,162 mg SC weekly
+subject_7203,2019-03-23,ibuprofen,400 mg PRN
+subject_7211,2019-03-23,CellCept,1 g twice daily
+subject_7217,2023-01-08,nifedipine,30 mg daily
+subject_7219,2022-09-19,CellCept,1500 mg BID
+subject_7219,2022-07-28,levothyroxine,50 mcg daily
+subject_7229,2018-03-13,MMF,1 g twice daily
+subject_7229,2018-09-02,rituximab,1000 mg IV x2
+subject_7229,,tocilizumab,162 mg SC weekly
+subject_7229,2019-10-04,ibuprofen,400 mg PRN
+subject_7229,2019-07-26,lisinopril,10 mg daily
+subject_7229,2018-01-23,amlodipine,5 mg daily
+subject_7235,2017-03-13,albuterol,PRN
+subject_7235,2017-10-06,amlodipine,5 mg daily
+subject_7242,2023-01-20,MMF,500 mg BID
+subject_7242,2021-09-16,atorvastatin,20 mg daily
+subject_7244,2024-09-02,vitamin D3,2000 IU daily
+subject_7244,2023-09-23,albuterol,PRN
+subject_7244,2021-10-31,naproxen,500 mg BID
+subject_7250,2022-05-15,mycophenolate mofetil,500 mg BID
+subject_7250,2022-07-16,ibuprofen,400 mg PRN
+subject_7250,2022-11-22,lisinopril,10 mg daily
+subject_7258,2021-04-20,levothyroxine,50 mcg daily
+subject_7258,2021-12-13,albuterol,PRN
+subject_7258,2024-04-08,amlodipine,5 mg daily
+subject_7264,2020-07-03,calcium carbonate,500 mg daily
+subject_7264,2016-12-13,naproxen,500 mg BID
+subject_7269,2018-10-19,MMF,750mg BID
+subject_7269,2022-02-12,vitamin D3,2000 IU daily
+subject_7273,2020-09-15,ibuprofen,400 mg PRN
+subject_7282,2017-11-04,rituximab,1000 mg IV x2
+subject_7282,2018-03-01,calcium carbonate,500 mg daily
+subject_7282,2018-08-17,omeprazole,20 mg daily
+subject_7285,2019-07-04,MMF,1 g twice daily
+subject_7285,2021-09-01,lisinopril,10 mg daily
+subject_7285,2018-07-12,lisinopril,10 mg daily
+subject_7286,2019-05-15,vitamin D3,2000 IU daily
+subject_7297,2017-10-16,CellCept,1500 mg BID
+subject_7297,2018-02-20,rituximab,1000 mg IV x2
+subject_7297,2018-02-02,albuterol,PRN
+subject_7297,2016-07-30,amlodipine,5 mg daily
+subject_7297,2018-09-26,vitamin D3,2000 IU daily
+subject_7301,2021-05-03,amlodipine,5 mg daily
+subject_7301,2021-10-11,calcium carbonate,500 mg daily
+subject_7313,2019-08-18,rituximab,1000 mg IV x2
+subject_7316,2020-05-08,vitamin D3,2000 IU daily
+subject_7324,2023-06-11,vitamin D3,2000 IU daily
+subject_7324,2021-06-11,calcium carbonate,500 mg daily
+subject_7326,2018-06-15,mycophenolate mofetil,1500 mg BID
+subject_7326,2020-05-08,rituximab,1000 mg IV x2
+subject_7326,2021-07-30,naproxen,500 mg BID
+subject_7328,2017-01-22,albuterol,PRN
+subject_7328,2018-01-31,naproxen,500 mg BID
+subject_7328,2019-05-22,lisinopril,10 mg daily
+subject_7330,2020-02-26,mycophenolate mofetil,1500 mg BID
+subject_7330,2018-11-29,rituximab,1000 mg IV x2
+subject_7330,2021-12-26,amlodipine,5 mg daily
+subject_7330,2019-01-09,ibuprofen,400 mg PRN
+subject_7333,2017-07-09,CellCept,1500 mg BID
+subject_7333,2020-07-22,omeprazole,20 mg daily
+subject_7333,2019-05-12,atorvastatin,20 mg daily
+subject_7333,2017-05-29,naproxen,500 mg BID
+subject_7335,2020-05-23,atorvastatin,20 mg daily
+subject_7338,2018-03-12,mycophenolate mofetil,750mg BID
+subject_7338,2018-10-04,nifedipine,30 mg daily
+subject_7341,2018-05-30,mycophenolate mofetil,1500 mg BID
+subject_7341,2017-08-24,rituximab,1000 mg IV x2
+subject_7341,2017-06-07,omeprazole,20 mg daily
+subject_7342,2019-03-07,vitamin D3,2000 IU daily
+subject_7343,2022-07-19,CellCept,750mg BID
+subject_7343,2023-03-03,tocilizumab,162 mg SC weekly
+subject_7343,2024-05-21,omeprazole,20 mg daily
+subject_7343,2020-11-26,albuterol,PRN
+subject_7344,2020-11-24,omeprazole,20 mg daily
+subject_7344,2019-02-20,nifedipine,30 mg daily
+subject_7349,2020-01-01,CellCept,1 g twice daily
+subject_7353,2020-02-13,CellCept,1 g twice daily
+subject_7354,2020-05-05,calcium carbonate,500 mg daily
+subject_7354,2020-06-23,naproxen,500 mg BID
+subject_7354,2020-01-23,naproxen,500 mg BID
+subject_7365,2018-01-21,naproxen,500 mg BID
+subject_7365,2017-07-13,vitamin D3,2000 IU daily
+subject_7365,2018-10-12,calcium carbonate,500 mg daily
+subject_7377,2016-11-01,mycophenolate mofetil,1500 mg BID
+subject_7377,2018-04-23,tocilizumab,162 mg SC weekly
+subject_7377,2016-07-20,levothyroxine,50 mcg daily
+subject_7377,2019-07-27,,20 mg daily
+subject_7377,2018-04-23,vitamin D3,2000 IU daily
+subject_7379,,MMF,1500 mg BID
+subject_7379,2022-01-12,calcium carbonate,500 mg daily
+subject_7379,2021-02-24,naproxen,500 mg BID
+subject_7406,2022-05-07,vitamin D3,2000 IU daily
+subject_7406,2021-05-24,lisinopril,10 mg daily
+subject_7410,2020-04-29,tocilizumab,162 mg SC weekly
+subject_7410,2022-07-19,omeprazole,20 mg daily
+subject_7410,2019-12-06,nifedipine,500 mL tablets daily
+subject_7410,2019-08-08,levothyroxine,50 mcg daily
+subject_7413,2020-09-08,MMF,1 g twice daily
+subject_7413,2021-11-17,rituximab,1000 mg IV x2
+subject_7413,2022-03-19,amlodipine,5 mg daily
+subject_7413,2022-06-25,lisinopril,10 mg daily
+subject_7418,2017-05-18,albuterol,PRN
+subject_7418,2019-04-02,nifedipine,30 mg daily
+subject_7418,2018-03-08,levothyroxine,50 mcg daily
+subject_7420,2016-12-28,naproxen,500 mg BID
+subject_7437,2019-05-21,naproxen,500 mg BID
+subject_7437,2021-06-07,nifedipine,30 mg daily
+subject_7439,2018-08-10,omeprazole,20 mg daily
+subject_7442,2016-10-10,naproxen,500 mg BID
+subject_7442,2018-08-21,nifedipine,30 mg daily
+subject_7443,2017-02-28,amlodipine,5 mg daily
+subject_7443,2017-09-11,naproxen,500 mg BID
+subject_7443,2018-06-23,lisinopril,10 mg daily
+subject_7445,2020-08-12,levothyroxine,50 mcg daily
+subject_7447,2022-06-21,albuterol,PRN
+subject_7452,2018-01-24,omeprazole,20 mg daily
+subject_7452,2021-03-27,naproxen,500 mg BID
+subject_7459,2018-04-04,CellCept,750mg BID
+subject_7459,2017-08-03,rituximab,1000 mg IV x2
+subject_7459,2017-01-04,levothyroxine,50 mcg daily
+subject_7459,2019-08-19,nifedipine,30 mg daily
+subject_7461,2020-06-28,rituximab,1000 mg IV x2
+subject_7461,2020-01-23,omeprazole,
+subject_7461,2022-11-06,ibuprofen,400 mg PRN
+subject_7461,2019-09-04,vitamin D3,2000 IU daily
+subject_7463,2019-06-13,rituximab,1000 mg IV x2
+subject_7463,2017-08-03,omeprazole,20 mg daily
+subject_7467,2020-07-01,amlodipine,10000 mg every hour
+subject_7477,2016-10-14,CellCept,1 g twice daily
+subject_7496,2023-07-12,mycophenolate mofetil,1000 mg BID
+subject_7496,2024-05-25,atorvastatin,20 mg daily
+subject_7496,2025-06-24,atorvastatin,
+subject_7509,2021-05-18,MMF,1 g twice daily
+subject_7509,2023-09-10,naproxen,500 mg BID
+subject_7509,2024-08-17,vitamin D3,2000 IU daily
+subject_7509,2023-05-05,amlodipine,5 mg daily
+subject_7522,2021-04-06,naproxen,-25 mg daily
+subject_7522,2020-12-09,nifedipine,30 mg daily
+subject_7522,2020-08-09,calcium carbonate,500 mg daily
+subject_7525,2022-03-30,MMF,1 g twice daily
+subject_7525,2024-05-20,albuterol,PRN
+subject_7525,2022-06-17,atorvastatin,20 mg daily
+subject_7526,2016-06-30,naproxen,500 mg BID
+subject_7526,,amlodipine,5 mg daily
+subject_7526,2018-11-06,vitamin D3,2000 IU daily
+subject_7529,2018-03-23,rituximab,1000 mg IV x2
+subject_7529,2017-01-09,lisinopril,10 mg daily
+subject_7535,2022-04-28,levothyroxine,50 mcg daily
+subject_7535,2021-02-14,vitamin D3,2000 IU daily
+subject_7537,2020-06-29,MMF,750mg BID
+subject_7537,2021-12-14,amlodipine,5 mg daily
+subject_7537,2020-08-23,levothyroxine,50 mcg daily
+subject_7539,2020-02-27,CellCept,750mg BID
+subject_7541,2018-02-27,mycophenolate mofetil,1 g twice daily
+subject_7541,2017-06-02,ibuprofen,400 mg PRN
+subject_7541,2020-08-21,levothyroxine,50 mcg daily
+subject_7541,2018-09-23,levothyroxine,50 mcg daily
+subject_7544,2018-09-05,mycophenolate mofetil,500 mg BID
+subject_7555,2019-07-27,atorvastatin,20 mg daily
+subject_7556,2020-05-17,CellCept,500 mg BID
+subject_7560,2023-01-11,tocilizumab,162 mg SC weekly
+subject_7560,2023-01-07,albuterol,PRN
+subject_7560,2023-11-24,calcium carbonate,500 mg daily
+subject_7560,2023-02-05,vitamin D3,2000 IU daily
+subject_7561,2022-08-15,MMF,750mg BID
+subject_7561,2023-02-17,rituximab,1000 mg IV x2
+subject_7561,2021-06-29,lisinopril,10 mg daily
+subject_7561,2022-12-27,calcium carbonate,500 mg daily
+subject_7563,2020-05-18,tocilizumab,162 mg SC weekly
+subject_7564,2015-09-17,MMF,1000 mg BID
+subject_7564,2015-06-21,omeprazole,20 mg daily
+subject_7570,2022-08-26,MMF,1 g twice daily
+subject_7570,2022-11-19,rituximab,1000 mg IV x2
+subject_7570,2024-04-14,tocilizumab,162 mg SC weekly
+subject_7570,2023-09-16,calcium carbonate,500 mg daily
+subject_7575,2019-10-24,CellCept,
+subject_7575,2020-04-18,ibuprofen,400 mg PRN
+subject_7575,2022-11-05,levothyroxine,50 mcg daily
+subject_7575,2021-01-26,lisinopril,10 mg daily
+subject_7581,2020-06-21,lisinopril,10 mg daily
+subject_7581,2022-11-13,vitamin D3,2000 IU daily
+subject_7581,2020-03-12,atorvastatin,20 mg daily
+subject_7585,2017-07-22,naproxen,500 mg BID
+subject_7592,2020-09-17,MMF,1000 mg BID
+subject_7592,2022-06-16,calcium carbonate,500 mg daily
+subject_7592,2021-09-29,vitamin D3,2000 IU daily
+subject_7592,2022-02-10,albuterol,PRN
+subject_7593,2018-05-21,mycophenolate mofetil,1500 mg BID
+subject_7595,2022-01-15,MMF,750mg BID
+subject_7595,2023-12-16,,PRN
+subject_7602,2023-01-26,calcium carbonate,500 mg daily
+subject_7604,2025-03-26,albuterol,PRN
+subject_7609,2017-01-23,CellCept,1 g twice daily
+subject_7609,2017-07-01,vitamin D3,2000 IU daily
+subject_7609,2018-04-04,atorvastatin,20 mg daily
+subject_7612,2016-03-20,MMF,750mg BID
+subject_7612,2018-06-05,rituximab,1000 mg IV x2
+subject_7612,2018-07-08,calcium carbonate,500 mg daily
+subject_7624,2016-09-25,lisinopril,10 mg daily
+subject_7626,2021-05-02,CellCept,500 mg BID
+subject_7626,2020-08-03,albuterol,
+subject_7626,2020-07-01,levothyroxine,50 mcg daily
+subject_7644,2020-06-28,mycophenolate mofetil,1 g twice daily
+subject_7644,2021-01-16,levothyroxine,50 mcg daily
+subject_7645,2020-07-20,mycophenolate mofetil,1000 mg BID
+subject_7646,2018-10-21,vitamin D3,2000 IU daily
+subject_7656,2021-10-07,MMF,1 g twice daily
+subject_7656,2021-09-12,nifedipine,30 mg daily
+subject_7656,2023-07-30,atorvastatin,20 mg daily
+subject_7660,2023-03-07,mycophenolate mofetil,1500 mg BID
+subject_7662,2019-04-10,nifedipine,30 mg daily
+subject_7662,2016-07-10,albuterol,PRN
+subject_7662,2016-09-30,ibuprofen,400 mg PRN
+subject_7663,2022-01-05,CellCept,1500 mg BID
+subject_7663,2024-01-03,albuterol,PRN
+subject_7663,2024-02-08,atorvastatin,20 mg daily
+subject_7664,2020-04-22,rituximab,1000 mg IV x2
+subject_7664,2019-05-29,tocilizumab,162 mg SC weekly
+subject_7664,2019-07-28,omeprazole,20 mg daily
+subject_7665,2022-05-13,rituximab,1000 mg IV x2
+subject_7671,2020-04-14,tocilizumab,162 mg SC weekly
+subject_7671,2018-11-12,nifedipine,30 mg daily
+subject_7671,2020-01-09,vitamin D3,2000 IU daily
+subject_7673,2019-03-19,CellCept,500 mg BID
+subject_7673,2019-03-06,calcium carbonate,500 mg daily
+subject_7674,2020-09-13,tocilizumab,162 mg SC weekly
+subject_7674,2022-12-23,albuterol,PRN
+subject_7674,2021-07-08,naproxen,
+subject_7676,2019-09-02,omeprazole,20 mg daily
+subject_7676,2019-03-07,naproxen,500 mg BID
+subject_7676,2020-07-12,vitamin D3,2000 IU daily
+subject_7693,2020-09-20,atorvastatin,20 mg daily
+subject_7693,2022-03-25,albuterol,PRN
+subject_7702,2020-12-19,tocilizumab,162 mg SC weekly
+subject_7702,2021-10-12,albuterol,PRN
+subject_7704,2017-01-10,MMF,500 mg BID
+subject_7704,2016-05-29,lisinopril,10 mg daily
+subject_7704,2016-01-30,atorvastatin,20 mg daily
+subject_7707,2021-09-24,MMF,750mg BID
+subject_7707,2023-03-11,rituximab,1000 mg IV x2
+subject_7707,2022-12-18,tocilizumab,162 mg SC weekly
+subject_7707,2023-02-21,amlodipine,5 mg daily
+subject_7707,2023-07-14,omeprazole,20 mg daily
+subject_7707,2022-06-13,lisinopril,10 mg daily
+subject_7711,2020-03-28,MMF,500 mg BID
+subject_7711,2020-09-03,rituximab,1000 mg IV x2
+subject_7711,2021-10-10,tocilizumab,162 mg SC weekly
+subject_7711,2019-09-23,nifedipine,30 mg daily
+subject_7718,2022-08-31,tocilizumab,162 mg SC weekly
+subject_7718,2021-04-16,amlodipine,5 mg daily
+subject_7718,2020-11-08,omeprazole,20 mg daily
+subject_7720,2022-07-15,,1000 mg BID
+subject_7720,2024-11-14,ibuprofen,400 mg PRN
+subject_7720,2024-11-18,calcium carbonate,500 mg daily
+subject_7723,2022-10-03,rituximab,1000 mg IV x2
+subject_7723,2022-04-28,albuterol,PRN
+subject_7723,2022-09-19,levothyroxine,50 mcg daily
+subject_7723,2022-10-28,lisinopril,10 mg daily
+subject_7727,,calcium carbonate,500 mg daily
+subject_7729,2023-01-20,MMF,1500 mg BID
+subject_7741,2019-12-20,mycophenolate mofetil,1000 mg BID
+subject_7741,2022-01-28,levothyroxine,50 mcg daily
+subject_7741,2021-01-22,calcium carbonate,500 mg daily
+subject_7742,2016-10-22,CellCept,250 g twice daily
+subject_7742,2019-03-20,albuterol,PRN
+subject_7742,2016-08-22,lisinopril,10 mg daily
+subject_7754,2017-04-22,mycophenolate mofetil,500 mg BID
+subject_7754,2018-06-03,rituximab,1000 mg IV x2
+subject_7754,2018-02-10,lisinopril,10 mg daily
+subject_7754,2017-12-03,naproxen,500 mg BID
+subject_7754,2019-12-04,lisinopril,10 mg daily
+subject_7760,2017-05-28,CellCept,1500 mg BID
+subject_7760,2019-04-12,lisinopril,
+subject_7760,2016-09-04,omeprazole,20 mg daily
+subject_7760,2017-01-14,calcium carbonate,500 mg daily
+subject_7761,2022-01-14,rituximab,1000 mg IV x2
+subject_7761,2023-11-11,atorvastatin,20 mg daily
+subject_7761,2022-10-08,ibuprofen,
+subject_7766,2020-01-16,CellCept,500 mg BID
+subject_7766,2020-12-28,naproxen,
+subject_7766,2019-10-12,naproxen,500 mg BID
+subject_7766,2021-11-22,vitamin D3,2000 IU daily
+subject_7785,2021-06-14,mycophenolate mofetil,1000 mg BID
+subject_7785,2022-09-26,naproxen,500 mg BID
+subject_7785,2021-12-25,amlodipine,5 mg daily
+subject_7788,2019-01-27,mycophenolate mofetil,1000 mg BID
+subject_7788,2020-05-26,atorvastatin,20 mg daily
+subject_7788,2019-10-31,nifedipine,30 mg daily
+subject_7788,2020-11-01,amlodipine,5 mg daily
+subject_7789,2019-10-03,mycophenolate mofetil,1000 mg BID
+subject_7792,2021-08-29,MMF,1500 mg BID
+subject_7792,2020-12-11,nifedipine,30 mg daily
+subject_7792,2022-03-16,atorvastatin,20 mg daily
+subject_7797,2018-06-30,rituximab,1000 mg IV x2
+subject_7797,2016-06-23,tocilizumab,
+subject_7797,2018-08-19,levothyroxine,50 mcg daily
+subject_7803,2017-11-04,mycophenolate mofetil,1000 mg BID
+subject_7803,2018-12-24,lisinopril,10 mg daily
+subject_7803,2017-03-26,albuterol,PRN
+subject_7803,2018-07-16,lisinopril,10 mg daily
+subject_7804,2015-07-21,omeprazole,20 mg daily
+subject_7804,2016-12-05,naproxen,500 mg BID
+subject_7815,2021-11-09,CellCept,1500 mg BID
+subject_7815,2023-03-25,nifedipine,30 mg daily
+subject_7818,2020-09-22,MMF,500 mg BID
+subject_7826,2016-05-06,mycophenolate mofetil,1500 mg BID
+subject_7826,2018-09-06,tocilizumab,162 mg SC weekly
+subject_7826,2016-11-11,nifedipine,30 mg daily
+subject_7826,2017-08-12,omeprazole,20 mg daily
+subject_7830,2020-08-10,MMF,750mg BID
+subject_7830,2021-06-30,rituximab,1000 mg IV x2
+subject_7830,2019-05-25,,50 mcg daily
+subject_7830,2022-10-03,ibuprofen,
+subject_7832,2020-05-25,amlodipine,5 mg daily
+subject_7832,2021-06-24,calcium carbonate,500 mg daily
+subject_7832,2022-02-14,calcium carbonate,500 mg daily
+subject_7833,2022-01-12,mycophenolate mofetil,1 g twice daily
+subject_7833,2024-03-11,tocilizumab,162 mg SC weekly
+subject_7833,2024-06-17,lisinopril,10 mg daily
+subject_7838,2017-03-10,omeprazole,20 mg daily
+subject_7838,2017-03-31,omeprazole,20 mg daily
+subject_7846,2021-02-24,naproxen,500 mg BID
+subject_7856,2021-03-30,vitamin D3,2000 IU daily
+subject_7857,2016-05-21,mycophenolate mofetil,1000 mg BID
+subject_7857,2018-03-24,rituximab,1000 mg IV x2
+subject_7857,2019-06-01,calcium carbonate,500 mg daily
+subject_7857,2019-01-03,calcium carbonate,500 mg daily
+subject_7865,2017-02-19,MMF,500 mg BID
+subject_7865,2018-11-14,tocilizumab,162 mg SC weekly
+subject_7865,2018-06-01,levothyroxine,50 mcg daily
+subject_7865,2019-08-26,omeprazole,20 mg daily
+subject_7872,2022-08-16,albuterol,PRN
+subject_7872,2021-06-05,omeprazole,20 mg daily
+subject_7876,2017-03-26,lisinopril,10 mg daily
+subject_7876,2018-09-18,calcium carbonate,500 mg daily
+subject_7879,2020-01-09,omeprazole,20 mg daily
+subject_7879,2018-10-07,omeprazole,20 mg daily
+subject_7879,2021-12-21,ibuprofen,400 mg PRN
+subject_7880,2019-09-25,atorvastatin,20 mg daily
+subject_7880,2021-11-07,lisinopril,
+subject_7880,2019-02-14,atorvastatin,20 mg daily
+subject_7885,2019-06-08,rituximab,1000 mg IV x2
+subject_7885,2020-06-19,lisinopril,10 mg daily
+subject_7885,2019-11-21,lisinopril,10 mg daily
+subject_7889,2020-08-26,rituximab,1000 mg IV x2
+subject_7896,2018-06-23,rituximab,1000 mg IV x2
+subject_7896,2020-08-25,naproxen,500 mg BID
+subject_7906,2017-12-07,mycophenolate mofetil,1 g twice daily
+subject_7906,2017-06-04,rituximab,1000 mg IV x2
+subject_7906,2020-03-23,levothyroxine,50 mcg daily
+subject_7910,2016-07-05,rituximab,1000 mg IV x2
+subject_7910,2018-06-29,naproxen,500 mg BID
+subject_7913,2019-08-03,mycophenolate mofetil,750mg BID
+subject_7913,2020-11-23,rituximab,1000 mg IV x2
+subject_7913,2021-09-02,ibuprofen,400 mg PRN
+subject_7913,2020-02-19,atorvastatin,20 mg daily
+subject_7927,2023-08-16,vitamin D3,2000 IU daily
+subject_7927,2022-03-10,naproxen,500 mg BID
+subject_7927,2022-05-28,calcium carbonate,500 mg daily
+subject_7937,2018-12-02,,1500 mg BID
+subject_7937,2020-08-30,rituximab,1000 mg IV x2
+subject_7937,2019-07-06,levothyroxine,50 mcg daily
+subject_7937,2021-03-20,vitamin D3,2000 IU daily
+subject_7940,2021-04-30,rituximab,1000 mg IV x2
+subject_7940,2021-01-15,lisinopril,10 mg daily
+subject_7940,2024-09-12,ibuprofen,400 mg PRN
+subject_7940,2022-12-01,lisinopril,10 mg daily
+subject_7952,2018-11-05,CellCept,1 g twice daily
+subject_7952,2019-09-05,omeprazole,20 mg daily
+subject_7952,2018-01-02,naproxen,500 mg BID
+subject_7962,2017-07-25,rituximab,1000 mg IV x2
+subject_7965,2020-11-29,calcium carbonate,500 mg daily
+subject_7965,2020-11-17,vitamin D3,
+subject_7971,2024-04-30,rituximab,1000 mg IV x2
+subject_7971,2022-07-15,levothyroxine,999 tablets daily
+subject_7971,2025-01-03,nifedipine,30 mg daily
+subject_7971,2021-05-13,naproxen,500 mg BID
+subject_7979,2019-05-14,MMF,1500 mg BID
+subject_7979,2019-07-08,omeprazole,20 mg daily
+subject_7982,2019-02-04,atorvastatin,20 mg daily
+subject_7996,2016-08-29,MMF,1000 mg BID
+subject_7998,2023-04-18,atorvastatin,20 mg daily
+subject_7998,2020-01-07,calcium carbonate,500 mg daily
+subject_7998,2019-06-19,naproxen,500 mg BID
+subject_8010,2021-08-30,CellCept,1 g twice daily
+subject_8010,2022-04-20,tocilizumab,162 mg SC weekly
+subject_8010,2023-03-17,ibuprofen,400 mg PRN
+subject_8010,2023-09-21,calcium carbonate,500 mg daily
+subject_8015,2021-04-29,rituximab,1000 mg IV x2
+subject_8015,2022-11-16,nifedipine,30 mg daily
+subject_8019,2020-11-24,rituximab,1000 mg IV x2
+subject_8025,2020-03-17,atorvastatin,20 mg daily
+subject_8043,2020-11-14,lisinopril,10 mg daily
+subject_8043,2020-07-14,naproxen,500 mg BID
+subject_8044,2015-08-29,mycophenolate mofetil,1500 mg BID
+subject_8044,2017-03-23,amlodipine,
+subject_8046,2022-01-09,lisinopril,10 mg daily
+subject_8046,2021-09-04,lisinopril,10 mg daily
+subject_8046,2024-09-29,calcium carbonate,500 mg daily
+subject_8047,2020-11-21,levothyroxine,50 mcg daily
+subject_8050,2021-01-20,MMF,1500 mg BID
+subject_8050,2023-09-26,naproxen,500 mg BID
+subject_8056,2024-03-27,rituximab,1000 mg IV x2
+subject_8057,2021-03-11,rituximab,1000 mg IV x2
+subject_8057,2022-08-19,naproxen,500 mg BID
+subject_8058,2022-06-07,MMF,1 g twice daily
+subject_8058,2023-01-03,amlodipine,5 mg daily
+subject_8058,2024-08-14,vitamin D3,2000 IU daily
+subject_8058,2022-02-22,vitamin D3,2000 IU daily
+subject_8059,2015-06-26,omeprazole,20 mg daily
+subject_8059,2017-11-12,naproxen,500 mg BID
+subject_8059,2016-03-17,vitamin D3,2000 IU daily
+subject_8060,2023-02-09,rituximab,1000 mg IV x2
+subject_8074,2020-06-02,CellCept,
+subject_8078,2022-11-08,vitamin D3,2000 IU daily
+subject_8078,2021-09-27,nifedipine,30 mg daily
+subject_8082,2016-12-25,naproxen,500 mg BID
+subject_8082,2019-06-27,vitamin D3,2000 IU daily
+subject_8090,2017-05-21,mycophenolate mofetil,1500 mg BID
+subject_8090,2018-10-07,albuterol,PRN
+subject_8090,2018-08-09,calcium carbonate,500 mg daily
+subject_8100,2018-05-24,tocilizumab,162 mg SC weekly
+subject_8100,2019-04-20,amlodipine,5 mg daily
+subject_8100,2018-03-23,lisinopril,10 mg daily
+subject_8100,2017-11-29,atorvastatin,20 mg daily
+subject_8103,2017-02-22,albuterol,PRN
+subject_8103,2016-10-08,omeprazole,20 mg daily
+subject_8111,2023-10-14,nifedipine,30 mg daily
+subject_8111,2022-05-27,amlodipine,5 mg daily
+subject_8117,2017-11-26,MMF,750mg BID
+subject_8117,2018-01-17,vitamin D3,2000 IU daily
+subject_8117,2020-11-11,levothyroxine,50 mcg daily
+subject_8120,2016-06-09,tocilizumab,162 mg SC weekly
+subject_8129,2021-01-01,ibuprofen,400 mg PRN
+subject_8131,2022-06-19,tocilizumab,162 mg SC weekly
+subject_8131,2022-09-04,atorvastatin,999 tablets daily
+subject_8135,2021-09-27,ibuprofen,400 mg PRN
+subject_8135,2021-11-21,calcium carbonate,500 mg daily
+subject_8135,2024-12-31,levothyroxine,50 mcg daily
+subject_8145,2021-05-27,CellCept,1500 mg BID
+subject_8145,2021-08-06,naproxen,500 mg BID
+subject_8145,2021-01-06,amlodipine,5 mg daily
+subject_8145,2021-07-31,amlodipine,5 mg daily
+subject_8147,2021-04-18,MMF,750mg BID
+subject_8147,2023-08-10,rituximab,1000 mg IV x2
+subject_8147,2024-12-17,amlodipine,5 mg daily
+subject_8147,2021-07-26,ibuprofen,400 mg PRN
+subject_8148,2016-08-04,mycophenolate mofetil,500 mg BID
+subject_8148,2017-01-22,ibuprofen,400 mg PRN
+subject_8148,2016-06-27,atorvastatin,20 mg daily
+subject_8148,2018-04-12,amlodipine,5 mg daily
+subject_8159,2022-04-26,CellCept,1000 mg BID
+subject_8159,2024-08-10,atorvastatin,20 mg daily
+subject_8159,2022-04-16,lisinopril,10 mg daily
+subject_8166,2020-06-11,MMF,750mg BID
+subject_8166,2021-09-10,atorvastatin,20 mg daily
+subject_8166,2023-06-25,nifedipine,30 mg daily
+subject_8167,2021-02-05,MMF,750mg BID
+subject_8167,2021-03-05,naproxen,
+subject_8168,2022-04-05,calcium carbonate,500 mg daily
+subject_8168,,lisinopril,10 mg daily
+subject_8168,2022-06-19,ibuprofen,400 mg PRN
+subject_8171,2016-10-26,mycophenolate mofetil,1500 mg BID
+subject_8171,2020-02-24,vitamin D3,2000 IU daily
+subject_8175,2022-02-07,MMF,750mg BID
+subject_8175,2021-08-18,rituximab,1000 mg IV x2
+subject_8182,2017-04-29,CellCept,500 mg BID
+subject_8182,2016-03-01,rituximab,1000 mg IV x2
+subject_8182,2016-02-10,tocilizumab,162 mg SC weekly
+subject_8182,2016-02-06,albuterol,PRN
+subject_8182,2019-01-20,nifedipine,30 mg daily
+subject_8182,2016-07-16,albuterol,PRN
+subject_8185,2019-06-12,amlodipine,5 mg daily
+subject_8191,2019-02-03,nifedipine,30 mg daily
+subject_8191,2022-01-09,atorvastatin,20 mg daily
+subject_8221,2020-08-19,atorvastatin,20 mg daily
+subject_8222,2020-04-05,tocilizumab,162 mg SC weekly
+subject_8222,2021-11-30,albuterol,PRN
+subject_8222,2019-03-07,naproxen,500 mg BID
+subject_8223,2020-05-06,amlodipine,5 mg daily
+subject_8223,2017-08-02,naproxen,500 mg BID
+subject_8223,,albuterol,PRN
+subject_8225,2017-05-14,rituximab,1000 mg IV x2
+subject_8225,2017-08-03,atorvastatin,20 mg daily
+subject_8225,2017-04-07,amlodipine,5 mg daily
+subject_8227,2023-09-04,mycophenolate mofetil,1 g twice daily
+subject_8227,2024-01-19,rituximab,1000 mg IV x2
+subject_8227,2024-12-07,,2000 IU daily
+subject_8232,2019-12-12,albuterol,PRN
+subject_8232,2020-10-24,amlodipine,5 mg daily
+subject_8234,2021-11-29,mycophenolate mofetil,1 g twice daily
+subject_8234,2020-08-30,lisinopril,10 mg daily
+subject_8234,2021-05-15,,20 mg daily
+subject_8234,2022-01-06,amlodipine,5 mg daily
+subject_8235,2017-11-12,tocilizumab,162 mg SC weekly
+subject_8235,2016-05-25,lisinopril,10 mg daily
+subject_8241,2016-01-18,MMF,1500 mg BID
+subject_8241,2018-02-16,rituximab,1000 mg IV x2
+subject_8241,2019-03-04,lisinopril,10 mg daily
+subject_8241,2018-11-11,calcium carbonate,500 mg daily
+subject_8241,2017-11-18,atorvastatin,20 mg daily
+subject_8243,2016-03-07,MMF,500 mg BID
+subject_8243,2016-03-28,tocilizumab,162 mg SC weekly
+subject_8243,2017-08-01,ibuprofen,400 mg PRN
+subject_8244,2019-11-21,mycophenolate mofetil,1000 mg BID
+subject_8244,2018-04-09,levothyroxine,50 mcg daily
+subject_8245,2019-02-25,mycophenolate mofetil,1000 mg BID
+subject_8245,2020-10-20,naproxen,500 mg BID
+subject_8245,2019-11-12,amlodipine,5 mg daily
+subject_8245,2020-08-07,calcium carbonate,500 mg daily
+subject_8251,2022-03-20,CellCept,1 g twice daily
+subject_8251,2021-12-25,rituximab,1000 mg IV x2
+subject_8254,2019-08-14,mycophenolate mofetil,1500 mg BID
+subject_8254,2020-06-23,tocilizumab,162 mg SC weekly
+subject_8254,2019-08-14,nifedipine,30 mg daily
+subject_8254,2020-10-04,albuterol,PRN
+subject_8258,2018-07-19,CellCept,750mg BID
+subject_8258,2021-03-18,naproxen,500 mg BID
+subject_8264,2020-12-15,ibuprofen,400 mg PRN
+subject_8264,2022-03-10,omeprazole,20 mg daily
+subject_8264,2021-06-29,atorvastatin,500 mL tablets daily
+subject_8270,2016-06-12,omeprazole,20 mg daily
+subject_8270,2016-11-30,atorvastatin,20 mg daily
+subject_8270,2018-05-27,levothyroxine,50 mcg daily
+subject_8273,2020-11-15,lisinopril,10 mg daily
+subject_8273,2024-09-29,vitamin D3,2000 IU daily
+subject_8275,2020-05-29,mycophenolate mofetil,1 g twice daily
+subject_8275,2023-03-08,albuterol,PRN
+subject_8279,2018-12-29,MMF,500 mg BID
+subject_8279,2022-07-16,albuterol,PRN
+subject_8279,2021-01-07,albuterol,PRN
+subject_8279,2021-06-13,lisinopril,10 mg daily
+subject_8284,2018-04-08,mycophenolate mofetil,500 mg BID
+subject_8284,2019-04-07,rituximab,1000 mg IV x2
+subject_8284,2019-06-09,naproxen,500 mg BID
+subject_8284,2018-10-27,calcium carbonate,500 mg daily
+subject_8284,2018-03-03,albuterol,PRN
+subject_8290,2019-04-27,atorvastatin,20 mg daily
+subject_8290,2017-04-09,lisinopril,10 mg daily
+subject_8293,2024-01-09,omeprazole,20 mg daily
+subject_8294,2021-01-20,lisinopril,10 mg daily
+subject_8312,2018-09-21,CellCept,1000 mg BID
+subject_8316,2022-03-22,MMF,750mg BID
+subject_8316,2023-11-16,nifedipine,30 mg daily
+subject_8317,2016-02-29,CellCept,1500 mg BID
+subject_8326,2020-12-24,lisinopril,10 mg daily
+subject_8326,2023-02-25,ibuprofen,400 mg PRN
+subject_8326,2021-07-15,calcium carbonate,500 mg daily
+subject_8327,2020-04-01,vitamin D3,2000 IU daily
+subject_8327,2018-09-08,lisinopril,10 mg daily
+subject_8327,2019-07-05,amlodipine,5 mg daily
+subject_8341,2018-06-23,atorvastatin,0 mg daily
+subject_8341,2019-08-07,albuterol,PRN
+subject_8341,2017-07-30,omeprazole,20 mg daily
+subject_8345,2022-04-02,,1000 mg IV x2
+subject_8345,2021-04-04,levothyroxine,50 mcg daily
+subject_8345,2024-08-26,lisinopril,10 mg daily
+subject_8345,2022-09-23,vitamin D3,2000 IU daily
+subject_8349,2017-11-19,rituximab,1000 mg IV x2
+subject_8349,2018-08-02,naproxen,500 mg BID
+subject_8349,2016-10-21,vitamin D3,2000 IU daily
+subject_8349,2018-12-19,albuterol,PRN
+subject_8350,2019-07-27,atorvastatin,20 mg daily
+subject_8350,2016-11-25,lisinopril,10 mg daily
+subject_8351,2016-11-05,rituximab,1000 mg IV x2
+subject_8351,2019-07-16,levothyroxine,50 mcg daily
+subject_8351,2019-01-02,albuterol,PRN
+subject_8360,2022-05-17,CellCept,1 g twice daily
+subject_8360,2023-03-06,tocilizumab,162 mg SC weekly
+subject_8360,2024-10-01,calcium carbonate,500 mg daily
+subject_8360,2025-01-24,omeprazole,20 mg daily
+subject_8367,2021-05-27,rituximab,1000 mg IV x2
+subject_8367,2022-01-29,omeprazole,20 mg daily
+subject_8377,2020-08-11,calcium carbonate,500 mg daily
+subject_8378,2020-04-13,atorvastatin,20 mg daily
+subject_8379,2022-07-26,tocilizumab,162 mg SC weekly
+subject_8379,2024-10-03,lisinopril,10 mg daily
+subject_8379,2024-07-09,vitamin D3,2000 IU daily
+subject_8379,2024-03-12,omeprazole,20 mg daily
+subject_8383,2021-04-17,CellCept,750mg BID
+subject_8383,2021-03-05,omeprazole,20 mg daily
+subject_8383,2022-09-18,omeprazole,20 mg daily
+subject_8388,2020-03-14,nifedipine,30 mg daily
+subject_8391,2020-04-12,mycophenolate mofetil,500 mg BID
+subject_8391,2020-04-13,amlodipine,-25 mg daily
+subject_8391,2021-10-25,amlodipine,5 mg daily
+subject_8395,2015-09-22,mycophenolate mofetil,500 mg BID
+subject_8395,2016-05-21,naproxen,500 mg BID
+subject_8395,2018-12-16,amlodipine,5 mg daily
+subject_8397,2021-12-04,CellCept,1500 mg BID
+subject_8397,2021-09-08,amlodipine,5 mg daily
+subject_8397,2024-02-14,naproxen,500 mg BID
+subject_8402,2020-10-05,tocilizumab,162 mg SC weekly
+subject_8402,2020-07-23,calcium carbonate,500 mg daily
+subject_8402,2020-12-17,vitamin D3,2000 IU daily
+subject_8406,2018-12-20,amlodipine,5 mg daily
+subject_8407,2018-11-01,omeprazole,20 mg daily
+subject_8407,2017-12-19,omeprazole,20 mg daily
+subject_8407,2017-04-28,omeprazole,20 mg daily
+subject_8409,2022-04-26,naproxen,500 mg BID
+subject_8409,2021-08-03,levothyroxine,50 mcg daily
+subject_8409,2022-05-06,atorvastatin,20 mg daily
+subject_8418,2017-01-07,CellCept,1000 mg BID
+subject_8418,2018-08-03,naproxen,500 mg BID
+subject_8425,2022-02-27,vitamin D3,2000 IU daily
+subject_8431,2020-12-09,MMF,750mg BID
+subject_8431,2019-05-07,levothyroxine,50 mcg daily
+subject_8431,2021-09-29,albuterol,PRN
+subject_8435,2020-11-05,MMF,1500 mg BID
+subject_8435,2021-06-13,amlodipine,5 mg daily
+subject_8435,2021-09-13,nifedipine,30 mg daily
+subject_8435,2022-01-27,albuterol,PRN
+subject_8442,2019-07-16,mycophenolate mofetil,750mg BID
+subject_8442,2021-01-22,rituximab,1000 mg IV x2
+subject_8442,2020-06-08,vitamin D3,2000 IU daily
+subject_8442,2021-10-01,levothyroxine,50 mcg daily
+subject_8442,2020-04-17,calcium carbonate,500 mg daily
+subject_8465,2018-03-21,mycophenolate mofetil,750mg BID
+subject_8465,2019-08-13,tocilizumab,250 g twice daily
+subject_8465,2018-07-15,naproxen,500 mg BID
+subject_8468,2020-09-22,CellCept,1 g twice daily
+subject_8468,2020-02-20,tocilizumab,162 mg SC weekly
+subject_8471,2020-08-05,CellCept,1 g twice daily
+subject_8471,2021-07-21,amlodipine,5 mg daily
+subject_8476,2020-12-07,albuterol,PRN
+subject_8476,2023-08-06,albuterol,PRN
+subject_8476,2022-09-14,omeprazole,20 mg daily
+subject_8479,2018-02-26,mycophenolate mofetil,500 mg BID
+subject_8479,2018-05-21,ibuprofen,
+subject_8497,2022-08-23,calcium carbonate,500 mg daily
+subject_8497,2021-03-18,nifedipine,30 mg daily
+subject_8497,2022-07-22,vitamin D3,2000 IU daily
+subject_8498,2019-09-30,mycophenolate mofetil,1 g twice daily
+subject_8498,2020-01-26,rituximab,1000 mg IV x2
+subject_8498,2020-10-15,omeprazole,20 mg daily
+subject_8501,2022-03-12,rituximab,1000 mg IV x2
+subject_8501,2023-03-28,atorvastatin,20 mg daily
+subject_8501,2023-07-15,atorvastatin,20 mg daily
+subject_8501,2023-10-27,amlodipine,5 mg daily
+subject_8517,2019-10-08,MMF,500 mg BID
+subject_8519,2021-02-03,vitamin D3,2000 IU daily
+subject_8519,2023-05-05,vitamin D3,2000 IU daily
+subject_8519,2020-12-21,levothyroxine,50 mcg daily
+subject_8520,2023-01-16,ibuprofen,400 mg PRN
+subject_8524,2021-05-09,rituximab,1000 mg IV x2
+subject_8535,2020-12-25,MMF,1500 mg BID
+subject_8539,2022-02-15,omeprazole,20 mg daily
+subject_8545,2018-02-07,MMF,1000 mg BID
+subject_8545,2018-08-15,calcium carbonate,500 mg daily
+subject_8545,2018-05-02,albuterol,PRN
+subject_8545,2018-08-03,omeprazole,20 mg daily
+subject_8547,2018-06-30,rituximab,1000 mg IV x2
+subject_8547,2017-09-08,nifedipine,30 mg daily
+subject_8547,2019-04-29,omeprazole,20 mg daily
+subject_8551,2022-11-16,naproxen,500 mg BID
+subject_8551,2019-12-17,albuterol,PRN
+subject_8551,2019-10-15,lisinopril,10 mg daily
+subject_8580,2020-10-01,MMF,750mg BID
+subject_8580,2019-12-02,,PRN
+subject_8580,2019-08-09,albuterol,PRN
+subject_8580,2020-07-04,levothyroxine,-1 tablet daily
+subject_8581,2017-10-23,MMF,500 mg BID
+subject_8581,2016-06-15,albuterol,PRN
+subject_8581,2020-01-14,lisinopril,10 mg daily
+subject_8581,2017-02-15,nifedipine,30 mg daily
+subject_8592,2021-11-08,mycophenolate mofetil,
+subject_8592,2024-04-13,omeprazole,20 mg daily
+subject_8598,2016-06-07,MMF,500 mg BID
+subject_8599,2020-10-15,CellCept,500 mg BID
+subject_8606,2016-02-19,MMF,750mg BID
+subject_8606,2017-01-28,rituximab,1000 mg IV x2
+subject_8606,2016-08-16,atorvastatin,20 mg daily
+subject_8606,2017-06-24,atorvastatin,20 mg daily
+subject_8616,2024-05-04,naproxen,500 mg BID
+subject_8620,2020-12-07,CellCept,1500 mg BID
+subject_8620,2022-02-15,rituximab,1000 mg IV x2
+subject_8621,2019-10-05,MMF,1000 mg BID
+subject_8621,2021-10-31,tocilizumab,162 mg SC weekly
+subject_8621,2023-03-12,vitamin D3,2000 IU daily
+subject_8621,2020-01-08,atorvastatin,20 mg daily
+subject_8621,2021-10-18,omeprazole,20 mg daily
+subject_8628,2020-04-22,omeprazole,20 mg daily
+subject_8628,2023-08-14,atorvastatin,20 mg daily
+subject_8639,2019-03-28,amlodipine,5 mg daily
+subject_8639,2018-04-14,ibuprofen,400 mg PRN
+subject_8645,2022-04-15,mycophenolate mofetil,1 g twice daily
+subject_8645,2020-11-24,tocilizumab,162 mg SC weekly
+subject_8645,2024-01-24,naproxen,500 mg BID
+subject_8646,2017-10-05,CellCept,1 g twice daily
+subject_8650,2019-10-03,tocilizumab,162 mg SC weekly
+subject_8650,2022-10-19,omeprazole,20 mg daily
+subject_8651,2020-01-08,MMF,500 mg BID
+subject_8651,2020-01-28,atorvastatin,20 mg daily
+subject_8651,2020-07-07,albuterol,0 mg daily
+subject_8651,2022-04-27,atorvastatin,20 mg daily
+subject_8653,2017-12-19,CellCept,1500 mg BID
+subject_8653,2019-12-20,naproxen,500 mg BID
+subject_8660,2018-08-04,mycophenolate mofetil,1000 mg BID
+subject_8660,2021-06-20,naproxen,500 mg BID
+subject_8660,2017-12-31,nifedipine,30 mg daily
+subject_8661,2018-01-26,mycophenolate mofetil,1500 mg BID
+subject_8661,2019-01-12,nifedipine,30 mg daily
+subject_8676,2019-10-25,MMF,1000 mg BID
+subject_8676,2020-10-24,calcium carbonate,500 mg daily
+subject_8676,2021-10-19,atorvastatin,20 mg daily
+subject_8676,2020-03-15,calcium carbonate,500 mg daily
+subject_8678,2022-12-27,CellCept,1000 mg BID
+subject_8678,2021-07-20,amlodipine,5 mg daily
+subject_8678,2021-12-25,lisinopril,10 mg daily
+subject_8678,2021-06-09,amlodipine,5 mg daily
+subject_8680,2022-10-05,vitamin D3,2000 IU daily
+subject_8680,2023-02-27,naproxen,500 mg BID
+subject_8683,2022-03-02,MMF,1500 mg BID
+subject_8683,2022-09-18,rituximab,1000 mg IV x2
+subject_8683,2022-11-04,tocilizumab,162 mg SC weekly
+subject_8683,2021-07-08,ibuprofen,400 mg PRN
+subject_8690,2020-02-26,calcium carbonate,500 mg daily
+subject_8692,2022-07-25,amlodipine,5 mg daily
+subject_8696,2022-11-20,tocilizumab,162 mg SC weekly
+subject_8696,2023-09-13,atorvastatin,20 mg daily
+subject_8696,2020-02-20,amlodipine,5 mg daily
+subject_8696,2023-03-28,levothyroxine,50 mcg daily
+subject_8698,2019-06-06,tocilizumab,999 tablets daily
+subject_8699,2018-05-22,CellCept,
+subject_8699,2019-06-24,naproxen,500 mg BID
+subject_8699,2018-03-20,omeprazole,20 mg daily
+subject_8700,2021-01-27,naproxen,500 mg BID
+subject_8700,2022-05-13,naproxen,500 mg BID
+subject_8708,2018-04-22,mycophenolate mofetil,1500 mg BID
+subject_8708,2017-06-30,naproxen,500 mg BID
+subject_8708,2017-05-23,nifedipine,30 mg daily
+subject_8708,2020-07-19,ibuprofen,400 mg PRN
+subject_8713,2020-04-20,mycophenolate mofetil,750mg BID
+subject_8713,2021-06-20,vitamin D3,2000 IU daily
+subject_8714,2019-05-18,lisinopril,10 mg daily
+subject_8727,2021-01-27,levothyroxine,50 mcg daily
+subject_8727,2022-10-24,calcium carbonate,500 mg daily
+subject_8733,2018-12-19,MMF,750mg BID
+subject_8733,2018-12-09,rituximab,1000 mg IV x2
+subject_8733,2019-12-22,lisinopril,10 mg daily
+subject_8733,2020-03-02,lisinopril,10 mg daily
+subject_8733,2018-09-25,naproxen,500 mg BID
+subject_8740,2021-08-02,levothyroxine,50 mcg daily
+subject_8740,2020-09-03,amlodipine,5 mg daily
+subject_8745,2021-08-24,vitamin D3,2000 IU daily
+subject_8748,2015-06-29,vitamin D3,2000 IU daily
+subject_8748,2016-12-15,nifedipine,30 mg daily
+subject_8748,2015-11-06,levothyroxine,250 g twice daily
+subject_8753,2025-02-20,naproxen,500 mg BID
+subject_8754,2020-09-20,albuterol,PRN
+subject_8762,2016-08-03,lisinopril,10 mg daily
+subject_8762,2018-07-19,levothyroxine,50 mcg daily
+subject_8763,2018-08-28,calcium carbonate,500 mg daily
+subject_8769,2019-02-06,naproxen,500 mg BID
+subject_8775,2017-01-03,CellCept,1500 mg BID
+subject_8777,2018-04-14,nifedipine,30 mg daily
+subject_8777,2018-07-24,ibuprofen,400 mg PRN
+subject_8777,2020-05-15,nifedipine,30 mg daily
+subject_8779,2021-10-21,amlodipine,5 mg daily
+subject_8779,2021-03-12,amlodipine,5 mg daily
+subject_8780,2015-09-23,albuterol,0 mg daily
+subject_8780,2018-02-23,nifedipine,30 mg daily
+subject_8786,2017-08-02,ibuprofen,400 mg PRN
+subject_8787,2020-02-14,rituximab,1000 mg IV x2
+subject_8791,2016-12-11,CellCept,750mg BID
+subject_8792,2022-01-01,MMF,1000 mg BID
+subject_8792,2024-02-18,naproxen,500 mg BID
+subject_8792,2024-04-13,nifedipine,30 mg daily
+subject_8798,2023-01-22,nifedipine,30 mg daily
+subject_8798,2023-06-09,nifedipine,30 mg daily
+subject_8798,2024-08-26,ibuprofen,400 mg PRN
+subject_8806,2024-04-11,ibuprofen,400 mg PRN
+subject_8807,2020-04-24,ibuprofen,400 mg PRN
+subject_8807,2019-09-09,lisinopril,10 mg daily
+subject_8812,2023-04-23,tocilizumab,999 tablets daily
+subject_8812,2023-08-10,albuterol,PRN
+subject_8812,2023-08-22,atorvastatin,20 mg daily
+subject_8812,2022-06-01,calcium carbonate,500 mg daily
+subject_8820,2021-08-24,CellCept,750mg BID
+subject_8824,2017-10-08,CellCept,
+subject_8824,2017-11-15,rituximab,
+subject_8824,2018-11-18,naproxen,500 mg BID
+subject_8824,2019-07-21,omeprazole,20 mg daily
+subject_8824,2017-09-04,levothyroxine,50 mcg daily
+subject_8831,2022-03-11,tocilizumab,162 mg SC weekly
+subject_8831,2024-02-08,omeprazole,20 mg daily
+subject_8831,2021-04-09,levothyroxine,50 mcg daily
+subject_8835,2019-09-14,ibuprofen,400 mg PRN
+subject_8844,2022-01-07,ibuprofen,400 mg PRN
+subject_8844,2022-10-05,albuterol,PRN
+subject_8850,2022-07-21,tocilizumab,162 mg SC weekly
+subject_8852,2017-06-01,albuterol,PRN
+subject_8852,2017-09-29,calcium carbonate,500 mg daily
+subject_8864,2021-12-23,calcium carbonate,500 mg daily
+subject_8866,2021-07-23,CellCept,1000 mg BID
+subject_8866,2022-11-08,nifedipine,30 mg daily
+subject_8870,2019-06-28,CellCept,500 mg BID
+subject_8870,2021-07-08,atorvastatin,20 mg daily
+subject_8877,2017-08-20,rituximab,1000 mg IV x2
+subject_8877,2018-02-05,ibuprofen,400 mg PRN
+subject_8877,2018-12-25,naproxen,500 mg BID
+subject_8879,2019-06-21,mycophenolate mofetil,750mg BID
+subject_8879,2021-07-09,tocilizumab,162 mg SC weekly
+subject_8886,2021-03-30,MMF,500 mg BID
+subject_8896,2022-07-30,omeprazole,20 mg daily
+subject_8896,2022-04-30,naproxen,500 mg BID
+subject_8898,2019-03-25,nifedipine,30 mg daily
+subject_8905,2023-07-20,MMF,750mg BID
+subject_8905,2025-03-25,ibuprofen,400 mg PRN
+subject_8908,2019-08-20,MMF,1 g twice daily
+subject_8908,2018-03-27,rituximab,1000 mg IV x2
+subject_8911,2021-12-27,rituximab,10000 mg every hour
+subject_8911,2021-06-08,omeprazole,20 mg daily
+subject_8911,2021-05-12,naproxen,500 mg BID
+subject_8912,2017-12-26,MMF,750mg BID
+subject_8920,2021-02-04,mycophenolate mofetil,750mg BID
+subject_8924,2016-12-06,rituximab,1000 mg IV x2
+subject_8924,2018-07-15,amlodipine,5 mg daily
+subject_8924,2020-01-28,atorvastatin,20 mg daily
+subject_8924,2017-07-08,vitamin D3,2000 IU daily
+subject_8926,2019-02-01,MMF,1500 mg BID
+subject_8926,2021-12-23,amlodipine,5 mg daily
+subject_8926,2020-03-10,vitamin D3,2000 IU daily
+subject_8927,2016-04-02,CellCept,1000 mg BID
+subject_8930,2022-02-07,amlodipine,5 mg daily
+subject_8930,2019-11-17,calcium carbonate,
+subject_8930,2019-03-03,calcium carbonate,500 mg daily
+subject_8934,2022-05-24,nifedipine,30 mg daily
+subject_8934,2021-08-23,vitamin D3,2000 IU daily
+subject_8939,2020-08-03,mycophenolate mofetil,750mg BID
+subject_8939,2019-12-03,rituximab,
+subject_8939,2021-05-17,albuterol,PRN
+subject_8948,2021-06-01,lisinopril,10 mg daily
+subject_8950,2020-03-16,mycophenolate mofetil,1500 mg BID
+subject_8952,2018-06-15,rituximab,1000 mg IV x2
+subject_8952,2019-03-27,tocilizumab,162 mg SC weekly
+subject_8952,2018-08-08,vitamin D3,2000 IU daily
+subject_8952,2020-09-20,nifedipine,30 mg daily
+subject_8955,2023-11-04,levothyroxine,
+subject_8955,2022-03-24,lisinopril,10 mg daily
+subject_8955,2024-03-01,nifedipine,0 mg daily
+subject_8957,2019-06-12,atorvastatin,20 mg daily
+subject_8957,2018-07-25,calcium carbonate,500 mg daily
+subject_8957,2019-05-29,calcium carbonate,500 mg daily
+subject_8958,2021-03-11,vitamin D3,2000 IU daily
+subject_8958,2021-04-03,albuterol,PRN
+subject_8958,2020-03-01,vitamin D3,2000 IU daily
+subject_8964,2021-12-05,MMF,750mg BID
+subject_8964,2020-09-26,levothyroxine,50 mcg daily
+subject_8964,2022-11-30,albuterol,PRN
+subject_8964,2021-03-01,calcium carbonate,500 mg daily
+subject_8969,,CellCept,1500 mg BID
+subject_8969,2019-01-24,nifedipine,30 mg daily
+subject_8969,2020-05-14,naproxen,500 mg BID
+subject_8970,2023-03-22,MMF,1000 mg BID
+subject_8970,2025-03-17,naproxen,500 mg BID
+subject_8977,2019-01-28,,1000 mg BID
+subject_8985,2019-01-23,CellCept,500 mg BID
+subject_8989,2020-09-18,amlodipine,5 mg daily
+subject_8989,2019-05-24,calcium carbonate,500 mg daily
+subject_8994,2019-10-08,MMF,750mg BID
+subject_8998,2022-10-26,amlodipine,5 mg daily
+subject_8998,2021-10-03,albuterol,PRN
+subject_8998,2024-03-20,amlodipine,5 mg daily
