@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Agent data
+.scratch/
+.claude/
+.agents/
+skills-lock.json
+
+# Pre EDA
+pre_eda/
+.Rproj.user
