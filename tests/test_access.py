@@ -17,6 +17,7 @@ from data.access import (
     get_variable,
     list_subjects,
     list_variables,
+    table_coverage,
 )
 from data.ingest import DEFAULT_CSV_DIR, build_store
 
@@ -53,6 +54,29 @@ def test_list_subjects_has_every_subject_with_cohort_and_subtype(
     a_control = subjects[subjects["subject_id"] == A_CONTROL_SUBJECT].iloc[0]
     assert a_control["cohort"] == "control"
     assert pd.isna(a_control["ssc_subtype"])
+
+
+# --- table_coverage -----------------------------------------------------------
+
+
+def test_table_coverage_reports_rows_and_distinct_subjects_per_table(
+    conn: sqlite3.Connection,
+) -> None:
+    coverage = table_coverage(conn)
+    assert list(coverage.columns) == ["table", "rows", "distinct_subjects", "subject_coverage"]
+    # subjects itself is excluded (its coverage is definitionally 100%).
+    assert "subjects" not in set(coverage["table"])
+
+    by_table = coverage.set_index("table")
+    # demographics is Registry-only: 1500 of 1504 total Subjects.
+    assert by_table.loc["demographics", "rows"] == 1500
+    assert by_table.loc["demographics", "distinct_subjects"] == 1500
+    assert by_table.loc["demographics", "subject_coverage"] == pytest.approx(1500 / 1504)
+
+    # Every reported coverage is a valid fraction, and no table over-counts
+    # distinct Subjects relative to its own row count.
+    assert coverage["subject_coverage"].between(0, 1).all()
+    assert (coverage["distinct_subjects"] <= coverage["rows"]).all()
 
 
 # --- get_subject_record ------------------------------------------------------

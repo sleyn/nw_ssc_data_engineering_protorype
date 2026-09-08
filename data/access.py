@@ -11,7 +11,7 @@ canonical ``subject_id`` and inch-normalized ``height`` are baked in at
 ingest (``data.ingest``), and canonical medication name / parsed dose are
 applied on read (``data.normalize``) to every ``SubjectRecord.medications``.
 
-Three read shapes, matching how the app and notebook actually need the data:
+Four read shapes, matching how the app and notebook actually need the data:
 
 - ``list_subjects``: the full Subject roster with cohort/SSc-subtype.
 - ``get_subject_record``: one Subject's full longitudinal record (labs,
@@ -28,6 +28,10 @@ Three read shapes, matching how the app and notebook actually need the data:
   Deliberately does not cover ``medications``: a medication event is a
   (drug, dose) pair, not a single named measure's value, so it does not fit
   this shape — it stays reachable only through ``get_subject_record``.
+- ``table_coverage``: per-table row count and distinct-Subject count against
+  the full Subject population — how many Subjects actually have a record in
+  each table, not just how many rows it has. Used by the EDA notebook's
+  per-table coverage/missingness visualization (ticket 05).
 
 A field is addressed by "field name" here (matching the ticket's own
 wording) while the public functions read as "variable" (``get_variable``,
@@ -97,6 +101,23 @@ _OBSERVATION_SOURCES: tuple[_ObservationSource, ...] = (
     _ObservationSource("antibodies", "value", "dts", measure_col="test"),
 )
 
+# Every table below `subjects` in ADR 0005's schema — `subjects` itself is
+# excluded from `table_coverage` since every Subject is a `subjects` row by
+# construction (100% coverage there is definitional, not a finding).
+_COVERAGE_TABLES: tuple[str, ...] = (
+    "demographics",
+    "ssc_subtype",
+    "vitals",
+    "lab_report",
+    "mrss",
+    "pft",
+    "antibodies",
+    "medications",
+    "bal",
+    "libraries",
+    "skin_biopsies",
+)
+
 
 class SubjectRecord(NamedTuple):
     """One Subject's full longitudinal record. Any table a Subject has no
@@ -148,6 +169,25 @@ def list_subjects(conn: sqlite3.Connection) -> pd.DataFrame:
         ORDER BY s.subject_id
         """,
         conn,
+    )
+
+
+def table_coverage(conn: sqlite3.Connection) -> pd.DataFrame:
+    """Row count and distinct-Subject coverage for every clinical/molecular
+    table plus the two Registry extension tables, against the full Subject
+    population — so a gap between "every Subject" and "who actually has a
+    record in this table" (e.g. only 150 of 1,504 Subjects have a skin
+    biopsy) is visible without re-deriving per-table subject counts by hand.
+    """
+    total_subjects = conn.execute("SELECT COUNT(*) FROM subjects").fetchone()[0]
+    rows: list[tuple[str, int, int, float]] = []
+    for table in _COVERAGE_TABLES:
+        row_count, distinct_subjects = conn.execute(
+            f"SELECT COUNT(*), COUNT(DISTINCT subject_id) FROM {table}"
+        ).fetchone()
+        rows.append((table, row_count, distinct_subjects, distinct_subjects / total_subjects))
+    return pd.DataFrame(
+        rows, columns=["table", "rows", "distinct_subjects", "subject_coverage"]
     )
 
 
@@ -296,5 +336,8 @@ if __name__ == "__main__":
             f"get_variable('WBC', subject_id={an_ssc_patient!r}): "
             f"{observation_sample.shape[0]} rows"
         )
+
+        coverage = table_coverage(store_conn)
+        print(f"table_coverage: {coverage.shape[0]} tables")
     finally:
         store_conn.close()
