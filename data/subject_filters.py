@@ -176,6 +176,17 @@ def _matching_range(
         params = (equals_value,)
     frame = pd.read_sql(sql, conn, params=params)
     values = pd.to_numeric(frame[value_column], errors="coerce")
+    if equals is not None:
+        # Component-scoped (Lab Report) range: at its own full bounds this
+        # must be a true no-op, not just "every Subject with a row for this
+        # component" -- unlike a demographic range, each Lab Report
+        # component scopes to a *different* row subset of the shared
+        # `lab_report` table, so leaving ~28 per-component filters at their
+        # neutral value would otherwise AND together into an empty Subject
+        # pool even though none of them were touched.
+        non_null = values.dropna()
+        if not non_null.empty and lo <= non_null.min() and hi >= non_null.max():
+            return _all_subject_ids(conn)
     return set(frame.loc[values.between(lo, hi), "subject_id"])
 
 

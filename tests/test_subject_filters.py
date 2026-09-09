@@ -11,7 +11,7 @@ from pathlib import Path
 import pytest
 
 from data.ingest import DEFAULT_CSV_DIR, build_store
-from data.subject_filters import FilterField, filter_subjects, list_filter_fields
+from data.subject_filters import FilterField, FilterValue, filter_subjects, list_filter_fields
 
 
 @pytest.fixture(scope="module")
@@ -169,3 +169,36 @@ def test_lab_range_filter_matches_component_value_range(conn: sqlite3.Connection
     full = filter_subjects(conn, {"lab:WBC": (wbc.min_value, wbc.max_value)})
     assert set(narrow) <= set(full)
     assert len(narrow) < len(full)
+
+
+def test_lab_full_range_is_a_true_no_op_unlike_demographic_range(
+    conn: sqlite3.Connection,
+) -> None:
+    # Unlike a demographic range (which scopes to a single shared table and
+    # so may legitimately exclude the handful of Subjects with no row at
+    # all there), a Lab Report component's own full bounds must not exclude
+    # Subjects who simply never had *that* component measured -- each
+    # component scopes to a different row subset of the shared
+    # `lab_report` table.
+    wbc = _find(list_filter_fields(conn), "lab:WBC")
+    assert wbc.min_value is not None and wbc.max_value is not None
+    full = filter_subjects(conn, {"lab:WBC": (wbc.min_value, wbc.max_value)})
+    assert full == filter_subjects(conn, {})
+
+
+def test_every_lab_filter_left_at_its_neutral_value_does_not_collapse_the_pool(
+    conn: sqlite3.Connection,
+) -> None:
+    # Regression: passing every Lab Report component's widget state at its
+    # untouched, full-range default (as the Patient Trajectory panel always
+    # does) used to AND ~28 different per-component "has this test" subsets
+    # together and collapse the Subject pool to empty.
+    lab_fields = [
+        f for f in list_filter_fields(conn) if f.kind == "range" and f.key.startswith("lab:")
+    ]
+    assert len(lab_fields) > 1
+    selections: dict[str, FilterValue] = {}
+    for f in lab_fields:
+        assert f.min_value is not None and f.max_value is not None
+        selections[f.key] = (f.min_value, f.max_value)
+    assert filter_subjects(conn, selections) == filter_subjects(conn, {})
