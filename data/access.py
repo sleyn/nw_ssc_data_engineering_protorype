@@ -155,7 +155,7 @@ def _add_parsed_dose_columns(medications: pd.DataFrame) -> pd.DataFrame:
     """Attach dose_value/dose_unit/dose_frequency (`data.normalize.parse_dose`)
     alongside the original `dose` string, for every row including blanks."""
     result = medications.copy()
-    raw_doses = result["dose"].where(result["dose"].notna(), None)
+    raw_doses = result["dose"].astype(object).where(result["dose"].notna(), None)
     parsed = [parse_dose(dose) for dose in raw_doses]
     result["dose_value"] = [p.value for p in parsed]
     result["dose_unit"] = [p.unit for p in parsed]

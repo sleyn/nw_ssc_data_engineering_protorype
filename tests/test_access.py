@@ -26,6 +26,12 @@ from data.ingest import DEFAULT_CSV_DIR, build_store
 AN_SSC_PATIENT_WITH_MEDICATIONS = "subject_2005"
 # A Control Subject with vitals/mrss/pft but no labs/medications records.
 A_CONTROL_SUBJECT = "SSC_NORM_0101"
+# subject_4377 has a blank dose alongside real ones; pandas reads the SQL
+# result's `dose` column with a backend dtype (not plain object) whose
+# `.where(..., None)` silently turns the blank back into a float `nan`
+# instead of `None` -- a regression case for _add_parsed_dose_columns, since
+# `nan` isn't a DOSE_LOOKUP key.
+A_SUBJECT_WITH_A_BLANK_DOSE = "subject_4377"
 
 
 @pytest.fixture(scope="module")
@@ -102,6 +108,17 @@ def test_get_subject_record_medications_are_qc_normalized(conn: sqlite3.Connecti
     assert merged_row["dose_value"].iloc[0] == 1.0
     assert merged_row["dose_unit"].iloc[0] == "g"
     assert merged_row["dose_frequency"].iloc[0] == "twice daily"
+
+
+def test_get_subject_record_handles_a_subject_with_a_blank_medication_dose(
+    conn: sqlite3.Connection,
+) -> None:
+    medications = get_subject_record(conn, A_SUBJECT_WITH_A_BLANK_DOSE).medications
+    assert medications["dose"].isna().any()
+    blank_row = medications[medications["dose"].isna()].iloc[0]
+    assert pd.isna(blank_row["dose_value"])
+    assert pd.isna(blank_row["dose_unit"])
+    assert pd.isna(blank_row["dose_frequency"])
 
 
 def test_get_subject_record_is_empty_but_correctly_shaped_for_domains_with_no_data(
