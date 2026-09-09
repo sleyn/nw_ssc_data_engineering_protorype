@@ -799,7 +799,7 @@ def _subject_color_map(subject_ids: Iterable[str]) -> dict[str, str]:
 
 _X_AXIS_MODE_OPTIONS = {
     "Calendar date": "calendar",
-    "Disease duration (years since onset)": "duration",
+    "Disease duration (years since onset — first non-Raynaud symptom)": "duration",
 }
 _DURATION_AXIS_LABEL = "Years since disease onset"
 
