@@ -128,6 +128,12 @@ def _qc_report_page() -> None:
 
 
 _CHART_WIDTH = 500
+# Compare & Discover's chart + companion table render 1.5x the app's default
+# chart width -- that page's panels are the app's primary "explore the data
+# yourself" surface, so they get more room than the fixed-summary charts
+# elsewhere (Cohort Overview, Patient Trajectory small multiples) that share
+# `_CHART_WIDTH`'s default.
+_COMPARE_CHART_WIDTH = int(_CHART_WIDTH * 1.5)
 # The matplotlib medications-timeline height formula was `figsize` inches at
 # matplotlib's ~100 dpi default; this converts that same formula directly to
 # Plotly's pixel-based `height` (see `_render_medications_timeline`).
@@ -152,21 +158,29 @@ class _PlotlyContainer(Protocol):
         use_container_width: bool | None = ...,
     ) -> object: ...
 
-    def dataframe(self, data: object, /, *, hide_index: bool | None = ...) -> object: ...
+    def dataframe(
+        self, data: object, /, *, width: int | Literal["stretch", "content"] = ...,
+        hide_index: bool | None = ...,
+    ) -> object: ...
 
 
-def _show_plotly_fig(container: _PlotlyContainer, fig: go.Figure) -> None:
-    """Render one Plotly figure at the app's fixed chart width, using
+def _show_plotly_fig(
+    container: _PlotlyContainer, fig: go.Figure, width: int = _CHART_WIDTH
+) -> None:
+    """Render one Plotly figure at `width` (the app's fixed chart width by
+    default; Compare & Discover's panels pass `_COMPARE_CHART_WIDTH`), using
     Streamlit's built-in theme sync (`theme="streamlit"`) so it follows the
     viewer's light/dark setting. `use_container_width=False` is required --
     otherwise Streamlit stretches the figure to fill its container and the
     fixed width has no effect."""
-    fig.update_layout(width=_CHART_WIDTH)
+    fig.update_layout(width=width)
     container.plotly_chart(fig, theme="streamlit", use_container_width=False)
 
 
-def _show_dataframe(container: _PlotlyContainer, data: pd.DataFrame) -> None:
-    container.dataframe(data, hide_index=True)
+def _show_dataframe(
+    container: _PlotlyContainer, data: pd.DataFrame, width: int | Literal["stretch"] = "stretch"
+) -> None:
+    container.dataframe(data, width=width, hide_index=True)
 
 
 # Spacer:content:spacer ratio for `_centered`/`_centered_columns` -- a 1:2:1
@@ -370,7 +384,7 @@ def _render_panel_table(
         columns.append("color")
         rename["color"] = result.color_label
     table = data[columns].rename(columns=rename)
-    _show_dataframe(container, table)
+    _show_dataframe(container, table, width=_COMPARE_CHART_WIDTH)
 
 
 def _render_panel_scatter(
@@ -385,7 +399,7 @@ def _render_panel_scatter(
     if color_col is not None:
         fig.update_layout(legend_title_text=result.color_label)
     _add_control_overlay(fig, control_rows, "x", "y")
-    _show_plotly_fig(container, fig)
+    _show_plotly_fig(container, fig, width=_COMPARE_CHART_WIDTH)
 
 
 def _render_panel_box(
@@ -417,7 +431,7 @@ def _render_panel_box(
     if color_col is not None:
         fig.update_layout(legend_title_text=result.color_label)
     _add_control_overlay(fig, control_rows, cat_col, num_col)
-    _show_plotly_fig(container, fig)
+    _show_plotly_fig(container, fig, width=_COMPARE_CHART_WIDTH)
 
 
 def _render_panel_heatmap(
@@ -435,7 +449,7 @@ def _render_panel_heatmap(
         labels={"x": result.y_label, "y": result.x_label, "color": "Count"},
     )
     fig.update_xaxes(tickangle=-30)
-    _show_plotly_fig(container, fig)
+    _show_plotly_fig(container, fig, width=_COMPARE_CHART_WIDTH)
 
 
 def _render_panel_comparison(
