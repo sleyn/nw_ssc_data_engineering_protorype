@@ -36,6 +36,7 @@ from data.compare import (
 from data.dictionary import describe_all_tables
 from data.qc import generate_report
 from data.store import build_encrypted_store, open_store
+from data.subject_filters import FilterField, FilterValue, filter_subjects, list_filter_fields
 from data.trajectory import (
     MeasureSeries,
     combine_medication_timelines,
@@ -708,6 +709,58 @@ def _log_patient_views_once(username: str, subject_ids: list[str]) -> None:
             logged.add(subject_id)
 
 
+def _filter_widget_key(field: FilterField) -> str:
+    return f"subject-filter-{field.key}"
+
+
+def _render_filter_field(field: FilterField) -> FilterValue:
+    """One filter's widget, returning its current selection in the shape
+    `data.subject_filters.filter_subjects` expects for that `kind` -- a
+    `list[str]` for categorical/existence-with-options, a `(low, high)`
+    tuple for range, a `bool` for an option-less existence toggle (BAL)."""
+    key = _filter_widget_key(field)
+    if field.kind == "range":
+        assert field.min_value is not None and field.max_value is not None
+        return st.slider(
+            field.label, min_value=field.min_value, max_value=field.max_value,
+            value=(field.min_value, field.max_value), key=key,
+        )
+    if field.options is not None:
+        return st.multiselect(field.label, options=list(field.options), key=key)
+    return st.checkbox(field.label, key=key)
+
+
+def _render_subject_filters_panel(conn: sqlite3.Connection) -> list[str]:
+    """The Subject Filters panel (ticket 08): every filter in
+    `list_filter_fields`, grouped by category, narrowing the Subject pool
+    the trajectory multi-select below offers. Lab Report gets its own
+    collapsed expander -- one filter per component makes for a long list a
+    reviewer usually isn't touching."""
+    st.subheader("Subject Filters")
+    st.caption(
+        "Selected values within one filter combine with OR (e.g. picking 2 genders shows "
+        "Subjects matching either); separate filters combine with AND (e.g. a gender filter "
+        "plus BAL performed narrows to Subjects matching both)."
+    )
+    fields = list_filter_fields(conn)
+    by_category: dict[str, list[FilterField]] = {}
+    for field in fields:
+        by_category.setdefault(field.category, []).append(field)
+
+    selections: dict[str, FilterValue] = {}
+    for category, category_fields in by_category.items():
+        if category == "Lab Report":
+            with st.expander(f"{category} ({len(category_fields)} components)"):
+                for field in category_fields:
+                    selections[field.key] = _render_filter_field(field)
+        else:
+            st.markdown(f"**{category}**")
+            for field in category_fields:
+                selections[field.key] = _render_filter_field(field)
+
+    return filter_subjects(conn, selections)
+
+
 def _patient_trajectory_page() -> None:
     conn = _get_connection()
     username = st.session_state["username"]
@@ -718,7 +771,7 @@ def _patient_trajectory_page() -> None:
         "over time. Patient name and birth date are never shown here or anywhere else in "
         "this app."
     )
-    subject_ids = list_subjects(conn)["subject_id"].tolist()
+    subject_ids = _render_subject_filters_panel(conn)
     selected = st.multiselect(
         "subject_id",
         options=subject_ids,
