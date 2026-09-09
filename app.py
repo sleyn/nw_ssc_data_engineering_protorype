@@ -36,7 +36,12 @@ from data.compare import (
 from data.dictionary import describe_all_tables
 from data.qc import generate_report
 from data.store import build_encrypted_store, open_store
-from data.trajectory import MeasureSeries, domain_series, medication_timeline
+from data.trajectory import (
+    MeasureSeries,
+    combine_subject_series,
+    domain_series,
+    medication_timeline,
+)
 
 # Same 4 categorical demographic fields the EDA notebook plots (ticket 05) --
 # kept in sync so the app and notebook show the same population shape.
@@ -510,23 +515,24 @@ def _compare_discover_page() -> None:
         st.rerun()
 
 
-_NO_PATIENT_SELECTED = "-- select a subject_id --"
+_MAX_TRAJECTORY_SUBJECTS = 8
+# Uniform opacity for every Subject's line, at 1 Subject same as at many
+# (ticket 05's "equivalent to today's view, at the same reduced opacity").
+_TRAJECTORY_LINE_OPACITY = 0.7
 
 
 def _plot_measure_series(container: _PlotlyContainer, series: MeasureSeries) -> None:
-    fig = go.Figure(
-        go.Scatter(
-            x=series.series["date"],
-            y=series.series["value"],
-            mode="lines+markers",
-        )
-    )
+    """One measure's chart -- one colored line per Subject present in
+    `series.series` (`color="subject_id"`), all at the same reduced
+    opacity, with no cohort-average/baseline line mixed in."""
+    fig = px.line(series.series, x="date", y="value", color="subject_id", markers=True)
+    fig.update_traces(opacity=_TRAJECTORY_LINE_OPACITY)
     fig.update_layout(
         title=series.title,
         xaxis_title="",
         yaxis_title="",
         height=300,
-        showlegend=False,
+        legend_title_text="Subject",
     )
     fig.update_xaxes(tickangle=-30)
     _show_plotly_fig(container, fig)
@@ -536,11 +542,14 @@ def _render_domain_small_multiples(series_list: list[MeasureSeries], domain_labe
     """One small-multiple line chart per `MeasureSeries` (e.g. one per lab
     component, one per vital sign) -- per-Subject measure counts stay small
     enough (a handful to ~15) that this reads better than a single overlaid
-    chart."""
+    chart. Centered as a whole grid, matching this round's convention
+    (ticket 03)."""
     if not series_list:
-        st.caption(f"No plottable (numeric, dated) {domain_label} records for this Subject.")
+        st.caption(
+            f"No plottable (numeric, dated) {domain_label} records for the selected Subjects."
+        )
         return
-    columns = st.columns(2)
+    columns = _centered_columns(2)
     for i, series in enumerate(series_list):
         _plot_measure_series(columns[i % 2], series)
 
@@ -569,7 +578,7 @@ def _render_medications_timeline(medications: pd.DataFrame) -> None:
     )
     fig.update_layout(xaxis_title="", yaxis_title="", height=height, showlegend=False)
     fig.update_xaxes(tickangle=-30)
-    _show_plotly_fig(st, fig)
+    _show_plotly_fig(_centered(), fig)
 
     detail_columns = [
         "date", "medication", "medication_as_recorded", "dose",
@@ -578,50 +587,67 @@ def _render_medications_timeline(medications: pd.DataFrame) -> None:
     st.dataframe(working[detail_columns], hide_index=True)
 
 
-def _render_subject_record(record: SubjectRecord) -> None:
+def _render_trajectory(records: dict[str, SubjectRecord]) -> None:
     st.subheader("Labs")
     _render_domain_small_multiples(
-        domain_series(
-            record.labs, value_col="value", date_col="date", measure_col="component_name",
-        ),
+        combine_subject_series({
+            subject_id: domain_series(
+                record.labs, value_col="value", date_col="date", measure_col="component_name",
+            )
+            for subject_id, record in records.items()
+        }),
         "lab",
     )
     st.subheader("Vitals")
     _render_domain_small_multiples(
-        domain_series(
-            record.vitals, value_col="vital_value", date_col="date",
-            measure_col="vital_type_name_category",
-        ),
+        combine_subject_series({
+            subject_id: domain_series(
+                record.vitals, value_col="vital_value", date_col="date",
+                measure_col="vital_type_name_category",
+            )
+            for subject_id, record in records.items()
+        }),
         "vitals",
     )
     st.subheader("MRSS")
     _render_domain_small_multiples(
-        domain_series(
-            record.mrss, value_col="mrss_score", date_col="date", fixed_measure="MRSS",
-        ),
+        combine_subject_series({
+            subject_id: domain_series(
+                record.mrss, value_col="mrss_score", date_col="date", fixed_measure="MRSS",
+            )
+            for subject_id, record in records.items()
+        }),
         "MRSS",
     )
     st.subheader("PFT")
     _render_domain_small_multiples(
-        domain_series(
-            record.pft, value_col="ORD_VALUE", date_col="date", measure_col="NAME",
-            title_col="DESCRIPTION",
-        ),
+        combine_subject_series({
+            subject_id: domain_series(
+                record.pft, value_col="ORD_VALUE", date_col="date", measure_col="NAME",
+                title_col="DESCRIPTION",
+            )
+            for subject_id, record in records.items()
+        }),
         "PFT",
     )
     st.subheader("Medications")
-    _render_medications_timeline(record.medications)
+    for subject_id, record in records.items():
+        with st.expander(subject_id, expanded=len(records) == 1):
+            _render_medications_timeline(record.medications)
 
 
-def _log_patient_view_once(username: str, subject_id: str) -> None:
-    """Write one `view_patient` audit-log entry per newly-selected Subject
-     -- not once per Streamlit rerun. Every tab's render
-    function runs on every rerun regardless of which tab is on screen, so
-    logging unconditionally here would log a view on every unrelated widget
-    interaction elsewhere in the app, not just on an actual new selection."""
-    if st.session_state.get("last_viewed_subject") != subject_id:
-        log_event(username, "view_patient", detail=subject_id)
-        st.session_state["last_viewed_subject"] = subject_id
+def _log_patient_views_once(username: str, subject_ids: list[str]) -> None:
+    """Write one `view_patient` audit-log entry per newly-added Subject --
+    not re-logged on every Streamlit rerun for Subjects already logged this
+    session. Every tab's render function runs on every rerun regardless of
+    which tab is on screen, so logging unconditionally here would log a
+    view on every unrelated widget interaction elsewhere in the app, not
+    just on an actual new selection."""
+    logged = st.session_state.setdefault("logged_patient_views", set())
+    for subject_id in subject_ids:
+        if subject_id not in logged:
+            log_event(username, "view_patient", detail=subject_id)
+            logged.add(subject_id)
 
 
 def _patient_trajectory_page() -> None:
@@ -629,19 +655,25 @@ def _patient_trajectory_page() -> None:
     username = st.session_state["username"]
     st.header("Patient Trajectory")
     st.write(
-        "Select one Subject by `subject_id` to see their longitudinal record -- labs, vitals, "
-        "MRSS, PFT, and medications plotted over time."
-        "Patient name and birth date are never shown here or anywhere else in this app."
+        f"Select up to {_MAX_TRAJECTORY_SUBJECTS} Subjects by `subject_id` to see their "
+        "longitudinal records overlaid -- labs, vitals, MRSS, PFT, and medications plotted "
+        "over time. Patient name and birth date are never shown here or anywhere else in "
+        "this app."
     )
     subject_ids = list_subjects(conn)["subject_id"].tolist()
-    subject_id = st.selectbox("subject_id", options=[_NO_PATIENT_SELECTED, *subject_ids])
-    if subject_id == _NO_PATIENT_SELECTED:
+    selected = st.multiselect(
+        "subject_id",
+        options=subject_ids,
+        max_selections=_MAX_TRAJECTORY_SUBJECTS,
+        help=f"Select up to {_MAX_TRAJECTORY_SUBJECTS} Subjects to overlay on the same charts.",
+    )
+    if not selected:
         st.info("Select a subject_id above to view that Subject's record.")
         return
 
-    _log_patient_view_once(username, subject_id)
-    record = get_subject_record(conn, subject_id)
-    _render_subject_record(record)
+    _log_patient_views_once(username, selected)
+    records = {subject_id: get_subject_record(conn, subject_id) for subject_id in selected}
+    _render_trajectory(records)
 
 
 def main() -> None:
