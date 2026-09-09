@@ -124,11 +124,12 @@ _CHART_WIDTH = 500
 
 class _PlotlyContainer(Protocol):
     """Either the top-level `st` module or one `st.columns()` slot -- both
-    expose `.plotly_chart`, which is all `_show_plotly_fig` needs. The
-    keyword params are typed to match Streamlit's own (narrower-than-`str`)
-    overloads exactly -- a broader `**kwargs: object` doesn't structurally
-    match an overloaded implementation under strict mypy."""
+    expose `.plotly_chart`, which is all `_show_plotly_fig` needs."""
 
+    # Keyword params are typed to match Streamlit's own (narrower-than-`str`)
+    # overloaded `plotly_chart` exactly -- a broader `**kwargs: object`
+    # doesn't structurally match an overloaded implementation under strict
+    # mypy.
     def plotly_chart(
         self,
         fig: go.Figure,
@@ -196,15 +197,16 @@ def _render_demographic_distributions(conn: sqlite3.Connection) -> None:
     height = pd.to_numeric(get_variable(conn, "height")["value"], errors="coerce").dropna()
     weight = pd.to_numeric(get_variable(conn, "weight")["value"], errors="coerce").dropna()
     columns = st.columns(2)
-    fig = px.histogram(
-        x=height, nbins=30, labels={"x": "inches"}, title="Height, inches (ingest-normalized)"
-    )
-    fig.update_yaxes(title="Count")
-    _show_plotly_fig(columns[0], fig)
+    _render_histogram(columns[0], height, 30, "inches", "Height, inches (ingest-normalized)")
+    _render_histogram(columns[1], weight, 40, "lbs", "Weight, lbs")
 
-    fig = px.histogram(x=weight, nbins=40, labels={"x": "lbs"}, title="Weight, lbs")
+
+def _render_histogram(
+    container: _PlotlyContainer, values: pd.Series, nbins: int, xlabel: str, title: str
+) -> None:
+    fig = px.histogram(x=values, nbins=nbins, labels={"x": xlabel}, title=title)
     fig.update_yaxes(title="Count")
-    _show_plotly_fig(columns[1], fig)
+    _show_plotly_fig(container, fig)
 
 
 _COVERAGE_SHARE_LABEL = "Share of Subjects"
