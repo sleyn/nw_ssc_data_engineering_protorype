@@ -211,8 +211,7 @@ def _render_demographic_distributions(conn: sqlite3.Connection) -> None:
     st.caption(
         "Age is not shown: the raw data carries no age/age-at-event field, only birth date, "
         "which is excluded everywhere as PII. state is capped to its "
-        "10 most common values for readability -- the Registry spans far more than 10 states, "
-        "long-tailed."
+        "10 most common values for readability."
     )
     columns = _centered_columns(2)
     for i, field in enumerate(_DEMOGRAPHIC_FIELDS):
