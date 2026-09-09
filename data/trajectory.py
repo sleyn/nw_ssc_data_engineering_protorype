@@ -82,6 +82,32 @@ def domain_series(
     return result
 
 
+def combine_subject_series(per_subject: dict[str, list[MeasureSeries]]) -> list[MeasureSeries]:
+    """Regroup multiple Subjects' per-measure series -- each a `domain_series`
+    call's output for one Subject -- into one `subject_id`-tagged frame per
+    measure, ready for a single multi-line chart per measure (`color=
+    "subject_id"`). A Subject missing a given measure simply contributes no
+    rows to that measure's combined frame -- not every Subject need have
+    every measure. Measures are sorted by name; each measure's title is
+    taken from whichever Subject's series for it appears first."""
+    frames_by_measure: dict[str, list[pd.DataFrame]] = {}
+    title_by_measure: dict[str, str] = {}
+    for subject_id, series_list in per_subject.items():
+        for series in series_list:
+            tagged = series.series.assign(subject_id=subject_id)
+            frames_by_measure.setdefault(series.measure, []).append(tagged)
+            title_by_measure.setdefault(series.measure, series.title)
+
+    return [
+        MeasureSeries(
+            measure=measure,
+            title=title_by_measure[measure],
+            series=pd.concat(frames, ignore_index=True)[["date", "value", "subject_id"]],
+        )
+        for measure, frames in sorted(frames_by_measure.items())
+    ]
+
+
 def medication_timeline(medications: pd.DataFrame) -> pd.DataFrame:
     """One Subject's medication events, dated rows only, sorted by date --
     the shared shape the timeline chart and its detail table both read.

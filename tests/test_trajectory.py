@@ -16,7 +16,12 @@ import pytest
 
 from data.access import get_subject_record
 from data.ingest import DEFAULT_CSV_DIR, build_store
-from data.trajectory import domain_series, medication_timeline
+from data.trajectory import (
+    MeasureSeries,
+    combine_subject_series,
+    domain_series,
+    medication_timeline,
+)
 
 # subject_2005 has labs, vitals, PFT, and medications records but no MRSS
 # (confirmed against the real data, same subject test_access.py uses).
@@ -136,6 +141,53 @@ def test_domain_series_against_the_real_subject_record(conn: sqlite3.Connection)
 
     mrss = domain_series(record.mrss, value_col="mrss_score", date_col="date", fixed_measure="MRSS")
     assert mrss == []  # this Subject has no MRSS records at all
+
+
+# --- combine_subject_series -------------------------------------------------------
+
+
+def _series(measure: str, title: str, dates: list[str], values: list[float]) -> MeasureSeries:
+    return MeasureSeries(
+        measure=measure, title=title,
+        series=pd.DataFrame({"date": pd.to_datetime(dates), "value": values}),
+    )
+
+
+def test_combine_subject_series_tags_each_subjects_rows() -> None:
+    per_subject = {
+        "subject_1": [_series("WBC", "WBC", ["2020-01-01"], [4.2])],
+        "subject_2": [_series("WBC", "WBC", ["2020-01-02"], [5.1])],
+    }
+    result = combine_subject_series(per_subject)
+    assert [series.measure for series in result] == ["WBC"]
+    wbc = result[0].series
+    assert list(wbc.columns) == ["date", "value", "subject_id"]
+    assert set(wbc["subject_id"]) == {"subject_1", "subject_2"}
+    assert len(wbc) == 2
+
+
+def test_combine_subject_series_a_subject_missing_a_measure_contributes_no_rows() -> None:
+    per_subject = {
+        "subject_1": [_series("WBC", "WBC", ["2020-01-01"], [4.2])],
+        "subject_2": [_series("HEMOGLOBIN", "HEMOGLOBIN", ["2020-01-01"], [13.0])],
+    }
+    result = combine_subject_series(per_subject)
+    assert [series.measure for series in result] == ["HEMOGLOBIN", "WBC"]
+    wbc = next(series for series in result if series.measure == "WBC")
+    assert list(wbc.series["subject_id"]) == ["subject_1"]
+
+
+def test_combine_subject_series_empty_input_returns_no_series() -> None:
+    assert combine_subject_series({}) == []
+
+
+def test_combine_subject_series_uses_the_first_subjects_title_for_a_measure() -> None:
+    per_subject = {
+        "subject_1": [_series("FVC", "Forced Vital Capacity (% predicted)", ["2020-01-01"], [85])],
+        "subject_2": [_series("FVC", "Forced Vital Capacity (% predicted)", ["2020-01-02"], [90])],
+    }
+    result = combine_subject_series(per_subject)
+    assert result[0].title == "Forced Vital Capacity (% predicted)"
 
 
 # --- medication_timeline ---------------------------------------------------------
