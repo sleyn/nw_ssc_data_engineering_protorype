@@ -10,6 +10,7 @@ Run locally with `uv sync` then `uv run streamlit run app.py`.
 """
 
 import sqlite3
+from collections.abc import Sequence
 from typing import Literal, Protocol
 
 import pandas as pd
@@ -135,6 +136,28 @@ def _show_plotly_fig(container: _PlotlyContainer, fig: go.Figure) -> None:
     container.plotly_chart(fig, theme="streamlit", use_container_width=False)
 
 
+# Spacer:content:spacer ratio for `_centered`/`_centered_columns` -- a 1:2:1
+# split puts a fixed-width chart (or a `st.columns(2)` grid of them) in the
+# middle half of the page instead of flush against the left edge, without
+# touching `_CHART_WIDTH` or `use_container_width` (ticket 03).
+_CENTER_RATIO = (1, 2, 1)
+
+
+def _centered() -> _PlotlyContainer:
+    """A single spacer-wrapped container, horizontally centered on the
+    page -- for one chart that isn't part of a side-by-side grid."""
+    _, center, _ = st.columns(_CENTER_RATIO)
+    return center
+
+
+def _centered_columns(n: int) -> Sequence[_PlotlyContainer]:
+    """`n` side-by-side columns, nested inside a centered spacer -- the grid
+    as a whole is centered, not each chart re-centered within its own grid
+    cell (ticket 03)."""
+    _, center, _ = st.columns(_CENTER_RATIO)
+    return center.columns(n)
+
+
 def _render_cohort_composition(subjects: pd.DataFrame) -> None:
     cohort_counts = subjects["cohort"].value_counts()
     col1, col2 = st.columns(2)
@@ -151,7 +174,7 @@ def _render_subtype_breakdown(ssc_patients: pd.DataFrame) -> None:
         labels={"x": "", "y": "Patients"},
         title=f"dcSSc / lcSSc split (n={len(ssc_patients):,} Registry patients)",
     )
-    _show_plotly_fig(st, fig)
+    _show_plotly_fig(_centered(), fig)
 
 
 def _render_demographic_distributions(conn: sqlite3.Connection) -> None:
@@ -162,7 +185,7 @@ def _render_demographic_distributions(conn: sqlite3.Connection) -> None:
         "10 most common values for readability -- the Registry spans far more than 10 states, "
         "long-tailed."
     )
-    columns = st.columns(2)
+    columns = _centered_columns(2)
     for i, field in enumerate(_DEMOGRAPHIC_FIELDS):
         counts = get_variable(conn, field)["value"].dropna().value_counts()
         title = field
@@ -181,7 +204,7 @@ def _render_demographic_distributions(conn: sqlite3.Connection) -> None:
 
     height = pd.to_numeric(get_variable(conn, "height")["value"], errors="coerce").dropna()
     weight = pd.to_numeric(get_variable(conn, "weight")["value"], errors="coerce").dropna()
-    columns = st.columns(2)
+    columns = _centered_columns(2)
     _render_histogram(columns[0], height, 30, "inches", "Height, inches (ingest-normalized)")
     _render_histogram(columns[1], weight, 40, "lbs", "Weight, lbs")
 
@@ -220,7 +243,7 @@ def _render_table_coverage(conn: sqlite3.Connection) -> None:
     fig.update_traces(textposition="outside", cliponaxis=False)
     fig.update_xaxes(range=[0, 1.3])
     fig.update_yaxes(categoryorder="total ascending")
-    _show_plotly_fig(st, fig)
+    _show_plotly_fig(_centered(), fig)
 
     display_coverage = coverage.rename(columns={"subject_coverage": _COVERAGE_SHARE_LABEL}).copy()
     display_coverage[_COVERAGE_SHARE_LABEL] = display_coverage[_COVERAGE_SHARE_LABEL].map(
