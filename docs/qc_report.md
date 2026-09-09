@@ -23,6 +23,8 @@ Advisory findings only — nothing here blocks ingestion or mutates the underlyi
 
 ## Guideline range checks
 
+Ranges are approximate adult reference ranges for outlier-flagging only — not diagnostic thresholds, and not sourced from this dataset (the source data carries no reference-range columns) or any cited guideline. See `PFT_GUIDELINE_RANGES` / `MRSS_GUIDELINE_RANGES` / `VITALS_GUIDELINE_RANGES` / `LAB_GUIDELINE_RANGES` in `data/qc.py`.
+
 - pft: DLCO_SB — 0 of 829 readings fall outside the guideline range 20-150 (observed range: 40-130).
 - pft: FEV1 — 0 of 1723 readings fall outside the guideline range 30-150 (observed range: 40-130).
 - pft: FVC — 0 of 1723 readings fall outside the guideline range 30-150 (observed range: 40-130).

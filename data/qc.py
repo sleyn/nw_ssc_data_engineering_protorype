@@ -543,6 +543,15 @@ def generate_report(conn: sqlite3.Connection) -> str:
     for title, findings in sections:
         lines.append(f"## {title}")
         lines.append("")
+        if title == "Guideline range checks":
+            lines.append(
+                "Ranges are approximate adult reference ranges for outlier-flagging "
+                "only — not diagnostic thresholds, and not sourced from this dataset "
+                "(the source data carries no reference-range columns) or any cited "
+                "guideline. See `PFT_GUIDELINE_RANGES` / `MRSS_GUIDELINE_RANGES` / "
+                "`VITALS_GUIDELINE_RANGES` / `LAB_GUIDELINE_RANGES` in `data/qc.py`."
+            )
+            lines.append("")
         if findings:
             lines.extend(f"- {finding}" for finding in findings)
         else:
