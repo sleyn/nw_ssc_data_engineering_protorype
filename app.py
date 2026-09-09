@@ -561,14 +561,23 @@ _MAX_TRAJECTORY_SUBJECTS = 8
 _TRAJECTORY_LINE_OPACITY = 0.7
 
 
+# Fraction of the shared date range added as empty margin on each side of
+# the x-axis, so the first/last point doesn't land exactly on the plot edge.
+_X_AXIS_MARGIN_FRACTION = 0.04
+
+
 def _apply_shared_x_range(
     fig: go.Figure, date_range: tuple[pd.Timestamp, pd.Timestamp] | None
 ) -> None:
     """Pin `fig`'s x-axis to `date_range` (see `shared_date_range`, ticket
-    07) -- only the range itself is fixed, tick spacing stays Plotly's
-    default for it."""
-    if date_range is not None:
-        fig.update_xaxes(range=list(date_range))
+    07), padded by `_X_AXIS_MARGIN_FRACTION` on each side so the first/last
+    dot doesn't sit exactly on the axis edge -- only the range itself is
+    fixed, tick spacing stays Plotly's default for it."""
+    if date_range is None:
+        return
+    low, high = date_range
+    margin = (high - low) * _X_AXIS_MARGIN_FRACTION or pd.Timedelta(days=1)
+    fig.update_xaxes(range=[low - margin, high + margin])
 
 
 def _plot_measure_series(
@@ -632,15 +641,26 @@ def _render_medications_timeline(
     (drug, dose) pair on a date, not a numeric measure with a trend. With
     multiple Subjects selected, every Subject's events render on one
     combined chart, y-axis rows labeled `"{subject_id}: {medication}"` so 2
-    Subjects on the same drug don't collide on one row; with exactly 1
-    Subject, rows stay labeled by drug alone -- visually unchanged from the
-    single-Subject view (ticket 06). The table underneath surfaces the
-    parsed dose (`data.normalize`) the chart itself has no room to show."""
+    Subjects on the same drug don't collide on one row, ordered by
+    `subject_id` then `medication` so one Subject's rows stay grouped
+    together rather than sorting as one flat alphabetical list of labels;
+    with exactly 1 Subject, rows stay labeled by drug alone -- visually
+    unchanged from the single-Subject view (ticket 06). The table underneath
+    surfaces the parsed dose (`data.normalize`) the chart itself has no room
+    to show."""
     if combined.empty:
         st.caption("No dated medication records for the selected Subjects.")
         return
 
     row_col = "medication" if subject_count == 1 else "label"
+    row_order = (
+        sorted(combined[row_col].unique())
+        if subject_count == 1
+        else combined[["subject_id", "medication", row_col]]
+        .drop_duplicates()
+        .sort_values(["subject_id", "medication"])[row_col]
+        .tolist()
+    )
 
     # Same "taller for more distinct medications" scaling as the matplotlib
     # version -- see `_MEDICATION_TIMELINE_DPI`.
@@ -653,7 +673,10 @@ def _render_medications_timeline(
             marker=dict(size=10),
         )
     )
-    fig.update_layout(xaxis_title="", yaxis_title="", height=height, showlegend=False)
+    fig.update_layout(
+        xaxis_title="", yaxis_title="", height=height, showlegend=False,
+        yaxis=dict(categoryorder="array", categoryarray=row_order),
+    )
     fig.update_xaxes(tickangle=-30)
     _apply_shared_x_range(fig, date_range)
     _show_plotly_fig(_centered(), fig)
@@ -759,7 +782,8 @@ def _render_filter_field(field: FilterField) -> FilterValue:
     """One filter's widget, returning its current selection in the shape
     `data.subject_filters.filter_subjects` expects for that `kind` -- a
     `list[str]` for categorical/existence-with-options, a `(low, high)`
-    tuple for range, a `bool` for an option-less existence toggle (BAL)."""
+    tuple for range, a `(low, high)` date tuple for date_range, a `bool` for
+    an option-less existence toggle (BAL)."""
     key = _filter_widget_key(field)
     if field.kind == "range":
         assert field.min_value is not None and field.max_value is not None
@@ -767,17 +791,31 @@ def _render_filter_field(field: FilterField) -> FilterValue:
             field.label, min_value=field.min_value, max_value=field.max_value,
             value=(field.min_value, field.max_value), key=key,
         )
+    if field.kind == "date_range":
+        assert field.min_date is not None and field.max_date is not None
+        return st.slider(
+            field.label, min_value=field.min_date, max_value=field.max_date,
+            value=(field.min_date, field.max_date), key=key,
+        )
     if field.options is not None:
         return st.multiselect(field.label, options=list(field.options), key=key)
     return st.checkbox(field.label, key=key)
 
 
+# Categories with more than one filter get their own collapsed
+# `st.expander` -- a long list (Demographics' 7 filters, Lab Report's ~28
+# one-per-component filters) is worth hiding by default; a single-filter
+# category (Medication, Antibody Test, BAL, Time) isn't, so it renders
+# inline instead.
+_EXPANDER_CATEGORIES = frozenset({"Demographics", "Lab Report"})
+
+
 def _render_subject_filters_panel(conn: sqlite3.Connection) -> list[str]:
     """The Subject Filters panel (ticket 08): every filter in
     `list_filter_fields`, grouped by category, narrowing the Subject pool
-    the trajectory multi-select below offers. Lab Report gets its own
-    collapsed expander -- one filter per component makes for a long list a
-    reviewer usually isn't touching."""
+    the trajectory multi-select below offers. Lives in `st.sidebar`
+    (`_patient_trajectory_page`); multi-filter categories (`_EXPANDER_CATEGORIES`)
+    get their own collapsed expander, single-filter ones render inline."""
     st.subheader("Subject Filters")
     st.caption(
         "Selected values within one filter combine with OR (e.g. picking 2 genders shows "
@@ -791,8 +829,8 @@ def _render_subject_filters_panel(conn: sqlite3.Connection) -> list[str]:
 
     selections: dict[str, FilterValue] = {}
     for category, category_fields in by_category.items():
-        if category == "Lab Report":
-            with st.expander(f"{category} ({len(category_fields)} components)"):
+        if category in _EXPANDER_CATEGORIES:
+            with st.expander(f"{category} ({len(category_fields)} filters)"):
                 for field in category_fields:
                     selections[field.key] = _render_filter_field(field)
         else:
@@ -813,7 +851,8 @@ def _patient_trajectory_page() -> None:
         "over time. Patient name and birth date are never shown here or anywhere else in "
         "this app."
     )
-    subject_ids = _render_subject_filters_panel(conn)
+    with st.sidebar:
+        subject_ids = _render_subject_filters_panel(conn)
     selected = st.multiselect(
         "subject_id",
         options=subject_ids,

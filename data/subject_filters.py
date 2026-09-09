@@ -4,8 +4,8 @@ plotting anything itself. Kept separate from the Streamlit rendering in
 app.py for the same reason `data.compare`/`data.trajectory` are (see those
 modules' docstrings).
 
-The filter catalog (`list_filter_fields`) spans 4 kinds of filter, each
-backed by a different table:
+The filter catalog (`list_filter_fields`) spans 5 kinds of filter, each
+backed by a different table (or, for Time, several):
 
 - "categorical": an exact-match multi-select against a fixed set of options
   (demographics' gender/ethnicity/races/state/diagnosis; the Antibody Test
@@ -19,6 +19,10 @@ backed by a different table:
   value comparison -- Medication (options = canonical drug names a Subject
   was "ever prescribed", `data.normalize.add_canonical_medication_columns`)
   and BAL (`options=None`, a single yes/any toggle with no sub-options).
+- "date_range": a date slider, matching a Subject with a qualifying dated
+  record in *any* of the 5 domains the Patient Trajectory page plots --
+  Vitals, Lab Report, MRSS, PFT, Medications (`_TIME_SOURCES`) -- unlike
+  "range", which reads one column of one table.
 
 Selected values *within* one filter combine with OR (e.g. 2 genders
 selected -- either matches); separate filters combine with AND (`filter_subjects`
@@ -33,6 +37,7 @@ Compare & Discover's catalog (`data.compare`) or `data.access._OBSERVATION_SOURC
 -- unaffected by this module.
 """
 
+import datetime
 import sqlite3
 from typing import Literal, NamedTuple
 
@@ -40,21 +45,23 @@ import pandas as pd
 
 from data.normalize import add_canonical_medication_columns
 
-FilterKind = Literal["categorical", "range", "existence"]
+FilterKind = Literal["categorical", "range", "existence", "date_range"]
 
 # A categorical/existence selection is the list of chosen option values
-# (OR'd together); a range selection is its (low, high) inclusive bounds; an
+# (OR'd together); a range selection is its (low, high) inclusive bounds; a
+# date_range selection is its (low, high) inclusive date bounds; an
 # option-less existence selection (BAL) is a plain on/off toggle.
-FilterValue = list[str] | tuple[float, float] | bool
+FilterValue = list[str] | tuple[float, float] | tuple[datetime.date, datetime.date] | bool
 
 
 class FilterField(NamedTuple):
     """One entry in the Subject Filters catalog. `key` is the stable
     identifier `filter_subjects`' `selections` dict is keyed by; `category`/
     `label` are what the panel displays. A `"range"` field populates
-    `min_value`/`max_value` (`options` stays `None`); every other kind
-    populates `options` instead -- `None` only for BAL's option-less
-    existence toggle."""
+    `min_value`/`max_value`, a `"date_range"` field populates `min_date`/
+    `max_date` (both leave `options` `None`); every other kind populates
+    `options` instead -- `None` only for BAL's option-less existence
+    toggle."""
 
     key: str
     category: str
@@ -63,6 +70,8 @@ class FilterField(NamedTuple):
     options: tuple[str, ...] | None = None
     min_value: float | None = None
     max_value: float | None = None
+    min_date: datetime.date | None = None
+    max_date: datetime.date | None = None
 
 
 _DEMOGRAPHIC_CATEGORICAL: tuple[str, ...] = ("gender", "ethnicity", "races", "state", "diagnosis")
@@ -90,6 +99,36 @@ def _demographic_fields(conn: sqlite3.Connection) -> list[FilterField]:
             )
         )
     return fields
+
+
+# The 5 dated domains the Patient Trajectory page plots (`app.py`'s
+# `_render_trajectory`) -- each `(table, date_column)` pair the Time filter
+# checks a Subject against, OR'd together.
+_TIME_SOURCES: tuple[tuple[str, str], ...] = (
+    ("vitals", "date"),
+    ("lab_report", "order_date"),
+    ("mrss", "date"),
+    ("pft", "PFT_dts"),
+    ("medications", "date"),
+)
+
+
+def _all_time_dates(conn: sqlite3.Connection) -> pd.Series:
+    parsed = [
+        pd.to_datetime(
+            pd.read_sql(f'SELECT "{column}" FROM {table}', conn)[column], errors="coerce"
+        )
+        for table, column in _TIME_SOURCES
+    ]
+    return pd.concat(parsed, ignore_index=True).dropna()
+
+
+def _time_field(conn: sqlite3.Connection) -> FilterField:
+    dates = _all_time_dates(conn)
+    return FilterField(
+        "time", "Time", "Visit date", "date_range",
+        min_date=dates.min().date(), max_date=dates.max().date(),
+    )
 
 
 def _medication_field(conn: sqlite3.Connection) -> FilterField:
@@ -127,10 +166,11 @@ def _lab_report_fields(conn: sqlite3.Connection) -> list[FilterField]:
 
 def list_filter_fields(conn: sqlite3.Connection) -> list[FilterField]:
     """The full Subject Filters catalog -- every filter the panel can render,
-    in display order (Demographics, Medication, Antibody Test, BAL, then one
-    entry per Lab Report component)."""
+    in display order (Demographics, Time, Medication, Antibody Test, BAL,
+    then one entry per Lab Report component)."""
     return [
         *_demographic_fields(conn),
+        _time_field(conn),
         _medication_field(conn),
         _antibody_field(conn),
         _bal_field(),
@@ -190,6 +230,31 @@ def _matching_range(
     return set(frame.loc[values.between(lo, hi), "subject_id"])
 
 
+def _matching_time(
+    conn: sqlite3.Connection, bounds: tuple[datetime.date, datetime.date]
+) -> set[str]:
+    """Subjects with at least one dated record, in any of `_TIME_SOURCES`
+    (Vitals, Lab Report, MRSS, PFT, Medications), within `bounds` (inclusive)
+    -- the multi-table analog of `_matching_range` for the Time filter,
+    OR'ing across domains instead of reading one column of one table. At its
+    own full bounds this must be a true no-op like every other filter's
+    neutral value, not just "every Subject with a dated record somewhere" --
+    so it falls back to every Subject when `bounds` covers the field's whole
+    range, the same guard `_matching_range` uses for Lab Report."""
+    all_dates = _all_time_dates(conn)
+    lo, hi = pd.Timestamp(bounds[0]), pd.Timestamp(bounds[1])
+    if lo <= all_dates.min() and hi >= all_dates.max():
+        return _all_subject_ids(conn)
+
+    hi_end_of_day = hi + pd.Timedelta(days=1) - pd.Timedelta(seconds=1)
+    matched: set[str] = set()
+    for table, column in _TIME_SOURCES:
+        frame = pd.read_sql(f'SELECT subject_id, "{column}" AS date FROM {table}', conn)
+        dates = pd.to_datetime(frame["date"], errors="coerce")
+        matched |= set(frame.loc[dates.between(lo, hi_end_of_day), "subject_id"])
+    return matched
+
+
 def _matching_medication(conn: sqlite3.Connection, selected: list[str]) -> set[str]:
     if not selected:
         return _all_subject_ids(conn)
@@ -225,11 +290,14 @@ def filter_subjects(conn: sqlite3.Connection, selections: dict[str, FilterValue]
         if key.startswith("demographic:"):
             column = key.split(":", 1)[1]
             if column in _DEMOGRAPHIC_RANGE:
-                assert isinstance(value, tuple)
+                assert isinstance(value, tuple) and isinstance(value[0], float)
                 matched &= _matching_range(conn, "demographics", column, value)
             else:
                 assert isinstance(value, list)
                 matched &= _matching_categorical(conn, "demographics", column, value)
+        elif key == "time":
+            assert isinstance(value, tuple) and isinstance(value[0], datetime.date)
+            matched &= _matching_time(conn, value)
         elif key == "medication":
             assert isinstance(value, list)
             matched &= _matching_medication(conn, value)
@@ -241,7 +309,7 @@ def filter_subjects(conn: sqlite3.Connection, selections: dict[str, FilterValue]
             matched &= _matching_bal(conn, value)
         elif key.startswith("lab:"):
             component = key.split(":", 1)[1]
-            assert isinstance(value, tuple)
+            assert isinstance(value, tuple) and isinstance(value[0], float)
             matched &= _matching_range(
                 conn, "lab_report", "value", value, equals=("component_name", component)
             )
