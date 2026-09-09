@@ -118,3 +118,21 @@ def medication_timeline(medications: pd.DataFrame) -> pd.DataFrame:
     working = medications.copy()
     working["date"] = pd.to_datetime(working["date"], errors="coerce")
     return working.dropna(subset=["date"]).sort_values("date")
+
+
+def combine_medication_timelines(per_subject: dict[str, pd.DataFrame]) -> pd.DataFrame:
+    """Concatenate multiple Subjects' `medication_timeline(...)` outputs into
+    one frame for a single combined chart, tagging each row with `subject_id`
+    and a `label` column (`"{subject_id}: {medication}"`) so 2 Subjects on
+    the same drug land on different chart rows instead of colliding
+    (ticket 06). Sorted by date. A Subject contributing no dated medication
+    rows simply adds none -- not every Subject need have medication records."""
+    frames = [
+        timeline.assign(subject_id=subject_id, label=subject_id + ": " + timeline["medication"])
+        for subject_id, timeline in per_subject.items()
+        if not timeline.empty
+    ]
+    if not frames:
+        empty_columns = [*next(iter(per_subject.values())).columns, "subject_id", "label"]
+        return pd.DataFrame(columns=empty_columns)
+    return pd.concat(frames, ignore_index=True).sort_values("date")
