@@ -129,7 +129,8 @@ _MEDICATION_TIMELINE_DPI = 100
 
 class _PlotlyContainer(Protocol):
     """Either the top-level `st` module or one `st.columns()` slot -- both
-    expose `.plotly_chart`, which is all `_show_plotly_fig` needs."""
+    expose `.plotly_chart`/`.dataframe`, which is all `_show_plotly_fig`/
+    `_show_dataframe` need."""
 
     # Keyword params are typed to match Streamlit's own (narrower-than-`str`)
     # overloaded `plotly_chart` exactly -- a broader `**kwargs: object`
@@ -144,6 +145,8 @@ class _PlotlyContainer(Protocol):
         use_container_width: bool | None = ...,
     ) -> object: ...
 
+    def dataframe(self, data: object, /, *, hide_index: bool | None = ...) -> object: ...
+
 
 def _show_plotly_fig(container: _PlotlyContainer, fig: go.Figure) -> None:
     """Render one Plotly figure at the app's fixed chart width, using
@@ -153,6 +156,10 @@ def _show_plotly_fig(container: _PlotlyContainer, fig: go.Figure) -> None:
     fixed width has no effect."""
     fig.update_layout(width=_CHART_WIDTH)
     container.plotly_chart(fig, theme="streamlit", use_container_width=False)
+
+
+def _show_dataframe(container: _PlotlyContainer, data: pd.DataFrame) -> None:
+    container.dataframe(data, hide_index=True)
 
 
 # Spacer:content:spacer ratio for `_centered`/`_centered_columns` -- a 1:2:1
@@ -339,18 +346,36 @@ def _add_control_overlay(
     fig.add_scatter(
         x=control_rows[x_col], y=control_rows[y_col], mode="markers",
         marker=_CONTROL_OVERLAY_MARKER, name="Control Subject",
+        customdata=control_rows[["subject_id"]],
+        hovertemplate="Subject: %{customdata[0]}<extra></extra>",
     )
 
 
-def _render_panel_scatter(result: ComparisonFrame, data: pd.DataFrame, show_overlay: bool) -> None:
+def _render_panel_table(
+    container: _PlotlyContainer, result: ComparisonFrame, data: pd.DataFrame
+) -> None:
+    """The exact rows one panel's chart was built from -- `subject_id`, the
+    2 selected variables (under their display labels), and `cohort` (ticket
+    02's 4th bullet)."""
+    table = data[["subject_id", "x", "y", "cohort"]].rename(
+        columns={"x": result.x_label, "y": result.y_label, "cohort": "Cohort"}
+    )
+    _show_dataframe(container, table)
+
+
+def _render_panel_scatter(
+    container: _PlotlyContainer, result: ComparisonFrame, data: pd.DataFrame, show_overlay: bool
+) -> None:
     base, control_rows = _split_control_overlay(data, show_overlay)
-    fig = px.scatter(base, x="x", y="y", opacity=0.6)
+    fig = px.scatter(base, x="x", y="y", opacity=0.6, hover_data={"subject_id": True})
     fig.update_layout(xaxis_title=result.x_label, yaxis_title=result.y_label)
     _add_control_overlay(fig, control_rows, "x", "y")
-    _show_plotly_fig(st, fig)
+    _show_plotly_fig(container, fig)
 
 
-def _render_panel_box(result: ComparisonFrame, data: pd.DataFrame, show_overlay: bool) -> None:
+def _render_panel_box(
+    container: _PlotlyContainer, result: ComparisonFrame, data: pd.DataFrame, show_overlay: bool
+) -> None:
     base, control_rows = _split_control_overlay(data, show_overlay)
 
     # Whichever axis is the categorical one becomes the box grouping -- the
@@ -361,26 +386,34 @@ def _render_panel_box(result: ComparisonFrame, data: pd.DataFrame, show_overlay:
         if result.x_dtype == "categorical"
         else ("y", result.y_label, "x", result.x_label)
     )
-    fig = px.box(base, x=cat_col, y=num_col)
+    # `points="outliers"` + `hover_data` only affects the individual outlier
+    # markers' hover -- the box body's own hover (quartiles/median) is
+    # unaffected, and no permanent on-chart label is added either way
+    # (ticket 02's 3rd bullet).
+    fig = px.box(base, x=cat_col, y=num_col, points="outliers", hover_data={"subject_id": True})
     # Matches the matplotlib box plot's `ax.tick_params(axis="x", rotation=30)`
     # -- category labels can be long enough to overlap unrotated.
     fig.update_layout(xaxis_title=cat_label, yaxis_title=num_label, xaxis_tickangle=-30)
     _add_control_overlay(fig, control_rows, cat_col, num_col)
-    _show_plotly_fig(st, fig)
+    _show_plotly_fig(container, fig)
 
 
-def _render_panel_heatmap(result: ComparisonFrame, data: pd.DataFrame) -> None:
+def _render_panel_heatmap(
+    container: _PlotlyContainer, result: ComparisonFrame, data: pd.DataFrame
+) -> None:
     # Both axes categorical: a count crosstab is the natural chart. No
     # Control Subject overlay here -- no Control Subject has categorical
     # data on both axes a heatmap pairing can reach (matches the matplotlib
     # version, which never rendered the overlay for this chart_type either).
+    # No per-point Subject hover either -- a heatmap cell is an aggregate
+    # count, not a single Subject's data point (ticket 02's 4th bullet).
     counts = pd.crosstab(data["x"], data["y"])
     fig = px.imshow(
         counts, text_auto=True, color_continuous_scale="Blues",
         labels={"x": result.y_label, "y": result.x_label, "color": "Count"},
     )
     fig.update_xaxes(tickangle=-30)
-    _show_plotly_fig(st, fig)
+    _show_plotly_fig(container, fig)
 
 
 def _render_panel_comparison(
@@ -402,12 +435,17 @@ def _render_panel_comparison(
             "Highlight the 4 Control Subjects", key=_panel_key(panel_id, "overlay")
         )
 
+    # Chart and its companion data table render as one centered horizontal
+    # block, not as two independently-positioned elements (ticket 02's 6th
+    # bullet).
+    chart_col, table_col = _centered_columns(2)
     if result.chart_type == "scatter":
-        _render_panel_scatter(result, data, show_overlay)
+        _render_panel_scatter(chart_col, result, data, show_overlay)
     elif result.chart_type == "box":
-        _render_panel_box(result, data, show_overlay)
+        _render_panel_box(chart_col, result, data, show_overlay)
     else:
-        _render_panel_heatmap(result, data)
+        _render_panel_heatmap(chart_col, result, data)
+    _render_panel_table(table_col, result, data)
 
 
 _PanelAction = Literal["remove", "rotate"]
