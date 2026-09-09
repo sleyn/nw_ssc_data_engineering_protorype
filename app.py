@@ -648,16 +648,16 @@ def _render_trajectory(records: dict[str, SubjectRecord]) -> None:
 
 
 def _log_patient_views_once(username: str, subject_ids: list[str]) -> None:
-    """Write one `view_patient` audit-log entry per newly-added Subject --
-    not re-logged on every Streamlit rerun for Subjects already logged this
-    session. Every tab's render function runs on every rerun regardless of
-    which tab is on screen, so logging unconditionally here would log a
-    view on every unrelated widget interaction elsewhere in the app, not
-    just on an actual new selection."""
+    """Write one `view_patient_record` audit-log entry per newly-added
+    Subject -- not re-logged on every Streamlit rerun for Subjects already
+    logged this session. Every tab's render function runs on every rerun
+    regardless of which tab is on screen, so logging unconditionally here
+    would log a view on every unrelated widget interaction elsewhere in the
+    app, not just on an actual new selection."""
     logged = st.session_state.setdefault("logged_patient_views", set())
     for subject_id in subject_ids:
         if subject_id not in logged:
-            log_event(username, "view_patient", detail=subject_id)
+            log_event(username, "view_patient_record", detail=subject_id)
             logged.add(subject_id)
 
 
