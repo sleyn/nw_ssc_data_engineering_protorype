@@ -1713,6 +1713,10 @@ dev = [
     { name = "ruff" },
     { name = "types-seaborn" },
 ]
+presentation = [
+    { name = "ipykernel" },
+    { name = "jupyter" },
+]
 
 [package.metadata]
 requires-dist = [
@@ -1734,6 +1738,10 @@ dev = [
     { name = "pytest", specifier = ">=9.1.1" },
     { name = "ruff", specifier = ">=0.16.6" },
     { name = "types-seaborn", specifier = ">=0.13.2.20260728" },
+]
+presentation = [
+    { name = "ipykernel", specifier = ">=7.3.0" },
+    { name = "jupyter", specifier = ">=1.1.1" },
 ]
 
 [[package]]

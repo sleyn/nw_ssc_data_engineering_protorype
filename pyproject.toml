@@ -24,6 +24,10 @@ dev = [
     "ruff>=0.16.6",
     "types-seaborn>=0.13.2.20260728",
 ]
+presentation = [
+    "ipykernel>=7.3.0",
+    "jupyter>=1.1.1",
+]
 
 [tool.ruff]
 line-length = 100
