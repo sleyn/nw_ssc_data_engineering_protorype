@@ -12,8 +12,17 @@ dependencies (Jupyter) into a local `.venv` managed by `uv`.
 
 ## Deployed app
 
-_Not yet deployed -- a link to the hosted demo (Streamlit Community Cloud)
-will be added here._
+**[nw-ssc-de.streamlit.app](https://nw-ssc-de.streamlit.app/)** -- hosted on
+Streamlit Community Cloud from this repo's `main` branch.
+
+Streamlit Community Cloud manages its own `.streamlit/secrets.toml` on the
+deployed container via the app's dashboard **Settings > Secrets**, which
+overwrites whatever is in the repo's committed copy of that file (empty by
+default, causing a `RuntimeError` on login until set). So although
+[ADR 0004](docs/adr/0004-commit-demo-secrets-file.md) commits the demo
+secrets so a local `git clone` + run needs no setup step, a Cloud deployment
+still needs the same file's contents pasted into that dashboard setting once,
+by hand.
 
 ## Running the app
 
