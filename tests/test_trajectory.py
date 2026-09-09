@@ -18,6 +18,8 @@ from data.access import get_subject_record
 from data.ingest import DEFAULT_CSV_DIR, build_store
 from data.trajectory import (
     MeasureSeries,
+    apply_disease_duration_axis,
+    apply_disease_duration_to_medications,
     combine_medication_timelines,
     combine_subject_series,
     domain_series,
@@ -298,3 +300,65 @@ def test_shared_date_range_medications_only() -> None:
     medications = _timeline(["2020-01-01", "2020-02-01"], ["prednisone", "aspirin"])
     result = shared_date_range([[]], medications)
     assert result == (pd.Timestamp("2020-01-01"), pd.Timestamp("2020-02-01"))
+
+
+# --- apply_disease_duration_axis / apply_disease_duration_to_medications -----------
+
+
+def test_apply_disease_duration_axis_reexpresses_date_as_years_since_onset() -> None:
+    series = combine_subject_series(
+        {"subject_1": [_series("WBC", "WBC", ["2021-01-01"], [4.2])]}
+    )
+    onset_by_subject = {"subject_1": pd.Timestamp("2020-01-01")}
+    result = apply_disease_duration_axis(series, onset_by_subject)
+    assert len(result) == 1
+    assert result[0].series["date"].iloc[0] == pytest.approx(1.0, abs=0.01)
+    assert result[0].series["value"].iloc[0] == 4.2
+
+
+def test_apply_disease_duration_axis_drops_subjects_missing_onset() -> None:
+    series = combine_subject_series(
+        {
+            "subject_1": [_series("WBC", "WBC", ["2021-01-01"], [4.2])],
+            "subject_2": [_series("WBC", "WBC", ["2021-01-01"], [5.0])],
+        }
+    )
+    onset_by_subject = {"subject_1": pd.Timestamp("2020-01-01")}  # subject_2 has no onset
+    result = apply_disease_duration_axis(series, onset_by_subject)
+    assert len(result) == 1
+    assert set(result[0].series["subject_id"]) == {"subject_1"}
+
+
+def test_apply_disease_duration_axis_drops_a_measure_left_with_no_rows() -> None:
+    series = combine_subject_series(
+        {"subject_1": [_series("WBC", "WBC", ["2021-01-01"], [4.2])]}
+    )
+    result = apply_disease_duration_axis(series, onset_by_subject={})  # no known onsets at all
+    assert result == []
+
+
+def test_apply_disease_duration_to_medications_reexpresses_date() -> None:
+    medications = combine_medication_timelines(
+        {"subject_1": _timeline(["2021-01-01"], ["prednisone"])}
+    )
+    onset_by_subject = {"subject_1": pd.Timestamp("2019-01-01")}
+    result = apply_disease_duration_to_medications(medications, onset_by_subject)
+    assert result["date"].iloc[0] == pytest.approx(2.0, abs=0.01)
+
+
+def test_apply_disease_duration_to_medications_drops_subjects_missing_onset() -> None:
+    medications = combine_medication_timelines(
+        {
+            "subject_1": _timeline(["2021-01-01"], ["prednisone"]),
+            "subject_2": _timeline(["2021-01-01"], ["aspirin"]),
+        }
+    )
+    onset_by_subject = {"subject_1": pd.Timestamp("2020-01-01")}
+    result = apply_disease_duration_to_medications(medications, onset_by_subject)
+    assert list(result["subject_id"]) == ["subject_1"]
+
+
+def test_apply_disease_duration_to_medications_empty_input_stays_empty() -> None:
+    empty = pd.DataFrame(columns=["date", "medication", "subject_id", "label"])
+    result = apply_disease_duration_to_medications(empty, {})
+    assert result.empty

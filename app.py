@@ -19,7 +19,9 @@ import plotly.graph_objects as go
 import streamlit as st
 
 from data.access import (
+    SubjectHeader,
     SubjectRecord,
+    get_subject_header,
     get_subject_record,
     get_variable,
     list_subjects,
@@ -39,6 +41,8 @@ from data.store import build_encrypted_store, open_store
 from data.subject_filters import FilterField, FilterValue, filter_subjects, list_filter_fields
 from data.trajectory import (
     MeasureSeries,
+    apply_disease_duration_axis,
+    apply_disease_duration_to_medications,
     combine_medication_timelines,
     combine_subject_series,
     domain_series,
@@ -357,11 +361,15 @@ def _render_panel_table(
     container: _PlotlyContainer, result: ComparisonFrame, data: pd.DataFrame
 ) -> None:
     """The exact rows one panel's chart was built from -- `subject_id`, the
-    2 selected variables (under their display labels), and `cohort` (ticket
-    02's 4th bullet)."""
-    table = data[["subject_id", "x", "y", "cohort"]].rename(
-        columns={"x": result.x_label, "y": result.y_label, "cohort": "Cohort"}
-    )
+    2 selected variables (under their display labels), `cohort` (ticket
+    02's 4th bullet), and the color-by variable (ticket 03, round 3) when
+    one is selected."""
+    columns = ["subject_id", "x", "y", "cohort"]
+    rename = {"x": result.x_label, "y": result.y_label, "cohort": "Cohort"}
+    if result.color_label is not None and "color" in data.columns:
+        columns.append("color")
+        rename["color"] = result.color_label
+    table = data[columns].rename(columns=rename)
     _show_dataframe(container, table)
 
 
@@ -369,8 +377,13 @@ def _render_panel_scatter(
     container: _PlotlyContainer, result: ComparisonFrame, data: pd.DataFrame, show_overlay: bool
 ) -> None:
     base, control_rows = _split_control_overlay(data, show_overlay)
-    fig = px.scatter(base, x="x", y="y", opacity=0.6, hover_data={"subject_id": True})
+    color_col = "color" if result.color_label is not None else None
+    fig = px.scatter(
+        base, x="x", y="y", opacity=0.6, hover_data={"subject_id": True}, color=color_col,
+    )
     fig.update_layout(xaxis_title=result.x_label, yaxis_title=result.y_label)
+    if color_col is not None:
+        fig.update_layout(legend_title_text=result.color_label)
     _add_control_overlay(fig, control_rows, "x", "y")
     _show_plotly_fig(container, fig)
 
@@ -388,14 +401,21 @@ def _render_panel_box(
         if result.x_dtype == "categorical"
         else ("y", result.y_label, "x", result.x_label)
     )
+    color_col = "color" if result.color_label is not None else None
     # `points="outliers"` + `hover_data` only affects the individual outlier
     # markers' hover -- the box body's own hover (quartiles/median) is
     # unaffected, and no permanent on-chart label is added either way
-    # (ticket 02's 3rd bullet).
-    fig = px.box(base, x=cat_col, y=num_col, points="outliers", hover_data={"subject_id": True})
+    # (ticket 02's 3rd bullet). `color` (ticket 03, round 3), when selected,
+    # groups each x-category's boxes into sub-boxes per color value.
+    fig = px.box(
+        base, x=cat_col, y=num_col, points="outliers", hover_data={"subject_id": True},
+        color=color_col,
+    )
     # Matches the matplotlib box plot's `ax.tick_params(axis="x", rotation=30)`
     # -- category labels can be long enough to overlap unrotated.
     fig.update_layout(xaxis_title=cat_label, yaxis_title=num_label, xaxis_tickangle=-30)
+    if color_col is not None:
+        fig.update_layout(legend_title_text=result.color_label)
     _add_control_overlay(fig, control_rows, cat_col, num_col)
     _show_plotly_fig(container, fig)
 
@@ -419,9 +439,13 @@ def _render_panel_heatmap(
 
 
 def _render_panel_comparison(
-    panel_id: int, conn: sqlite3.Connection, a: CompareVariable, b: CompareVariable
+    panel_id: int,
+    conn: sqlite3.Connection,
+    a: CompareVariable,
+    b: CompareVariable,
+    color: CompareVariable | None,
 ) -> None:
-    result = build_comparison(conn, a, b)
+    result = build_comparison(conn, a, b, color)
     data = result.data.dropna(subset=["x", "y"])
     if data.empty:
         st.warning("No Subjects have data for both of these variables.")
@@ -499,6 +523,18 @@ def _render_compare_panel(
         if rotate_col.button("Rotate", key=_panel_key(panel_id, "rotate"), help="Swap X and Y"):
             action = "rotate"
 
+        # Optional facet (ticket 03, round 3) -- widget instantiated every
+        # run, same reasoning as X/Y above, so its session_state key never
+        # goes orphaned on a run that returns early for a different reason.
+        color_selected = st.selectbox(
+            "Color by (optional)",
+            options=[_NO_VARIABLE_SELECTED, *catalog_labels],
+            key=_panel_key(panel_id, "color"),
+            persist_state="session",
+            help="Facet this pairing by a third variable, e.g. ssc_subtype or an antibody "
+            "result. Ignored for a heatmap panel (both axes already categorical).",
+        )
+
         if action is not None:
             return action
 
@@ -510,7 +546,12 @@ def _render_compare_panel(
             return None
 
         a, b = by_label[x_selected], by_label[y_selected]
-        _render_panel_comparison(panel_id, conn, a, b)
+        color = (
+            by_label[color_selected]
+            if color_selected not in (_NO_VARIABLE_SELECTED, x_selected, y_selected)
+            else None
+        )
+        _render_panel_comparison(panel_id, conn, a, b, color)
     return None
 
 
@@ -546,7 +587,7 @@ def _compare_discover_page() -> None:
             st.session_state["compare_panels"] = [
                 panel for panel in st.session_state["compare_panels"] if panel["id"] != panel_id
             ]
-            for suffix in ("x", "y", "overlay", "rotate-pending"):
+            for suffix in ("x", "y", "color", "overlay", "rotate-pending"):
                 st.session_state.pop(_panel_key(panel_id, suffix), None)
         else:  # rotate
             st.session_state[_panel_key(panel_id, "rotate-pending")] = True
@@ -571,24 +612,33 @@ _X_AXIS_MARGIN_FRACTION = 0.04
 
 
 def _apply_shared_x_range(
-    fig: go.Figure, date_range: tuple[pd.Timestamp, pd.Timestamp] | None
+    fig: go.Figure, date_range: tuple[pd.Timestamp, pd.Timestamp] | tuple[float, float] | None
 ) -> None:
     """Pin `fig`'s x-axis to `date_range` (see `shared_date_range`, ticket
     07), padded by `_X_AXIS_MARGIN_FRACTION` on each side so the first/last
     dot doesn't sit exactly on the axis edge -- only the range itself is
-    fixed, tick spacing stays Plotly's default for it."""
+    fixed, tick spacing stays Plotly's default for it. `date_range`'s bounds
+    are `pd.Timestamp` in calendar mode or `float` (years since onset) in
+    disease-duration mode (ticket 01) -- the margin/fallback below branches
+    on which, since `pd.Timedelta` only applies to the former."""
     if date_range is None:
         return
-    low, high = date_range
-    margin = (high - low) * _X_AXIS_MARGIN_FRACTION or pd.Timedelta(days=1)
-    fig.update_xaxes(range=[low - margin, high + margin])
+    if isinstance(date_range[0], pd.Timestamp):
+        cal_low, cal_high = date_range
+        cal_margin = (cal_high - cal_low) * _X_AXIS_MARGIN_FRACTION or pd.Timedelta(days=1)
+        fig.update_xaxes(range=[cal_low - cal_margin, cal_high + cal_margin])
+    else:
+        dur_low, dur_high = date_range
+        dur_margin = (dur_high - dur_low) * _X_AXIS_MARGIN_FRACTION or 0.1
+        fig.update_xaxes(range=[dur_low - dur_margin, dur_high + dur_margin])
 
 
 def _plot_measure_series(
     container: _PlotlyContainer,
     series: MeasureSeries,
-    date_range: tuple[pd.Timestamp, pd.Timestamp] | None,
+    date_range: tuple[pd.Timestamp, pd.Timestamp] | tuple[float, float] | None,
     subject_colors: dict[str, str],
+    x_axis_label: str = "",
 ) -> None:
     """One measure's chart -- one colored line per Subject present in
     `series.series` (`color="subject_id"`), all at the same reduced
@@ -596,7 +646,9 @@ def _plot_measure_series(
     fixes each Subject's color across every chart on the page -- without it,
     Plotly assigns colors by first-appearance order within each chart's own
     (possibly smaller) Subject subset, so the same Subject could get
-    different colors on different measures."""
+    different colors on different measures. `x_axis_label` names the x-axis
+    under the disease-duration toggle (ticket 01); blank in calendar mode,
+    matching the app's existing unlabeled-date-axis convention."""
     fig = px.line(
         series.series, x="date", y="value", color="subject_id", markers=True,
         color_discrete_map=subject_colors,
@@ -604,7 +656,7 @@ def _plot_measure_series(
     fig.update_traces(opacity=_TRAJECTORY_LINE_OPACITY)
     fig.update_layout(
         title=series.title,
-        xaxis_title="",
+        xaxis_title=x_axis_label,
         yaxis_title="",
         height=300,
         legend_title_text="Subject",
@@ -617,8 +669,9 @@ def _plot_measure_series(
 def _render_domain_small_multiples(
     series_list: list[MeasureSeries],
     domain_label: str,
-    date_range: tuple[pd.Timestamp, pd.Timestamp] | None,
+    date_range: tuple[pd.Timestamp, pd.Timestamp] | tuple[float, float] | None,
     subject_colors: dict[str, str],
+    x_axis_label: str = "",
 ) -> None:
     """One small-multiple line chart per `MeasureSeries` (e.g. one per lab
     component, one per vital sign) -- per-Subject measure counts stay small
@@ -632,13 +685,14 @@ def _render_domain_small_multiples(
         return
     columns = _centered_columns(2)
     for i, series in enumerate(series_list):
-        _plot_measure_series(columns[i % 2], series, date_range, subject_colors)
+        _plot_measure_series(columns[i % 2], series, date_range, subject_colors, x_axis_label)
 
 
 def _render_medications_timeline(
     combined: pd.DataFrame,
     subject_count: int,
-    date_range: tuple[pd.Timestamp, pd.Timestamp] | None,
+    date_range: tuple[pd.Timestamp, pd.Timestamp] | tuple[float, float] | None,
+    x_axis_label: str = "",
 ) -> None:
     """Medication events plotted over time (ticket 09's 5th domain) -- a
     scatter timeline rather than a line chart, since a medication event is a
@@ -678,7 +732,7 @@ def _render_medications_timeline(
         )
     )
     fig.update_layout(
-        xaxis_title="", yaxis_title="", height=height, showlegend=False,
+        xaxis_title=x_axis_label, yaxis_title="", height=height, showlegend=False,
         yaxis=dict(categoryorder="array", categoryarray=row_order),
     )
     fig.update_xaxes(tickangle=-30)
@@ -729,7 +783,59 @@ def _subject_color_map(subject_ids: Iterable[str]) -> dict[str, str]:
     }
 
 
-def _render_trajectory(records: dict[str, SubjectRecord]) -> None:
+_X_AXIS_MODE_OPTIONS = {
+    "Calendar date": "calendar",
+    "Disease duration (years since onset)": "duration",
+}
+_DURATION_AXIS_LABEL = "Years since disease onset"
+
+
+def _render_subject_header(headers: dict[str, SubjectHeader | None]) -> None:
+    """The Patient Trajectory subject-context header (ticket 02): one row per
+    currently-selected Subject -- SSc subtype, comorbidities, most recent
+    antibody results, disease onset, and current disease duration. A Control
+    Subject (no `ssc_subtype` row, `header is None`) states it has no SSc
+    classification rather than showing blank cells."""
+    rows = []
+    for subject_id, header in headers.items():
+        if header is None:
+            rows.append({
+                "Subject": subject_id,
+                "SSc subtype": "-- no SSc classification (Control Subject) --",
+                "Comorbidities": "", "Antibodies": "", "Disease onset": "",
+                "Disease duration (years)": "",
+            })
+            continue
+        antibodies = "; ".join(f"{test}: {value}" for test, value in header.antibodies) or "--"
+        onset_display = (
+            header.disease_onset.date().isoformat()
+            if header.disease_onset is not None
+            else "unknown"
+        )
+        duration_display = (
+            f"{header.disease_duration_years:.1f}"
+            if header.disease_duration_years is not None
+            else "unknown"
+        )
+        rows.append({
+            "Subject": subject_id,
+            "SSc subtype": header.ssc_subtype,
+            "Comorbidities": "; ".join(header.comorbidities) or "--",
+            "Antibodies": antibodies,
+            "Disease onset": onset_display,
+            "Disease duration (years)": duration_display,
+        })
+    st.dataframe(pd.DataFrame(rows), hide_index=True)
+
+
+def _render_trajectory(
+    records: dict[str, SubjectRecord],
+    headers: dict[str, SubjectHeader | None],
+    x_mode: str,
+) -> None:
+    st.subheader("Subject overview")
+    _render_subject_header(headers)
+
     subject_colors = _subject_color_map(records.keys())
     labs = _combined_domain_series(
         records, "labs", value_col="value", date_col="date", measure_col="component_name",
@@ -749,19 +855,40 @@ def _render_trajectory(records: dict[str, SubjectRecord]) -> None:
         subject_id: medication_timeline(record.medications)
         for subject_id, record in records.items()
     })
+
+    x_axis_label = ""
+    if x_mode == "duration":
+        onset_by_subject = {
+            subject_id: header.disease_onset
+            for subject_id, header in headers.items()
+            if header is not None and header.disease_onset is not None
+        }
+        excluded = sorted(set(records) - set(onset_by_subject))
+        if excluded:
+            st.caption(
+                "Excluded from disease-duration view (no known disease onset): "
+                + ", ".join(excluded)
+            )
+        labs = apply_disease_duration_axis(labs, onset_by_subject)
+        vitals = apply_disease_duration_axis(vitals, onset_by_subject)
+        mrss = apply_disease_duration_axis(mrss, onset_by_subject)
+        pft = apply_disease_duration_axis(pft, onset_by_subject)
+        medications = apply_disease_duration_to_medications(medications, onset_by_subject)
+        x_axis_label = _DURATION_AXIS_LABEL
+
     # See `shared_date_range` (ticket 07) -- shared by every chart below.
     date_range = shared_date_range([labs, vitals, mrss, pft], medications)
 
     st.subheader("Labs")
-    _render_domain_small_multiples(labs, "lab", date_range, subject_colors)
+    _render_domain_small_multiples(labs, "lab", date_range, subject_colors, x_axis_label)
     st.subheader("Vitals")
-    _render_domain_small_multiples(vitals, "vitals", date_range, subject_colors)
+    _render_domain_small_multiples(vitals, "vitals", date_range, subject_colors, x_axis_label)
     st.subheader("MRSS")
-    _render_domain_small_multiples(mrss, "MRSS", date_range, subject_colors)
+    _render_domain_small_multiples(mrss, "MRSS", date_range, subject_colors, x_axis_label)
     st.subheader("PFT")
-    _render_domain_small_multiples(pft, "PFT", date_range, subject_colors)
+    _render_domain_small_multiples(pft, "PFT", date_range, subject_colors, x_axis_label)
     st.subheader("Medications")
-    _render_medications_timeline(medications, len(records), date_range)
+    _render_medications_timeline(medications, len(records), date_range, x_axis_label)
 
 
 def _log_patient_views_once(username: str, subject_ids: list[str]) -> None:
@@ -883,9 +1010,16 @@ def _patient_trajectory_page() -> None:
         st.info("Select a subject_id above to view that Subject's record.")
         return
 
+    x_axis_choice = st.radio(
+        "X-axis", options=list(_X_AXIS_MODE_OPTIONS), horizontal=True,
+        key="trajectory-x-axis-mode", persist_state="session",
+    )
+    x_mode = _X_AXIS_MODE_OPTIONS[x_axis_choice]
+
     _log_patient_views_once(username, selected)
     records = {subject_id: get_subject_record(conn, subject_id) for subject_id in selected}
-    _render_trajectory(records)
+    headers = {subject_id: get_subject_header(conn, subject_id) for subject_id in selected}
+    _render_trajectory(records, headers, x_mode)
 
 
 def main() -> None:

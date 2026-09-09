@@ -160,7 +160,9 @@ def resolve_compare_variable(conn: sqlite3.Connection, variable: CompareVariable
 class ComparisonFrame(NamedTuple):
     """The merged, chart-ready result of pairing two `CompareVariable`s.
     `data` always carries `subject_id`, `cohort` (for the Control Subject
-    overlay, User Story 25), `x`, and `y`."""
+    overlay, User Story 25), `x`, and `y` -- plus `color` when `build_comparison`
+    was given a `color` variable (ticket 03, round 3), for faceting the pairing
+    by a third catalog variable (e.g. `ssc_subtype`) on scatter/box panels."""
 
     data: pd.DataFrame
     x_label: str
@@ -168,6 +170,7 @@ class ComparisonFrame(NamedTuple):
     x_dtype: Dtype
     y_dtype: Dtype
     chart_type: ChartType
+    color_label: str | None = None
 
 
 def control_overlay_available(frame: pd.DataFrame) -> bool:
@@ -183,16 +186,31 @@ def control_overlay_available(frame: pd.DataFrame) -> bool:
 
 
 def build_comparison(
-    conn: sqlite3.Connection, a: CompareVariable, b: CompareVariable
+    conn: sqlite3.Connection,
+    a: CompareVariable,
+    b: CompareVariable,
+    color: CompareVariable | None = None,
 ) -> ComparisonFrame:
     """Merge 2 selected variables into one chart-ready `ComparisonFrame`,
-    joined on `subject_id`."""
+    joined on `subject_id`. `color` (ticket 03, round 3), when given, is
+    resolved and left-merged in as a `color` column -- lets a scatter/box
+    panel facet the `a`/`b` pairing by a third catalog variable (e.g.
+    `ssc_subtype`) without that variable itself being the panel's X or Y.
+    A Subject missing `color`'s value merges in as `NaN`/`color=None`, same
+    as any other left-merge gap here -- not an error."""
     subjects = list_subjects(conn)[["subject_id", "cohort"]]
     a_frame = resolve_compare_variable(conn, a)
     b_frame = resolve_compare_variable(conn, b)
     merged = a_frame.merge(b_frame, on="subject_id", suffixes=("_a", "_b"))
     merged = merged.rename(columns={"value_a": "x", "value_b": "y"})
+    color_label: str | None = None
+    if color is not None:
+        color_frame = resolve_compare_variable(conn, color).rename(columns={"value": "color"})
+        merged = merged.merge(color_frame, on="subject_id", how="left")
+        color_label = color.display_label
     merged = merged.merge(subjects, on="subject_id", how="left")
     x_dtype, y_dtype = infer_dtype(merged["x"]), infer_dtype(merged["y"])
     chart_type = choose_chart_type(x_dtype, y_dtype)
-    return ComparisonFrame(merged, a.display_label, b.display_label, x_dtype, y_dtype, chart_type)
+    return ComparisonFrame(
+        merged, a.display_label, b.display_label, x_dtype, y_dtype, chart_type, color_label
+    )

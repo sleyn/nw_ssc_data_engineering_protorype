@@ -202,3 +202,30 @@ def test_lab_result_pairing_never_has_a_control_overlay(conn: sqlite3.Connection
     gender = _find(catalog, "gender", "demographic")
     result = build_comparison(conn, wbc, gender)
     assert control_overlay_available(result.data) is False
+
+
+# --- build_comparison color-by (ticket 03, round 3) ------------------------------
+
+
+def test_build_comparison_without_color_leaves_color_label_none(
+    conn: sqlite3.Connection,
+) -> None:
+    catalog = list_compare_variables(conn)
+    pulse = _find(catalog, "PULSE", "per_patient_aggregate")
+    mrss = _find(catalog, "MRSS", "per_patient_aggregate")
+    result = build_comparison(conn, pulse, mrss)
+    assert result.color_label is None
+    assert "color" not in result.data.columns
+
+
+def test_build_comparison_with_color_merges_the_third_variables_values(
+    conn: sqlite3.Connection,
+) -> None:
+    catalog = list_compare_variables(conn)
+    pulse = _find(catalog, "PULSE", "per_patient_aggregate")
+    mrss = _find(catalog, "MRSS", "per_patient_aggregate")
+    ssc_subtype = _find(catalog, "ssc_subtype", "demographic")
+    result = build_comparison(conn, pulse, mrss, color=ssc_subtype)
+    assert result.color_label == ssc_subtype.display_label
+    assert "color" in result.data.columns
+    assert set(result.data["color"].dropna()).issubset({"dcSSc", "lcSSc"})

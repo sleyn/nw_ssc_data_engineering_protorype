@@ -133,6 +133,22 @@ _COVERAGE_TABLES: tuple[str, ...] = (
 )
 
 
+class SubjectHeader(NamedTuple):
+    """Subject-level clinical context for the top of the Patient Trajectory
+    page (CONTEXT.md's Disease Onset/Disease Duration) — SSc subtype,
+    comorbidities, most recent result per antibody test, and disease onset/
+    duration. `None` for a Subject with no `ssc_subtype` row (a Control
+    Subject) — there is no SSc disease course to describe, matching
+    `list_subjects`' existing NULL-for-Control-Subjects convention."""
+
+    subject_id: str
+    ssc_subtype: str
+    comorbidities: list[str]
+    disease_onset: pd.Timestamp | None
+    disease_duration_years: float | None
+    antibodies: list[tuple[str, str]]
+
+
 class SubjectRecord(NamedTuple):
     """One Subject's full longitudinal record. Any table a Subject has no
     records in (e.g. a Control Subject's labs/medications) comes back as an
@@ -242,6 +258,50 @@ def get_subject_record(conn: sqlite3.Connection, subject_id: str) -> SubjectReco
     medications = _add_parsed_dose_columns(medications)
 
     return SubjectRecord(labs=labs, vitals=vitals, mrss=mrss, pft=pft, medications=medications)
+
+
+def get_subject_header(conn: sqlite3.Connection, subject_id: str) -> SubjectHeader | None:
+    """One Subject's clinical header (CONTEXT.md's Disease Onset/Disease
+    Duration) — SSc subtype, comorbidities, most recent per-test antibody
+    result, and disease onset/duration as of today. `None` for a Subject with
+    no `ssc_subtype` row (a Control Subject). Raises `ValueError` for an
+    unknown `subject_id`, matching `get_subject_record`."""
+    if not _subject_exists(conn, subject_id):
+        raise ValueError(f"{subject_id!r} is not a known subject_id")
+
+    row = conn.execute(
+        "SELECT ssc_subtype, other_dx, nonraynaud_date FROM ssc_subtype WHERE subject_id = ?",
+        (subject_id,),
+    ).fetchone()
+    if row is None:
+        return None
+    ssc_subtype, other_dx, nonraynaud_date = row
+    comorbidities = [dx.strip() for dx in other_dx.split(";") if dx.strip()] if other_dx else []
+
+    onset = pd.to_datetime(nonraynaud_date, errors="coerce")
+    disease_onset = None if pd.isna(onset) else onset
+    disease_duration_years = (
+        None if disease_onset is None else (pd.Timestamp.now() - disease_onset).days / 365.25
+    )
+
+    antibody_rows = pd.read_sql(
+        "SELECT test, value FROM antibodies WHERE subject_id = ? ORDER BY dts",
+        conn,
+        params=(subject_id,),
+    )
+    antibodies: list[tuple[str, str]] = []
+    if not antibody_rows.empty:
+        latest = antibody_rows.groupby("test", as_index=False).last().sort_values("test")
+        antibodies = list(zip(latest["test"], latest["value"], strict=True))
+
+    return SubjectHeader(
+        subject_id=subject_id,
+        ssc_subtype=ssc_subtype,
+        comorbidities=comorbidities,
+        disease_onset=disease_onset,
+        disease_duration_years=disease_duration_years,
+        antibodies=antibodies,
+    )
 
 
 def _measures(conn: sqlite3.Connection, source: _ObservationSource) -> list[str]:

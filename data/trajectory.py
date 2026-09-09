@@ -141,6 +141,59 @@ def shared_date_range(
     return all_dates.min(), all_dates.max()
 
 
+_DAYS_PER_YEAR = 365.25
+
+
+def _years_since_onset(
+    dates: pd.Series, subject_ids: pd.Series, onset_by_subject: dict[str, pd.Timestamp]
+) -> pd.Series:
+    """`dates` re-expressed as years elapsed since each row's own
+    `subject_ids` value's onset (CONTEXT.md's Disease Duration) -- `NaN`
+    wherever `subject_ids` isn't a key of `onset_by_subject` (no known
+    onset) or `dates` doesn't parse."""
+    onset = pd.to_datetime(subject_ids.map(onset_by_subject), errors="coerce")
+    observed = pd.to_datetime(dates, errors="coerce")
+    return (observed - onset).dt.days / _DAYS_PER_YEAR
+
+
+def apply_disease_duration_axis(
+    series_list: list[MeasureSeries], onset_by_subject: dict[str, pd.Timestamp]
+) -> list[MeasureSeries]:
+    """Re-express each combined `MeasureSeries`'s `date` column (still named
+    `date`, but now years-since-onset rather than a calendar date) for
+    Patient Trajectory's disease-duration x-axis mode -- the toggle changes
+    the column's unit, not its name or the `MeasureSeries` shape, so
+    `shared_date_range` needs no separate duration-mode code path. Rows for a
+    Subject missing from `onset_by_subject` (e.g. a Control Subject, or a
+    Registry Subject with a blank `nonraynaud_date`) are dropped -- there is
+    no disease timeline to place them on. A measure left with no rows at all
+    is dropped from the result."""
+    result: list[MeasureSeries] = []
+    for series in series_list:
+        working = series.series.copy()
+        working["date"] = _years_since_onset(
+            working["date"], working["subject_id"], onset_by_subject
+        )
+        working = working.dropna(subset=["date"])
+        if working.empty:
+            continue
+        result.append(series._replace(series=working))
+    return result
+
+
+def apply_disease_duration_to_medications(
+    medications: pd.DataFrame, onset_by_subject: dict[str, pd.Timestamp]
+) -> pd.DataFrame:
+    """The `combine_medication_timelines` counterpart of
+    `apply_disease_duration_axis` -- same re-expression and same per-Subject
+    drop rule, for the medication timeline's `date` column."""
+    if medications.empty:
+        return medications
+    working = medications.copy()
+    working["date"] = _years_since_onset(working["date"], working["subject_id"], onset_by_subject)
+    return working.dropna(subset=["date"])
+
+
 def combine_medication_timelines(per_subject: dict[str, pd.DataFrame]) -> pd.DataFrame:
     """Concatenate multiple Subjects' `medication_timeline(...)` outputs into
     one frame for a single combined chart, tagging each row with `subject_id`

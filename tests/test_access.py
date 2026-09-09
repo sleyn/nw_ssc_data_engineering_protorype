@@ -12,7 +12,9 @@ import pandas as pd
 import pytest
 
 from data.access import (
+    SubjectHeader,
     SubjectRecord,
+    get_subject_header,
     get_subject_record,
     get_variable,
     list_subjects,
@@ -218,3 +220,27 @@ def test_height_returned_by_get_variable_is_already_inch_normalized(
     # that no cm-scale value leaks through.
     heights = pd.to_numeric(get_variable(conn, "height")["value"], errors="coerce").dropna()
     assert heights.between(50, 85).all()
+
+
+# --- get_subject_header -------------------------------------------------------
+
+
+def test_get_subject_header_for_an_ssc_patient(conn: sqlite3.Connection) -> None:
+    header = get_subject_header(conn, AN_SSC_PATIENT_WITH_MEDICATIONS)
+    assert isinstance(header, SubjectHeader)
+    assert header.subject_id == AN_SSC_PATIENT_WITH_MEDICATIONS
+    assert header.ssc_subtype in {"dcSSc", "lcSSc"}
+    assert isinstance(header.comorbidities, list)
+    assert isinstance(header.antibodies, list)
+    if header.disease_onset is not None:
+        assert header.disease_duration_years is not None
+        assert header.disease_duration_years > 0
+
+
+def test_get_subject_header_is_none_for_a_control_subject(conn: sqlite3.Connection) -> None:
+    assert get_subject_header(conn, A_CONTROL_SUBJECT) is None
+
+
+def test_get_subject_header_rejects_an_unknown_subject_id(conn: sqlite3.Connection) -> None:
+    with pytest.raises(ValueError, match="not a known subject_id"):
+        get_subject_header(conn, "NOT_A_REAL_SUBJECT")
