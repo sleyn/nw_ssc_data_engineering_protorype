@@ -51,9 +51,10 @@ FilterValue = list[str] | tuple[float, float] | bool
 class FilterField(NamedTuple):
     """One entry in the Subject Filters catalog. `key` is the stable
     identifier `filter_subjects`' `selections` dict is keyed by; `category`/
-    `label` are what the panel displays. Exactly one of `options` (categorical
-    / existence) or `min_value`+`max_value` (range) is populated, except a
-    "range" filter is always the former + the latter — see `kind`."""
+    `label` are what the panel displays. A `"range"` field populates
+    `min_value`/`max_value` (`options` stays `None`); every other kind
+    populates `options` instead -- `None` only for BAL's option-less
+    existence toggle."""
 
     key: str
     category: str
@@ -154,24 +155,28 @@ def _matching_categorical(
 
 
 def _matching_range(
-    conn: sqlite3.Connection, table: str, column: str, bounds: tuple[float, float]
+    conn: sqlite3.Connection,
+    table: str,
+    value_column: str,
+    bounds: tuple[float, float],
+    *,
+    equals: tuple[str, str] | None = None,
 ) -> set[str]:
+    """Subjects whose `value_column` in `table` falls within `bounds`
+    (inclusive), optionally restricted to rows matching one `(column,
+    value)` equality (`equals`) -- the Lab Report per-component range
+    filters share this shape with the demographic ones, differing only in
+    that extra row filter (a component name)."""
     lo, hi = bounds
-    frame = pd.read_sql(f'SELECT subject_id, "{column}" FROM {table}', conn)
-    values = pd.to_numeric(frame[column], errors="coerce")
+    sql = f'SELECT subject_id, "{value_column}" FROM {table}'
+    params: tuple[str, ...] = ()
+    if equals is not None:
+        equals_column, equals_value = equals
+        sql += f' WHERE "{equals_column}" = ?'
+        params = (equals_value,)
+    frame = pd.read_sql(sql, conn, params=params)
+    values = pd.to_numeric(frame[value_column], errors="coerce")
     return set(frame.loc[values.between(lo, hi), "subject_id"])
-
-
-def _matching_lab_range(
-    conn: sqlite3.Connection, component: str, bounds: tuple[float, float]
-) -> set[str]:
-    lo, hi = bounds
-    lab = pd.read_sql(
-        "SELECT subject_id, value FROM lab_report WHERE component_name = ?",
-        conn, params=(component,),
-    )
-    values = pd.to_numeric(lab["value"], errors="coerce")
-    return set(lab.loc[values.between(lo, hi), "subject_id"])
 
 
 def _matching_medication(conn: sqlite3.Connection, selected: list[str]) -> set[str]:
@@ -226,7 +231,9 @@ def filter_subjects(conn: sqlite3.Connection, selections: dict[str, FilterValue]
         elif key.startswith("lab:"):
             component = key.split(":", 1)[1]
             assert isinstance(value, tuple)
-            matched &= _matching_lab_range(conn, component, value)
+            matched &= _matching_range(
+                conn, "lab_report", "value", value, equals=("component_name", component)
+            )
         else:
             raise ValueError(f"unknown filter key {key!r}")
     return sorted(matched)
