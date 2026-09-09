@@ -21,7 +21,7 @@ import tomllib
 from datetime import UTC, datetime
 from pathlib import Path
 
-from data.store import DEFAULT_SECRETS_PATH
+from data.store import DEFAULT_SECRETS_PATH as DEFAULT_SECRETS_PATH
 
 DEFAULT_AUDIT_LOG_PATH = Path(__file__).parent.parent / "audit.log"
 
