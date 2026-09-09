@@ -53,6 +53,9 @@ One row of `vitals.csv` — a named vital (e.g. BMI, BP SYSTOLIC, PULSE) and its
 A Subject in the `control` Cohort — one of 4 non-SSc healthy individuals (`SSC_NORM_0101`, `0102`, `0104`, `0110`) that appear in `libraries.csv` (all 4) and partially in `mrss.csv`/`pft.csv`/`vitals.csv` (3 of the 4 — `0104`'s RNA-seq sample failed QC and it has no other records). Confirmed by explicit "healthy control"/"control sample" comments in `libraries.csv`. Never a Registry member (no `demographics`/`ssc_subtype` row). Used as a comparator arm for the RNA-seq work, not a general-purpose control cohort.
 _Avoid_: Orphan record, invalid ID — these IDs are a real, intentional Cohort segment, not a data error.
 
+**Subject Filter** (Patient Trajectory):
+A criterion that narrows the pool of Subjects available for selection, without itself plotting anything. Three kinds: **Categorical filter** (multi-select over enumerated values, e.g. gender, ethnicity, SSc subtype), **Range filter** (numeric min/max, e.g. height, a Lab Result value), and **Existence filter** (boolean presence-of-any-record check with no value comparison, e.g. "was BAL performed," "ever prescribed drug X"). Selected values within one filter combine with OR; separate filters combine with AND.
+
 **Comorbidity flags** (`ssc_subtype.other_dx`):
 A semicolon-separated list of co-occurring conditions (ILD, GERD, PAH, or combinations) recorded alongside the SSc subtype. Despite the column name, this is not a differential/alternate diagnosis — every Registry patient's `diagnosis` is SSc; `other_dx` records comorbidities on top of that.
 _Avoid_: "other diagnosis" as a user-facing label — prefer "comorbidities" to avoid implying diagnostic uncertainty.
