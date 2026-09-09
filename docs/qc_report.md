@@ -14,6 +14,13 @@ Advisory findings only — nothing here blocks ingestion or mutates the underlyi
 
 - vitals: WEIGHT IN POUND is constant at 160.6 across all visits for 178 patients (848 total records) — 106x more common than expected if personal-constant values were spread evenly.
 
+## Value spike (population-level record share)
+
+- vitals: BP SYSTOLIC has a needle-like spike at 124 — 1988 of 7848 records (25%), 11.7x the local background rate of its 3 nearest values on each side (median 170 records) — consistent with a synthetic-data filler layered on top of an otherwise ordinary distribution.
+- vitals: BP DIASTOLIC has a needle-like spike at 77 — 1979 of 7848 records (25%), 5.7x the local background rate of its 3 nearest values on each side (median 344.5 records) — consistent with a synthetic-data filler layered on top of an otherwise ordinary distribution.
+- vitals: PULSE has a needle-like spike at 76 — 1339 of 8381 records (16%), 4.6x the local background rate of its 3 nearest values on each side (median 291 records) — consistent with a synthetic-data filler layered on top of an otherwise ordinary distribution.
+- vitals: WEIGHT IN POUND has a needle-like spike at 160.6 — 870 of 8396 records (10%), 96.7x the local background rate of its 3 nearest values on each side (median 9 records) — consistent with a synthetic-data filler layered on top of an otherwise ordinary distribution.
+
 ## Guideline range checks
 
 - pft: DLCO_SB — 0 of 829 readings fall outside the guideline range 20-150 (observed range: 40-130).

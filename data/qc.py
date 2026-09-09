@@ -43,6 +43,27 @@ MIN_CONSTANT_VALUE_VISITS = 2
 MIN_CONSTANT_VALUE_SUBJECTS = 10
 MIN_CONSTANT_VALUE_DOMINANCE_RATIO = 25.0
 
+# check_value_spike catches a different pattern than the per-patient check
+# above: a single value that accounts for a suspiciously large share of ALL
+# records for a measure, well above the smooth local background set by its
+# immediate numeric neighbors — a needle sitting on top of an otherwise
+# ordinary bell-shaped distribution. This is the pattern BP DIASTOLIC (77),
+# BP SYSTOLIC (124), and PULSE (76) show: none of them clear
+# MIN_CONSTANT_VALUE_DOMINANCE_RATIO's per-patient-invariance bar (most of
+# the spike's records belong to patients whose OTHER visits differ, so
+# check_constant_value_across_visits filters them out before dominance is
+# ever measured), but 16-25% of every reading for each of those three
+# measures lands on that one exact value regardless. Thresholds tuned so a
+# real distribution's ordinary mode (which is naturally somewhat more common
+# than its shoulders) doesn't clear the bar, but an injected filler value
+# does; MIN_SPIKE_DISTINCT_VALUES is a floor so a measure with too few
+# distinct values to have a "local background" at all (e.g. categorical
+# labs) is skipped rather than false-flagged.
+MIN_SPIKE_NEIGHBOR_WINDOW = 3
+MIN_SPIKE_RECORD_SHARE = 0.05
+MIN_SPIKE_NEIGHBOR_RATIO = 4.0
+MIN_SPIKE_DISTINCT_VALUES = 8
+
 # Approximate adult reference ranges used for QC purposes only (not
 # diagnostic thresholds). A measure with no entry here is reported as
 # "no guideline range defined" rather than silently skipped.
@@ -218,6 +239,66 @@ def check_constant_value_across_visits(
     return [message for _, message in findings]
 
 
+def check_value_spike(
+    observations: pd.DataFrame,
+    *,
+    measure_col: str,
+    value_col: str,
+    table_label: str,
+    neighbor_window: int = MIN_SPIKE_NEIGHBOR_WINDOW,
+    min_record_share: float = MIN_SPIKE_RECORD_SHARE,
+    min_neighbor_ratio: float = MIN_SPIKE_NEIGHBOR_RATIO,
+    min_distinct_values: int = MIN_SPIKE_DISTINCT_VALUES,
+) -> list[str]:
+    """Flag a value that accounts for a suspiciously large share of ALL
+    records for a measure, well above the smooth local background set by its
+    nearest numeric neighbors — a needle-like spike layered on top of an
+    otherwise ordinary distribution. Unlike `check_constant_value_across_visits`
+    (which only looks at patients whose value never varies across their own
+    visits), this looks at the value's share of every record for the
+    measure, so it also catches a filler value used on some but not all of a
+    patient's visits."""
+    df = observations.dropna(subset=[value_col])
+    findings: list[tuple[int, str]] = []
+    for measure, group in df.groupby(measure_col):
+        measure = str(measure)
+        values = pd.to_numeric(group[value_col], errors="coerce").dropna()
+        counts = values.value_counts().sort_index()
+        if len(counts) < min_distinct_values:
+            continue  # too few distinct values to define a local background
+
+        total = int(counts.sum())
+        peak_value = counts.idxmax()
+        peak_count = int(counts.max())
+        pos = list(counts.index).index(peak_value)
+        lo = max(pos - neighbor_window, 0)
+        hi = min(pos + neighbor_window + 1, len(counts))
+        neighbors = counts.iloc[lo:hi].drop(index=peak_value)
+        if neighbors.empty:
+            continue
+        neighbor_background = float(neighbors.median())
+        if neighbor_background <= 0:
+            continue
+
+        record_share = peak_count / total
+        ratio = peak_count / neighbor_background
+        if record_share >= min_record_share and ratio >= min_neighbor_ratio:
+            findings.append(
+                (
+                    peak_count,
+                    f"{table_label}: {measure} has a needle-like spike at {peak_value:g} — "
+                    f"{peak_count} of {total} records ({record_share:.0%}), {ratio:.1f}x the "
+                    f"local background rate of its {neighbor_window} nearest values on each "
+                    f"side (median {neighbor_background:g} records) — consistent with a "
+                    "synthetic-data filler layered on top of an otherwise ordinary "
+                    "distribution.",
+                )
+            )
+
+    findings.sort(key=lambda pair: pair[0], reverse=True)
+    return [message for _, message in findings]
+
+
 def check_guideline_range(
     observations: pd.DataFrame,
     *,
@@ -380,6 +461,35 @@ def generate_report(conn: sqlite3.Connection) -> str:
                 *check_constant_value_across_visits(
                     pft,
                     subject_col="subject_id",
+                    measure_col="NAME",
+                    value_col="ORD_VALUE",
+                    table_label="pft",
+                ),
+            ],
+        ),
+        (
+            "Value spike (population-level record share)",
+            [
+                *check_value_spike(
+                    vitals,
+                    measure_col="vital_type_name_category",
+                    value_col="vital_value",
+                    table_label="vitals",
+                ),
+                *check_value_spike(
+                    lab_report,
+                    measure_col="component_name",
+                    value_col="value",
+                    table_label="lab_report",
+                ),
+                *check_value_spike(
+                    mrss,
+                    measure_col="measure",
+                    value_col="mrss_score",
+                    table_label="mrss",
+                ),
+                *check_value_spike(
+                    pft,
                     measure_col="NAME",
                     value_col="ORD_VALUE",
                     table_label="pft",

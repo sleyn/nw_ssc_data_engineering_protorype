@@ -13,6 +13,7 @@ from data.qc import (
     check_guideline_range,
     check_key_linkage,
     check_medication_name_merge,
+    check_value_spike,
 )
 
 # --- key linkage -------------------------------------------------------
@@ -164,6 +165,73 @@ def test_constant_value_check_is_clean_when_only_one_value_is_ever_observed() ->
         min_dominance_ratio=1.0,
     )
     assert findings == []
+
+
+# --- value spike (population-level record share) -------------------------
+
+
+def _value_rows(measure: str, value: float, n: int) -> list[dict[str, object]]:
+    return [{"measure": measure, "value": value} for _ in range(n)]
+
+
+def test_value_spike_check_flags_a_needle_on_top_of_a_smooth_background() -> None:
+    # 21 distinct values each seen 5 times (a flat local background), except
+    # one value in the middle seen 200 times — a needle, not an ordinary
+    # bell-curve mode.
+    rows = []
+    for value in range(70, 91):
+        rows += _value_rows("BP DIASTOLIC", float(value), 200 if value == 80 else 5)
+    observations = pd.DataFrame(rows)
+
+    findings = check_value_spike(
+        observations,
+        measure_col="measure",
+        value_col="value",
+        table_label="vitals",
+    )
+    assert len(findings) == 1
+    assert "BP DIASTOLIC" in findings[0]
+    assert "80" in findings[0]
+
+
+def test_value_spike_check_is_clean_for_a_flat_distribution() -> None:
+    # No value stands out from its neighbors at all — an ordinary uniform
+    # spread, not a spike.
+    rows = []
+    for value in range(70, 91):
+        rows += _value_rows("BP DIASTOLIC", float(value), 50)
+    observations = pd.DataFrame(rows)
+
+    assert (
+        check_value_spike(
+            observations,
+            measure_col="measure",
+            value_col="value",
+            table_label="vitals",
+        )
+        == []
+    )
+
+
+def test_value_spike_check_is_clean_when_too_few_distinct_values_to_have_a_background() -> None:
+    # Only 3 distinct values observed — not enough to define a local
+    # background, regardless of how skewed the counts are.
+    rows = (
+        _value_rows("DIFFERENTIAL TYPE", 1.0, 500)
+        + _value_rows("DIFFERENTIAL TYPE", 2.0, 5)
+        + _value_rows("DIFFERENTIAL TYPE", 3.0, 5)
+    )
+    observations = pd.DataFrame(rows)
+
+    assert (
+        check_value_spike(
+            observations,
+            measure_col="measure",
+            value_col="value",
+            table_label="lab_report",
+        )
+        == []
+    )
 
 
 # --- guideline range check ------------------------------------------------
