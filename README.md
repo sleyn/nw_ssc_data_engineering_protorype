@@ -17,12 +17,10 @@ Streamlit Community Cloud from this repo's `main` branch.
 
 Streamlit Community Cloud manages its own `.streamlit/secrets.toml` on the
 deployed container via the app's dashboard **Settings > Secrets**, which
-overwrites whatever is in the repo's committed copy of that file (empty by
-default, causing a `RuntimeError` on login until set). So although
-[ADR 0004](docs/adr/0004-commit-demo-secrets-file.md) commits the demo
-secrets so a local `git clone` + run needs no setup step, a Cloud deployment
-still needs the same file's contents pasted into that dashboard setting once,
-by hand.
+overwrites whatever is in the repo's committed copy of that file. The demo
+secrets are committed here so a local `git clone` + run needs no setup step,
+but a Cloud deployment still requires the same file's contents to be pasted
+into the dashboard **Settings > Secrets** once, by hand.
 
 ## Running the app
 
@@ -37,8 +35,7 @@ Log in with the published demo credentials:
 
 This is a literal-but-lightweight HIPAA-style demonstration (login, encryption
 at rest, audit logging) gated by these published credentials, not a real
-access-control boundary -- see [docs/spec.md](docs/spec.md) and
-[ADR 0001](docs/adr/0001-hipaa-controls-with-public-demo-credentials.md).
+access-control boundary.
 Every login attempt (success and failure) is appended to a local
 `audit.log` file with timestamp and user; this log does not persist across
 restarts/redeploys under the chosen ephemeral hosting (documented limitation,
@@ -73,8 +70,7 @@ Jupyter opens it by default.
 ## Secrets
 
 `.streamlit/secrets.toml` is committed to this repo, which is not normal
-practice for a secrets file. It's deliberate here (see
-[ADR 0004](docs/adr/0004-commit-demo-secrets-file.md)): the values it holds
+practice for a secrets file. It's deliberate here: the values it holds
 (the public demo login and the at-rest encryption key) are intentionally
 public so a reviewer can `git clone` and run the app with no manual
 secret-provisioning step. **A real (non-demo) deployment would never commit
