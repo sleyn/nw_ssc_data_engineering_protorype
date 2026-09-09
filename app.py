@@ -264,10 +264,11 @@ def _cohort_overview_page() -> None:
 
 _NO_VARIABLE_SELECTED = "-- select a variable --"
 
-# Control Subject overlay marker style, shared by scatter and box panels --
-# matches the diamond/black style `_add_control_overlay_scatter` used to
-# draw in matplotlib (User Story 25).
-_CONTROL_OVERLAY_MARKER = dict(symbol="diamond", color="black", size=10)
+# Control Subject overlay color, shared by every panel chart type -- matches
+# the black style `_add_control_overlay_scatter` used to draw in matplotlib
+# (User Story 25).
+_CONTROL_OVERLAY_COLOR = "black"
+_CONTROL_OVERLAY_MARKER = dict(symbol="diamond", color=_CONTROL_OVERLAY_COLOR, size=10)
 
 
 def _panel_key(panel_id: int, suffix: str) -> str:
@@ -345,17 +346,26 @@ def _render_panel_box(result: ComparisonFrame, data: pd.DataFrame, show_overlay:
 
 def _render_panel_line(result: ComparisonFrame, data: pd.DataFrame, show_overlay: bool) -> None:
     base, control_rows = _split_control_overlay(data, show_overlay)
-    base = base.sort_values("x")
     color = "hue" if result.hue_label else None
-    fig = px.line(base, x="x", y="y", color=color, markers=True)
+    # A raw per-visit `(date, value)` line, unaggregated, would zig-zag
+    # between unrelated Subjects' readings that happen to share a hue group
+    # -- the matplotlib version's `sns.lineplot` averaged across Subjects at
+    # each x-value by default, which is what makes it a "trend line" rather
+    # than a scatter connected in date order. Mean-per-(x[, hue]) reproduces
+    # that shape (minus the CI band, which Plotly's `px.line` has no
+    # built-in equivalent for).
+    group_cols = ["x", "hue"] if color else ["x"]
+    trend = base.groupby(group_cols, as_index=False)[["y"]].mean().sort_values("x")
+    fig = px.line(trend, x="x", y="y", color=color, markers=True)
     if result.hue_label:
         fig.update_layout(legend_title_text=result.hue_label)
-    # Each Control Subject gets its own dashed black trend line (User Story
-    # 25) -- matches the matplotlib version's per-Subject `ax.plot(..., ls="--")`.
+    # Each Control Subject gets its own dashed trend line (User Story 25) --
+    # matches the matplotlib version's per-Subject `ax.plot(..., ls="--")`.
     for subject_id, group in control_rows.sort_values("x").groupby("subject_id"):
         fig.add_scatter(
             x=group["x"], y=group["y"], mode="lines+markers",
-            line=dict(color="black", dash="dash"), marker=dict(color="black"),
+            line=dict(color=_CONTROL_OVERLAY_COLOR, dash="dash"),
+            marker=dict(color=_CONTROL_OVERLAY_COLOR),
             name=f"Control Subject ({subject_id})",
         )
     fig.update_layout(xaxis_title=result.x_label, yaxis_title=result.y_label)
