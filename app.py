@@ -38,6 +38,7 @@ from data.qc import generate_report
 from data.store import build_encrypted_store, open_store
 from data.trajectory import (
     MeasureSeries,
+    combine_medication_timelines,
     combine_subject_series,
     domain_series,
     medication_timeline,
@@ -592,24 +593,34 @@ def _render_domain_small_multiples(series_list: list[MeasureSeries], domain_labe
         _plot_measure_series(columns[i % 2], series)
 
 
-def _render_medications_timeline(medications: pd.DataFrame) -> None:
+def _render_medications_timeline(records: dict[str, SubjectRecord]) -> None:
     """Medication events plotted over time (ticket 09's 5th domain) -- a
     scatter timeline rather than a line chart, since a medication event is a
-    (drug, dose) pair on a date, not a numeric measure with a trend. The
-    table underneath surfaces the parsed dose (`data.normalize`) the chart
-    itself has no room to show."""
-    working = medication_timeline(medications)
-    if working.empty:
-        st.caption("No dated medication records for this Subject.")
+    (drug, dose) pair on a date, not a numeric measure with a trend. With
+    multiple Subjects selected, every Subject's events render on one
+    combined chart, y-axis rows labeled `"{subject_id}: {medication}"` so 2
+    Subjects on the same drug don't collide on one row; with exactly 1
+    Subject, rows stay labeled by drug alone -- visually unchanged from the
+    single-Subject view (ticket 06). The table underneath surfaces the
+    parsed dose (`data.normalize`) the chart itself has no room to show."""
+    per_subject = {
+        subject_id: medication_timeline(record.medications)
+        for subject_id, record in records.items()
+    }
+    combined = combine_medication_timelines(per_subject)
+    if combined.empty:
+        st.caption("No dated medication records for the selected Subjects.")
         return
+
+    row_col = "medication" if len(records) == 1 else "label"
 
     # Same "taller for more distinct medications" scaling as the matplotlib
     # version -- see `_MEDICATION_TIMELINE_DPI`.
-    height = int(_MEDICATION_TIMELINE_DPI * max(2.0, 0.4 * working["medication"].nunique() + 1))
+    height = int(_MEDICATION_TIMELINE_DPI * max(2.0, 0.4 * combined[row_col].nunique() + 1))
     fig = go.Figure(
         go.Scatter(
-            x=working["date"],
-            y=working["medication"],
+            x=combined["date"],
+            y=combined[row_col],
             mode="markers",
             marker=dict(size=10),
         )
@@ -619,10 +630,10 @@ def _render_medications_timeline(medications: pd.DataFrame) -> None:
     _show_plotly_fig(_centered(), fig)
 
     detail_columns = [
-        "date", "medication", "medication_as_recorded", "dose",
+        "subject_id", "date", "medication", "medication_as_recorded", "dose",
         "dose_value", "dose_unit", "dose_frequency",
     ]
-    st.dataframe(working[detail_columns], hide_index=True)
+    st.dataframe(combined[detail_columns], hide_index=True)
 
 
 def _combined_domain_series(
@@ -680,9 +691,7 @@ def _render_trajectory(records: dict[str, SubjectRecord]) -> None:
         "PFT",
     )
     st.subheader("Medications")
-    for subject_id, record in records.items():
-        with st.expander(subject_id, expanded=len(records) == 1):
-            _render_medications_timeline(record.medications)
+    _render_medications_timeline(records)
 
 
 def _log_patient_views_once(username: str, subject_ids: list[str]) -> None:

@@ -18,6 +18,7 @@ from data.access import get_subject_record
 from data.ingest import DEFAULT_CSV_DIR, build_store
 from data.trajectory import (
     MeasureSeries,
+    combine_medication_timelines,
     combine_subject_series,
     domain_series,
     medication_timeline,
@@ -213,3 +214,51 @@ def test_medication_timeline_drops_undated_rows() -> None:
 def test_medication_timeline_empty_input_stays_empty() -> None:
     empty = pd.DataFrame(columns=["date", "medication"])
     assert medication_timeline(empty).empty
+
+
+# --- combine_medication_timelines --------------------------------------------------
+
+
+def _timeline(dates: list[str], medications: list[str]) -> pd.DataFrame:
+    return medication_timeline(pd.DataFrame({"date": dates, "medication": medications}))
+
+
+def test_combine_medication_timelines_labels_by_subject_and_drug() -> None:
+    per_subject = {
+        "subject_1": _timeline(["2020-01-01"], ["methotrexate"]),
+        "subject_2": _timeline(["2020-01-02"], ["methotrexate"]),
+    }
+    result = combine_medication_timelines(per_subject)
+    assert set(result["label"]) == {"subject_1: methotrexate", "subject_2: methotrexate"}
+    assert list(result["subject_id"]) == ["subject_1", "subject_2"]
+
+
+def test_combine_medication_timelines_sorts_by_date_across_subjects() -> None:
+    per_subject = {
+        "subject_1": _timeline(["2020-02-01"], ["prednisone"]),
+        "subject_2": _timeline(["2020-01-01"], ["aspirin"]),
+    }
+    result = combine_medication_timelines(per_subject)
+    assert list(result["subject_id"]) == ["subject_2", "subject_1"]
+
+
+def test_combine_medication_timelines_single_subject_label_is_subject_prefixed() -> None:
+    per_subject = {"subject_1": _timeline(["2020-01-01"], ["prednisone"])}
+    result = combine_medication_timelines(per_subject)
+    assert list(result["label"]) == ["subject_1: prednisone"]
+
+
+def test_combine_medication_timelines_subject_with_no_medications_contributes_nothing() -> None:
+    per_subject = {
+        "subject_1": _timeline(["2020-01-01"], ["prednisone"]),
+        "subject_2": medication_timeline(pd.DataFrame(columns=["date", "medication"])),
+    }
+    result = combine_medication_timelines(per_subject)
+    assert list(result["subject_id"]) == ["subject_1"]
+
+
+def test_combine_medication_timelines_all_empty_stays_empty() -> None:
+    per_subject = {"subject_1": medication_timeline(pd.DataFrame(columns=["date", "medication"]))}
+    result = combine_medication_timelines(per_subject)
+    assert result.empty
+    assert {"subject_id", "label"} <= set(result.columns)
