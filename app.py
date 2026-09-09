@@ -12,13 +12,10 @@ Run locally with `uv sync` then `uv run streamlit run app.py`.
 import sqlite3
 from typing import Literal, Protocol
 
-import matplotlib.pyplot as plt
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
-import seaborn as sns
 import streamlit as st
-from matplotlib.figure import Figure
 
 from data.access import (
     SubjectRecord,
@@ -38,8 +35,6 @@ from data.compare import (
 from data.dictionary import describe_all_tables
 from data.store import build_encrypted_store, open_store
 from data.trajectory import MeasureSeries, domain_series, medication_timeline
-
-sns.set_theme(style="whitegrid")
 
 # Same 4 categorical demographic fields the EDA notebook plots (ticket 05) --
 # kept in sync so the app and notebook show the same population shape.
@@ -103,18 +98,6 @@ def _data_dictionary_page() -> None:
                     "view (subject_id + derived fields only)."
                 )
             st.dataframe(entry.fields, hide_index=True)
-
-
-class _PyplotContainer(Protocol):
-    """Either the top-level `st` module or one `st.columns()` slot -- both
-    expose `.pyplot`, which is all `_show_fig` needs."""
-
-    def pyplot(self, fig: Figure) -> object: ...
-
-
-def _show_fig(container: _PyplotContainer, fig: Figure) -> None:
-    container.pyplot(fig)
-    plt.close(fig)
 
 
 _CHART_WIDTH = 500
