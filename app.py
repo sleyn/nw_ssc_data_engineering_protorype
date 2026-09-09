@@ -54,7 +54,7 @@ TAB_NAMES = ["Data & Dictionary", "Cohort Overview", "Compare & Discover", "Pati
 def _get_connection() -> sqlite3.Connection:
     """Build the encrypted store and open one decrypted connection, cached
     process-wide so this only happens once per app process, not once per
-    rerun (User Story 6 / ADR 0002)."""
+    rerun."""
     build_encrypted_store()
     return open_store()
 
