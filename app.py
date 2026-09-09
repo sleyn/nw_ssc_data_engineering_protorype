@@ -343,6 +343,40 @@ def _render_panel_box(result: ComparisonFrame, data: pd.DataFrame, show_overlay:
     _show_plotly_fig(st, fig)
 
 
+def _render_panel_line(result: ComparisonFrame, data: pd.DataFrame, show_overlay: bool) -> None:
+    base, control_rows = _split_control_overlay(data, show_overlay)
+    base = base.sort_values("x")
+    color = "hue" if result.hue_label else None
+    fig = px.line(base, x="x", y="y", color=color, markers=True)
+    if result.hue_label:
+        fig.update_layout(legend_title_text=result.hue_label)
+    # Each Control Subject gets its own dashed black trend line (User Story
+    # 25) -- matches the matplotlib version's per-Subject `ax.plot(..., ls="--")`.
+    for subject_id, group in control_rows.sort_values("x").groupby("subject_id"):
+        fig.add_scatter(
+            x=group["x"], y=group["y"], mode="lines+markers",
+            line=dict(color="black", dash="dash"), marker=dict(color="black"),
+            name=f"Control Subject ({subject_id})",
+        )
+    fig.update_layout(xaxis_title=result.x_label, yaxis_title=result.y_label)
+    fig.update_xaxes(tickangle=-30)
+    _show_plotly_fig(st, fig)
+
+
+def _render_panel_heatmap(result: ComparisonFrame, data: pd.DataFrame) -> None:
+    # Both axes categorical: a count crosstab is the natural chart. No
+    # Control Subject overlay here -- no Control Subject has categorical
+    # data on both axes a heatmap pairing can reach (matches the matplotlib
+    # version, which never rendered the overlay for this chart_type either).
+    counts = pd.crosstab(data["x"], data["y"])
+    fig = px.imshow(
+        counts, text_auto=True, color_continuous_scale="Blues",
+        labels={"x": result.y_label, "y": result.x_label, "color": "Count"},
+    )
+    fig.update_xaxes(tickangle=-30)
+    _show_plotly_fig(st, fig)
+
+
 def _render_panel_comparison(
     panel_id: int, conn: sqlite3.Connection, a: CompareVariable, b: CompareVariable
 ) -> None:
@@ -353,11 +387,12 @@ def _render_panel_comparison(
         return
 
     show_overlay = False
-    # Only offered for the 2 chart types this panel actually draws --
-    # hidden entirely (not just disabled) when it wouldn't be meaningful
-    # (User Story 25), same as it always was for a pairing no Control
-    # Subject has data on both sides of.
-    if result.chart_type in ("scatter", "box") and control_overlay_available(data):
+    # Not offered for "heatmap" (both axes categorical -- no Control Subject
+    # reaches one) or "unsupported" (plain table, no chart) -- hidden
+    # entirely (not just disabled) when it wouldn't be meaningful (User
+    # Story 25), same as it always was for a pairing no Control Subject has
+    # data on both sides of.
+    if result.chart_type in ("scatter", "box", "line") and control_overlay_available(data):
         show_overlay = st.toggle(
             "Highlight the 4 Control Subjects", key=_panel_key(panel_id, "overlay")
         )
@@ -366,17 +401,19 @@ def _render_panel_comparison(
         _render_panel_scatter(result, data, show_overlay)
     elif result.chart_type == "box":
         _render_panel_box(result, data, show_overlay)
-    elif result.chart_type == "unsupported":
-        # A category's trend over time has no automatic chart rule -- this
-        # plain-table fallback is trivial enough to keep as-is rather than
-        # build charting code for a placeholder (ticket 05's "out of scope").
+    elif result.chart_type == "line":
+        _render_panel_line(result, data, show_overlay)
+    elif result.chart_type == "heatmap":
+        _render_panel_heatmap(result, data)
+    else:  # unsupported -- a category's trend over time has no automatic
+        # chart rule -- this plain-table fallback is trivial enough to keep
+        # as-is rather than build charting code for a placeholder (ticket
+        # 05's "out of scope").
         st.info(
             "A category's trend over time doesn't have an automatic chart rule here -- showing "
             "the raw values instead."
         )
         st.dataframe(data[["subject_id", "x", "y"]])
-    else:  # line, heatmap -- ticket 06's follow-up, not built here
-        st.info("Line/heatmap chart types are coming in a follow-up ticket.")
 
 
 _PanelAction = Literal["remove", "rotate"]
@@ -446,7 +483,8 @@ def _compare_discover_page() -> None:
         "Add one comparison panel per pair of variables you want to see -- pick an X and a Y "
         "independently in each panel, rotate to swap them, and get the chart type that fits "
         "what you picked automatically: a scatter for two numeric measures, a box plot for a "
-        "numeric measure grouped by a category."
+        "numeric measure grouped by a category, a trend line when one of your picks is a "
+        "longitudinal reading followed over time, or a heatmap for two categorical fields."
     )
 
     st.session_state.setdefault("compare_panels", [{"id": 0}])
