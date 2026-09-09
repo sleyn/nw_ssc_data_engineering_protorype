@@ -120,6 +120,10 @@ def _show_fig(container: _PyplotContainer, fig: Figure) -> None:
 
 
 _CHART_WIDTH = 500
+# The matplotlib medications-timeline height formula was `figsize` inches at
+# matplotlib's ~100 dpi default; this converts that same formula directly to
+# Plotly's pixel-based `height` (see `_render_medications_timeline`).
+_MEDICATION_TIMELINE_DPI = 100
 
 
 class _PlotlyContainer(Protocol):
@@ -405,14 +409,23 @@ def _compare_discover_page() -> None:
 _NO_PATIENT_SELECTED = "-- select a subject_id --"
 
 
-def _plot_measure_series(container: _PyplotContainer, series: MeasureSeries) -> None:
-    fig, ax = plt.subplots(figsize=(5, 3))
-    sns.lineplot(x="date", y="value", data=series.series, marker="o", ax=ax)
-    ax.set_title(series.title)
-    ax.set_xlabel("")
-    ax.set_ylabel("")
-    fig.autofmt_xdate()
-    _show_fig(container, fig)
+def _plot_measure_series(container: _PlotlyContainer, series: MeasureSeries) -> None:
+    fig = go.Figure(
+        go.Scatter(
+            x=series.series["date"],
+            y=series.series["value"],
+            mode="lines+markers",
+        )
+    )
+    fig.update_layout(
+        title=series.title,
+        xaxis_title="",
+        yaxis_title="",
+        height=300,
+        showlegend=False,
+    )
+    fig.update_xaxes(tickangle=-30)
+    _show_plotly_fig(container, fig)
 
 
 def _render_domain_small_multiples(series_list: list[MeasureSeries], domain_label: str) -> None:
@@ -439,12 +452,20 @@ def _render_medications_timeline(medications: pd.DataFrame) -> None:
         st.caption("No dated medication records for this Subject.")
         return
 
-    fig, ax = plt.subplots(figsize=(8, max(2.0, 0.4 * working["medication"].nunique() + 1)))
-    sns.scatterplot(x="date", y="medication", data=working, ax=ax, s=80)
-    ax.set_xlabel("")
-    ax.set_ylabel("")
-    fig.autofmt_xdate()
-    _show_fig(st, fig)
+    # Same "taller for more distinct medications" scaling as the matplotlib
+    # version -- see `_MEDICATION_TIMELINE_DPI`.
+    height = int(_MEDICATION_TIMELINE_DPI * max(2.0, 0.4 * working["medication"].nunique() + 1))
+    fig = go.Figure(
+        go.Scatter(
+            x=working["date"],
+            y=working["medication"],
+            mode="markers",
+            marker=dict(size=10),
+        )
+    )
+    fig.update_layout(xaxis_title="", yaxis_title="", height=height, showlegend=False)
+    fig.update_xaxes(tickangle=-30)
+    _show_plotly_fig(st, fig)
 
     detail_columns = [
         "date", "medication", "medication_as_recorded", "dose",
