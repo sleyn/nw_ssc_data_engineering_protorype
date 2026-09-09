@@ -9,15 +9,15 @@ pattern").
 Run locally with `uv sync` then `uv run streamlit run app.py`.
 """
 
-import itertools
 import sqlite3
-from typing import Protocol
+from typing import Literal, Protocol
 
 import matplotlib.pyplot as plt
 import pandas as pd
+import plotly.express as px
+import plotly.graph_objects as go
 import seaborn as sns
 import streamlit as st
-from matplotlib.axes import Axes
 from matplotlib.figure import Figure
 
 from data.access import (
@@ -115,6 +115,40 @@ class _PyplotContainer(Protocol):
 def _show_fig(container: _PyplotContainer, fig: Figure) -> None:
     container.pyplot(fig)
     plt.close(fig)
+
+
+_CHART_WIDTH = 500
+
+
+class _PlotlyContainer(Protocol):
+    """Either the top-level `st` module or one `st.columns()` slot -- both
+    expose `.plotly_chart`, which is all `_show_plotly_fig` needs. The
+    double-underscore parameter name marks it positional-only for mypy's
+    structural match -- streamlit's own `plotly_chart` names its first
+    parameter `figure_or_data`, not `fig`, and this is always called
+    positionally anyway. Only the 2 keyword arguments `_show_plotly_fig`
+    actually passes are declared (rather than a blanket `**kwargs: object`)
+    since streamlit's own signature is overloaded and narrower than
+    "any keyword" -- a wide-open Protocol fails strict mypy's structural
+    check against it."""
+
+    def plotly_chart(
+        self,
+        __fig: go.Figure,
+        *,
+        theme: Literal["streamlit"] | None = ...,
+        use_container_width: bool = ...,
+    ) -> object: ...
+
+
+def _show_plotly_fig(container: _PlotlyContainer, fig: go.Figure) -> None:
+    """Render one Plotly figure at the app's fixed chart width, using
+    Streamlit's built-in theme sync (`theme="streamlit"`) so it follows the
+    viewer's light/dark setting. `use_container_width=False` is required --
+    otherwise Streamlit stretches the figure to fill its container and the
+    fixed width has no effect."""
+    fig.update_layout(width=_CHART_WIDTH)
+    container.plotly_chart(fig, theme="streamlit", use_container_width=False)
 
 
 def _render_cohort_composition(subjects: pd.DataFrame) -> None:
@@ -216,81 +250,89 @@ def _cohort_overview_page() -> None:
     _render_table_coverage(conn)
 
 
-_MAX_COMPARISON_PAIRS = 6  # C(4, 2) -- keeps a large selection from rendering dozens of charts
+_NO_VARIABLE_SELECTED = "-- select a variable --"
+
+# Control Subject overlay marker style, shared by scatter and box panels --
+# matches the diamond/black style `_add_control_overlay_scatter` used to
+# draw in matplotlib (User Story 25).
+_CONTROL_OVERLAY_MARKER = dict(symbol="diamond", color="black", size=10)
 
 
-def _add_control_overlay_scatter(ax: Axes, x: pd.Series, y: pd.Series) -> None:
-    """The shared marker style for highlighting Control Subject points on
-    top of a scatter or box chart (User Story 25) -- factored out since
-    scatter and box charts otherwise repeat the identical call."""
-    ax.scatter(x, y, color="black", marker="D", s=70, label="Control Subject", zorder=5)
+def _panel_key(panel_id: int, suffix: str) -> str:
+    """The `st.session_state` key for one widget/flag belonging to one
+    comparison panel -- stable across reruns because it's derived from the
+    panel's own never-reused id, not its position in the list (see module
+    docstring "Panel state design")."""
+    return f"compare-panel-{panel_id}-{suffix}"
 
 
-def _build_comparison_figure(
-    result: ComparisonFrame, data: pd.DataFrame, show_control_overlay: bool
-) -> Figure:
-    """One matplotlib figure for a `ComparisonFrame` whose chart_type is
-    scatter/box/line/heatmap -- never called for "unsupported" (the caller
-    falls back to a crosstab instead, see `_render_comparison_pair`)."""
-    fig, ax = plt.subplots(figsize=(6, 4.5))
-    if show_control_overlay:
-        base, control_rows = data[data["cohort"] != "control"], data[data["cohort"] == "control"]
-    else:
-        base, control_rows = data, data.iloc[0:0]
-
-    if result.chart_type == "scatter":
-        sns.scatterplot(x="x", y="y", data=base, ax=ax, alpha=0.6)
-        if not control_rows.empty:
-            _add_control_overlay_scatter(ax, control_rows["x"], control_rows["y"])
-        ax.set_xlabel(result.x_label)
-        ax.set_ylabel(result.y_label)
-    elif result.chart_type == "box":
-        # Whichever axis is the categorical one becomes the box grouping --
-        # the ticket's rule is order-independent ("categorical-numeric"),
-        # but a box plot itself needs a fixed x/y assignment.
-        cat_col, cat_label, num_col, num_label = (
-            ("x", result.x_label, "y", result.y_label)
-            if result.x_dtype == "categorical"
-            else ("y", result.y_label, "x", result.x_label)
-        )
-        sns.boxplot(x=cat_col, y=num_col, data=base, ax=ax)
-        if not control_rows.empty:
-            _add_control_overlay_scatter(ax, control_rows[cat_col], control_rows[num_col])
-        ax.set_xlabel(cat_label)
-        ax.set_ylabel(num_label)
-        ax.tick_params(axis="x", rotation=30)
-    elif result.chart_type == "heatmap":
-        # Both axes categorical: a count crosstab is the natural chart. No
-        # Control Subject in this dataset has categorical data on either
-        # axis a heatmap pairing can reach, so the overlay toggle never
-        # actually renders for this chart_type -- `data` here is always
-        # every-Subject-is-not-a-Control-Subject already, not just `base`.
-        counts = pd.crosstab(data["x"], data["y"])
-        sns.heatmap(counts, annot=True, fmt="d", cmap="Blues", ax=ax)
-        ax.set_xlabel(result.y_label)
-        ax.set_ylabel(result.x_label)
-        ax.tick_params(axis="x", rotation=30)
-        return fig
-    else:  # line -- one side of the pair was picked "over time" (User Story 24)
-        hue = "hue" if result.hue_label else None
-        sns.lineplot(x="x", y="y", hue=hue, data=base, ax=ax, errorbar=("ci", 95))
-        for subject_id, group in control_rows.sort_values("x").groupby("subject_id"):
-            ax.plot(
-                group["x"], group["y"], color="black", linewidth=2, linestyle="--",
-                marker="o", label=f"Control Subject ({subject_id})",
-            )
-        ax.set_xlabel(result.x_label)
-        ax.set_ylabel(result.y_label)
-        fig.autofmt_xdate()
-
-    handles, _ = ax.get_legend_handles_labels()
-    if handles:
-        ax.legend(fontsize=8)
-    return fig
+def _apply_pending_panel_rotation(panel_id: int) -> None:
+    """If this panel's "rotate" button was clicked last run, swap its X/Y
+    picks now -- before this run's X/Y selectboxes are instantiated below.
+    Writing to `st.session_state[x_key]`/`[y_key]` after those widgets exist
+    for this run would raise (Streamlit forbids mutating a key its own
+    widget already claimed this run); doing it here, one run later, avoids
+    that entirely."""
+    flag_key = _panel_key(panel_id, "rotate-pending")
+    if not st.session_state.get(flag_key):
+        return
+    x_key, y_key = _panel_key(panel_id, "x"), _panel_key(panel_id, "y")
+    current_x = st.session_state.get(x_key, _NO_VARIABLE_SELECTED)
+    current_y = st.session_state.get(y_key, _NO_VARIABLE_SELECTED)
+    st.session_state[x_key], st.session_state[y_key] = current_y, current_x
+    st.session_state[flag_key] = False
 
 
-def _render_comparison_pair(
-    conn: sqlite3.Connection, a: CompareVariable, b: CompareVariable
+def _split_control_overlay(
+    data: pd.DataFrame, show_overlay: bool
+) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """`(base, control_rows)` -- `control_rows` only non-empty when the
+    toggle is on, shared by both chart-drawing functions below."""
+    if show_overlay:
+        return data[data["cohort"] != "control"], data[data["cohort"] == "control"]
+    return data, data.iloc[0:0]
+
+
+def _add_control_overlay(
+    fig: go.Figure, control_rows: pd.DataFrame, x_col: str, y_col: str
+) -> None:
+    if control_rows.empty:
+        return
+    fig.add_scatter(
+        x=control_rows[x_col], y=control_rows[y_col], mode="markers",
+        marker=_CONTROL_OVERLAY_MARKER, name="Control Subject",
+    )
+
+
+def _render_panel_scatter(result: ComparisonFrame, data: pd.DataFrame, show_overlay: bool) -> None:
+    base, control_rows = _split_control_overlay(data, show_overlay)
+    fig = px.scatter(base, x="x", y="y", opacity=0.6)
+    fig.update_layout(xaxis_title=result.x_label, yaxis_title=result.y_label)
+    _add_control_overlay(fig, control_rows, "x", "y")
+    _show_plotly_fig(st, fig)
+
+
+def _render_panel_box(result: ComparisonFrame, data: pd.DataFrame, show_overlay: bool) -> None:
+    base, control_rows = _split_control_overlay(data, show_overlay)
+
+    # Whichever axis is the categorical one becomes the box grouping -- the
+    # ticket's rule is order-independent ("categorical-numeric"), but a box
+    # plot itself needs a fixed x/y assignment.
+    cat_col, cat_label, num_col, num_label = (
+        ("x", result.x_label, "y", result.y_label)
+        if result.x_dtype == "categorical"
+        else ("y", result.y_label, "x", result.x_label)
+    )
+    fig = px.box(base, x=cat_col, y=num_col)
+    # Matches the matplotlib box plot's `ax.tick_params(axis="x", rotation=30)`
+    # -- category labels can be long enough to overlap unrotated.
+    fig.update_layout(xaxis_title=cat_label, yaxis_title=num_label, xaxis_tickangle=-30)
+    _add_control_overlay(fig, control_rows, cat_col, num_col)
+    _show_plotly_fig(st, fig)
+
+
+def _render_panel_comparison(
+    panel_id: int, conn: sqlite3.Connection, a: CompareVariable, b: CompareVariable
 ) -> None:
     result = build_comparison(conn, a, b)
     data = result.data.dropna(subset=["x", "y"])
@@ -298,64 +340,136 @@ def _render_comparison_pair(
         st.warning("No Subjects have data for both of these variables.")
         return
 
-    show_control_overlay = False
-    if control_overlay_available(data):
-        # Hidden entirely (not just disabled) when it wouldn't be
-        # meaningful (User Story 25) -- most pairings involving a
-        # Registry-only or Lab Result/Antibody field never reach this.
-        show_control_overlay = st.toggle(
-            "Highlight the 4 Control Subjects",
-            key=f"control-overlay-{a.field_name}-{a.level}-{b.field_name}-{b.level}",
+    show_overlay = False
+    # Only offered for the 2 chart types this panel actually draws --
+    # hidden entirely (not just disabled) when it wouldn't be meaningful
+    # (User Story 25), same as it always was for a pairing no Control
+    # Subject has data on both sides of.
+    if result.chart_type in ("scatter", "box") and control_overlay_available(data):
+        show_overlay = st.toggle(
+            "Highlight the 4 Control Subjects", key=_panel_key(panel_id, "overlay")
         )
 
-    if result.chart_type == "unsupported":
+    if result.chart_type == "scatter":
+        _render_panel_scatter(result, data, show_overlay)
+    elif result.chart_type == "box":
+        _render_panel_box(result, data, show_overlay)
+    elif result.chart_type == "unsupported":
+        # A category's trend over time has no automatic chart rule -- this
+        # plain-table fallback is trivial enough to keep as-is rather than
+        # build charting code for a placeholder (ticket 05's "out of scope").
         st.info(
             "A category's trend over time doesn't have an automatic chart rule here -- showing "
             "the raw values instead."
         )
         st.dataframe(data[["subject_id", "x", "y"]])
-        return
+    else:  # line, heatmap -- ticket 06's follow-up, not built here
+        st.info("Line/heatmap chart types are coming in a follow-up ticket.")
 
-    fig = _build_comparison_figure(result, data, show_control_overlay)
-    _show_fig(st, fig)
+
+_PanelAction = Literal["remove", "rotate"]
+
+
+def _render_compare_panel(
+    conn: sqlite3.Connection,
+    panel_id: int,
+    panel_number: int,
+    catalog_labels: list[str],
+    by_label: dict[str, CompareVariable],
+) -> _PanelAction | None:
+    """Render one panel and return the action its Remove/Rotate button
+    requested this run, if any -- the caller applies it (mutating
+    `session_state` and calling `st.rerun()`) only after every panel has
+    been rendered, never from inside this function. Calling `st.rerun()`
+    here, mid-loop, would cut this script run short before later panels'
+    own widgets are reached; Streamlit then treats those un-instantiated
+    widget keys as orphaned and clears their `session_state` entries at the
+    end of the run, silently wiping the picks of every panel after the one
+    whose button was clicked. Deferring the rerun until after the full loop
+    guarantees every panel's widgets are instantiated at least once this
+    run before any rerun can happen."""
+    _apply_pending_panel_rotation(panel_id)
+    action: _PanelAction | None = None
+
+    with st.container(border=True):
+        title_col, remove_col = st.columns([5, 1])
+        title_col.markdown(f"**Panel {panel_number}**")
+        if remove_col.button("Remove", key=_panel_key(panel_id, "remove")):
+            action = "remove"
+
+        x_col, y_col, rotate_col = st.columns([3, 3, 1])
+        x_selected = x_col.selectbox(
+            "X variable",
+            options=[_NO_VARIABLE_SELECTED, *catalog_labels],
+            key=_panel_key(panel_id, "x"),
+        )
+        y_selected = y_col.selectbox(
+            "Y variable",
+            options=[_NO_VARIABLE_SELECTED, *catalog_labels],
+            key=_panel_key(panel_id, "y"),
+        )
+        rotate_col.markdown("&nbsp;")  # aligns the button with the selectboxes, not their labels
+        if rotate_col.button("Rotate", key=_panel_key(panel_id, "rotate"), help="Swap X and Y"):
+            action = "rotate"
+
+        if action is not None:
+            return action
+
+        if x_selected == _NO_VARIABLE_SELECTED or y_selected == _NO_VARIABLE_SELECTED:
+            st.info("Pick both an X and a Y variable to compare.")
+            return None
+        if x_selected == y_selected:
+            st.warning("X and Y are the same variable -- pick two different variables to compare.")
+            return None
+
+        a, b = by_label[x_selected], by_label[y_selected]
+        _render_panel_comparison(panel_id, conn, a, b)
+    return None
 
 
 def _compare_discover_page() -> None:
     conn = _get_connection()
     st.header("Compare & Discover")
     st.write(
-        "Pick 2 or more variables from any table, at any level, and get the chart type that "
-        "fits what you picked automatically -- a scatter for two numeric measures, a box plot "
-        "for a numeric measure grouped by a category, a trend line when one of your picks is a "
-        "longitudinal reading followed over time."
+        "Add one comparison panel per pair of variables you want to see -- pick an X and a Y "
+        "independently in each panel, rotate to swap them, and get the chart type that fits "
+        "what you picked automatically: a scatter for two numeric measures, a box plot for a "
+        "numeric measure grouped by a category."
     )
+
+    st.session_state.setdefault("compare_panels", [{"id": 0}])
+    st.session_state.setdefault("compare_panel_next_id", 1)
 
     catalog = list_compare_variables(conn)
     by_label = {variable.display_label: variable for variable in catalog}
-    selected_labels = st.multiselect(
-        "Variables to compare",
-        options=[variable.display_label for variable in catalog],
-        help=(
-            "A demographic field, a per-patient summary of a longitudinal reading (Lab Result / "
-            "Vital Sign / MRSS / PFT / Antibody), or that same reading's raw over-time series."
-        ),
-    )
-    if len(selected_labels) < 2:
-        st.info("Select at least 2 variables to compare.")
-        return
+    catalog_labels = [variable.display_label for variable in catalog]
 
-    selected = [by_label[label] for label in selected_labels]
-    pairs = list(itertools.combinations(selected, 2))
-    if len(pairs) > _MAX_COMPARISON_PAIRS:
-        st.caption(
-            f"{len(selected)} variables selected -- showing the first {_MAX_COMPARISON_PAIRS} "
-            f"of {len(pairs)} possible pairs. Deselect some to see the rest."
-        )
-        pairs = pairs[:_MAX_COMPARISON_PAIRS]
+    pending_action: tuple[int, _PanelAction] | None = None
+    for i, panel in enumerate(st.session_state["compare_panels"]):
+        action = _render_compare_panel(conn, panel["id"], i + 1, catalog_labels, by_label)
+        if action is not None:
+            pending_action = (panel["id"], action)
 
-    for a, b in pairs:
-        st.subheader(f"{a.display_label} vs. {b.display_label}")
-        _render_comparison_pair(conn, a, b)
+    # Applied only after every panel above has had a chance to render its
+    # own widgets this run -- see `_render_compare_panel`'s docstring for
+    # why the rerun can't happen from inside the loop.
+    if pending_action is not None:
+        panel_id, action = pending_action
+        if action == "remove":
+            st.session_state["compare_panels"] = [
+                panel for panel in st.session_state["compare_panels"] if panel["id"] != panel_id
+            ]
+            for suffix in ("x", "y", "overlay", "rotate-pending"):
+                st.session_state.pop(_panel_key(panel_id, suffix), None)
+        else:  # rotate
+            st.session_state[_panel_key(panel_id, "rotate-pending")] = True
+        st.rerun()
+
+    if st.button("Add comparison panel"):
+        next_id = st.session_state["compare_panel_next_id"]
+        st.session_state["compare_panels"].append({"id": next_id})
+        st.session_state["compare_panel_next_id"] = next_id + 1
+        st.rerun()
 
 
 _NO_PATIENT_SELECTED = "-- select a subject_id --"
