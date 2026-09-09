@@ -134,10 +134,17 @@ _CHART_WIDTH = 500
 # elsewhere (Cohort Overview, Patient Trajectory small multiples) that share
 # `_CHART_WIDTH`'s default.
 _COMPARE_CHART_WIDTH = int(_CHART_WIDTH * 1.5)
-# The matplotlib medications-timeline height formula was `figsize` inches at
-# matplotlib's ~100 dpi default; this converts that same formula directly to
-# Plotly's pixel-based `height` (see `_render_medications_timeline`).
-_MEDICATION_TIMELINE_DPI = 100
+# Medications timeline height (see `_render_medications_timeline`):
+# `_MEDICATION_TIMELINE_BASE_PX` covers Plotly's fixed chrome around the
+# plot area -- top margin plus the bottom margin the -30deg-rotated x-axis
+# date labels need -- and `_MEDICATION_TIMELINE_ROW_PX` is added per distinct
+# medication row on top of that. A flat height (the previous formula's
+# 200px floor, shared by both the 1-row and 2-row cases) leaves too little
+# actual plot area once that fixed chrome is subtracted for 2+ rows:
+# Plotly's automargin squeezes the category rows into the sliver that's
+# left, and a row can end up rendered off the visible plot area entirely.
+_MEDICATION_TIMELINE_BASE_PX = 150
+_MEDICATION_TIMELINE_ROW_PX = 50
 
 
 class _PlotlyContainer(Protocol):
@@ -734,9 +741,10 @@ def _render_medications_timeline(
         .tolist()
     )
 
-    # Same "taller for more distinct medications" scaling as the matplotlib
-    # version -- see `_MEDICATION_TIMELINE_DPI`.
-    height = int(_MEDICATION_TIMELINE_DPI * max(2.0, 0.4 * combined[row_col].nunique() + 1))
+    # See `_MEDICATION_TIMELINE_BASE_PX`/`_MEDICATION_TIMELINE_ROW_PX`.
+    height = _MEDICATION_TIMELINE_BASE_PX + max(1, combined[row_col].nunique()) * (
+        _MEDICATION_TIMELINE_ROW_PX
+    )
     fig = go.Figure(
         go.Scatter(
             x=combined["date"],
