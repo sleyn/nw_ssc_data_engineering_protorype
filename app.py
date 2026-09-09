@@ -20,7 +20,13 @@ import streamlit as st
 from matplotlib.axes import Axes
 from matplotlib.figure import Figure
 
-from data.access import get_variable, list_subjects, table_coverage
+from data.access import (
+    SubjectRecord,
+    get_subject_record,
+    get_variable,
+    list_subjects,
+    table_coverage,
+)
 from data.auth import log_event, verify_credentials
 from data.compare import (
     CompareVariable,
@@ -31,6 +37,7 @@ from data.compare import (
 )
 from data.dictionary import describe_all_tables
 from data.store import build_encrypted_store, open_store
+from data.trajectory import MeasureSeries, domain_series, medication_timeline
 
 sns.set_theme(style="whitegrid")
 
@@ -350,6 +357,122 @@ def _render_compare_discover_tab(conn: sqlite3.Connection) -> None:
         _render_comparison_pair(conn, a, b)
 
 
+_NO_PATIENT_SELECTED = "-- select a subject_id --"
+
+
+def _plot_measure_series(container: _PyplotContainer, series: MeasureSeries) -> None:
+    fig, ax = plt.subplots(figsize=(5, 3))
+    sns.lineplot(x="date", y="value", data=series.series, marker="o", ax=ax)
+    ax.set_title(series.title)
+    ax.set_xlabel("")
+    ax.set_ylabel("")
+    fig.autofmt_xdate()
+    _show_fig(container, fig)
+
+
+def _render_domain_small_multiples(series_list: list[MeasureSeries], domain_label: str) -> None:
+    """One small-multiple line chart per `MeasureSeries` (e.g. one per lab
+    component, one per vital sign) -- per-Subject measure counts stay small
+    enough (a handful to ~15) that this reads better than a single overlaid
+    chart."""
+    if not series_list:
+        st.caption(f"No plottable (numeric, dated) {domain_label} records for this Subject.")
+        return
+    columns = st.columns(2)
+    for i, series in enumerate(series_list):
+        _plot_measure_series(columns[i % 2], series)
+
+
+def _render_medications_timeline(medications: pd.DataFrame) -> None:
+    """Medication events plotted over time (ticket 09's 5th domain) -- a
+    scatter timeline rather than a line chart, since a medication event is a
+    (drug, dose) pair on a date, not a numeric measure with a trend. The
+    table underneath surfaces the parsed dose (`data.normalize`) the chart
+    itself has no room to show."""
+    working = medication_timeline(medications)
+    if working.empty:
+        st.caption("No dated medication records for this Subject.")
+        return
+
+    fig, ax = plt.subplots(figsize=(8, max(2.0, 0.4 * working["medication"].nunique() + 1)))
+    sns.scatterplot(x="date", y="medication", data=working, ax=ax, s=80)
+    ax.set_xlabel("")
+    ax.set_ylabel("")
+    fig.autofmt_xdate()
+    _show_fig(st, fig)
+
+    detail_columns = [
+        "date", "medication", "medication_as_recorded", "dose",
+        "dose_value", "dose_unit", "dose_frequency",
+    ]
+    st.dataframe(working[detail_columns], hide_index=True)
+
+
+def _render_subject_record(record: SubjectRecord) -> None:
+    st.subheader("Labs")
+    _render_domain_small_multiples(
+        domain_series(
+            record.labs, value_col="value", date_col="date", measure_col="component_name",
+        ),
+        "lab",
+    )
+    st.subheader("Vitals")
+    _render_domain_small_multiples(
+        domain_series(
+            record.vitals, value_col="vital_value", date_col="date",
+            measure_col="vital_type_name_category",
+        ),
+        "vitals",
+    )
+    st.subheader("MRSS")
+    _render_domain_small_multiples(
+        domain_series(
+            record.mrss, value_col="mrss_score", date_col="date", fixed_measure="MRSS",
+        ),
+        "MRSS",
+    )
+    st.subheader("PFT")
+    _render_domain_small_multiples(
+        domain_series(
+            record.pft, value_col="ORD_VALUE", date_col="date", measure_col="NAME",
+            title_col="DESCRIPTION",
+        ),
+        "PFT",
+    )
+    st.subheader("Medications")
+    _render_medications_timeline(record.medications)
+
+
+def _log_patient_view_once(username: str, subject_id: str) -> None:
+    """Write one `view_patient` audit-log entry per newly-selected Subject
+    (spec User Story 30) -- not once per Streamlit rerun. Every tab's render
+    function runs on every rerun regardless of which tab is on screen, so
+    logging unconditionally here would log a view on every unrelated widget
+    interaction elsewhere in the app, not just on an actual new selection."""
+    if st.session_state.get("last_viewed_subject") != subject_id:
+        log_event(username, "view_patient", detail=subject_id)
+        st.session_state["last_viewed_subject"] = subject_id
+
+
+def _render_patient_trajectory_tab(conn: sqlite3.Connection, username: str) -> None:
+    st.header("Patient Trajectory")
+    st.write(
+        "Select one Subject by `subject_id` to see their longitudinal record -- labs, vitals, "
+        "MRSS, PFT, and medications plotted over time (spec \"Patient Trajectory\", User Story "
+        "26). Patient name and birth date are never shown here or anywhere else in this app "
+        "(spec \"PII handling\")."
+    )
+    subject_ids = list_subjects(conn)["subject_id"].tolist()
+    subject_id = st.selectbox("subject_id", options=[_NO_PATIENT_SELECTED, *subject_ids])
+    if subject_id == _NO_PATIENT_SELECTED:
+        st.info("Select a subject_id above to view that Subject's record.")
+        return
+
+    _log_patient_view_once(username, subject_id)
+    record = get_subject_record(conn, subject_id)
+    _render_subject_record(record)
+
+
 def main() -> None:
     if "username" not in st.session_state:
         _render_login_form()
@@ -367,7 +490,7 @@ def main() -> None:
     with tabs[2]:
         _render_compare_discover_tab(conn)
     with tabs[3]:
-        st.info("Patient Trajectory is coming in a later ticket (09).")
+        _render_patient_trajectory_tab(conn, username)
 
 
 if __name__ == "__main__":

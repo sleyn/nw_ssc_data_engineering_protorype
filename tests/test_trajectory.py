@@ -1,0 +1,163 @@
+"""Tests target the Patient Trajectory tab's support module's external
+behavior -- the coercion/reshaping pieces behind Tab 4, kept independently
+testable even though the Streamlit rendering itself is out of scope for
+testing (spec "No UI/visual testing of the Streamlit app"). `domain_series`
+is exercised against hand-built fixtures (its own logic doesn't depend on
+the store) plus once against the real store via `get_subject_record`, to
+catch any drift between this module's column-name assumptions and
+`data.access`'s actual output shape."""
+
+import sqlite3
+from collections.abc import Iterator
+from pathlib import Path
+
+import pandas as pd
+import pytest
+
+from data.access import get_subject_record
+from data.ingest import DEFAULT_CSV_DIR, build_store
+from data.trajectory import domain_series, medication_timeline
+
+# subject_2005 has labs, vitals, PFT, and medications records but no MRSS
+# (confirmed against the real data, same subject test_access.py uses).
+A_SUBJECT_WITH_MOST_DOMAINS = "subject_2005"
+
+
+@pytest.fixture(scope="module")
+def conn(tmp_path_factory: pytest.TempPathFactory) -> Iterator[sqlite3.Connection]:
+    db_path = tmp_path_factory.mktemp("store") / "ssc.db"
+    build_store(db_path=db_path, csv_dir=DEFAULT_CSV_DIR)
+    connection = sqlite3.connect(Path(db_path))
+    yield connection
+    connection.close()
+
+
+# --- domain_series, hand-built fixtures -----------------------------------------
+
+
+def test_empty_frame_returns_no_series() -> None:
+    empty = pd.DataFrame(columns=["component_name", "value", "date"])
+    result = domain_series(empty, value_col="value", date_col="date", measure_col="component_name")
+    assert result == []
+
+
+def test_splits_into_one_series_per_measure_sorted_by_measure_name() -> None:
+    df = pd.DataFrame(
+        {
+            "component_name": ["WBC", "WBC", "HEMOGLOBIN"],
+            "value": ["4.2", "5.1", "13.0"],
+            "date": ["2020-01-01", "2020-02-01", "2020-01-01"],
+        }
+    )
+    result = domain_series(df, value_col="value", date_col="date", measure_col="component_name")
+    assert [series.measure for series in result] == ["HEMOGLOBIN", "WBC"]
+    wbc = result[1]
+    assert list(wbc.series.columns) == ["date", "value"]
+    assert list(wbc.series["value"]) == [4.2, 5.1]
+    assert wbc.title == "WBC"  # no title_col given -- falls back to the measure itself
+
+
+def test_series_within_a_measure_is_sorted_by_date() -> None:
+    df = pd.DataFrame(
+        {
+            "component_name": ["WBC", "WBC"],
+            "value": ["5.1", "4.2"],
+            "date": ["2020-02-01", "2020-01-01"],
+        }
+    )
+    result = domain_series(df, value_col="value", date_col="date", measure_col="component_name")
+    assert list(result[0].series["value"]) == [4.2, 5.1]
+
+
+def test_non_numeric_and_undated_rows_are_dropped_not_errors() -> None:
+    df = pd.DataFrame(
+        {
+            "component_name": ["WBC", "WBC", "WBC"],
+            "value": ["4.2", "Automated", "5.1"],
+            "date": ["2020-01-01", "2020-02-01", None],
+        }
+    )
+    result = domain_series(df, value_col="value", date_col="date", measure_col="component_name")
+    assert len(result) == 1
+    assert list(result[0].series["value"]) == [4.2]
+
+
+def test_all_unplottable_rows_returns_no_series() -> None:
+    df = pd.DataFrame({"component_name": ["WBC"], "value": ["Automated"], "date": ["2020-01-01"]})
+    assert domain_series(df, value_col="value", date_col="date", measure_col="component_name") == []
+
+
+def test_title_col_supplies_a_friendlier_title_than_the_measure_code() -> None:
+    df = pd.DataFrame(
+        {
+            "NAME": ["FVC"],
+            "DESCRIPTION": ["Forced Vital Capacity (% predicted)"],
+            "ORD_VALUE": ["85"],
+            "date": ["2020-01-01"],
+        }
+    )
+    result = domain_series(
+        df, value_col="ORD_VALUE", date_col="date", measure_col="NAME", title_col="DESCRIPTION",
+    )
+    assert result[0].measure == "FVC"
+    assert result[0].title == "Forced Vital Capacity (% predicted)"
+
+
+def test_fixed_measure_treats_every_row_as_the_one_named_measure() -> None:
+    df = pd.DataFrame({"mrss_score": ["10", "12"], "date": ["2020-01-01", "2020-02-01"]})
+    result = domain_series(df, value_col="mrss_score", date_col="date", fixed_measure="MRSS")
+    assert len(result) == 1
+    assert result[0].measure == "MRSS"
+    assert list(result[0].series["value"]) == [10.0, 12.0]
+
+
+def test_neither_measure_col_nor_fixed_measure_raises() -> None:
+    df = pd.DataFrame({"value": ["1"], "date": ["2020-01-01"]})
+    with pytest.raises(ValueError, match="exactly one"):
+        domain_series(df, value_col="value", date_col="date")
+
+
+def test_both_measure_col_and_fixed_measure_raises() -> None:
+    df = pd.DataFrame({"c": ["x"], "value": ["1"], "date": ["2020-01-01"]})
+    with pytest.raises(ValueError, match="exactly one"):
+        domain_series(df, value_col="value", date_col="date", measure_col="c", fixed_measure="MRSS")
+
+
+# --- domain_series against the real store ---------------------------------------
+
+
+def test_domain_series_against_the_real_subject_record(conn: sqlite3.Connection) -> None:
+    record = get_subject_record(conn, A_SUBJECT_WITH_MOST_DOMAINS)
+    labs = domain_series(
+        record.labs, value_col="value", date_col="date", measure_col="component_name",
+    )
+    assert len(labs) > 0
+    assert all(not series.series.empty for series in labs)
+
+    mrss = domain_series(record.mrss, value_col="mrss_score", date_col="date", fixed_measure="MRSS")
+    assert mrss == []  # this Subject has no MRSS records at all
+
+
+# --- medication_timeline ---------------------------------------------------------
+
+
+def test_medication_timeline_sorts_by_date() -> None:
+    df = pd.DataFrame(
+        {
+            "date": ["2020-02-01", "2020-01-01"],
+            "medication": ["mycophenolate mofetil", "prednisone"],
+        }
+    )
+    result = medication_timeline(df)
+    assert list(result["medication"]) == ["prednisone", "mycophenolate mofetil"]
+
+
+def test_medication_timeline_drops_undated_rows() -> None:
+    df = pd.DataFrame({"date": ["2020-01-01", None], "medication": ["prednisone", "aspirin"]})
+    result = medication_timeline(df)
+    assert list(result["medication"]) == ["prednisone"]
+
+
+def test_medication_timeline_empty_input_stays_empty() -> None:
+    empty = pd.DataFrame(columns=["date", "medication"])
+    assert medication_timeline(empty).empty
