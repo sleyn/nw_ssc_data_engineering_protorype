@@ -747,7 +747,12 @@ def _render_medications_timeline(
     )
     fig.update_layout(
         xaxis_title=x_axis_label, yaxis_title="", height=height, showlegend=False,
-        yaxis=dict(categoryorder="array", categoryarray=row_order),
+        # `tickangle=0` pins every row label horizontal -- left at Plotly's
+        # "auto" default, a short chart (few distinct medications, see
+        # `height` above) can rotate just one label to vertical to avoid a
+        # collision while leaving the rest horizontal, which reads as a
+        # rendering glitch rather than a deliberate choice.
+        yaxis=dict(categoryorder="array", categoryarray=row_order, tickangle=0),
     )
     fig.update_xaxes(tickangle=-30)
     _apply_shared_x_range(fig, date_range)
