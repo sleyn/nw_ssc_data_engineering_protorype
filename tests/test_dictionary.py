@@ -5,9 +5,15 @@ import sqlite3
 from collections.abc import Iterator
 from pathlib import Path
 
+import pandas as pd
 import pytest
 
-from data.dictionary import ALL_TABLES, describe_all_tables, describe_table
+from data.dictionary import (
+    ALL_TABLES,
+    _field_example_values,
+    describe_all_tables,
+    describe_table,
+)
 from data.ingest import DEFAULT_CSV_DIR, build_store
 
 # The known PII columns suppressed from demographics (spec "PII handling"),
@@ -84,3 +90,53 @@ def test_every_non_pii_field_in_every_table_has_a_real_description(
             entry.fields["description"] == "No description available.", "field"
         ]
         assert undescribed.empty, f"{entry.table} has undescribed field(s): {list(undescribed)}"
+
+
+def _examples_for(entry_fields: pd.DataFrame, field: str) -> str:
+    return str(entry_fields.loc[entry_fields["field"] == field, "examples"].iloc[0])
+
+
+def test_every_field_shows_at_most_3_example_values(conn: sqlite3.Connection) -> None:
+    for entry in describe_all_tables(conn):
+        for field in entry.fields["field"]:
+            values = _field_example_values(conn, entry.table, field)
+            assert len(values) <= 3, f"{entry.table}.{field} has more than 3 examples: {values!r}"
+
+
+def test_a_field_with_fewer_than_3_distinct_values_shows_fewer_not_padded(
+    conn: sqlite3.Connection,
+) -> None:
+    # subjects.cohort only ever takes 2 real values (spec "Cohort").
+    values = _field_example_values(conn, "subjects", "cohort")
+    assert values == ["control", "ssc_patient"]
+    entry = describe_table(conn, "subjects")
+    assert _examples_for(entry.fields, "cohort") == "control, ssc_patient"
+
+
+def test_a_long_free_text_fields_example_is_truncated_with_an_ellipsis(
+    conn: sqlite3.Connection,
+) -> None:
+    values = _field_example_values(conn, "bal", "bal_comment")
+    assert any(len(v) == 63 and v.endswith("...") for v in values)
+    entry = describe_table(conn, "bal")
+    assert _examples_for(entry.fields, "bal_comment").startswith(
+        next(v for v in values if v.endswith("..."))
+    )
+
+
+def test_no_example_is_computed_for_a_suppressed_pii_column(conn: sqlite3.Connection) -> None:
+    entry = describe_table(conn, "demographics")
+    field_names = set(entry.fields["field"])
+    for pii_column in DEMOGRAPHICS_PII_COLUMNS:
+        assert pii_column not in field_names
+    # Not just hidden from the field list -- never queried for examples at all.
+    real_columns = [
+        row[1] for row in conn.execute('PRAGMA table_info("demographics")').fetchall()
+    ]
+    assert set(real_columns) - set(entry.fields["field"]) == set(DEMOGRAPHICS_PII_COLUMNS)
+
+
+def test_examples_are_deterministic_across_repeated_calls(conn: sqlite3.Connection) -> None:
+    first = describe_table(conn, "vitals").fields["examples"].tolist()
+    second = describe_table(conn, "vitals").fields["examples"].tolist()
+    assert first == second

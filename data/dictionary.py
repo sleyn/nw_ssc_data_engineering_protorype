@@ -234,6 +234,39 @@ FIELD_DESCRIPTIONS: dict[str, dict[str, str]] = {
     },
 }
 
+# Cap on how many distinct example values are shown per field, and on each
+# example's display length -- long free-text values are truncated with a
+# trailing ellipsis rather than blowing out the field table's row.
+_MAX_EXAMPLES = 3
+_MAX_EXAMPLE_LENGTH = 60
+
+
+def _format_example(value: object) -> str:
+    text = str(value)
+    if len(text) > _MAX_EXAMPLE_LENGTH:
+        return text[:_MAX_EXAMPLE_LENGTH] + "..."
+    return text
+
+
+def _field_example_values(conn: sqlite3.Connection, table: str, column: str) -> list[str]:
+    """Up to `_MAX_EXAMPLES` distinct, non-null example values for `column`,
+    pulled live from the store. Ordered by value so the same examples come
+    back on every reload (deterministic), not a fresh random sample each
+    run. A field with fewer than `_MAX_EXAMPLES` distinct values yields
+    exactly that many -- no padding."""
+    rows = conn.execute(
+        f'SELECT DISTINCT "{column}" FROM "{table}" '
+        f'WHERE "{column}" IS NOT NULL ORDER BY "{column}" LIMIT {_MAX_EXAMPLES}'
+    ).fetchall()
+    return [_format_example(row[0]) for row in rows]
+
+
+def _field_examples(conn: sqlite3.Connection, table: str, column: str) -> str:
+    """`_field_example_values`, comma-joined into the one display value the
+    dictionary's field table shows."""
+    return ", ".join(_field_example_values(conn, table, column))
+
+
 class TableDictionaryEntry(NamedTuple):
     """One table's dictionary entry: live row/column counts plus a
     plain-language description of every non-PII field. `column_count` counts
@@ -269,6 +302,7 @@ def describe_table(conn: sqlite3.Connection, table: str) -> TableDictionaryEntry
             "description": [
                 descriptions.get(column, "No description available.") for column in visible_columns
             ],
+            "examples": [_field_examples(conn, table, column) for column in visible_columns],
         }
     )
 

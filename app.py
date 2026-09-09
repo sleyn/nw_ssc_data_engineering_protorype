@@ -89,8 +89,9 @@ def _data_dictionary_page() -> None:
     conn = _get_connection()
     st.header("Data & Dictionary")
     st.write(
-        "Every table in the built Subject/Cohort store, with live row/column counts "
-        " and a plain-language description of each field, informed by the QC investigation."
+        "Every table in the built Subject/Cohort store, with live row/column counts, "
+        "a plain-language description of each field informed by the QC investigation, "
+        "and up to 3 real example values pulled live from the store."
     )
     for entry in describe_all_tables(conn):
         label = f"**{entry.table}** -- {entry.row_count:,} rows x {entry.column_count} columns"
