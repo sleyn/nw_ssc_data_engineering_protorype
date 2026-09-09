@@ -11,10 +11,11 @@ Run locally with `uv sync` then `uv run streamlit run app.py`.
 
 import itertools
 import sqlite3
-from typing import Protocol
+from typing import Any, Protocol
 
 import matplotlib.pyplot as plt
 import pandas as pd
+import plotly.graph_objects as go
 import seaborn as sns
 import streamlit as st
 from matplotlib.axes import Axes
@@ -115,6 +116,35 @@ class _PyplotContainer(Protocol):
 def _show_fig(container: _PyplotContainer, fig: Figure) -> None:
     container.pyplot(fig)
     plt.close(fig)
+
+
+_CHART_WIDTH = 500
+# The matplotlib medications-timeline height formula was `figsize` inches at
+# matplotlib's ~100 dpi default; this converts that same formula directly to
+# Plotly's pixel-based `height` (see `_render_medications_timeline`).
+_MEDICATION_TIMELINE_DPI = 100
+
+
+class _PlotlyContainer(Protocol):
+    """Either the top-level `st` module or one `st.columns()` slot -- both
+    expose `.plotly_chart`, which is all `_show_plotly_fig` needs. Untyped
+    `*args`/`**kwargs` (rather than an explicit `fig: go.Figure` param, as
+    `_PyplotContainer.pyplot` uses) because Streamlit's real `plotly_chart`
+    is `@overload`-ed, and mypy cannot prove an overloaded implementation
+    satisfies any single-signature Protocol member -- a narrower signature
+    here fails the same way regardless of its exact parameter types."""
+
+    def plotly_chart(self, *args: Any, **kwargs: Any) -> object: ...
+
+
+def _show_plotly_fig(container: _PlotlyContainer, fig: go.Figure) -> None:
+    """Render one Plotly figure at the app's fixed chart width, using
+    Streamlit's built-in theme sync (`theme="streamlit"`) so it follows the
+    viewer's light/dark setting. `use_container_width=False` is required --
+    otherwise Streamlit stretches the figure to fill its container and the
+    fixed width has no effect."""
+    fig.update_layout(width=_CHART_WIDTH)
+    container.plotly_chart(fig, theme="streamlit", use_container_width=False)
 
 
 def _render_cohort_composition(subjects: pd.DataFrame) -> None:
@@ -361,14 +391,23 @@ def _compare_discover_page() -> None:
 _NO_PATIENT_SELECTED = "-- select a subject_id --"
 
 
-def _plot_measure_series(container: _PyplotContainer, series: MeasureSeries) -> None:
-    fig, ax = plt.subplots(figsize=(5, 3))
-    sns.lineplot(x="date", y="value", data=series.series, marker="o", ax=ax)
-    ax.set_title(series.title)
-    ax.set_xlabel("")
-    ax.set_ylabel("")
-    fig.autofmt_xdate()
-    _show_fig(container, fig)
+def _plot_measure_series(container: _PlotlyContainer, series: MeasureSeries) -> None:
+    fig = go.Figure(
+        go.Scatter(
+            x=series.series["date"],
+            y=series.series["value"],
+            mode="lines+markers",
+        )
+    )
+    fig.update_layout(
+        title=series.title,
+        xaxis_title="",
+        yaxis_title="",
+        height=300,
+        showlegend=False,
+    )
+    fig.update_xaxes(tickangle=-30)
+    _show_plotly_fig(container, fig)
 
 
 def _render_domain_small_multiples(series_list: list[MeasureSeries], domain_label: str) -> None:
@@ -395,12 +434,20 @@ def _render_medications_timeline(medications: pd.DataFrame) -> None:
         st.caption("No dated medication records for this Subject.")
         return
 
-    fig, ax = plt.subplots(figsize=(8, max(2.0, 0.4 * working["medication"].nunique() + 1)))
-    sns.scatterplot(x="date", y="medication", data=working, ax=ax, s=80)
-    ax.set_xlabel("")
-    ax.set_ylabel("")
-    fig.autofmt_xdate()
-    _show_fig(st, fig)
+    # Same "taller for more distinct medications" scaling as the matplotlib
+    # version -- see `_MEDICATION_TIMELINE_DPI`.
+    height = int(_MEDICATION_TIMELINE_DPI * max(2.0, 0.4 * working["medication"].nunique() + 1))
+    fig = go.Figure(
+        go.Scatter(
+            x=working["date"],
+            y=working["medication"],
+            mode="markers",
+            marker=dict(size=10),
+        )
+    )
+    fig.update_layout(xaxis_title="", yaxis_title="", height=height, showlegend=False)
+    fig.update_xaxes(tickangle=-30)
+    _show_plotly_fig(st, fig)
 
     detail_columns = [
         "date", "medication", "medication_as_recorded", "dose",
