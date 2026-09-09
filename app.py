@@ -100,7 +100,7 @@ def _render_data_dictionary_tab(conn: sqlite3.Connection) -> None:
             if entry.suppressed_pii_columns:
                 st.caption(
                     f"{len(entry.suppressed_pii_columns)} PII column(s) suppressed from this "
-                    "view (subject_id + derived fields only, spec \"PII handling\")."
+                    "view (subject_id + derived fields only)."
                 )
             st.dataframe(entry.fields, hide_index=True)
 
@@ -139,7 +139,7 @@ def _render_demographic_distributions(conn: sqlite3.Connection) -> None:
     st.subheader("Demographic distributions")
     st.caption(
         "Age is not shown: the raw data carries no age/age-at-event field, only birth date, "
-        "which is excluded everywhere as PII (spec \"PII handling\"). state is capped to its "
+        "which is excluded everywhere as PII. state is capped to its "
         "10 most common values for readability -- the Registry spans far more than 10 states, "
         "long-tailed."
     )
@@ -203,8 +203,8 @@ def _render_table_coverage(conn: sqlite3.Connection) -> None:
 def _render_cohort_overview_tab(conn: sqlite3.Connection) -> None:
     st.header("Cohort Overview")
     st.write(
-        "Population-level structure across the Registry and its 4 Control Subjects (spec "
-        "\"Cohort Overview\", User Story 23) -- demographic distributions, SSc subtype "
+        "Population-level structure across the Registry and its 4 Control Subjects "
+        " -- demographic distributions, SSc subtype "
         "breakdown, and how many Subjects have at least one record in each clinical table."
     )
 
@@ -325,7 +325,7 @@ def _render_compare_discover_tab(conn: sqlite3.Connection) -> None:
         "Pick 2 or more variables from any table, at any level, and get the chart type that "
         "fits what you picked automatically -- a scatter for two numeric measures, a box plot "
         "for a numeric measure grouped by a category, a trend line when one of your picks is a "
-        "longitudinal reading followed over time (spec \"Compare & Discover\", User Story 24)."
+        "longitudinal reading followed over time."
     )
 
     catalog = list_compare_variables(conn)
@@ -444,7 +444,7 @@ def _render_subject_record(record: SubjectRecord) -> None:
 
 def _log_patient_view_once(username: str, subject_id: str) -> None:
     """Write one `view_patient` audit-log entry per newly-selected Subject
-    (spec User Story 30) -- not once per Streamlit rerun. Every tab's render
+     -- not once per Streamlit rerun. Every tab's render
     function runs on every rerun regardless of which tab is on screen, so
     logging unconditionally here would log a view on every unrelated widget
     interaction elsewhere in the app, not just on an actual new selection."""
@@ -457,9 +457,8 @@ def _render_patient_trajectory_tab(conn: sqlite3.Connection, username: str) -> N
     st.header("Patient Trajectory")
     st.write(
         "Select one Subject by `subject_id` to see their longitudinal record -- labs, vitals, "
-        "MRSS, PFT, and medications plotted over time (spec \"Patient Trajectory\", User Story "
-        "26). Patient name and birth date are never shown here or anywhere else in this app "
-        "(spec \"PII handling\")."
+        "MRSS, PFT, and medications plotted over time."
+        "Patient name and birth date are never shown here or anywhere else in this app."
     )
     subject_ids = list_subjects(conn)["subject_id"].tolist()
     subject_id = st.selectbox("subject_id", options=[_NO_PATIENT_SELECTED, *subject_ids])
