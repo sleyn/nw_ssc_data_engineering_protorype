@@ -587,47 +587,58 @@ def _render_medications_timeline(medications: pd.DataFrame) -> None:
     st.dataframe(working[detail_columns], hide_index=True)
 
 
+def _combined_domain_series(
+    records: dict[str, SubjectRecord],
+    domain: Literal["labs", "vitals", "mrss", "pft"],
+    *,
+    value_col: str,
+    date_col: str,
+    measure_col: str | None = None,
+    fixed_measure: str | None = None,
+    title_col: str | None = None,
+) -> list[MeasureSeries]:
+    """One domain's `combine_subject_series` result across every selected
+    Subject -- the shared shape behind each of `_render_trajectory`'s 4
+    domain blocks, differing only in which columns that domain's frame
+    uses."""
+    return combine_subject_series({
+        subject_id: domain_series(
+            getattr(record, domain), value_col=value_col, date_col=date_col,
+            measure_col=measure_col, fixed_measure=fixed_measure, title_col=title_col,
+        )
+        for subject_id, record in records.items()
+    })
+
+
 def _render_trajectory(records: dict[str, SubjectRecord]) -> None:
     st.subheader("Labs")
     _render_domain_small_multiples(
-        combine_subject_series({
-            subject_id: domain_series(
-                record.labs, value_col="value", date_col="date", measure_col="component_name",
-            )
-            for subject_id, record in records.items()
-        }),
+        _combined_domain_series(
+            records, "labs", value_col="value", date_col="date", measure_col="component_name",
+        ),
         "lab",
     )
     st.subheader("Vitals")
     _render_domain_small_multiples(
-        combine_subject_series({
-            subject_id: domain_series(
-                record.vitals, value_col="vital_value", date_col="date",
-                measure_col="vital_type_name_category",
-            )
-            for subject_id, record in records.items()
-        }),
+        _combined_domain_series(
+            records, "vitals", value_col="vital_value", date_col="date",
+            measure_col="vital_type_name_category",
+        ),
         "vitals",
     )
     st.subheader("MRSS")
     _render_domain_small_multiples(
-        combine_subject_series({
-            subject_id: domain_series(
-                record.mrss, value_col="mrss_score", date_col="date", fixed_measure="MRSS",
-            )
-            for subject_id, record in records.items()
-        }),
+        _combined_domain_series(
+            records, "mrss", value_col="mrss_score", date_col="date", fixed_measure="MRSS",
+        ),
         "MRSS",
     )
     st.subheader("PFT")
     _render_domain_small_multiples(
-        combine_subject_series({
-            subject_id: domain_series(
-                record.pft, value_col="ORD_VALUE", date_col="date", measure_col="NAME",
-                title_col="DESCRIPTION",
-            )
-            for subject_id, record in records.items()
-        }),
+        _combined_domain_series(
+            records, "pft", value_col="ORD_VALUE", date_col="date", measure_col="NAME",
+            title_col="DESCRIPTION",
+        ),
         "PFT",
     )
     st.subheader("Medications")
