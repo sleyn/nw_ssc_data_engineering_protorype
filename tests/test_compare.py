@@ -50,25 +50,34 @@ def test_demographic_fields_appear_once_at_demographic_level(conn: sqlite3.Conne
     assert gender_entries[0].domain_label == "Demographic"
 
 
-def test_observation_fields_appear_twice_with_domain_vocabulary_labels(
+def test_observation_fields_appear_once_at_per_patient_aggregate_with_domain_labels(
     conn: sqlite3.Connection,
 ) -> None:
     catalog = list_compare_variables(conn)
-    pulse_entries = {v.level: v for v in catalog if v.field_name == "PULSE"}
-    assert set(pulse_entries) == {"per_patient_aggregate", "longitudinal_series"}
-    for variable in pulse_entries.values():
-        # Domain vocabulary (User Story 27) -- never the internal table name
-        # or "Observation" itself.
-        assert variable.domain_label == "Vital Sign"
-        assert "vitals" not in variable.display_label
-        assert "Observation" not in variable.display_label
+    pulse_entries = [v for v in catalog if v.field_name == "PULSE"]
+    assert len(pulse_entries) == 1
+    pulse = pulse_entries[0]
+    assert pulse.level == "per_patient_aggregate"
+    # Domain vocabulary (User Story 27) -- never the internal table name
+    # or "Observation" itself.
+    assert pulse.domain_label == "Vital Sign"
+    assert "vitals" not in pulse.display_label
+    assert "Observation" not in pulse.display_label
+    assert "(over time)" not in pulse.display_label
 
-    wbc = _find(catalog, "WBC", "longitudinal_series")
+    wbc = _find(catalog, "WBC", "per_patient_aggregate")
     assert wbc.domain_label == "Lab Result"
-    mrss = _find(catalog, "MRSS", "longitudinal_series")
+    mrss = _find(catalog, "MRSS", "per_patient_aggregate")
     assert mrss.domain_label == "MRSS"
-    scl70 = _find(catalog, "scl70", "longitudinal_series")
+    scl70 = _find(catalog, "scl70", "per_patient_aggregate")
     assert scl70.domain_label == "Antibody"
+
+
+def test_no_catalog_entry_is_a_longitudinal_series(conn: sqlite3.Connection) -> None:
+    catalog = list_compare_variables(conn)
+    levels = {v.level for v in catalog}
+    assert levels == {"demographic", "per_patient_aggregate"}
+    assert all("(over time)" not in v.display_label for v in catalog)
 
 
 # --- infer_dtype ---------------------------------------------------------------
@@ -102,10 +111,7 @@ def test_infer_dtype_all_null_is_categorical_not_an_error() -> None:
         ("numeric", "numeric", "scatter"),
         ("categorical", "numeric", "box"),
         ("numeric", "categorical", "box"),
-        ("date", "numeric", "line"),
-        ("numeric", "date", "line"),
         ("categorical", "categorical", "heatmap"),
-        ("date", "categorical", "unsupported"),
     ],
 )
 def test_choose_chart_type_matches_ticket_rules(
@@ -144,17 +150,6 @@ def test_resolve_categorical_aggregate_takes_most_recent_value(conn: sqlite3.Con
     )
 
 
-def test_resolve_longitudinal_series_keeps_raw_visits_with_parsed_dates(
-    conn: sqlite3.Connection,
-) -> None:
-    catalog = list_compare_variables(conn)
-    pulse_series = _find(catalog, "PULSE", "longitudinal_series")
-    resolved = resolve_compare_variable(conn, pulse_series)
-    assert list(resolved.columns) == ["subject_id", "date", "value"]
-    assert pd.api.types.is_datetime64_any_dtype(resolved["date"])
-    assert not resolved["subject_id"].is_unique  # multiple visits per subject
-
-
 # --- build_comparison / control_overlay_available -------------------------------
 
 
@@ -164,7 +159,7 @@ def test_two_demographic_variables_pair_into_a_box_chart(conn: sqlite3.Connectio
     height = _find(catalog, "height", "demographic")
     result = build_comparison(conn, gender, height)
     assert result.chart_type == "box"
-    assert {"subject_id", "cohort", "x", "y", "hue"}.issubset(result.data.columns)
+    assert {"subject_id", "cohort", "x", "y"}.issubset(result.data.columns)
     # No Control Subject has a demographics row at all (CONTEXT.md) -- the
     # overlay toggle must come back unavailable for this pairing.
     assert control_overlay_available(result.data) is False
@@ -178,43 +173,6 @@ def test_two_numeric_demographic_variables_pair_into_a_scatter(conn: sqlite3.Con
     assert result.chart_type == "scatter"
 
 
-def test_series_paired_with_categorical_variable_is_a_line_chart_with_hue(
-    conn: sqlite3.Connection,
-) -> None:
-    catalog = list_compare_variables(conn)
-    pulse_series = _find(catalog, "PULSE", "longitudinal_series")
-    gender = _find(catalog, "gender", "demographic")
-    result = build_comparison(conn, pulse_series, gender)
-    assert result.chart_type == "line"
-    assert result.x_label == "Date"
-    assert result.hue_label == gender.display_label
-    assert pd.api.types.is_datetime64_any_dtype(result.data["x"])
-    # 3 of the 4 Control Subjects have vitals records (CONTEXT.md) -- this
-    # pairing keeps their PULSE visits (left join) even though they have no
-    # gender value to color by.
-    assert control_overlay_available(result.data) is True
-    control_rows = result.data[result.data["cohort"] == "control"]
-    assert not control_rows.empty
-    assert control_rows["hue"].isna().all()
-
-
-def test_series_paired_with_numeric_variable_bins_it_into_a_hue(
-    conn: sqlite3.Connection,
-) -> None:
-    # A numeric "other" has no axis slot of its own here (x is the series'
-    # date, y is its value) -- binning it into groups is what keeps the 2nd
-    # selected variable from having zero visible effect on the chart.
-    catalog = list_compare_variables(conn)
-    pulse_series = _find(catalog, "PULSE", "longitudinal_series")
-    weight = _find(catalog, "weight", "demographic")
-    result = build_comparison(conn, pulse_series, weight)
-    assert result.chart_type == "line"
-    assert result.hue_label is not None
-    assert "weight" in result.hue_label
-    hue_groups = result.data["hue"].dropna().unique()
-    assert 2 <= len(hue_groups) <= 3
-
-
 def test_categorical_pair_is_a_heatmap(conn: sqlite3.Connection) -> None:
     catalog = list_compare_variables(conn)
     gender = _find(catalog, "gender", "demographic")
@@ -223,13 +181,13 @@ def test_categorical_pair_is_a_heatmap(conn: sqlite3.Connection) -> None:
     assert result.chart_type == "heatmap"
 
 
-def test_two_series_variables_join_on_matching_visit_dates_only(
+def test_two_per_patient_aggregate_variables_pair_into_a_scatter(
     conn: sqlite3.Connection,
 ) -> None:
     catalog = list_compare_variables(conn)
-    pulse_series = _find(catalog, "PULSE", "longitudinal_series")
-    mrss_series = _find(catalog, "MRSS", "longitudinal_series")
-    result = build_comparison(conn, pulse_series, mrss_series)
+    pulse = _find(catalog, "PULSE", "per_patient_aggregate")
+    mrss = _find(catalog, "MRSS", "per_patient_aggregate")
+    result = build_comparison(conn, pulse, mrss)
     assert result.chart_type == "scatter"
     assert not result.data.empty
     # 3 of the 4 Control Subjects have both vitals and mrss records.
@@ -240,7 +198,7 @@ def test_lab_result_pairing_never_has_a_control_overlay(conn: sqlite3.Connection
     # No Control Subject has any lab_report record (CONTEXT.md) -- the
     # overlay toggle must be unavailable no matter what it's paired with.
     catalog = list_compare_variables(conn)
-    wbc_series = _find(catalog, "WBC", "longitudinal_series")
+    wbc = _find(catalog, "WBC", "per_patient_aggregate")
     gender = _find(catalog, "gender", "demographic")
-    result = build_comparison(conn, wbc_series, gender)
+    result = build_comparison(conn, wbc, gender)
     assert control_overlay_available(result.data) is False
