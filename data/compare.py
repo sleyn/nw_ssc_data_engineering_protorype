@@ -9,7 +9,8 @@ spec explicitly puts "UI/visual testing of the Streamlit app itself" out of
 scope, but that's a reason to keep this logic out of app.py, not a reason to
 leave it untested.
 
-A variable can be picked at any of 3 levels (User Story 24's own wording):
+A variable can be picked at either of 2 levels (User Story 24's own
+wording, minus the 3rd -- see ADR 0006):
 
 - "demographic": a static, one-value-per-Subject field (`subjects` /
   `demographics` / `ssc_subtype`) — inherently one row per Subject already.
@@ -20,24 +21,20 @@ A variable can be picked at any of 3 levels (User Story 24's own wording):
   footing. Numeric fields aggregate by mean; non-numeric fields (e.g. an
   Antibody result of "negative"/"positive") aggregate by the most recent
   recorded value instead — there is no numeric "average" of a category.
-- "longitudinal_series": the same Observation field kept as its raw
-  per-visit `(date, value)` rows, unaggregated. Picking a field at this
-  level supplies its own date axis: pairing it with a second variable
-  produces a trend-over-time chart (the "date+numeric -> line" rule) rather
-  than one point per Subject.
+
+ADR 0006 removed the 3rd level ("longitudinal_series", the same Observation
+field kept as its raw per-visit `(date, value)` rows) and the `date`/`line`/
+`unsupported` machinery it required: 2 of its 3 pairings were broken (a
+categorical pairing fell back to a plain table; two series paired together
+degenerated into a near-empty heatmap via a sparse same-day join), and the
+one working pairing still required a user to correctly guess which pairing
+was safe. Patient Trajectory's own per-measure line charts (`data.trajectory`)
+are a separate code path, untouched by that removal.
 
 Every catalog entry carries a domain-vocabulary label (Vital Sign / Lab
 Result / MRSS / PFT / Antibody / Demographic / Disease Classification) — the
 internal "Observation" term (`data.access`, CONTEXT.md) never reaches this
 module's public output (User Story 27).
-
-Two-series pairings (both variables picked as "longitudinal_series") are
-matched on exact same-day visits only — no date-tolerance/nearest-match
-window, matching the project's general preference for exact, explainable
-matching over fuzzy reconciliation (spec "Out of scope"). This is a real
-limitation for domains whose visits rarely coincide (e.g. a lab draw and an
-MRSS exam on the same day are uncommon), reflected honestly by however few
-rows `build_comparison` returns rather than papered over.
 """
 
 import sqlite3
@@ -47,10 +44,9 @@ import pandas as pd
 
 from data.access import get_variable, list_subjects, list_variables
 
-Level = Literal["demographic", "per_patient_aggregate", "longitudinal_series"]
+Level = Literal["demographic", "per_patient_aggregate"]
 Dtype = Literal["numeric", "categorical"]
-AxisDtype = Dtype | Literal["date"]
-ChartType = Literal["scatter", "box", "line", "heatmap", "unsupported"]
+ChartType = Literal["scatter", "box", "heatmap"]
 
 # A value column counts as numeric if at least this fraction of its non-null
 # values coerce to a number — sqlite/pandas round-tripping leaves some
@@ -78,8 +74,7 @@ class CompareVariable(NamedTuple):
     """One entry in the Compare & Discover picker. `field_name` is the
     canonical name `data.access.get_variable` resolves; `display_label` is
     what the picker shows the user (domain vocabulary, plus the level for
-    Observation fields, which are offered at 2 levels — see module
-    docstring)."""
+    Observation fields — see module docstring)."""
 
     field_name: str
     table: str
@@ -91,7 +86,7 @@ class CompareVariable(NamedTuple):
 def list_compare_variables(conn: sqlite3.Connection) -> list[CompareVariable]:
     """Every variable pickable in the Compare & Discover picker, sorted for
     display: each demographic field once, each longitudinal Observation
-    field twice (once per-patient-aggregated, once as its raw series)."""
+    field once, collapsed to its per-patient aggregate (ADR 0006)."""
     catalog: list[CompareVariable] = []
     for _, row in list_variables(conn).iterrows():
         field_name, level, table = str(row["field_name"]), str(row["level"]), str(row["table"])
@@ -110,20 +105,12 @@ def list_compare_variables(conn: sqlite3.Connection) -> list[CompareVariable]:
                     f"{domain_label}: {field_name} (per-patient summary)",
                 )
             )
-            catalog.append(
-                CompareVariable(
-                    field_name, table, domain_label, "longitudinal_series",
-                    f"{domain_label}: {field_name} (over time)",
-                )
-            )
     return sorted(catalog, key=lambda v: v.display_label)
 
 
 def infer_dtype(values: pd.Series) -> Dtype:
     """"numeric" if (nearly) every non-null value coerces to a number, else
-    "categorical". Never returns "date" — a date axis only ever comes from a
-    `longitudinal_series` variable's own date column, handled structurally
-    by `build_comparison`, not inferred from arbitrary values here."""
+    "categorical"."""
     non_null = values.dropna()
     if non_null.empty:
         return "categorical"
@@ -135,25 +122,18 @@ def infer_dtype(values: pd.Series) -> Dtype:
     return "categorical"
 
 
-def choose_chart_type(x_dtype: AxisDtype, y_dtype: AxisDtype) -> ChartType:
-    """The ticket's 3 auto-chart rules, order-independent (numeric-numeric ->
-    scatter, categorical-numeric -> box, date-numeric -> line), plus a 4th
-    this module adds for the one remaining common case: categorical-
-    categorical -> heatmap (a count crosstab is a real chart, not the plain
-    table a "no rule" fallback would otherwise leave a reviewer with). Only
-    date-categorical has no rule -- a category's trend over time needs a
-    small-multiples design this module doesn't attempt -- and comes back
-    "unsupported"; the caller falls back to a plain table for that one."""
+def choose_chart_type(x_dtype: Dtype, y_dtype: Dtype) -> ChartType:
+    """The 2 remaining auto-chart rules (numeric-numeric -> scatter,
+    categorical-numeric -> box), plus a 3rd this module adds for the one
+    remaining common case: categorical-categorical -> heatmap (a count
+    crosstab is a real chart, not the plain table a "no rule" fallback would
+    otherwise leave a reviewer with)."""
     dtypes = {x_dtype, y_dtype}
     if dtypes == {"numeric"}:
         return "scatter"
     if dtypes == {"numeric", "categorical"}:
         return "box"
-    if dtypes == {"numeric", "date"}:
-        return "line"
-    if dtypes == {"categorical"}:
-        return "heatmap"
-    return "unsupported"
+    return "heatmap"
 
 
 def _aggregate_per_subject(raw: pd.DataFrame) -> pd.DataFrame:
@@ -170,35 +150,23 @@ def _aggregate_per_subject(raw: pd.DataFrame) -> pd.DataFrame:
 
 def resolve_compare_variable(conn: sqlite3.Connection, variable: CompareVariable) -> pd.DataFrame:
     """Resolve one catalog entry to its comparison-ready frame: `subject_id,
-    value` (one row per Subject) for "demographic"/"per_patient_aggregate",
-    or `subject_id, date, value` (one row per visit, `date` parsed to a real
-    datetime) for "longitudinal_series"."""
+    value` (one row per Subject)."""
     raw = get_variable(conn, variable.field_name)
     if variable.level == "demographic":
         return raw[["subject_id", "value"]]
-    if variable.level == "per_patient_aggregate":
-        return _aggregate_per_subject(raw)
-    series = raw.dropna(subset=["date", "value"]).copy()
-    series["date"] = pd.to_datetime(series["date"], errors="coerce")
-    return series.dropna(subset=["date"])[["subject_id", "date", "value"]]
+    return _aggregate_per_subject(raw)
 
 
 class ComparisonFrame(NamedTuple):
     """The merged, chart-ready result of pairing two `CompareVariable`s.
     `data` always carries `subject_id`, `cohort` (for the Control Subject
-    overlay, User Story 25), `x`, `y`, and `hue` (`pd.NA` throughout when no
-    3rd dimension applies). Only a longitudinal-series paired with a second
-    variable populates `hue`, coloring the trend line by that variable's own
-    category, or by 3 quantile-sized groups when it's numeric instead
-    (`_bin_numeric_for_hue`) — otherwise the second variable would have no
-    visible effect on the chart at all."""
+    overlay, User Story 25), `x`, and `y`."""
 
     data: pd.DataFrame
     x_label: str
     y_label: str
-    x_dtype: AxisDtype
-    y_dtype: AxisDtype
-    hue_label: str | None
+    x_dtype: Dtype
+    y_dtype: Dtype
     chart_type: ChartType
 
 
@@ -214,87 +182,17 @@ def control_overlay_available(frame: pd.DataFrame) -> bool:
     return bool((frame["cohort"] == "control").any())
 
 
-def _series_paired_with_other(
-    conn: sqlite3.Connection, series: CompareVariable, other: CompareVariable
-) -> pd.DataFrame:
-    """A longitudinal-series variable's raw visits, left-joined with a
-    per-Subject variable's value — `how="left"` so every visit the series
-    variable has (including a Control Subject's, when it has one) survives
-    even when `other` has no value at all for that Subject (e.g. a Control
-    Subject has no `gender`); `other`'s value then just comes back null for
-    that Subject's rows instead of dropping them."""
-    series_frame = resolve_compare_variable(conn, series)
-    other_frame = resolve_compare_variable(conn, other)
-    return series_frame.merge(other_frame, on="subject_id", how="left", suffixes=("", "_other"))
-
-
-def _bin_numeric_for_hue(values: pd.Series) -> pd.Series | None:
-    """A numeric "other" variable paired with a longitudinal series has no
-    axis slot of its own (`build_comparison`'s x/y are the series' date and
-    value) -- without this, its selection would have no visible effect on
-    the chart at all. Splitting it into 3 quantile-sized groups turns it
-    into a coloring dimension instead, the same role a categorical "other"
-    already plays. Returns `None` (no hue) rather than raising when there
-    aren't enough distinct values to form groups -- a real, if rare,
-    outcome for a small Subject population."""
-    numeric = pd.to_numeric(values, errors="coerce")
-    if numeric.dropna().nunique() < 3:
-        return None
-    try:
-        binned = pd.qcut(numeric, q=3, duplicates="drop")
-    except ValueError:
-        return None
-    if binned.cat.categories.size < 2:
-        return None
-    return binned.astype(str).where(numeric.notna(), pd.NA)
-
-
 def build_comparison(
     conn: sqlite3.Connection, a: CompareVariable, b: CompareVariable
 ) -> ComparisonFrame:
-    """Merge 2 selected variables into one chart-ready `ComparisonFrame`.
-    Handles the 3 shapes the picker's 3 levels can produce: neither picked
-    as a raw series (join on `subject_id`), exactly one picked as a raw
-    series (that variable's own dates become the x-axis, left-joined with
-    the other's per-Subject value), or both picked as raw series (joined on
-    `subject_id` *and* `date` — same-day visits only, see module docstring).
-    """
+    """Merge 2 selected variables into one chart-ready `ComparisonFrame`,
+    joined on `subject_id`."""
     subjects = list_subjects(conn)[["subject_id", "cohort"]]
-    a_is_series = a.level == "longitudinal_series"
-    b_is_series = b.level == "longitudinal_series"
-
-    hue_label: str | None = None
-    if a_is_series and b_is_series:
-        a_frame = resolve_compare_variable(conn, a)
-        b_frame = resolve_compare_variable(conn, b)
-        merged = a_frame.merge(b_frame, on=["subject_id", "date"], suffixes=("_a", "_b"))
-        merged = merged.rename(columns={"value_a": "x", "value_b": "y"})
-        merged["hue"] = pd.NA
-        x_label, y_label = a.display_label, b.display_label
-        x_dtype: AxisDtype = infer_dtype(merged["x"])
-        y_dtype: AxisDtype = infer_dtype(merged["y"])
-    elif a_is_series or b_is_series:
-        series, other = (a, b) if a_is_series else (b, a)
-        merged = _series_paired_with_other(conn, series, other)
-        merged = merged.rename(columns={"date": "x", "value": "y", "value_other": "hue"})
-        x_label, y_label = "Date", series.display_label
-        x_dtype, y_dtype = "date", infer_dtype(merged["y"])
-        if infer_dtype(merged["hue"]) == "categorical":
-            hue_label = other.display_label
-        else:
-            binned = _bin_numeric_for_hue(merged["hue"])
-            if binned is not None:
-                merged["hue"] = binned
-                hue_label = f"{other.display_label} (3 groups)"
-    else:
-        a_frame = resolve_compare_variable(conn, a)
-        b_frame = resolve_compare_variable(conn, b)
-        merged = a_frame.merge(b_frame, on="subject_id", suffixes=("_a", "_b"))
-        merged = merged.rename(columns={"value_a": "x", "value_b": "y"})
-        merged["hue"] = pd.NA
-        x_label, y_label = a.display_label, b.display_label
-        x_dtype, y_dtype = infer_dtype(merged["x"]), infer_dtype(merged["y"])
-
+    a_frame = resolve_compare_variable(conn, a)
+    b_frame = resolve_compare_variable(conn, b)
+    merged = a_frame.merge(b_frame, on="subject_id", suffixes=("_a", "_b"))
+    merged = merged.rename(columns={"value_a": "x", "value_b": "y"})
     merged = merged.merge(subjects, on="subject_id", how="left")
+    x_dtype, y_dtype = infer_dtype(merged["x"]), infer_dtype(merged["y"])
     chart_type = choose_chart_type(x_dtype, y_dtype)
-    return ComparisonFrame(merged, x_label, y_label, x_dtype, y_dtype, hue_label, chart_type)
+    return ComparisonFrame(merged, a.display_label, b.display_label, x_dtype, y_dtype, chart_type)
