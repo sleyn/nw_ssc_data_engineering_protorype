@@ -23,3 +23,7 @@ This is a test assignment for the data science/data engineering role.
 1. Generate final version of EDA analysis
 2. Generate data QC report / tool
 3. Make an interactive application for data exploration
+
+## Agent skills
+
+See `CLAUDE.local.md` (gitignored, local-only) for agent workflow conventions (issue tracker, triage labels, domain docs).

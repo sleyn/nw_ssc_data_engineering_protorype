@@ -227,6 +227,8 @@ __marimo__/
 .claude/
 .agents/
 skills-lock.json
+CLAUDE.local.md
+docs/agents/
 
 # Pre EDA
 pre_eda/
