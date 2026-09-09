@@ -47,8 +47,6 @@ _DEMOGRAPHIC_FIELDS: tuple[str, ...] = ("gender", "ethnicity", "races", "state")
 
 st.set_page_config(page_title="NW SSc Data Explorer", layout="wide")
 
-TAB_NAMES = ["Data & Dictionary", "Cohort Overview", "Compare & Discover", "Patient Trajectory"]
-
 
 @st.cache_resource
 def _get_connection() -> sqlite3.Connection:
@@ -87,7 +85,8 @@ def _render_login_form() -> str | None:
     return None
 
 
-def _render_data_dictionary_tab(conn: sqlite3.Connection) -> None:
+def _data_dictionary_page() -> None:
+    conn = _get_connection()
     st.header("Data & Dictionary")
     st.write(
         "Every table in the built Subject/Cohort store, with live row/column counts "
@@ -200,7 +199,8 @@ def _render_table_coverage(conn: sqlite3.Connection) -> None:
     st.dataframe(coverage, hide_index=True)
 
 
-def _render_cohort_overview_tab(conn: sqlite3.Connection) -> None:
+def _cohort_overview_page() -> None:
+    conn = _get_connection()
     st.header("Cohort Overview")
     st.write(
         "Population-level structure across the Registry and its 4 Control Subjects "
@@ -319,7 +319,8 @@ def _render_comparison_pair(
     _show_fig(st, fig)
 
 
-def _render_compare_discover_tab(conn: sqlite3.Connection) -> None:
+def _compare_discover_page() -> None:
+    conn = _get_connection()
     st.header("Compare & Discover")
     st.write(
         "Pick 2 or more variables from any table, at any level, and get the chart type that "
@@ -453,7 +454,9 @@ def _log_patient_view_once(username: str, subject_id: str) -> None:
         st.session_state["last_viewed_subject"] = subject_id
 
 
-def _render_patient_trajectory_tab(conn: sqlite3.Connection, username: str) -> None:
+def _patient_trajectory_page() -> None:
+    conn = _get_connection()
+    username = st.session_state["username"]
     st.header("Patient Trajectory")
     st.write(
         "Select one Subject by `subject_id` to see their longitudinal record -- labs, vitals, "
@@ -478,17 +481,14 @@ def main() -> None:
 
     username = st.session_state["username"]
     st.sidebar.success(f"Logged in as {username}")
-    conn = _get_connection()
 
-    tabs = st.tabs(TAB_NAMES)
-    with tabs[0]:
-        _render_data_dictionary_tab(conn)
-    with tabs[1]:
-        _render_cohort_overview_tab(conn)
-    with tabs[2]:
-        _render_compare_discover_tab(conn)
-    with tabs[3]:
-        _render_patient_trajectory_tab(conn, username)
+    pages = [
+        st.Page(_data_dictionary_page, title="Data & Dictionary"),
+        st.Page(_cohort_overview_page, title="Cohort Overview"),
+        st.Page(_compare_discover_page, title="Compare & Discover"),
+        st.Page(_patient_trajectory_page, title="Patient Trajectory"),
+    ]
+    st.navigation(pages).run()
 
 
 if __name__ == "__main__":
