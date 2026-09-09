@@ -34,6 +34,13 @@ select = ["E", "F", "I", "UP", "B"]
 [tool.mypy]
 strict = true
 
+[[tool.mypy.overrides]]
+# plotly ships no py.typed marker / stub package -- unlike matplotlib
+# (inline types) and seaborn (types-seaborn), so strict mode has nothing to
+# check against its imports.
+module = "plotly.*"
+ignore_missing_imports = true
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["."]

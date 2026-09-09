@@ -11,10 +11,12 @@ Run locally with `uv sync` then `uv run streamlit run app.py`.
 
 import itertools
 import sqlite3
-from typing import Protocol
+from typing import Literal, Protocol
 
 import matplotlib.pyplot as plt
 import pandas as pd
+import plotly.express as px
+import plotly.graph_objects as go
 import seaborn as sns
 import streamlit as st
 from matplotlib.axes import Axes
@@ -117,6 +119,36 @@ def _show_fig(container: _PyplotContainer, fig: Figure) -> None:
     plt.close(fig)
 
 
+_CHART_WIDTH = 500
+
+
+class _PlotlyContainer(Protocol):
+    """Either the top-level `st` module or one `st.columns()` slot -- both
+    expose `.plotly_chart`, which is all `_show_plotly_fig` needs. The
+    keyword params are typed to match Streamlit's own (narrower-than-`str`)
+    overloads exactly -- a broader `**kwargs: object` doesn't structurally
+    match an overloaded implementation under strict mypy."""
+
+    def plotly_chart(
+        self,
+        fig: go.Figure,
+        /,
+        *,
+        theme: Literal["streamlit"] | None = ...,
+        use_container_width: bool | None = ...,
+    ) -> object: ...
+
+
+def _show_plotly_fig(container: _PlotlyContainer, fig: go.Figure) -> None:
+    """Render one Plotly figure at the app's fixed chart width, using
+    Streamlit's built-in theme sync (`theme="streamlit"`) so it follows the
+    viewer's light/dark setting. `use_container_width=False` is required --
+    otherwise Streamlit stretches the figure to fill its container and the
+    fixed width has no effect."""
+    fig.update_layout(width=_CHART_WIDTH)
+    container.plotly_chart(fig, theme="streamlit", use_container_width=False)
+
+
 def _render_cohort_composition(subjects: pd.DataFrame) -> None:
     cohort_counts = subjects["cohort"].value_counts()
     col1, col2 = st.columns(2)
@@ -127,12 +159,13 @@ def _render_cohort_composition(subjects: pd.DataFrame) -> None:
 def _render_subtype_breakdown(ssc_patients: pd.DataFrame) -> None:
     st.subheader("SSc subtype")
     subtype_counts = ssc_patients["ssc_subtype"].value_counts()
-    fig, ax = plt.subplots(figsize=(5, 3))
-    sns.barplot(x=subtype_counts.index, y=subtype_counts.values, ax=ax)
-    ax.set_title(f"dcSSc / lcSSc split (n={len(ssc_patients):,} Registry patients)")
-    ax.set_xlabel("")
-    ax.set_ylabel("Patients")
-    _show_fig(st, fig)
+    fig = px.bar(
+        x=subtype_counts.index,
+        y=subtype_counts.values,
+        labels={"x": "", "y": "Patients"},
+        title=f"dcSSc / lcSSc split (n={len(ssc_patients):,} Registry patients)",
+    )
+    _show_plotly_fig(st, fig)
 
 
 def _render_demographic_distributions(conn: sqlite3.Connection) -> None:
@@ -150,27 +183,31 @@ def _render_demographic_distributions(conn: sqlite3.Connection) -> None:
         if len(counts) > 10:
             counts = counts.head(10)
             title = f"{field} (top 10)"
-        fig, ax = plt.subplots(figsize=(5, 3.5))
-        sns.barplot(x=counts.values, y=counts.index, ax=ax, orient="h")
-        ax.set_title(title)
-        ax.set_xlabel("Subjects")
-        ax.set_ylabel("")
-        _show_fig(columns[i % 2], fig)
+        fig = px.bar(
+            x=counts.values,
+            y=counts.index,
+            orientation="h",
+            labels={"x": "Subjects", "y": ""},
+            title=title,
+        )
+        fig.update_yaxes(categoryorder="total ascending")
+        _show_plotly_fig(columns[i % 2], fig)
 
     height = pd.to_numeric(get_variable(conn, "height")["value"], errors="coerce").dropna()
     weight = pd.to_numeric(get_variable(conn, "weight")["value"], errors="coerce").dropna()
     columns = st.columns(2)
-    fig, ax = plt.subplots(figsize=(5, 3.5))
-    sns.histplot(height, bins=30, ax=ax)
-    ax.set_title("Height, inches (ingest-normalized)")
-    ax.set_xlabel("inches")
-    _show_fig(columns[0], fig)
+    fig = px.histogram(
+        x=height, nbins=30, labels={"x": "inches"}, title="Height, inches (ingest-normalized)"
+    )
+    fig.update_yaxes(title="Count")
+    _show_plotly_fig(columns[0], fig)
 
-    fig, ax = plt.subplots(figsize=(5, 3.5))
-    sns.histplot(weight, bins=40, ax=ax)
-    ax.set_title("Weight, lbs")
-    ax.set_xlabel("lbs")
-    _show_fig(columns[1], fig)
+    fig = px.histogram(x=weight, nbins=40, labels={"x": "lbs"}, title="Weight, lbs")
+    fig.update_yaxes(title="Count")
+    _show_plotly_fig(columns[1], fig)
+
+
+_COVERAGE_SHARE_LABEL = "Share of Subjects"
 
 
 def _render_table_coverage(conn: sqlite3.Connection) -> None:
@@ -182,22 +219,27 @@ def _render_table_coverage(conn: sqlite3.Connection) -> None:
     )
     coverage = table_coverage(conn).sort_values("subject_coverage", ascending=False)
 
-    fig, ax = plt.subplots(figsize=(8, 5))
-    sns.barplot(x="subject_coverage", y="table", data=coverage, ax=ax, color="steelblue")
-    ax.set_xlim(0, 1.15)
-    ax.set_xlabel("Share of Subjects with >=1 record")
-    ax.set_ylabel("")
-    for i, (_, row) in enumerate(coverage.reset_index(drop=True).iterrows()):
-        ax.text(
-            row["subject_coverage"] + 0.02,
-            i,
-            f"{row['distinct_subjects']:,} / {row['rows']:,} rows",
-            va="center",
-            fontsize=9,
-        )
-    _show_fig(st, fig)
+    row_labels = [
+        f"{row.distinct_subjects:,} / {row.rows:,} rows" for row in coverage.itertuples()
+    ]
+    fig = px.bar(
+        coverage,
+        x="subject_coverage",
+        y="table",
+        orientation="h",
+        text=row_labels,
+        labels={"subject_coverage": "Share of Subjects with >=1 record", "table": ""},
+    )
+    fig.update_traces(textposition="outside", cliponaxis=False)
+    fig.update_xaxes(range=[0, 1.3])
+    fig.update_yaxes(categoryorder="total ascending")
+    _show_plotly_fig(st, fig)
 
-    st.dataframe(coverage, hide_index=True)
+    display_coverage = coverage.rename(columns={"subject_coverage": _COVERAGE_SHARE_LABEL}).copy()
+    display_coverage[_COVERAGE_SHARE_LABEL] = display_coverage[_COVERAGE_SHARE_LABEL].map(
+        lambda share: f"{share:.1%}"
+    )
+    st.dataframe(display_coverage, hide_index=True)
 
 
 def _cohort_overview_page() -> None:
