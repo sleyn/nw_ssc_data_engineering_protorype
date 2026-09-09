@@ -90,9 +90,8 @@ def _render_login_form() -> str | None:
 def _render_data_dictionary_tab(conn: sqlite3.Connection) -> None:
     st.header("Data & Dictionary")
     st.write(
-        "Every table in the built Subject/Cohort store (ADR 0005), with live row/column "
-        "counts and a plain-language description of each field, informed by the QC "
-        "investigation ([full QC report](docs/qc_report.md))."
+        "Every table in the built Subject/Cohort store, with live row/column counts "
+        " and a plain-language description of each field, informed by the QC investigation."
     )
     for entry in describe_all_tables(conn):
         label = f"**{entry.table}** -- {entry.row_count:,} rows x {entry.column_count} columns"

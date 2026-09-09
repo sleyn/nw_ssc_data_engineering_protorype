@@ -41,7 +41,7 @@ ALL_TABLES: tuple[str, ...] = (
 TABLE_DESCRIPTIONS: dict[str, str] = {
     "subjects": (
         "Every Subject referenced anywhere in the dataset -- the supertype spanning both SSc "
-        "Patients and the 4 Control Subjects (CONTEXT.md)."
+        "Patients and the 4 Control Subjects."
     ),
     "demographics": (
         "The Registry's static demographic record: one row per SSc Patient (1,500 rows). "
@@ -81,13 +81,13 @@ TABLE_DESCRIPTIONS: dict[str, str] = {
     ),
     "skin_biopsies": (
         "Skin biopsy procedure records, including a synthetic (non-backed) pathology image "
-        "reference (CONTEXT.md)."
+        "reference."
     ),
 }
 
 # subject_id is the ingestion-time-normalized canonical identifier in every
 # table (data/ingest.py) and is described once here rather than repeated.
-_SUBJECT_ID_DESCRIPTION = "Canonical Subject identifier, normalized at ingestion (CONTEXT.md)."
+_SUBJECT_ID_DESCRIPTION = "Canonical Subject identifier, normalized at ingestion."
 
 FIELD_DESCRIPTIONS: dict[str, dict[str, str]] = {
     "subjects": {
@@ -104,11 +104,11 @@ FIELD_DESCRIPTIONS: dict[str, dict[str, str]] = {
         "state": "US state of residence.",
         "height": (
             "Height in inches. Raw data mixed inch- and centimeter-scale values; "
-            "cm-scale values are converted to inches at ingestion (QC report)."
+            "cm-scale values are converted to inches at ingestion."
         ),
         "weight": (
             "Weight in pounds. subject_8545's value here is flagged by QC as physiologically "
-            "implausible and contradicted by 5 corroborating vitals records (QC report)."
+            "implausible and contradicted by 5 corroborating vitals records."
         ),
     },
     "ssc_subtype": {
@@ -116,7 +116,7 @@ FIELD_DESCRIPTIONS: dict[str, dict[str, str]] = {
         "ssc_subtype": "'dcSSc' (diffuse cutaneous) or 'lcSSc' (limited cutaneous).",
         "other_dx": (
             "Semicolon-separated comorbidities (e.g. ILD, GERD, PAH) recorded alongside the SSc "
-            "subtype -- not an alternate diagnosis, despite the column name (CONTEXT.md)."
+            "subtype -- not an alternate diagnosis, despite the column name."
         ),
         "raynaud_date": "Date of Raynaud's phenomenon onset, if recorded.",
         "nonraynaud_date": "Date of first non-Raynaud's symptom, if recorded.",
@@ -131,7 +131,7 @@ FIELD_DESCRIPTIONS: dict[str, dict[str, str]] = {
         ),
         "vital_value": (
             "The recorded value. WEIGHT IN POUND has a QC-flagged constant-value artifact "
-            "(160.6 lb repeated across many patients' visits -- QC report)."
+            "(160.6 lb repeated across many patients' visits)."
         ),
     },
     "lab_report": {
@@ -140,7 +140,7 @@ FIELD_DESCRIPTIONS: dict[str, dict[str, str]] = {
         "component_name": "Which lab component this row is (e.g. WBC, HEMOGLOBIN).",
         "value": (
             "The recorded value. Several components carry isolated implausible sentinel or "
-            "negative values (QC report)."
+            "negative values."
         ),
     },
     "mrss": {
@@ -148,7 +148,7 @@ FIELD_DESCRIPTIONS: dict[str, dict[str, str]] = {
         "date": "Date the MRSS was recorded.",
         "ENTRY_USER_NAME": (
             "Clinician who recorded the score -- operational metadata, not a PHI-analogue "
-            "field (CONTEXT.md)."
+            "field."
         ),
         "mrss_score": "Modified Rodnan Skin Score total (17 body sites x 0-3, range 0-51).",
     },
@@ -159,7 +159,7 @@ FIELD_DESCRIPTIONS: dict[str, dict[str, str]] = {
         "NAME": (
             "Short measure code (e.g. FVC, FEV1, DLCO_SB). FVC/FEV1/DLCO_SB share an identical "
             "40.0-130.0 guideline range in this dataset -- flagged by QC as likely generator "
-            "clipping rather than organic variation (QC report)."
+            "clipping rather than organic variation."
         ),
         "ORD_VALUE": "The recorded value, as percent predicted.",
     },
@@ -175,12 +175,11 @@ FIELD_DESCRIPTIONS: dict[str, dict[str, str]] = {
         "medication": (
             "Medication name as recorded. Brand/generic/abbreviation variants of the same drug "
             "(e.g. CellCept / mycophenolate mofetil / MMF) are merged to one canonical label on "
-            "read, with the original preserved in an 'as recorded' field (QC report)."
+            "read, with the original preserved in an 'as recorded' field."
         ),
         "dose": (
             "Dose as free text. Parsed on read into value/unit/frequency; QC flags "
-            "implausible doses (negative/zero, magnitude outliers, unit-type mismatches -- "
-            "QC report)."
+            "implausible doses (negative/zero, magnitude outliers, unit-type mismatches."
         ),
     },
     "bal": {
@@ -223,14 +222,13 @@ FIELD_DESCRIPTIONS: dict[str, dict[str, str]] = {
         "biopsy_date": "Date the biopsy was performed.",
         "ENTRY_USER_NAME": (
             "Clinician who recorded the biopsy -- operational metadata, not a PHI-analogue "
-            "field (CONTEXT.md)."
+            "field."
         ),
         "biopsy_site": "Anatomical site the biopsy was taken from.",
         "clinical_indication": "Clinical reason the biopsy was performed.",
         "specimen_accession": "Lab accession number for the specimen.",
         "image_file_path": (
-            "Reference to a pathology image -- a synthetic path with no backing image data "
-            "(CONTEXT.md)."
+            "Reference to a pathology image -- a synthetic path with no backing image data."
         ),
         "image_format": "File format of the referenced image.",
     },

@@ -47,7 +47,7 @@ def verify_credentials(
     if not isinstance(expected_username, str) or not isinstance(expected_password_hash, str):
         raise RuntimeError(
             f"{secrets_path} is missing a string '{SECRETS_USERNAME_KEY}'/"
-            f"'{SECRETS_PASSWORD_HASH_KEY}' entry (ADR 0004)"
+            f"'{SECRETS_PASSWORD_HASH_KEY}' entry"
         )
     return username == expected_username and _hash_password(password) == expected_password_hash
 

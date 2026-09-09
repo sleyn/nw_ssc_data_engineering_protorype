@@ -34,8 +34,7 @@ def _load_encryption_key(secrets_path: Path) -> bytes:
     key = secrets.get(SECRETS_ENCRYPTION_KEY)
     if not isinstance(key, str):
         raise RuntimeError(
-            f"{secrets_path} is missing a string '{SECRETS_ENCRYPTION_KEY}' entry "
-            "(ADR 0002/0004)"
+            f"{secrets_path} is missing a string '{SECRETS_ENCRYPTION_KEY}' entry"
         )
     return key.encode()
 

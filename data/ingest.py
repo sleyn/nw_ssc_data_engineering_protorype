@@ -109,8 +109,8 @@ def _load_registry(csv_dir: Path) -> tuple[pd.DataFrame, pd.DataFrame]:
     mismatched = set(demographics[SUBJECT_ID_COLUMN]) ^ set(ssc_subtype[SUBJECT_ID_COLUMN])
     if mismatched:
         raise RuntimeError(
-            "demographics and ssc_subtype disagree on Registry membership "
-            f"(CONTEXT.md expects full overlap): {sorted(mismatched)}"
+            "demographics and ssc_subtype disagree on Registry membership:"
+            f" {sorted(mismatched)}"
         )
     return demographics, ssc_subtype
 
@@ -126,8 +126,8 @@ def _build_subjects(
     registry_ids: set[str], clinical_tables: dict[str, pd.DataFrame]
 ) -> pd.DataFrame:
     """Every Subject ID encountered anywhere is a Subject; anyone outside the
-    Registry is a Control Subject (CONTEXT.md) rather than an orphan to explain
-    away — this is derived generically, not a hardcoded ID list."""
+    Registry is a Control Subject rather than an orphan to explain away
+     — this is derived generically, not a hardcoded ID list."""
     control_ids: set[str] = set()
     for df in clinical_tables.values():
         control_ids |= set(df[SUBJECT_ID_COLUMN]) - registry_ids
@@ -138,7 +138,7 @@ def _build_subjects(
 
 
 def _create_clinical_table(conn: sqlite3.Connection, table: str, df: pd.DataFrame) -> None:
-    """Create `table` with subject_id foreign-keyed to subjects (ADR 0005), then
+    """Create `table` with subject_id foreign-keyed to subjects, then
     load it. Column types are the same ones pandas would infer via `to_sql`;
     the only change from that is adding the REFERENCES clause."""
     schema = get_schema(df, table, con=conn)
