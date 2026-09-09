@@ -33,6 +33,7 @@ from data.compare import (
     list_compare_variables,
 )
 from data.dictionary import describe_all_tables
+from data.qc import generate_report
 from data.store import build_encrypted_store, open_store
 from data.trajectory import MeasureSeries, domain_series, medication_timeline
 
@@ -98,6 +99,19 @@ def _data_dictionary_page() -> None:
                     "view (subject_id + derived fields only)."
                 )
             st.dataframe(entry.fields, hide_index=True)
+
+
+def _qc_report_page() -> None:
+    conn = _get_connection()
+    st.header("QC Report")
+    st.write(
+        "Every data-quality check run against the built Subject/Cohort store -- key linkage, "
+        "cross-table consistency (e.g. demographics weight vs. vitals), constant-value and "
+        "guideline-range outliers, and medication name/dose parsing gaps. Regenerated fresh "
+        "from the current store on every view, not cached, so it always reflects what's "
+        "actually in the store right now."
+    )
+    st.markdown(generate_report(conn))
 
 
 _CHART_WIDTH = 500
@@ -662,6 +676,7 @@ def main() -> None:
         st.Page(_cohort_overview_page, title="Cohort Overview"),
         st.Page(_compare_discover_page, title="Compare & Discover"),
         st.Page(_patient_trajectory_page, title="Patient Trajectory"),
+        st.Page(_qc_report_page, title="QC Report"),
     ]
     st.navigation(pages).run()
 
