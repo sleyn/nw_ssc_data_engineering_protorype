@@ -434,7 +434,9 @@ def _render_panel_comparison(
     # Control Subject has data on both sides of.
     if result.chart_type in ("scatter", "box") and control_overlay_available(data):
         show_overlay = st.toggle(
-            "Highlight the 4 Control Subjects", key=_panel_key(panel_id, "overlay")
+            "Highlight the 4 Control Subjects",
+            key=_panel_key(panel_id, "overlay"),
+            persist_state="session",
         )
 
     # Chart and its companion data table render as one centered horizontal
@@ -485,11 +487,13 @@ def _render_compare_panel(
             "X variable",
             options=[_NO_VARIABLE_SELECTED, *catalog_labels],
             key=_panel_key(panel_id, "x"),
+            persist_state="session",
         )
         y_selected = y_col.selectbox(
             "Y variable",
             options=[_NO_VARIABLE_SELECTED, *catalog_labels],
             key=_panel_key(panel_id, "y"),
+            persist_state="session",
         )
         rotate_col.markdown("&nbsp;")  # aligns the button with the selectboxes, not their labels
         if rotate_col.button("Rotate", key=_panel_key(panel_id, "rotate"), help="Swap X and Y"):
@@ -790,16 +794,20 @@ def _render_filter_field(field: FilterField) -> FilterValue:
         return st.slider(
             field.label, min_value=field.min_value, max_value=field.max_value,
             value=(field.min_value, field.max_value), key=key,
+            persist_state="session",
         )
     if field.kind == "date_range":
         assert field.min_date is not None and field.max_date is not None
         return st.slider(
             field.label, min_value=field.min_date, max_value=field.max_date,
             value=(field.min_date, field.max_date), key=key,
+            persist_state="session",
         )
     if field.options is not None:
-        return st.multiselect(field.label, options=list(field.options), key=key)
-    return st.checkbox(field.label, key=key)
+        return st.multiselect(
+            field.label, options=list(field.options), key=key, persist_state="session"
+        )
+    return st.checkbox(field.label, key=key, persist_state="session")
 
 
 # Categories with more than one filter get their own collapsed
@@ -853,11 +861,23 @@ def _patient_trajectory_page() -> None:
     )
     with st.sidebar:
         subject_ids = _render_subject_filters_panel(conn)
+    # Narrowed by the sidebar filters above -- a subject_id picked before the
+    # filters tightened (this run, or a prior run whose selection persisted
+    # via `persist_state="session"`) may no longer be in `subject_ids`, which
+    # `st.multiselect` would otherwise reject.
+    valid_default = [
+        subject_id
+        for subject_id in st.session_state.get("trajectory-subject-ids", [])
+        if subject_id in subject_ids
+    ]
+    st.session_state["trajectory-subject-ids"] = valid_default
     selected = st.multiselect(
         "subject_id",
         options=subject_ids,
         max_selections=_MAX_TRAJECTORY_SUBJECTS,
         help=f"Select up to {_MAX_TRAJECTORY_SUBJECTS} Subjects to overlay on the same charts.",
+        key="trajectory-subject-ids",
+        persist_state="session",
     )
     if not selected:
         st.info("Select a subject_id above to view that Subject's record.")
