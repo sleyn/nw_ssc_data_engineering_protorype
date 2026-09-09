@@ -10,7 +10,7 @@ Run locally with `uv sync` then `uv run streamlit run app.py`.
 """
 
 import sqlite3
-from collections.abc import Sequence
+from collections.abc import Iterable, Sequence
 from typing import Literal, Protocol
 
 import pandas as pd
@@ -575,11 +575,19 @@ def _plot_measure_series(
     container: _PlotlyContainer,
     series: MeasureSeries,
     date_range: tuple[pd.Timestamp, pd.Timestamp] | None,
+    subject_colors: dict[str, str],
 ) -> None:
     """One measure's chart -- one colored line per Subject present in
     `series.series` (`color="subject_id"`), all at the same reduced
-    opacity, with no cohort-average/baseline line mixed in."""
-    fig = px.line(series.series, x="date", y="value", color="subject_id", markers=True)
+    opacity, with no cohort-average/baseline line mixed in. `subject_colors`
+    fixes each Subject's color across every chart on the page -- without it,
+    Plotly assigns colors by first-appearance order within each chart's own
+    (possibly smaller) Subject subset, so the same Subject could get
+    different colors on different measures."""
+    fig = px.line(
+        series.series, x="date", y="value", color="subject_id", markers=True,
+        color_discrete_map=subject_colors,
+    )
     fig.update_traces(opacity=_TRAJECTORY_LINE_OPACITY)
     fig.update_layout(
         title=series.title,
@@ -597,6 +605,7 @@ def _render_domain_small_multiples(
     series_list: list[MeasureSeries],
     domain_label: str,
     date_range: tuple[pd.Timestamp, pd.Timestamp] | None,
+    subject_colors: dict[str, str],
 ) -> None:
     """One small-multiple line chart per `MeasureSeries` (e.g. one per lab
     component, one per vital sign) -- per-Subject measure counts stay small
@@ -610,7 +619,7 @@ def _render_domain_small_multiples(
         return
     columns = _centered_columns(2)
     for i, series in enumerate(series_list):
-        _plot_measure_series(columns[i % 2], series, date_range)
+        _plot_measure_series(columns[i % 2], series, date_range, subject_colors)
 
 
 def _render_medications_timeline(
@@ -679,7 +688,22 @@ def _combined_domain_series(
     })
 
 
+def _subject_color_map(subject_ids: Iterable[str]) -> dict[str, str]:
+    """Fix one color per Subject, shared across every chart on the
+    Trajectory page. Without this, each chart independently colors Subjects
+    by first-appearance order in `px.line`'s default palette -- so a
+    Subject missing from one domain's data (e.g. no labs but has vitals)
+    shifts every later Subject's color on that chart, making the same
+    Subject look different color to color."""
+    palette = px.colors.qualitative.Plotly
+    return {
+        subject_id: palette[i % len(palette)]
+        for i, subject_id in enumerate(sorted(subject_ids))
+    }
+
+
 def _render_trajectory(records: dict[str, SubjectRecord]) -> None:
+    subject_colors = _subject_color_map(records.keys())
     labs = _combined_domain_series(
         records, "labs", value_col="value", date_col="date", measure_col="component_name",
     )
@@ -702,13 +726,13 @@ def _render_trajectory(records: dict[str, SubjectRecord]) -> None:
     date_range = shared_date_range([labs, vitals, mrss, pft], medications)
 
     st.subheader("Labs")
-    _render_domain_small_multiples(labs, "lab", date_range)
+    _render_domain_small_multiples(labs, "lab", date_range, subject_colors)
     st.subheader("Vitals")
-    _render_domain_small_multiples(vitals, "vitals", date_range)
+    _render_domain_small_multiples(vitals, "vitals", date_range, subject_colors)
     st.subheader("MRSS")
-    _render_domain_small_multiples(mrss, "MRSS", date_range)
+    _render_domain_small_multiples(mrss, "MRSS", date_range, subject_colors)
     st.subheader("PFT")
-    _render_domain_small_multiples(pft, "PFT", date_range)
+    _render_domain_small_multiples(pft, "PFT", date_range, subject_colors)
     st.subheader("Medications")
     _render_medications_timeline(medications, len(records), date_range)
 
