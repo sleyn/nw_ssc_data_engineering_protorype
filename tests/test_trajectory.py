@@ -22,6 +22,7 @@ from data.trajectory import (
     combine_subject_series,
     domain_series,
     medication_timeline,
+    shared_date_range,
 )
 
 # subject_2005 has labs, vitals, PFT, and medications records but no MRSS
@@ -262,3 +263,38 @@ def test_combine_medication_timelines_all_empty_stays_empty() -> None:
     result = combine_medication_timelines(per_subject)
     assert result.empty
     assert {"subject_id", "label"} <= set(result.columns)
+
+
+# --- shared_date_range -------------------------------------------------------------
+
+
+def test_shared_date_range_spans_every_domain_and_medications() -> None:
+    labs = combine_subject_series(
+        {"subject_1": [_series("WBC", "WBC", ["2020-03-01"], [4.2])]}
+    )
+    vitals = combine_subject_series(
+        {"subject_1": [_series("HR", "HR", ["2020-01-01"], [70])]}
+    )
+    medications = _timeline(["2020-06-01"], ["prednisone"])
+    result = shared_date_range([labs, vitals], medications)
+    assert result == (pd.Timestamp("2020-01-01"), pd.Timestamp("2020-06-01"))
+
+
+def test_shared_date_range_ignores_empty_domains() -> None:
+    labs = combine_subject_series(
+        {"subject_1": [_series("WBC", "WBC", ["2020-03-01"], [4.2])]}
+    )
+    empty_domain: list[MeasureSeries] = []
+    result = shared_date_range([labs, empty_domain], pd.DataFrame(columns=["date"]))
+    assert result == (pd.Timestamp("2020-03-01"), pd.Timestamp("2020-03-01"))
+
+
+def test_shared_date_range_no_data_anywhere_returns_none() -> None:
+    result = shared_date_range([[], []], pd.DataFrame(columns=["date"]))
+    assert result is None
+
+
+def test_shared_date_range_medications_only() -> None:
+    medications = _timeline(["2020-01-01", "2020-02-01"], ["prednisone", "aspirin"])
+    result = shared_date_range([[]], medications)
+    assert result == (pd.Timestamp("2020-01-01"), pd.Timestamp("2020-02-01"))

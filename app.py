@@ -43,6 +43,7 @@ from data.trajectory import (
     combine_subject_series,
     domain_series,
     medication_timeline,
+    shared_date_range,
 )
 
 # Same 4 categorical demographic fields the EDA notebook plots (ticket 05) --
@@ -561,7 +562,21 @@ _MAX_TRAJECTORY_SUBJECTS = 8
 _TRAJECTORY_LINE_OPACITY = 0.7
 
 
-def _plot_measure_series(container: _PlotlyContainer, series: MeasureSeries) -> None:
+def _apply_shared_x_range(
+    fig: go.Figure, date_range: tuple[pd.Timestamp, pd.Timestamp] | None
+) -> None:
+    """Pin `fig`'s x-axis to `date_range` (see `shared_date_range`, ticket
+    07) -- only the range itself is fixed, tick spacing stays Plotly's
+    default for it."""
+    if date_range is not None:
+        fig.update_xaxes(range=list(date_range))
+
+
+def _plot_measure_series(
+    container: _PlotlyContainer,
+    series: MeasureSeries,
+    date_range: tuple[pd.Timestamp, pd.Timestamp] | None,
+) -> None:
     """One measure's chart -- one colored line per Subject present in
     `series.series` (`color="subject_id"`), all at the same reduced
     opacity, with no cohort-average/baseline line mixed in."""
@@ -575,10 +590,15 @@ def _plot_measure_series(container: _PlotlyContainer, series: MeasureSeries) -> 
         legend_title_text="Subject",
     )
     fig.update_xaxes(tickangle=-30)
+    _apply_shared_x_range(fig, date_range)
     _show_plotly_fig(container, fig)
 
 
-def _render_domain_small_multiples(series_list: list[MeasureSeries], domain_label: str) -> None:
+def _render_domain_small_multiples(
+    series_list: list[MeasureSeries],
+    domain_label: str,
+    date_range: tuple[pd.Timestamp, pd.Timestamp] | None,
+) -> None:
     """One small-multiple line chart per `MeasureSeries` (e.g. one per lab
     component, one per vital sign) -- per-Subject measure counts stay small
     enough (a handful to ~15) that this reads better than a single overlaid
@@ -591,10 +611,14 @@ def _render_domain_small_multiples(series_list: list[MeasureSeries], domain_labe
         return
     columns = _centered_columns(2)
     for i, series in enumerate(series_list):
-        _plot_measure_series(columns[i % 2], series)
+        _plot_measure_series(columns[i % 2], series, date_range)
 
 
-def _render_medications_timeline(records: dict[str, SubjectRecord]) -> None:
+def _render_medications_timeline(
+    combined: pd.DataFrame,
+    subject_count: int,
+    date_range: tuple[pd.Timestamp, pd.Timestamp] | None,
+) -> None:
     """Medication events plotted over time (ticket 09's 5th domain) -- a
     scatter timeline rather than a line chart, since a medication event is a
     (drug, dose) pair on a date, not a numeric measure with a trend. With
@@ -604,16 +628,11 @@ def _render_medications_timeline(records: dict[str, SubjectRecord]) -> None:
     Subject, rows stay labeled by drug alone -- visually unchanged from the
     single-Subject view (ticket 06). The table underneath surfaces the
     parsed dose (`data.normalize`) the chart itself has no room to show."""
-    per_subject = {
-        subject_id: medication_timeline(record.medications)
-        for subject_id, record in records.items()
-    }
-    combined = combine_medication_timelines(per_subject)
     if combined.empty:
         st.caption("No dated medication records for the selected Subjects.")
         return
 
-    row_col = "medication" if len(records) == 1 else "label"
+    row_col = "medication" if subject_count == 1 else "label"
 
     # Same "taller for more distinct medications" scaling as the matplotlib
     # version -- see `_MEDICATION_TIMELINE_DPI`.
@@ -628,6 +647,7 @@ def _render_medications_timeline(records: dict[str, SubjectRecord]) -> None:
     )
     fig.update_layout(xaxis_title="", yaxis_title="", height=height, showlegend=False)
     fig.update_xaxes(tickangle=-30)
+    _apply_shared_x_range(fig, date_range)
     _show_plotly_fig(_centered(), fig)
 
     detail_columns = [
@@ -661,38 +681,37 @@ def _combined_domain_series(
 
 
 def _render_trajectory(records: dict[str, SubjectRecord]) -> None:
+    labs = _combined_domain_series(
+        records, "labs", value_col="value", date_col="date", measure_col="component_name",
+    )
+    vitals = _combined_domain_series(
+        records, "vitals", value_col="vital_value", date_col="date",
+        measure_col="vital_type_name_category",
+    )
+    mrss = _combined_domain_series(
+        records, "mrss", value_col="mrss_score", date_col="date", fixed_measure="MRSS",
+    )
+    pft = _combined_domain_series(
+        records, "pft", value_col="ORD_VALUE", date_col="date", measure_col="NAME",
+        title_col="DESCRIPTION",
+    )
+    medications = combine_medication_timelines({
+        subject_id: medication_timeline(record.medications)
+        for subject_id, record in records.items()
+    })
+    # See `shared_date_range` (ticket 07) -- shared by every chart below.
+    date_range = shared_date_range([labs, vitals, mrss, pft], medications)
+
     st.subheader("Labs")
-    _render_domain_small_multiples(
-        _combined_domain_series(
-            records, "labs", value_col="value", date_col="date", measure_col="component_name",
-        ),
-        "lab",
-    )
+    _render_domain_small_multiples(labs, "lab", date_range)
     st.subheader("Vitals")
-    _render_domain_small_multiples(
-        _combined_domain_series(
-            records, "vitals", value_col="vital_value", date_col="date",
-            measure_col="vital_type_name_category",
-        ),
-        "vitals",
-    )
+    _render_domain_small_multiples(vitals, "vitals", date_range)
     st.subheader("MRSS")
-    _render_domain_small_multiples(
-        _combined_domain_series(
-            records, "mrss", value_col="mrss_score", date_col="date", fixed_measure="MRSS",
-        ),
-        "MRSS",
-    )
+    _render_domain_small_multiples(mrss, "MRSS", date_range)
     st.subheader("PFT")
-    _render_domain_small_multiples(
-        _combined_domain_series(
-            records, "pft", value_col="ORD_VALUE", date_col="date", measure_col="NAME",
-            title_col="DESCRIPTION",
-        ),
-        "PFT",
-    )
+    _render_domain_small_multiples(pft, "PFT", date_range)
     st.subheader("Medications")
-    _render_medications_timeline(records)
+    _render_medications_timeline(medications, len(records), date_range)
 
 
 def _log_patient_views_once(username: str, subject_ids: list[str]) -> None:

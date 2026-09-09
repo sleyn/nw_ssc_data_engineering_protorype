@@ -120,6 +120,27 @@ def medication_timeline(medications: pd.DataFrame) -> pd.DataFrame:
     return working.dropna(subset=["date"]).sort_values("date")
 
 
+def shared_date_range(
+    per_domain: list[list[MeasureSeries]], medications: pd.DataFrame
+) -> tuple[pd.Timestamp, pd.Timestamp] | None:
+    """The global `(min, max)` date across every measure series in
+    `per_domain` (one `combine_subject_series` result per domain -- labs,
+    vitals, MRSS, PFT) and every dated row in `medications` (a
+    `combine_medication_timelines` result) -- the single x-axis range every
+    chart on the Patient Trajectory page shares (ticket 07), computed once
+    per page render across every domain and every currently-selected
+    Subject. Returns `None` when there's nothing to range over."""
+    dates = [series.series["date"] for domain in per_domain for series in domain]
+    if not medications.empty:
+        dates.append(medications["date"])
+    if not dates:
+        return None
+    all_dates = pd.concat(dates)
+    if all_dates.empty:
+        return None
+    return all_dates.min(), all_dates.max()
+
+
 def combine_medication_timelines(per_subject: dict[str, pd.DataFrame]) -> pd.DataFrame:
     """Concatenate multiple Subjects' `medication_timeline(...)` outputs into
     one frame for a single combined chart, tagging each row with `subject_id`
