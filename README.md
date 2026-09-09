@@ -8,7 +8,10 @@ uv sync
 ```
 
 This installs the app, the QC/ingestion modules, and the notebook
-dependencies (Jupyter) into a local `.venv` managed by `uv`.
+dependencies (Jupyter) into a local `.venv` managed by `uv`. The
+presentation deck's Jupyter dependencies live in a separate
+`presentation` group (`uv sync --group presentation`) since they aren't
+needed to run the app or CI.
 
 ## Deployed app
 
@@ -66,6 +69,39 @@ The notebook reads exclusively through `data/access.py`, the same
 data-access layer the app uses, and expects to be run with its own
 directory (`notebooks/`) as the working directory -- which is how
 Jupyter opens it by default.
+
+## Presentation
+
+[presentation/slides.qmd](presentation/slides.qmd) is the ~20-minute
+interview deck (Quarto/revealjs), covering dataset understanding, the app,
+data-quality findings, and design tradeoffs. Rendered outputs
+(`presentation/slides.html`, `presentation/slides.pdf`) are committed so
+they can be opened with no local Quarto install.
+
+To re-render after editing the source:
+
+```
+uv sync --group presentation
+quarto render presentation/slides.qmd --to revealjs
+```
+
+Requires the [Quarto CLI](https://quarto.org/docs/get-started/) (a
+separate system binary, not a `uv`-managed package) on `PATH`. The
+`presentation` dependency group covers only the Python/Jupyter side
+(chunk execution); it's kept separate from `main` (the app) and `dev`
+(CI) since neither needs it.
+
+The PDF fallback is generated from the rendered HTML via
+[decktape](https://github.com/astefanutti/decktape) (requires Node/`npx`,
+not part of the `uv` project):
+
+```
+npx decktape@3 reveal presentation/slides.html presentation/slides.pdf --size 1280x720
+```
+
+Four screenshot placeholders in the "Application" section
+(`presentation/images/app-*.png`) still need to be captured from the live
+app before the talk.
 
 ## Secrets
 

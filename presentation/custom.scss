@@ -1,0 +1,53 @@
+/*-- scss:defaults --*/
+
+$nu-purple: #4E2A84;
+$nu-purple-dark: #3A1F63;
+$nu-black: #1A1A1A;
+$nu-gray: #6E6E6E;
+
+$presentation-heading-color: $nu-purple;
+$link-color: $nu-purple;
+$body-color: $nu-black;
+
+$presentation-heading-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+/*-- scss:rules --*/
+
+.reveal h1, .reveal h2, .reveal h3 {
+  color: $nu-purple;
+  font-weight: 600;
+}
+
+.reveal .slide-number {
+  color: $nu-gray;
+}
+
+.reveal .title-slide h1 {
+  color: $nu-purple-dark;
+}
+
+.reveal ul li::marker {
+  color: $nu-purple;
+}
+
+.reveal .footer {
+  color: $nu-gray;
+}
+
+.reveal blockquote {
+  border-left: 4px solid $nu-purple;
+  padding-left: 0.8em;
+  font-style: normal;
+}
+
+.finding {
+  border-left: 4px solid $nu-purple;
+  background: rgba(78, 42, 132, 0.06);
+  padding: 0.4em 0.8em;
+  margin: 0.4em 0;
+}
+
+.future-work {
+  color: $nu-gray;
+}
