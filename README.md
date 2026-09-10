@@ -78,26 +78,22 @@ data-quality findings, and design tradeoffs. Rendered outputs
 (`presentation/slides.html`, `presentation/slides.pdf`) are committed so
 they can be opened with no local Quarto install.
 
-To re-render after editing the source:
+To re-render both `slides.html` and `slides.pdf` after editing the
+source:
 
 ```
 uv sync --group presentation
-quarto render presentation/slides.qmd --to revealjs
+presentation/render.sh
 ```
 
 Requires the [Quarto CLI](https://quarto.org/docs/get-started/) (a
 separate system binary, not a `uv`-managed package) on `PATH`. The
 `presentation` dependency group covers only the Python/Jupyter side
 (chunk execution); it's kept separate from `main` (the app) and `dev`
-(CI) since neither needs it.
-
-The PDF fallback is generated from the rendered HTML via
-[decktape](https://github.com/astefanutti/decktape) (requires Node/`npx`,
-not part of the `uv` project):
-
-```
-npx decktape@3 reveal presentation/slides.html presentation/slides.pdf --size 1280x720
-```
+(CI) since neither needs it. The PDF fallback is generated from the
+rendered HTML via [decktape](https://github.com/astefanutti/decktape)
+(via `npx`, requires Node -- not part of the `uv` project); the script
+handles both steps.
 
 ## Secrets
 

@@ -233,3 +233,8 @@ docs/agents/
 # Pre EDA
 pre_eda/
 .Rproj.user
+
+# Presentation render intermediates (slides.html/slides.pdf are committed, not these)
+presentation/slides_files/
+presentation/*.quarto_ipynb
+.DS_Store

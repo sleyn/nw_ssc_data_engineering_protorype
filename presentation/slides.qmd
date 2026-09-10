@@ -1,7 +1,7 @@
 ---
 title: "Exploring a Synthetic SSc Cohort"
 subtitle: "Data Understanding, Application, and Data Quality"
-author: "Semen Leyn"
+author: "Semion Leyn"
 date: last-modified
 format:
   revealjs:
@@ -123,11 +123,10 @@ but **never** in the Registry.
 - `libraries.csv`'s own comments confirm these are "healthy control
   sample[s]" used as a comparator arm for the RNA-seq work
 - Modeled explicitly as a **Subject supertype** with a **Cohort**
-  attribute (`ssc_patient` vs `control`) — not orphaned/invalid IDs
-- A real structural finding, not a data error
+  attribute (`ssc_patient` vs `control`)
+- Not a data error
 - The QC key-linkage check automates this: confirms all 4 against the
-  known set, and would flag any *future* out-of-Registry `subject_id`
-  that doesn't match — currently 0 such IDs
+  known set, and would flag any *future* out-of-Registry `subject_id`.
 
 ## Static vs. longitudinal, and a naming trap
 
