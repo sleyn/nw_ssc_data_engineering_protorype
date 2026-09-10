@@ -129,22 +129,13 @@ but **never** in the Registry.
 
 ## Static vs. longitudinal, and a naming trap
 
-- `lab_report`, `vitals`, `mrss` — every row reduces to one
-  `(subject, date, value)` triple (which measure varies per row for
-  labs/vitals; MRSS has only one possible measure). Same shape, unified
-  as one **Observation** abstraction in code (Lab Result / Vital Sign /
-  MRSS stay distinct terms in any user-facing view)
-- `bal`, `medications`, `skin_biopsies` — structured event records with
-  no single value: `bal` has two volumes + site + comment,
-  `skin_biopsies` has no numeric value at all (site/indication/specimen/
-  image path), `medications` pairs a name with a dose that needed its own
-  QC lookup table (not a clean number)
+- `lab_report`, `vitals`, `mrss`, `bal`, `medications`, `skin_biopsies` — 
+  structured longitudal event records.
 - `demographics`/`ssc_subtype` — static, one row per patient
 
 ::: {.finding}
-`ssc_subtype.other_dx` looks like a differential diagnosis field — it's
-actually semicolon-separated comorbidity flags (ILD, GERD, PAH). Every
-Registry patient's `diagnosis` is SSc regardless of `other_dx` content.
+`ssc_subtype.other_dx` — semicolon-separated comorbidity flags (ILD, GERD, PAH).
+Every Registry patient's `diagnosis` is SSc regardless of `other_dx` content.
 :::
 
 # The Application
@@ -155,9 +146,9 @@ Registry patient's `diagnosis` is SSc regardless of `other_dx` content.
 - **Cohort Overview** — population-level distributions
 - **Compare & Discover** — free-form variable picker across any
   table/level, with a Control Subject overlay toggle
-- **Patient Trajectory** — one patient's longitudinal record
+- **Patient Trajectory** — one/several patient's longitudinal record
 
-Login + at-rest encryption + audit logging gated behind a published demo
+Login + data encryption + audit logging gated behind a published demo
 account (details in Design Decisions).
 
 ::: {.notes}
