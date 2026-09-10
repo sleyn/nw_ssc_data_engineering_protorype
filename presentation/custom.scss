@@ -55,3 +55,14 @@ $presentation-font-size-root: 34px;
 .future-work {
   color: $nu-gray;
 }
+
+// Jupyter-engine cell output (matplotlib figures) isn't reliably centered
+// by the top-level fig-align: center format option -- force it here.
+.reveal .cell-output-display {
+  text-align: center;
+}
+
+.reveal .cell-output-display img {
+  display: block;
+  margin: 0 auto;
+}

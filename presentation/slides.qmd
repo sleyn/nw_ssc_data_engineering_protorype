@@ -56,11 +56,6 @@ subjects = list_subjects(conn)
 - Future work & discussion
 :::
 
-::: {.notes}
-20 minutes total. Weighted toward findings and tradeoffs — that's where the
-judgment calls live, and judgment is what this talk is meant to demonstrate.
-:::
-
 # Understanding the Dataset
 
 ## What's in the box
@@ -83,8 +78,8 @@ missing data later.
 
 ```{python}
 #| label: cohort-and-coverage
-#| fig-width: 9
-#| fig-height: 4
+#| fig-width: 15
+#| fig-height: 8
 
 fig, axes = plt.subplots(1, 2, figsize=(9, 4), gridspec_kw={"width_ratios": [1, 2]})
 
@@ -202,14 +197,11 @@ converted to inches, raw CSV left untouched.
 
 ::: {.finding}
 `demographics.csv` lists `subject_8545`'s weight as **22.5** (impossible
-for a living adult) — but 5 separate `vitals.csv` visits spanning 2017-2020
-all report ~160.6 lbs for the same patient.
+for a living adult). All 5 separate `vitals.csv` visits spanning 2017-2020
+report ~160.6 lbs for the same patient - likely placeholder.
 :::
 
-**Decision:** flagged in the QC report, not silently corrected. The
-vitals-based value is well-evidenced, but `demographics.weight` is a
-distinct static field with no documented derivation from vitals —
-overwriting it would assert a number we don't have provenance for.
+**Decision:** flagged in the QC report without correction or drop.
 
 ## A synthetic-data placeholder, not a clinical signal
 
