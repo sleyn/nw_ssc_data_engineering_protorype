@@ -121,19 +121,24 @@ but **never** in the Registry.
 :::
 
 - `libraries.csv`'s own comments confirm these are "healthy control
-  sample[s]" used as a comparator arm for the RNA-seq work
-- Modeled explicitly as a **Subject supertype** with a **Cohort**
-  attribute (`ssc_patient` vs `control`)
+  sample[s]"
+- Modeled explicitly as an attribute (`ssc_patient` vs `control`)
 - Not a data error
 - The QC key-linkage check automates this: confirms all 4 against the
   known set, and would flag any *future* out-of-Registry `subject_id`.
 
 ## Static vs. longitudinal, and a naming trap
 
-- `lab_report`, `vitals`, `mrss` — long-format, one **Observation**
-  abstraction in code (Lab Result / Vital Sign / MRSS stay distinct
-  terms in any user-facing view)
-- `bal`, `medications`, `skin_biopsies` — event-based, not scheduled
+- `lab_report`, `vitals`, `mrss` — every row reduces to one
+  `(subject, date, value)` triple (which measure varies per row for
+  labs/vitals; MRSS has only one possible measure). Same shape, unified
+  as one **Observation** abstraction in code (Lab Result / Vital Sign /
+  MRSS stay distinct terms in any user-facing view)
+- `bal`, `medications`, `skin_biopsies` — structured event records with
+  no single value: `bal` has two volumes + site + comment,
+  `skin_biopsies` has no numeric value at all (site/indication/specimen/
+  image path), `medications` pairs a name with a dose that needed its own
+  QC lookup table (not a clean number)
 - `demographics`/`ssc_subtype` — static, one row per patient
 
 ::: {.finding}

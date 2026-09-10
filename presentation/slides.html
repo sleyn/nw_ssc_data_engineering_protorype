@@ -1086,8 +1086,8 @@ display:block!important;
 <p>4 subject IDs (<code>SSC_NORM_0101/0102/0104/0110</code>) appear in <code>libraries.csv</code> — but <strong>never</strong> in the Registry.</p>
 </div>
 <ul>
-<li><code>libraries.csv</code>’s own comments confirm these are “healthy control sample[s]” used as a comparator arm for the RNA-seq work</li>
-<li>Modeled explicitly as a <strong>Subject supertype</strong> with a <strong>Cohort</strong> attribute (<code>ssc_patient</code> vs <code>control</code>)</li>
+<li><code>libraries.csv</code>’s own comments confirm these are “healthy control sample[s]”</li>
+<li>Modeled explicitly as an attribute (<code>ssc_patient</code> vs <code>control</code>)</li>
 <li>Not a data error</li>
 <li>The QC key-linkage check automates this: confirms all 4 against the known set, and would flag any <em>future</em> out-of-Registry <code>subject_id</code>.</li>
 </ul>
@@ -1095,8 +1095,8 @@ display:block!important;
 <section id="static-vs.-longitudinal-and-a-naming-trap" class="slide level2">
 <h2>Static vs. longitudinal, and a naming trap</h2>
 <ul>
-<li><code>lab_report</code>, <code>vitals</code>, <code>mrss</code> — long-format, one <strong>Observation</strong> abstraction in code (Lab Result / Vital Sign / MRSS stay distinct terms in any user-facing view)</li>
-<li><code>bal</code>, <code>medications</code>, <code>skin_biopsies</code> — event-based, not scheduled</li>
+<li><code>lab_report</code>, <code>vitals</code>, <code>mrss</code> — every row reduces to one <code>(subject, date, value)</code> triple (which measure varies per row for labs/vitals; MRSS has only one possible measure). Same shape, unified as one <strong>Observation</strong> abstraction in code (Lab Result / Vital Sign / MRSS stay distinct terms in any user-facing view)</li>
+<li><code>bal</code>, <code>medications</code>, <code>skin_biopsies</code> — structured event records with no single value: <code>bal</code> has two volumes + site + comment, <code>skin_biopsies</code> has no numeric value at all (site/indication/specimen/ image path), <code>medications</code> pairs a name with a dose that needed its own QC lookup table (not a clean number)</li>
 <li><code>demographics</code>/<code>ssc_subtype</code> — static, one row per patient</li>
 </ul>
 <div class="finding">
