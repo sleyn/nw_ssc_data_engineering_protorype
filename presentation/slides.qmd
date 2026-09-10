@@ -164,19 +164,19 @@ open live for the walkthrough.
 
 ## Data & Dictionary
 
-![TODO: screenshot — Data & Dictionary tab](images/app-data-dictionary.png){fig-alt="Placeholder for Data & Dictionary tab screenshot"}
+![Data & Dictionary tab: every table's row/column counts, plain-language field descriptions, and live example values](images/data_and_dictionary.png){fig-alt="Data & Dictionary tab screenshot"}
 
 ## Cohort Overview
 
-![TODO: screenshot — Cohort Overview tab](images/app-cohort-overview.png){fig-alt="Placeholder for Cohort Overview tab screenshot"}
+![Cohort Overview tab](images/cohort_overview.png){fig-alt="Cohort Overview tab screenshot"}
 
 ## Compare & Discover
 
-![TODO: screenshot — Compare & Discover tab](images/app-compare-discover.png){fig-alt="Placeholder for Compare & Discover tab screenshot"}
+![Compare & Discover tab](images/compare_and_discover.png){fig-alt="Compare & Discover tab screenshot"}
 
 ## Patient Trajectory
 
-![TODO: screenshot — Patient Trajectory tab](images/app-patient-trajectory.png){fig-alt="Placeholder for Patient Trajectory tab screenshot"}
+![Patient Trajectory tab](images/patient_trajectory.png){fig-alt="Patient Trajectory tab screenshot"}
 
 # Data-Quality Issues and Analytical Findings
 
@@ -411,22 +411,31 @@ Documented explicitly as a demo-only deviation.
 # Future Work
 
 ::: {.future-work}
-Known, deliberately deferred — not bugs. The app is stable, tested,
+Known, deliberately scoped — not bugs. The app is stable, tested,
 deployed, green.
 :::
 
-- Disease-duration x-axis (years-since-onset, not calendar date) —
-  likely washes out cohort-level disease patterns as currently plotted
-- Patient Trajectory has no subject header (subtype/antibody/diagnosis
-  date) despite `data/access.py` already having it
-- Subtype/antibody never faceted against outcome trends (e.g. "MRSS by
-  subtype") — plausibly the dataset's intended hypothesis
+**Addressed since the initial clinical read:**
+
+- Disease-duration x-axis (years-since-onset toggle, alongside calendar
+  date) — Patient Trajectory & Cohort Overview
+- Patient Trajectory subject header — subtype, comorbidities, antibodies,
+  disease onset/duration
+- Compare & Discover "color by" facet — a first step toward
+  subtype/antibody-faceted outcome views
+
+**Still open:**
+
 - No event overlay (BAL/skin-biopsy dates) on trajectory charts
-- PFT shown as raw values, not >=10% relative FVC decline
 - Medications not classed (disease-modifying vs. symptomatic)
+
+**Considered and intentionally out of scope:**
+
+- PFT >=10% relative FVC decline flagging — raw values shown instead
 - `lab_report.csv` has no creatinine/troponin/BNP — renal-crisis and
   cardiac-involvement signals are structurally unobservable from labs in
-  this dataset
+  this dataset (documented as a data limitation in `CONTEXT.md`, not a
+  code gap)
 
 ## Thank you — discussion
 
@@ -470,8 +479,12 @@ sentinel values without being built to look for them specifically.
 
 ## Appendix: Future-work gaps, expanded
 
-Full detail (data fields involved, why each matters clinically) lives in
-`.scratch/HANDOFF.md`, "What's NOT done — real gaps, not polish". These
-read as *"what would make this SSc-domain-aware rather than
+Originally 7 gaps flagged from a clinical read of the app
+(`.scratch/HANDOFF.md`, "What's NOT done — real gaps, not polish"). Since
+then: 3 addressed (disease-duration axis, Patient Trajectory subject
+header, Compare & Discover color-by), 1 folded into `CONTEXT.md` as a
+documented data limitation, 1 dropped after consideration (PFT decline
+flagging). The 2 still open (event overlay, medication classing) read as
+*"what would make this SSc-domain-aware rather than
 generic-longitudinal-EHR-browser-aware"* to a pulmonary-research
 committee specifically — not code-quality gaps.

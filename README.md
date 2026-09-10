@@ -99,10 +99,6 @@ not part of the `uv` project):
 npx decktape@3 reveal presentation/slides.html presentation/slides.pdf --size 1280x720
 ```
 
-Four screenshot placeholders in the "Application" section
-(`presentation/images/app-*.png`) still need to be captured from the live
-app before the talk.
-
 ## Secrets
 
 `.streamlit/secrets.toml` is committed to this repo, which is not normal
