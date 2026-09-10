@@ -46,6 +46,15 @@ conn = open_store()
 subjects = list_subjects(conn)
 ```
 
+# Semion Leyn, PhD
+
+- Production grade bioinformatics pipelines (HPC and Cloud)
+- Data solutions co-development with clinical partners (e.g. Roswell Park - NYS CLEP validation).
+- Worked in:
+  - Russian Academy of Sciences (academy)
+  - SBP Medical discovery institute (academy)
+  - Agilent Technologies (industry)
+
 # Agenda
 
 ::: {.incremental}
@@ -381,6 +390,8 @@ Known — not bugs. The app is stable, tested, deployed, green.
 - Event overlay (BAL/skin-biopsy dates) on trajectory charts
 - Medications are not classified (disease-modifying vs. symptomatic)
 - Convert raw values to categorical vareables with thresholds
+- Make more flexible data visualization (boxplot vs violin)
+- Add direct table views.
 
 ## Thank you — discussion
 
