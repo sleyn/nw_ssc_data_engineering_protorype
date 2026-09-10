@@ -128,12 +128,16 @@ def _qc_report_page() -> None:
 
 
 _CHART_WIDTH = 500
-# Compare & Discover's chart + companion table render 1.5x the app's default
-# chart width -- that page's panels are the app's primary "explore the data
-# yourself" surface, so they get more room than the fixed-summary charts
-# elsewhere (Cohort Overview, Patient Trajectory small multiples) that share
-# `_CHART_WIDTH`'s default.
-_COMPARE_CHART_WIDTH = int(_CHART_WIDTH * 1.5)
+# Compare & Discover's chart + companion table (2.5x), and Patient
+# Trajectory's per-measure charts and medication timeline (1.5x), render
+# wider than the app's default chart width -- both pages are read at
+# whatever width the browser window happens to be (Streamlit caps a chart's
+# rendered width at its container's, so the configured width is a ceiling,
+# not a guarantee -- see `_show_plotly_fig`), so a wider target leaves more
+# headroom before that cap kicks in than the fixed-summary charts elsewhere
+# (Cohort Overview) that keep `_CHART_WIDTH`'s default.
+_COMPARE_CHART_WIDTH = int(_CHART_WIDTH * 2.5)
+_TRAJECTORY_CHART_WIDTH = int(_CHART_WIDTH * 1.5)
 # Medications timeline height (see `_render_medications_timeline`):
 # `_MEDICATION_TIMELINE_BASE_PX` covers Plotly's fixed chrome around the
 # plot area -- top margin plus the bottom margin the -30deg-rotated x-axis
@@ -209,6 +213,28 @@ def _centered_columns(n: int) -> Sequence[_PlotlyContainer]:
     as a whole is centered, not each chart re-centered within its own grid
     cell (ticket 03)."""
     _, center, _ = st.columns(_CENTER_RATIO)
+    return center.columns(n)
+
+
+# Wider spacer:content:spacer ratio for Compare & Discover and Patient
+# Trajectory -- `_CENTER_RATIO`'s 50%-wide center column is itself the
+# binding constraint on those pages' chart width (a `_centered_columns(2)`
+# row splits that 50% again, down to 25% per column), well below even
+# `_COMPARE_CHART_WIDTH`/`_TRAJECTORY_CHART_WIDTH`'s pre-bump targets -- so
+# widening those pixel widths alone had no visible effect. 1:6:1 gives the
+# center column 75% of the page instead.
+_WIDE_CENTER_RATIO = (1, 6, 1)
+
+
+def _centered_wide() -> _PlotlyContainer:
+    """Like `_centered`, but at `_WIDE_CENTER_RATIO`."""
+    _, center, _ = st.columns(_WIDE_CENTER_RATIO)
+    return center
+
+
+def _centered_columns_wide(n: int) -> Sequence[_PlotlyContainer]:
+    """Like `_centered_columns`, but at `_WIDE_CENTER_RATIO`."""
+    _, center, _ = st.columns(_WIDE_CENTER_RATIO)
     return center.columns(n)
 
 
@@ -487,7 +513,7 @@ def _render_panel_comparison(
     # Chart and its companion data table render as one centered horizontal
     # block, not as two independently-positioned elements (ticket 02's 6th
     # bullet).
-    chart_col, table_col = _centered_columns(2)
+    chart_col, table_col = _centered_columns_wide(2)
     if result.chart_type == "scatter":
         _render_panel_scatter(chart_col, result, data, show_overlay)
     elif result.chart_type == "box":
@@ -684,7 +710,7 @@ def _plot_measure_series(
     )
     fig.update_xaxes(tickangle=-30)
     _apply_shared_x_range(fig, date_range)
-    _show_plotly_fig(container, fig)
+    _show_plotly_fig(container, fig, width=_TRAJECTORY_CHART_WIDTH)
 
 
 def _render_domain_small_multiples(
@@ -704,7 +730,7 @@ def _render_domain_small_multiples(
             f"No plottable (numeric, dated) {domain_label} records for the selected Subjects."
         )
         return
-    columns = _centered_columns(2)
+    columns = _centered_columns_wide(2)
     for i, series in enumerate(series_list):
         _plot_measure_series(columns[i % 2], series, date_range, subject_colors, x_axis_label)
 
@@ -764,7 +790,7 @@ def _render_medications_timeline(
     )
     fig.update_xaxes(tickangle=-30)
     _apply_shared_x_range(fig, date_range)
-    _show_plotly_fig(_centered(), fig)
+    _show_plotly_fig(_centered_wide(), fig, width=_TRAJECTORY_CHART_WIDTH)
 
     detail_columns = [
         "subject_id", "date", "medication", "medication_as_recorded", "dose",
