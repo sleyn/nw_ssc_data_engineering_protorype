@@ -187,7 +187,7 @@ open live for the walkthrough.
 #| fig-width: 7
 #| fig-height: 3.5
 
-height = pd.read_sql("SELECT height FROM demographics", conn)["height"].dropna()
+height = pd.read_csv("../data/data_v3/demographics.csv")["height"].dropna()
 fig, ax = plt.subplots(figsize=(7, 3.5))
 sns.histplot(height, bins=40, ax=ax, color=NU_PURPLE)
 ax.axvline(100, color="#1A1A1A", linestyle="--", linewidth=1)
@@ -334,9 +334,11 @@ most-prescribed drug (rituximab, 253).
 - **Two distinct, non-overlapping gaps**: 20 rows have dose but no
   medication name; 85 rows have medication name but no dose — no row has
   both blank
-- Fixed at ingestion (canonicalized label, original preserved); dose
-  built as a 24-row lookup table, both cleaning display and powering the
-  implausibility flags
+- Medication name canonicalized on every read (`data.access`/`data.qc`,
+  original preserved in an "as recorded" field) -- the raw `medications`
+  table itself still has the 3 separate strings; dose built as a 24-row
+  lookup table, both cleaning display and powering the implausibility
+  flags
 
 ## PII-shaped fields in a synthetic dataset
 
