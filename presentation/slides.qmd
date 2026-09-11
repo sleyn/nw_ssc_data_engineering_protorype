@@ -137,11 +137,6 @@ but **never** in the Registry.
   structured longitudal event records.
 - `demographics`/`ssc_subtype` — static, one row per patient
 
-::: {.finding}
-`ssc_subtype.other_dx` — semicolon-separated comorbidity flags (ILD, GERD, PAH).
-Every Registry patient's `diagnosis` is SSc regardless of `other_dx` content.
-:::
-
 # The Application
 
 ## Streamlit, 4 tabs, SQLite-backed
@@ -151,6 +146,7 @@ Every Registry patient's `diagnosis` is SSc regardless of `other_dx` content.
 - **Compare & Discover** — free-form variable picker across any
   table/level, with a Control Subject overlay toggle
 - **Patient Trajectory** — one/several patient's longitudinal record
+- **QC Report** - data QC metrics generated on the fly
 
 Login + data encryption + audit logging gated behind a published demo
 account (details in Design Decisions).
@@ -334,19 +330,6 @@ three names.
   medication name; 85 rows have medication name but no dose.
 - Medication is normalized on every read (split to cannonical medication name,
   value, unit, frequency)
-
-## PII-shaped fields in a synthetic dataset
-
-::: {.finding}
-`demographics` has first/last name and birth date; `mrss`/`skin_biopsies`
-have `ENTRY_USER_NAME` (a clinician name) - mock PHI.
-:::
-
-**Decision:** patient name/DOB suppressed everywhere downstream
-(`subject_id` + age-at-event only) — a demonstration of PHI-handling.
-`ENTRY_USER_NAME` kept visible: provider-side
-operational metadata, not what HIPAA governs, and useful for a "does
-score entry vary by rater?" angle.
 
 # Design Decisions and Tradeoffs
 
