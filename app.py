@@ -436,7 +436,11 @@ def _render_panel_scatter(
 
 
 def _render_panel_box(
-    container: _PlotlyContainer, result: ComparisonFrame, data: pd.DataFrame, show_overlay: bool
+    container: _PlotlyContainer,
+    result: ComparisonFrame,
+    data: pd.DataFrame,
+    show_overlay: bool,
+    use_violin: bool = False,
 ) -> None:
     base, control_rows = _split_control_overlay(data, show_overlay)
 
@@ -453,8 +457,11 @@ def _render_panel_box(
     # markers' hover -- the box body's own hover (quartiles/median) is
     # unaffected, and no permanent on-chart label is added either way
     # (ticket 02's 3rd bullet). `color` (ticket 03, round 3), when selected,
-    # groups each x-category's boxes into sub-boxes per color value.
-    fig = px.box(
+    # groups each x-category's boxes into sub-boxes per color value. Same
+    # `points`/`hover_data`/`color` semantics apply to `px.violin` -- the
+    # violin/box switch only changes which of the two functions builds `fig`.
+    plot_fn = px.violin if use_violin else px.box
+    fig = plot_fn(
         base, x=cat_col, y=num_col, points="outliers", hover_data={"subject_id": True},
         color=color_col,
     )
@@ -510,6 +517,22 @@ def _render_panel_comparison(
             persist_state="session",
         )
 
+    # Violin is the default view for a categorical-numeric pairing -- it
+    # shows the full distribution's shape, not just its quartiles -- with a
+    # classic box plot offered as the alternative.
+    use_violin = True
+    if result.chart_type == "box":
+        use_violin = (
+            st.radio(
+                "Distribution view",
+                options=["Violin", "Box plot"],
+                key=_panel_key(panel_id, "chart-style"),
+                persist_state="session",
+                horizontal=True,
+            )
+            == "Violin"
+        )
+
     # Chart and its companion data table render as one centered horizontal
     # block, not as two independently-positioned elements (ticket 02's 6th
     # bullet).
@@ -517,7 +540,7 @@ def _render_panel_comparison(
     if result.chart_type == "scatter":
         _render_panel_scatter(chart_col, result, data, show_overlay)
     elif result.chart_type == "box":
-        _render_panel_box(chart_col, result, data, show_overlay)
+        _render_panel_box(chart_col, result, data, show_overlay, use_violin)
     else:
         _render_panel_heatmap(chart_col, result, data)
     _render_panel_table(table_col, result, data)
